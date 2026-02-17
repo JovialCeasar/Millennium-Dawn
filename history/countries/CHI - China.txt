@@ -2490,7 +2490,6 @@
 		autonomy_state = autonomy_special_administrative_region_MAC
 	}
 
-
 	set_country_flag = recognised_opponent_SAO
 	set_country_flag = recognised_opponent_MLW
 	set_country_flag = recognised_opponent_COS

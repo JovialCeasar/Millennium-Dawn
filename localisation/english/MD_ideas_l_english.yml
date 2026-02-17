@@ -86,6 +86,8 @@
  pluralist_desc: "As the name of the worldview according to which one's religion is not the sole and exclusive source of truth, and thus the acknowledgment that at least some truths and true values exist in other religions."
  EU_member: "European Union Member"
  EU_member_desc: "The European Union (EU) is a political and economic union of member states that are located primarily in Europe. The EU has developed an internal single market through a standardised system of laws that apply in all member states. EU policies aim to ensure the free movement of people, goods, services, and capital within the internal market, enact legislation in justice and home affairs, and maintain common policies on trade, agriculture, fisheries, and regional development."
+ united_nations_member: "United Nations Member"
+ united_nations_member_desc: "The United Nations (UN) is a global intergovernmental organization established by the signing of the UN Charter on 26 June 1945 with the articulated mission of maintaining international peace and security, to develop friendly relations among states, to promote international cooperation, and to serve as a centre for harmonizing the actions of states in achieving those goals."
  sco_observer: "Shanghai Cooperation Organization Observer"
  sco_observer_desc: "The Shanghai Cooperation Organization (SCO) is a Eurasian political, economic, and security organization, the creation of which was announced on 15 June 2001 in Shanghai, China by the leaders of China, Kazakhstan, Kyrgyzstan, Russia, Tajikistan, and Uzbekistan. Observer status acts as an intermediate step before full membership."
  neutral_outlook: "Neutral Outlook"
@@ -389,8 +391,6 @@
  Non_State_Actor_desc: "Many international actors, from rebel groups to NGOs, possess international significance but are severely disadvantaged in a number of different ways by virtue of not being recognized states. Some of these non-state actors aspire to take control of an existing state by overthrowing an unjust government or fashioning a new one and redrawing international borders. Others have no ambition for statehood, but instead, use blunt force to accumulate power and wealth in local environments where the authority of the central government is absent."
  Lacks_International_Recognition: "Aspiring State"
  Lacks_International_Recognition_desc: "Some states possess everything you would normally associate with a state. A bureaucracy, a military, a national flag and so on. However, their statehood will never be complete without the added benefits conferred by the stamp of legitimacy of international recognition. These states may seek to acquire this recognition by campaigning for their cause overseas, with the eventual aim of winning the support of a critical mass of states to become full members of the international community."
- rival_government: "Rival Government"
- rival_government_desc: "Civil wars over control of the entire nation tend to produce two or more governments that claim to be the legitimate representatives of their people. This government is one that makes such a claim but is disadvantaged by the fact that its status as a legitimate representative is only recognized by a few other states, if any. It therefore does not represent its nation at international forums like the United Nations."
 
  #Macau
 
@@ -912,3 +912,10 @@
  SWE_msb_desc: "The Swedish Civil Contingencies Agency is a Swedish administrative authority, organised under the Ministry of Justice. The agency is responsible for issues concerning civil protection, public safety, emergency management and civil defence."
  SWE_homeguard: "Hemvärnet"
  SWE_foa: "Försvarets forskningsanstalt"
+
+ non_power_namer: "non_power"
+ regional_power_namer: "regional_power"
+ minor_power_namer: "minor_power"
+ large_power_namer: "large_power"
+ great_power_namer: "great_power"
+ superpower_namer: "superpower"

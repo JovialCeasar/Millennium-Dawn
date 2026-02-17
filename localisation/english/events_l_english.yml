@@ -1104,14 +1104,50 @@
  recognition.6.d: "A blow to our international position has been dealt by the government of [FROM.GetNameDef] against the wishes of our people. The [FROM.GetAdjective] have regrettably chosen to recognize an illegitimate rival government over ourselves, a decision that they will hopefully revoke as soon as possible."
  recognition.6.a: "The struggle continues..."
 
+ recognition.71.t: "The Vote has Passed!"
+ recognition.71.d: "The vote has been tallied: it passed! Our nation is now a member of the United Nations, and is an internationally recognized memeber of the international community!"
+ recognition.71.a: "Finally! [THIS.GetName] is recognized!"
+
+ recognition.72.t: "The Vote has Failed!"
+ recognition.72.d: "The vote has been tallied: it failed! While we managed to gain a simple majority, and nearly had the required support, we were unable to obtain the 2/3 majority required for the resolution to pass."
+ recognition.72.a: "A blow to our relations."
+
  recognition.7.t: "[FROM.GetName] Joins the United Nations"
  recognition.7.d: "Following an intensification of efforts on the part of the [FROM.GetAdjective] government to win international recognition for its independence, the nation of [FROM.GetNameDef] has become the latest country to join the UN. World leaders have congratulated [FROM.GetLeader] on the country's new status."
  recognition.7.a: "The [FROM.GetAdjective] people join the international community."
+
+ recognition.73.t: "General Assembly Vote Failed"
+ recognition.73.d: "Following the UN General Assembly vote, the current resolution up for vote has failed to obtain even a simple majority. The resolution, having failed, is not to be internationally recognized as a concern on the world stage."
+ recognition.73.a: "The world has spoken!"
 
  recognition.8.t: "[FROM.GetAdjective] Pressure to Recognize Aspiring State"
  recognition.8.d: "The [FROM.GetAdjective] government is using their influence in our country to push for us to recognize the state of [pressured_to_recognize]. The more influence that [FROM.GetNameDef] has in our country, the more costly it will be for us to refuse them."
  recognition.8.a: "This state deserves recognition!"
  recognition.8.b: "We refuse to recognize this breakaway state!"
+
+ recognition.9.t: "[FROM.GetName] is Supporting a new State!"
+ recognition.9.d: "The government of [FROM.GetNameDef] has sided with the people of [FROM.var:open_state.GetNameDef], and has pledged to support their ascension to the UN!"
+ recognition.9.a: "Another Ally in their Cause!"
+
+ recognition.12.t: "[FROM.FROM.GetName] seeks recomendation for UN Ascension"
+ recognition.12.d: "[FROM.FROM.GetName] has put forth their proposal, against the protests of [FROM.GetName]. They wish to be considered for full membership in the United Nations, and for international recognition as a soverign state. We must vote now to determine if we will reccomend them to the UN General Assembly."
+ recognition.12.a: "Vote Yes"
+ recognition.12.b: "Vote No - VETO if P5 Member"
+ recognition.12.c: "Abstain"
+
+ recognition.15.t: "Vote on [FROM.FROM.GetName] UN Ascension"
+ recognition.15.d: "[FROM.FROM.GetName] has put forth their proposal, against the protests of [FROM.GetName]. Following the reccomendation from the Security Council, the matter must now be voted on in the UN General Assembly, and requires a 2/3 majority to pass the vote. We must now cast our vote to determine if we will let them into the United Nations, and recognize their soveringty."
+ recognition.15.a: "Vote Yes"
+ recognition.15.b: "Vote No"
+ recognition.15.c: "Abstain"
+
+ recognition.121.t: "Security Council Recommends [FROM.GetName] for UN Membership"
+ recognition.121.d: "[FROM.GetName] has just been reccomended for UN ascension by the UN Security Council. The floor is already live with debate, as nations vy for their attempt to debate and have their voice heard on the world stage!"
+ recognition.121.a: "Onto the General Assembly!"
+
+ recognition.122.t: "Security Council Rejects Resolution"
+ recognition.122.d: "The most recent resolution brought to vote on the UN Security Council failed today. Advocates for the resolution have already began their political protests, while those against the issue are cheering the result."
+ recognition.122.a: "They must have had a good reason"
 
  #Internal Faction
  internal_faction.1.t: "The Military is Requesting a Budget Increase"
@@ -2141,3 +2177,51 @@
  world_war.11.d: "With America and the rest of the worlds great powers distracted in a war of attrition, we finally have ample opportunity to strike Israel and bring about the end of the Zionist regime. Such an attack could see the destruction of our two states, but it is now, or never."
  world_war.11.a: "Attack!"
  world_war.11.b: "We cannot risk a war"
+
+ #UN Voting Events
+ #UN Security Council
+ UNSC.1.t: "Resolution to Pressure [?global.current_sc_vote_nation.GetName] to end all Offensive Wars"
+ UNSC.1.d: "A Resolution to Pressure [?global.current_sc_vote_nation.GetName] to end all of their current offensive conflicts is before the Security Council. If the resolution passes, [?global.current_sc_vote_nation.GetName] will have 210 days to resolve all of their ongoing offensive conflicts. If they fail to do so, they will be sanctioned until they finally end all of those conflicts.\n\n$unsc_vote_pass_tt$"
+ UNSC.1.a: "Yes"
+ UNSC.1.b: "No"
+ UNSC.1.c: "Abstain"
+
+ UNSC.2.t: "United Nations Security Council Sanctions against [?global.current_sc_vote_nation.GetName]"
+ UNSC.2.d: "A Resolution to established UNSC sanctions against [?global.current_sc_vote_nation.GetName] is before the Security Council. If the vote passes, [?global.current_sc_vote_nation.GetName] will be sanctioned until they no longer are an offensive threat to global peace, or until the Security Council removes the sanctions against them.\n\n$unsc_vote_pass_tt$"
+ UNSC.2.a: "Yes"
+ UNSC.2.b: "No"
+ UNSC.2.c: "Abstain"
+
+ UNSC.3.t: "Restrict Foreign Military Volunteers to [?global.current_sc_vote_nation.GetName]"
+ UNSC.3.d: "A resolution to prevent foreign military volunteers from being sent to [?global.current_sc_vote_nation.GetName] is before the Security Council. If the resolution passes, any nation that sends military volunteers to [?global.current_sc_vote_nation.GetName] after the vote will be sanctioned until they either withdraw their volunteers, or the conflict ends.\n\n$unsc_vote_pass_tt$"
+ UNSC.3.a: "Yes"
+ UNSC.3.b: "No"
+ UNSC.3.c: "Abstain"
+
+ UNSC.4.t: "Arms Embargo against [?global.current_sc_vote_nation.GetName]"
+ UNSC.4.d: "A Resolution to institue an arms embargo against [?global.current_sc_vote_nation.GetName] is before the Security Council. If the resolution passes, [?global.current_sc_vote_nation.GetName] will be prevented from purchasing arms from the International Market until they end all of their current offensive conflicts.\n\n$unsc_vote_pass_tt$"
+ UNSC.4.a: "Yes"
+ UNSC.4.b: "No"
+ UNSC.4.c: "Abstain"
+
+ #UN General Assembly
+ UN.6.t: "Confirm UN Security Council seat for [?global.current_ga_vote_nation.GetNameWithFlag]"
+ UN.6.d: "The United Nations General Assembly is currently voting to confirm the upcoming members of the Security Council. All nations that are nominated must be confirmed by the General Assembly, and will server a 2 year term, starting January 1st of the year [?global.next_year]\n\n$un_ga_vote_requires_2_3_tt$"
+ UN.6.a: "Vote Yes"
+ UN.6.b: "Vote No"
+ UN.6.c: "Abstain"
+
+ UN.7.t: "Establish Non-Binding Sancations Against [?global.current_ga_vote_nation.GetNameWithFlag]"
+ UN.7.d: "[?global.current_ga_vote_nation.GetNameWithFlag] has conducted a military strike against a foreign. In reponse, they have requested that the §BUnited Nations§! sanction [?global.current_ga_vote_nation.GetNameWithFlag] for the next year as a punishment for this action. If we vote in the affirmative, we will agree to bring sanctions against [?global.current_ga_vote_nation.GetNameWithFlag].\n\n$un_ga_vote_auto_pass_tt$"
+ UN.7.a: "Vote Yes"
+ UN.7.b: "Vote No"
+ UN.7.c: "Abstain"
+
+ #Sway Vote Events
+ UNSC.200.t: "Attempt to Sway [?sway_target.GetName]"
+ UNSC.200.d: "In order to get the result we want on this §BUnited Nations§! §YSecurity Council§! Resolution, we need to get more people to either vote with us, or abstain from voting. To get them to change their vote, we must offer them something worth their allegience for this vote. We have several different offers we can make, but we must choose one now, and hope they will accept it."
+
+ UNSC.201.t: "[FROM.GetName] Wishes to Sway Our Vote"
+ UNSC.201.d: "[FROM.GetLeader] has quietly approached [THIS.GetLeader], requesting that we change our vote to [vote_change_too] for the current United Nations Security Council resolution. They have offered to give us INSERT THE BLOCK HERE if we agree to change our vote, to be granted after the vote is changed. We must decide if agreeing to their request is worth changing our stance on the Security Council."
+ UNSC.201.a: "Accept their Offer"
+ UNSC.201.b: "Reject this Outrageous Demand!"

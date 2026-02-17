@@ -4433,7 +4433,7 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			base = 0
+			base = 1
 			modifier = {
 				add = 1
 				date > 2001.09.01
@@ -6455,9 +6455,9 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			base = 0
+			base = 1
 			modifier = {
-				add = 1
+				add = 20
 				date > 2003.09.01
 			}
 		}

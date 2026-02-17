@@ -630,7 +630,6 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
 					}
 				}
 				set_temp_variable = { percent_change = 1 }
@@ -670,7 +669,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 				}
 				set_temp_variable = { percent_change = 1 }
@@ -709,7 +708,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 				}
 				set_temp_variable = { percent_change = 1 }
@@ -3465,7 +3464,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 				}
 				set_temp_variable = { percent_change = 1 }
@@ -9613,7 +9612,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 					check_variable = { THIS.gdp_total > 100 }
 				}
@@ -11987,7 +11986,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 				}
 				set_temp_variable = { percent_change = 1 }
@@ -12267,7 +12266,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 				}
 				set_temp_variable = { percent_change = 1 }
@@ -16842,7 +16841,7 @@ focus_tree = {
 							NOT = {
 								has_idea = Non_State_Actor
 								has_idea = Lacks_International_Recognition
-								has_idea = rival_government
+
 							}
 							OR = {
 								is_african_nation = yes
@@ -16916,7 +16915,7 @@ focus_tree = {
 							NOT = {
 								has_idea = Non_State_Actor
 								has_idea = Lacks_International_Recognition
-								has_idea = rival_government
+
 							}
 							check_variable = { influence_array^0 = USA }
 						}
@@ -17940,7 +17939,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 				}
 				set_temp_variable = { percent_change = 1 }
@@ -17990,7 +17989,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 					influence_higher_20 = yes
 				}
@@ -18054,7 +18053,7 @@ focus_tree = {
 						NOT = {
 							has_idea = Non_State_Actor
 							has_idea = Lacks_International_Recognition
-							has_idea = rival_government
+
 						}
 						influence_higher_20 = yes
 					}
@@ -18070,7 +18069,7 @@ focus_tree = {
 						NOT = {
 							has_idea = Non_State_Actor
 							has_idea = Lacks_International_Recognition
-							has_idea = rival_government
+
 						}
 						influence_higher_20 = yes
 					}
@@ -18112,7 +18111,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 					influence_higher_20 = yes
 				}
@@ -18147,7 +18146,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 					influence_higher_20 = yes
 				}
@@ -18185,7 +18184,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 					influence_higher_10 = yes
 				}
@@ -18225,7 +18224,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 					influence_higher_10 = yes
 				}
@@ -18265,7 +18264,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 					influence_higher_20 = yes
 				}
@@ -18306,7 +18305,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 					OR = { has_idea = CHI_solar_power has_idea = CHI_nuclear_power has_idea = CHI_coal }
 					influence_higher_20 = yes
@@ -18321,7 +18320,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 					NOT = { has_idea = CHI_solar_power has_idea = CHI_nuclear_power has_idea = CHI_coal }
 					influence_higher_10 = yes
@@ -18362,7 +18361,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 				}
 				add_stability = 0.02
@@ -18399,7 +18398,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 				}
 				add_to_tech_sharing_group = China_Africa_Tech_Share
@@ -18436,7 +18435,7 @@ focus_tree = {
 					NOT = {
 						has_idea = Non_State_Actor
 						has_idea = Lacks_International_Recognition
-						has_idea = rival_government
+
 					}
 					influence_higher_10 = yes
 				}
