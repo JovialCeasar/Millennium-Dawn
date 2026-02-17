@@ -8,6 +8,7 @@
 	complete_special_project = sp:sp_composite_production
 	complete_special_project = sp:sp_microchip_production
 	complete_special_project = sp:sp_helicopter_project
+	complete_special_project = sp:sp_nuclear_energy
 	#This needs to be one less than the starting number to work properly
 	set_variable = { startup_composite_fac_needed = 2 }
 
@@ -765,7 +766,7 @@
 	set_naval_oob = "ITA_2000_naval_mtg"
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-
+		complete_special_project = sp:sp_awacs_project
 		set_air_oob = "ITA_2000_bba"
 		set_technology = {
 			early_airframe_designs = 1
@@ -1476,7 +1477,7 @@
 			name_group = ITA_DD_HISTORICAL
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot_2 = module_asm_3
@@ -1495,7 +1496,7 @@
 			name_group = ITA_DD_HISTORICAL
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot_2 = module_ciws_2
@@ -1514,7 +1515,7 @@
 			name_group = ITA_DD_HISTORICAL
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot_2 = module_anti_submarine_mortar
@@ -1599,7 +1600,7 @@
 			name_group = ITA_DD_HISTORICAL
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_sonar_3
 				fixed_ship_auxillary_slot = module_torpedoes_3
@@ -1615,7 +1616,7 @@
 			name_group = ITA_DD_HISTORICAL
 			parent_version = 1
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot = module_torpedoes_1
@@ -1631,7 +1632,7 @@
 			name_group = ITA_DD_HISTORICAL
 			parent_version = 2
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot = module_torpedoes_1
@@ -1648,7 +1649,7 @@
 			name_group = ITA_DD_HISTORICAL
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot = empty
@@ -1669,7 +1670,7 @@
 			name_group = ITA_DD_HISTORICAL
 			parent_version = 3
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_sonar_3
 				fixed_ship_auxillary_slot = module_chain_gun
@@ -1688,7 +1689,7 @@
 			parent_version = 4
 			obsolete = yes
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot = module_chain_gun

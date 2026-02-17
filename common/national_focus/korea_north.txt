@@ -41,7 +41,7 @@ focus_tree = {
 		ai_will_do = {
 			base = 5
 			modifier = {
-				add = 0
+				factor = 0
 				is_historical_focus_on = yes
 			}
 			modifier = {
@@ -1018,7 +1018,7 @@ focus_tree = {
 		ai_will_do = {
 			base = 5
 			modifier = {
-				add = 0
+				factor = 0
 				is_historical_focus_on = yes
 			}
 			modifier = {
@@ -4716,7 +4716,7 @@ focus_tree = {
 		ai_will_do = {
 			base = 1
 			modifier = {
-				add = 0
+				factor = 0
 				is_historical_focus_on = yes
 			}
 		}
@@ -5175,10 +5175,10 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			base = 100
+			base = 1
 			modifier = {
-				add = 0
 				is_historical_focus_on = yes
+				factor = 0
 			}
 		}
 	}
@@ -6572,7 +6572,7 @@ focus_tree = {
 		ai_will_do = {
 			base = 100
 			modifier = {
-				add = 0
+				factor = 0
 				is_historical_focus_on = yes
 			}
 		}

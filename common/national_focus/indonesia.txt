@@ -8189,7 +8189,11 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			factor = 10
+			base = 1
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0
+			}
 		}
 	}
 	focus = {
@@ -8424,7 +8428,11 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			factor = 10
+			base = 1
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0
+			}
 		}
 	}
 	focus = {

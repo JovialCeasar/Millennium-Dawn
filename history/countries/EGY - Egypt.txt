@@ -8,6 +8,7 @@
 
 	complete_special_project = sp:sp_naval_vessel_project
 	complete_special_project = sp:sp_helicopter_project
+	complete_special_project = sp:sp_nuclear_energy
 
 	set_technology = {
 		integrated_transportation_system = 1
@@ -261,6 +262,7 @@
 	}
 	if = { limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "EGY_2000_bba"
+		complete_special_project = sp:sp_awacs_project
 		set_technology = {
 			early_airframe_designs = 1
 			gen_3_light = 1
@@ -344,7 +346,7 @@
 		name_group = EGY_DD_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot = module_torpedoes_1

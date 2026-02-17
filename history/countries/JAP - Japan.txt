@@ -470,7 +470,7 @@
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-
+		complete_special_project = sp:sp_awacs_project
 		set_air_oob = "JAP_2000_bba"
 			set_technology = {
 				early_airframe_designs = 1
@@ -870,6 +870,7 @@
 	reverse_add_opinion_modifier = { target = KOR modifier = minor_border_dispute }
 
 	complete_special_project = sp:sp_microchip_production
+	complete_special_project = sp:sp_nuclear_energy
 	add_opinion_modifier = { target = SAU modifier = Arabian_Peninsula_Asia_Economical_Relations }
 	reverse_add_opinion_modifier = { target = SAU modifier = Arabian_Peninsula_Asia_Economical_Relations }
 	add_opinion_modifier = { target = UAE modifier = Arabian_Peninsula_Asia_Economical_Relations }
@@ -1142,7 +1143,7 @@
 			name_group = JAP_DD_MODERN
 			parent_version = 2
 			modules = {
-				fixed_ship_engine_slot = module_surface_diesel_power
+				fixed_ship_engine_slot = module_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot_3 = module_asm_2
@@ -1164,7 +1165,7 @@
 			name_group = JAP_DD_MODERN
 			parent_version = 1
 			modules = {
-				fixed_ship_engine_slot = module_surface_diesel_power
+				fixed_ship_engine_slot = module_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot_3 = module_asm_2
@@ -1232,7 +1233,7 @@
 			name_group = JAP_DD_MODERN
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_surface_diesel_power
+				fixed_ship_engine_slot = module_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot_3 = module_aa_missiles_2
@@ -1254,7 +1255,7 @@
 			name_group = JAP_DD_MODERN
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_surface_diesel_power
+				fixed_ship_engine_slot = module_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot_3 = module_ciws_2
@@ -1276,7 +1277,7 @@
 			name_group = JAP_DD_MODERN
 			parent_version = 1
 			modules = {
-				fixed_ship_engine_slot = module_surface_diesel_power
+				fixed_ship_engine_slot = module_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot_3 = module_aa_missiles_2
@@ -1341,7 +1342,7 @@
 			name_group = JAP_DD_MODERN
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot_2 = module_anti_submarine_missile_1
@@ -1360,7 +1361,7 @@
 			name_group = JAP_DD_MODERN
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot_2 = module_ciws_2
@@ -1379,7 +1380,7 @@
 			name_group = JAP_DD_MODERN
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot = module_torpedoes_2
@@ -1400,7 +1401,7 @@
 			name_group = JAP_DD_MODERN
 			parent_version = 1
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot = module_torpedoes_2
@@ -1418,7 +1419,7 @@
 			name_group = JAP_DD_MODERN
 			parent_version = 2
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot = module_torpedoes_2
@@ -1436,7 +1437,7 @@
 			#ame_group = JAP_CORV_MODERN
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot = module_mineclearing

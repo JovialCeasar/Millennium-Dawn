@@ -383,7 +383,7 @@
 		parent_version = 0
 		role_icon_index = 5
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_battery_slot_4 = module_aa_missiles_1
@@ -409,7 +409,7 @@
 		parent_version = 0
 		role_icon_index = 4
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_3 = module_aa_missiles_1
@@ -431,7 +431,7 @@
 		parent_version = 0
 		role_icon_index = 4
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 			fixed_ship_radar_slot = module_radar_3
 			fixed_ship_auxillary_slot_3 = module_aa_missiles_1
@@ -454,7 +454,7 @@
 		parent_version = 0
 		role_icon_index = 4
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_3 = module_aa_missiles_2
@@ -478,7 +478,7 @@
 		parent_version = 1
 		role_icon_index = 4
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 			fixed_ship_radar_slot = module_sonar_2
 			fixed_ship_auxillary_slot_3 = module_ciws_2
@@ -502,7 +502,7 @@
 		parent_version = 2
 		role_icon_index = 4
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 			fixed_ship_radar_slot = module_sonar_3
 			fixed_ship_auxillary_slot_3 = module_ram_2
@@ -526,7 +526,7 @@
 		parent_version = 0
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 			fixed_ship_radar_slot = module_sonar_3
 			fixed_ship_auxillary_slot_2 = module_ciws_2
@@ -612,7 +612,7 @@
 		parent_version = 0
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_sonar_1
 			fixed_ship_auxillary_slot_2 = module_anti_submarine_mortar
@@ -632,7 +632,7 @@
 		parent_version = 1
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_sonar_2
 			fixed_ship_auxillary_slot_2 = module_anti_submarine_mortar
@@ -653,7 +653,7 @@
 		parent_version = 2
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_sonar_2
 			fixed_ship_auxillary_slot_2 = module_anti_submarine_mortar
@@ -675,7 +675,7 @@
 		parent_version = 3
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_sonar_3
 			fixed_ship_auxillary_slot_2 = module_anti_submarine_mortar
@@ -698,7 +698,7 @@
 		parent_version = 0
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 			fixed_ship_radar_slot = module_radar_3
 			fixed_ship_auxillary_slot = module_asm_2
@@ -717,7 +717,7 @@
 		parent_version = 1
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 			fixed_ship_radar_slot = module_radar_3
 			fixed_ship_auxillary_slot_2 = module_ciws_3
@@ -738,7 +738,7 @@
 		parent_version = 2
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 			fixed_ship_radar_slot = module_radar_3
 			fixed_ship_auxillary_slot_2 = empty
@@ -760,7 +760,7 @@
 		parent_version = 0
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_1
 			fixed_ship_auxillary_slot = module_mineclearing
@@ -779,7 +779,7 @@
 		parent_version = 0
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot = module_asm_2
@@ -797,7 +797,7 @@
 		parent_version = 1
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_3
 			fixed_ship_auxillary_slot = module_asm_2
@@ -816,7 +816,7 @@
 		parent_version = 2
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_sonar_2
 			fixed_ship_auxillary_slot = module_anti_submarine_mortar
@@ -834,7 +834,7 @@
 		parent_version = 2
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_sonar_2
 			fixed_ship_auxillary_slot = module_anti_submarine_mortar
@@ -853,7 +853,7 @@
 		parent_version = 2
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_sonar_2
 			fixed_ship_auxillary_slot = module_anti_submarine_mortar
@@ -872,7 +872,7 @@
 		parent_version = 3
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_sonar_3
 			fixed_ship_auxillary_slot = module_anti_submarine_mortar
@@ -891,7 +891,7 @@
 		parent_version = 4
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_1
 			fixed_ship_auxillary_slot = module_anti_submarine_mortar
@@ -910,7 +910,7 @@
 		parent_version = 4
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_1
 			fixed_ship_auxillary_slot = module_asm_1
@@ -930,7 +930,7 @@
 		parent_version = 5
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot = module_anti_ship_torpedoes_2
@@ -949,7 +949,7 @@
 		parent_version = 6
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot = module_torpedoes_1
@@ -969,7 +969,7 @@
 		parent_version = 0
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_1
 			fixed_ship_auxillary_slot = module_asm_2
@@ -986,7 +986,7 @@
 		parent_version = 0
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot = module_asm_1
@@ -1003,7 +1003,7 @@
 		parent_version = 0
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot = module_asm_2
@@ -1020,7 +1020,7 @@
 		parent_version = 0
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot = module_vls_asm_3
@@ -1039,7 +1039,7 @@
 		parent_version = 1
 		role_icon_index = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_sonar_1
 			fixed_ship_auxillary_slot = module_anti_submarine_mortar
@@ -4096,7 +4096,7 @@
 	}
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-
+		complete_special_project = sp:sp_awacs_project
 		set_air_oob = "SOV_2000_bba"
 		set_technology = {
 			early_airframe_designs = 1
@@ -5074,6 +5074,7 @@
 
 		complete_special_project = sp:sp_space_program_gdm
 		complete_special_project = sp:sp_missile_project
+		complete_special_project = sp:sp_nuclear_energy
 
 		set_variable = { num_launchers_set = 9 }
 

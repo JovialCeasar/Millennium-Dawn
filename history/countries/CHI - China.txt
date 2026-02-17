@@ -17,6 +17,12 @@
 	complete_special_project = sp:sp_medium_naval_nuclear_engines
 	complete_special_project = sp:sp_composite_production
 	complete_special_project = sp:sp_microchip_production
+	complete_special_project = sp:sp_nuclear_energy
+	CHI = {
+		sp:sp_improved_maglev_trains = {
+			add_project_progress_ratio = constant:sp_progress.gain.medium
+		}
+	}
 
 	set_technology = {
 		GNSS1 = 1
@@ -1306,7 +1312,7 @@
 	if = { limit = { has_dlc = "By Blood Alone" }
 
 		set_air_oob = "CHI_2000_bba"
-
+		complete_special_project = sp:sp_awacs_project
 		set_technology = {
 			early_airframe_designs = 1
 			gen_3_light = 1
@@ -1874,7 +1880,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_3 = module_anti_submarine_mortar
@@ -1896,7 +1902,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 1
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_3 = module_chain_gun
@@ -1918,7 +1924,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 2
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_3 = module_chain_gun
@@ -1940,7 +1946,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 3
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_3 = module_ciws_1
@@ -1963,7 +1969,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 4
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_3 = module_ciws_1
@@ -1985,7 +1991,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 5
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_capital_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_3 = module_ciws_1
@@ -2008,7 +2014,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_capital_digital_integrated_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_3 = module_vls_sam_2
@@ -2029,7 +2035,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 1
 		modules = {
-			fixed_ship_engine_slot = module_surface_diesel_power
+			fixed_ship_engine_slot = module_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_capital_digital_integrated_fire_control
 			fixed_ship_radar_slot = module_radar_3
 			fixed_ship_auxillary_slot_3 = module_vls_sam_2
@@ -2050,7 +2056,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_2 = module_asm_1
@@ -2071,7 +2077,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 1
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_2 = module_asm_2
@@ -2090,7 +2096,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 2
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_2 = module_asm_2
@@ -2109,7 +2115,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 3
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_2 = module_asm_2
@@ -2128,7 +2134,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 4
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_2 = module_asm_2
@@ -2147,7 +2153,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 5
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_2 = module_asm_1
@@ -2167,7 +2173,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 6
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot_2 = module_asm_2
@@ -2187,7 +2193,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 7
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_3
 			fixed_ship_auxillary_slot_2 = module_asm_2
@@ -2206,7 +2212,7 @@
 		name_group = CHI_FRIGATE_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 			fixed_ship_radar_slot = module_radar_3
 			fixed_ship_auxillary_slot_2 = module_vls_sam_2
@@ -2225,7 +2231,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_radar_2
 			fixed_ship_auxillary_slot = module_asm_1
@@ -2241,7 +2247,7 @@
 		name_group = CHI_DD_HISTORICAL
 		parent_version = 1
 		modules = {
-			fixed_ship_engine_slot = module_light_surface_diesel_power
+			fixed_ship_engine_slot = module_light_surface_diesel_power_1
 			fixed_ship_fire_control_system_slot = module_analog_fire_control
 			fixed_ship_radar_slot = module_sonar_2
 			fixed_ship_auxillary_slot = module_asm_1

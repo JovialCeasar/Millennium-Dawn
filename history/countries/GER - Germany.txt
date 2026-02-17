@@ -23,6 +23,7 @@
 	complete_special_project = sp:sp_helicopter_project
 	complete_special_project = sp:sp_naval_vessel_project
 	complete_special_project = sp:sp_medium_naval_nuclear_engines
+	complete_special_project = sp:sp_nuclear_energy
 	#This needs to be one less than the starting number to work properly
 	set_variable = { startup_composite_fac_needed = 6 }
 	complete_special_project = sp:sp_aircraft_project
@@ -1095,7 +1096,7 @@
 	}
 	if = { limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "GER_2000_bba"
-
+		complete_special_project = sp:sp_awacs_project
 		set_technology = {
 
 			early_airframe_designs = 1
@@ -1735,8 +1736,6 @@
 		OLV1 = 1
 		OLV2 = 1
 		OLV3 = 1
-
-		nuclear_technology = 1
 	}
 
 	#############################################
@@ -2264,7 +2263,7 @@
 			name_group = GER_MODERN_CORVETTES_NAMES
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_Sonar_2
 				fixed_ship_auxillary_slot = module_mineclearing
@@ -2281,7 +2280,7 @@
 			name_group = GER_MODERN_CORVETTES_NAMES
 			parent_version = 1
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_1
 				fixed_ship_auxillary_slot = module_asm_1
@@ -2296,7 +2295,7 @@
 			name_group = GER_MODERN_CORVETTES_NAMES
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_1
 				fixed_ship_auxillary_slot = module_asm_1
@@ -2312,7 +2311,7 @@
 			name_group = GER_MODERN_CORVETTES_NAMES
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_1
 				fixed_ship_auxillary_slot = module_asm_1
@@ -2365,23 +2364,23 @@
 		}
 
 		# #Bremen Class
-		 create_equipment_variant = {
-			 name = "Bremen Class"
-			 type = frigate_hull_2
-			 name_group = GER_MODERN_FRIGATE_NAMES
-			 parent_version = 0
-			 modules = {
-				 fixed_ship_engine_slot = module_light_surface_diesel_power
-				 fixed_ship_fire_control_system_slot = module_analog_fire_control
-				 fixed_ship_radar_slot = module_radar_3
-				 fixed_ship_auxillary_slot_2 = module_vls_sam_2
-				 fixed_ship_auxillary_slot_1 = module_torpedoes_2
-				 fixed_ship_auxillary_slot = module_aa_missiles_2
-				 fixed_ship_battery_slot = module_76mm_gun_2
-				 front_1_custom_slot = module_ciws_2
-				 rear_1_custom_slot = module_light_helipad_1
-			 }
-		 }
+		create_equipment_variant = {
+			name = "Bremen Class"
+			type = frigate_hull_2
+			name_group = GER_MODERN_FRIGATE_NAMES
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
+				fixed_ship_fire_control_system_slot = module_analog_fire_control
+				fixed_ship_radar_slot = module_radar_3
+				fixed_ship_auxillary_slot_2 = module_vls_sam_2
+				fixed_ship_auxillary_slot_1 = module_torpedoes_2
+				fixed_ship_auxillary_slot = module_aa_missiles_2
+				fixed_ship_battery_slot = module_76mm_gun_2
+				front_1_custom_slot = module_ciws_2
+				rear_1_custom_slot = module_light_helipad_1
+			}
+		}
 
 		#Almirante Padilla Class https://en.wikipedia.org/wiki/Almirante_Padilla-class_frigate
 		create_equipment_variant = {
@@ -2391,7 +2390,7 @@
 			name_group = GER_MODERN_FRIGATE_NAMES
 			parent_version = 1
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot_2 = module_asm_1
@@ -2411,7 +2410,7 @@
 			name_group = GER_MODERN_FRIGATE_NAMES
 			parent_version = 2
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot_2 = module_aa_missiles_2
@@ -2432,7 +2431,7 @@
 			name_group = GER_MODERN_FRIGATE_NAMES
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot_2 = module_asm_2
@@ -2473,7 +2472,7 @@
 			name_group = GER_MODERN_FRIGATE_NAMES
 			parent_version = 2
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_4
 				fixed_ship_auxillary_slot_2 = module_vls_sam_2
@@ -2514,7 +2513,7 @@
 			name_group = GER_MODERN_FRIGATE_NAMES
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_4
 				fixed_ship_auxillary_slot_2 = module_asm_2
@@ -2535,7 +2534,7 @@
 			name_group = GER_MODERN_CORVETTES_NAMES
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot = module_mineclearing
@@ -2555,7 +2554,7 @@
 			name_group = GER_MODERN_CORVETTES_NAMES
 			parent_version = 1
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
 				fixed_ship_radar_slot = module_radar_4
 				fixed_ship_auxillary_slot = module_ciws_2
@@ -2573,7 +2572,7 @@
 			name_group = GER_MODERN_CORVETTES_NAMES
 			parent_version = 2
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_2
 				fixed_ship_auxillary_slot = module_torpedoes_1
@@ -2592,7 +2591,7 @@
 			name_group = GER_MODERN_CORVETTES_NAMES
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot = module_mineclearing
