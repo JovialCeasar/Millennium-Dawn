@@ -15,7 +15,7 @@ guiTypes = {
 			shortcut = "shift+m"
 		}
 	}
-	#Hide Missile View
+	#Main Menus List
 	containerWindowType = {
 		name = "MD_countrymissilesview"
 		position = { x=-606 y=78 }
@@ -84,7 +84,7 @@ guiTypes = {
 
 			iconType = {
 				name ="icon_ledger_btn_1"
-				spriteType = "GFX_ledger_icon_small_production"
+				spriteType = "GFX_ledger_icon_small_space"
 				position = { x = 32 y = 12 }
 				alwaystransparent = yes
 			}
@@ -147,7 +147,7 @@ guiTypes = {
 
 			iconType = {
 				name ="icon_cyber_gui_ledger"
-				spriteType = "GFX_ledger_icon_small_un"
+				spriteType = "GFX_ledger_icon_small_cyber"
 				position = { x = 368 y = 12 }
 				alwaystransparent = yes
 			}
@@ -214,8 +214,8 @@ guiTypes = {
 
 			iconType = {
 				name ="icon_un_btn_2"
-				spriteType = "GFX_ledger_icon_small_production"
-				position = { x = 112 y = -28 }
+				spriteType = "GFX_ledger_icon_small_spaceorbit"
+				position = { x = 117 y = -28 }
 				alwaystransparent = yes
 			}
 
@@ -246,7 +246,7 @@ guiTypes = {
 
 			iconType = {
 				name ="icon_un_btn_4"
-				spriteType = "GFX_ledger_icon_small_satellite"
+				spriteType = "GFX_ledger_icon_small_spaceorbit"
 				position = { x =284 y = -28 }
 				alwaystransparent = yes
 			}
@@ -3010,6 +3010,187 @@ guiTypes = {
 		}
 	}
 
+	containerWindowType = {
+		name = "GNSS_mil_treaty_entry"
+		position = { x = 0 y = 0 }
+		size = { width=20 height= 20 }
+		clipping = no
+
+		buttonType = {
+			name = "GNSS_mil_treaty_flags_button"
+			quadTextureSprite = "GFX_flag_smallest"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "GNSS_MIL_TREATY_TT"
+			Orientation = "UPPER_LEFT"
+			frame = 1
+		}
+	}
+	containerWindowType = {
+		name = "GNSS_mil_access_entry"
+		position = { x = 0 y = 0 }
+		size = { width=20 height= 20 }
+		clipping = no
+
+		buttonType = {
+			name = "GNSS_mil_access_flags_button"
+			quadTextureSprite = "GFX_flag_smallest"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "GNSS_MIL_ACCESS_TT"
+			Orientation = "UPPER_LEFT"
+			frame = 1
+		}
+	}
+	containerWindowType = {
+		name = "GNSS_civ_treaty_entry"
+		position = { x = 0 y = 0 }
+		size = { width=20 height= 20 }
+		clipping = no
+
+		buttonType = {
+			name = "GNSS_civ_treaty_flags_button"
+			quadTextureSprite = "GFX_flag_smallest"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "GNSS_CIV_TREATY_TT"
+			Orientation = "UPPER_LEFT"
+			frame = 1
+		}
+	}
+	containerWindowType = {
+		name = "GNSS_civ_access_entry"
+		position = { x = 0 y = 0 }
+		size = { width=20 height= 20 }
+		clipping = no
+
+		buttonType = {
+			name = "GNSS_civ_access_flags_button"
+			quadTextureSprite = "GFX_flag_smallest"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "GNSS_CIV_ACCESS_TT"
+			Orientation = "UPPER_LEFT"
+			frame = 1
+		}
+	}
+	containerWindowType = {
+		name = "COM_mil_treaty_entry"
+		position = { x = 0 y = 0 }
+		size = { width=20 height= 20 }
+		clipping = no
+
+		buttonType = {
+			name = "COM_mil_treaty_flags_button"
+			quadTextureSprite = "GFX_flag_smallest"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "COM_MIL_TREATY_TT"
+			Orientation = "UPPER_LEFT"
+			frame = 1
+		}
+	}
+	containerWindowType = {
+		name = "COM_mil_access_entry"
+		position = { x = 0 y = 0 }
+		size = { width=20 height= 20 }
+		clipping = no
+
+		buttonType = {
+			name = "COM_mil_access_flags_button"
+			quadTextureSprite = "GFX_flag_smallest"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "COM_MIL_ACCESS_TT"
+			Orientation = "UPPER_LEFT"
+			frame = 1
+		}
+	}
+	containerWindowType = {
+		name = "COM_civ_treaty_entry"
+		position = { x = 0 y = 0 }
+		size = { width=20 height= 20 }
+		clipping = no
+
+		buttonType = {
+			name = "COM_civ_treaty_flags_button"
+			quadTextureSprite = "GFX_flag_smallest"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "COM_CIV_TREATY_TT"
+			Orientation = "UPPER_LEFT"
+			frame = 1
+		}
+	}
+	containerWindowType = {
+		name = "COM_civ_access_entry"
+		position = { x = 0 y = 0 }
+		size = { width=20 height= 20 }
+		clipping = no
+
+		buttonType = {
+			name = "COM_civ_access_flags_button"
+			quadTextureSprite = "GFX_flag_smallest"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "COM_MIL_ACCESS_TT"
+			Orientation = "UPPER_LEFT"
+			frame = 1
+		}
+	}
+	containerWindowType = {
+		name = "SPY_mil_treaty_entry"
+		position = { x = 0 y = 0 }
+		size = { width=20 height= 20 }
+		clipping = no
+
+		buttonType = {
+			name = "SPY_mil_treaty_flags_button"
+			quadTextureSprite = "GFX_flag_smallest"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "SPY_MIL_TREATY_TT"
+			Orientation = "UPPER_LEFT"
+			frame = 1
+		}
+	}
+	containerWindowType = {
+		name = "SPY_mil_access_entry"
+		position = { x = 0 y = 0 }
+		size = { width=20 height= 20 }
+		clipping = no
+
+		buttonType = {
+			name = "SPY_mil_access_flags_button"
+			quadTextureSprite = "GFX_flag_smallest"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "SPY_MIL_ACCESS_TT"
+			Orientation = "UPPER_LEFT"
+			frame = 1
+		}
+	}
+	containerWindowType = {
+		name = "SPY_civ_treaty_entry"
+		position = { x = 0 y = 0 }
+		size = { width=20 height= 20 }
+		clipping = no
+
+		buttonType = {
+			name = "SPY_civ_treaty_flags_button"
+			quadTextureSprite = "GFX_flag_smallest"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "SPY_CIV_TREATY_TT"
+			Orientation = "UPPER_LEFT"
+			frame = 1
+		}
+	}
+	containerWindowType = {
+		name = "SPY_civ_access_entry"
+		position = { x = 0 y = 0 }
+		size = { width=20 height= 20 }
+		clipping = no
+
+		buttonType = {
+			name = "SPY_civ_access_flags_button"
+			quadTextureSprite = "GFX_flag_smallest"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "SPY_CIV_ACCESS_TT"
+			Orientation = "UPPER_LEFT"
+			frame = 1
+		}
+	}
+
 	### systems window
 	containerWindowType = {
 		name = "MD_select_satellite_system_window"
@@ -4652,7 +4833,7 @@ guiTypes = {
 
 			iconType = {
 				name ="icon_un_btn_1"
-				spriteType = "GFX_ledger_icon_small_production"
+				spriteType = "GFX_ledger_icon_small_sr"
 				position = { x = 36 y = -28 }
 				alwaystransparent = yes
 			}
@@ -4668,8 +4849,8 @@ guiTypes = {
 
 			iconType = {
 				name ="icon_un_btn_2"
-				spriteType = "GFX_ledger_icon_small_production"
-				position = { x = 112 y = -28 }
+				spriteType = "GFX_ledger_icon_small_ga"
+				position = { x = 117 y = -28 }
 				alwaystransparent = yes
 			}
 
@@ -4684,7 +4865,7 @@ guiTypes = {
 
 			iconType = {
 				name ="icon_un_btn_3"
-				spriteType = "GFX_ledger_icon_small_production"
+				spriteType = "GFX_ledger_icon_small_unaid"
 				position = { x = 200 y = -28 }
 				alwaystransparent = yes
 			}
@@ -4700,7 +4881,7 @@ guiTypes = {
 
 			iconType = {
 				name ="icon_un_btn_4"
-				spriteType = "GFX_ledger_icon_small_production"
+				spriteType = "GFX_ledger_icon_small_sc"
 				position = { x = 284 y = -28 }
 				alwaystransparent = yes
 			}
@@ -4719,7 +4900,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "statehood_info_display"
-			position = { x = 90 y = 225 }
+			position = { x = 90 y = 125 }
 			font = "hoi_16mbs"
 			maxWidth = 500
 			maxHeight = 100
@@ -4729,28 +4910,27 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "ir_nation_sel_disp"
-			position = { x = -10 y = 490 }
+			position = { x = -10 y = 360 }
 			font = "hoi_16mbs"
 			maxWidth = 700
 			maxHeight = 100
 			text = "IS_ir_nation_sel_display_text"
 			format = center
 		}
-		buttonType = {
-			name = "move_embassy_ISR_button"
-			position = { x = 80 y = 770 }
-			clicksound = click_close
-			quadTextureSprite ="GFX_button_148x34"
-			buttonFont = "hoi_16mbs"
-			Orientation = "UPPER_LEFT"
-			buttonText = "move_embassy_ISR_button_tt"
-			clicksound = click_close
-			pdx_tooltip = "move_embassy_ISR_button_tooltip_tt"
-			pdx_tooltip_delayed = "move_embassy_ISR_button_tooltip_delayed_tt"
+
+		instantTextBoxType = {
+			name = "ir_nation_unre_guide"
+			position = { x = 85 y = 436 }
+			font = "hoi_16mbs"
+			maxWidth = 500
+			maxHeight = 100
+			text = "recog_cat_nation_guide_tt"
+			format = center
 		}
+
 		buttonType = {
 			name = "pressure_countries_recog_button"
-			position = { x = 260 y = 550 }
+			position = { x = 260 y = 400 }
 			clicksound = click_close
 			quadTextureSprite ="GFX_button_148x34"
 			buttonFont = "hoi_16mbs"
@@ -4762,7 +4942,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "grant_recog_button"
-			position = { x = 100 y = 550 }
+			position = { x = 100 y = 400 }
 			clicksound = click_close
 			quadTextureSprite ="GFX_button_148x34"
 			buttonFont = "hoi_16mbs"
@@ -4774,7 +4954,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "rescind_recog_button"
-			position = { x = 420 y = 550 }
+			position = { x = 420 y = 400 }
 			clicksound = click_close
 			quadTextureSprite ="GFX_button_148x34"
 			buttonFont = "hoi_16mbs"
@@ -4786,7 +4966,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "campaign_USA_button"
-			position = { x = 420 y = 650 }
+			position = { x = 420 y = 500 }
 			clicksound = click_close
 			quadTextureSprite ="GFX_button_148x34"
 			buttonFont = "hoi_16mbs"
@@ -4797,7 +4977,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "campaign_CHI_button"
-			position = { x = 260 y = 650 }
+			position = { x = 260 y = 500 }
 			clicksound = click_close
 			quadTextureSprite ="GFX_button_148x34"
 			buttonFont = "hoi_16mbs"
@@ -4808,7 +4988,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "campaign_SOV_button"
-			position = { x = 100 y = 650 }
+			position = { x = 100 y = 500 }
 			clicksound = click_close
 			quadTextureSprite ="GFX_button_148x34"
 			buttonFont = "hoi_16mbs"
@@ -4819,7 +4999,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "campaign_ENG_button"
-			position = { x = 340 y = 700 }
+			position = { x = 340 y = 550 }
 			clicksound = click_close
 			quadTextureSprite ="GFX_button_148x34"
 			buttonFont = "hoi_16mbs"
@@ -4830,7 +5010,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "campaign_FRA_button"
-			position = { x = 190 y = 700 }
+			position = { x = 190 y = 550 }
 			clicksound = click_close
 			quadTextureSprite ="GFX_button_148x34"
 			buttonFont = "hoi_16mbs"
@@ -4841,7 +5021,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "un_ascension_button"
-			position = { x = 260 y = 750 }
+			position = { x = 260 y = 600 }
 			clicksound = click_close
 			quadTextureSprite ="GFX_button_148x34"
 			buttonFont = "hoi_16mbs"
@@ -5165,13 +5345,354 @@ guiTypes = {
 		show_sound = open_sub_window
 
 		instantTextBoxType = {
-			name = "ir_nation_sel_disp"
-			position = { x = -10 y = 490 }
+			name = "is_un_aid_general_budget_info"
+			position = { x = 120 y = 130 }
 			font = "hoi_16mbs"
-			maxWidth = 700
+			maxWidth = 300
 			maxHeight = 100
-			text = "IS_ir_nation_sel_display_text"
+			text = "IS_un_aid_general_budget"
+			pdx_tooltip = "IS_un_aid_general_budget_tt"
+			pdx_tooltip = "IS_un_aid_general_budget_tt_delayed"
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_cur_nation_name"
+			position = { x = 390 y = 130 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "[THIS.GetNameWithFlag]"
+			pdx_tooltip = ""
+			pdx_tooltip = ""
 			format = center
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_cur_budget_total"
+			position = { x = 400 y = 150 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_total_budget_spending"
+			pdx_tooltip = "is_un_aid_total_budget_spending_tt"
+			pdx_tooltip_delayed = "is_un_aid_total_budget_spending_tt_delayed"
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_base_spending"
+			position = { x = 400 y = 170 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_basic_budget_spending"
+			pdx_tooltip = "is_un_basic_budget_spending_tt"
+			pdx_tooltip_delayed = "is_un_basic_budget_spending_tt_delayed"
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_spending_percent"
+			position = { x = 400 y = 190 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_spending_percent"
+			pdx_tooltip = "is_un_aid_spending_percent_tt"
+			pdx_tooltip_delayed = "is_un_aid_spending_percent_tt_delayed"
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_unescoe_spending"
+			position = { x = 400 y = 210 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_unescoe_spending"
+			pdx_tooltip = "is_un_aid_unescoe_spending_tt"
+			pdx_tooltip_delayed = "is_un_aid_unescoe_spending_tt_delayed"
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_unido_spending"
+			position = { x = 400 y = 230 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_unido_spending"
+			pdx_tooltip = "is_un_aid_unido_spending_tt"
+			pdx_tooltip_delayed = "is_un_aid_unido_spending_tt_delayed"
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_uncdf_spending"
+			position = { x = 400 y = 250 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_uncdf_spending"
+			pdx_tooltip = "is_un_aid_uncdf_spending_tt"
+			pdx_tooltip_delayed = "is_un_aid_uncdf_spending_tt_delayed"
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_additional_percent"
+			position = { x = 400 y = 270 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_additional_percent"
+			pdx_tooltip = "is_un_aid_additional_percent_tt"
+			pdx_tooltip_delayed = "is_un_aid_additional_percent_tt_delayed"
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_cur_budget_total_amount"
+			position = { x = 550 y = 150 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_total_budget_spending_num"
+			pdx_tooltip = "is_un_aid_total_budget_spending_tt"
+			pdx_tooltip_delayed = "is_un_aid_total_budget_spending_tt_delayed"
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_base_spending_amount"
+			position = { x = 550 y = 170 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_base_budget_spending_num"
+			pdx_tooltip = "is_un_basic_budget_spending_tt"
+			pdx_tooltip_delayed = "is_un_basic_budget_spending_tt_delayed"
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_spending_percent_amount"
+			position = { x = 550 y = 190 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_spending_percent_num"
+			pdx_tooltip = "is_un_aid_spending_percent_tt"
+			pdx_tooltip_delayed = "is_un_aid_spending_percent_tt_delayed"
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_unescoe_spending_amount"
+			position = { x = 550 y = 210 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_unescoe_spending_num"
+			pdx_tooltip = "is_un_aid_unescoe_spending_tt"
+			pdx_tooltip_delayed = "is_un_aid_unescoe_spending_tt_delayed"
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_unido_spending_amount"
+			position = { x = 550 y = 230 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_unido_spending_num"
+			pdx_tooltip = "is_un_aid_unido_spending_tt"
+			pdx_tooltip_delayed = "is_un_aid_unido_spending_tt_delayed"
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_uncdf_spending_amount"
+			position = { x = 550 y = 250 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_uncdf_spending_num"
+			pdx_tooltip = "is_un_aid_uncdf_spending_tt"
+			pdx_tooltip_delayed = "is_un_aid_uncdf_spending_tt_delayed"
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_additional_percent_amount"
+			position = { x = 550 y = 270 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_additional_percent_num"
+			pdx_tooltip = "is_un_aid_additional_percent_tt"
+			pdx_tooltip_delayed = "is_un_aid_additional_percent_tt_delayed"
+			format = left
+		}
+		#Base budget button adjusters
+		buttonType = {
+			name = "increase_base_budget_vote_button"
+			position = { x = 90 y = 300 }
+			clicksound = click_close
+			quadTextureSprite ="GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "increase_base_un_budget"
+			clicksound = click_close
+			pdx_tooltip = "increase_base_un_budget_tt"
+			pdx_tooltip_delayed = "increase_base_un_budget_tt_delayed"
+		}
+		buttonType = {
+			name = "decrease_base_budget_vote_button"
+			position = { x = 250 y = 300 }
+			clicksound = click_close
+			quadTextureSprite ="GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "decrease_base_un_budget"
+			clicksound = click_close
+			pdx_tooltip = "decrease_base_un_budget_tt"
+			pdx_tooltip_delayed = "decrease_base_un_budget_tt_delayed"
+		}
+		buttonType = {
+			name = "cancel_all_contributions_button"
+			position = { x = 425 y = 300 }
+			clicksound = click_close
+			quadTextureSprite ="GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "cancel_all_contributions"
+			clicksound = click_close
+			pdx_tooltip = "cancel_all_contributions_tt"
+			pdx_tooltip_delayed = "cancel_all_contributions_tt_delayed"
+		}
+		#Aid Program Titles
+		instantTextBoxType = {
+			name = "is_un_aid_unescoe_title"
+			position = { x = 75 y = 350 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_unescoe_title"
+			pdx_tooltip = ""
+			pdx_tooltip_delayed = "is_un_aid_unescoe_spending_tt_delayed"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_unido_title"
+			position = { x = 240 y = 350 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_unido_title"
+			pdx_tooltip = ""
+			pdx_tooltip_delayed = "is_un_aid_unido_spending_tt_delayed"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_uncdf_title"
+			position = { x = 400 y = 350 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_uncdf_title"
+			pdx_tooltip = ""
+			pdx_tooltip_delayed = "is_un_aid_uncdf_spending_tt_delayed"
+			format = center
+		}
+		#Aid Program Funding
+		instantTextBoxType = {
+			name = "is_un_aid_unescoe_funding_tt"
+			position = { x = 95 y = 415 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_total_funding_title"
+			pdx_tooltip = "is_un_aid_total_budget_tt"
+			pdx_tooltip_delayed = ""
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_unido_funding_tt"
+			position = { x = 270 y = 415 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_total_funding_title"
+			pdx_tooltip = "is_un_aid_total_budget_tt"
+			pdx_tooltip_delayed = ""
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_uncdf_funding_tt"
+			position = { x = 422 y = 415 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_total_funding_title"
+			pdx_tooltip = "is_un_aid_total_budget_tt"
+			pdx_tooltip_delayed = ""
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_unescoe_funding_amount"
+			position = { x = 195 y = 415 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_unescoe_total_funding_num"
+			pdx_tooltip = "is_un_aid_total_budget_tt"
+			pdx_tooltip_delayed = ""
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_unido_funding_amount"
+			position = { x = 370 y = 415 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_unido_total_funding_num"
+			pdx_tooltip = "is_un_aid_total_budget_tt"
+			pdx_tooltip_delayed = ""
+			format = left
+		}
+		instantTextBoxType = {
+			name = "is_un_aid_uncdf_funding_amount"
+			position = { x = 522 y = 415 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 100
+			text = "is_un_aid_uncdf_total_funding_num"
+			pdx_tooltip = "is_un_aid_total_budget_tt"
+			pdx_tooltip_delayed = ""
+			format = left
+		}
+		buttonType = {
+			name = "is_un_aid_request_join_esco_button"
+			position = { x = 100 y = 380 }
+			clicksound = click_close
+			quadTextureSprite ="GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "is_un_aid_request_join_program"
+			clicksound = click_close
+			pdx_tooltip = "is_un_aid_request_join_esco_tt"
+			pdx_tooltip_delayed = "is_un_aid_request_join_esco_tt_delayed"
+		}
+		buttonType = {
+			name = "is_un_aid_request_join_ido_button"
+			position = { x = 265 y = 380 }
+			clicksound = click_close
+			quadTextureSprite ="GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "is_un_aid_request_join_program"
+			clicksound = click_close
+			pdx_tooltip = "is_un_aid_request_join_ido_tt"
+			pdx_tooltip_delayed = "is_un_aid_request_join_ido_tt_delayed"
+		}
+		buttonType = {
+			name = "is_un_aid_request_join_cdf_button"
+			position = { x = 425 y = 380 }
+			clicksound = click_close
+			quadTextureSprite ="GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "is_un_aid_request_join_program"
+			clicksound = click_close
+			pdx_tooltip = "is_un_aid_request_join_cdf_tt"
+			pdx_tooltip_delayed = "is_un_aid_request_join_cdf_tt_delayed"
 		}
 	}
 
@@ -5691,6 +6212,7 @@ guiTypes = {
 			max_slots_horizontal = 1
 		}
 	}
+	#UNGA Pending Vote List
 	containerWindowType = {
 		name = "IS_UN_GA_pending_vote_list"
 		buttonType = {
@@ -5706,11 +6228,173 @@ guiTypes = {
 			pdx_tooltip_delayed = ""
 		}
 	}
+	#UNAID Contributor Container
+	containerWindowType = {
+		name = "IS_UN_aid_contribution_container"
+		position = { x=100 y = 150 }
+		size = { width = 300 height=150 }
+		#margin = { top = 8 bottom = 8 }
+		verticalScrollbar = "right_vertical_slider"
 
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+
+		gridboxType = {
+			name = "list_of_aid_contributors"
+			position = { x = 0 y = 0 }
+			padding = { top = 50 bottom = 0 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 45 height = 30 }
+			format = "UPPER_LEFT"
+			max_slots_horizontal = 1
+		}
+	}
+	#UNAID Contributor List
+	containerWindowType = {
+		name = "IS_UN_aid_contribution_list"
+
+		instantTextBoxType = {
+			name = "is_un_aid_contributor_name"
+			position = { x = 0 y = 0 }
+
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0 }
+			text = "[THIS.GetNameWithFlag]"
+			maxWidth = 175
+			maxHeight = 20
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "is_un_aid_contributor_amount"
+			position = { x = 180 y = 0 }
+
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0 }
+			text = "$[?united_nations_base_expenses|-3]"
+			maxWidth = 175
+			maxHeight = 20
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType = {
+			name = "is_un_aid_contributor_percent"
+			position = { x = 230 y = 0 }
+
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0 }
+			text = "[?united_nations_contribution_percent|Y%2]"
+			maxWidth = 175
+			maxHeight = 20
+			fixedsize = yes
+
+			Orientation = "UPPER_LEFT"
+		}
+	}
+	#UN ESCO Container
+	containerWindowType = {
+		name = "IS_UN_aid_recipients"
+		position = { x=22 y = 580 }
+		size = { width = 520 height=100 }
+		#margin = { top = 8 bottom = 8 }
+		verticalScrollbar = "right_vertical_slider"
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+
+		gridboxType = {
+			name = "list_of_unesco_recipients"
+			position = { x = 0 y = 0 }
+			padding = { top = 50 bottom = 0 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 45 height = 30 }
+			format = "UPPER_LEFT"
+			max_slots_horizontal = 1
+		}
+
+		gridboxType = {
+			name = "list_of_unido_recipients"
+			position = { x = 170 y = 0 }
+			padding = { top = 50 bottom = 0 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 45 height = 30 }
+			format = "UPPER_LEFT"
+			max_slots_horizontal = 1
+		}
+
+		gridboxType = {
+			name = "list_of_uncdf_recipients"
+			position = { x = 330 y = 0 }
+			padding = { top = 50 bottom = 0 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 45 height = 30 }
+			format = "UPPER_LEFT"
+			max_slots_horizontal = 1
+		}
+	}
+	#UN ESCO List
+	containerWindowType = {
+		name = "IS_UN_aid_unesco_list"
+
+		buttonType = {
+			name = "is_un_aid_esco_button"
+			position = { x = 0 y = 0 }
+			clicksound = click_close
+			quadTextureSprite ="GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "[THIS.GetNameWithFlag]"
+			clicksound = click_close
+			pdx_tooltip = ""
+			pdx_tooltip_delayed = ""
+		}
+	}
+	#UN IDO List
+	containerWindowType = {
+		name = "IS_UN_aid_ido_list"
+
+		buttonType = {
+			name = "is_un_aid_ido_button"
+			position = { x = 0 y = 0 }
+			clicksound = click_close
+			quadTextureSprite ="GFX_button_211x20"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "[THIS.GetNameWithFlag]"
+			clicksound = click_close
+			pdx_tooltip = ""
+			pdx_tooltip_delayed = ""
+		}
+	}
+	#UN CDF List
+	containerWindowType = {
+		name = "IS_UN_aid_cdf_list"
+
+		buttonType = {
+			name = "is_un_aid_cdf_button"
+			position = { x = 0 y = 0 }
+			clicksound = click_close
+			quadTextureSprite ="GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "[THIS.GetNameWithFlag]"
+			clicksound = click_close
+			pdx_tooltip = ""
+			pdx_tooltip_delayed = ""
+		}
+	}
 	#UN Unrecognized States container
 	containerWindowType = {
 		name = "IS_unrecognized_states_container"
-		position = { x=100 y = 350 }
+		position = { x=100 y = 225 }
 		size = { width = 515 height=140 }
 		margin = { top = 8 bottom = 8 }
 		verticalScrollbar = "right_vertical_slider"

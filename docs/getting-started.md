@@ -2,6 +2,7 @@
 layout: default
 title: "Getting Started"
 permalink: /getting-started/
+description: "Step-by-step installation and setup guide for playing Millennium Dawn."
 ---
 
 # Getting Started with Millennium Dawn
@@ -78,8 +79,8 @@ The mod introduces several new mechanics:
 
 Once you're comfortable with the basics:
 
-- Explore the [Tutorials](./tutorials.md) section for detailed strategies
-- Check the [Changelog](./changelogs.md) for the latest updates
+- Explore the [Tutorials]({{ '/tutorials/' | relative_url }}) section for detailed strategies
+- Check the [Changelog]({{ '/changelogs/' | relative_url }}) for the latest updates
 - Join the [Discord](http://discord.gg/millenniumdawn) to share your experiences
 
 ## Need Help?

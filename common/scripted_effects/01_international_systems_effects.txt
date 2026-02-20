@@ -199,7 +199,7 @@ un_recog_setup_check = {
 		}
 	}else = {
 		add_to_array = { global.UN_general_assembly = THIS }
-		add_ideas = united_nations_member
+		add_dynamic_modifier = { modifier = united_nations_member }
 	}
 }
 
@@ -762,6 +762,20 @@ security_council_vote_finished = {
 		clr_global_flag = sc_action_against@THIS
 	}
 
+	for_each_loop = {
+		array = global.security_council_members
+		value = v
+
+		var:v = {
+			if = {
+				limit = {
+					has_country_flag = has_had_current_un_sc_vote_swayed
+				}
+				clr_country_flag = has_had_current_un_sc_vote_swayed
+			}
+		}
+	}
+
 	#clear all arrays and variables
 	clear_array = global.security_council_vote_yes
 	clear_array = global.security_council_vote_no
@@ -821,8 +835,28 @@ general_assembly_vote_finished = {
 			} else = {
 				un_sc_new_members_re_roll = yes
 			}
+		} else_if = {
+			limit = {
+				check_variable = { global.current_ga_vote_type = 8 }
+			}
+			if = {
+				limit = {
+					un_ga_2_3_required = yes
+				}
+				add_to_variable = { global.general_operating_budget_contribute_percent = -0.0001 }
+			}
+		} else_if = {
+			limit = {
+				check_variable = { global.current_ga_vote_type = 9 }
+			}
+			if = {
+				limit = {
+					un_ga_2_3_required = yes
+				}
+				add_to_variable = { global.general_operating_budget_contribute_percent = 0.0001 }
+			}
 		} else = {
-			#all other votes that pass dump here!
+
 		}
 	} else = {
 		#anything down here failed to pass
@@ -872,6 +906,20 @@ general_assembly_vote_finished = {
 		}
 	}
 
+	for_each_loop = {
+		array = global.UN_general_assembly
+		value = v
+
+		var:v = {
+			if = {
+				limit = {
+					has_country_flag = has_had_current_un_sc_vote_swayed
+				}
+				clr_country_flag = has_had_current_un_sc_vote_swayed
+			}
+		}
+	}
+
 	#clear all arrays and variables
 	clear_array = global.general_assembly_vote_yes
 	clear_array = global.general_assembly_vote_no
@@ -886,4 +934,100 @@ general_assembly_vote_finished = {
 		value = 1
 	}
 	missile_ui_update = yes
+}
+
+full_satellite_system_access = {
+	custom_effect_tooltip = full_sat_system_access_tt
+
+	if = {
+		limit = {
+			OR = {
+				check_variable = { FROM.var_GNSS_mil_system_idx = var_GNSS_mil_system_idx }
+				check_variable = { FROM.var_GNSS_mil_system_idx > var_GNSS_mil_system_idx }
+			}
+			NOT = {
+				check_variable = { FROM.var_GNSS_mil_system_idx = 0 }
+				is_in_array = { array = FROM.GNSS_mil_treaty_array value = THIS.id }
+			}
+		}
+		FROM = {
+			add_to_array = { array = THIS.GNSS_mil_treaty_array value = ROOT.id }
+			add_to_array = { array = ROOT.GNSS_mil_access_array value = THIS.id }
+			add_to_array = { array = ROOT.GNSS_mil_access_system_idx_array value = THIS.var_GNSS_mil_system_idx }
+			ROOT = {
+				add_access_GNSS_mil_vars = yes
+			}
+
+			set_country_flag = { flag = recently_accepted_mil_gnss_@ROOT value = 1 days = 180 }
+		}
+	}
+
+	if = {
+		limit = {
+			OR = {
+				check_variable = { FROM.var_GNSS_civ_system_idx = var_GNSS_civ_system_idx }
+				check_variable = { FROM.var_GNSS_civ_system_idx > var_GNSS_civ_system_idx }
+			}
+			NOT = {
+				check_variable = { FROM.var_GNSS_civ_system_idx = 0 }
+				is_in_array = { array = FROM.GNSS_civ_treaty_array value = THIS.id }
+			}
+		}
+		FROM = {
+			add_to_array = { array = THIS.GNSS_civ_treaty_array value = ROOT.id }
+			add_to_array = { array = ROOT.GNSS_civ_access_array value = THIS.id }
+			add_to_array = { array = ROOT.GNSS_civ_access_system_idx_array value = THIS.var_GNSS_civ_system_idx }
+			ROOT = {
+				add_access_GNSS_civ_vars = yes
+			}
+
+			set_country_flag = { flag = recently_accepted_civ_gnss_@ROOT value = 1 days = 180 }
+		}
+	}
+
+	if = {
+		limit = {
+			OR = {
+				check_variable = { FROM.var_COM_mil_system_idx = var_COM_mil_system_idx }
+				check_variable = { FROM.var_COM_mil_system_idx > var_COM_mil_system_idx }
+			}
+			NOT = {
+				check_variable = { FROM.var_COM_mil_system_idx = 0 }
+				is_in_array = { array = FROM.COM_mil_treaty_array value = THIS.id }
+			}
+		}
+		FROM = {
+			add_to_array = { array = THIS.COM_mil_treaty_array value = ROOT.id }
+			add_to_array = { array = ROOT.COM_mil_access_array value = THIS.id }
+			add_to_array = { array = ROOT.COM_mil_access_system_idx_array value = THIS.var_COM_mil_system_idx }
+			ROOT = {
+				add_access_COM_mil_vars = yes
+			}
+
+			set_country_flag = { flag = recently_accepted_mil_COM_@ROOT value = 1 days = 180 }
+		}
+	}
+
+	if = {
+		limit = {
+			OR = {
+				check_variable = { FROM.var_COM_civ_system_idx = var_COM_civ_system_idx }
+				check_variable = { FROM.var_COM_civ_system_idx > var_COM_civ_system_idx }
+			}
+			NOT = {
+				check_variable = { FROM.var_COM_civ_system_idx = 0 }
+				is_in_array = { array = FROM.COM_civ_treaty_array value = THIS.id }
+			}
+		}
+		FROM = {
+			add_to_array = { array = THIS.COM_civ_treaty_array value = ROOT.id }
+			add_to_array = { array = ROOT.COM_civ_access_array value = THIS.id }
+			add_to_array = { array = ROOT.COM_civ_access_system_idx_array value = THIS.var_COM_civ_system_idx }
+			ROOT = {
+				add_access_COM_civ_vars = yes
+			}
+
+			set_country_flag = { flag = recently_accepted_civ_COM_@ROOT value = 1 days = 180 }
+		}
+	}
 }

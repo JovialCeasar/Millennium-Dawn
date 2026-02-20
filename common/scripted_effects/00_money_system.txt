@@ -3237,26 +3237,7 @@ calculate_additional_expense_rate = {
 		add_to_variable = { additional_expenses_rate = additional_expense_china_travel_ban }
 	}
 	# United Nations Contribution Expenses
-	if = { limit = { has_idea = united_nations_member }
-		if = {
-			limit = {
-				NOT = { has_country_flag = yearly_un_budget_calculated }
-			}
-			set_country_flag = {
-				flag = yearly_un_budget_calculated
-				days = 365
-				value = 1
-			}
-			set_variable = { united_nations_base_expenses = gdp_total }
-			multiply_variable = { united_nations_base_expenses = 0.0001 }
-
-			set_temp_variable = { un_expenses_inflation = 1 }
-			add_to_temp_variable = { un_expenses_inflation = modifier@inflation_cost_multiplier_modifier }
-			multiply_variable = { united_nations_base_expenses = un_expenses_inflation }
-			set_variable = { united_nations_expenses = united_nations_base_expenses }
-			set_variable = { united_nations_old_aid_expenses = 0 }
-		}
-
+	if = { limit = { has_dynamic_modifier = { modifier = united_nations_member } }
 		if = {
 			limit = {
 				NOT = { check_variable = { united_nations_old_aid_expenses = united_nations_aid_expenses } }
@@ -4214,7 +4195,7 @@ calculate_gdp = {
 	subtract_from_temp_variable = { workforce_total = agriculture_workers }
 
 	# Factories & Offices Employment
-	set_temp_variable = { workers_per_civ_fac = 0.345 } #milions #number of people who depend from these jobs, so not just direct workers but should include retail, services, food industry
+	set_temp_variable = { workers_per_civ_fac = 0.275 } #milions #number of people who depend from these jobs, so not just direct workers but should include retail, services, food industry
 	set_temp_variable = { workers_per_mil_fac = 0.025 }
 	set_temp_variable = { workers_per_dockyard = 0.025 }
 	set_temp_variable = { workers_per_office = 0.630 }
@@ -4488,9 +4469,9 @@ calculate_gdp = {
 	set_temp_variable = { gdp_from_composite_plants = composite_plant_total }
 	set_temp_variable = { gdp_from_synthetic_refinery = synthetic_refinery_total }
 
-	multiply_temp_variable = { gdp_from_civs = 20 }	#was 15, original 24.8
-	multiply_temp_variable = { gdp_from_mils = 1 }	#was 9, original 15.5
-	multiply_temp_variable = { gdp_from_dockyards = 1 }	#was 9, original 15.5
+	multiply_temp_variable = { gdp_from_civs = 17.5 }	#was 15, original 24.8
+	multiply_temp_variable = { gdp_from_mils = 1.5 }	#was 9, original 15.5
+	multiply_temp_variable = { gdp_from_dockyards = 1.5 }	#was 9, original 15.5
 	multiply_temp_variable = { gdp_from_offices = 50 }	#was 26, original 38.8
 	multiply_temp_variable = { gdp_from_microchip_plants = 35 }
 	multiply_temp_variable = { gdp_from_composite_plants = 30 }
@@ -5492,4 +5473,167 @@ recalculate_resources_price = {
 		limit = { is_debug = yes }
 		log = "Current resource prices: steel = [?global.steel_price] rubber = [?global.rubber_price] oil = [?global.oil_price] alum = [?global.aluminium_price] tungsten = [?global.tungsten_price] chromium = [?global.chromium_price] Resource coeff = [?global.resource_gdp_coeff]"
 	}
+}
+
+calculate_united_nations_base_budget = {
+	set_variable = { global.un_operating_budget_base = 0 }
+	clear_array = global.UN_budget_contribution_tracker
+	clear_variable = global.target_const_speed_mod
+	clear_variable = global.target_research_speed_mod
+	clear_variable = global.target_civ_count
+	clear_variable = global.average_gdp_capita
+
+	set_temp_variable = { peak_const_speed_mod = 0 }
+	set_temp_variable = { peak_research_speed_mod = 0 }
+	set_temp_variable = { peak_civ_count = 0 }
+	set_temp_variable = { average_gdp_capita = 0 }
+	set_temp_variable = { peak_prod_mod = 0 }
+
+	for_each_loop = {
+		array = global.UN_general_assembly
+		value = v
+
+		var:v = {
+			set_variable = { united_nations_base_expenses = gdp_total }
+			multiply_variable = { united_nations_base_expenses = global.general_operating_budget_contribute_percent }
+
+			if = {
+				limit = {
+					check_variable = { united_nations_base_expenses > 0.001 }
+				}
+				add_to_variable = { global.un_operating_budget_base = united_nations_base_expenses }
+				add_to_array = { global.un_operating_budget_contributors = THIS }
+
+				#Add inflation *after* application, to represnt our inflated money being worth less
+				#This means less money goes to the UN, while we have to pay *more* to represent less value
+				set_temp_variable = { un_expenses_inflation = 1 }
+				add_to_temp_variable = { un_expenses_inflation = modifier@inflation_cost_multiplier_modifier }
+				multiply_variable = { united_nations_base_expenses = un_expenses_inflation }
+
+				set_variable = { united_nations_expenses = united_nations_base_expenses }
+				set_variable = { united_nations_old_aid_expenses = 0 }
+			}
+
+			add_to_variable = { global.target_const_speed_mod = modifier@production_speed_buildings_factor }
+			add_to_variable = { global.target_research_speed_mod = modifier@research_speed_factor }
+			add_to_variable = { global.target_civ_count = industrial_complex_total }
+			add_to_variable = { global.average_gdp_capita = gdp_per_capita }
+
+			set_temp_variable = { const_mod_check = modifier@production_speed_buildings_factor }
+			set_temp_variable = { research_mod_check = modifier@research_speed_factor }
+
+			if = {
+				limit = {
+					check_variable = { peak_const_speed_mod < const_mod_check }
+				}
+				set_temp_variable = { peak_const_speed_mod = modifier@production_speed_buildings_factor }
+			}
+
+			if = {
+				limit = {
+					check_variable = { peak_research_speed_mod < research_mod_check }
+				}
+				set_temp_variable = { peak_research_speed_mod = modifier@research_speed_factor }
+			}
+
+			if = {
+				limit = {
+					check_variable = { peak_civ_count < industrial_complex_total }
+				}
+				set_temp_variable = { peak_civ_count = industrial_complex_total }
+			}
+
+			if = {
+				limit = {
+					check_variable = { peak_prod_mod < overall_productivity }
+				}
+				set_temp_variable = { peak_prod_mod = overall_productivity }
+			}
+		}
+	}
+
+	divide_variable = { global.target_const_speed_mod = global.UN_general_assembly^num }
+	divide_variable = { global.target_research_speed_mod = global.UN_general_assembly^num }
+	divide_variable = { global.target_civ_count = global.UN_general_assembly^num }
+	divide_variable = { global.average_gdp_capita = global.UN_general_assembly^num }
+
+	multiply_temp_variable = { peak_const_speed_mod = 0.6 }
+	multiply_temp_variable = { peak_civ_count = 0.05 }
+	multiply_temp_variable = { peak_research_speed_mod = 0.4 }
+	multiply_temp_variable = { peak_prod_mod = 0.1 }
+
+	set_variable = { global.world_productivity_target = global.average_world_productivity }
+	add_to_variable = { global.world_productivity_target = peak_prod_mod }
+	add_to_variable = { global.target_const_speed_mod = peak_const_speed_mod }
+	add_to_variable = { global.target_research_speed_mod = peak_research_speed_mod }
+	add_to_variable = { global.target_civ_count = peak_civ_count }
+
+	for_each_loop = {
+		array = global.un_operating_budget_contributors
+		value = v
+
+		var:v = {
+			set_variable = { united_nations_contribution_percent = united_nations_base_expenses }
+			divide_variable = { united_nations_contribution_percent = global.un_operating_budget_base }
+			add_to_temp_array = { temp_array_mover = united_nations_base_expenses }
+			add_to_temp_array = { nation_tracker = THIS }
+		}
+	}
+
+	set_temp_variable = { end_number = temp_array_mover^num }
+
+	for_loop_effect = {
+		end = end_number
+		value = temp
+
+		find_highest_in_array = {
+			array = temp_array_mover
+			value = var_tracker
+			index = temp_index_track
+		}
+
+		set_temp_variable = { nation_adder = nation_tracker^temp_index_track }
+		add_to_array = { global.UN_budget_contribution_tracker = nation_adder }
+
+		remove_from_temp_array = {
+			array = nation_tracker
+			index = temp_index_track
+		}
+
+		remove_from_temp_array = {
+			array = temp_array_mover
+			index = temp_index_track
+		}
+	}
+
+	clear_array = global.un_operating_budget_contributors
+
+	calculate_un_program_budgets = yes
+}
+
+#Calculates how much money the program has after additional contributions are made
+calculate_un_program_budgets = {
+	set_variable = { global.unescoe_budget = 0 }
+	set_variable = { global.undio_budget = 0 }
+	set_variable = { global.uncdf_budget = 0 }
+
+	set_temp_variable = { base_budget_number = global.un_operating_budget_base }
+	divide_temp_variable = { base_budget_number = 3 }
+
+	add_to_variable = { global.unescoe_budget = base_budget_number }
+	add_to_variable = { global.undio_budget = base_budget_number }
+	add_to_variable = { global.uncdf_budget = base_budget_number }
+
+	add_to_variable = { global.unescoe_budget = global.unescoe_additional_contribution }
+	add_to_variable = { global.undio_budget = global.undio_additional_contribution }
+	add_to_variable = { global.uncdf_budget = global.uncdf_additional_contribution }
+
+	missile_ui_update = yes
+
+	update_un_program_budgets = yes
+}
+
+#updates how much is going into each nation that is receiving benifits
+update_un_program_budgets = {
+
 }

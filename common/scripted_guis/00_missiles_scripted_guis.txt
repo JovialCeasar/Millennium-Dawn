@@ -3680,6 +3680,9 @@ scripted_gui = {
 			campaign_SOV_button_visible = {
 				has_idea = Lacks_International_Recognition
 			}
+			ir_nation_unre_guide_visible = {
+				has_idea = Lacks_International_Recognition
+			}
 			campaign_SOV_button_click_enabled = {
 				SOV = {
 					has_opinion = {
@@ -4443,6 +4446,122 @@ scripted_gui = {
 			check_variable = { var_open_MD_un_aid = 2 }
 			check_variable = { var_open_MD_UN_gui = 2 }
 			has_country_flag = open_MD_countrymissilesview
+		}
+
+		triggers = {
+			cancel_all_contributions_button_click_enabled = {
+				has_political_power > 500
+				custom_trigger_tooltip = {
+					tooltip = is_spending_additional_money_on_aid_tooltip
+					OR = {
+						check_variable = { united_nations_uncdf_funding > 0 }
+						check_variable = { united_nations_unido_funding > 0 }
+						check_variable = { united_nations_unescoe_funding > 0 }
+					}
+				}
+			}
+			decrease_base_budget_vote_button_click_enabled = {
+				custom_trigger_tooltip = {
+					tooltip = not_had_unga_budget_vote_in_past_year
+					NOT = { has_global_flag = unga_budget_adjustment_vote }
+				}
+				custom_trigger_tooltip = {
+					tooltip = unga_budget_is_not_too_low
+					NOT = { check_variable = { global.general_operating_budget_contribute_percent < 0.0002 } }
+				}
+				custom_trigger_tooltip = {
+					tooltip = unga_current_budget_contributor
+					is_in_array = { global.UN_budget_contribution_tracker = THIS }
+				}
+				has_political_power > 200
+			}
+			increase_base_budget_vote_button_click_enabled = {
+				custom_trigger_tooltip = {
+					tooltip = not_had_unga_budget_vote_in_past_year
+					NOT = { has_global_flag = unga_budget_adjustment_vote }
+				}
+				custom_trigger_tooltip = {
+					tooltip = unga_budget_is_not_too_high
+					NOT = { check_variable = { global.general_operating_budget_contribute_percent > 0.0009 } }
+				}
+				custom_trigger_tooltip = {
+					tooltip = unga_current_budget_contributor
+					is_in_array = { global.UN_budget_contribution_tracker = THIS }
+				}
+				has_political_power > 200
+			}
+			is_un_aid_request_join_esco_button_click_enabled = {
+				custom_trigger_tooltip = {
+					tooltip = is_un_research_speed_less_than_global_target
+					check_variable = { modifier@research_speed_factor < global.target_research_speed_mod }
+				}
+				custom_trigger_tooltip = {
+					tooltip = is_un_political_power_gain_less_than_7
+					check_variable = { political_power_daily < 7 }
+				}
+			}
+			is_un_aid_request_join_ido_button_click_enabled = {
+				custom_trigger_tooltip = {
+					tooltip = is_un_construction_speed_less_than_global_target
+					check_variable = { modifier@production_speed_buildings_factor < global.target_const_speed_mod }
+				}
+				custom_trigger_tooltip = {
+					tooltip = is_un_less_global_civ_target
+					check_variable = { industrial_complex_total < global.average_civ_count }
+					NOT = { check_variable = { total_unemployed_percentage_display < 0.05 } }
+				}
+			}
+			is_un_aid_request_join_cdf_button_click_enabled = {
+				custom_trigger_tooltip = {
+					tooltip = is_producitivty_less_than_global_target
+					check_variable = { overall_productivity < global.world_productivity_target }
+				}
+				custom_trigger_tooltip = {
+					tooltip = is_can_gain_from_financial_aid
+					check_variable = { gdp_total < 1000 }
+				}
+			}
+		}
+
+		effects = {
+			cancel_all_contributions_button_click = {
+				add_political_power = -500
+
+				subtract_from_variable = { global.unescoe_additional_contribution = united_nations_unescoe_funding }
+				subtract_from_variable = { global.undio_additional_contribution = united_nations_unido_funding }
+				subtract_from_variable = { global.uncdf_additional_contribution = united_nations_unescoe_funding }
+
+				set_variable = { united_nations_uncdf_funding = 0 }
+				set_variable = { united_nations_unido_funding = 0 }
+				set_variable = { united_nations_unescoe_funding = 0 }
+
+				custom_effect_tooltip = is_cut_all_additional_money_on_programs
+
+				calculate_un_program_budgets = yes
+			}
+			decrease_base_budget_vote_button_click = {
+				set_temp_variable = { ga_new_vote_type = 8 }
+				set_temp_variable = { ga_new_vote_nation = THIS }
+				update_ga_vote = yes
+
+				add_political_power = -200
+			}
+			increase_base_budget_vote_button_click = {
+				set_temp_variable = { ga_new_vote_type = 9 }
+				set_temp_variable = { ga_new_vote_nation = THIS }
+				update_ga_vote = yes
+
+				add_political_power = -200
+			}
+			is_un_aid_request_join_esco_button_click = {
+
+			}
+			is_un_aid_request_join_ido_button_click = {
+
+			}
+			is_un_aid_request_join_cdf_button_click = {
+
+			}
 		}
 	}
 	#Dynamic Lists
@@ -6552,11 +6671,6 @@ scripted_gui = {
 				set_temp_variable = { influence_target = THIS.id }
 				change_influence_percentage = yes
 
-				set_country_flag = has_had_current_un_sc_vote_swayed
-
-				remove_from_array = { global.security_council_vote_yes = THIS }
-				add_to_array = { global.security_council_vote_no = THIS }
-
 				custom_effect_tooltip = un_sc_sway_vote_no_tt
 
 				missile_ui_update = yes
@@ -6574,9 +6688,6 @@ scripted_gui = {
 
 				change_influence_percentage = yes
 
-				remove_from_array = { global.security_council_vote_yes = THIS }
-				add_to_array = { global.security_council_vote_abstain = THIS }
-
 				custom_effect_tooltip = un_sc_sway_vote_abstain_tt
 
 				missile_ui_update = yes
@@ -6592,11 +6703,6 @@ scripted_gui = {
 				set_temp_variable = { tag_index = ROOT.id }
 				set_temp_variable = { influence_target = THIS.id }
 				change_influence_percentage = yes
-
-				set_country_flag = has_had_current_un_sc_vote_swayed
-
-				remove_from_array = { global.security_council_vote_no = THIS }
-				add_to_array = { global.security_council_vote_yes = THIS }
 
 				custom_effect_tooltip = un_sc_sway_vote_yes_tt
 
@@ -6615,9 +6721,6 @@ scripted_gui = {
 
 				change_influence_percentage = yes
 
-				remove_from_array = { global.security_council_vote_no = THIS }
-				add_to_array = { global.security_council_vote_abstain = THIS }
-
 				custom_effect_tooltip = un_sc_sway_vote_abstain_tt
 
 				missile_ui_update = yes
@@ -6635,11 +6738,6 @@ scripted_gui = {
 
 				change_influence_percentage = yes
 
-				remove_from_array = { global.security_council_vote_abstain = THIS }
-				add_to_array = { global.security_council_vote_yes = THIS }
-
-				set_country_flag = has_had_current_un_sc_vote_swayed
-
 				custom_effect_tooltip = un_sc_sway_vote_yes_tt
 
 				missile_ui_update = yes
@@ -6656,11 +6754,6 @@ scripted_gui = {
 				set_temp_variable = { influence_target = THIS.id }
 
 				change_influence_percentage = yes
-
-				remove_from_array = { global.security_council_vote_abstain = THIS }
-				add_to_array = { global.security_council_vote_no = THIS }
-
-				set_country_flag = has_had_current_un_sc_vote_swayed
 
 				custom_effect_tooltip = un_sc_sway_vote_no_tt
 
@@ -6913,29 +7006,33 @@ scripted_gui = {
 
 		effects = {
 			is_un_ga_vote_yes_button_click = {
+				ROOT = {
+					set_temp_variable = { sway_target = PREV }
+					set_variable = { current_vote_sway = 2 }
+					country_event = UN.200
+				}
+
 				set_temp_variable = { percent_change = -10 }
 				set_temp_variable = { tag_index = ROOT.id }
 				set_temp_variable = { influence_target = THIS.id }
 				change_influence_percentage = yes
-
-				set_country_flag = has_had_current_un_sc_vote_swayed
-
-				remove_from_array = { global.general_assembly_vote_yes = THIS }
-				add_to_array = { global.general_assembly_vote_no = THIS }
 
 				custom_effect_tooltip = un_sc_sway_vote_no_tt
 
 				missile_ui_update = yes
 			}
 			is_un_ga_vote_yes_button_right_click = {
+				ROOT = {
+					set_temp_variable = { sway_target = PREV }
+					set_variable = { current_vote_sway = 3 }
+					country_event = UN.200
+				}
+
 				set_temp_variable = { percent_change = -5 }
 				set_temp_variable = { tag_index = ROOT.id }
 				set_temp_variable = { influence_target = THIS.id }
 
 				change_influence_percentage = yes
-
-				remove_from_array = { global.general_assembly_vote_yes = THIS }
-				add_to_array = { global.general_assembly_vote_abstain = THIS }
 
 				custom_effect_tooltip = un_sc_sway_vote_abstain_tt
 
@@ -6983,29 +7080,33 @@ scripted_gui = {
 
 		effects = {
 			is_un_ga_vote_no_button_click = {
+				ROOT = {
+					set_temp_variable = { sway_target = PREV }
+					set_variable = { current_vote_sway = 1 }
+					country_event = UN.200
+				}
+
 				set_temp_variable = { percent_change = -10 }
 				set_temp_variable = { tag_index = ROOT.id }
 				set_temp_variable = { influence_target = THIS.id }
 				change_influence_percentage = yes
-
-				set_country_flag = has_had_current_un_sc_vote_swayed
-
-				remove_from_array = { global.general_assembly_vote_no = THIS }
-				add_to_array = { global.general_assembly_vote_yes = THIS }
 
 				custom_effect_tooltip = un_sc_sway_vote_yes_tt
 
 				missile_ui_update = yes
 			}
 			is_un_ga_vote_no_button_right_click = {
+				ROOT = {
+					set_temp_variable = { sway_target = PREV }
+					set_variable = { current_vote_sway = 3 }
+					country_event = UN.200
+				}
+
 				set_temp_variable = { percent_change = -5 }
 				set_temp_variable = { tag_index = ROOT.id }
 				set_temp_variable = { influence_target = THIS.id }
 
 				change_influence_percentage = yes
-
-				remove_from_array = { global.general_assembly_vote_no = THIS }
-				add_to_array = { global.general_assembly_vote_abstain = THIS }
 
 				custom_effect_tooltip = un_sc_sway_vote_abstain_tt
 
@@ -7057,31 +7158,33 @@ scripted_gui = {
 
 		effects = {
 			is_un_ga_vote_abstain_button_click = {
+				ROOT = {
+					set_temp_variable = { sway_target = PREV }
+					set_variable = { current_vote_sway = 1 }
+					country_event = UN.200
+				}
+
 				set_temp_variable = { percent_change = -10 }
 				set_temp_variable = { tag_index = ROOT.id }
 				set_temp_variable = { influence_target = THIS.id }
 				change_influence_percentage = yes
-
-				set_country_flag = has_had_current_un_sc_vote_swayed
-
-				remove_from_array = { global.general_assembly_vote_abstain = THIS }
-				add_to_array = { global.general_assembly_vote_yes = THIS }
 
 				custom_effect_tooltip = un_sc_sway_vote_yes_tt
 
 				missile_ui_update = yes
 			}
 			is_un_ga_vote_abstain_button_right_click = {
+				ROOT = {
+					set_temp_variable = { sway_target = PREV }
+					set_variable = { current_vote_sway = 2 }
+					country_event = UN.200
+				}
+
 				set_temp_variable = { percent_change = -10 }
 				set_temp_variable = { tag_index = ROOT.id }
 				set_temp_variable = { influence_target = THIS.id }
 
 				change_influence_percentage = yes
-
-				set_country_flag = has_had_current_un_sc_vote_swayed
-
-				remove_from_array = { global.general_assembly_vote_abstain = THIS }
-				add_to_array = { global.general_assembly_vote_no = THIS }
 
 				custom_effect_tooltip = un_sc_sway_vote_no_tt
 
@@ -7121,6 +7224,60 @@ scripted_gui = {
 			list_of_ga_members = {
 				array = global.UN_general_assembly
 				entry_container = IS_UN_GA_members_list
+				change_scope = yes
+			}
+		}
+	}
+
+	is_un_aid_contribution_dynamic_lists = {
+		context_type = player_context
+		parent_scripted_gui = MD_UN_aid_gui
+		window_name = "IS_UN_aid_contribution_container"
+
+		dirty = global.missile_ui_updated
+
+		visible = {
+			has_country_flag = open_MD_countrymissilesview
+			check_variable = { var_open_MD_UN_gui = 2 }
+			check_variable = { var_open_MD_un_aid = 2 }
+		}
+
+		dynamic_lists = {
+			list_of_aid_contributors = {
+				array = global.UN_budget_contribution_tracker
+				entry_container = IS_UN_aid_contribution_list
+				change_scope = yes
+			}
+		}
+	}
+
+	is_un_aid_recipients_dynamic_lists = {
+		context_type = player_context
+		partent_scripted_gui = MD_UN_aid_gui
+		window_name = "IS_UN_aid_recipients"
+
+		dirty = global.missile_ui_updated
+
+		visible = {
+			has_country_flag = open_MD_countrymissilesview
+			check_variable = { var_open_MD_UN_gui = 2 }
+			check_variable = { var_open_MD_un_aid = 2 }
+		}
+
+		dynamic_lists = {
+			list_of_unesco_recipients = {
+				array = global.unesco_recipients
+				entry_container = IS_UN_aid_unesco_list
+				change_scope = yes
+			}
+			list_of_unido_recipients = {
+				array = global.unido_recipients
+				entry_container = IS_UN_aid_ido_list
+				change_scope = yes
+			}
+			list_of_uncdf_recipients = {
+				array = global.uncdf_recipients
+				entry_container = IS_UN_aid_cdf_list
 				change_scope = yes
 			}
 		}
