@@ -1743,6 +1743,7 @@ sub_units = {
 		ai_priority = 5
 		priority = 10
 		active = yes
+		can_be_parachuted = yes
 
 		type = {
 			infantry
@@ -2718,6 +2719,8 @@ sub_units = {
 			defence = 0.6
 			movement = 0.1
 		}
+
+		can_be_parachuted = yes
 	}
 	armor_Bat = {
 		sprite = MD4_medium_armor

@@ -640,7 +640,7 @@ USR_Union_state_category = {
 		allowed = { original_tag = SOV }
 		icon = GFX_decision_unionstate_button
 
-		cost = 400
+		cost = 4000
 		days_remove = 100
 
 		visible = {

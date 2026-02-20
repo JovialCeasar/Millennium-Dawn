@@ -1460,6 +1460,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			weap_buff_awacs_3
+			ISR_3
 		}
 
 		dependencies = {

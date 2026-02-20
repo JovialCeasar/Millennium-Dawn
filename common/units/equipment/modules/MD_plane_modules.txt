@@ -6512,6 +6512,45 @@ equipment_modules = {
 		xp_cost = 6
 	}
 
+	ISR_3 = {								## ISR III (Intelligence, Surveillance, Reconnaissance - no radar dome penalty)
+		abbreviation = "isr3"
+		category = plane_awacs_module
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = scout_plane
+
+		forbid_equipment_type_exact_match_for_category = {
+			plane_fighter_weapons = scout_plane
+			plane_intercept_weapons = scout_plane
+			plane_heavy_nav_weapons = scout_plane
+			plane_cas_weapons = scout_plane
+			plane_nav_weapons = scout_plane
+			plane_guided_bombs = scout_plane
+			plane_heavy_modules = scout_plane
+			plane_multipurpose_gun = scout_plane
+			plane_bomb_bay = scout_plane
+			plane_stealth_weapons = scout_plane
+			plane_stealth_mr_weapons = scout_plane
+			plane_stealth_cas_weapons = scout_plane
+		}
+
+		add_stats = {
+			air_superiority = 50
+			build_cost_ic = 132.5
+			weight = 18
+		}
+
+		build_cost_resources = {
+			aluminium = 1
+			microchips = 1
+		}
+
+		allow_mission_type = {
+			recon
+			naval_patrol
+		}
+		xp_cost = 6
+	}
+
 	weap_buff_awacs_4 = {
 		abbreviation = "awacs4"
 		category = plane_awacs_module

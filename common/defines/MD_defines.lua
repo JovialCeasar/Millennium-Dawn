@@ -65,6 +65,7 @@
 	NDefines.NDiplomacy.EMBARGO_NEIGHBOUR_AI_WEIGHT = -15
 	NDefines.NDiplomacy.EMBARGO_RECIPIENT_IS_MAJOR_AI_WEIGHT = 5
 	NDefines.NDiplomacy.EMBARGO_COST = 50									-- One-time cost
+	NDefines.NDiplomacy.AUTONOMY_LEVEL_CHANGE_PP_ANNEX = 3000				-- Cost in PP to annex a subject via subject screen (base game 300)
 
 	-- Faction related stuff
 	NDefines.NDiplomacy.TRUCE_PERIOD_AFTER_KICKING_FROM_FACTION = 30				-- Truce period after kicking someone from faction in days.

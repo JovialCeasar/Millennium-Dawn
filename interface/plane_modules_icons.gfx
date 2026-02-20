@@ -1033,6 +1033,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/modules/plane_builder/support/special_awacs_3.dds"
 	}
 	spriteType = {
+		name = "GFX_EMI_ISR_3"
+		texturefile = "gfx/interface/technologies/modules/plane_builder/support/special_awacs_3.dds"
+	}
+	spriteType = {
 		name = "GFX_EMI_weap_buff_transport"
 		texturefile = "gfx/interface/technologies/modules/plane_builder/support/special_cargo_1.dds"
 	}

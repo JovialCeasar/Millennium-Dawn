@@ -4283,9 +4283,6 @@ types = {
 
 		# Can prepare
 		available = {
-			FROM = {
-				is_subject_of = ROOT
-			}
 			has_tech = special_forces
 			custom_trigger_tooltip = {
 				tooltip = has_spec_ops_4_TT
