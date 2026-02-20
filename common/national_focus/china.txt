@@ -15710,10 +15710,12 @@ focus_tree = {
 		prerequisite = { focus = CHI_Strike_Across_the_Himalayas }
 		prerequisite = { focus = CHI_String_of_Pearls }
 
-		available = { AND = { country_exists = NEP
-							   NOT = { NEP = { is_subject_of = CHI } }
-							 }
-					}
+		available = {
+			AND = {
+				country_exists = NEP
+				NOT = { NEP = { is_subject_of = CHI } }
+			}
+		}
 
 		bypass = { NOT = { country_exists = NEP } }
 
