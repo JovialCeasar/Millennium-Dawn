@@ -37,4 +37,162 @@ debug_decisions = {
 			base = 0
 		}
 	}
+	ct_force_relocate_backfilled_hqs = {
+		icon = GFX_decision_Decision_tree_smol
+
+		cost = 0
+		days_remove = 1
+
+		visible = {
+			has_global_flag = ct_org_backfill_v3_done
+			check_variable = { global.active_terror_orgs^num >= 7 }
+		}
+
+		complete_effect = {
+			clr_global_flag = ct_org_hq_relocate_v4_done
+			ct_relocate_backfilled_org_hqs = yes
+			set_global_flag = { flag = ct_org_hq_relocate_v4_done value = 1 }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	spawn_uganda_rwanda_starting_units = {
+		icon = GFX_decision_Decision_tree_smol
+
+		cost = 0
+		days_remove = 1
+
+		visible = {
+			country_exists = UGA
+			country_exists = RWA
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision spawn_uganda_rwanda_starting_units"
+			if = {
+				limit = { country_exists = UGA }
+				UGA = {
+					capital_scope = {
+						create_unit = {
+							division = "name = \"50th Armored Brigade\" division_template = \"Armored Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = UGA
+						}
+						create_unit = {
+							division = "name = \"8th Armored Brigade\" division_template = \"Armored Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = UGA
+						}
+						create_unit = {
+							division = "name = \"74th Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = UGA
+						}
+						create_unit = {
+							division = "name = \"50th Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = UGA
+						}
+						create_unit = {
+							division = "name = \"23rd Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = UGA
+						}
+						create_unit = {
+							division = "name = \"15th Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = UGA
+						}
+						create_unit = {
+							division = "name = \"32nd Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = UGA
+						}
+						create_unit = {
+							division = "name = \"46th Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = UGA
+						}
+						create_unit = {
+							division = "name = \"28th Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = UGA
+						}
+						create_unit = {
+							division = "name = \"84th Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = UGA
+						}
+						create_unit = {
+							division = "name = \"68th Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = UGA
+						}
+						create_unit = {
+							division = "name = \"13th Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = UGA
+						}
+						create_unit = {
+							division = "name = \"86th Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = UGA
+						}
+						create_unit = {
+							division = "name = \"72nd Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = UGA
+						}
+					}
+				}
+			}
+			if = {
+				limit = { country_exists = RWA }
+				RWA = {
+					capital_scope = {
+						create_unit = {
+							division = "name = \"11th Infantry Brigade\" division_template = \"Mechanised Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RWA
+						}
+						create_unit = {
+							division = "name = \"12th Infantry Brigade\" division_template = \"Mechanised Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RWA
+						}
+						create_unit = {
+							division = "name = \"13th Armoured Brigade\" division_template = \"Armoured Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RWA
+						}
+						create_unit = {
+							division = "name = \"21st Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RWA
+						}
+						create_unit = {
+							division = "name = \"22nd Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RWA
+						}
+						create_unit = {
+							division = "name = \"23rd Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RWA
+						}
+						create_unit = {
+							division = "name = \"31st Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RWA
+						}
+						create_unit = {
+							division = "name = \"32nd Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RWA
+						}
+						create_unit = {
+							division = "name = \"33rd Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RWA
+						}
+						create_unit = {
+							division = "name = \"41st Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RWA
+						}
+						create_unit = {
+							division = "name = \"42nd Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RWA
+						}
+						create_unit = {
+							division = "name = \"43rd Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RWA
+						}
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
 }

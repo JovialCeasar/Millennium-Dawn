@@ -202,9 +202,11 @@ default = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/USA/AIR/UAV3.dds"
+				"gfx/interface/technologies/TUR/AIR/UAV2.dds"
 			}
 			models = {
 				USA_small_plane_suicide_airframe_3_entity
+				TUR_bayraktarmius_entity
 			}
 		}
 	}
@@ -213,9 +215,11 @@ default = {
 			icons = {
 				"gfx/interface/technologies/USA/AIR/UAV3.dds"
 				"gfx/interface/technologies/USA/AIR/UAV4.dds"
+				"gfx/interface/technologies/TUR/AIR/UAV2.dds"
 			}
 			models = {
 				USA_small_plane_suicide_airframe_3_entity
+				TUR_bayraktarmius_entity
 			}
 		}
 	}
@@ -1730,9 +1734,11 @@ USA = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/USA/AIR/UAV3.dds"
+				"gfx/interface/technologies/TUR/AIR/UAV2.dds"
 			}
 			models = {
 				USA_small_plane_suicide_airframe_3_entity
+				TUR_bayraktarmius_entity
 			}
 		}
 	}
@@ -1741,9 +1747,11 @@ USA = {
 			icons = {
 				"gfx/interface/technologies/USA/AIR/UAV3.dds"
 				"gfx/interface/technologies/USA/AIR/UAV4.dds"
+				"gfx/interface/technologies/TUR/AIR/UAV2.dds"
 			}
 			models = {
 				USA_small_plane_suicide_airframe_3_entity
+				TUR_bayraktarmius_entity
 			}
 		}
 	}

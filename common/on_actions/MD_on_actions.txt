@@ -1,5 +1,18 @@
 # Author(s): Angriest Bird
 on_actions = {
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					has_global_flag = ct_org_backfill_v3_done
+					NOT = { has_global_flag = ct_org_hq_relocate_v4_done }
+					check_variable = { global.active_terror_orgs^num >= 7 }
+				}
+				ct_relocate_backfilled_org_hqs = yes
+				set_global_flag = { flag = ct_org_hq_relocate_v4_done value = 1 }
+			}
+		}
+	}
 	on_weekly = {
 		effect = {
 			worker_requirements_variable_gdpc_converging = yes
@@ -158,6 +171,24 @@ on_actions = {
 				}
 
 				NATO_CSTO_calculate_number_of_batallions = yes
+			}
+
+			if = {
+				limit = {
+					NOT = { has_global_flag = ct_org_backfill_v3_done }
+				}
+				counter_terror_backfill_missing_orgs = yes
+				set_global_flag = { flag = ct_org_backfill_v3_done value = 1 }
+			}
+
+			if = {
+				limit = {
+					has_global_flag = ct_org_backfill_v3_done
+					NOT = { has_global_flag = ct_org_hq_relocate_v4_done }
+					check_variable = { global.active_terror_orgs^num >= 7 }
+				}
+				ct_relocate_backfilled_org_hqs = yes
+				set_global_flag = { flag = ct_org_hq_relocate_v4_done value = 1 }
 			}
 
 			if = {

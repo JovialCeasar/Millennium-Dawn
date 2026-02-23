@@ -1286,6 +1286,7 @@ technologies = {
 			avionics_manned_4
 			em_lock_detection_system_gen3
 			sensors_and_avionics_gen_4
+			combat_cloud_ewa_1
 		}
 
 		path = {

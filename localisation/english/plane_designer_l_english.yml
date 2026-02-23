@@ -721,6 +721,8 @@
  weap_buff_awacs_2_desc: "Modern AWACS Radar and Data-Link Systems\n\n§GDesigner Hint: AWACS systems will provide a significant air superiority buff to your forces while flying air-recon missions, providing that buff per aircraft in the squadron flying the mission§!\n\n§WUsing this as the primary weapon will create an§! §BAWACS aircraft§!"
  weap_buff_awacs_3: "Future AWACS System"
  weap_buff_awacs_3_desc: "Future AWACS Radar, Data-Link, and Drone linked systems.\n\n§GDesigner Hint: AWACS systems will provide a significant air superiority buff to your forces while flying air-recon missions, providing that buff per aircraft in the squadron flying the mission§!\n\n§WUsing this as the primary weapon will create an§! §BAWACS aircraft§!"
+ combat_cloud_ewa_1: "Combat Cloud EWA"
+ combat_cloud_ewa_1_desc: "Combat Cloud electronic warfare and awareness package for recon and naval patrol missions. Buffs allied aircraft and penalizes enemy units in the same airspace via air superiority.\n\n§GDesigner Hint: Use on recon or naval patrol aircraft; provides air superiority effect per aircraft in the squadron§!"
  weap_multi_at_1: "Early AT Gun"
  weap_multi_at_1_desc: "Early aircraft mounted anti-tank guns, designed to penetrate WWII era armor.\n\n§GDesigner Hint: Use this gun slot when designing a ground attack aircraft, for increased CAS and strike damage.§!"
  weap_multi_at_2: "Cold War AT Gun"

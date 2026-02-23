@@ -541,6 +541,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_multipurpose_gun
+					plane_awacs_module
 				}
 			}
 			fixed_auxiliary_weapon_slot_1 = {
@@ -555,6 +556,7 @@ equipments = {
 					plane_guided_bombs
 					plane_nav_weapons
 					plane_heavy_nav_weapons
+					plane_awacs_module
 				}
 			}
 			engine_type_slot = {
@@ -679,6 +681,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_multipurpose_gun
+					plane_awacs_module
 				}
 			}
 			fixed_auxiliary_weapon_slot_1 = {
@@ -693,6 +696,7 @@ equipments = {
 					plane_guided_bombs
 					plane_nav_weapons
 					plane_heavy_nav_weapons
+					plane_awacs_module
 				}
 			}
 			fixed_auxiliary_weapon_slot_2 = {
@@ -707,6 +711,7 @@ equipments = {
 					plane_guided_bombs
 					plane_nav_weapons
 					plane_heavy_nav_weapons
+					plane_awacs_module
 				}
 			}
 			engine_type_slot = {
@@ -844,6 +849,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_multipurpose_gun
+					plane_awacs_module
 				}
 			}
 			fixed_auxiliary_weapon_slot_1 = {
@@ -858,6 +864,7 @@ equipments = {
 					plane_guided_bombs
 					plane_nav_weapons
 					plane_heavy_nav_weapons
+					plane_awacs_module
 				}
 			}
 			fixed_auxiliary_weapon_slot_2 = {
@@ -872,6 +879,7 @@ equipments = {
 					plane_guided_bombs
 					plane_nav_weapons
 					plane_heavy_nav_weapons
+					plane_awacs_module
 				}
 			}
 			engine_type_slot = {
@@ -1009,6 +1017,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_multipurpose_gun
+					plane_awacs_module
 				}
 			}
 			fixed_auxiliary_weapon_slot_1 = {
@@ -1023,6 +1032,7 @@ equipments = {
 					plane_guided_bombs
 					plane_nav_weapons
 					plane_heavy_nav_weapons
+					plane_awacs_module
 				}
 			}
 			fixed_auxiliary_weapon_slot_2 = {
@@ -1037,6 +1047,7 @@ equipments = {
 					plane_guided_bombs
 					plane_nav_weapons
 					plane_heavy_nav_weapons
+					plane_awacs_module
 				}
 			}
 			engine_type_slot = {
@@ -1685,6 +1696,7 @@ equipments = {
 					plane_guided_bombs
 					plane_nav_weapons
 					plane_heavy_nav_weapons
+					plane_awacs_module
 				}
 			}
 			engine_type_slot = {
@@ -1823,6 +1835,7 @@ equipments = {
 					plane_guided_bombs
 					plane_nav_weapons
 					plane_heavy_nav_weapons
+					plane_awacs_module
 				}
 			}
 			fixed_auxiliary_weapon_slot_2 = {
@@ -1836,6 +1849,7 @@ equipments = {
 					plane_guided_bombs
 					plane_nav_weapons
 					plane_heavy_nav_weapons
+					plane_awacs_module
 				}
 			}
 			engine_type_slot = {
@@ -1972,6 +1986,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_multipurpose_gun
+					plane_awacs_module
 				}
 			}
 			fixed_auxiliary_weapon_slot_1 = {
@@ -1986,6 +2001,7 @@ equipments = {
 					plane_guided_bombs
 					plane_nav_weapons
 					plane_heavy_nav_weapons
+					plane_awacs_module
 				}
 			}
 			fixed_auxiliary_weapon_slot_2 = {
@@ -1999,6 +2015,7 @@ equipments = {
 					plane_guided_bombs
 					plane_nav_weapons
 					plane_heavy_nav_weapons
+					plane_awacs_module
 				}
 			}
 			engine_type_slot = {
@@ -2135,6 +2152,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					plane_multipurpose_gun
+					plane_awacs_module
 				}
 			}
 			fixed_auxiliary_weapon_slot_1 = {
@@ -2149,6 +2167,7 @@ equipments = {
 					plane_guided_bombs
 					plane_nav_weapons
 					plane_heavy_nav_weapons
+					plane_awacs_module
 				}
 			}
 			fixed_auxiliary_weapon_slot_2 = {
@@ -2162,6 +2181,7 @@ equipments = {
 					plane_guided_bombs
 					plane_nav_weapons
 					plane_heavy_nav_weapons
+					plane_awacs_module
 				}
 			}
 			engine_type_slot = {
@@ -5409,6 +5429,7 @@ equipments = {
 					plane_gunship_modules
 					plane_cas_weapons
 					plane_awacs_module
+					plane_drone_systems
 				}
 			}
 			fixed_auxiliary_weapon_slot_1 = {
@@ -5421,6 +5442,7 @@ equipments = {
 					plane_heavy_nav_weapons
 					plane_gunship_modules
 					plane_cas_weapons
+					plane_awacs_module
 				}
 			}
 			fixed_auxiliary_weapon_slot_2 = {
@@ -5433,6 +5455,7 @@ equipments = {
 					plane_heavy_nav_weapons
 					plane_gunship_modules
 					plane_cas_weapons
+					plane_awacs_module
 				}
 			}
 			fixed_auxiliary_weapon_slot_3 = {

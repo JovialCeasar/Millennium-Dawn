@@ -16,7 +16,15 @@ counter_terror_nation_startup = {
 	add_to_array = { international_terror_org_intel = 0 }
 	add_to_array = { international_terror_org_intel = 0 }
 	add_to_array = { international_terror_org_intel = 0 }
+	add_to_array = { international_terror_org_intel = 0 }
+	add_to_array = { international_terror_org_intel = 0 }
+	add_to_array = { international_terror_org_intel = 0 }
+	add_to_array = { international_terror_org_intel = 0 }
 
+	add_to_array = { international_terror_org_specific_intel = 0 }
+	add_to_array = { international_terror_org_specific_intel = 0 }
+	add_to_array = { international_terror_org_specific_intel = 0 }
+	add_to_array = { international_terror_org_specific_intel = 0 }
 	add_to_array = { international_terror_org_specific_intel = 0 }
 	add_to_array = { international_terror_org_specific_intel = 0 }
 	add_to_array = { international_terror_org_specific_intel = 0 }
@@ -24,7 +32,15 @@ counter_terror_nation_startup = {
 	add_to_array = { international_terror_org_temp_specific_intel = 0 }
 	add_to_array = { international_terror_org_temp_specific_intel = 0 }
 	add_to_array = { international_terror_org_temp_specific_intel = 0 }
+	add_to_array = { international_terror_org_temp_specific_intel = 0 }
+	add_to_array = { international_terror_org_temp_specific_intel = 0 }
+	add_to_array = { international_terror_org_temp_specific_intel = 0 }
+	add_to_array = { international_terror_org_temp_specific_intel = 0 }
 
+	add_to_array = { ct_mass_gather_store_var = 0 }
+	add_to_array = { ct_mass_gather_store_var = 0 }
+	add_to_array = { ct_mass_gather_store_var = 0 }
+	add_to_array = { ct_mass_gather_store_var = 0 }
 	add_to_array = { ct_mass_gather_store_var = 0 }
 	add_to_array = { ct_mass_gather_store_var = 0 }
 	add_to_array = { ct_mass_gather_store_var = 0 }
@@ -47,6 +63,208 @@ counter_terror_global_setup = {
 	set_starting_org_locations = yes
 	set_starting_org_values = yes
 	create_staggered_cycle = yes
+}
+
+# Save compatibility migration:
+# If a terror org id exists in neither active nor inactive arrays,
+# add it as active and backfill all aligned CT arrays.
+ct_backfill_activate_org_if_missing = {
+	if = {
+		limit = {
+			NOT = { is_in_array = { global.active_terror_orgs = ct_org_id } }
+		}
+
+		if = {
+			limit = { is_in_array = { global.inactive_terror_orgs = ct_org_id } }
+			remove_from_array = { global.inactive_terror_orgs = ct_org_id }
+		}
+
+		add_to_array = { global.active_terror_orgs = ct_org_id }
+
+		set_temp_variable_to_random = {
+			var = starting_threat
+			min = 10
+			max = 25
+			integer = yes
+		}
+		set_temp_variable_to_random = {
+			var = starting_vis
+			min = 5
+			max = 15
+		}
+
+		add_to_array = { global.active_terror_org_threat_lvl = starting_threat }
+		add_to_array = { global.active_terror_org_vis_lvl = starting_vis }
+
+		if = {
+			limit = { check_variable = { ct_org_id = 3 } }
+			add_to_temp_array = { ct_hq_states = 312 }
+			add_to_temp_array = { ct_hq_states = 325 }
+			add_to_temp_array = { ct_hq_states = 227 }
+			add_to_temp_array = { ct_hq_states = 226 }
+			set_temp_variable_to_random = { var = ct_hq_pick min = 0 max = 3 integer = yes }
+			var:ct_hq_states^ct_hq_pick = {
+				set_state_flag = is_regional_terror_base
+				add_to_array = { global.active_terror_hq = ct_hq_states^ct_hq_pick }
+				add_to_array = { global.active_terror_hq_country = controller }
+			}
+		}
+		else_if = {
+			limit = { check_variable = { ct_org_id = 4 } }
+			add_to_temp_array = { ct_hq_states = 640 }
+			add_to_temp_array = { ct_hq_states = 639 }
+			add_to_temp_array = { ct_hq_states = 629 }
+			add_to_temp_array = { ct_hq_states = 635 }
+			set_temp_variable_to_random = { var = ct_hq_pick min = 0 max = 3 integer = yes }
+			var:ct_hq_states^ct_hq_pick = {
+				set_state_flag = is_regional_terror_base
+				add_to_array = { global.active_terror_hq = ct_hq_states^ct_hq_pick }
+				controller = {
+					add_to_array = { global.active_terror_hq_country = THIS }
+				}
+			}
+		}
+		else_if = {
+			limit = { check_variable = { ct_org_id = 5 } }
+			add_to_temp_array = { ct_hq_states = 421 }
+			add_to_temp_array = { ct_hq_states = 427 }
+			add_to_temp_array = { ct_hq_states = 993 }
+			add_to_temp_array = { ct_hq_states = 591 }
+			set_temp_variable_to_random = { var = ct_hq_pick min = 0 max = 3 integer = yes }
+			var:ct_hq_states^ct_hq_pick = {
+				set_state_flag = is_regional_terror_base
+				add_to_array = { global.active_terror_hq = ct_hq_states^ct_hq_pick }
+				controller = {
+					add_to_array = { global.active_terror_hq_country = THIS }
+				}
+			}
+		}
+		else_if = {
+			limit = { check_variable = { ct_org_id = 6 } }
+			add_to_temp_array = { ct_hq_states = 737 }
+			add_to_temp_array = { ct_hq_states = 738 }
+			add_to_temp_array = { ct_hq_states = 739 }
+			set_temp_variable_to_random = { var = ct_hq_pick min = 0 max = 2 integer = yes }
+			var:ct_hq_states^ct_hq_pick = {
+				set_state_flag = is_regional_terror_base
+				add_to_array = { global.active_terror_hq = ct_hq_states^ct_hq_pick }
+				controller = {
+					add_to_array = { global.active_terror_hq_country = THIS }
+				}
+			}
+		}
+		else = {
+			set_temp_variable = { ct_hq_max = global.active_terror_hq^num }
+			if = {
+				limit = { check_variable = { ct_hq_max > 0 } }
+				subtract_from_temp_variable = { ct_hq_max = 1 }
+				set_temp_variable_to_random = {
+					var = ct_random_hq_index
+					min = 0
+					max = ct_hq_max
+					integer = yes
+				}
+				var:global.active_terror_hq^ct_random_hq_index = { set_state_flag = is_regional_terror_base }
+				add_to_array = { global.active_terror_hq = global.active_terror_hq^ct_random_hq_index }
+				add_to_array = { global.active_terror_hq_country = global.active_terror_hq_country^ct_random_hq_index }
+			}
+			else = {
+				add_to_array = { global.active_terror_hq = 415 }
+				415 = {
+					set_state_flag = is_regional_terror_base
+					controller = {
+						add_to_array = { global.active_terror_hq_country = THIS }
+					}
+				}
+			}
+		}
+
+		every_country = {
+			add_to_array = { international_terror_org_intel = 0 }
+			add_to_array = { international_terror_org_specific_intel = 0 }
+			add_to_array = { international_terror_org_temp_specific_intel = 0 }
+			add_to_array = { ct_mass_gather_store_var = 0 }
+		}
+	}
+}
+
+counter_terror_backfill_missing_orgs = {
+	set_temp_variable = { ct_org_id = 3 }
+	ct_backfill_activate_org_if_missing = yes
+	set_temp_variable = { ct_org_id = 4 }
+	ct_backfill_activate_org_if_missing = yes
+	set_temp_variable = { ct_org_id = 5 }
+	ct_backfill_activate_org_if_missing = yes
+	set_temp_variable = { ct_org_id = 6 }
+	ct_backfill_activate_org_if_missing = yes
+
+	missile_ui_update = yes
+}
+
+# One-time migration: relocate backfilled orgs 3–6 to their org-specific HQ regions.
+ct_relocate_backfilled_org_hqs = {
+	add_to_temp_array = { ct_reloc_lra = 312 }
+	add_to_temp_array = { ct_reloc_lra = 325 }
+	add_to_temp_array = { ct_reloc_lra = 227 }
+	add_to_temp_array = { ct_reloc_lra = 226 }
+	set_temp_variable_to_random = { var = ct_reloc_pick min = 0 max = 3 integer = yes }
+	set_temp_variable = { ct_reloc_new_hq = ct_reloc_lra^ct_reloc_pick }
+	remove_from_array = { array = global.active_terror_hq index = 3 }
+	add_to_array = { array = global.active_terror_hq value = ct_reloc_new_hq index = 3 }
+	var:ct_reloc_new_hq = {
+		set_state_flag = is_regional_terror_base
+		remove_from_array = { array = global.active_terror_hq_country index = 3 }
+		controller = {
+			add_to_array = { array = global.active_terror_hq_country value = THIS index = 3 }
+		}
+	}
+
+	add_to_temp_array = { ct_reloc_ji = 640 }
+	add_to_temp_array = { ct_reloc_ji = 639 }
+	add_to_temp_array = { ct_reloc_ji = 629 }
+	add_to_temp_array = { ct_reloc_ji = 635 }
+	set_temp_variable_to_random = { var = ct_reloc_pick min = 0 max = 3 integer = yes }
+	set_temp_variable = { ct_reloc_new_hq = ct_reloc_ji^ct_reloc_pick }
+	remove_from_array = { array = global.active_terror_hq index = 4 }
+	add_to_array = { array = global.active_terror_hq value = ct_reloc_new_hq index = 4 }
+	var:ct_reloc_new_hq = {
+		set_state_flag = is_regional_terror_base
+		remove_from_array = { array = global.active_terror_hq_country index = 4 }
+		controller = {
+			add_to_array = { array = global.active_terror_hq_country value = THIS index = 4 }
+		}
+	}
+
+	add_to_temp_array = { ct_reloc_let = 421 }
+	add_to_temp_array = { ct_reloc_let = 427 }
+	add_to_temp_array = { ct_reloc_let = 993 }
+	add_to_temp_array = { ct_reloc_let = 591 }
+	set_temp_variable_to_random = { var = ct_reloc_pick min = 0 max = 3 integer = yes }
+	set_temp_variable = { ct_reloc_new_hq = ct_reloc_let^ct_reloc_pick }
+	remove_from_array = { array = global.active_terror_hq index = 5 }
+	add_to_array = { array = global.active_terror_hq value = ct_reloc_new_hq index = 5 }
+	var:ct_reloc_new_hq = {
+		set_state_flag = is_regional_terror_base
+		remove_from_array = { array = global.active_terror_hq_country index = 5 }
+		controller = {
+			add_to_array = { array = global.active_terror_hq_country value = THIS index = 5 }
+		}
+	}
+
+	add_to_temp_array = { ct_reloc_as = 737 }
+	add_to_temp_array = { ct_reloc_as = 738 }
+	add_to_temp_array = { ct_reloc_as = 739 }
+	set_temp_variable_to_random = { var = ct_reloc_pick min = 0 max = 2 integer = yes }
+	set_temp_variable = { ct_reloc_new_hq = ct_reloc_as^ct_reloc_pick }
+	remove_from_array = { array = global.active_terror_hq index = 6 }
+	add_to_array = { array = global.active_terror_hq value = ct_reloc_new_hq index = 6 }
+	var:ct_reloc_new_hq = {
+		set_state_flag = is_regional_terror_base
+		remove_from_array = { array = global.active_terror_hq_country index = 6 }
+		controller = {
+			add_to_array = { array = global.active_terror_hq_country value = THIS index = 6 }
+		}
+	}
 }
 
 create_staggered_cycle = {
@@ -370,7 +588,9 @@ set_starting_org_locations = {
 		index = i
 
 		var:v = {
-			add_to_array = { global.active_terror_hq_country = controller }
+			controller = {
+				add_to_array = { global.active_terror_hq_country = THIS }
+			}
 		}
 	}
 }
@@ -777,7 +997,9 @@ global_war_on_terror = {
 			index = i
 
 			var:v = {
-				add_to_array = { global.active_terror_hq_country = controller }
+				controller = {
+					add_to_array = { global.active_terror_hq_country = THIS }
+				}
 			}
 		}
 
