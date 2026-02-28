@@ -1,4 +1,4 @@
-﻿## RUSSIA FOCUS TREE
+## RUSSIA FOCUS TREE
 ## Authors: LordBogdanoff,heastel, alexmarkel0v, crocomoth, BoNDeX, DarkCloud, Reid, PAKMAN, scotch and BirdyBoi
 focus_tree = {
 	id = russia_focus
@@ -2745,9 +2745,12 @@ focus_tree = {
 				}
 			}
 			else = {
-				random_country = {
-					limit = { owns_state = 669 }
-					country_event = { id = russia.7 days = 1 }
+				if = {
+					limit = { NOT = { SOV = { owns_state = 669 } } }
+					random_country = {
+						limit = { owns_state = 669 }
+						country_event = { id = russia.7 days = 1 }
+					}
 				}
 			}
 		}

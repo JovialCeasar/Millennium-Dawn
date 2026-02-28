@@ -61,12 +61,12 @@ debug_decisions = {
 	spawn_uganda_rwanda_starting_units = {
 		icon = GFX_decision_Decision_tree_smol
 
+		allowed = { always = yes }
 		cost = 0
 		days_remove = 1
 
 		visible = {
-			country_exists = UGA
-			country_exists = RWA
+			always = yes
 		}
 
 		complete_effect = {
@@ -185,6 +185,53 @@ debug_decisions = {
 						create_unit = {
 							division = "name = \"43rd Infantry Brigade\" division_template = \"Infantry Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
 							owner = RWA
+						}
+					}
+				}
+			}
+			if = {
+				limit = { country_exists = RCD }
+				RCD = {
+					capital_scope = {
+						create_unit = {
+							division = "name = \"1ère Brigade\" division_template = \"Brigade d'Infanterie\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RCD
+						}
+						create_unit = {
+							division = "name = \"2e Brigade\" division_template = \"Brigade d'Infanterie\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RCD
+						}
+						create_unit = {
+							division = "name = \"3ème Brigade\" division_template = \"Brigade d'Infanterie\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RCD
+						}
+						create_unit = {
+							division = "name = \"4ème Brigade\" division_template = \"Brigade d'RCD\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RCD
+						}
+						create_unit = {
+							division = "name = \"5ème Brigade\" division_template = \"Brigade d'RCD\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RCD
+						}
+						create_unit = {
+							division = "name = \"6ème Brigade\" division_template = \"Brigade d'RCD\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RCD
+						}
+						create_unit = {
+							division = "name = \"7ème Brigade\" division_template = \"Brigade d'RCD\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RCD
+						}
+						create_unit = {
+							division = "name = \"8ème Brigade\" division_template = \"Brigade d'RCD\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RCD
+						}
+						create_unit = {
+							division = "name = \"9ème Brigade\" division_template = \"Brigade d'RCD\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RCD
+						}
+						create_unit = {
+							division = "name = \"10ème Brigade\" division_template = \"Brigade d'RCD\" start_experience_factor = 0.1 start_equipment_factor = 0.01"
+							owner = RCD
 						}
 					}
 				}
