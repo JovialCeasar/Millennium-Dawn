@@ -1,4 +1,4 @@
-﻿add_namespace = radicalization
+add_namespace = radicalization
 add_namespace = terror
 add_namespace = MD_terror
 

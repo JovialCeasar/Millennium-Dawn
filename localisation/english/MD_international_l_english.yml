@@ -755,7 +755,6 @@
  terror_ct_training_mission: "Counter-Terror Training Exercise"
  terror_conduct_raid: "Conducting Counter-Terror Raids"
  terror_conduct_strike: "Conducting Counter-Terror Air Strikes"
-
  IS_radicalization_text: "Radicalization"
 
  CT_national_selected_nation_display_text: "[?var:ct_state_selected.GetName] [?var:ct_state_selected.GetFlag]"
@@ -951,3 +950,6 @@
  MD_terror.16.t: "[FROM.GetName] refuses Advisors!"
  MD_terror.16.d: "[FROM.GetName] has refused to allow our counter-terror advisors into their country."
  MD_terror.16.a: "Well, it's their loss."
+
+ MD_terror.20.t: "Reset Raid State (Debug)"
+ MD_terror.20.d: "Raid UI state cleared; Iran (Persia) CT raid flags reset if present. Trigger via console: event MD_terror.20 <TAG>"
