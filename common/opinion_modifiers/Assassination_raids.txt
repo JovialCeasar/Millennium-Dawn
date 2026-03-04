@@ -1,0 +1,15 @@
+#########################################################################
+# OPINION MODIFIERS - Assassination Raids
+##########################################################################
+
+opinion_modifiers = {
+
+	assassination_raid_leader_killed = {
+		value = -150
+	}
+
+	assassination_raid_failed = {
+		value = -50
+	}
+
+}

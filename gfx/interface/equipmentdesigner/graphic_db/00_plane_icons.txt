@@ -1688,6 +1688,7 @@ USA = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/USA/AIR/UAV3.dds"
+				"gfx/interface/technologies/TUR/AIR/UAV2.dds"
 			}
 			models = {
 				USA_small_plane_suicide_airframe_3_entity

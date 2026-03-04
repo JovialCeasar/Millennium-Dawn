@@ -5371,6 +5371,486 @@ types = {
 		}
 	}
 
+	# Assassinate Admiral (Air Strike) - target Capital
+	assassinate_admiral_air = {
+		days_to_prepare = 30
+		days_re_enable = 270
+
+		category = infastructure_strikes
+
+		command_power = 20
+
+		show_target = {
+			OR = {
+				has_war_with = FROM
+				has_wargoal_against = FROM
+				is_justifying_wargoal_against = FROM
+				AND = {
+					has_opinion = {
+						target = FROM
+						value < -50
+					}
+					if = {
+						limit = {
+							has_idea = intervention_limited_interventionism
+						}
+						is_neighbor_of = FROM
+					} else_if = {
+						limit = {
+							has_idea = intervention_regional_interventionism
+						}
+						custom_trigger_tooltip = {
+							tooltip = nation_on_same_continent
+							FROM = {
+								PREV_is_on_same_continent = yes
+							}
+						}
+					}
+				}
+			}
+		}
+
+		available = {
+			FROM = {
+				NOT = {
+					is_subject_of = ROOT
+				}
+				NOT = {
+					has_non_aggression_pact_with = ROOT
+				}
+			}
+			has_tech = special_forces
+			custom_trigger_tooltip = {
+				tooltip = has_spec_ops_4_TT
+				if = {
+					limit = {
+						NOT = {
+							has_tech = special_forces4
+						}
+					}
+					FROM = {
+						PREV_is_on_same_continent = yes
+					}
+				}
+			}
+			OR = {
+				has_wargoal_against = FROM
+				has_war_with = FROM
+				has_opinion = {
+					target = FROM
+					value < 50
+				}
+				hidden_trigger = {
+					has_country_flag = promised_retaliation_against@FROM
+				}
+			}
+			OR = {
+				has_war_with = FROM
+				NOT = {
+					has_country_flag = assassination_raid_cooldown_against_@FROM
+				}
+			}
+		}
+
+		launchable = {
+			OR = {
+				has_war_with = FROM
+				has_political_power > 300
+			}
+			OR = {
+				has_war_with = FROM
+				NOT = {
+					has_country_flag = assassination_raid_cooldown_against_@FROM
+				}
+			}
+		}
+
+		target_type = {
+			state = {
+				is_capital = yes
+			}
+		}
+
+		arrow = {
+			type = air
+		}
+		launch_sound = raid_launch_air
+		target_icon = GFX_other_target_icon
+
+		unit_requirements = {
+			equipment = {
+				type = { tactical_bomber cas strategic_bomber guided_missile_equipment ballistic_missile_equipment hypersonic_missile_equipment }
+				amount = { min = 10 }
+			}
+		}
+
+		starting_point = {
+			types = { air_base carrier rocket_site submarine }
+		}
+
+		success_factors = {
+			success = {
+				base = 0.20
+				experience = {
+					weight = 0.3
+					start_weight = -0.2
+					reference = 1000
+				}
+				air_agility = {
+					reference = 200
+					weight = 0.5
+					start_weight = -0.5
+				}
+				reliability = {
+					reference = 1
+					weight = 0.2
+					start_weight = -0.1
+				}
+				air_defence = {
+					reference = 150
+					weight = 0.2
+					start_weight = -0.2
+				}
+				air_superiority = {
+					reference = 1
+					weight = 0.1
+					start_weight = -0.100
+				}
+				anti_air = {
+					reference = 5
+					weight = -0.25
+				}
+				radar = {
+					reference = 1
+					weight = -0.15
+				}
+				interception = {
+					reference = 500
+					weight = -0.2
+				}
+				intel = {
+					weight = 0.5
+					start_weight = -0.1
+					start_reference = 10
+					reference = 100
+				}
+			}
+			disaster = {
+				base = 0.25
+			}
+			critical = {
+				base = 0.05
+			}
+		}
+
+		success_levels = {
+			failure = {
+				victim_effects = {
+					MD_assassination_raid_failure = yes
+				}
+				actor_effects = {
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+			}
+			limited_success = {
+				victim_effects = {
+					MD_assassination_raid_failure = yes
+				}
+				actor_effects = {
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+			}
+			success = {
+				victim_effects = {
+					MD_assassination_raid_success_admiral = yes
+				}
+				actor_effects = {
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+			}
+			critical_success = {
+				victim_effects = {
+					MD_assassination_raid_success_admiral = yes
+				}
+				actor_effects = {
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	# Assassinate General (Air Strike) - target Capital
+	assassinate_general_air = {
+		days_to_prepare = 30
+		days_re_enable = 270
+
+		category = infastructure_strikes
+
+		command_power = 20
+
+		show_target = {
+			OR = {
+				has_war_with = FROM
+				has_wargoal_against = FROM
+				is_justifying_wargoal_against = FROM
+				AND = {
+					has_opinion = {
+						target = FROM
+						value < -50
+					}
+					if = {
+						limit = {
+							has_idea = intervention_limited_interventionism
+						}
+						is_neighbor_of = FROM
+					} else_if = {
+						limit = {
+							has_idea = intervention_regional_interventionism
+						}
+						custom_trigger_tooltip = {
+							tooltip = nation_on_same_continent
+							FROM = {
+								PREV_is_on_same_continent = yes
+							}
+						}
+					}
+				}
+			}
+		}
+
+		available = {
+			FROM = {
+				NOT = {
+					is_subject_of = ROOT
+				}
+				NOT = {
+					has_non_aggression_pact_with = ROOT
+				}
+			}
+			has_tech = special_forces
+			custom_trigger_tooltip = {
+				tooltip = has_spec_ops_4_TT
+				if = {
+					limit = {
+						NOT = {
+							has_tech = special_forces4
+						}
+					}
+					FROM = {
+						PREV_is_on_same_continent = yes
+					}
+				}
+			}
+			OR = {
+				has_wargoal_against = FROM
+				has_war_with = FROM
+				has_opinion = {
+					target = FROM
+					value < 50
+				}
+				hidden_trigger = {
+					has_country_flag = promised_retaliation_against@FROM
+				}
+			}
+			OR = {
+				has_war_with = FROM
+				NOT = {
+					has_country_flag = assassination_raid_cooldown_against_@FROM
+				}
+			}
+		}
+
+		launchable = {
+			OR = {
+				has_war_with = FROM
+				has_political_power > 300
+			}
+			OR = {
+				has_war_with = FROM
+				NOT = {
+					has_country_flag = assassination_raid_cooldown_against_@FROM
+				}
+			}
+		}
+
+		target_type = {
+			state = {
+				is_capital = yes
+			}
+		}
+
+		arrow = {
+			type = air
+		}
+		launch_sound = raid_launch_air
+		target_icon = GFX_other_target_icon
+
+		unit_requirements = {
+			equipment = {
+				type = { tactical_bomber cas strategic_bomber guided_missile_equipment ballistic_missile_equipment hypersonic_missile_equipment }
+				amount = { min = 10 }
+			}
+		}
+
+		starting_point = {
+			types = { air_base carrier rocket_site submarine }
+		}
+
+		success_factors = {
+			success = {
+				base = 0.20
+				experience = {
+					weight = 0.3
+					start_weight = -0.2
+					reference = 1000
+				}
+				air_agility = {
+					reference = 200
+					weight = 0.5
+					start_weight = -0.5
+				}
+				reliability = {
+					reference = 1
+					weight = 0.2
+					start_weight = -0.1
+				}
+				air_defence = {
+					reference = 150
+					weight = 0.2
+					start_weight = -0.2
+				}
+				air_superiority = {
+					reference = 1
+					weight = 0.1
+					start_weight = -0.100
+				}
+				anti_air = {
+					reference = 5
+					weight = -0.25
+				}
+				radar = {
+					reference = 1
+					weight = -0.15
+				}
+				interception = {
+					reference = 500
+					weight = -0.2
+				}
+				intel = {
+					weight = 0.5
+					start_weight = -0.1
+					start_reference = 10
+					reference = 100
+				}
+			}
+			disaster = {
+				base = 0.25
+			}
+			critical = {
+				base = 0.05
+			}
+		}
+
+		success_levels = {
+			failure = {
+				victim_effects = {
+					MD_assassination_raid_failure = yes
+				}
+				actor_effects = {
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+			}
+			limited_success = {
+				victim_effects = {
+					MD_assassination_raid_failure = yes
+				}
+				actor_effects = {
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+			}
+			success = {
+				victim_effects = {
+					MD_assassination_raid_success_general = yes
+				}
+				actor_effects = {
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+			}
+			critical_success = {
+				victim_effects = {
+					MD_assassination_raid_success_general = yes
+				}
+				actor_effects = {
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
 	PER_raid_hezbollah = {
 		days_to_prepare = 30
 		days_re_enable = 180

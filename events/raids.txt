@@ -938,3 +938,71 @@ news_event = {
 		log = "[GetDateText]: [This.GetName]: MD_raid.17.a executed"
 	}
 }
+
+# Assassination raid success - attacker notification
+country_event = {
+	id = MD_raid.20
+	title = MD_raid.20.t
+	desc = MD_raid.20.d
+	picture = GFX_raid_city_fire
+	is_triggered_only = yes
+
+	option = {
+		name = MD_raid.20.a
+		log = "[GetDateText]: [This.GetName]: MD_raid.20.a executed"
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+# Assassination raid success - victim notification
+country_event = {
+	id = MD_raid.21
+	title = MD_raid.21.t
+	desc = MD_raid.21.d
+	picture = GFX_raid_city_fire
+	is_triggered_only = yes
+
+	option = {
+		name = MD_raid.21.a
+		log = "[GetDateText]: [This.GetName]: MD_raid.21.a executed"
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+# Assassination raid failure - attacker notification
+country_event = {
+	id = MD_raid.22
+	title = MD_raid.22.t
+	desc = MD_raid.22.d
+	picture = GFX_raid_city_fire
+	is_triggered_only = yes
+
+	option = {
+		name = MD_raid.22.a
+		log = "[GetDateText]: [This.GetName]: MD_raid.22.a executed"
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+# Assassination raid failure - victim notification
+country_event = {
+	id = MD_raid.23
+	title = MD_raid.23.t
+	desc = MD_raid.23.d
+	picture = GFX_raid_city_fire
+	is_triggered_only = yes
+
+	option = {
+		name = MD_raid.23.a
+		log = "[GetDateText]: [This.GetName]: MD_raid.23.a executed"
+		ai_chance = {
+			base = 1
+		}
+	}
+}

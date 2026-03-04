@@ -2097,6 +2097,545 @@ types = {
 			#do some checks for nations here, like someone going for nukes will likely be targeted by enemies
 		}
 	}
+
+	# Assassinate Admiral (Special Forces) - target Naval HQ
+	assassinate_admiral_sf = {
+		days_to_prepare = 30
+		days_re_enable = 270
+
+		category = special_forces_raids
+
+		command_power = 20
+
+		arrow = {
+			type = line
+		}
+
+		allowed = {
+		}
+		visible = {
+		}
+		show_target = {
+			OR = {
+				has_war_with = FROM
+				has_wargoal_against = FROM
+				is_justifying_wargoal_against = FROM
+				AND = {
+					has_opinion = {
+						target = FROM
+						value < -50
+					}
+					if = {
+						limit = {
+							has_idea = intervention_limited_interventionism
+						}
+						is_neighbor_of = FROM
+					} else_if = {
+						limit = {
+							has_idea = intervention_regional_interventionism
+						}
+						custom_trigger_tooltip = {
+							tooltip = nation_on_same_continent
+							FROM = {
+								PREV_is_on_same_continent = yes
+							}
+						}
+					}
+				}
+			}
+		}
+
+		available = {
+			FROM = {
+				NOT = {
+					is_subject_of = ROOT
+				}
+				NOT = {
+					has_non_aggression_pact_with = ROOT
+				}
+			}
+			has_tech = special_forces
+			custom_trigger_tooltip = {
+				tooltip = has_spec_ops_4_TT
+				if = {
+					limit = {
+						NOT = {
+							has_tech = special_forces4
+						}
+					}
+					FROM = {
+						PREV_is_on_same_continent = yes
+					}
+				}
+			}
+			OR = {
+				has_wargoal_against = FROM
+				has_war_with = FROM
+				has_opinion = {
+					target = FROM
+					value < 50
+				}
+				hidden_trigger = {
+					has_country_flag = promised_retaliation_against@FROM
+				}
+			}
+			OR = {
+				has_war_with = FROM
+				NOT = {
+					has_country_flag = assassination_raid_cooldown_against_@FROM
+				}
+			}
+		}
+
+		launchable = {
+			OR = {
+				has_war_with = FROM
+				has_political_power > 300
+			}
+			OR = {
+				has_war_with = FROM
+				NOT = {
+					has_country_flag = assassination_raid_cooldown_against_@FROM
+				}
+			}
+		}
+
+		target_type = {
+			building = {
+				type = naval_base
+			}
+		}
+
+		unit_requirements = {
+			battalion_types = {
+				Special_Forces = { min = 5 }
+			}
+		}
+
+		launch_sound = raid_launch_marine
+		target_icon = GFX_other_target_icon
+		starting_point = {
+			types = { air_base naval_base }
+		}
+		success_factors = {
+			success = {
+				base = 0.25
+				experience = {
+					weight = 0.50
+					start_weight = -0.25
+					reference = 0.75
+				}
+				organisation = {
+					weight = 0.20
+					start_weight = -0.10
+					reference = 100
+				}
+				strength = {
+					weight = 0.15
+					start_weight = -0.05
+					reference = 1
+				}
+				recon = {
+					weight = 0.25
+					start_weight = -0.25
+					reference = 10
+				}
+				resistance = {
+					reference = 100
+					start_reference = 20
+					weight = 0.2
+				}
+				intel = {
+					weight = 0.5
+					start_weight = -0.1
+					reference = 100
+					start_reference = 10
+				}
+			}
+			critical = {
+				base = 0.05
+			}
+			disaster = {
+				base = 0.05
+			}
+		}
+
+		success_levels = {
+			failure = {
+				victim_effects = {
+					MD_assassination_raid_failure = yes
+				}
+				actor_effects = {
+					raid_damage_units = {
+						org_damage = 0.40
+						str_damage = 0.20
+						ratio = yes
+					}
+					raid_add_unit_experience = 0.25
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+				division_effects = {
+					add_divisional_commander_xp = 50
+				}
+			}
+			limited_success = {
+				victim_effects = {
+					MD_assassination_raid_failure = yes
+				}
+				actor_effects = {
+					raid_damage_units = {
+						org_damage = 0.3
+						str_damage = 0.1
+						ratio = yes
+					}
+					raid_add_unit_experience = 0.25
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+			}
+			success = {
+				victim_effects = {
+					MD_assassination_raid_success_admiral = yes
+				}
+				actor_effects = {
+					raid_damage_units = {
+						org_damage = 0.15
+						str_damage = 0.05
+						ratio = yes
+					}
+					raid_add_unit_experience = 0.25
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+				division_effects = {
+					add_divisional_commander_xp = 250
+				}
+			}
+			critical_success = {
+				victim_effects = {
+					MD_assassination_raid_success_admiral = yes
+				}
+				actor_effects = {
+					raid_damage_units = {
+						org_damage = 0.1
+						str_damage = 0
+						ratio = yes
+					}
+					var:actor_country = {
+						add_breakthrough_progress = {
+							specialization = all
+							value = 0.3
+						}
+					}
+					raid_add_unit_experience = 0.25
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+				division_effects = {
+					add_divisional_commander_xp = 500
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	# Assassinate General (Special Forces) - target Air Base
+	assassinate_general_sf = {
+		days_to_prepare = 30
+		days_re_enable = 270
+
+		category = special_forces_raids
+
+		command_power = 20
+
+		arrow = {
+			type = line
+		}
+
+		allowed = {
+		}
+		visible = {
+		}
+		show_target = {
+			OR = {
+				has_war_with = FROM
+				has_wargoal_against = FROM
+				is_justifying_wargoal_against = FROM
+				AND = {
+					has_opinion = {
+						target = FROM
+						value < -50
+					}
+					if = {
+						limit = {
+							has_idea = intervention_limited_interventionism
+						}
+						is_neighbor_of = FROM
+					} else_if = {
+						limit = {
+							has_idea = intervention_regional_interventionism
+						}
+						custom_trigger_tooltip = {
+							tooltip = nation_on_same_continent
+							FROM = {
+								PREV_is_on_same_continent = yes
+							}
+						}
+					}
+				}
+			}
+		}
+
+		available = {
+			FROM = {
+				NOT = {
+					is_subject_of = ROOT
+				}
+				NOT = {
+					has_non_aggression_pact_with = ROOT
+				}
+			}
+			has_tech = special_forces
+			custom_trigger_tooltip = {
+				tooltip = has_spec_ops_4_TT
+				if = {
+					limit = {
+						NOT = {
+							has_tech = special_forces4
+						}
+					}
+					FROM = {
+						PREV_is_on_same_continent = yes
+					}
+				}
+			}
+			OR = {
+				has_wargoal_against = FROM
+				has_war_with = FROM
+				has_opinion = {
+					target = FROM
+					value < 50
+				}
+				hidden_trigger = {
+					has_country_flag = promised_retaliation_against@FROM
+				}
+			}
+			OR = {
+				has_war_with = FROM
+				NOT = {
+					has_country_flag = assassination_raid_cooldown_against_@FROM
+				}
+			}
+		}
+
+		launchable = {
+			OR = {
+				has_war_with = FROM
+				has_political_power > 300
+			}
+			OR = {
+				has_war_with = FROM
+				NOT = {
+					has_country_flag = assassination_raid_cooldown_against_@FROM
+				}
+			}
+		}
+
+		target_type = {
+			building = {
+				type = air_base
+			}
+		}
+
+		unit_requirements = {
+			battalion_types = {
+				Special_Forces = { min = 5 }
+			}
+		}
+
+		launch_sound = raid_launch_marine
+		target_icon = GFX_other_target_icon
+		starting_point = {
+			types = { air_base naval_base }
+		}
+		success_factors = {
+			success = {
+				base = 0.25
+				experience = {
+					weight = 0.50
+					start_weight = -0.25
+					reference = 0.75
+				}
+				organisation = {
+					weight = 0.20
+					start_weight = -0.10
+					reference = 100
+				}
+				strength = {
+					weight = 0.15
+					start_weight = -0.05
+					reference = 1
+				}
+				recon = {
+					weight = 0.25
+					start_weight = -0.25
+					reference = 10
+				}
+				resistance = {
+					reference = 100
+					start_reference = 20
+					weight = 0.2
+				}
+				intel = {
+					weight = 0.5
+					start_weight = -0.1
+					reference = 100
+					start_reference = 10
+				}
+			}
+			critical = {
+				base = 0.05
+			}
+			disaster = {
+				base = 0.05
+			}
+		}
+
+		success_levels = {
+			failure = {
+				victim_effects = {
+					MD_assassination_raid_failure = yes
+				}
+				actor_effects = {
+					raid_damage_units = {
+						org_damage = 0.40
+						str_damage = 0.20
+						ratio = yes
+					}
+					raid_add_unit_experience = 0.25
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+				division_effects = {
+					add_divisional_commander_xp = 50
+				}
+			}
+			limited_success = {
+				victim_effects = {
+					MD_assassination_raid_failure = yes
+				}
+				actor_effects = {
+					raid_damage_units = {
+						org_damage = 0.3
+						str_damage = 0.1
+						ratio = yes
+					}
+					raid_add_unit_experience = 0.25
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+			}
+			success = {
+				victim_effects = {
+					MD_assassination_raid_success_general = yes
+				}
+				actor_effects = {
+					raid_damage_units = {
+						org_damage = 0.15
+						str_damage = 0.05
+						ratio = yes
+					}
+					raid_add_unit_experience = 0.25
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+				division_effects = {
+					add_divisional_commander_xp = 250
+				}
+			}
+			critical_success = {
+				victim_effects = {
+					MD_assassination_raid_success_general = yes
+				}
+				actor_effects = {
+					raid_damage_units = {
+						org_damage = 0.1
+						str_damage = 0
+						ratio = yes
+					}
+					var:actor_country = {
+						add_breakthrough_progress = {
+							specialization = all
+							value = 0.3
+						}
+					}
+					raid_add_unit_experience = 0.25
+					var:actor_country = {
+						if = {
+							limit = {
+								NOT = { has_war_with = var:ROOT.victim_country }
+							}
+							add_political_power = -100
+						}
+					}
+				}
+				division_effects = {
+					add_divisional_commander_xp = 500
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
 	# [USA] Capture Venezuelan Leader
 	USA_raid_venezuela = {
 		days_to_prepare = 30

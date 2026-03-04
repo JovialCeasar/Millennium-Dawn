@@ -1,0 +1,145 @@
+# Assassination raid cooldown: set on actor when not at war (call from raid scope)
+MD_assassination_raid_apply_cooldown = {
+	if = {
+		limit = {
+			NOT = { var:actor_country = { has_war_with = var:victim_country } }
+		}
+		var:actor_country = {
+			set_country_flag = {
+				flag = assassination_raid_cooldown_against_@var:victim_country
+				days = 30
+				value = 1
+			}
+		}
+	}
+}
+
+# Admiral assassination success: retire one navy leader if any, else failure path. Call from raid victim_effects (raid scope).
+MD_assassination_raid_success_admiral = {
+	if = {
+		limit = {
+			var:victim_country = {
+				any_navy_leader = {
+					limit = { }
+				}
+			}
+		}
+		var:victim_country = {
+			random_navy_leader = {
+				limit = { }
+				retire = yes
+			}
+			add_opinion_modifier = {
+				target = var:ROOT.actor_country
+				modifier = assassination_raid_leader_killed
+			}
+		}
+		hidden_effect = {
+			var:actor_country = {
+				set_variable = { THIS.target_country = var:ROOT.victim_country }
+				set_variable = { THIS.actor_country = var:ROOT.actor_country }
+				country_event = { id = MD_raid.20 }
+			}
+			var:victim_country = {
+				set_variable = { THIS.actor_country = var:ROOT.actor_country }
+				country_event = { id = MD_raid.21 }
+			}
+		}
+	}
+	else = {
+		var:victim_country = {
+			add_opinion_modifier = {
+				target = var:ROOT.actor_country
+				modifier = assassination_raid_failed
+			}
+		}
+		hidden_effect = {
+			var:actor_country = {
+				set_variable = { THIS.target_country = var:ROOT.victim_country }
+				set_variable = { THIS.actor_country = var:ROOT.actor_country }
+				country_event = { id = MD_raid.22 }
+			}
+			var:victim_country = {
+				set_variable = { THIS.actor_country = var:ROOT.actor_country }
+				country_event = { id = MD_raid.23 }
+			}
+		}
+	}
+	MD_assassination_raid_apply_cooldown = yes
+}
+
+# General assassination success: retire one army leader if any, else failure path. Call from raid victim_effects (raid scope).
+MD_assassination_raid_success_general = {
+	if = {
+		limit = {
+			var:victim_country = {
+				any_army_leader = {
+					limit = { }
+				}
+			}
+		}
+		var:victim_country = {
+			random_army_leader = {
+				limit = { }
+				retire = yes
+			}
+			add_opinion_modifier = {
+				target = var:ROOT.actor_country
+				modifier = assassination_raid_leader_killed
+			}
+		}
+		hidden_effect = {
+			var:actor_country = {
+				set_variable = { THIS.target_country = var:ROOT.victim_country }
+				set_variable = { THIS.actor_country = var:ROOT.actor_country }
+				country_event = { id = MD_raid.20 }
+			}
+			var:victim_country = {
+				set_variable = { THIS.actor_country = var:ROOT.actor_country }
+				country_event = { id = MD_raid.21 }
+			}
+		}
+	}
+	else = {
+		var:victim_country = {
+			add_opinion_modifier = {
+				target = var:ROOT.actor_country
+				modifier = assassination_raid_failed
+			}
+		}
+		hidden_effect = {
+			var:actor_country = {
+				set_variable = { THIS.target_country = var:ROOT.victim_country }
+				set_variable = { THIS.actor_country = var:ROOT.actor_country }
+				country_event = { id = MD_raid.22 }
+			}
+			var:victim_country = {
+				set_variable = { THIS.actor_country = var:ROOT.actor_country }
+				country_event = { id = MD_raid.23 }
+			}
+		}
+	}
+	MD_assassination_raid_apply_cooldown = yes
+}
+
+# Failure-only path: no leader removed, minor relations, fire failure events, apply cooldown. Call from raid victim_effects (raid scope).
+MD_assassination_raid_failure = {
+	var:victim_country = {
+		add_opinion_modifier = {
+			target = var:ROOT.actor_country
+			modifier = assassination_raid_failed
+		}
+	}
+	hidden_effect = {
+		var:actor_country = {
+			set_variable = { THIS.target_country = var:ROOT.victim_country }
+			set_variable = { THIS.actor_country = var:ROOT.actor_country }
+			country_event = { id = MD_raid.22 }
+		}
+		var:victim_country = {
+			set_variable = { THIS.actor_country = var:ROOT.actor_country }
+			country_event = { id = MD_raid.23 }
+		}
+	}
+	MD_assassination_raid_apply_cooldown = yes
+}

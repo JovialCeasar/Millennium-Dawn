@@ -414,6 +414,8 @@
  PER_circumventing_NPT: "Circumventing the NPT"
  danger_to_national_security: "Active Danger to National Security"
  assassinated_qasem_soleimani: "Assassinated Qasem Soleimani"
+ assassination_raid_leader_killed: "Assassinated Our Military Leader"
+ assassination_raid_failed: "Attempted to Assassinate Our Military Leader"
 
  trade_mission: "Trade Mission"
 
