@@ -1693,6 +1693,7 @@ USA = {
 			}
 			models = {
 				USA_small_plane_suicide_airframe_3_entity
+				"USA_RQ190_entity"
 			}
 		}
 	}
@@ -1741,6 +1742,7 @@ USA = {
 			models = {
 				USA_small_plane_suicide_airframe_3_entity
 				TUR_bayraktarmius_entity
+				"USA_RQ190_entity"
 			}
 		}
 	}
@@ -1754,6 +1756,7 @@ USA = {
 			models = {
 				USA_small_plane_suicide_airframe_3_entity
 				TUR_bayraktarmius_entity
+				"USA_RQ190_entity"
 			}
 		}
 	}
@@ -1877,6 +1880,7 @@ USA = {
 			}
 			models = {
 				USA_medium_plane_airframe_4_entity
+				USA_FAxx_entity
 			}
 		}
 	}
@@ -2037,6 +2041,8 @@ USA = {
 			models = {
 				"USA_large_plane_airframe_3_entity" #B-2
 				"USA_sr72_entity"
+				"USA_RQ180_entity"
+				
 			}
 		}
 	}
@@ -2048,6 +2054,8 @@ USA = {
 			models = {
 				"USA_large_plane_airframe_3_entity"
 				"USA_sr72_entity"
+				"USA_RQ180_entity"
+				"USA_B21_entity"
 			}
 		}
 	}

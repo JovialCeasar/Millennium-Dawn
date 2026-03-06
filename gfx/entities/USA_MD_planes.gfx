@@ -261,6 +261,36 @@ objectTypes = {
 		}
 	}
 	pdxmesh = {
+		name = "USA_RQ180_mesh"
+		file = "gfx/models/units/planes/USA/RQ180.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			index = 0
+			texture_diffuse = "RQ180_diffuse.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = {
+		name = "USA_RQ190_mesh"
+		file = "gfx/models/units/planes/USA/RQ190.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			index = 0
+			texture_diffuse = "RQ192_diffuse.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = {
+		name = "USA_B21_mesh"
+		file = "gfx/models/units/planes/USA/B21.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			index = 0
+			texture_diffuse = "B21_diffuse.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = {
 		name = "USA_P3_mesh" #P3 Orion
 		file = "gfx/models/units/planes/USA/P3.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
@@ -453,6 +483,16 @@ objectTypes = {
 		name = "USA_NGAD_mesh"
 		file = "gfx/models/units/planes/USA/NGAD.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "USA_FAxx_mesh"
+		file = "gfx/models/units/planes/USA/FAxx.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			index = 0
+			texture_diffuse = "FAxx_diffuse.dds"
+			shader = "PdxMeshAdvanced"
+		}
 	}
 	pdxmesh = {
 		name = "USA_F15Ceagle_mesh"
