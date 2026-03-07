@@ -110,6 +110,7 @@ USA = {
 			}
 			models = {
 				"USA_attack_submarine_4_entity"
+				"USA_Mantaray_entity"
 			}
 		}
 	}
@@ -120,6 +121,7 @@ USA = {
 			}
 			models = {
 				"USA_attack_submarine_4_entity"
+				"USA_Mantaray_entity"
 			}
 		}
 	}
@@ -130,6 +132,7 @@ USA = {
 			}
 			models = {
 				"USA_attack_submarine_4_entity"
+				"USA_Mantaray_entity"
 			}
 		}
 	}

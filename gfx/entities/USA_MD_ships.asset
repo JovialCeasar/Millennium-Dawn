@@ -186,6 +186,11 @@ entity = {
 	scale = 1.5
 }
 entity = {
+	clone = "USA_attack_submarine_2_entity"
+	name = "USA_Mantaray_entity"
+	pdxmesh = "Mantaray_submarine_mesh"
+}
+entity = {
 	name = "USA_missile_submarine_entity"
 	pdxmesh = "Ohio_submarine_mesh"
 
