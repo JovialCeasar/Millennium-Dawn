@@ -281,6 +281,16 @@ objectTypes = {
 		}
 	}
 	pdxmesh = {
+		name = "USA_xq58_mesh"
+		file = "gfx/models/units/planes/USA/XQ58.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			index = 0
+			texture_diffuse = "XQ58_diffuse.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = {
 		name = "USA_B21_mesh"
 		file = "gfx/models/units/planes/USA/B21.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
