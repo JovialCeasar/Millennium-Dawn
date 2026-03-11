@@ -37,6 +37,52 @@ debug_decisions = {
 			base = 0
 		}
 	}
+	debug_white_peace_SAU_EGY = {
+		icon = GFX_decision_Decision_tree_smol
+		cost = 0
+		days_remove = 1
+
+		visible = {
+			country_exists = SAU
+			country_exists = EGY
+		}
+		available = {
+			SAU = { has_war_with = EGY }
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision debug_white_peace_SAU_EGY"
+			SAU = { white_peace = EGY }
+			EGY = { white_peace = SAU }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	debug_white_peace_YEM_HOU = {
+		icon = GFX_decision_Decision_tree_smol
+		cost = 0
+		days_remove = 1
+
+		visible = {
+			country_exists = YEM
+			country_exists = HOU
+		}
+		available = {
+			HOU = { has_war_with = YEM }
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision debug_white_peace_YEM_HOU"
+			YEM = { white_peace = HOU }
+			HOU = { white_peace = YEM }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
 	ct_force_relocate_backfilled_hqs = {
 		icon = GFX_decision_Decision_tree_smol
 

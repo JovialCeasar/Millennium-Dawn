@@ -291,6 +291,46 @@ objectTypes = {
 		}
 	}
 	pdxmesh = {
+		name = "USA_Andruil_mesh"
+		file = "gfx/models/units/planes/USA/Andruil.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			index = 0
+			texture_diffuse = "Andruil_diffuse.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = {
+		name = "USA_SR73_mesh"
+		file = "gfx/models/units/planes/USA/SR73.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			index = 0
+			texture_diffuse = "SR73_diffuse.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = {
+		name = "USA_Sr74_mesh"
+		file = "gfx/models/units/planes/USA/SR74.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			index = 0
+			texture_diffuse = "SR74_diffuse.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = {
+		name = "USA_X43_mesh"
+		file = "gfx/models/units/planes/USA/X43.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			index = 0
+			texture_diffuse = "X43_diffuse.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = {
 		name = "USA_B21_mesh"
 		file = "gfx/models/units/planes/USA/B21.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
