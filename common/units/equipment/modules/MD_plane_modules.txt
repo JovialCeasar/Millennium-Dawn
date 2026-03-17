@@ -8245,6 +8245,26 @@ equipment_modules = {
 
 		xp_cost = 2
 	}
+	air_module_hypersonic_engine_double_1 = {
+		abbreviation = "hse2"
+		category = plane_light_double
+		sfx = x
+
+		add_stats = {
+			maximum_speed = 2865
+			thrust = 170
+			build_cost_ic = 366
+			fuel_consumption = 8.4
+			reliability = -0.10
+		}
+
+		build_cost_resources = {
+			chromium = 12
+			tungsten = 8
+		}
+
+		xp_cost = 2
+	}
 	air_module_railgun_cannon_1 = {
 		abbreviation = "arc1"
 		category = plane_multipurpose_gun

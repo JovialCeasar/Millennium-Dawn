@@ -2658,6 +2658,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			air_module_hypersonic_engine_2
+			air_module_hypersonic_engine_double_1
 		}
 
 		research_cost = 6
