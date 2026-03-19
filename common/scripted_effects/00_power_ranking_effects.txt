@@ -21,6 +21,7 @@ set_power_ranking_ideas_for_every_country = {
 
 		if = {
 			limit = { has_country_flag = european_nation_flag }
+<<<<<<< HEAD
 			set_variable = { global.idx = global.european_nations^num }
 			for_each_loop = {
 				array = global.european_nations
@@ -104,6 +105,26 @@ set_power_ranking_ideas_for_every_country = {
 				}
 			}
 			add_to_array = { array = global.american_nations value = THIS index = global.idx }
+=======
+			add_to_array = { global.european_nations = THIS }
+			add_to_array = { global.sc_updates_euro_america = THIS }
+		}
+		else_if = {
+			limit = { has_country_flag = africa_nation_flag }
+			add_to_array = { global.sub_saharan_nations = THIS }
+		}
+		else_if = {
+			limit = { has_country_flag = middle_east_flag }
+			add_to_array = { global.middle_eastern_nations = THIS }
+		}
+		else_if = {
+			limit = { has_country_flag = asian_nation_flag }
+			add_to_array = { global.asian_nations = THIS }
+		}
+		else_if = {
+			limit = { has_country_flag = american_nation_flag }
+			add_to_array = { global.american_nations = THIS }
+>>>>>>> main
 		}
 	}
 
@@ -111,8 +132,19 @@ set_power_ranking_ideas_for_every_country = {
 	add_to_array = { global.sc_updates_euro_america = MEX }
 	add_to_array = { global.sc_updates_euro_america = USA }
 
+<<<<<<< HEAD
 	clear_variable = global.idx
 
+=======
+	# Sort each regional array by power_ranking_contribution (descending)
+	power_ranking_selection_sort_european = yes
+	power_ranking_selection_sort_sub_saharan = yes
+	power_ranking_selection_sort_middle_east = yes
+	power_ranking_selection_sort_asian = yes
+	power_ranking_selection_sort_american = yes
+
+	# Calculate percentages, find naval hegemons, and assign power ranking values
+>>>>>>> main
 	for_each_loop = {
 		array = global.european_nations
 		value = v
@@ -320,6 +352,7 @@ assign_power_ranking_value = {
 			set_variable = { power_ranking_name_var = 4 }
 		} else_if = { limit = { always = yes }
 			set_variable = { power_ranking_name_var = 5 }
+<<<<<<< HEAD
 		}
 	}
 }
@@ -543,10 +576,276 @@ power_ranking_quicksort = {
 					}
 				}
 			}
+=======
+>>>>>>> main
 		}
 		ARRAY = "[ROOT.PRGetArrayName]"
 	}
 }
+
+<<<<<<< HEAD
+# Combined: Set regional power flags (top N) and find naval hegemons in one pass per array
+determine_regional_powers = {
+	# Europe (top 7 regional, find naval hegemon)
+=======
+# MONTH 5/11: Sort arrays by pre-calculated contribution, then assign power ranking ideas
+sort_and_assign_power_rankings = {
+	# Sort each regional array (descending by power_ranking_contribution)
+	power_ranking_selection_sort_european = yes
+	power_ranking_selection_sort_sub_saharan = yes
+	power_ranking_selection_sort_middle_east = yes
+	power_ranking_selection_sort_asian = yes
+	power_ranking_selection_sort_american = yes
+
+	determine_regional_powers = yes
+}
+
+power_ranking_selection_sort_european = {
+>>>>>>> main
+	for_each_loop = {
+		array = global.european_nations
+		value = v
+		var:v = {
+<<<<<<< HEAD
+			if = { limit = { check_variable = { i < 7 } }
+				set_country_flag = regional_power
+			}
+		}
+	}
+
+	# Sub-Saharan Africa (top 3 regional, find naval hegemon)
+=======
+			add_to_temp_array = { pr_sort_values = power_ranking_contribution }
+			add_to_temp_array = { pr_sort_nations = THIS }
+		}
+	}
+
+	clear_array = global.european_nations
+	set_temp_variable = { pr_sort_end = pr_sort_values^num }
+	for_loop_effect = {
+		end = pr_sort_end
+
+		find_highest_in_array = {
+			array = pr_sort_values
+			index = pr_sort_idx
+		}
+
+		set_temp_variable = { pr_sort_nation = pr_sort_nations^pr_sort_idx }
+		add_to_array = { global.european_nations = pr_sort_nation }
+
+		remove_from_temp_array = { array = pr_sort_nations index = pr_sort_idx }
+		remove_from_temp_array = { array = pr_sort_values index = pr_sort_idx }
+	}
+}
+
+power_ranking_selection_sort_sub_saharan = {
+>>>>>>> main
+	for_each_loop = {
+		array = global.sub_saharan_nations
+		value = v
+		var:v = {
+<<<<<<< HEAD
+			if = { limit = { check_variable = { i < 3 } }
+				set_country_flag = regional_power
+			}
+		}
+	}
+
+	# Middle East (top 3 regional, find naval hegemon)
+=======
+			add_to_temp_array = { pr_sort_values = power_ranking_contribution }
+			add_to_temp_array = { pr_sort_nations = THIS }
+		}
+	}
+
+	clear_array = global.sub_saharan_nations
+	set_temp_variable = { pr_sort_end = pr_sort_values^num }
+	for_loop_effect = {
+		end = pr_sort_end
+
+		find_highest_in_array = {
+			array = pr_sort_values
+			index = pr_sort_idx
+		}
+
+		set_temp_variable = { pr_sort_nation = pr_sort_nations^pr_sort_idx }
+		add_to_array = { global.sub_saharan_nations = pr_sort_nation }
+
+		remove_from_temp_array = { array = pr_sort_nations index = pr_sort_idx }
+		remove_from_temp_array = { array = pr_sort_values index = pr_sort_idx }
+	}
+}
+
+power_ranking_selection_sort_middle_east = {
+>>>>>>> main
+	for_each_loop = {
+		array = global.middle_eastern_nations
+		value = v
+		var:v = {
+<<<<<<< HEAD
+			if = { limit = { check_variable = { i < 3 } }
+				set_country_flag = regional_power
+			}
+		}
+	}
+
+	# Asia (top 7 regional, find naval hegemon)
+=======
+			add_to_temp_array = { pr_sort_values = power_ranking_contribution }
+			add_to_temp_array = { pr_sort_nations = THIS }
+		}
+	}
+
+	clear_array = global.middle_eastern_nations
+	set_temp_variable = { pr_sort_end = pr_sort_values^num }
+	for_loop_effect = {
+		end = pr_sort_end
+
+		find_highest_in_array = {
+			array = pr_sort_values
+			index = pr_sort_idx
+		}
+
+		set_temp_variable = { pr_sort_nation = pr_sort_nations^pr_sort_idx }
+		add_to_array = { global.middle_eastern_nations = pr_sort_nation }
+
+		remove_from_temp_array = { array = pr_sort_nations index = pr_sort_idx }
+		remove_from_temp_array = { array = pr_sort_values index = pr_sort_idx }
+	}
+}
+
+power_ranking_selection_sort_asian = {
+>>>>>>> main
+	for_each_loop = {
+		array = global.asian_nations
+		value = v
+		var:v = {
+<<<<<<< HEAD
+=======
+			add_to_temp_array = { pr_sort_values = power_ranking_contribution }
+			add_to_temp_array = { pr_sort_nations = THIS }
+		}
+	}
+
+	clear_array = global.asian_nations
+	set_temp_variable = { pr_sort_end = pr_sort_values^num }
+	for_loop_effect = {
+		end = pr_sort_end
+
+		find_highest_in_array = {
+			array = pr_sort_values
+			index = pr_sort_idx
+		}
+
+		set_temp_variable = { pr_sort_nation = pr_sort_nations^pr_sort_idx }
+		add_to_array = { global.asian_nations = pr_sort_nation }
+
+		remove_from_temp_array = { array = pr_sort_nations index = pr_sort_idx }
+		remove_from_temp_array = { array = pr_sort_values index = pr_sort_idx }
+	}
+}
+
+power_ranking_selection_sort_american = {
+	for_each_loop = {
+		array = global.american_nations
+		value = v
+		var:v = {
+			add_to_temp_array = { pr_sort_values = power_ranking_contribution }
+			add_to_temp_array = { pr_sort_nations = THIS }
+		}
+	}
+
+	clear_array = global.american_nations
+	set_temp_variable = { pr_sort_end = pr_sort_values^num }
+	for_loop_effect = {
+		end = pr_sort_end
+
+		find_highest_in_array = {
+			array = pr_sort_values
+			index = pr_sort_idx
+		}
+
+		set_temp_variable = { pr_sort_nation = pr_sort_nations^pr_sort_idx }
+		add_to_array = { global.american_nations = pr_sort_nation }
+
+		remove_from_temp_array = { array = pr_sort_nations index = pr_sort_idx }
+		remove_from_temp_array = { array = pr_sort_values index = pr_sort_idx }
+	}
+}
+
+remove_power_ideas = {
+	remove_ideas = {
+		super_power
+		great_power
+		large_power
+		regional_power
+		minor_power
+		non_power
+		naval_power_of_the_continent
+	}
+}
+
+game_startup_idea_set = {
+	for_each_loop = {
+		array = global.european_nations
+		value = v
+		var:v = {
+			assign_power_ranking_ideas = yes
+		}
+	}
+
+	# Sub-Saharan Africa (top 3 regional, find naval hegemon)
+	for_each_loop = {
+		array = global.sub_saharan_nations
+		value = v
+		var:v = {
+			assign_power_ranking_ideas = yes
+		}
+	}
+
+	# Middle East (top 3 regional, find naval hegemon)
+	for_each_loop = {
+		array = global.middle_eastern_nations
+		value = v
+		var:v = {
+			assign_power_ranking_ideas = yes
+		}
+	}
+
+	# Asia (top 7 regional, find naval hegemon)
+	for_each_loop = {
+		array = global.asian_nations
+		value = v
+		var:v = {
+			assign_power_ranking_ideas = yes
+		}
+	}
+
+	# Americas (top 4 regional, find naval hegemon)
+	for_each_loop = {
+		array = global.american_nations
+		value = v
+		var:v = {
+			assign_power_ranking_ideas = yes
+		}
+	}
+}
+
+# Shared: Calculate percentage and assign power ranking ideas to every country
+assign_power_ranking_ideas = {
+	set_variable = { global.cur_nation_idea_pull = power_ranking_name_var }
+	meta_effect = {
+		text = {
+			if = {
+				limit = { NOT = { has_idea = [IDEA] } }
+				remove_power_ideas = yes
+				add_ideas = [IDEA]
+			}
+		}
+		IDEA = "[PRGetIdeaName]"
+	}
+}
+
 
 # Combined: Set regional power flags (top N) and find naval hegemons in one pass per array
 determine_regional_powers = {
@@ -588,6 +887,7 @@ determine_regional_powers = {
 		array = global.asian_nations
 		value = v
 		var:v = {
+>>>>>>> main
 			if = { limit = { check_variable = { i < 7 } }
 				set_country_flag = regional_power
 			}
@@ -599,7 +899,11 @@ determine_regional_powers = {
 		array = global.american_nations
 		value = v
 		var:v = {
+<<<<<<< HEAD
 			if = { limit = { check_variable = { i < 7 } }
+=======
+			if = { limit = { check_variable = { i < 4 } }
+>>>>>>> main
 				set_country_flag = regional_power
 			}
 		}

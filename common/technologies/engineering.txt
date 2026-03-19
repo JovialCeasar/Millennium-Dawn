@@ -33,6 +33,7 @@ technologies = {
 	@row1 = -1
 	@row2 = 1
 	@row3 = 3
+<<<<<<< HEAD
 	@row4 = 5
 	@row5 = 7
 	@row6 = 9
@@ -42,6 +43,17 @@ technologies = {
 	@row10 = 19
 	@row11 = 23
 	@row12 = 25
+=======
+	@row4 = 7
+	@row5 = 9
+	@row6 = 11
+	@row7 = 18
+	@row8 = 20
+	@row9 = 21
+	@row10 = 22
+	@row11 = 26
+	@row12 = 28
+>>>>>>> main
 
 	#################################
 	#AI -- Artifical Intelligence ### --Primary Function is to improve research as well as economic buffs
@@ -655,13 +667,21 @@ technologies = {
 		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech future_drones1" }
 		research_cost = 2.5
 		start_year = 2030
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		civ_facs_worker_requirement_modifier = -0.05
 		mil_facs_worker_requirement_modifier = -0.05
 		offices_worker_requirement_modifier = -0.05
 		energy_use_modifier_offices = 0.03
 		recon_factor = 0.10
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		combat_service_support_company = {
 			casualty_trickleback = 0.025
 			experience_loss_factor = -0.025
@@ -670,23 +690,39 @@ technologies = {
 			casualty_trickleback = 0.025
 			experience_loss_factor = -0.025
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		path = {
 			leads_to_tech = future_drones2
 			research_cost_coeff = 1
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		folder = {
 			name = electronics_folder
 			position = { x = @row12 y = @2030 }
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		categories = {
 			CAT_ai
 			CAT_industry
 			CAT_Civilian
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -734,13 +770,21 @@ technologies = {
 		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech future_drones1" }
 		research_cost = 2.5
 		start_year = 2040
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		civ_facs_worker_requirement_modifier = -0.05
 		mil_facs_worker_requirement_modifier = -0.05
 		offices_worker_requirement_modifier = -0.05
 		energy_use_modifier_offices = 0.03
 		recon_factor = 0.10
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		combat_service_support_company = {
 			casualty_trickleback = 0.025
 			experience_loss_factor = -0.025
@@ -749,23 +793,39 @@ technologies = {
 			casualty_trickleback = 0.025
 			experience_loss_factor = -0.025
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		path = {
 			leads_to_tech = future_drones3
 			research_cost_coeff = 1
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		folder = {
 			name = electronics_folder
 			position = { x = @row12 y = @2040 }
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		categories = {
 			CAT_ai
 			CAT_industry
 			CAT_Civilian
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -808,18 +868,30 @@ technologies = {
 		show_effect_as_desc = yes
 		special_project_specialization = { specialization_nuclear }
 	}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 	future_drones3 = {
 		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech future_drones2" }
 		research_cost = 2.5
 		start_year = 2050
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		civ_facs_worker_requirement_modifier = -0.05
 		mil_facs_worker_requirement_modifier = -0.05
 		offices_worker_requirement_modifier = -0.05
 		energy_use_modifier_offices = 0.03
 		recon_factor = 0.10
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		combat_service_support_company = {
 			casualty_trickleback = 0.025
 			experience_loss_factor = -0.025
@@ -828,23 +900,39 @@ technologies = {
 			casualty_trickleback = 0.025
 			experience_loss_factor = -0.025
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		path = {
 			leads_to_tech = future_drones4
 			research_cost_coeff = 1
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		folder = {
 			name = electronics_folder
 			position = { x = @row12 y = @2050 }
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		categories = {
 			CAT_ai
 			CAT_industry
 			CAT_Civilian
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -887,18 +975,30 @@ technologies = {
 		show_effect_as_desc = yes
 		special_project_specialization = { specialization_nuclear }
 	}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 	future_drones4 = {
 		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech future_drones3" }
 		research_cost = 2.5
 		start_year = 2060
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		civ_facs_worker_requirement_modifier = -0.05
 		mil_facs_worker_requirement_modifier = -0.05
 		offices_worker_requirement_modifier = -0.05
 		energy_use_modifier_offices = 0.03
 		recon_factor = 0.10
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		combat_service_support_company = {
 			casualty_trickleback = 0.025
 			experience_loss_factor = -0.025
@@ -907,23 +1007,39 @@ technologies = {
 			casualty_trickleback = 0.025
 			experience_loss_factor = -0.025
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		path = {
 			leads_to_tech = future_drones5
 			research_cost_coeff = 1
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		folder = {
 			name = electronics_folder
 			position = { x = @row12 y = @2060 }
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		categories = {
 			CAT_ai
 			CAT_industry
 			CAT_Civilian
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -966,18 +1082,30 @@ technologies = {
 		show_effect_as_desc = yes
 		special_project_specialization = { specialization_nuclear }
 	}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 	future_drones5 = {
 		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech future_drones4" }
 		research_cost = 2.5
 		start_year = 2070
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		civ_facs_worker_requirement_modifier = -0.05
 		mil_facs_worker_requirement_modifier = -0.05
 		offices_worker_requirement_modifier = -0.05
 		energy_use_modifier_offices = 0.03
 		recon_factor = 0.10
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		combat_service_support_company = {
 			casualty_trickleback = 0.025
 			experience_loss_factor = -0.025
@@ -986,23 +1114,39 @@ technologies = {
 			casualty_trickleback = 0.025
 			experience_loss_factor = -0.025
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		path = {
 			leads_to_tech = future_drones6
 			research_cost_coeff = 1
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		folder = {
 			name = electronics_folder
 			position = { x = @row12 y = @2070 }
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		categories = {
 			CAT_ai
 			CAT_industry
 			CAT_Civilian
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1045,18 +1189,30 @@ technologies = {
 		show_effect_as_desc = yes
 		special_project_specialization = { specialization_nuclear }
 	}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 	future_drones6 = {
 		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech future_drones5" }
 		research_cost = 2.5
 		start_year = 2080
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		civ_facs_worker_requirement_modifier = -0.05
 		mil_facs_worker_requirement_modifier = -0.05
 		offices_worker_requirement_modifier = -0.05
 		energy_use_modifier_offices = 0.03
 		recon_factor = 0.10
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		combat_service_support_company = {
 			casualty_trickleback = 0.025
 			experience_loss_factor = -0.025
@@ -1065,18 +1221,30 @@ technologies = {
 			casualty_trickleback = 0.025
 			experience_loss_factor = -0.025
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		folder = {
 			name = electronics_folder
 			position = { x = @row12 y = @2080 }
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		categories = {
 			CAT_ai
 			CAT_industry
 			CAT_Civilian
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1130,7 +1298,7 @@ technologies = {
 		civ_facs_worker_requirement_modifier = -0.025
 		mil_facs_worker_requirement_modifier = -0.025
 		offices_worker_requirement_modifier = -0.025
-		energy_use_modifier_offices = 0.03
+		energy_use_modifier_offices = 0.06
 		productivity_growth_modifier = 0.25
 
 		path = {
@@ -1196,7 +1364,7 @@ technologies = {
 		civ_facs_worker_requirement_modifier = -0.03
 		mil_facs_worker_requirement_modifier = -0.025
 		offices_worker_requirement_modifier = -0.04
-		energy_use_modifier_offices = 0.03
+		energy_use_modifier_offices = 0.08
 		research_cost = 5
 		start_year = 2015
 
@@ -1265,7 +1433,7 @@ technologies = {
 
 	human_imitation_ai = {
 		offices_worker_requirement_modifier = -0.04
-		energy_use_modifier_offices = 0.03
+		energy_use_modifier_offices = 0.06
 		research_cost = 5
 		start_year = 2020
 
@@ -3001,7 +3169,7 @@ technologies = {
 		research_cost = 1.6
 
 		allow = {
-			 ROOT = {
+			ROOT = {
 				is_special_project_completed = sp:sp_microchip_production
 			}
 		}
@@ -3017,12 +3185,12 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = production_line_improvements
+			leads_to_tech = production_line_improvements_1
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = improved_building_constructions
+			leads_to_tech = improved_building_constructions_1
 			research_cost_coeff = 1
 		}
 
@@ -3042,12 +3210,12 @@ technologies = {
 		}
 	}
 
-	production_line_improvements = {
+	production_line_improvements_1 = {
 		start_year = 1975
 		research_cost = 1.45
 
 		local_resources_microchips_factor = 0.03
-		energy_use_modifier_microchip_plants = 0.01
+		energy_use_modifier_microchip_plant = 0.01
 
 		force_use_small_tech_layout = yes
 
@@ -3055,7 +3223,6 @@ technologies = {
 			leads_to_tech = production_line_improvements_2
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
 			position = { x = @row6 y = @1975 }
@@ -3073,11 +3240,11 @@ technologies = {
 	}
 
 	production_line_improvements_2 = {
-		start_year = 1985
+		start_year = 1995
 		research_cost = 1.45
 
 		local_resources_microchips_factor = 0.03
-		energy_use_modifier_microchip_plants = 0.01
+		energy_use_modifier_microchip_plant = 0.01
 
 		force_use_small_tech_layout = yes
 
@@ -3085,10 +3252,13 @@ technologies = {
 			leads_to_tech = production_line_improvements_3
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row6 y = @1985 }
+=======
+			position = { x = @row6 y = @1995 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3103,11 +3273,11 @@ technologies = {
 	}
 
 	production_line_improvements_3 = {
-		start_year = 1990
+		start_year = 2005
 		research_cost = 1.45
 
 		local_resources_microchips_factor = 0.03
-		energy_use_modifier_microchip_plants = 0.01
+		energy_use_modifier_microchip_plant = 0.01
 
 		force_use_small_tech_layout = yes
 
@@ -3115,10 +3285,13 @@ technologies = {
 			leads_to_tech = production_line_improvements_4
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row6 y = @1990 }
+=======
+			position = { x = @row6 y = @2005 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3133,11 +3306,11 @@ technologies = {
 	}
 
 	production_line_improvements_4 = {
-		start_year = 1995
+		start_year = 2015
 		research_cost = 1.45
 
 		local_resources_microchips_factor = 0.03
-		energy_use_modifier_microchip_plants = 0.01
+		energy_use_modifier_microchip_plant = 0.01
 
 		force_use_small_tech_layout = yes
 
@@ -3145,10 +3318,13 @@ technologies = {
 			leads_to_tech = production_line_improvements_5
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row6 y = @1995 }
+=======
+			position = { x = @row6 y = @2015 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3163,11 +3339,11 @@ technologies = {
 	}
 
 	production_line_improvements_5 = {
-		start_year = 2000
+		start_year = 2025
 		research_cost = 1.45
 
 		local_resources_microchips_factor = 0.03
-		energy_use_modifier_microchip_plants = 0.01
+		energy_use_modifier_microchip_plant = 0.01
 
 		force_use_small_tech_layout = yes
 
@@ -3175,10 +3351,13 @@ technologies = {
 			leads_to_tech = production_line_improvements_6
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row6 y = @2000 }
+=======
+			position = { x = @row6 y = @2025 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3193,11 +3372,11 @@ technologies = {
 	}
 
 	production_line_improvements_6 = {
-		start_year = 2005
+		start_year = 2035
 		research_cost = 1.45
 
 		local_resources_microchips_factor = 0.03
-		energy_use_modifier_microchip_plants = 0.01
+		energy_use_modifier_microchip_plant = 0.01
 
 		force_use_small_tech_layout = yes
 
@@ -3205,10 +3384,13 @@ technologies = {
 			leads_to_tech = production_line_improvements_7
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row6 y = @2005 }
+=======
+			position = { x = @row6 y = @2035 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3223,11 +3405,11 @@ technologies = {
 	}
 
 	production_line_improvements_7 = {
-		start_year = 2010
+		start_year = 2045
 		research_cost = 1.45
 
 		local_resources_microchips_factor = 0.03
-		energy_use_modifier_microchip_plants = 0.01
+		energy_use_modifier_microchip_plant = 0.01
 
 		force_use_small_tech_layout = yes
 
@@ -3235,10 +3417,13 @@ technologies = {
 			leads_to_tech = production_line_improvements_8
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row6 y = @2010 }
+=======
+			position = { x = @row6 y = @2045 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3253,11 +3438,11 @@ technologies = {
 	}
 
 	production_line_improvements_8 = {
-		start_year = 2015
+		start_year = 2055
 		research_cost = 1.45
 
 		local_resources_microchips_factor = 0.03
-		energy_use_modifier_microchip_plants = 0.01
+		energy_use_modifier_microchip_plant = 0.01
 
 		force_use_small_tech_layout = yes
 
@@ -3265,10 +3450,13 @@ technologies = {
 			leads_to_tech = production_line_improvements_9
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row6 y = @2015 }
+=======
+			position = { x = @row6 y = @2055 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3283,11 +3471,11 @@ technologies = {
 	}
 
 	production_line_improvements_9 = {
-		start_year = 2020
+		start_year = 2065
 		research_cost = 1.45
 
 		local_resources_microchips_factor = 0.03
-		energy_use_modifier_microchip_plants = 0.01
+		energy_use_modifier_microchip_plant = 0.01
 
 		force_use_small_tech_layout = yes
 
@@ -3295,10 +3483,13 @@ technologies = {
 			leads_to_tech = production_line_improvements_10
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row6 y = @2020 }
+=======
+			position = { x = @row6 y = @2065 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3313,22 +3504,21 @@ technologies = {
 	}
 
 	production_line_improvements_10 = {
-		start_year = 2025
+		start_year = 2075
 		research_cost = 1.45
 
 		local_resources_microchips_factor = 0.03
-		energy_use_modifier_microchip_plants = 0.01
+		energy_use_modifier_microchip_plant = 0.01
 
 		force_use_small_tech_layout = yes
 
-		path = {
-			leads_to_tech = production_line_improvements_11
-			research_cost_coeff = 1
-		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row6 y = @2025 }
+=======
+			position = { x = @row6 y = @2075 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3342,6 +3532,7 @@ technologies = {
 		}
 	}
 
+<<<<<<< HEAD
 	production_line_improvements_11 = {
 		start_year = 2030
 		research_cost = 1.45
@@ -3518,6 +3709,9 @@ technologies = {
 	}
 
 	improved_building_constructions = {
+=======
+	improved_building_constructions_1 = {
+>>>>>>> main
 		start_year = 1975
 		research_cost = 1.3
 
@@ -3530,7 +3724,6 @@ technologies = {
 			leads_to_tech = improved_building_constructions_2
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
 			position = { x = @row4 y = @1975 }
@@ -3548,7 +3741,7 @@ technologies = {
 	}
 
 	improved_building_constructions_2 = {
-		start_year = 1985
+		start_year = 1995
 		research_cost = 1.3
 
 		force_use_small_tech_layout = yes
@@ -3560,10 +3753,13 @@ technologies = {
 			leads_to_tech = improved_building_constructions_3
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row4 y = @1985 }
+=======
+			position = { x = @row4 y = @1995 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3578,7 +3774,7 @@ technologies = {
 	}
 
 	improved_building_constructions_3 = {
-		start_year = 1990
+		start_year = 2005
 		research_cost = 1.3
 
 		force_use_small_tech_layout = yes
@@ -3590,10 +3786,13 @@ technologies = {
 			leads_to_tech = improved_building_constructions_4
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row4 y = @1990 }
+=======
+			position = { x = @row4 y = @2005 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3608,7 +3807,7 @@ technologies = {
 	}
 
 	improved_building_constructions_4 = {
-		start_year = 1995
+		start_year = 2015
 		research_cost = 1.3
 
 		force_use_small_tech_layout = yes
@@ -3620,10 +3819,13 @@ technologies = {
 			leads_to_tech = improved_building_constructions_5
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row4 y = @1995 }
+=======
+			position = { x = @row4 y = @2015 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3638,7 +3840,7 @@ technologies = {
 	}
 
 	improved_building_constructions_5 = {
-		start_year = 2000
+		start_year = 2025
 		research_cost = 1.3
 
 		force_use_small_tech_layout = yes
@@ -3650,10 +3852,13 @@ technologies = {
 			leads_to_tech = improved_building_constructions_6
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row4 y = @2000 }
+=======
+			position = { x = @row4 y = @2025 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3668,7 +3873,7 @@ technologies = {
 	}
 
 	improved_building_constructions_6 = {
-		start_year = 2005
+		start_year = 2035
 		research_cost = 1.3
 
 		force_use_small_tech_layout = yes
@@ -3680,10 +3885,13 @@ technologies = {
 			leads_to_tech = improved_building_constructions_7
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row4 y = @2005 }
+=======
+			position = { x = @row4 y = @2035 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3698,7 +3906,7 @@ technologies = {
 	}
 
 	improved_building_constructions_7 = {
-		start_year = 2010
+		start_year = 2045
 		research_cost = 1.3
 
 		force_use_small_tech_layout = yes
@@ -3710,10 +3918,13 @@ technologies = {
 			leads_to_tech = improved_building_constructions_8
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row4 y = @2010 }
+=======
+			position = { x = @row4 y = @2045 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3728,7 +3939,11 @@ technologies = {
 	}
 
 	improved_building_constructions_8 = {
+<<<<<<< HEAD
 		start_year = 2015
+=======
+		start_year = 2055
+>>>>>>> main
 		research_cost = 1.3
 
 		force_use_small_tech_layout = yes
@@ -3740,10 +3955,13 @@ technologies = {
 			leads_to_tech = improved_building_constructions_9
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row4 y = @2015 }
+=======
+			position = { x = @row4 y = @2055 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3758,7 +3976,7 @@ technologies = {
 	}
 
 	improved_building_constructions_9 = {
-		start_year = 2020
+		start_year = 2065
 		research_cost = 1.3
 
 		force_use_small_tech_layout = yes
@@ -3770,10 +3988,13 @@ technologies = {
 			leads_to_tech = improved_building_constructions_10
 			research_cost_coeff = 1
 		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row4 y = @2020 }
+=======
+			position = { x = @row4 y = @2065 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3788,7 +4009,7 @@ technologies = {
 	}
 
 	improved_building_constructions_10 = {
-		start_year = 2025
+		start_year = 2075
 		research_cost = 1.3
 
 		force_use_small_tech_layout = yes
@@ -3796,14 +4017,13 @@ technologies = {
 		production_speed_microchip_plant_factor = 0.05
 		production_speed_offices_factor = -0.035
 
-		path = {
-			leads_to_tech = improved_building_constructions_11
-			research_cost_coeff = 1
-		}
-
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
 			position = { x = @row4 y = @2025 }
+=======
+			position = { x = @row4 y = @2075 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -3817,6 +4037,7 @@ technologies = {
 		}
 	}
 
+<<<<<<< HEAD
 	improved_building_constructions_11 = {
 		start_year = 2030
 		research_cost = 1.3
@@ -3996,6 +4217,12 @@ technologies = {
 		start_year = 1995
 		research_cost = 1.6
 
+=======
+	microchip_production_2 = {
+		start_year = 1995
+		research_cost = 1.6
+
+>>>>>>> main
 		enable_building = {
 			building = microchip_plant
 			level = 2
@@ -4009,7 +4236,7 @@ technologies = {
 			}
 		}
 
-		energy_use_modifier_microchip_plants = 0.05
+		energy_use_modifier_microchip_plant = 0.05
 
 		path = {
 			leads_to_tech = microchip_production_3
@@ -4053,7 +4280,7 @@ technologies = {
 			}
 		}
 
-		energy_use_modifier_microchip_plants = 0.05
+		energy_use_modifier_microchip_plant = 0.05
 
 		path = {
 			leads_to_tech = microchip_production_4
@@ -4094,7 +4321,7 @@ technologies = {
 			}
 		}
 
-		energy_use_modifier_microchip_plants = 0.05
+		energy_use_modifier_microchip_plant = 0.05
 
 		path = {
 			leads_to_tech = microchip_production_5
@@ -4135,7 +4362,12 @@ technologies = {
 			}
 		}
 
-		energy_use_modifier_microchip_plants = 0.05
+		energy_use_modifier_microchip_plant = 0.05
+
+		path = {
+			leads_to_tech = microchip_production_6
+			research_cost_coeff = 1
+		}
 
 		path = {
 			leads_to_tech = microchip_production_6
@@ -4344,6 +4576,209 @@ technologies = {
 
 		folder = {
 			name = electronics_folder
+<<<<<<< HEAD
+=======
+			position = { x = @row5 y = @2025 }
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				check_variable = { microchip_plant_total > 0 }
+			}
+		}
+
+		categories = {
+			CAT_Civilian
+			CAT_computing_tech
+			CAT_microchips
+		}
+	}
+
+	microchip_production_6 = {
+		start_year = 2035
+		research_cost = 1.6
+
+		force_use_small_tech_layout = yes
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = microchip_plant
+				resource = microchips
+				amount = 1
+			}
+		}
+
+		energy_use_modifier_microchip_plant = 0.05
+
+		path = {
+			leads_to_tech = microchip_production_7
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = electronics_folder
+			position = { x = @row5 y = @2035 }
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				check_variable = { microchip_plant_total > 0 }
+			}
+		}
+
+		categories = {
+			CAT_Civilian
+			CAT_computing_tech
+			CAT_microchips
+		}
+	}
+
+	microchip_production_7 = {
+		start_year = 2045
+		research_cost = 1.6
+
+		force_use_small_tech_layout = yes
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = microchip_plant
+				resource = microchips
+				amount = 1
+			}
+		}
+
+		energy_use_modifier_microchip_plant = 0.05
+
+		path = {
+			leads_to_tech = microchip_production_8
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = electronics_folder
+			position = { x = @row5 y = @2045 }
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				check_variable = { microchip_plant_total > 0 }
+			}
+		}
+
+		categories = {
+			CAT_Civilian
+			CAT_computing_tech
+			CAT_microchips
+		}
+	}
+
+	microchip_production_8 = {
+		start_year = 2055
+		research_cost = 1.6
+
+		force_use_small_tech_layout = yes
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = microchip_plant
+				resource = microchips
+				amount = 1
+			}
+		}
+
+		energy_use_modifier_microchip_plant = 0.05
+
+		path = {
+			leads_to_tech = microchip_production_9
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = electronics_folder
+			position = { x = @row5 y = @2055 }
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				check_variable = { microchip_plant_total > 0 }
+			}
+		}
+
+		categories = {
+			CAT_Civilian
+			CAT_computing_tech
+			CAT_microchips
+		}
+	}
+
+	microchip_production_9 = {
+		start_year = 2065
+		research_cost = 1.6
+
+		force_use_small_tech_layout = yes
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = microchip_plant
+				resource = microchips
+				amount = 1
+			}
+		}
+
+		energy_use_modifier_microchip_plant = 0.05
+
+		path = {
+			leads_to_tech = microchip_production_10
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = electronics_folder
+			position = { x = @row5 y = @2065 }
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				check_variable = { microchip_plant_total > 0 }
+			}
+		}
+
+		categories = {
+			CAT_Civilian
+			CAT_computing_tech
+			CAT_microchips
+		}
+	}
+
+	microchip_production_10 = {
+		start_year = 2075
+		research_cost = 1.6
+
+		force_use_small_tech_layout = yes
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = microchip_plant
+				resource = microchips
+				amount = 1
+			}
+		}
+
+		energy_use_modifier_microchip_plant = 0.05
+
+		folder = {
+			name = electronics_folder
+>>>>>>> main
 			position = { x = @row5 y = @2075 }
 		}
 
@@ -5339,21 +5774,37 @@ technologies = {
 	future_internet_access1 = {
 		start_year = 2040
 		research_cost = 2
+<<<<<<< HEAD
 	
 		research_speed_factor = 0.05
 		industrial_capacity_factory = 0.03
 		productivity_growth_modifier = 0.3
 	
+=======
+
+		research_speed_factor = 0.05
+		industrial_capacity_factory = 0.03
+		productivity_growth_modifier = 0.3
+
+>>>>>>> main
 		folder = {
 			name = electronics_folder
 			position = { x = @row10 y = @2040 }
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		path = {
 			leads_to_tech = future_internet_access2
 			research_cost_coeff = 1
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		ai_will_do = {
 			factor = 3
 			modifier = {
@@ -5381,7 +5832,11 @@ technologies = {
 				date > 2047.01.01
 			}
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		categories = {
 			CAT_internet_tech
 			CAT_Civilian
@@ -5444,21 +5899,37 @@ technologies = {
 	future_internet_access2 = {
 		start_year = 2050
 		research_cost = 2
+<<<<<<< HEAD
 	
 		research_speed_factor = 0.05
 		industrial_capacity_factory = 0.03
 		productivity_growth_modifier = 0.3
 	
+=======
+
+		research_speed_factor = 0.05
+		industrial_capacity_factory = 0.03
+		productivity_growth_modifier = 0.3
+
+>>>>>>> main
 		folder = {
 			name = electronics_folder
 			position = { x = @row10 y = @2050 }
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		path = {
 			leads_to_tech = future_internet_access3
 			research_cost_coeff = 1
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		ai_will_do = {
 			factor = 3
 			modifier = {
@@ -5486,7 +5957,11 @@ technologies = {
 				date > 2057.01.01
 			}
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		categories = {
 			CAT_internet_tech
 			CAT_Civilian
@@ -5546,6 +6021,7 @@ technologies = {
 			CAT_Civilian
 		}
 	}
+<<<<<<< HEAD
 	
 	future_internet_access3 = {
 		start_year = 2060
@@ -5555,16 +6031,35 @@ technologies = {
 		industrial_capacity_factory = 0.03
 		productivity_growth_modifier = 0.3
 	
+=======
+
+	future_internet_access3 = {
+		start_year = 2060
+		research_cost = 2
+
+		research_speed_factor = 0.05
+		industrial_capacity_factory = 0.03
+		productivity_growth_modifier = 0.3
+
+>>>>>>> main
 		folder = {
 			name = electronics_folder
 			position = { x = @row10 y = @2060 }
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		path = {
 			leads_to_tech = future_internet_access4
 			research_cost_coeff = 1
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		ai_will_do = {
 			factor = 3
 			modifier = {
@@ -5592,7 +6087,11 @@ technologies = {
 				date > 2067.01.01
 			}
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		categories = {
 			CAT_internet_tech
 			CAT_Civilian
@@ -5652,6 +6151,7 @@ technologies = {
 			CAT_Civilian
 		}
 	}
+<<<<<<< HEAD
 	
 	future_internet_access4 = {
 		start_year = 2070
@@ -5661,16 +6161,35 @@ technologies = {
 		industrial_capacity_factory = 0.03
 		productivity_growth_modifier = 0.3
 	
+=======
+
+	future_internet_access4 = {
+		start_year = 2070
+		research_cost = 2
+
+		research_speed_factor = 0.05
+		industrial_capacity_factory = 0.03
+		productivity_growth_modifier = 0.3
+
+>>>>>>> main
 		folder = {
 			name = electronics_folder
 			position = { x = @row10 y = @2070 }
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		path = {
 			leads_to_tech = future_internet_access5
 			research_cost_coeff = 1
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		ai_will_do = {
 			factor = 3
 			modifier = {
@@ -5698,7 +6217,11 @@ technologies = {
 				date > 2077.01.01
 			}
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		categories = {
 			CAT_internet_tech
 			CAT_Civilian
@@ -5754,6 +6277,7 @@ technologies = {
 			CAT_Civilian
 		}
 	}
+<<<<<<< HEAD
 	
 	future_internet_access5 = {
 		start_year = 2080
@@ -5763,11 +6287,26 @@ technologies = {
 		industrial_capacity_factory = 0.03
 		productivity_growth_modifier = 0.3
 	
+=======
+
+	future_internet_access5 = {
+		start_year = 2080
+		research_cost = 2
+
+		research_speed_factor = 0.05
+		industrial_capacity_factory = 0.03
+		productivity_growth_modifier = 0.3
+
+>>>>>>> main
 		folder = {
 			name = electronics_folder
 			position = { x = @row10 y = @2080 }
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		ai_will_do = {
 			factor = 3
 			modifier = {
@@ -5795,7 +6334,11 @@ technologies = {
 				date > 2087.01.01
 			}
 		}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 		categories = {
 			CAT_internet_tech
 			CAT_Civilian

@@ -1,11 +1,10 @@
-name: Docs Quality
+name: Docs Quality (Astro)
 
 on:
   pull_request:
     branches: [main, master]
     paths:
       - "docs/**"
-      - "docs/scripts/**"
       - ".github/workflows/docs-quality.yml"
   workflow_dispatch:
 
@@ -22,27 +21,44 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          ruby-version: "3.3"
-          bundler: "2.7.2"
+          node-version: "24"
 
-      - name: Install docs dependencies (locked)
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: "1.3.10"
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install docs dependencies
+        working-directory: docs
+        run: bun install
+
+      - name: Astro checks
         working-directory: docs
         run: |
-          bundle config set deployment true
-          bundle install --jobs 4 --retry 3
+          bun run lint:md
+          bun run lint:remark
+          bun run check
+          bun run build
 
-      - name: Build docs site
-        working-directory: docs
-        run: bundle exec jekyll build --source . --destination ../_site_docs
+      - name: Validate Open Graph metadata images
+        run: python3 docs/scripts/check_og_images.py --site-dir docs/dist --baseurl /Millennium-Dawn
+
+      - name: Docs hygiene checks
+        run: python3 docs/scripts/check_docs_hygiene.py --repo-root . --docs-dir docs
 
       - name: Validate internal links and local assets
-        run: python3 docs/scripts/check_site_links.py --site-dir _site_docs --baseurl /Millennium-Dawn
+        run: python3 docs/scripts/check_site_links.py --site-dir docs/dist --baseurl /Millennium-Dawn
 
       - name: Accessibility baseline checks
-        run: python3 docs/scripts/check_accessibility_basics.py --site-dir _site_docs
+        run: python3 docs/scripts/check_accessibility_basics.py --site-dir docs/dist
 
       - name: Performance budget checks
-        run: python3 docs/scripts/check_perf_budgets.py --site-dir _site_docs
+        run: python3 docs/scripts/check_perf_budgets.py --site-dir docs/dist

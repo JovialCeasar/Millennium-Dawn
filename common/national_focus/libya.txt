@@ -54,10 +54,6 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_ignore_lifg"
 			add_manpower = 1000
 			add_stability = 0.05
-			set_temp_variable = { rad_change = -15 }
-			modify_radicalization_effect = yes
-			set_temp_variable = { threat_change = 10 }
-			modify_terror_threat_effect = yes
 		}
 
 	}
@@ -94,10 +90,6 @@ focus_tree = {
 				ideology = fascism
 				popularity = -0.10
 			}
-			set_temp_variable = { rad_change = 10 }
-			modify_radicalization_effect = yes
-			set_temp_variable = { threat_change = -15 }
-			modify_terror_threat_effect = yes
 		}
 
 	}
@@ -330,8 +322,7 @@ focus_tree = {
 			}
 		}
 
-		available = {
-		}
+
 
 		bypass = {
 		}
@@ -697,7 +688,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_appoint_baathist_advisor"
-			add_dynamic_modifier = { modifier = libya_baathism_dynamic_modifier }
+			hidden_effect = { add_dynamic_modifier = { modifier = libya_baathism_dynamic_modifier } }
+			custom_effect_tooltip = { localization_key = adds_dynamic_modifier_tt MODIFIER = libya_baathism_dynamic_modifier }
 			set_temp_variable = { party_index = 21 }
 			set_temp_variable = { party_popularity_increase = 0.15 }
 			set_temp_variable = { temp_outlook_increase = 0.15 }
@@ -743,10 +735,6 @@ focus_tree = {
 			set_temp_variable = { party_popularity_increase = 0.10 }
 			set_temp_variable = { temp_outlook_increase = 0.10 }
 			add_relative_party_popularity = yes
-			set_temp_variable = { rad_change = -10 }
-			modify_radicalization_effect = yes
-			set_temp_variable = { threat_change = -10 }
-			modify_terror_threat_effect = yes
 			#For AI
 			hidden_effect = {
 				random = {
@@ -1287,13 +1275,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_grand_mufti_rule"
-			clear_array = ruling_party
-			clear_array = gov_coalition_array
-			add_to_array = { ruling_party = 10 }
-			set_politics = {
-				ruling_party = fascism
-				elections_allowed = no
-			}
+			set_temp_variable = { rul_party_temp = 10 }
+			set_temp_variable = { disable_elections = 1 }
+			change_ruling_party_effect = yes
 			create_country_leader = {
 				name = "Sadiq Al-Ghariani"
 				picture = "Sadiq_Al_Ghariani.dds"
@@ -1561,6 +1545,8 @@ focus_tree = {
 			327 = {
 				controller = {
 					ROOT = {
+						set_temp_variable = { wargoal_on = PREV }
+						add_threat_from_wargoal_effect = yes
 						create_wargoal = {
 							target = PREV
 							type = take_state_focus
@@ -1667,6 +1653,8 @@ focus_tree = {
 			1108 = {
 				controller = {
 					ROOT = {
+						set_temp_variable = { wargoal_on = PREV }
+						add_threat_from_wargoal_effect = yes
 						create_wargoal = {
 							target = PREV
 							type = take_state_focus
@@ -1871,6 +1859,8 @@ focus_tree = {
 			381 = {
 				controller = {
 					ROOT = {
+						set_temp_variable = { wargoal_on = PREV }
+						add_threat_from_wargoal_effect = yes
 						create_wargoal = {
 							target = PREV
 							type = take_state_focus
@@ -1976,6 +1966,8 @@ focus_tree = {
 			366 = {
 				controller = {
 					ROOT = {
+						set_temp_variable = { wargoal_on = PREV }
+						add_threat_from_wargoal_effect = yes
 						create_wargoal = {
 							target = PREV
 							type = take_state_focus
@@ -2043,6 +2035,8 @@ focus_tree = {
 			370 = {
 				controller = {
 					ROOT = {
+						set_temp_variable = { wargoal_on = PREV }
+						add_threat_from_wargoal_effect = yes
 						create_wargoal = {
 							target = PREV
 							type = take_state_focus
@@ -2136,6 +2130,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_destroy_last_crusaders"
+			set_temp_variable = { wargoal_on = MLT }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				target = MLT
 				type = annex_everything
@@ -2251,8 +2248,8 @@ focus_tree = {
 			set_temp_variable = { percent_change = 4 }
 			set_temp_variable = { tag_index = ROOT }
 			change_influence_percentage = yes
-			add_to_variable = { libya_baathism_foreign_influence_effect = 0.05 }
-			custom_effect_tooltip = libya_baathism_increase_foreign_influence
+			custom_effect_tooltip = { localization_key = modifies_dynamic_modifier_tt MODIFIER = libya_baathism_dynamic_modifier }
+			add_to_variable = { libya_baathism_foreign_influence_effect = 0.05 tooltip = foreign_influence_modifier_tt }
 		}
 
 	}
@@ -2299,8 +2296,8 @@ focus_tree = {
 			set_temp_variable = { percent_change = 4 }
 			set_temp_variable = { tag_index = ROOT }
 			change_influence_percentage = yes
-			add_to_variable = { libya_baathism_foreign_influence_effect = 0.05 }
-			custom_effect_tooltip = libya_baathism_increase_foreign_influence
+			custom_effect_tooltip = { localization_key = modifies_dynamic_modifier_tt MODIFIER = libya_baathism_dynamic_modifier }
+			add_to_variable = { libya_baathism_foreign_influence_effect = 0.05 tooltip = foreign_influence_modifier_tt }
 		}
 
 	}
@@ -2385,8 +2382,8 @@ focus_tree = {
 			set_temp_variable = { percent_change = 4 }
 			set_temp_variable = { tag_index = ROOT }
 			change_influence_percentage = yes
-			add_to_variable = { libya_baathism_resource_export_effect = 0.05 }
-			custom_effect_tooltip = libya_baathism_increase_resource_export
+			custom_effect_tooltip = { localization_key = modifies_dynamic_modifier_tt MODIFIER = libya_baathism_dynamic_modifier }
+			add_to_variable = { libya_baathism_resource_export_effect = 0.05 tooltip = resource_export_multiplier_modifier_tt }
 		}
 
 	}
@@ -2441,8 +2438,8 @@ focus_tree = {
 			set_temp_variable = { percent_change = 4 }
 			set_temp_variable = { tag_index = ROOT }
 			change_influence_percentage = yes
-			add_to_variable = { libya_baathism_research_speed_effect = 0.05 }
-			custom_effect_tooltip = libya_baathism_increase_research_speed
+			custom_effect_tooltip = { localization_key = modifies_dynamic_modifier_tt MODIFIER = libya_baathism_dynamic_modifier }
+			add_to_variable = { libya_baathism_research_speed_effect = 0.05 tooltip = research_speed_factor_tt }
 		}
 
 	}
@@ -2485,8 +2482,8 @@ focus_tree = {
 			set_temp_variable = { percent_change = 4 }
 			set_temp_variable = { tag_index = ROOT }
 			change_influence_percentage = yes
-			add_to_variable = { libya_baathism_foreign_influence_effect = 0.05 }
-			custom_effect_tooltip = libya_baathism_increase_foreign_influence
+			custom_effect_tooltip = { localization_key = modifies_dynamic_modifier_tt MODIFIER = libya_baathism_dynamic_modifier }
+			add_to_variable = { libya_baathism_foreign_influence_effect = 0.05 tooltip = foreign_influence_modifier_tt }
 		}
 
 	}
@@ -2525,8 +2522,8 @@ focus_tree = {
 			set_temp_variable = { percent_change = 4 }
 			set_temp_variable = { tag_index = ROOT }
 			change_influence_percentage = yes
-			add_to_variable = { libya_baathism_population_effect = 0.05 }
-			custom_effect_tooltip = libya_baathism_increase_population
+			custom_effect_tooltip = { localization_key = modifies_dynamic_modifier_tt MODIFIER = libya_baathism_dynamic_modifier }
+			add_to_variable = { libya_baathism_population_effect = 0.05 tooltip = monthly_population_tt }
 		}
 
 	}
@@ -2612,8 +2609,8 @@ focus_tree = {
 			set_temp_variable = { percent_change = 4 }
 			set_temp_variable = { tag_index = ROOT }
 			change_influence_percentage = yes
-			add_to_variable = { libya_baathism_resource_export_effect = 0.05 }
-			custom_effect_tooltip = libya_baathism_increase_resource_export
+			custom_effect_tooltip = { localization_key = modifies_dynamic_modifier_tt MODIFIER = libya_baathism_dynamic_modifier }
+			add_to_variable = { libya_baathism_resource_export_effect = 0.05 tooltip = resource_export_multiplier_modifier_tt }
 		}
 
 	}
@@ -2687,7 +2684,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_revise_green_book"
-			add_dynamic_modifier = { modifier = LBA_new_green_book }
+			hidden_effect = { add_dynamic_modifier = { modifier = LBA_new_green_book } }
+			custom_effect_tooltip = { localization_key = adds_dynamic_modifier_tt MODIFIER = LBA_new_green_book }
 			set_variable = { libya_green_book_reform = 0 }
 			custom_effect_tooltip = LBA_revise_green_book_tt
 			custom_effect_tooltip = LBA_revise_green_book_current_reform_value
@@ -3124,7 +3122,6 @@ focus_tree = {
 			}
 			custom_effect_tooltip = LBA_release_new_green_book_tt
 			add_to_variable = { LBA_new_green_book_emerging_drift_effect = 0.10 }
-			force_update_dynamic_modifier = yes
 			if = {
 				limit = { check_variable = { libya_green_book_reform > 3 } }
 				complete_national_focus = LBA_empower_peoples_congresses
@@ -5095,7 +5092,7 @@ focus_tree = {
 							original_tag = ROM
 							original_tag = HUN
 							original_tag = SER
-							original_tag = MTN
+							original_tag = MNT
 							original_tag = BOS
 							original_tag = CRO
 							original_tag = SLV
@@ -9402,7 +9399,7 @@ focus_tree = {
 						has_idea = regional_power
 						has_idea = large_power
 						has_idea = great_power
-						has_idea = superpower
+						has_idea = super_power
 					}
 				}
 				set_temp_variable = { tag_index = THIS }
@@ -12504,7 +12501,7 @@ focus_tree = {
 				has_idea = regional_power
 				has_idea = large_power
 				has_idea = great_power
-				has_idea = superpower
+				has_idea = super_power
 			}
 		}
 
@@ -12707,6 +12704,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_spread_fire_to_guinea"
+			set_temp_variable = { wargoal_on = GUI }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = GUI
@@ -12744,6 +12744,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_spread_fire_to_ivory_coast"
+			set_temp_variable = { wargoal_on = CDI }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = CDI
@@ -12869,6 +12872,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_incursion_to_rep_congo"
+			set_temp_variable = { wargoal_on = CNG }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = CNG
@@ -12924,6 +12930,9 @@ focus_tree = {
 					NOT = { DRC = { is_subject_of = ROOT } }
 					NOT = { DRC = { is_in_faction_with = ROOT } }
 				}
+				set_temp_variable = { wargoal_on = DRC }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = DRC
@@ -12935,6 +12944,9 @@ focus_tree = {
 					NOT = { MLC = { is_subject_of = ROOT } }
 					NOT = { MLC = { is_in_faction_with = ROOT } }
 				}
+				set_temp_variable = { wargoal_on = MLC }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = MLC
@@ -12946,6 +12958,9 @@ focus_tree = {
 					NOT = { RCD = { is_subject_of = ROOT } }
 					NOT = { RCD = { is_in_faction_with = ROOT } }
 				}
+				set_temp_variable = { wargoal_on = RCD }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = RCD
@@ -13314,6 +13329,9 @@ focus_tree = {
 					NOT = { SML = { is_subject_of = ROOT } }
 					NOT = { SML = { is_in_faction_with = ROOT } }
 				}
+				set_temp_variable = { wargoal_on = SML }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = SML
 					type = annex_everything
@@ -13325,6 +13343,9 @@ focus_tree = {
 					NOT = { PUN = { is_subject_of = ROOT } }
 					NOT = { PUN = { is_in_faction_with = ROOT } }
 				}
+				set_temp_variable = { wargoal_on = PUN }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = PUN
 					type = annex_everything
@@ -13336,6 +13357,9 @@ focus_tree = {
 					NOT = { SOM = { is_subject_of = ROOT } }
 					NOT = { SOM = { is_in_faction_with = ROOT } }
 				}
+				set_temp_variable = { wargoal_on = SOM }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = SOM
 					type = annex_everything
@@ -13347,6 +13371,9 @@ focus_tree = {
 					NOT = { SNA = { is_subject_of = ROOT } }
 					NOT = { SNA = { is_in_faction_with = ROOT } }
 				}
+				set_temp_variable = { wargoal_on = SNA }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = SNA
 					type = annex_everything
@@ -13358,6 +13385,9 @@ focus_tree = {
 					NOT = { SHB = { is_subject_of = ROOT } }
 					NOT = { SHB = { is_in_faction_with = ROOT } }
 				}
+				set_temp_variable = { wargoal_on = SHB }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = SHB
 					type = annex_everything
@@ -13369,6 +13399,9 @@ focus_tree = {
 					NOT = { SWS = { is_subject_of = ROOT } }
 					NOT = { SWS = { is_in_faction_with = ROOT } }
 				}
+				set_temp_variable = { wargoal_on = SWS }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = SWS
 					type = annex_everything
@@ -13380,6 +13413,9 @@ focus_tree = {
 					NOT = { JUB = { is_subject_of = ROOT } }
 					NOT = { JUB = { is_in_faction_with = ROOT } }
 				}
+				set_temp_variable = { wargoal_on = JUB }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = JUB
 					type = annex_everything
@@ -13391,6 +13427,9 @@ focus_tree = {
 					NOT = { ETH = { is_subject_of = ROOT } }
 					NOT = { ETH = { is_in_faction_with = ROOT } }
 				}
+				set_temp_variable = { wargoal_on = ETH }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = ETH
 					type = annex_everything
@@ -13631,6 +13670,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_overthrow_saudis"
+			set_temp_variable = { wargoal_on = SAU }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				target = SAU
 				type = annex_everything
@@ -13668,6 +13710,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_overthrow_kuwaitis"
+			set_temp_variable = { wargoal_on = KUW }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				target = KUW
 				type = annex_everything
@@ -13932,8 +13977,6 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_moderate_islamism"
 			set_temp_variable = { temp_modify_social_con_government = -5 }
 			modify_social_conservatism_government = yes
-			set_temp_variable = { rad_change = -5 }
-			modify_radicalization_effect = yes
 			add_ideas = LBA_moderated_quran_and_sunnah
 		}
 
@@ -13981,6 +14024,9 @@ focus_tree = {
 					country_exists = TRP
 					TRP = { NOT = { is_subject_of = ROOT } }
 				}
+				set_temp_variable = { wargoal_on = TRP }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = TRP
 					type = annex_everything
@@ -13995,6 +14041,9 @@ focus_tree = {
 					country_exists = CYR
 					CYR = { NOT = { is_subject_of = ROOT } }
 				}
+				set_temp_variable = { wargoal_on = CYR }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = CYR
 					type = annex_everything
@@ -14009,6 +14058,9 @@ focus_tree = {
 					country_exists = FEZ
 					FEZ = { NOT = { is_subject_of = ROOT } }
 				}
+				set_temp_variable = { wargoal_on = FEZ }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = FEZ
 					type = annex_everything
@@ -14031,6 +14083,9 @@ focus_tree = {
 						}
 					}
 				}
+				set_temp_variable = { wargoal_on = TIE }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = TIE
 					type = annex_everything
@@ -14044,6 +14099,9 @@ focus_tree = {
 						owns_state = 918
 					}
 				}
+				set_temp_variable = { wargoal_on = TUA }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = TUA
 					type = annex_everything
@@ -15873,57 +15931,69 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LBA_libyan_national_army"
-			LBA_abdulrazek_alnadoori = {
-				add_corps_commander_role = {
-					traits = { politically_connected trickster LBA_unit_leader_trait_cyrenaica }
-					skill = 3
-					attack_skill = 2
-					defense_skill = 4
-					planning_skill = 2
-					logistics_skill = 2
-				}
-				add_advisor_role = {
-					advisor = {
-						slot = army_chief
-						idea_token = abdulrazek_alnadoori
-						traits = {
-							army_chief_morale_2
+			if = {
+				limit = { has_character = LBA_fawzi_almansouri }
+				LBA_abdulrazek_alnadoori = {
+					add_corps_commander_role = {
+						traits = { politically_connected trickster LBA_unit_leader_trait_cyrenaica }
+						skill = 3
+						attack_skill = 2
+						defense_skill = 4
+						planning_skill = 2
+						logistics_skill = 2
+					}
+					add_advisor_role = {
+						advisor = {
+							slot = army_chief
+							idea_token = abdulrazek_alnadoori
+							traits = {
+								army_chief_morale_2
+							}
+							cost = 100
 						}
-						cost = 100
 					}
 				}
 			}
-			LBA_fawzi_almansouri = {
-				add_corps_commander_role = {
-					traits = { brilliant_strategist armoured_cavalry_leader LBA_unit_leader_trait_fezzan }
-					skill = 3
-					attack_skill = 5
-					defense_skill = 2
-					planning_skill = 2
-					logistics_skill = 1
-				}
-			}
-			LBA_saqr_geroushi = {
-				add_advisor_role = {
-					advisor = {
-						slot = air_chief
-						idea_token = saqr_geroushi
-						traits = {
-							air_air_superiority_1
-						}
-						cost = 100
+			if = {
+				limit = { has_character = LBA_fawzi_almansouri }
+				LBA_fawzi_almansouri = {
+					add_corps_commander_role = {
+						traits = { brilliant_strategist armoured_cavalry_leader LBA_unit_leader_trait_fezzan }
+						skill = 3
+						attack_skill = 5
+						defense_skill = 2
+						planning_skill = 2
+						logistics_skill = 1
 					}
 				}
 			}
-			LBA_faraj_al_mahdawi = {
-				add_advisor_role = {
-					advisor = {
-						slot = navy_chief
-						idea_token = faraj_al_mahdawi
-						traits = {
-							navy_chief_reform_1
+			if = {
+				limit = { has_character = LBA_saqr_geroushi }
+				LBA_saqr_geroushi = {
+					add_advisor_role = {
+						advisor = {
+							slot = air_chief
+							idea_token = saqr_geroushi
+							traits = {
+								air_air_superiority_1
+							}
+							cost = 100
 						}
-						cost = 100
+					}
+				}
+			}
+			if = {
+				limit = { has_character = LBA_saqr_geroushi }
+				LBA_faraj_al_mahdawi = {
+					add_advisor_role = {
+						advisor = {
+							slot = navy_chief
+							idea_token = faraj_al_mahdawi
+							traits = {
+								navy_chief_reform_1
+							}
+							cost = 100
+						}
 					}
 				}
 			}
@@ -17295,7 +17365,7 @@ focus_tree = {
 								has_idea = regional_power
 								has_idea = large_power
 								has_idea = great_power
-								has_idea = superpower
+								has_idea = super_power
 							}
 						}
 						set_temp_variable = { tag_index = THIS }
@@ -17336,7 +17406,7 @@ focus_tree = {
 								has_idea = regional_power
 								has_idea = large_power
 								has_idea = great_power
-								has_idea = superpower
+								has_idea = super_power
 							}
 						}
 						set_temp_variable = { tag_index = THIS }
@@ -17377,7 +17447,7 @@ focus_tree = {
 							has_idea = regional_power
 							has_idea = large_power
 							has_idea = great_power
-							has_idea = superpower
+							has_idea = super_power
 						}
 					}
 					set_temp_variable = { tag_index = THIS }
@@ -17417,7 +17487,7 @@ focus_tree = {
 							has_idea = regional_power
 							has_idea = large_power
 							has_idea = great_power
-							has_idea = superpower
+							has_idea = super_power
 						}
 					}
 					set_temp_variable = { tag_index = THIS }
@@ -18826,7 +18896,7 @@ focus_tree = {
 					OR = {
 						has_idea = large_power
 						has_idea = great_power
-						has_idea = superpower
+						has_idea = super_power
 					}
 				}
 				set_temp_variable = { tag_index = THIS }

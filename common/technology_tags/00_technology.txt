@@ -25,6 +25,7 @@ technology_Categories = {
 		CAT_armor_engines		#Engines
 		CAT_armor_weapons		#Weapons
 		CAT_afv_weapons			#Light AFV Weapons
+		CAT_armour_ds			#Defenisive systems
 
 		CAT_cze #Czech Advanced Motorization Techs
 
@@ -110,10 +111,6 @@ technology_Categories = {
 			CAT_trans_heli #Transport Helicopter
 			CAT_atk_heli #Attack Helicopter
 
-
-
-
-
 	### Naval ###
 	CAT_naval_all #All Naval Ships
 
@@ -143,6 +140,7 @@ technology_Categories = {
 			CAT_d_sub 		#Disesel Submarine
 
 		#Surface Ships
+<<<<<<< HEAD
 		CAT_surface_ship 	#All Surface Ships
 			CAT_cruiser 	#Cruiser
 			CAT_destroyer 	#Destroyer
@@ -157,6 +155,17 @@ technology_Categories = {
 			CAT_cv 		#Aircraft Carrier
 			CAT_lha 	#Landing Helicopter Assault (LHA)
 			CAT_lpd 	#Amphibious transport dock/landing platform/dock (LPD)
+=======
+		CAT_surface_ship 				# All Surface Ships
+			CAT_cruiser 				# Cruiser
+			CAT_destroyer 				# Destroyer
+			CAT_frigate 				# Frigate
+			CAT_corvette 				# Corvette
+			CAT_carrier 				# Aircraft Carriers
+			CAT_helicopter_operators	# Light/Helicopter Operators -- Includes LHAs/LPDs
+			CAT_patrolboat				# Patrolboat
+			CAT_naval_stealth			#Stealth Destroyer, Corvette, Frigte
+>>>>>>> main
 
 	### Civilian ###
 		CAT_Civilian #All Civilian
@@ -181,6 +190,7 @@ technology_Categories = {
 			CAT_excavation_tech ##Excavation
 			CAT_infrastructure
 			CAT_fortifications #Bunkers
+			CAT_electrical_tech #Electricity non fossile-renewable-nuclear energy technologies
 
 	### Land doctrines
 	CAT_land_doctrine		#For all land doctrines
@@ -216,7 +226,6 @@ technology_Categories = {
 	CAT_bm
 	CAT_icbm
 	CAT_irbm
-	CAT_slbm
 	CAT_cm
 	CAT_alcm
 	CAT_glcm
@@ -227,7 +236,6 @@ technology_Categories = {
 	CAT_space
 	CAT_satellite
 	CAT_gnss
-	CAT_conventional_warhead
 
 	special_forces_doctrine
 }
@@ -250,6 +258,9 @@ technology_folders = {
 	}
 	artillery_folder = {
 		ledger = army
+	}
+	naval_module_folder = {
+		ledger = navy
 	}
 	naval_folder = {
 		ledger = navy
@@ -313,25 +324,4 @@ technology_folders = {
 			always = no
 		}
 	}
-	# special_forces_airborne_doctrine_folder = {
-	# 	ledger = hidden
-	# 	doctrine = yes
-	# 	available = {
-	# 		has_dlc = "Arms Against Tyranny"
-	# 	}
-	# }
-	# special_forces_airmobile_doctrine_folder = {
-	# 	ledger = hidden
-	# 	doctrine = yes
-	# 	available = {
-	# 		has_dlc = "Arms Against Tyranny"
-	# 	}
-	# }
-	# special_forces_marine_doctrine_folder = {
-	# 	ledger = hidden
-	# 	doctrine = yes
-	# 	available = {
-	# 		has_dlc = "Arms Against Tyranny"
-	# 	}
-	# }
 }

@@ -10,7 +10,7 @@ EU_environmental_imperialism_category = {
 					has_idea = regional_power
 					has_idea = large_power
 					has_idea = great_power
-					has_idea = superpower
+					has_idea = super_power
 				}
 				renewable_energy_infra < num_owned_states
 				OR = {
@@ -241,6 +241,10 @@ EU_environmental_imperialism_category = {
 				}
 			}
 			FROM = {
+
+				set_temp_variable = { wargoal_on = ROOT }
+				set_temp_variable = { wargoal_type = 1 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = topple_government
 					target = ROOT

@@ -1,9 +1,9 @@
-﻿##### 2000 #####
+##### 2000 #####
 capital = 698
 
 698 = { add_dynamic_modifier = { modifier = UKR_home_to_chernobyl_zone } }
 2000.1.1 = {
-
+	set_variable = { currency_strength = 0.65 }
 	complete_special_project = sp:sp_aircraft_project
 	if = {
 		limit = { has_dlc = "No Step Back" }
@@ -67,6 +67,8 @@ capital = 698
 			nsb_gun_pods_tech_1 = 1
 			nsb_light_nose_gun_tech_1 = 1
 			nsb_defense_tech_1 = 1
+			nsb_transport_helicopter_2 = 1
+			nsb_transport_helicopter_1 = 1
 		}
 		create_equipment_variant = {
 			name = "T-64A"
@@ -101,8 +103,8 @@ capital = 698
 			type = medium_tank_chassis_1
 			parent_version = 0
 			modules = {
-				main_armament_slot = tank_medium_cannon_2
-				ammunition_load_slot = mixed_main_ammo_2
+				main_armament_slot = tank_medium_cannon
+				ammunition_load_slot = mixed_main_ammo_1
 				turret_type_slot = tank_soviet_turret
 				suspension_type_slot = tank_torsion_bar_suspension_medium
 				armor_type_slot = tank_composite_armor_gen2
@@ -110,7 +112,7 @@ capital = 698
 				reload_type_slot = automatic_loading
 				special_type_slot_1 = smoke_launchers
 				special_type_slot_2 = empty
-				special_type_slot_3 = smoothbore_atgm_gen2
+				special_type_slot_3 = smoothbore_atgm_gen1
 				special_type_slot_4 = tank_battlestation_2
 			}
 			upgrades = {
@@ -132,8 +134,8 @@ capital = 698
 			type = medium_tank_chassis_1
 			parent_version = 0
 			modules = {
-				main_armament_slot = tank_medium_cannon_2
-				ammunition_load_slot = mixed_main_ammo_2
+				main_armament_slot = tank_medium_cannon
+				ammunition_load_slot = mixed_main_ammo_1
 				turret_type_slot = tank_soviet_turret
 				suspension_type_slot = tank_torsion_bar_suspension_medium
 				armor_type_slot = tank_composite_armor_gen2
@@ -141,7 +143,7 @@ capital = 698
 				reload_type_slot = automatic_loading
 				special_type_slot_1 = smoke_launchers
 				special_type_slot_2 = empty
-				special_type_slot_3 = smoothbore_atgm_gen2
+				special_type_slot_3 = smoothbore_atgm_gen1
 				special_type_slot_4 = tank_battlestation_2
 				special_type_slot_6 = reactive_armor_gen1
 			}
@@ -227,7 +229,7 @@ capital = 698
 				reload_type_slot = automatic_loading
 				special_type_slot_1 = smoke_launchers_2
 				special_type_slot_2 = empty
-				special_type_slot_3 = smoothbore_atgm_gen2
+				special_type_slot_3 = smoothbore_atgm_gen3
 				special_type_slot_4 = tank_battlestation_2
 				special_type_slot_6 = reactive_armor_gen2
 			}
@@ -288,6 +290,48 @@ capital = 698
 			icon = "gfx/interface/technologies/SOV/LAND/BMP2.dds"
 			model = "SOV_BMP2_entity"
 		}
+		create_equipment_variant = {
+			name = "MT-LB"
+			type = medium_tank_amphibious_chassis_1
+			parent_version = 1
+			modules = {
+				main_armament_slot = afv_machine_gun
+				reload_type_slot = manual_loading
+				ammunition_load_slot = machine_gun_ammo_1
+				turret_type_slot = tank_soviet_turret
+				suspension_type_slot = tank_torsion_bar_suspension_medium
+				armor_type_slot = tank_steel_armor_gen1
+				engine_type_slot = tank_diesel_engine_gen1
+				special_type_slot_1 = afv_troop_capacity
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 1
+			}
+			obsolete = yes
+			icon = "gfx/interface/technologies/SOV/LAND/MT_LB.dds"
+			model = "SOV_MTLB_entity"
+		}
+		create_equipment_variant = {
+			name = "2S1 Gvozdika"
+			type = medium_tank_artillery_chassis_0
+			parent_version = 1
+			modules = {
+				main_armament_slot = art_med_gun_gen1
+				reload_type_slot = automatic_loading
+				ammunition_load_slot = artillery_light_ammo_1
+				turret_type_slot = tank_base_tank_turret
+				suspension_type_slot = tank_torsion_bar_suspension_medium
+				engine_type_slot = tank_diesel_engine_gen1
+
+				special_type_slot_1 = empty
+				special_type_slot_4 = tank_battlestation_1
+			}
+			upgrades = {
+				tank_nsb_fire_upgrade = 1
+			}
+			obsolete = yes
+			icon = "gfx/interface/technologies/SOV/LAND/2S1.dds"
+		}
 		complete_special_project = sp:sp_armoured_vehicle_project
 		else = {
 			set_oob = "UKR_2000_nonnsb"
@@ -316,7 +360,9 @@ capital = 698
 				AA_upgrade_2 = 1
 				AA_upgrade_3 = 1
 				Rec_tank_0 = 1 #BRDM-2
-				attack_helicopter1 = 1
+				attack_helicopter_1 = 1
+				transport_helicopter_2 = 1
+				transport_helicopter_1 = 1
 			}
 		}
 	}
@@ -347,6 +393,47 @@ capital = 698
 			naval_weapons_1 = 1
 			special_mad_1 = 1
 			tgp_recon_1 = 1
+		}
+		create_equipment_variant = { #Large Transport
+			name = "An-12"
+			type = large_plane_air_transport_airframe_1
+			parent_version = 1
+			modules = {
+				fixed_main_weapon_slot = weap_buff_transport
+				fixed_gun_slot = empty
+				engine_type_slot = engine_prop_quad_1
+				avionics_type_slot = avionics_manned_1
+				wingform_type_slot = wing_straight
+				special_slot_type_1 = empty
+				special_slot_type_2 = spec_redundant_2
+				special_slot_type_3 = empty
+				fixed_auxiliary_weapon_slot_1 = empty
+				fixed_auxiliary_weapon_slot_2 = empty
+			}
+			obsolete = yes
+			icon = "gfx/interface/technologies/SOV/AIR/An-12.dds"
+		}
+		create_equipment_variant = { #Large Transport
+			name = "An-22"
+			type = large_plane_air_transport_airframe_1
+			parent_version = 1
+			modules = {
+				fixed_main_weapon_slot = weap_buff_transport
+				fixed_gun_slot = empty
+				engine_type_slot = engine_prop_quad_1
+				avionics_type_slot = avionics_manned_1
+				wingform_type_slot = wing_straight
+				special_slot_type_1 = empty
+				special_slot_type_2 = spec_redundant_2
+				special_slot_type_3 = empty
+				fixed_auxiliary_weapon_slot_1 = weap_buff_transport
+				fixed_auxiliary_weapon_slot_2 = weap_buff_transport
+			}
+			upgrades = {
+				plane_bba_engine_upgrade = 8
+			}
+			obsolete = yes
+			icon = "gfx/interface/technologies/SOV/AIR/An-22.dds"
 		}
 		create_equipment_variant = { #Large Transport
 			name = "An-26"
@@ -450,6 +537,9 @@ capital = 698
 	set_cosmetic_tag = UKR
 	set_country_flag = dynamic_flag
 	set_country_flag = dynamic_rebel_flag
+	set_country_flag = is_getting_cdf_subsidies
+	add_to_array = { global.uncdf_recipients = THIS }
+	add_dynamic_modifier = { modifier = un_aid_subsidies_modifier }
 	set_variable = { gdp_per_capita = 7.497 }
 
 
@@ -483,6 +573,12 @@ capital = 698
 	startup_influence = yes
 
 	add_ideas = {
+		partially_nationalized_healthcare
+		balanced_protections
+		standard_maintenance
+		us_dollar
+		standard_regulations
+
 		#Economic Cycle
 		stagnation
 		#Corruption
@@ -578,7 +674,6 @@ capital = 698
 		post_conventional_rail = 1
 		early_freight_locomotive = 1
 
-
 		armoured_mass_assault = 1
 
 		infantry_weapons_1 = 1
@@ -611,9 +706,12 @@ capital = 698
 		util_vehicle_2 = 1
 		util_vehicle_3 = 1
 		util_vehicle_4 = 1
+<<<<<<< HEAD
 
 		transport_helicopter1 = 1
 		nsb_transport_helicopter1 = 1
+=======
+>>>>>>> main
 
 		night_vision_1 = 1
 		night_vision_2 = 1
@@ -625,8 +723,6 @@ capital = 698
 		basic_computing = 1
 		integrated_circuit = 1
 		computing1 = 1
-		decryption1 = 1
-		encryption1 = 1
 
 		radar = 1
 		internet1 = 1
@@ -652,6 +748,14 @@ capital = 698
 		SPYSAT1 = 1
 
 		nuclear_technology = 1
+	}
+
+	if = {
+		limit = { NOT = { has_dlc = "La Resistance" } }
+		set_technology = {
+			decryption1 = 1
+			encryption1 = 1
+		}
 	}
 
 	complete_special_project = sp:sp_helicopter_project
@@ -704,45 +808,45 @@ capital = 698
 			aircraft_carrier_engineering = 1
 			aircraft_heli_engineering_1 = 1
 
-			tech_submarine_engineering = 1
+			tech_submarine_engineering_1 = 1
 
 			tech_naval_systems_engineering = 1
-			tech_power_systems = 1
 			tech_power_systems_1 = 1
-			tech_nuclear_power_systems = 1
+			tech_power_systems_2 = 1
+			tech_nuclear_power_systems_1 = 1
 
 			tech_combat_support_systems = 1
-			tech_fire_control = 1
 			tech_fire_control_1 = 1
-			tech_combat_radar = 1
+			tech_fire_control_2 = 1
 			tech_combat_radar_1 = 1
 			tech_combat_radar_2 = 1
-			tech_combat_sonar = 1
+			tech_combat_radar_3 = 1
 			tech_combat_sonar_1 = 1
 			tech_combat_sonar_2 = 1
+			tech_combat_sonar_3 = 1
 
 			tech_early_naval_weapon_systems = 1
 			tech_naval_weapon_systems = 1
-			tech_light_guns = 1
 			tech_light_guns_1 = 1
+			tech_light_guns_2 = 1
 
-			tech_point_defense_system = 1
+			tech_point_defense_chain_gun = 1
 			tech_point_defense_system_1 = 1
 			tech_point_defense_system_2 = 1
 
-			tech_turret_missiles_surface = 1
 			tech_turret_missiles_surface_1 = 1
-			tech_turret_missiles_aa = 1
+			tech_turret_missiles_surface_2 = 1
 			tech_turret_missiles_aa_1 = 1
-			tech_vls_surface = 1
+			tech_turret_missiles_aa_2 = 1
 			tech_vls_surface_1 = 1
-			tech_vls_aa = 1
+			tech_vls_surface_2 = 1
 			tech_vls_aa_1 = 1
+			tech_vls_aa_2 = 1
 
-			tech_torpedoes = 1
 			tech_torpedoes_1 = 1
+			tech_torpedoes_2 = 1
 
-			tech_landing_craft = 1
+			tech_landing_craft_1 = 1
 		}
 
 		#Krivak I Class
@@ -936,4 +1040,24 @@ capital = 698
 	recruit_character = UKR_viktor_nikolyuk
 	recruit_character = UKR_ihor_voronchenko
 
+	if = {
+		limit = {
+			has_dlc = "La Resistance"
+		}
+		create_intelligence_agency = {
+			name = "Security Service of Ukraine (SBU)"
+			icon = GFX_intelligence_agency_logo_generic_1
+		}
+		upgrade_intelligence_agency = upgrade_form_department
+		upgrade_intelligence_agency = upgrade_establish_cyber_operations_division
+	}
+
+
+	# Relation Starting Configuration (moved from on_startup)
+	add_opinion_modifier = { target = CUB modifier = sanctions }
+	add_opinion_modifier = { target = TTP modifier = AlQaida_Are_Terrorists }
+	add_opinion_modifier = { target = TTP modifier = AlQaida_Are_Terrorists_Trade }
+	add_opinion_modifier = { target = TAL modifier = Taliban_Are_Terrorists }
+	add_opinion_modifier = { target = TAL modifier = Taliban_Are_Terrorists_Trade }
+	reverse_add_opinion_modifier = { target = SOV modifier = RUS_OIL }
 }

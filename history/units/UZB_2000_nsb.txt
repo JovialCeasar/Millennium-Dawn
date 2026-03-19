@@ -47,7 +47,7 @@ division_template = {
 		L_Air_assault_Bat = { x = 0 y = 0 }
 		L_Air_assault_Bat = { x = 0 y = 1 }
 		L_Air_assault_Bat = { x = 0 y = 2 }
-		L_Air_assault_Bat = { x = 0 y = 3 }
+		L_Air_assault_Bat = { x = 1 y = 0 }
 	}
 }
 
@@ -374,18 +374,18 @@ instant_effect = {
 		variant_name = "Mi-24V"
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Mil Mi-26 Halo
+		type = transport_helicopter_2 #Mil Mi-26 Halo
 		amount = 1
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#Mi-8
+		type = transport_helicopter_1		#Mi-8
 		amount = 58
 		variant_name = "Mil Mi-8"
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		amount = 29
 		variant_name = "Mil Mi-6"
 		producer = SOV

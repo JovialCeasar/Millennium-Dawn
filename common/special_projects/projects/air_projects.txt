@@ -204,7 +204,7 @@ sp_nuclear_engines = {
 		FROM = {
 			has_tech = reactor1
 			has_tech = engines_2
-			has_tech = tech_nuclear_power_systems
+			has_tech = tech_nuclear_power_systems_1
 		}
 	}
 
@@ -950,7 +950,11 @@ sp_fiber_drones = {
 
 	project_output = {
 		country_effects = {
+<<<<<<< HEAD
 			add_ideas = sp_sp_fiber_drones_idea
+=======
+			add_ideas = sp_fiber_drones_idea
+>>>>>>> main
 		}
 	}
 

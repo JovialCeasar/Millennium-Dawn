@@ -171,7 +171,7 @@ KOR_unique_frigates = {
 
 			modules = {
 				fixed_ship_engine_slot = module_light_surface_jet_turbine_power3
-				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 				fixed_ship_radar_slot = module_radar_6
 				fixed_ship_auxillary_slot_2 = module_ram_5
 				fixed_ship_auxillary_slot_1 = module_asm_5
@@ -333,7 +333,7 @@ KOR_unique_destroyer = {
 			type = destroyer_hull_5
 			modules = {
 				fixed_ship_engine_slot = module_surface_jet_turbine_power3
-				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 				fixed_ship_radar_slot = module_radar_6
 				fixed_ship_auxillary_slot_3 = module_vls_sam_5
 				fixed_ship_auxillary_slot_2 = module_vls_asm_4
@@ -350,7 +350,7 @@ KOR_unique_destroyer = {
 KOR_unique_corvette = {
 	category = naval
 	available_for = { KOR }
-	roles = { naval_corvette }
+	roles = { naval_corvettes }
 	priority = {
 		base = 100
 	}
@@ -479,7 +479,7 @@ KOR_unique_corvette = {
 			type = corvette_hull_6
 			modules = {
 				fixed_ship_engine_slot = module_light_surface_jet_turbine_power3
-				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 				fixed_ship_radar_slot = module_radar_6
 				fixed_ship_auxillary_slot = module_asm_5
 				fixed_ship_battery_slot = module_76mm_gun_3
@@ -556,7 +556,7 @@ KOR_unique_stealth_destroyer = {
 			type = stealth_destroyer_hull_2
 			modules = {
 				fixed_ship_engine_slot = module_surface_jet_turbine_power3
-				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 				fixed_ship_radar_slot = module_radar_6
 				fixed_ship_auxillary_slot_3 = module_vls_asm_5
 				fixed_ship_auxillary_slot_2 = module_anti_submarine_missile_5
@@ -581,7 +581,7 @@ KOR_unique_stealth_destroyer = {
 			type = stealth_destroyer_hull_3
 			modules = {
 				fixed_ship_engine_slot = module_surface_fut_reactor_power
-				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 				fixed_ship_radar_slot = module_radar_7
 				fixed_ship_auxillary_slot_3 = module_vls_asm_6
 				fixed_ship_auxillary_slot_2 = module_anti_submarine_missile_6
@@ -626,7 +626,6 @@ KOR_unique_missile_submarine = {
 			#Weaponry
 			module_torpedoes_category
 			module_vls_sub_category
-
 
 			#Support
 			module_fuel_tanks_category
@@ -894,7 +893,7 @@ KOR_unique_helicopter_operator = {
 
 			modules = {
 				fixed_ship_engine_slot = module_surface_fut_reactor_power
-				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 				fixed_ship_radar_slot = module_radar_7
 				fixed_ship_auxillary_slot_3 = module_ciws_6
 				fixed_ship_auxillary_slot_2 = module_fuel_tank
@@ -926,7 +925,7 @@ KOR_unique_carrier_hull = {
 
 			modules = {
 				fixed_ship_engine_slot = module_surface_fut_reactor_power
-				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 				fixed_ship_radar_slot = module_radar_7
 				fixed_ship_auxillary_slot_2 = module_ciws_6
 				fixed_ship_auxillary_slot_1 = module_ram_6
@@ -964,128 +963,8 @@ KOR_unique_carrier_hull = {
 	}
 }
 
-### Attack Submarines ###
-ai_equipment = {
-	category = naval
-	available_for = { KOR }
-	roles = { naval_attack_submarines }
-
-	priority = {
-		base = 100
-	}
-
-	# KOR_attack_sub_1960s
-	KOR_attack_sub_1960s = {
-		target_variant = {
-			type = attack_submarine_hull_1
-			match_value = 2600
-
-			modules = {
-				fixed_ship_engine_slot = module_sub_diesel_electric_power
-				fixed_ship_radar_slot = module_sonar_1
-				fixed_ship_battery_slot = module_anti_ship_torpedoes_1
-				fixed_ship_auxillary_slot = module_torpedoes_1
-				fixed_ship_auxillary_slot_1 = module_minelaying
-				fixed_ship_auxillary_slot_2 = module_sub_esm_1
-				fixed_ship_auxillary_slot_3 = module_fuel_tank
-			}
-		}
-	}
-
-	# KOR_attack_sub_1980s
-	KOR_attack_sub_1980s = {
-		target_variant = {
-			type = attack_submarine_hull_2
-			match_value = 3200
-
-			modules = {
-				fixed_ship_engine_slot = module_sub_diesel_electric_power2
-				fixed_ship_radar_slot = module_sonar_2
-				fixed_ship_battery_slot = module_anti_ship_torpedoes_2
-				fixed_ship_auxillary_slot = module_torpedoes_2
-				fixed_ship_auxillary_slot_1 = module_torpedoes_1
-				fixed_ship_auxillary_slot_2 = module_sub_esm_1
-				fixed_ship_auxillary_slot_3 = module_fuel_tank
-			}
-		}
-	}
-
-	# KOR_attack_sub_1990s
-	KOR_attack_sub_1990s = {
-		target_variant = {
-			type = attack_submarine_hull_3
-			match_value = 3800
-
-			modules = {
-				fixed_ship_engine_slot = module_sub_diesel_electric_power3
-				fixed_ship_radar_slot = module_sonar_3
-				fixed_ship_battery_slot = module_anti_ship_torpedoes_3
-				fixed_ship_auxillary_slot = module_torpedoes_2
-				fixed_ship_auxillary_slot_1 = module_torpedoes_3
-				fixed_ship_auxillary_slot_2 = module_sub_esm_1
-				fixed_ship_auxillary_slot_3 = module_fuel_tank
-			}
-		}
-	}
-
-	# KOR_attack_sub_2010s
-	KOR_attack_sub_2010s = {
-		target_variant = {
-			type = attack_submarine_hull_4
-			match_value = 4400
-
-			modules = {
-				fixed_ship_engine_slot = module_sub_early_reactor_power
-				fixed_ship_radar_slot = module_sonar_4
-				fixed_ship_battery_slot = module_anti_ship_torpedoes_3
-				fixed_ship_auxillary_slot = module_vls_sub_asm_3
-				fixed_ship_auxillary_slot_1 = module_torpedoes_3
-				fixed_ship_auxillary_slot_2 = module_sub_esm_2
-				fixed_ship_auxillary_slot_3 = module_fuel_tank
-			}
-		}
-	}
-
-	# KOR_attack_sub_2020s
-	KOR_attack_sub_2020s = {
-		target_variant = {
-			type = attack_submarine_hull_5
-			match_value = 5200
-
-			modules = {
-				fixed_ship_engine_slot = module_sub_mod_reactor_power
-				fixed_ship_radar_slot = module_sonar_5
-				fixed_ship_battery_slot = module_anti_ship_torpedoes_4
-				fixed_ship_auxillary_slot = module_vls_sub_asm_4
-				fixed_ship_auxillary_slot_1 = module_sub_esm_2
-				fixed_ship_auxillary_slot_2 = module_torpedoes_4
-				fixed_ship_auxillary_slot_3 = module_fuel_tank
-			}
-		}
-	}
-
-	# KOR_attack_sub_2040s
-	KOR_attack_sub_2040s = {
-		target_variant = {
-			type = attack_submarine_hull_6
-			match_value = 6000
-
-			modules = {
-				fixed_ship_engine_slot = module_sub_fut_reactor_power
-				fixed_ship_radar_slot = module_sonar_6
-				fixed_ship_battery_slot = module_anti_ship_torpedoes_5
-				fixed_ship_auxillary_slot = module_vls_sub_asm_5
-				fixed_ship_auxillary_slot_1 = module_sub_esm_3
-				fixed_ship_auxillary_slot_2 = module_torpedoes_4
-				fixed_ship_auxillary_slot_3 = module_fuel_tank
-			}
-		}
-	}
-
-}
-
 ### Corvettes ###
-ai_equipment = {
+KOR_corvettes = {
 	category = naval
 	available_for = { KOR }
 	roles = { naval_corvettes }
@@ -1096,6 +975,11 @@ ai_equipment = {
 
 	# KOR_Escort_1960s
 	KOR_Escort_1960s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = corvette_hull_1 }
+			modifier = { add = -999 has_tech = corvette_hull_2 }
+		}
 		target_variant = {
 			type = corvette_hull_1
 			match_value = 2600
@@ -1114,6 +998,11 @@ ai_equipment = {
 
 	# KOR_AAW_Escort_1970s
 	KOR_AAW_Escort_1970s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = corvette_hull_2 }
+			modifier = { add = -999 has_tech = corvette_hull_3 }
+		}
 		target_variant = {
 			type = corvette_hull_2
 			match_value = 3200
@@ -1132,6 +1021,11 @@ ai_equipment = {
 
 	# KOR_Missile_Escort_1980s
 	KOR_Missile_Escort_1980s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = corvette_hull_3 }
+			modifier = { add = -999 has_tech = corvette_hull_4 }
+		}
 		target_variant = {
 			type = corvette_hull_3
 			match_value = 3800
@@ -1150,6 +1044,11 @@ ai_equipment = {
 
 	# KOR_AAW_MR_2000s
 	KOR_AAW_MR_2000s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = corvette_hull_4 }
+			modifier = { add = -999 has_tech = corvette_hull_5 }
+		}
 		target_variant = {
 			type = corvette_hull_4
 			match_value = 4400
@@ -1168,6 +1067,11 @@ ai_equipment = {
 
 	# KOR_Network_AAW_2020s
 	KOR_Network_AAW_2020s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = corvette_hull_5 }
+			modifier = { add = -999 has_tech = corvette_hull_6 }
+		}
 		target_variant = {
 			type = corvette_hull_5
 			match_value = 5200
@@ -1186,13 +1090,17 @@ ai_equipment = {
 
 	# KOR_Advanced_AAW_2040s
 	KOR_Advanced_AAW_2040s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = corvette_hull_6 }
+		}
 		target_variant = {
 			type = corvette_hull_6
 			match_value = 6000
 
 			modules = {
 				fixed_ship_engine_slot = module_light_surface_jet_turbine_power3
-				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 				fixed_ship_radar_slot = module_radar_5
 				fixed_ship_auxillary_slot = module_vls_sam_5
 				fixed_ship_battery_slot = module_127mm_guns_4
@@ -1204,6 +1112,7 @@ ai_equipment = {
 
 }
 
+<<<<<<< HEAD
 ### Destroyers ###
 ai_equipment = {
  category = naval
@@ -1351,11 +1260,13 @@ ai_equipment = {
  }
 }
 
+=======
+>>>>>>> main
 ### Frigates ###
-ai_equipment = {
+KOR_frigates = {
 	category = naval
 	available_for = { KOR }
-	roles = { naval_frigates }
+	roles = { naval_frigate }
 	priority = { base = 100 }
 
 	### KOR FRIGATES – HIGH-END MULTIROLE
@@ -1469,6 +1380,7 @@ ai_equipment = {
 		priority = {
 			base = -1
 			modifier = { add = 830 has_tech = frigate_hull_5 }
+			modifier = { add = -999 has_tech = frigate_hull_6 }
 		}
 		target_variant = {
 			type = frigate_hull_5
@@ -1483,115 +1395,9 @@ ai_equipment = {
 				fixed_ship_auxillary_slot_2 = module_ram_3
 
 				fixed_ship_radar_slot = module_radar_4
-				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 				fixed_ship_engine_slot = module_light_surface_jet_turbine_power2
 			}
 		}
 	}
-}
-
-### Missile Submarines ###
-ai_equipment = {
-	category = naval
-	available_for = { KOR }
-	roles = { naval_missile_submarines }
-
-	priority = { base = 100 }
-
-	KOR_missile_sub_1960s = {
-		target_variant = {
-			type = missile_submarine_hull_1
-			match_value = 2600
-			modules = {
-				fixed_ship_engine_slot = module_sub_diesel_electric_power
-				fixed_ship_radar_slot = module_sonar_1
-				fixed_ship_battery_slot = module_anti_ship_torpedoes_1
-				fixed_ship_auxillary_slot = module_torpedoes_1
-				fixed_ship_auxillary_slot_1 = module_minelaying
-				fixed_ship_auxillary_slot_2 = module_sub_esm_1
-				front_1_custom_slot = module_vls_sub_lam_1
-			}
-		}
-	}
-
-	KOR_missile_sub_1980s = {
-		target_variant = {
-			type = missile_submarine_hull_2
-			match_value = 3200
-			modules = {
-				fixed_ship_engine_slot = module_sub_diesel_electric_power2
-				fixed_ship_radar_slot = module_sonar_2
-				fixed_ship_battery_slot = module_anti_ship_torpedoes_2
-				fixed_ship_auxillary_slot = module_torpedoes_2
-				fixed_ship_auxillary_slot_1 = module_vls_sub_asm_2
-				fixed_ship_auxillary_slot_2 = module_sub_esm_1
-				front_1_custom_slot = module_vls_sub_lam_2
-			}
-		}
-	}
-
-	KOR_missile_sub_1990s = {
-		target_variant = {
-			type = missile_submarine_hull_3
-			match_value = 3800
-			modules = {
-				fixed_ship_engine_slot = module_sub_diesel_electric_power3
-				fixed_ship_radar_slot = module_sonar_3
-				fixed_ship_battery_slot = module_anti_ship_torpedoes_3
-				fixed_ship_auxillary_slot = module_vls_sub_asm_3
-				fixed_ship_auxillary_slot_1 = module_torpedoes_3
-				fixed_ship_auxillary_slot_2 = module_sub_esm_1
-				front_1_custom_slot = module_vls_sub_lam_3
-			}
-		}
-	}
-
-	KOR_missile_sub_2010s = {
-		target_variant = {
-			type = missile_submarine_hull_4
-			match_value = 4400
-			modules = {
-				fixed_ship_engine_slot = module_sub_early_reactor_power
-				fixed_ship_radar_slot = module_sonar_4
-				fixed_ship_battery_slot = module_anti_ship_torpedoes_3
-				fixed_ship_auxillary_slot = module_vls_sub_asm_3
-				fixed_ship_auxillary_slot_1 = module_torpedoes_3
-				fixed_ship_auxillary_slot_2 = module_sub_esm_2
-				front_1_custom_slot = module_vls_sub_lam_4
-			}
-		}
-	}
-
-	KOR_missile_sub_2020s = {
-		target_variant = {
-			type = missile_submarine_hull_5
-			match_value = 5000
-			modules = {
-				fixed_ship_engine_slot = module_sub_mod_reactor_power
-				fixed_ship_radar_slot = module_sonar_5
-				fixed_ship_battery_slot = module_anti_ship_torpedoes_4
-				fixed_ship_auxillary_slot = module_vls_sub_asm_4
-				fixed_ship_auxillary_slot_1 = module_sub_esm_2
-				fixed_ship_auxillary_slot_2 = module_torpedoes_4
-				front_1_custom_slot = module_vls_sub_lam_4
-			}
-		}
-	}
-
-	KOR_missile_sub_2040s = {
-		target_variant = {
-			type = missile_submarine_hull_6
-			match_value = 5600
-			modules = {
-				fixed_ship_engine_slot = module_sub_fut_reactor_power
-				fixed_ship_radar_slot = module_sonar_6
-				fixed_ship_battery_slot = module_anti_ship_torpedoes_5
-				fixed_ship_auxillary_slot = module_vls_sub_asm_5
-				fixed_ship_auxillary_slot_1 = module_sub_esm_3
-				fixed_ship_auxillary_slot_2 = module_torpedoes_4
-				front_1_custom_slot = module_vls_sub_lam_5
-			}
-		}
-	}
-
 }

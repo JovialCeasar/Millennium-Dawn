@@ -1,8 +1,12 @@
-﻿capital = 707
+capital = 707
 2000.1.1 = {
+	set_variable = { currency_strength = 0.55 }
 	set_cosmetic_tag = GEO
 	set_country_flag = dynamic_flag
 	set_country_flag = dynamic_rebel_flag
+	set_country_flag = is_getting_cdf_subsidies
+	add_to_array = { global.uncdf_recipients = THIS }
+	add_dynamic_modifier = { modifier = un_aid_subsidies_modifier }
 
 	set_technology = {
 		integrated_transportation_system = 1
@@ -28,8 +32,6 @@
 		basic_computing = 1
 		integrated_circuit = 1
 		computing1 = 1
-		decryption1 = 1
-		encryption1 = 1
 		radar = 1
 		internet1 = 1 	#1G
 		fuel_silos = 1
@@ -44,12 +46,21 @@
 		electrification_1 = 1
 		construction1 = 1
 	}
+
+	if = {
+		limit = { NOT = { has_dlc = "La Resistance" } }
+		set_technology = {
+			decryption1 = 1
+			encryption1 = 1
+		}
+	}
 	if = { limit = { has_dlc = "No Step Back" }
 
 		set_oob = "GEO_2000_nsb"
 
 		set_technology = {
 			mbt_tech_ops = 1
+			mbt_tech = 1
 			helo_ops_tech = 1
 			nsb_attack_helicopter_tech_1 = 1
 			nsb_engine_tech_1 = 1
@@ -92,9 +103,19 @@
 			SAM = 1
 			SAM0 = 1
 		}
+
+		else = {
+			complete_special_project = sp:sp_space_program_non_gdm
+		}
 	}
 
 	add_ideas = {
+		partially_nationalized_healthcare
+		balanced_protections
+		standard_maintenance
+		us_dollar
+		standard_regulations
+
 		orthodox_christian
 		widespread_corruption
 		stable_growth
@@ -223,4 +244,21 @@
 	recruit_character = GEO_sergo_ninua
 	recruit_character = GEO_zurab_iremadze
 	recruit_character = GEO_nikoloz_janjgava
+
+	# Relation Starting Configuration (moved from on_startup)
+	add_opinion_modifier = { target = CUB modifier = sanctions }
+	add_relation_modifier = { target = USA modifier = USA_World_Economical_Relations }
+	add_relation_modifier = { target = SOV modifier = SOV_World_Economical_Relations }
+	add_relation_modifier = { target = CHI modifier = CHI_World_Economical_Relations }
+	add_relation_modifier = { target = FRA modifier = FRA_World_Economical_Relations }
+	add_relation_modifier = { target = GER modifier = GER_World_Economical_Relations }
+	add_relation_modifier = { target = ENG modifier = ENG_World_Economical_Relations }
+	add_relation_modifier = { target = SPR modifier = SPR_World_Economical_Relations }
+	add_relation_modifier = { target = ITA modifier = ITA_World_Economical_Relations }
+	add_relation_modifier = { target = UKR modifier = UKR_World_Economical_Relations }
+	add_relation_modifier = { target = ISR modifier = ISR_World_Economical_Relations }
+	add_opinion_modifier = { target = TTP modifier = AlQaida_Are_Terrorists }
+	add_opinion_modifier = { target = TTP modifier = AlQaida_Are_Terrorists_Trade }
+	add_opinion_modifier = { target = TAL modifier = Taliban_Are_Terrorists }
+	add_opinion_modifier = { target = TAL modifier = Taliban_Are_Terrorists_Trade }
 }

@@ -80,7 +80,6 @@ equipments = {
 					helicopter_defence_type
 					helicopter_stealth_module
 					helicopter_em_lock_type
-					helicopter_active_defence_type
 				}
 			}
 			defence_type_slot_2 = {
@@ -89,17 +88,17 @@ equipments = {
 					helicopter_defence_type
 					helicopter_stealth_module
 					helicopter_em_lock_type
-					helicopter_active_defence_type
 				}
 			}
 		}
 
 		module_count_limit = {
-			category = helicopter_stealth_module
-			count < 2
+			module = tank_dozer_blades
+			count < 1
 		}
+
 		module_count_limit = {
-			category = helicopter_active_defence_type
+			category = helicopter_stealth_module
 			count < 2
 		}
 		module_count_limit = {
@@ -133,6 +132,7 @@ equipments = {
 		manpower = 3
 	}
 
+<<<<<<< HEAD
 	#1965
 	heavy_tank_chassis_10 = {
 		abbreviation = "ahh0"
@@ -150,6 +150,8 @@ equipments = {
 		}
 	}
 
+=======
+>>>>>>> main
 	heavy_tank_chassis_0 = {
 		abbreviation = "ahh0"
 		derived_variant_name = heavy_tank_chassis_0
@@ -245,7 +247,6 @@ equipments = {
 					helicopter_defence_type
 					helicopter_stealth_module
 					helicopter_em_lock_type
-					helicopter_active_defence_type
 				}
 			}
 			defence_type_slot_2 = {
@@ -254,7 +255,6 @@ equipments = {
 					helicopter_defence_type
 					helicopter_stealth_module
 					helicopter_em_lock_type
-					helicopter_active_defence_type
 				}
 			}
 		}
@@ -351,7 +351,6 @@ equipments = {
 					helicopter_defence_type
 					helicopter_stealth_module
 					helicopter_em_lock_type
-					helicopter_active_defence_type
 				}
 			}
 			defence_type_slot_2 = {
@@ -360,7 +359,6 @@ equipments = {
 					helicopter_defence_type
 					helicopter_stealth_module
 					helicopter_em_lock_type
-					helicopter_active_defence_type
 				}
 			}
 		}
@@ -457,7 +455,6 @@ equipments = {
 					helicopter_defence_type
 					helicopter_stealth_module
 					helicopter_em_lock_type
-					helicopter_active_defence_type
 				}
 			}
 			defence_type_slot_2 = {
@@ -466,7 +463,6 @@ equipments = {
 					helicopter_defence_type
 					helicopter_stealth_module
 					helicopter_em_lock_type
-					helicopter_active_defence_type
 				}
 			}
 		}
@@ -554,6 +550,114 @@ equipments = {
 				allowed_module_categories = {
 					helicopter_sensor_and_avionics_type
 					helicopter_drone_control_type_category
+<<<<<<< HEAD
+=======
+				}
+			}
+			defence_type_slot = {
+				required = no
+				allowed_module_categories = {
+					helicopter_defence_type
+					helicopter_stealth_module
+					helicopter_em_lock_type
+				}
+			}
+			defence_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					helicopter_defence_type
+					helicopter_stealth_module
+					helicopter_em_lock_type
+				}
+			}
+		}
+		module_count_limit = {
+			category = helicopter_heavy_atgm_type
+			count < 3
+		}
+		module_count_limit = {
+			category = helicopter_multiple_atgm_type
+			count < 3
+		}
+
+		maximum_speed = 4
+		build_cost_ic = 12
+		reliability = 0.9
+		hardness = 0.15
+		armor_value = 0
+		lend_lease_cost = 5
+
+		upgrades = {
+			helicopter_nsb_upgrade
+		}
+	}
+	#2035
+	heavy_tank_chassis_5 = {
+		abbreviation = "ahh5"
+		derived_variant_name = heavy_tank_chassis_5
+		visual_level = 4
+		year = 2055
+		archetype = heavy_tank_chassis
+		parent = heavy_tank_chassis_4
+		priority = 2000
+
+		module_slots = {
+			nose_gun_type_slot = {
+				required = no
+				allowed_module_categories = {
+				}
+			}
+			top_mount_type_slot = {
+				required = no
+				allowed_module_categories = {
+				}
+			}
+			helicopter_body_layout = {
+				required = yes
+				allowed_module_categories = {
+				}
+			}
+			chassis_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					helicopter_chassis_type
+				}
+			}
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+				}
+			}
+			armor_type_slot = {
+				required = no
+				allowed_module_categories = {
+				}
+			}
+			helicopter_body_mount_1 = {
+				required = no
+				allowed_module_categories = {
+				}
+			}
+			helicopter_body_mount_2 = {
+				required = no
+				allowed_module_categories = {
+				}
+			}
+			helicopter_wing_mount_1 = {
+				required = no
+				allowed_module_categories = {
+				}
+			}
+			helicopter_wing_mount_2 = {
+				required = no
+				allowed_module_categories = {
+				}
+			}
+			sensor_and_avionics_slot = {
+				required = yes
+				allowed_module_categories = {
+					helicopter_sensor_and_avionics_type
+>>>>>>> main
 				}
 			}
 			defence_type_slot = {
@@ -595,6 +699,7 @@ equipments = {
 			helicopter_nsb_upgrade
 		}
 	}
+<<<<<<< HEAD
 	#2035
 	heavy_tank_chassis_5 = {
 		abbreviation = "ahh5"
@@ -702,6 +807,8 @@ equipments = {
 			helicopter_nsb_upgrade
 		}
 	}
+=======
+>>>>>>> main
 	#2055
 	heavy_tank_chassis_6 = {
 		abbreviation = "ahh6"
@@ -985,6 +1092,7 @@ equipments = {
 					afv_gasoline_engine_type
 					czech_diesel_engine_type
 					czech_electric_engine_type
+					tank_exoskeletal_engine_type
 				}
 			}
 			reload_type_slot = {
@@ -998,7 +1106,6 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
-					tank_defense_module
 					tank_smoke_module
 					tank_aa_module
 					tank_additional_armor_era
@@ -1010,7 +1117,6 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
-					tank_defense_module
 					tank_smoke_module
 					tank_aa_module
 					tank_additional_armor_era
@@ -1022,7 +1128,6 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
-					tank_defense_module
 					tank_smoke_module
 					tank_aa_module
 					tank_additional_armor_era
@@ -1093,10 +1198,6 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			module = additional_machine_guns
-			count < 2
-		}
-		module_count_limit = {
 			category = tank_smoke_module
 			count < 2
 		}
@@ -1111,10 +1212,6 @@ equipments = {
 		module_count_limit = {
 			module = afv_mine_protection
 			count < 2
-		}
-		module_count_limit = {
-			module = tank_dozer_blades
-			count < 3
 		}
 
 		default_modules = {
@@ -1147,22 +1244,6 @@ equipments = {
 		manpower = 3
 	}
 
-	medium_tank_chassis_5 = {
-		abbreviation = "mbt5"
-		derived_variant_name = mbt_equipment_5
-		visual_level = 0
-		year = 1922
-		archetype = medium_tank_chassis
-		priority = 2000
-		module_slots = inherit
-		is_buildable = no
-
-		upgrades = {
-			tank_nsb_armor_upgrade
-			tank_nsb_fire_upgrade
-			tank_nsb_engine_upgrade
-		}
-	}
 
 	# 1965 hulls
 	medium_tank_chassis_0 = {

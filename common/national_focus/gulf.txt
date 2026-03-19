@@ -571,11 +571,6 @@ focus_tree = {
 			increase_social_spending = yes
 			set_temp_variable = { arg_popularity = 0.05 }
 			add_ruling_outlook_popularity = yes
-			if = {
-				limit = { no_jihadist_government = yes has_idea = sunni }
-				set_temp_variable = { rad_change = -2 }
-				modify_radicalization_effect = yes
-			}
 			log = "[GetDateText]: [This.GetName]: focus GCC_deepen_the_safety_net executed"
 			set_temp_variable = { desire_change = 0.5 }
 			change_expected_social_spending = yes
@@ -758,14 +753,6 @@ focus_tree = {
 			decrease_social_spending = yes
 			set_temp_variable = { temp_opinion = -5 }
 			change_small_medium_business_owners_opinion = yes
-			if = {
-				limit = {
-					no_jihadist_government = yes
-					has_idea = sunni
-				}
-				set_temp_variable = { rad_change = 2 }
-				modify_radicalization_effect = yes
-			}
 			log = "[GetDateText]: [This.GetName]: focus GCC_shrink_the_safety_net executed"
 			set_temp_variable = { desire_change = -0.5 }
 			change_expected_social_spending = yes
@@ -806,11 +793,6 @@ focus_tree = {
 			}
 			set_temp_variable = { arg_popularity = -0.1 }
 			add_ruling_outlook_popularity = yes
-			if = {
-				limit = { no_jihadist_government = yes has_idea = sunni }
-				set_temp_variable = { rad_change = -2 }
-				modify_radicalization_effect = yes
-			}
 			log = "[GetDateText]: [This.GetName]: focus GCC_private_sector_job_creation executed"
 		}
 
@@ -842,14 +824,6 @@ focus_tree = {
 				days = 365
 			}
 			increase_economic_growth = yes
-			if = {
-				limit = {
-					no_jihadist_government = yes
-					has_idea = sunni
-				}
-				set_temp_variable = { rad_change = -5 }
-				modify_radicalization_effect = yes
-			}
 			log = "[GetDateText]: [This.GetName]: focus GCC_construction_boom executed"
 		}
 
@@ -1109,11 +1083,6 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = rentier_state
 			add_stability = 0.05
-			if = {
-				limit = { no_jihadist_government = yes has_idea = sunni }
-				set_temp_variable = { rad_change = -5 }
-				modify_radicalization_effect = yes
-			}
 			log = "[GetDateText]: [This.GetName]: focus GCC_end_the_rentier_state executed"
 		}
 
@@ -4017,10 +3986,7 @@ focus_tree = {
 			modifier = {
 				add = 4
 				is_historical_focus_on = no
-				OR = {
-					jihadist_government = yes
-					check_variable = { radicalization > 50 }
-				}
+				jihadist_government = yes
 			}
 		}
 	}
@@ -4046,10 +4012,6 @@ focus_tree = {
 		completion_reward = {
 			set_temp_variable = { treasury_change = -1 }
 			modify_treasury_effect = yes
-			YEM = {
-				set_temp_variable = { threat_change = 10 }
-				modify_terror_threat_effect = yes
-			}
 			log = "[GetDateText]: [This.GetName]: focus GCC_covert_support_for_islamist_radicals executed"
 		}
 
@@ -4072,8 +4034,6 @@ focus_tree = {
 		bypass = { jihadist_government = yes }
 
 		completion_reward = {
-			set_temp_variable = { rad_change = 10 }
-			modify_radicalization_effect = yes
 			add_popularity = {
 				ideology = fascism
 				popularity = 0.05
@@ -4111,8 +4071,6 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.05
 			add_stability = -0.05
-			set_temp_variable = { threat_change = 20 }
-			modify_terror_threat_effect = yes
 
 			add_popularity = { ideology = fascism popularity = 0.05 }
 			recalculate_party = yes
@@ -4141,8 +4099,6 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.05
 			add_stability = -0.05
-			set_temp_variable = { threat_change = 20 }
-			modify_terror_threat_effect = yes
 			add_popularity = {
 				ideology = fascism
 				popularity = 0.05
@@ -4174,12 +4130,8 @@ focus_tree = {
 			if = { limit = { tag = SAU }
 				set_variable = { party_pop_array^11 = 1 }
 				recalculate_party = yes
-				clear_array = ruling_party
-				clear_array = gov_coalition_array
-				add_to_array = { ruling_party = 11 }
-				update_government_coalition_strength = yes
-				update_party_name = yes
-				set_coalition_drift = yes
+				set_temp_variable = { rul_party_temp = 11 }
+				change_ruling_party_effect = yes
 
 				retire_country_leader = yes
 				create_country_leader = {
@@ -4317,18 +4269,11 @@ focus_tree = {
 			if = {
 				limit = { tag = BHR }
 				hidden_effect = {
-					set_politics = {
-						ruling_party = fascism
-						elections_allowed = no
-					}
 					set_variable = { party_pop_array^11 = 1 }
 					recalculate_party = yes
-					clear_array = ruling_party
-					clear_array = gov_coalition_array
-					add_to_array = { ruling_party = 11 }
-					update_government_coalition_strength = yes
-					update_party_name = yes
-					set_coalition_drift = yes
+					set_temp_variable = { rul_party_temp = 11 }
+					set_temp_variable = { disable_elections = 1 }
+					change_ruling_party_effect = yes
 				}
 				swap_ideas = {
 					remove_idea = saudi_royal_family
@@ -4349,18 +4294,10 @@ focus_tree = {
 			if = {
 				limit = { tag = QAT }
 				hidden_effect = {
-					set_politics = {
-						ruling_party = fascism
-						elections_allowed = no
-					}
 					set_variable = { party_pop_array^11 = 1 }
 					recalculate_party = yes
-					clear_array = ruling_party
-					clear_array = gov_coalition_array
-					add_to_array = { ruling_party = 11 }
-					update_government_coalition_strength = yes
-					update_party_name = yes
-					set_coalition_drift = yes
+					set_temp_variable = { rul_party_temp = 11 }
+					change_ruling_party_effect = yes
 				}
 				create_country_leader = {
 					name = "Qasim al-Raymi"
@@ -5020,6 +4957,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			set_temp_variable = { wargoal_on = ISI }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = ISI
@@ -5062,6 +5002,9 @@ focus_tree = {
 					country_exists = BHR
 					BHR = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = BHR }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = BHR
@@ -5072,6 +5015,9 @@ focus_tree = {
 					country_exists = HEJ
 					HEJ = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = HEJ }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = HEJ
@@ -5082,6 +5028,9 @@ focus_tree = {
 					country_exists = HOU
 					HOU = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = HOU }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = HOU
@@ -5092,6 +5041,9 @@ focus_tree = {
 					country_exists = KUW
 					KUW = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = KUW }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = KUW
@@ -5102,6 +5054,9 @@ focus_tree = {
 					country_exists = NEJ
 					NEJ = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = NEJ }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = NEJ
@@ -5112,6 +5067,9 @@ focus_tree = {
 					country_exists = OMA
 					OMA = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = OMA }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = OMA
@@ -5122,6 +5080,9 @@ focus_tree = {
 					country_exists = QAT
 					QAT = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = QAT }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = QAT
@@ -5132,6 +5093,9 @@ focus_tree = {
 					country_exists = QTF
 					QTF = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = QTF }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = QTF
@@ -5142,6 +5106,9 @@ focus_tree = {
 					country_exists = SAU
 					SAU = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = SAU }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = SAU
@@ -5152,6 +5119,9 @@ focus_tree = {
 					country_exists = UAE
 					UAE = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = UAE }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = UAE
@@ -5162,6 +5132,9 @@ focus_tree = {
 					country_exists = YEM
 					YEM = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = YEM }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = YEM
@@ -5205,6 +5178,9 @@ focus_tree = {
 					country_exists = FSA
 					FSA = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = FSA }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = FSA
@@ -5215,6 +5191,9 @@ focus_tree = {
 					country_exists = IRQ
 					IRQ = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = IRQ }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = IRQ
@@ -5225,6 +5204,9 @@ focus_tree = {
 					country_exists = ISR
 					ISR = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = ISR }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = ISR
@@ -5235,6 +5217,9 @@ focus_tree = {
 					country_exists = LEB
 					LEB = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = LEB }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = LEB
@@ -5245,6 +5230,9 @@ focus_tree = {
 					country_exists = JOR
 					JOR = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = JOR }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = JOR
@@ -5255,6 +5243,9 @@ focus_tree = {
 					country_exists = KUR
 					KUR = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = KUR }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = KUR
@@ -5265,6 +5256,9 @@ focus_tree = {
 					country_exists = PUK
 					PUK = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = PUK }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = PUK
@@ -5275,6 +5269,9 @@ focus_tree = {
 					country_exists = PAL
 					PAL = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = PAL }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = PAL
@@ -5285,6 +5282,9 @@ focus_tree = {
 					country_exists = ROJ
 					ROJ = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = ROJ }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = ROJ
@@ -5295,6 +5295,9 @@ focus_tree = {
 					country_exists = SYR
 					SYR = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = SYR }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = SYR
@@ -5305,6 +5308,9 @@ focus_tree = {
 					country_exists = DRU
 					DRU = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = DRU }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = DRU
@@ -5348,6 +5354,9 @@ focus_tree = {
 					country_exists = ALG
 					ALG = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = ALG }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = ALG
@@ -5358,6 +5367,9 @@ focus_tree = {
 					country_exists = EGY
 					EGY = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = EGY }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = EGY
@@ -5368,6 +5380,9 @@ focus_tree = {
 					country_exists = GNA
 					GNA = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = GNA }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = GNA
@@ -5378,6 +5393,9 @@ focus_tree = {
 					country_exists = LBA
 					LBA = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = LBA }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = LBA
@@ -5388,6 +5406,9 @@ focus_tree = {
 					country_exists = HOR
 					HOR = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = HOR }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = HOR
@@ -5398,6 +5419,9 @@ focus_tree = {
 					country_exists = MOR
 					MOR = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = MOR }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = MOR
@@ -5408,6 +5432,9 @@ focus_tree = {
 					country_exists = SHA
 					SHA = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = SHA }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = SHA
@@ -5418,6 +5445,9 @@ focus_tree = {
 					country_exists = TUA
 					TUA = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = TUA }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = TUA
@@ -5428,6 +5458,9 @@ focus_tree = {
 					country_exists = TUN
 					TUN = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = TUN }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = TUN
@@ -5471,6 +5504,9 @@ focus_tree = {
 					country_exists = BFA
 					BFA = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = BFA }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = BFA
@@ -5481,6 +5517,9 @@ focus_tree = {
 					country_exists = CHA
 					CHA = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = CHA }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = CHA
@@ -5491,6 +5530,9 @@ focus_tree = {
 					country_exists = MAL
 					MAL = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = MAL }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = MAL
@@ -5501,6 +5543,9 @@ focus_tree = {
 					country_exists = MAU
 					MAU = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = MAU }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = MAU
@@ -5511,6 +5556,9 @@ focus_tree = {
 					country_exists = NGR
 					NGR = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = NGR }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = NGR
@@ -5521,6 +5569,9 @@ focus_tree = {
 					country_exists = NIG
 					NIG = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = NIG }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = NIG
@@ -5531,6 +5582,9 @@ focus_tree = {
 					country_exists = SUD
 					SUD = { no_jihadist_government = yes }
 				}
+				set_temp_variable = { wargoal_on = SUD }
+				set_temp_variable = { wargoal_type = 2 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = annex_everything
 					target = SUD
@@ -6422,11 +6476,6 @@ focus_tree = {
 			subtract_from_variable = { palestinian_support = 1 }
 			set_temp_variable = { arg_popularity = -0.1 }
 			add_ruling_outlook_popularity = yes
-			if = {
-				limit = { has_idea = sunni }
-				set_temp_variable = { rad_change = 10 }
-				modify_radicalization_effect = yes
-			}
 			set_temp_variable = { temp_opinion = -5 }
 			change_the_wahabi_ulema_opinion = yes
 			change_the_ulema_opinion = yes
@@ -6638,11 +6687,6 @@ focus_tree = {
 				custom_effect_tooltip = israel_peace_deal1_tt
 				add_to_variable = { isreali_support = 2 }
 				subtract_from_variable = { palestinian_support = 2 }
-				if = {
-					limit = { has_idea = sunni }
-					set_temp_variable = { rad_change = 10 }
-					modify_radicalization_effect = yes
-				}
 			}
 			set_temp_variable = { temp_opinion = -5 }
 			change_the_wahabi_ulema_opinion = yes
@@ -6710,6 +6754,9 @@ focus_tree = {
 				ISR = { country_event = { days = 1 id = gulf.22 } }
 			}
 			else = {
+				set_temp_variable = { wargoal_on = HEZ }
+				set_temp_variable = { wargoal_type = 1 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = topple_government
 					target = HEZ
@@ -7233,6 +7280,9 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = israel_peace_deal_reject_tt
 			subtract_from_variable = { isreali_support = 20 }
+			set_temp_variable = { wargoal_on = ISR }
+			set_temp_variable = { wargoal_type = 1 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = liberate_wargoal
 				target = ISR
@@ -7963,6 +8013,8 @@ focus_tree = {
 						NOT = { original_tag = BHR }
 						BHR = { has_country_flag = rejected_blockade_demands }
 					}
+					set_temp_variable = { wargoal_on = BHR }
+					add_threat_from_wargoal_effect = yes
 					create_wargoal = {
 						type = puppet_wargoal_focus
 						target = BHR
@@ -7973,6 +8025,8 @@ focus_tree = {
 						NOT = { original_tag = KUW }
 						KUW = { has_country_flag = rejected_blockade_demands }
 					}
+					set_temp_variable = { wargoal_on = KUW }
+					add_threat_from_wargoal_effect = yes
 					create_wargoal = {
 						type = puppet_wargoal_focus
 						target = KUW
@@ -7983,6 +8037,8 @@ focus_tree = {
 						NOT = { original_tag = OMA }
 						OMA = { has_country_flag = rejected_blockade_demands }
 					}
+					set_temp_variable = { wargoal_on = OMA }
+					add_threat_from_wargoal_effect = yes
 					create_wargoal = {
 						type = puppet_wargoal_focus
 						target = OMA
@@ -7993,6 +8049,8 @@ focus_tree = {
 						NOT = { original_tag = QAT }
 						QAT = { has_country_flag = rejected_blockade_demands }
 					}
+					set_temp_variable = { wargoal_on = QAT }
+					add_threat_from_wargoal_effect = yes
 					create_wargoal = {
 						type = puppet_wargoal_focus
 						target = QAT
@@ -8003,6 +8061,8 @@ focus_tree = {
 						NOT = { original_tag = UAE }
 						UAE = { has_country_flag = rejected_blockade_demands }
 					}
+					set_temp_variable = { wargoal_on = UAE }
+					add_threat_from_wargoal_effect = yes
 					create_wargoal = {
 						type = puppet_wargoal_focus
 						target = UAE
@@ -8013,6 +8073,8 @@ focus_tree = {
 						NOT = { original_tag = SAU }
 						SAU = { has_country_flag = rejected_blockade_demands }
 					}
+					set_temp_variable = { wargoal_on = SAU }
+					add_threat_from_wargoal_effect = yes
 					create_wargoal = {
 						type = puppet_wargoal_focus
 						target = SAU
@@ -8026,6 +8088,8 @@ focus_tree = {
 						NOT = { original_tag = BHR }
 						BHR = { has_completed_focus = GCC_antagonize_iran }
 					}
+					set_temp_variable = { wargoal_on = BHR }
+					add_threat_from_wargoal_effect = yes
 					create_wargoal = {
 						type = puppet_wargoal_focus
 						target = BHR
@@ -8036,6 +8100,8 @@ focus_tree = {
 						NOT = { original_tag = KUW }
 						KUW = { has_completed_focus = GCC_antagonize_iran }
 					}
+					set_temp_variable = { wargoal_on = KUW }
+					add_threat_from_wargoal_effect = yes
 					create_wargoal = {
 						type = puppet_wargoal_focus
 						target = KUW
@@ -8046,6 +8112,8 @@ focus_tree = {
 						NOT = { original_tag = OMA }
 						OMA = { has_completed_focus = GCC_antagonize_iran }
 					}
+					set_temp_variable = { wargoal_on = OMA }
+					add_threat_from_wargoal_effect = yes
 					create_wargoal = {
 						type = puppet_wargoal_focus
 						target = OMA
@@ -8056,6 +8124,8 @@ focus_tree = {
 						NOT = { original_tag = QAT }
 						QAT = { has_completed_focus = GCC_antagonize_iran }
 					}
+					set_temp_variable = { wargoal_on = QAT }
+					add_threat_from_wargoal_effect = yes
 					create_wargoal = {
 						type = puppet_wargoal_focus
 						target = QAT
@@ -8066,6 +8136,8 @@ focus_tree = {
 						NOT = { original_tag = UAE }
 						UAE = { has_completed_focus = GCC_antagonize_iran }
 					}
+					set_temp_variable = { wargoal_on = UAE }
+					add_threat_from_wargoal_effect = yes
 					create_wargoal = {
 						type = puppet_wargoal_focus
 						target = UAE
@@ -8076,6 +8148,8 @@ focus_tree = {
 						NOT = { original_tag = SAU }
 						SAU = { has_completed_focus = GCC_antagonize_iran }
 					}
+					set_temp_variable = { wargoal_on = SAU }
+					add_threat_from_wargoal_effect = yes
 					create_wargoal = {
 						type = puppet_wargoal_focus
 						target = SAU
@@ -8199,11 +8273,6 @@ focus_tree = {
 				add_ai_strategy = { type = protect id = ROOT value = 20 }
 			}
 			if = {
-				limit = { has_idea = sunni }
-				set_temp_variable = { rad_change = 10 }
-				modify_radicalization_effect = yes
-			}
-			if = {
 				limit = {
 					has_idea = idea_gcc_member_state
 					any_of_scopes = {
@@ -8249,8 +8318,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_war_support = 0.05
-			set_temp_variable = { rad_change = 10 }
-			modify_radicalization_effect = yes
 			if = {
 				limit = {
 					check_variable = { shia_population > 0 }
@@ -8338,6 +8405,8 @@ focus_tree = {
 				USA = { country_event = { days = 1 id = gulf.30 } }
 			}
 			else = {
+				set_temp_variable = { wargoal_on = PER }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = puppet_wargoal_focus
 					target = PER
@@ -8393,11 +8462,6 @@ focus_tree = {
 				}
 				set_temp_variable = { temp_modify_gcc_unity = -5 }
 				modify_gcc_unity = yes
-			}
-			if = {
-				limit = { no_jihadist_government = yes has_idea = sunni }
-				set_temp_variable = { rad_change = -2 }
-				modify_radicalization_effect = yes
 			}
 			log = "[GetDateText]: [This.GetName]: focus GCC_distance_from_america executed"
 		}
@@ -8482,11 +8546,6 @@ focus_tree = {
 				}
 				set_temp_variable = { temp_modify_gcc_unity = -10 }
 				modify_gcc_unity = yes
-			}
-			if = {
-				limit = { no_jihadist_government = yes has_idea = sunni }
-				set_temp_variable = { rad_change = -5 }
-				modify_radicalization_effect = yes
 			}
 			log = "[GetDateText]: [This.GetName]: focus GCC_expel_us_interests executed"
 		}
@@ -8686,11 +8745,6 @@ focus_tree = {
 				set_temp_variable = { temp_modify_gcc_unity = -10 }
 				modify_gcc_unity = yes
 			}
-			if = {
-				limit = { no_jihadist_government = yes has_idea = sunni }
-				set_temp_variable = { rad_change = -5 }
-				modify_radicalization_effect = yes
-			}
 		}
 
 		ai_will_do = { base = 1 }
@@ -8770,6 +8824,9 @@ focus_tree = {
 					}
 					NOT = { tag = BHR }
 				}
+				set_temp_variable = { wargoal_on = BHR }
+				set_temp_variable = { wargoal_type = 1 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = liberate_wargoal
 					target = BHR
@@ -8783,6 +8840,9 @@ focus_tree = {
 					}
 					NOT = { tag = EGY }
 				}
+				set_temp_variable = { wargoal_on = EGY }
+				set_temp_variable = { wargoal_type = 1 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = liberate_wargoal
 					target = EGY
@@ -8796,6 +8856,9 @@ focus_tree = {
 					}
 					NOT = { tag = IRQ }
 				}
+				set_temp_variable = { wargoal_on = IRQ }
+				set_temp_variable = { wargoal_type = 1 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = liberate_wargoal
 					target = IRQ
@@ -8809,6 +8872,9 @@ focus_tree = {
 					}
 					NOT = { tag = JOR }
 				}
+				set_temp_variable = { wargoal_on = JOR }
+				set_temp_variable = { wargoal_type = 1 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = liberate_wargoal
 					target = JOR
@@ -8822,6 +8888,9 @@ focus_tree = {
 					}
 					NOT = { tag = KUW }
 				}
+				set_temp_variable = { wargoal_on = KUW }
+				set_temp_variable = { wargoal_type = 1 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = liberate_wargoal
 					target = KUW
@@ -8835,6 +8904,9 @@ focus_tree = {
 					}
 					NOT = { tag = LEB }
 				}
+				set_temp_variable = { wargoal_on = LEB }
+				set_temp_variable = { wargoal_type = 1 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = liberate_wargoal
 					target = LEB
@@ -8848,6 +8920,9 @@ focus_tree = {
 					}
 					NOT = { tag = OMA }
 				}
+				set_temp_variable = { wargoal_on = OMA }
+				set_temp_variable = { wargoal_type = 1 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = liberate_wargoal
 					target = OMA
@@ -8861,6 +8936,9 @@ focus_tree = {
 					}
 					NOT = { tag = QAT }
 				}
+				set_temp_variable = { wargoal_on = QAT }
+				set_temp_variable = { wargoal_type = 1 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = liberate_wargoal
 					target = QAT
@@ -8874,6 +8952,9 @@ focus_tree = {
 					}
 					NOT = { tag = SAU }
 				}
+				set_temp_variable = { wargoal_on = SAU }
+				set_temp_variable = { wargoal_type = 1 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = liberate_wargoal
 					target = SAU
@@ -8887,6 +8968,9 @@ focus_tree = {
 					}
 					NOT = { tag = SYR }
 				}
+				set_temp_variable = { wargoal_on = SYR }
+				set_temp_variable = { wargoal_type = 1 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = liberate_wargoal
 					target = SYR
@@ -8900,6 +8984,9 @@ focus_tree = {
 					}
 					NOT = { tag = UAE }
 				}
+				set_temp_variable = { wargoal_on = UAE }
+				set_temp_variable = { wargoal_type = 1 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					type = liberate_wargoal
 					target = UAE
@@ -11675,11 +11762,6 @@ focus_tree = {
 			shia_resistance_level_up = yes
 			set_temp_variable = { temp_opinion = 5 }
 			change_the_wahabi_ulema_opinion = yes
-			if = {
-				limit = { has_idea = sunni }
-				set_temp_variable = { rad_change = 10 }
-				modify_radicalization_effect = yes
-			}
 			log = "[GetDateText]: [This.GetName]: focus GCC_inflame_rhetoric executed"
 		}
 

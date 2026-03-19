@@ -886,7 +886,7 @@ country_event = {
 			modify_treasury_effect = yes
 			if = {
 				limit = { has_dlc = "Arms Against Tyranny" }
-				mio:ENG_bae_land_systems_materiel_manufacturer = {
+				mio:ENG_bae_systems_manufacturer = {
 					add_mio_funds = 1000
 				}
 			}
@@ -4403,7 +4403,7 @@ country_event = {
 	option = {
 		name = HOL_military.109.a
 		log = "[GetDateText]: [Root.GetName]: HOL_military.109.a executed"
-		mio:ENG_bae_aerospace_aircraft_manufacturer = {
+		mio:ENG_bae_systems_manufacturer = {
 			add_mio_funds = 1000
 		}
 	}
@@ -4934,6 +4934,9 @@ country_event = {
 	option = {
 		name = HOL_monarchy.15.a
 		log = "[GetDateText]: [This.GetName]: HOL_monarchy.15.a executed"
+		set_temp_variable = { wargoal_on = LUX }
+		set_temp_variable = { wargoal_type = 2 }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
 			type = annex_everything
 			target = LUX
@@ -5022,6 +5025,9 @@ country_event = {
 	option = {
 		name = HOL_monarchy.18.a
 		log = "[GetDateText]: [This.GetName]: HOL_monarchy.18.a executed"
+		set_temp_variable = { wargoal_on = IRE }
+		set_temp_variable = { wargoal_type = 2 }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
 			type = annex_everything
 			target = IRE
@@ -5110,6 +5116,9 @@ country_event = {
 	option = {
 		name = HOL_monarchy.21.a
 		log = "[GetDateText]: [This.GetName]: HOL_monarchy.21.a executed"
+		set_temp_variable = { wargoal_on = ENG }
+		set_temp_variable = { wargoal_type = 2 }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
 			type = annex_everything
 			target = ENG
@@ -5198,6 +5207,9 @@ country_event = {
 	option = {
 		name = HOL_monarchy.24.a
 		log = "[GetDateText]: [This.GetName]: HOL_monarchy.24.a executed"
+		set_temp_variable = { wargoal_on = SCO }
+		set_temp_variable = { wargoal_type = 2 }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
 			type = annex_everything
 			target = SCO
@@ -6494,6 +6506,8 @@ country_event = {
 			HOL = {
 				50 = { add_core_of = HOL }
 				51 = { add_core_of = HOL }
+				set_temp_variable = { wargoal_on = BEL }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = BEL
 					type = take_state_focus
@@ -6503,6 +6517,8 @@ country_event = {
 			FRA = {
 				52 = { add_core_of = HOL }
 				965 = { add_core_of = HOL }
+				set_temp_variable = { wargoal_on = BEL }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = BEL
 					type = take_state_focus
@@ -7461,7 +7477,7 @@ country_event = {
 	}
 
 	option = {
-		name = HOL_politics.45.b
+		name = HOL_politics.51.b
 		log = "[GetDateText]: [This.GetName]: HOL_politics.45.b executed"
 		HOL = { country_event = HOL_politics.53 }
 		ai_chance = {
@@ -7628,6 +7644,7 @@ country_event = {
 		}
 		else_if = {
 			limit = {
+				has_completed_focus = HOL_D66
 				NOT = { has_completed_focus = HOL_D66_democratic_institutions }
 				NOT = { has_shine_effect_on_focus = HOL_D66_democratic_institutions }
 				NOT = { has_idea = bureau_05 }
@@ -7636,11 +7653,12 @@ country_event = {
 				NOT = { has_country_flag = HOL_SGP_in_progress_flag }
 			}
 			activate_shine_on_focus = HOL_D66_democratic_institutions
-			set_country_flag = { flag = HOL_D66_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
+			set_country_flag = { flag = HOL_D66_democratic_institutions_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
 			country_event = { id = HOL_politics.58 days = @HOL_D66_time_tier_1 }
 		}
 		else_if = {
 			limit = {
+				has_completed_focus = HOL_D66_democratic_institutions
 				NOT = { has_completed_focus = HOL_D66_direct_democracy }
 				NOT = { has_shine_effect_on_focus = HOL_D66_direct_democracy }
 				neutrality_neutral_social_are_in_coalition = yes
@@ -7648,11 +7666,12 @@ country_event = {
 				NOT = { has_country_flag = HOL_SGP_in_progress_flag }
 			}
 			activate_shine_on_focus = HOL_D66_direct_democracy
-			set_country_flag = { flag = HOL_D66_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
+			set_country_flag = { flag = HOL_D66_direct_democracy_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
 			country_event = { id = HOL_politics.58 days = @HOL_D66_time_tier_1 }
 		}
 		else_if = {
 			limit = {
+				has_completed_focus = HOL_D66_direct_democracy
 				NOT = { has_completed_focus = HOL_D66_rule_of_law }
 				NOT = { has_shine_effect_on_focus = HOL_D66_rule_of_law }
 				neutrality_neutral_social_are_in_coalition = yes
@@ -7660,11 +7679,12 @@ country_event = {
 				NOT = { has_country_flag = HOL_SGP_in_progress_flag }
 			}
 			activate_shine_on_focus = HOL_D66_rule_of_law
-			set_country_flag = { flag = HOL_D66_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
+			set_country_flag = { flag = HOL_D66_rule_of_law_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
 			country_event = { id = HOL_politics.58 days = @HOL_D66_time_tier_1 }
 		}
 		else_if = {
 			limit = {
+				has_completed_focus = HOL_D66
 				NOT = { has_completed_focus = HOL_D66_climate_action_plan }
 				NOT = { has_shine_effect_on_focus = HOL_D66_climate_action_plan }
 				neutrality_neutral_social_are_in_coalition = yes
@@ -7672,11 +7692,12 @@ country_event = {
 				NOT = { has_country_flag = HOL_SGP_in_progress_flag }
 			}
 			activate_shine_on_focus = HOL_D66_climate_action_plan
-			set_country_flag = { flag = HOL_D66_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
+			set_country_flag = { flag = HOL_D66_climate_action_plan_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
 			country_event = { id = HOL_politics.58 days = @HOL_D66_time_tier_1 }
 		}
 		else_if = {
 			limit = {
+				has_completed_focus = HOL_D66_climate_action_plan
 				NOT = { has_completed_focus = HOL_D66_green_energy }
 				NOT = { has_shine_effect_on_focus = HOL_D66_green_energy }
 				neutrality_neutral_social_are_in_coalition = yes
@@ -7684,11 +7705,12 @@ country_event = {
 				NOT = { has_country_flag = HOL_SGP_in_progress_flag }
 			}
 			activate_shine_on_focus = HOL_D66_green_energy
-			set_country_flag = { flag = HOL_D66_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
+			set_country_flag = { flag = HOL_D66_green_energy_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
 			country_event = { id = HOL_politics.58 days = @HOL_D66_time_tier_1 }
 		}
 		else_if = {
 			limit = {
+				has_completed_focus = HOL_D66
 				NOT = { has_completed_focus = HOL_D66_european_initiative }
 				NOT = { has_shine_effect_on_focus = HOL_D66_european_initiative }
 				neutrality_neutral_social_are_in_coalition = yes
@@ -7696,11 +7718,12 @@ country_event = {
 				NOT = { has_country_flag = HOL_SGP_in_progress_flag }
 			}
 			activate_shine_on_focus = HOL_D66_european_initiative
-			set_country_flag = { flag = HOL_D66_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
+			set_country_flag = { flag = HOL_D66_european_initiative_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
 			country_event = { id = HOL_politics.58 days = @HOL_D66_time_tier_1 }
 		}
 		else_if = {
 			limit = {
+				has_completed_focus = HOL_D66_european_initiative
 				NOT = { has_completed_focus = HOL_D66_social_progress }
 				NOT = { has_shine_effect_on_focus = HOL_D66_social_progress }
 				neutrality_neutral_social_are_in_coalition = yes
@@ -7709,11 +7732,12 @@ country_event = {
 				NOT = { has_idea = social_06 }
 			}
 			activate_shine_on_focus = HOL_D66_social_progress
-			set_country_flag = { flag = HOL_D66_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
+			set_country_flag = { flag = HOL_D66_social_progress_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
 			country_event = { id = HOL_politics.58 days = @HOL_D66_time_tier_1 }
 		}
 		else_if = {
 			limit = {
+				has_completed_focus = HOL_D66_social_progress
 				NOT = { has_completed_focus = HOL_D66_education_investments }
 				NOT = { has_shine_effect_on_focus = HOL_D66_education_investments }
 				neutrality_neutral_social_are_in_coalition = yes
@@ -7721,7 +7745,7 @@ country_event = {
 				NOT = { has_country_flag = HOL_SGP_in_progress_flag }
 			}
 			activate_shine_on_focus = HOL_D66_education_investments
-			set_country_flag = { flag = HOL_D66_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
+			set_country_flag = { flag = HOL_D66_education_investments_in_progress_flag days = @HOL_D66_time_tier_1_flag value = 1 }
 			country_event = { id = HOL_politics.58 days = @HOL_D66_time_tier_1 }
 		}
 		else_if = {
@@ -7748,7 +7772,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_completed_focus = HOL_D66
+		has_completed_focus = HOL_Paars
+		neutrality_neutral_social_are_in_coalition = yes
 	}
 
 	immediate = {
@@ -7759,10 +7784,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_D66
 				use_side_message = yes
-				originator_name = Neutral_Libertarian_L_icon
+				originator_name = HOL_D66_character
 			}
 			clr_country_flag = HOL_D66_in_progress_flag
-			country_event = { id = HOL_politics.57 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.57 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -7771,10 +7796,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_D66_democratic_institutions
 				use_side_message = yes
-				originator_name = Neutral_Libertarian_L_icon
+				originator_name = HOL_D66_character
 			}
-			clr_country_flag = HOL_D66_in_progress_flag
-			country_event = { id = HOL_politics.57 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			clr_country_flag = HOL_D66_democratic_institutions_in_progress_flag
+			country_event = { id = HOL_politics.57 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -7783,10 +7808,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_D66_direct_democracy
 				use_side_message = yes
-				originator_name = Neutral_Libertarian_L_icon
+				originator_name = HOL_D66_character
 			}
-			clr_country_flag = HOL_D66_in_progress_flag
-			country_event = { id = HOL_politics.57 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			clr_country_flag = HOL_D66_direct_democracy_in_progress_flag
+			country_event = { id = HOL_politics.57 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -7795,10 +7820,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_D66_rule_of_law
 				use_side_message = yes
-				originator_name = Neutral_Libertarian_L_icon
+				originator_name = HOL_D66_character
 			}
-			clr_country_flag = HOL_D66_in_progress_flag
-			country_event = { id = HOL_politics.57 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			clr_country_flag = HOL_D66_rule_of_law_in_progress_flag
+			country_event = { id = HOL_politics.57 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -7807,10 +7832,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_D66_climate_action_plan
 				use_side_message = yes
-				originator_name = Neutral_Libertarian_L_icon
+				originator_name = HOL_D66_character
 			}
-			clr_country_flag = HOL_D66_in_progress_flag
-			country_event = { id = HOL_politics.57 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			clr_country_flag = HOL_D66_climate_action_plan_in_progress_flag
+			country_event = { id = HOL_politics.57 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -7819,10 +7844,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_D66_green_energy
 				use_side_message = yes
-				originator_name = Neutral_Libertarian_L_icon
+				originator_name = HOL_D66_character
 			}
-			clr_country_flag = HOL_D66_in_progress_flag
-			country_event = { id = HOL_politics.57 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			clr_country_flag = HOL_D66_green_energy_in_progress_flag
+			country_event = { id = HOL_politics.57 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -7831,10 +7856,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_D66_european_initiative
 				use_side_message = yes
-				originator_name = Neutral_Libertarian_L_icon
+				originator_name = HOL_D66_character
 			}
-			clr_country_flag = HOL_D66_in_progress_flag
-			country_event = { id = HOL_politics.57 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			clr_country_flag = HOL_D66_european_initiative_in_progress_flag
+			country_event = { id = HOL_politics.57 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -7843,10 +7868,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_D66_social_progress
 				use_side_message = yes
-				originator_name = Neutral_Libertarian_L_icon
+				originator_name = HOL_D66_character
 			}
-			clr_country_flag = HOL_D66_in_progress_flag
-			country_event = { id = HOL_politics.57 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			clr_country_flag = HOL_D66_social_progress_in_progress_flag
+			country_event = { id = HOL_politics.57 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -7855,10 +7880,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_D66_education_investments
 				use_side_message = yes
-				originator_name = Neutral_Libertarian_L_icon
+				originator_name = HOL_D66_character
 			}
-			clr_country_flag = HOL_D66_in_progress_flag
-			country_event = { id = HOL_politics.57 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			clr_country_flag = HOL_D66_education_investments_in_progress_flag
+			country_event = { id = HOL_politics.57 days = 180 random_days = 36 }
 		}
 	}
 }
@@ -8000,7 +8025,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_completed_focus = HOL_SGP
+		has_completed_focus = HOL_Paars
+		neutrality_neutral_conservatism_are_in_coalition = yes
 	}
 
 	immediate = {
@@ -8011,10 +8037,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_SGP
 				use_side_message = yes
-				originator_name = Neutral_conservatism_L
+				originator_name = "[Neutral_conservatism_L]"
 			}
 			clr_country_flag = HOL_SGP_in_progress_flag
-			country_event = { id = HOL_politics.59 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.59 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8023,10 +8049,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_sgp_protect_sunday_rest
 				use_side_message = yes
-				originator_name = Neutral_conservatism_L
+				originator_name = "[Neutral_conservatism_L]"
 			}
 			clr_country_flag = HOL_SGP_in_progress_flag
-			country_event = { id = HOL_politics.59 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.59 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8035,10 +8061,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_sgp_religious_education_policy
 				use_side_message = yes
-				originator_name = Neutral_conservatism_L
+				originator_name = "[Neutral_conservatism_L]"
 			}
 			clr_country_flag = HOL_SGP_in_progress_flag
-			country_event = { id = HOL_politics.59 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.59 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8047,10 +8073,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_sgp_support_large_families
 				use_side_message = yes
-				originator_name = Neutral_conservatism_L
+				originator_name = "[Neutral_conservatism_L]"
 			}
 			clr_country_flag = HOL_SGP_in_progress_flag
-			country_event = { id = HOL_politics.59 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.59 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8059,10 +8085,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_sgp_support_christian_unions
 				use_side_message = yes
-				originator_name = Neutral_conservatism_L
+				originator_name = "[Neutral_conservatism_L]"
 			}
 			clr_country_flag = HOL_SGP_in_progress_flag
-			country_event = { id = HOL_politics.59 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.59 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8071,10 +8097,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_sgp_secure_rural_communities
 				use_side_message = yes
-				originator_name = Neutral_conservatism_L
+				originator_name = "[Neutral_conservatism_L]"
 			}
 			clr_country_flag = HOL_SGP_in_progress_flag
-			country_event = { id = HOL_politics.59 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.59 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8083,10 +8109,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_sgp_strengthen_defense
 				use_side_message = yes
-				originator_name = Neutral_conservatism_L
+				originator_name = "[Neutral_conservatism_L]"
 			}
 			clr_country_flag = HOL_SGP_in_progress_flag
-			country_event = { id = HOL_politics.59 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.59 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8095,10 +8121,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_sgp_resist_secularism
 				use_side_message = yes
-				originator_name = Neutral_conservatism_L
+				originator_name = "[Neutral_conservatism_L]"
 			}
 			clr_country_flag = HOL_SGP_in_progress_flag
-			country_event = { id = HOL_politics.59 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.59 days = 180 random_days = 36 }
 		}
 	}
 }
@@ -8260,7 +8286,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_completed_focus = HOL_GL
+		has_completed_focus = HOL_Paars
+		neutrality_neutral_green_are_in_coalition = yes
 	}
 
 	immediate = {
@@ -8271,10 +8298,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_GL
 				use_side_message = yes
-				originator_name = Neutral_green_L
+				originator_name = "[Neutral_green_L]"
 			}
 			clr_country_flag = HOL_GL_in_progress_flag
-			country_event = { id = HOL_politics.61 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.61 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8283,10 +8310,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_gl_affordable_housing_program
 				use_side_message = yes
-				originator_name = Neutral_green_L
+				originator_name = "[Neutral_green_L]"
 			}
 			clr_country_flag = HOL_GL_in_progress_flag
-			country_event = { id = HOL_politics.61 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.61 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8295,10 +8322,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_gl_biodiversity_protection
 				use_side_message = yes
-				originator_name = Neutral_green_L
+				originator_name = "[Neutral_green_L]"
 			}
 			clr_country_flag = HOL_GL_in_progress_flag
-			country_event = { id = HOL_politics.61 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.61 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8307,10 +8334,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_gl_digital_innovation
 				use_side_message = yes
-				originator_name = Neutral_green_L
+				originator_name = "[Neutral_green_L]"
 			}
 			clr_country_flag = HOL_GL_in_progress_flag
-			country_event = { id = HOL_politics.61 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.61 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8319,10 +8346,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_gl_international_solidarity
 				use_side_message = yes
-				originator_name = Neutral_green_L
+				originator_name = "[Neutral_green_L]"
 			}
 			clr_country_flag = HOL_GL_in_progress_flag
-			country_event = { id = HOL_politics.61 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.61 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8331,10 +8358,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_gl_fair_trade_policy
 				use_side_message = yes
-				originator_name = Neutral_green_L
+				originator_name = "[Neutral_green_L]"
 			}
 			clr_country_flag = HOL_GL_in_progress_flag
-			country_event = { id = HOL_politics.61 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.61 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8343,10 +8370,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_gl_diversify_workforce
 				use_side_message = yes
-				originator_name = Neutral_green_L
+				originator_name = "[Neutral_green_L]"
 			}
 			clr_country_flag = HOL_GL_in_progress_flag
-			country_event = { id = HOL_politics.61 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.61 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8355,10 +8382,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_gl_transparent_governance
 				use_side_message = yes
-				originator_name = Neutral_green_L
+				originator_name = "[Neutral_green_L]"
 			}
 			clr_country_flag = HOL_GL_in_progress_flag
-			country_event = { id = HOL_politics.61 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.61 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8367,10 +8394,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_gl_youth_empowerment
 				use_side_message = yes
-				originator_name = Neutral_green_L
+				originator_name = "[Neutral_green_L]"
 			}
 			clr_country_flag = HOL_GL_in_progress_flag
-			country_event = { id = HOL_politics.61 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.61 days = 180 random_days = 36 }
 		}
 		else_if = {
 			limit = {
@@ -8379,10 +8406,10 @@ country_event = {
 			complete_national_focus = {
 				focus = HOL_gl_energy_independence
 				use_side_message = yes
-				originator_name = Neutral_green_L
+				originator_name = "[Neutral_green_L]"
 			}
 			clr_country_flag = HOL_GL_in_progress_flag
-			country_event = { id = HOL_politics.61 days = HOL_minor_parties_to_start_focus random_days = HOL_minor_parties_random_days }
+			country_event = { id = HOL_politics.61 days = 180 random_days = 36 }
 		}
 	}
 }
@@ -9371,6 +9398,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: HOL_VOC.14.a executed"
 		declare_war_on = {
 			target = TAI
+			type = take_claimed_state
 			generator = { 1157 599 }
 		}
 		set_country_flag = HOL_voc_tai_done
@@ -9432,6 +9460,9 @@ country_event = {
 		name = HOL_VOC.16.b
 		log = "[GetDateText]: [This.GetName]: HOL_VOC.16.b executed"
 		USA = {
+			set_temp_variable = { wargoal_on = HOL }
+			set_temp_variable = { wargoal_type = 1 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				target = HOL
 				type = liberate_wargoal
@@ -11007,7 +11038,7 @@ country_event = {
 	option = {
 		name = HOL_WIC.01.b
 		log = "[GetDateText]: [This.GetName]: HOL_WIC.01.b executed"
-		complete_national_focus = HOL_wic_war_preperations
+		complete_national_focus = HOL_wic_war_preparations
 		every_other_country = {
 			limit = {
 				HOL_is_wic_country = yes
@@ -11182,8 +11213,10 @@ country_event = {
 	option = {
 		name = HOL_WIC.06.a
 		log = "[GetDateText]: [This.GetName]: HOL_WIC.06.a executed"
+		set_temp_variable = { wargoal_on = FROM }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
-			target = SEN
+			target = FROM
 			type = take_claimed_state
 			generator = 364
 		}
@@ -11309,8 +11342,10 @@ country_event = {
 	option = {
 		name = HOL_WIC.10.a
 		log = "[GetDateText]: [This.GetName]: HOL_WIC.10.a executed"
+		set_temp_variable = { wargoal_on = FROM }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
-			target = GAH
+			target = FROM
 			type = take_claimed_state
 			generator = 346
 		}
@@ -11389,11 +11424,12 @@ country_event = {
 	option = {
 		name = HOL_WIC.13.a
 		log = "[GetDateText]: [This.GetName]: HOL_WIC.13.a executed"
+		set_temp_variable = { wargoal_on = FROM }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
-			target = ROOT
+			target = FROM
 			type = take_claimed_state
 			generator = 298
-
 		}
 	}
 }
@@ -11470,8 +11506,10 @@ country_event = {
 	option = {
 		name = HOL_WIC.16.a
 		log = "[GetDateText]: [This.GetName]: HOL_WIC.16.a executed"
+		set_temp_variable = { wargoal_on = FROM }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
-			target = ROOT
+			target = FROM
 			type = take_claimed_state
 			generator = 24
 		}
@@ -11554,8 +11592,10 @@ country_event = {
 	option = {
 		name = HOL_WIC.19.a
 		log = "[GetDateText]: [This.GetName]: HOL_WIC.19.a executed"
+		set_temp_variable = { wargoal_on = FROM }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
-			target = ROOT
+			target = FROM
 			type = take_claimed_state
 			generator = 815
 		}
@@ -11634,8 +11674,10 @@ country_event = {
 	option = {
 		name = HOL_WIC.22.a
 		log = "[GetDateText]: [This.GetName]: HOL_WIC.22.a executed"
+		set_temp_variable = { wargoal_on = FROM }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
-			target = ROOT
+			target = FROM
 			type = take_claimed_state
 			generator = 23
 		}
@@ -11714,8 +11756,10 @@ country_event = {
 	option = {
 		name = HOL_WIC.25.a
 		log = "[GetDateText]: [This.GetName]: HOL_WIC.25.a executed"
+		set_temp_variable = { wargoal_on = FROM }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
-			target = ROOT
+			target = FROM
 			type = take_claimed_state
 			generator = 869
 		}
@@ -11797,8 +11841,11 @@ country_event = {
 	option = {
 		name = HOL_WIC.28.a
 		log = "[GetDateText]: [This.GetName]: HOL_WIC.28.a executed"
+		set_temp_variable = { wargoal_on = FROM }
+		set_temp_variable = { wargoal_type = 2 }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
-			target = SUR
+			target = FROM
 			type = annex_everything
 		}
 	}
@@ -11877,8 +11924,11 @@ country_event = {
 	option = {
 		name = HOL_WIC.31.a
 		log = "[GetDateText]: [This.GetName]: HOL_WIC.31.a executed"
+		set_temp_variable = { wargoal_on = FROM }
+		set_temp_variable = { wargoal_type = 2 }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
-			target = GUY
+			target = FROM
 			type = annex_everything
 		}
 	}
@@ -11957,6 +12007,8 @@ country_event = {
 	option = {
 		name = HOL_WIC.34.a
 		log = "[GetDateText]: [This.GetName]: HOL_WIC.34.a executed"
+		set_temp_variable = { wargoal_on = FRA }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
 			target = FRA
 			type = take_claimed_state
@@ -12041,8 +12093,10 @@ country_event = {
 	option = {
 		name = HOL_WIC.37.a
 		log = "[GetDateText]: [This.GetName]: HOL_WIC.37.a executed"
+		set_temp_variable = { wargoal_on = FROM }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
-			target = ROOT
+			target = FROM
 			type = take_claimed_state
 			generator = { 889 1027 1028 888 1029 }
 		}
@@ -12124,8 +12178,10 @@ country_event = {
 	option = {
 		name = HOL_WIC.40.a
 		log = "[GetDateText]: [This.GetName]: HOL_WIC.40.a executed"
+		set_temp_variable = { wargoal_on = FROM }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
-			target = ROOT
+			target = FROM
 			type = take_claimed_state
 			generator = { 770 769 768 1084 }
 		}
@@ -12289,6 +12345,8 @@ country_event = {
 			51 = { add_claim_by = HOL }
 			52 = { add_claim_by = HOL }
 			965 = { add_claim_by = HOL }
+			set_temp_variable = { wargoal_on = BEL }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				target = BEL
 				type = take_core_state
@@ -12707,6 +12765,9 @@ country_event = {
 	option = {
 		name = HOL_NVU.24.a
 		log = "[GetDateText]: [Root.GetName]: HOL_NVU.24.a executed"
+		set_temp_variable = { wargoal_on = GER }
+		set_temp_variable = { wargoal_type = 2 }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
 			type = annex_everything
 			target = GER
@@ -12894,6 +12955,9 @@ country_event = {
 	option = {
 		name = HOL_NVU.29.a
 		log = "[GetDateText]: [Root.GetName]: HOL_NVU.29.a executed"
+		set_temp_variable = { wargoal_on = AUS }
+		set_temp_variable = { wargoal_type = 2 }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
 			type = annex_everything
 			target = AUS
@@ -13113,6 +13177,9 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: HOL_common_event.6.c executed"
 		add_war_support = 0.05
 		add_political_power = -50
+		set_temp_variable = { wargoal_on = SOV }
+		set_temp_variable = { wargoal_type = 1 }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
 			type = topple_government
 			target = SOV
@@ -13211,6 +13278,9 @@ country_event = {
 		name = HOL_common_event.9.a
 		log = "[GetDateText]: [This.GetName]: HOL_common_event.9.a executed"
 		add_political_power = -10
+		set_temp_variable = { wargoal_on = SOV }
+		set_temp_variable = { wargoal_type = 1 }
+		add_threat_from_wargoal_effect = yes
 		create_wargoal = {
 			type = topple_government
 			target = SOV

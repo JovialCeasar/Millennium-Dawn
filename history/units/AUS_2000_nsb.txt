@@ -7,8 +7,8 @@
 		Mech_Inf_Bat = { x = 0 y = 0 }
 		Mech_Inf_Bat = { x = 0 y = 1 }
 		armor_bat = { x = 0 y = 2 }
-		L_arm_Bat = { x = 0 y = 3 }
-		SP_Arty_Bat = { x = 0 y = 4 }
+		L_arm_Bat = { x = 1 y = 0 }
+		SP_Arty_Bat = { x = 1 y = 1 }
 
 	}
 	support = {
@@ -28,8 +28,8 @@ division_template = {
 		Mech_Inf_Bat = { x = 0 y = 0 }
 		armor_bat = { x = 0 y = 1 }
 		armor_bat = { x = 0 y = 2 }
-		L_arm_Bat = { x = 0 y = 3 }
-		SP_Arty_Bat = { x = 0 y = 4 }
+		L_arm_Bat = { x = 1 y = 0 }
+		SP_Arty_Bat = { x = 1 y = 1 }
 
 	}
 	support = {
@@ -229,12 +229,12 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Bell 206/212
+		type = transport_helicopter_1 #Bell 206/212
 		amount = 33
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #SA-319 Alouette III
+		type = transport_helicopter_1 #SA-319 Alouette III
 		amount = 23
 		producer = FRA
 	}

@@ -48,8 +48,6 @@ ideas = {
 			available = { always = no }
 			picture = sufi_islam
 			modifier = {
-				maximum_radicalization_modifier = -10
-				maximum_terror_threat_modifier = -10
 				democratic_acceptance = -5
 				fascism_acceptance = -10
 				fascism_drift = -0.02
@@ -63,8 +61,6 @@ ideas = {
 			picture = ibadi_idea
 
 			modifier = {
-				maximum_radicalization_modifier = -10
-				maximum_terror_threat_modifier = -10
 				communism_acceptance = 5
 				democratic_acceptance = 5
 				fascism_acceptance = 5
@@ -152,6 +148,23 @@ ideas = {
 				fascism_acceptance = -10
 				democratic_acceptance = 10
 				fascism_drift = -0.05
+			}
+			cancel_if_invalid = no
+		}
+		shinto2 = {
+			name = shinto
+			allowed_civil_war = { always = yes }
+			available = { always = yes }
+			visible = { always = no }
+
+			picture = shinto_idea
+
+			modifier = {
+				fascism_acceptance = -10
+				democratic_acceptance = 10
+				fascism_drift = -0.05
+				nationalist_acceptance = 10
+				nationalist_drift = 0.05
 			}
 			cancel_if_invalid = no
 		}

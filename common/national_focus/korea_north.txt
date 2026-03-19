@@ -31,11 +31,12 @@ focus_tree = {
 			add_war_support = -0.02
 			set_temp_variable = { temp_opinion = 5 }
 			change_communist_cadres_opinion = yes
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_monthly_population_var = 0.05 }
-			AM_update_monthly_population = yes
-			add_to_temp_variable = { AM_stability_factor_var = 0.05 }
-			AM_update_stability_factor = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_monthly_population_var = 0.05 tooltip = monthly_population_tt }
+			add_to_variable = { AM_stability_factor_var = 0.05 tooltip = stability_factor_tt }
 		}
 
 		ai_will_do = {
@@ -66,11 +67,12 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_promote_songun executed"
 			add_political_power = 50
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_army_attack_var = 0.05 }
-			AM_update_army_attack = yes
-			add_to_temp_variable = { AM_army_defence_var = 0.05 }
-			AM_update_army_defence = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_army_attack_var = 0.05 tooltip = army_attack_factor_tt }
+			add_to_variable = { AM_army_defence_var = 0.05 tooltip = army_defence_factor_tt }
 			if = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
@@ -150,9 +152,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_food_production_boost"
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_monthly_population_var = 0.05 }
-			AM_update_monthly_population = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_monthly_population_var = 0.05 tooltip = monthly_population_tt }
 			set_temp_variable = { temp_productivity_change = 2 }
 			flat_productivity_change_effect = yes
 		}
@@ -177,11 +181,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_healthcare_reform executed"
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_stability_factor_var = 0.05 }
-			AM_update_stability_factor = yes
-			add_to_temp_variable = { AM_research_speed_var = 0.05 }
-			AM_update_research_speed = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_stability_factor_var = 0.05 tooltip = stability_factor_tt }
+			add_to_variable = { AM_research_speed_var = 0.05 tooltip = research_speed_factor_tt }
 			increase_healthcare_budget = yes
 			set_temp_variable = { temp_productivity_change = 5 }
 			flat_productivity_change_effect = yes
@@ -278,11 +283,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_agricultural_funding executed"
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_stability_factor_var = 0.05 }
-			AM_update_stability_factor = yes
-			add_to_temp_variable = { AM_monthly_population_var = 0.05 }
-			AM_update_monthly_population = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_stability_factor_var = 0.05 tooltip = stability_factor_tt }
+			add_to_variable = { AM_monthly_population_var = 0.05 tooltip = monthly_population_tt }
 			set_temp_variable = { temp_productivity_change = 2 }
 			flat_productivity_change_effect = yes
 		}
@@ -307,13 +313,13 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_fertiliser_factory executed"
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_stability_factor_var = 0.05 }
-			AM_update_stability_factor = yes
-			add_to_temp_variable = { AM_monthly_population_var = 0.05 }
-			AM_update_monthly_population = yes
-			add_to_temp_variable = { AM_research_speed_var = 0.05 }
-			AM_update_research_speed = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_stability_factor_var = 0.05 tooltip = stability_factor_tt }
+			add_to_variable = { AM_monthly_population_var = 0.05 tooltip = monthly_population_tt }
+			add_to_variable = { AM_research_speed_var = 0.05 tooltip = research_speed_factor_tt }
 			set_temp_variable = { temp_productivity_change = 2 }
 			flat_productivity_change_effect = yes
 			random_owned_controlled_state = {
@@ -355,9 +361,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_nutrition_programs executed"
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_consumer_goods_factor_var = -0.05 }
-			AM_update_consumer_goods_factor = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_consumer_goods_factor_var = -0.05 tooltip = consumer_goods_factor_tt }
 			set_temp_variable = { treasury_change = gdp_total }
 			multiply_temp_variable = { treasury_change = -0.05 }
 			modify_treasury_effect = yes
@@ -390,15 +398,14 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_land_reclamation executed"
 			one_random_renewable_energy_infra = yes
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_buildings_speed_var = 0.20 }
-			AM_update_buildings_speed = yes
-			add_to_temp_variable = { AM_research_speed_var = 0.05 }
-			AM_update_research_speed = yes
-			add_to_temp_variable = { AM_consumer_goods_factor_var = -0.10 }
-			AM_update_consumer_goods_factor = yes
-			add_to_temp_variable = { AM_monthly_population_var = 0.05 }
-			AM_update_monthly_population = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_buildings_speed_var = 0.20 tooltip = production_speed_buildings_factor_tt }
+			add_to_variable = { AM_research_speed_var = 0.05 tooltip = research_speed_factor_tt }
+			add_to_variable = { AM_consumer_goods_factor_var = -0.10 tooltip = consumer_goods_factor_tt }
+			add_to_variable = { AM_monthly_population_var = 0.05 tooltip = monthly_population_tt }
 		}
 
 		ai_will_do = {
@@ -591,15 +598,14 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_huichon executed"
 			add_political_power = 150
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_buildings_speed_var = 0.10 }
-			AM_update_buildings_speed = yes
-			add_to_temp_variable = { AM_monthly_population_var = 0.10 }
-			AM_update_monthly_population = yes
-			add_to_temp_variable = { AM_communism_drift_var = 0.15 }
-			AM_update_communism_drift = yes
-			add_to_temp_variable = { AM_political_power_var = 0.20 }
-			AM_update_political_power_factor = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_buildings_speed_var = 0.10 tooltip = production_speed_buildings_factor_tt }
+			add_to_variable = { AM_monthly_population_var = 0.10 tooltip = monthly_population_tt }
+			add_to_variable = { AM_communism_drift_var = 0.15 tooltip = communism_drift_tt }
+			add_to_variable = { AM_political_power_var = 0.20 tooltip = political_power_factor_tt }
 			swap_ideas = {
 				remove_idea = communist_cadres
 				add_idea = labour_unions
@@ -626,11 +632,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_huichon_hydroelectric_power executed"
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_communism_drift_var = 0.10 }
-			AM_update_communism_drift = yes
-			add_to_temp_variable = { AM_industry_free_repair_var = 0.25 }
-			AM_update_industry_free_repair = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_communism_drift_var = 0.10 tooltip = communism_drift_tt }
+			add_to_variable = { AM_industry_free_repair_var = 0.25 tooltip = industry_free_repair_factor_tt }
 			601 = {
 				set_temp_variable = { electric_addition = 1.5 }
 				add_hydroelectric_energy_production_effect = yes
@@ -657,9 +664,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_manpo_line_railway executed"
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_industrial_output_var = 0.10 }
-			AM_update_industrial_output = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_industrial_output_var = 0.10 tooltip = industrial_capacity_factory_tt }
 			NKO = {
 				country_event = { id = korea.52 }
 			}
@@ -693,9 +702,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_coal_energy_supermacy executed"
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_political_power_var = 0.10 }
-			AM_update_political_power_factor = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_political_power_var = 0.10 tooltip = political_power_factor_tt }
 			random_owned_state = {
 				add_building_construction = {
 					type = fossil_powerplant
@@ -739,15 +750,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_ordnance_manufacture executed"
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_army_attack_var = 0.15 }
-			AM_update_army_attack = yes
-			add_to_temp_variable = { AM_army_defence_var = 0.15 }
-			AM_update_army_defence = yes
-			add_to_temp_variable = { AM_industrial_output_var = 0.15 }
-			AM_update_industrial_output = yes
-			add_to_temp_variable = { AM_research_speed_var = 0.10 }
-			AM_update_research_speed = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_army_attack_var = 0.15 tooltip = army_attack_factor_tt }
+			add_to_variable = { AM_army_defence_var = 0.15 tooltip = army_defence_factor_tt }
+			add_to_variable = { AM_industrial_output_var = 0.15 tooltip = industrial_capacity_factory_tt }
+			add_to_variable = { AM_research_speed_var = 0.10 tooltip = research_speed_factor_tt }
 			set_temp_variable = { temp_opinion = 10 }
 			change_the_military_opinion = yes
 		}
@@ -772,9 +782,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_huichon_hard_glassware_factory executed"
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_consumer_goods_factor_var = -0.05 }
-			AM_update_consumer_goods_factor = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_consumer_goods_factor_var = -0.05 tooltip = consumer_goods_factor_tt }
 			add_stability = 0.05
 		}
 
@@ -798,11 +810,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_huichon_silk_mill executed"
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_monthly_population_var = 0.05 }
-			AM_update_monthly_population = yes
-			add_to_temp_variable = { AM_industry_free_repair_var = 0.25 }
-			AM_update_industry_free_repair = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_monthly_population_var = 0.05 tooltip = monthly_population_tt }
+			add_to_variable = { AM_industry_free_repair_var = 0.25 tooltip = industry_free_repair_factor_tt }
 			NKO = {
 				country_event = { id = korea.51 }
 			}
@@ -844,9 +857,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_huichon_machine_tool_factory executed"
-			custom_effect_tooltip = AM_DM_modifies_TT
-			add_to_temp_variable = { AM_industrial_output_var = 0.15 }
-			AM_update_industrial_output = yes
+			custom_effect_tooltip = {
+				localization_key = modifies_dynamic_modifier_tt
+				MODIFIER = arduous_march_modifiers
+			}
+			add_to_variable = { AM_industrial_output_var = 0.15 tooltip = industrial_capacity_factory_tt }
 			add_stability = 0.05
 		}
 
@@ -863,7 +878,6 @@ focus_tree = {
 		y = 0
 
 		cost = 5
-
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
@@ -1647,7 +1661,6 @@ focus_tree = {
 		}
 	}
 
-
 	focus = {
 		id = NKO_resource_extraction
 		icon = PB_Generic_Mining_Industry
@@ -2340,7 +2353,6 @@ focus_tree = {
 		}
 	}
 
-
 	focus = {
 		id = NKO_red_star_os
 		icon = NKO_red_star_os
@@ -2357,7 +2369,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NKO_red_star_os executed"
 			add_tech_bonus = {
-				name = NKO_red_star_os
+				name = CAT_computing_tech
 				bonus = 0.3
 				uses = 2
 				category = CAT_computing_tech
@@ -2384,7 +2396,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NKO_the_kwangmyong executed"
 			add_tech_bonus = {
-				name = NKO_the_kwangmyong
+				name = CAT_internet_tech
 				bonus = 0.50
 				uses = 2
 				category = CAT_internet_tech
@@ -2999,7 +3011,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_Self-produced_rifles executed"
 			add_tech_bonus = {
-				name = produced_rifles
+				name = CAT_inf_wep
 				bonus = 0.5
 				uses = 2
 				category = CAT_inf_wep
@@ -3028,7 +3040,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_Model_Master executed"
 			add_tech_bonus = {
-				name = NKO_Model_Master
+				name = CAT_tanks
 				bonus = 0.5
 				uses = 1
 				category = CAT_tanks
@@ -3077,7 +3089,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_Artillery executed"
 			add_tech_bonus = {
-				name = NKO_Artillery
+				name = CAT_sp_r_arty
 				bonus = 0.5
 				uses = 1
 				category = CAT_sp_r_arty
@@ -3116,7 +3128,6 @@ focus_tree = {
 		}
 	}
 
-
 	focus = {
 		id = NKO_Rocket_Artillery
 		icon = NKO_kh_09
@@ -3134,7 +3145,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_Rocket_Artillery executed"
 			add_tech_bonus = {
-				name = NKO_Rocket_Artillery
+				name = CAT_sp_r_arty
 				bonus = 0.5
 				uses = 1
 				category = CAT_sp_r_arty
@@ -3166,7 +3177,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_SPAA executed"
 			add_tech_bonus = {
-				name = NKO_SPAA
+				name = CAT_sp_r_arty
 				bonus = 0.5
 				uses = 1
 				category = CAT_sp_r_arty
@@ -3622,7 +3633,7 @@ focus_tree = {
 			set_temp_variable = { treasury_change = -10 }
 			modify_treasury_effect = yes
 			add_tech_bonus = {
-				name = NKO_Submarine_Development
+				name = CAT_sub
 				bonus = 0.5
 				uses = 2
 				category = CAT_sub
@@ -3886,7 +3897,6 @@ focus_tree = {
 			}
 		}
 
-
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_use_russian_model executed"
 			SOV = {
@@ -4017,9 +4027,16 @@ focus_tree = {
 		prerequisite = { focus = NKO_Domestic_Submarine_Program }
 		search_filters = { FOCUS_FILTER_NAVY }
 
+<<<<<<< HEAD
+=======
+		bypass = {
+			has_tech = tech_submarine_engineering_1
+		}
+
+>>>>>>> main
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_the_korean_typhoon_class executed"
-			set_technology = { tech_submarine_engineering = 1 }
+			set_technology = { tech_submarine_engineering_1 = 1 }
 			set_temp_variable = { treasury_change = -15 }
 			modify_treasury_effect = yes
 				country_event = {
@@ -4049,7 +4066,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_ship_launched_cruise_missiles executed"
 			add_tech_bonus = {
-				name = NKO_ship_launched_cruise_missiles
+				name = CAT_cruiser
 				bonus = 1.0
 				uses = 2
 				category = CAT_cruiser
@@ -4659,8 +4676,11 @@ focus_tree = {
 		}
 	}
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> main
 	focus = {
 		id = NKO_Struggle_for_Power
 		icon = kim_il_sung
@@ -5374,7 +5394,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS }
 		mutually_exclusive = { focus = NKO_Kim_Jong_un focus = NKO_Kim_Jong_Nam }
 
-
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_Junta executed"
 			set_politics = {
@@ -5427,12 +5446,8 @@ focus_tree = {
 			set_variable = { party_pop_array^21 = 0 } #Nat_Fascism
 			set_variable = { party_pop_array^22 = 0.32 } #Nat_Autocracy
 			set_variable = { party_pop_array^23 = 0 } #Monarchist
-			clear_array = ruling_party
-			clear_array = gov_coalition_array
-			add_to_array = { ruling_party = 22 }
-			update_government_coalition_strength = yes
-			update_party_name = yes
-			set_coalition_drift = yes
+			set_temp_variable = { rul_party_temp = 22 }
+			change_ruling_party_effect = yes
 			add_timed_idea = { idea = Fallout_leadership_succession days = 730 }
 		}
 
@@ -5986,8 +6001,6 @@ focus_tree = {
 		}
 	}
 
-
-
 	focus = {
 		id = NKO_perpetual_war_footing
 		icon = blr_china_cooperation
@@ -6014,7 +6027,6 @@ focus_tree = {
 				country_event = { id = korea_china.15 }
 			}
 		}
-
 
 		ai_will_do = {
 			base = 1
@@ -6726,6 +6738,77 @@ focus_tree = {
 	}
 
 	focus = {
+<<<<<<< HEAD
+=======
+		id = NKO_kim_yo_jongs
+		icon = kim_yo_jong
+
+		x = -1
+		y = 9
+		relative_position_id = NKO_Kim_Jong_il_Death
+		cost = 5
+
+		prerequisite = { focus = NKO_Party_State_Army focus = NKO_Party_Unchecked }
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS }
+
+		completion_reward = {
+			log = "[GetDateText]: [This.GetName]: focus NKO_kim_yo_jongs"
+			add_ideas = NKO_sister_idea
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+		id = NKO_Eternal_Juche_sasang
+		icon = juche4
+
+		x = 0
+		y = 10
+		relative_position_id = NKO_Kim_Jong_il_Death
+
+		cost = 5
+
+		prerequisite = { focus = NKO_Party_Unchecked }
+		mutually_exclusive = {
+			focus = NKO_The_Choson_Dream
+			focus = NKO_Democracy_with_North_Characteristics
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [This.GetName]: focus NKO_Eternal_Juche_sasang executed"
+			if = { limit = { has_idea = NKO_Broken_Juche_0 }
+				swap_ideas = {
+					remove_idea = NKO_Broken_Juche_0
+					add_idea = NKO_Eternal_Juche
+				}
+			}
+			else_if = { limit = { has_idea = NKO_Broken_Juche_1 }
+				swap_ideas = {
+					remove_idea = NKO_Broken_Juche_1
+					add_idea = NKO_Eternal_Juche
+				}
+			}
+			else_if = { limit = { has_idea = NKO_Broken_Juche_2 }
+				swap_ideas = {
+					remove_idea = NKO_Broken_Juche_2
+					add_idea = NKO_Eternal_Juche
+				}
+			}
+			else = {
+				add_ideas = NKO_Eternal_Juche
+			}
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	focus = {
+>>>>>>> main
 		id = NKO_Kim_Jong_Nam
 		icon = Kim_Jong_nam
 
@@ -6809,8 +6892,6 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = NKO_Face_world }
 
-
-
 		completion_reward = {
 			decrease_sanctions = yes
 			decrease_corruption = yes
@@ -6832,7 +6913,6 @@ focus_tree = {
 		relative_position_id = NKO_Kim_Jong_Nam
 		cost = 5
 		prerequisite = { focus = NKO_Conciliatory_Rhetoric }
-
 
 		search_filters = { FOCUS_FILTER_FOREIGN_POLICY }
 
@@ -6866,7 +6946,6 @@ focus_tree = {
 		relative_position_id = NKO_Kim_Jong_Nam
 		cost = 5
 		prerequisite = { focus = NKO_Diplomatic_Overtures }
-
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
@@ -7211,7 +7290,6 @@ focus_tree = {
 		prerequisite = { focus = NKO_step_up_joint_Ventures }
 		mutually_exclusive = { focus = NKO_Preserve_the_Party }
 
-
 		search_filters = { FOCUS_FILTER_STABILITY }
 
 		completion_reward = {
@@ -7255,7 +7333,6 @@ focus_tree = {
 		relative_position_id = NKO_Kim_Jong_Nam
 		cost = 5
 		prerequisite = { focus = NKO_People_before_Party }
-
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
@@ -7700,7 +7777,6 @@ focus_tree = {
 		}
 	}
 
-
 	focus = {
 		id = NKO_Privatize_Means_of_Production
 		icon = shenzhen_night
@@ -7787,6 +7863,12 @@ focus_tree = {
 			add_stability = -0.02
 			set_temp_variable = { temp_opinion = -5 }
 			change_the_donju_opinion = yes
+			JAP = {
+				unlock_decision_tooltip = {
+					decision = JAP_north_korean_road_to_war
+					show_effect_tooltip = yes
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -8260,7 +8342,6 @@ focus_tree = {
 			}
 		}
 
-
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_threaten_the_south executed"
 			add_political_power = 150
@@ -8273,6 +8354,12 @@ focus_tree = {
 				}
 				add_war_support = 0.02
 				support_for_reunification_2_less = yes
+			}
+			JAP = {
+				unlock_decision_tooltip = {
+					decision = JAP_north_korean_threats_to_south_korea
+					show_effect_tooltip = yes
+				}
 			}
 		}
 
@@ -8351,6 +8438,12 @@ focus_tree = {
 				}
 				add_war_support = 0.02
 				support_for_reunification_2_less = yes
+			}
+			JAP = {
+				unlock_decision_tooltip = {
+					decision = JAP_north_korean_increased_nuclear_testing
+					show_effect_tooltip = yes
+				}
 			}
 		}
 
@@ -8437,6 +8530,12 @@ focus_tree = {
 				}
 				add_war_support = 0.05
 				support_for_reunification_5_less = yes
+			}
+			JAP = {
+				unlock_decision_tooltip = {
+					decision = JAP_north_korean_remilitarized_dmz
+					show_effect_tooltip = yes
+				}
 			}
 		}
 
@@ -8590,7 +8689,6 @@ focus_tree = {
 			base = 1
 		}
 	}
-
 
 	focus = {
 		id = NKO_foment_insurrection

@@ -522,6 +522,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [THIS.GetName]: Focus TAJ_heirs_of_the_samanids"
+			set_temp_variable = { wargoal_on = KYR }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				target = KYR
 				type = annex_everything
@@ -818,13 +821,9 @@ focus_tree = {
 			set_temp_variable = { influence_target = UZB }
 			change_influence_percentage = yes
 			newline = yes
-			set_temp_variable = { percent_change = 10.00 }
-			set_temp_variable = { tag_index = TAJ }
 			set_temp_variable = { influence_target = TRK }
 			change_influence_percentage = yes
 			newline = yes
-			set_temp_variable = { percent_change = 10.00 }
-			set_temp_variable = { tag_index = TAJ }
 			set_temp_variable = { influence_target = ARM }
 			change_influence_percentage = yes
 		}
@@ -2304,7 +2303,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [THIS.GetName]: Focus TAJ_gulfs_bankroll"
 			add_tech_bonus = {
-				name = TAJ_islamic_sceince
+				name = TAJ_gulfs_bankroll
 				bonus = 0.5
 				uses = 2
 				category = CAT_nfibers
@@ -2792,31 +2791,7 @@ focus_tree = {
 						elections_allowed = no
 					}
 					start_politics_input = yes
-					### Party Popularities
-					set_variable = { party_pop_array^0 = 0.00 } #Western_Autocracy
-					set_variable = { party_pop_array^1 = 0.00 } #conservatism
-					set_variable = { party_pop_array^2 = 0.00 } #liberalism
-					set_variable = { party_pop_array^3 = 0.00 } #socialism
-					set_variable = { party_pop_array^4 = 0.00 } #Communist-State
-					set_variable = { party_pop_array^5 = 0.00 } #anarchist_communism
-					set_variable = { party_pop_array^6 = 0.00 } #Conservative
-					set_variable = { party_pop_array^7 = 0.00 } #Autocracy
-					set_variable = { party_pop_array^8 = 0.00 } #Mod_Vilayat_e_Faqih -> Reformists
-					set_variable = { party_pop_array^9 = 0.00 } #Vilayat_e_Faqih -> Principalists
-					set_variable = { party_pop_array^10 = 0.00 } #Kingdom
-					set_variable = { party_pop_array^11 = 0.00 } #Caliphate
 					set_variable = { party_pop_array^12 = 1.00 } #Neutral_Muslim_Brotherhood
-					set_variable = { party_pop_array^13 = 0.00 } #Neutral_Autocracy
-					set_variable = { party_pop_array^14 = 0.00 } #Neutral_conservatism
-					set_variable = { party_pop_array^15 = 0.00 } #oligarchism
-					set_variable = { party_pop_array^16 = 0.00 } #Neutral_Libertarian
-					set_variable = { party_pop_array^17 = 0.00 } #Neutral_green
-					set_variable = { party_pop_array^18 = 0.00 } #neutral_Social
-					set_variable = { party_pop_array^19 = 0.00 } #Neutral_Communism
-					set_variable = { party_pop_array^20 = 0.00 } #Nat_Populism
-					set_variable = { party_pop_array^21 = 0.00 } #Nat_Fascism
-					set_variable = { party_pop_array^22 = 0.00 } #Nat_Autocracy
-					set_variable = { party_pop_array^23 = 0.00 } #Monarchist
 					### Ruling Party
 					add_to_array = { ruling_party = 12 }
 					startup_politics = yes
@@ -3156,6 +3131,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [THIS.GetName]: Focus TAJ_supporting_shiites_in_badakhshan"
+			hidden_effect = {
+				leave_faction = yes
+			}
 			PER = {
 				country_event = {
 					id = tajik_focus.11
@@ -3200,6 +3178,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [THIS.GetName]: Focus TAJ_anti_afghan_rhetoric"
+			set_temp_variable = { wargoal_on = AFG }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				target = AFG
 				type = take_core_state
@@ -3764,10 +3744,10 @@ focus_tree = {
 			else_if = {
 				limit = {
 					NOT = {
-						has_tech = energy_efficiency9
+						has_tech = futuristic_energy_efficiency
 					}
 				}
-				set_technology = { energy_efficiency9 = 1 }
+				set_technology = { futuristic_energy_efficiency = 1 }
 			}
 		}
 
@@ -7264,10 +7244,7 @@ focus_tree = {
 					has_country_leader = { name = "Rustam Emomali" ruling_only = yes }
 				}
 			}
-			custom_trigger_tooltip = {
-				tooltip = 70_percent_government_coalition_strength_tt
-				check_variable = { government_coalition_strength > 0.699 }
-			}
+			70_percent_government_popularity = yes
 		}
 
 		completion_reward = {
@@ -9756,7 +9733,7 @@ focus_tree = {
 			}
 			newline = yes
 			add_tech_bonus = {
-				name = TAJ_phase_out_t_seventy_two
+				name = CTAJ_phase_out_t_seventy_two
 				bonus = 1
 				uses = 1
 				category = CAT_apc
@@ -10490,7 +10467,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [THIS.GetName]: Focus TAJ_mining_tech_upgrades"
 			add_tech_bonus = {
-				name = TAJ_mining_tech_upgrades
+				name = TAJ_modernization_of_farming_equipment
 				bonus = 1
 				uses = 1
 				category = CAT_excavation_tech

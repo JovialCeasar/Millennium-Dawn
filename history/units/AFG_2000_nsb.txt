@@ -85,7 +85,7 @@ division_template = {
 		Militia_Bat = { x = 0 y = 0 }
 		Militia_Bat = { x = 0 y = 1 }
 		Militia_Bat = { x = 0 y = 2 }
-		Militia_Bat = { x = 0 y = 3 }
+		Militia_Bat = { x = 1 y = 0 }
 	}
 
 	support = {
@@ -488,12 +488,12 @@ add_equipment_to_stockpile = {
 	}
 	#Helicopters
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#Mi-8
+		type = transport_helicopter_1		#Mi-8
 		amount = 5
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2		#Mi-17
+		type = transport_helicopter_2		#Mi-17
 		amount = 3
 		producer = SOV
 	}

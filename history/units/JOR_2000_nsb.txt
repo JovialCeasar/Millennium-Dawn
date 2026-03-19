@@ -17,7 +17,7 @@
 		SP_Arty_Bat = { x = 3 y = 0 }
 		SP_Arty_Bat = { x = 3 y = 1 }
 		SP_AA_Bat = { x = 3 y = 2 }
-		SP_AA_Bat = { x = 3 y = 3 }
+		SP_AA_Bat = { x = 4 y = 0 }
 	}
 	support = {
 		H_Engi_Comp = { x = 0 y = 0 }
@@ -43,7 +43,7 @@ division_template = {
 		SP_Arty_Bat = { x = 3 y = 0 }
 		SP_Arty_Bat = { x = 3 y = 1 }
 		SP_AA_Bat = { x = 3 y = 2 }
-		SP_AA_Bat = { x = 3 y = 3 }
+		SP_AA_Bat = { x = 4 y = 0 }
 	}
 	support = {
 		H_Engi_Comp = { x = 0 y = 0 }
@@ -57,7 +57,7 @@ division_template = {
 		Mot_Inf_Bat = { x = 0 y = 0 }
 		Mot_Inf_Bat = { x = 0 y = 1 }
 		Mot_Inf_Bat = { x = 0 y = 2 }
-		Arty_Bat = { x = 0 y = 3 }
+		Arty_Bat = { x = 1 y = 0 }
 	}
 	support = {
 		SP_AA_Battery = { x = 0 y = 0 }
@@ -384,13 +384,13 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#UH-1
+		type = transport_helicopter_1		#UH-1
 		amount = 36
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#AS332
+		type = transport_helicopter_1		#AS332
 		amount = 9
 		producer = FRA
 	}

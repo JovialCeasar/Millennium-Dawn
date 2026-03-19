@@ -22,8 +22,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		available = {
-		}
+
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_through_troubles"
@@ -231,7 +230,7 @@ focus_tree = {
 				random_country = {
 					limit = {
 						OR = {
-							has_idea = superpower
+							has_idea = super_power
 							has_idea = great_power
 							has_idea = large_power
 						}
@@ -980,7 +979,7 @@ focus_tree = {
 				add_idea = TUR_revised_budgetting2
 			}
 			add_tech_bonus = {
-				name = TUR_funds_for_tubitak_mam
+				name = CAT_genes
 				bonus = 1.0
 				uses = 1
 				category = CAT_genes
@@ -1616,7 +1615,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_sattelite_development"
 			add_tech_bonus = {
-				name = TUR_sattelite_development
+				name = CAT_satellite
 				bonus = 0.5
 				uses = 1
 				category = CAT_satellite
@@ -1641,7 +1640,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_gokturk_launch"
 			add_stability = 0.02
 			add_tech_bonus = {
-				name = TUR_gokturk_launch
+				name = CAT_satellite
 				bonus = 1.0
 				uses = 1
 				category = CAT_satellite
@@ -1856,7 +1855,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_turkish_agriculture"
 			one_random_industrial_complex = yes
 			add_tech_bonus = {
-				name = TUR_turkish_agriculture
+				name = CAT_genes
 				bonus = 0.25
 				uses = 1
 				category = CAT_genes
@@ -1881,7 +1880,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_turkish_mining"
 			one_random_industrial_complex = yes
 			add_tech_bonus = {
-				name = TUR_turkish_mining
+				name = CAT_excavation_tech
 				bonus = 0.50
 				uses = 1
 				category = CAT_excavation_tech
@@ -1986,7 +1985,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_taek"
 			add_tech_bonus = {
-				name = TUR_taek
+				name = CAT_nuclear_reactors
 				bonus = 0.5
 				uses = 2
 				category = CAT_nuclear_reactors
@@ -2678,7 +2677,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_tanks"
 			add_tech_bonus = {
-				name = TUR_tanks
+				name = CAT_mbt
 				bonus = 1
 				uses = 1
 				category = CAT_mbt
@@ -2768,13 +2767,13 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_new_artillery"
 			add_tech_bonus = {
-				name = TUR_new_artillery
+				name = CAT_artillery
 				bonus = 0.5
 				uses = 1
 				category = CAT_artillery
 			}
 			add_tech_bonus = {
-				name = TUR_new_artillery
+				name = CAT_support_weapons
 				bonus = 0.5
 				uses = 1
 				category = CAT_support_weapons
@@ -2843,7 +2842,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_new_submarine"
 			navy_experience = 15
 			add_tech_bonus = {
-				name = TUR_new_submarine
+				name = CAT_atk_sub
 				bonus = 0.50
 				uses = 1
 				category = CAT_atk_sub
@@ -2868,13 +2867,13 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_new_cruisers"
 			navy_experience = 15
 			add_tech_bonus = {
-				name = TUR_new_cruisers
+				name = CAT_cruiser
 				bonus = 0.3
 				uses = 2
 				category = CAT_cruiser
 			}
 			add_tech_bonus = {
-				name = TUR_new_cruisers
+				name = ITA_cruise_missiles
 				bonus = 0.5
 				uses = 2
 				category = CAT_cm
@@ -2902,7 +2901,7 @@ focus_tree = {
 				name = TUR_new_heli_pads
 				bonus = 0.50
 				uses = 1
-				category = CAT_cv
+				category = CAT_helicopter_operators
 			}
 		}
 	}
@@ -3267,7 +3266,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_cas"
 			add_tech_bonus = {
-				name = TUR_cas
+				name = CAT_mr_fighter
 				bonus = 0.5
 				uses = 1
 				category = CAT_mr_fighter
@@ -5579,9 +5578,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_deradicalisation_program"
-			custom_effect_tooltip = radicalization_decrease_tt
-			subtract_from_variable = { radicalization = 6 }
-			clamp_radicalization = yes
+			# TODO: Replace with an effect
 		}
 
 	}
@@ -5639,7 +5636,6 @@ focus_tree = {
 		available = {
 			western_conservatism_are_in_power = yes
 		}
-
 
 		search_filters = { FOCUS_FILTER_INTERNAL_FACTION FOCUS_FILTER_SOCIAL_CONSERVATISM }
 
@@ -8051,6 +8047,9 @@ focus_tree = {
 		will_lead_to_war_with = SAU
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_strike_arabia"
+			set_temp_variable = { wargoal_on = SAU }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = SAU
@@ -8090,13 +8089,15 @@ focus_tree = {
 		will_lead_to_war_with = PAK
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_strike_pakistan"
+			set_temp_variable = { wargoal_on = PAK }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = PAK
 			}
 		}
 	}
-
 
 	focus = {
 		id = TUR_clamp_down_on_kurdish_culture
@@ -10166,6 +10167,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_freeing_palestine"
 			TUR = {
+				set_temp_variable = { wargoal_on = ISR }
+				set_temp_variable = { wargoal_type = 1 }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = ISR
 					type = liberate_wargoal
@@ -10178,6 +10182,9 @@ focus_tree = {
 					}
 				}
 				PER = {
+					set_temp_variable = { wargoal_on = ISR }
+					set_temp_variable = { wargoal_type = 1 }
+					add_threat_from_wargoal_effect = yes
 					create_wargoal = {
 						target = ISR
 						type = liberate_wargoal
@@ -10191,6 +10198,9 @@ focus_tree = {
 					}
 				}
 				HEZ = {
+					set_temp_variable = { wargoal_on = ISR }
+					set_temp_variable = { wargoal_type = 1 }
+					add_threat_from_wargoal_effect = yes
 					create_wargoal = {
 						target = ISR
 						type = liberate_wargoal
@@ -11629,17 +11639,9 @@ focus_tree = {
 				set_temp_variable = { party_popularity_increase = 0.25 }
 				set_temp_variable = { temp_outlook_increase = 0.25 }
 				add_relative_party_popularity = yes
-				clear_array = ruling_party
-				clear_array = gov_coalition_array
-				add_to_array = { ruling_party = 13 }
-				update_government_coalition_strength = yes
-				set_coalition_drift = yes
-				set_ruling_leader = yes
-				set_leader = yes
-				set_politics = {
-					ruling_party = neutrality
-					elections_allowed = no
-				}
+				set_temp_variable = { rul_party_temp = 13 }
+				set_temp_variable = { disable_elections = 1 }
+				change_ruling_party_effect = yes
 			}
 		}
 	}
@@ -12767,17 +12769,9 @@ focus_tree = {
 				custom_effect_tooltip = TUR_warning_civil_war
 			}
 			hidden_effect = {
-				clear_array = ruling_party
-				clear_array = gov_coalition_array
-				add_to_array = { ruling_party = 20 }
-				update_government_coalition_strength = yes
-				set_coalition_drift = yes
-				set_ruling_leader = yes
-				set_leader = yes
-				set_politics = {
-					ruling_party = nationalist
-					elections_allowed = no
-				}
+				set_temp_variable = { rul_party_temp = 20 }
+				set_temp_variable = { disable_elections = 1 }
+				change_ruling_party_effect = yes
 				retire_country_leader = yes
 				create_country_leader = {
 					name = "Devlet Bahçeli"
@@ -12937,10 +12931,16 @@ focus_tree = {
 		will_lead_to_war_with = EGY
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_a_new_empire"
+			set_temp_variable = { wargoal_on = EGY }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = EGY
 			}
+			set_temp_variable = { wargoal_on = LBA }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = LBA
@@ -13267,6 +13267,9 @@ focus_tree = {
 		will_lead_to_war_with = BUL
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_campaign_against_athens"
+			set_temp_variable = { wargoal_on = BUL }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = BUL
@@ -13385,6 +13388,9 @@ focus_tree = {
 		will_lead_to_war_with = ARM
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_fight_russian_influence"
+			set_temp_variable = { wargoal_on = ARM }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = ARM
@@ -13450,6 +13456,9 @@ focus_tree = {
 			country_event = {
 				id = TurkeyFocusEvents.31
 			}
+			set_temp_variable = { wargoal_on = PER }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = PER
@@ -13619,6 +13628,9 @@ focus_tree = {
 		will_lead_to_war_with = GEO
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_subdue_kurdish_independence"
+			set_temp_variable = { wargoal_on = GEO }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = GEO
@@ -14510,6 +14522,9 @@ focus_tree = {
 		will_lead_to_war_with = PER
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_take_out_iran"
+			set_temp_variable = { wargoal_on = PER }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = PER
@@ -14547,10 +14562,16 @@ focus_tree = {
 		will_lead_to_war_with = TRK
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_central_asia"
+			set_temp_variable = { wargoal_on = TRK }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = TRK
 			}
+			set_temp_variable = { wargoal_on = UZB }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = UZB
@@ -15626,6 +15647,9 @@ focus_tree = {
 		will_lead_to_war_with = IRQ
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_arm_iraqi_shias"
+			set_temp_variable = { wargoal_on = IRQ }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = IRQ
@@ -15665,6 +15689,9 @@ focus_tree = {
 			set_temp_variable = { tag_index = TUR }
 			set_temp_variable = { influence_target = HEZ }
 			change_influence_percentage = yes
+			set_temp_variable = { wargoal_on = LEB }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = LEB
@@ -15786,17 +15813,9 @@ focus_tree = {
 				remove_ideas = the_military
 			}
 			hidden_effect = {
-				clear_array = ruling_party
-				clear_array = gov_coalition_array
-				add_to_array = { ruling_party = 11 }
-				update_government_coalition_strength = yes
-				set_coalition_drift = yes
-				set_ruling_leader = yes
-				set_leader = yes
-				set_politics = {
-					ruling_party = fascism
-					elections_allowed = no
-				}
+				set_temp_variable = { rul_party_temp = 11 }
+				set_temp_variable = { disable_elections = 1 }
+				change_ruling_party_effect = yes
 				retire_country_leader = yes
 				create_country_leader = {
 					name = "Salih Mirzabeyoğlu"
@@ -16233,22 +16252,37 @@ focus_tree = {
 		will_lead_to_war_with = AZE
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_great_east"
+			set_temp_variable = { wargoal_on = ARM }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = ARM
 			}
+			set_temp_variable = { wargoal_on = GEO }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = GEO
 			}
+			set_temp_variable = { wargoal_on = SOO }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = SOO
 			}
+			set_temp_variable = { wargoal_on = AZE }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = AZE
 			}
+			set_temp_variable = { wargoal_on = ABK }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = ABK
@@ -16283,34 +16317,58 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_southward"
+			set_temp_variable = { wargoal_on = SYR }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = SYR
 			}
+			set_temp_variable = { wargoal_on = IRQ }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = IRQ
 			}
+			set_temp_variable = { wargoal_on = JOR }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = JOR
 			}
+			set_temp_variable = { wargoal_on = KUR }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = KUR
 			}
+			set_temp_variable = { wargoal_on = ISR }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = ISR
 			}
+			set_temp_variable = { wargoal_on = PAL }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = PAL
 			}
+			set_temp_variable = { wargoal_on = LEB }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = LEB
 			}
+			set_temp_variable = { wargoal_on = HEZ }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = HEZ
@@ -16340,18 +16398,30 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_westard"
+			set_temp_variable = { wargoal_on = GRE }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = GRE
 			}
+			set_temp_variable = { wargoal_on = ALB }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = ALB
 			}
+			set_temp_variable = { wargoal_on = FYR }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = FYR
 			}
+			set_temp_variable = { wargoal_on = BUL }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = BUL
@@ -16386,14 +16456,23 @@ focus_tree = {
 		will_lead_to_war_with = SUD
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_african_holdings"
+			set_temp_variable = { wargoal_on = EGY }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = EGY
 			}
+			set_temp_variable = { wargoal_on = LBA }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = LBA
 			}
+			set_temp_variable = { wargoal_on = SUD }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = SUD

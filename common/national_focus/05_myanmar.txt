@@ -7,6 +7,9 @@ focus_tree = {
 	}
 	continuous_focus_position = { x = 0 y = 1500 }
 
+	#Commonwealth of Nations
+	shared_focus = CMW_Aso_Rock_Declaration
+
 	# Political Focuses
 	focus = {
 		id = BRM_address_the_democracy_question
@@ -2318,6 +2321,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRM_strike_the_karen"
+
+			set_temp_variable = { wargoal_on = KAR }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = { type = annex_everything target = KAR }
 			add_timed_idea = { idea = The_Anti_Karen_Offensive days = 365 }
 			hidden_effect = {
@@ -2357,6 +2364,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRM_strike_the_kachin"
+
+			set_temp_variable = { wargoal_on = KAC }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = { type = annex_everything target = KAC }
 			add_timed_idea = { idea = The_Anti_Kachin_Offensive days = 365 }
 			hidden_effect = {
@@ -2399,7 +2410,15 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRM_strike_the_shan"
+
+			set_temp_variable = { wargoal_on = SHN }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = { type = annex_everything target = SHN }
+
+			set_temp_variable = { wargoal_on = NHN }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = { type = annex_everything target = NHN }
 			add_timed_idea = { idea = The_Anti_Shan_Offensive days = 365 }
 			hidden_effect = {
@@ -2443,6 +2462,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRM_turn_on_the_united_wa_state_army"
+
+			set_temp_variable = { wargoal_on = WAA }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = { type = annex_everything target = WAA }
 			add_timed_idea = { idea = The_Anti_Wa_Offensive days = 365 }
 			CHI = {
@@ -2781,6 +2804,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRM_strike_our_age_old_enemy"
+
+			set_temp_variable = { wargoal_on = SIA }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = { type = puppet_wargoal_focus target = SIA }
 		}
 

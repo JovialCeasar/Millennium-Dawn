@@ -1,11 +1,18 @@
 capital = 1054
 
 2000.1.1 = {
-	oob = "RSK_2000"
+	set_variable = { currency_strength = 0.65 }
+	oob = "GENERIC_OOB"
 	set_variable = { gdp_per_capita = 6.826 }
 
 
 	add_ideas = {
+		partially_nationalized_healthcare
+		partial_environmental_protections
+		standard_maintenance
+		us_dollar
+		light_regulations
+
 
 		#republikasrpska in 2000
 		#GDP
@@ -81,7 +88,6 @@ capital = 1054
 		post_conventional_rail = 1
 		early_freight_locomotive = 1
 
-
 		armoured_mass_assault = 1
 		night_vision_1 = 1
 
@@ -100,8 +106,6 @@ capital = 1054
 		basic_computing = 1
 		integrated_circuit = 1
 		computing1 = 1
-		decryption1 = 1
-		encryption1 = 1
 		radar = 1
 		internet1 = 1
 		internet2 = 1
@@ -112,6 +116,14 @@ capital = 1054
 		stereolitography = 1
 		fuel_refining = 1
 		construction1 = 1
+	}
+
+	if = {
+		limit = { NOT = { has_dlc = "La Resistance" } }
+		set_technology = {
+			decryption1 = 1
+			encryption1 = 1
+		}
 	}
 	if = {
 		limit = { has_dlc = "No Step Back" }
@@ -183,4 +195,22 @@ capital = 1054
 
 	startup_politics = yes
 
+
+	# Relation Starting Configuration (moved from on_startup)
+	add_opinion_modifier = { target = CUB modifier = sanctions }
+	add_relation_modifier = { target = USA modifier = USA_World_Economical_Relations }
+	add_relation_modifier = { target = SOV modifier = SOV_World_Economical_Relations }
+	add_relation_modifier = { target = CHI modifier = CHI_World_Economical_Relations }
+	add_relation_modifier = { target = FRA modifier = FRA_World_Economical_Relations }
+	add_relation_modifier = { target = GER modifier = GER_World_Economical_Relations }
+	add_relation_modifier = { target = ENG modifier = ENG_World_Economical_Relations }
+	add_relation_modifier = { target = SPR modifier = SPR_World_Economical_Relations }
+	add_relation_modifier = { target = ITA modifier = ITA_World_Economical_Relations }
+	add_relation_modifier = { target = UKR modifier = UKR_World_Economical_Relations }
+	add_relation_modifier = { target = ISR modifier = ISR_World_Economical_Relations }
+	add_opinion_modifier = { target = TTP modifier = AlQaida_Are_Terrorists }
+	add_opinion_modifier = { target = TTP modifier = AlQaida_Are_Terrorists_Trade }
+	add_opinion_modifier = { target = TAL modifier = Taliban_Are_Terrorists }
+	add_opinion_modifier = { target = TAL modifier = Taliban_Are_Terrorists_Trade }
+	reverse_add_opinion_modifier = { target = SOV modifier = RUS_OIL }
 }

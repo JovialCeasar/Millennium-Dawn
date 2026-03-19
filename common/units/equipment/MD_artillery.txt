@@ -206,7 +206,11 @@ equipments = {
 		}
 	}
 	### Space Artillery
+<<<<<<< HEAD
 	space_artillery_equipment = {
+=======
+	space_artillery_equipment_type = {
+>>>>>>> main
 		is_archetype = yes
 		is_buildable = no
 		type = artillery
@@ -234,7 +238,11 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 1
 
+<<<<<<< HEAD
 		build_cost_ic =36.86
+=======
+		build_cost_ic = 186.89
+>>>>>>> main
 
 		resources = {
 			microchips = 4
@@ -246,7 +254,11 @@ equipments = {
 	space_artillery_equipment_1 = {
 		year = 2035
 
+<<<<<<< HEAD
 		archetype = space_artillery_equipment
+=======
+		archetype = space_artillery_equipment_type
+>>>>>>> main
 
 		visual_level = 1
 
@@ -268,10 +280,17 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 1
 
+<<<<<<< HEAD
 		build_cost_ic = 36.86
 
 		resources = {
 			microchips = 4
+=======
+		build_cost_ic = 186.89
+
+		resources = {
+			microchips = 8
+>>>>>>> main
 			composites = 2
 			chromium = 4
 		}

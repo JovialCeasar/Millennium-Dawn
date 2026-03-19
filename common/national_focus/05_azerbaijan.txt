@@ -1374,6 +1374,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AZE_aze_escalate_the_incident"
+
+			set_temp_variable = { wargoal_on = PER }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = puppet_wargoal_focus
 				target = PER
@@ -1401,7 +1404,7 @@ focus_tree = {
 
 		available = { always = no }
 
-		bypass = { has_country_flag = AZE_Aliev_died }
+		bypass = { has_country_flag = AZE_aliev_died }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AZE_aze_anew_aliev"
@@ -5004,7 +5007,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AZE_air_control"
 			add_tech_bonus = {
-				name = AZE_air_control
+				name = CAT_mr_fighter
 				bonus = 0.50
 				uses = 1
 				category = CAT_mr_fighter
@@ -5069,6 +5072,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AZE_crush_armenia"
+
+			set_temp_variable = { wargoal_on = ARM }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = ARM
@@ -5221,6 +5228,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AZE_georgia_gortsnya"
+
+			set_temp_variable = { wargoal_on = GEO }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = GEO
@@ -5429,6 +5440,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AZE_the_dice_is_cast"
+
+			set_temp_variable = { wargoal_on = PER }
+			set_temp_variable = { wargoal_type = 2 }
+			add_threat_from_wargoal_effect = yes
 			create_wargoal = {
 				type = annex_everything
 				target = PER
@@ -7791,7 +7806,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AZE_surface_ships"
 			add_tech_bonus = {
-				name = AZE_surface_ships
+				name = CAT_surface_ship
 				uses = 2
 				bonus = 0.5
 				category = CAT_surface_ship
@@ -7855,7 +7870,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus AZE_Helicopter_plant"
 			one_random_arms_factory = yes
 			add_tech_bonus = {
-				name = AZE_Helicopter_plant
+				name = CAT_heli_research
 				bonus = 0.50
 				uses = 1
 				category = CAT_heli
@@ -7921,7 +7936,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AZE_Domestic_air"
 			add_tech_bonus = {
-				name = AZE_Domestic_air
+				name = CAT_mr_fighter
 				bonus = 0.50
 				uses = 1
 				category = CAT_mr_fighter
@@ -8026,7 +8041,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AZE_Home_dominance"
 			add_tech_bonus = {
-				name = AZE_Home_dominance
+				name = CAT_as_fighter
 				bonus = 0.4
 				uses = 1
 				category = CAT_as_fighter
@@ -8203,7 +8218,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AZE_Motorized_drive"
 			add_tech_bonus = {
-				name = AZE_Motorized_drive
+				name = CAT_util_research
 				bonus = 0.35
 				category = CAT_util
 			}

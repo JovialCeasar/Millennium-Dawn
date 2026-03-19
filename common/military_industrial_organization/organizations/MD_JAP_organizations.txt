@@ -6171,7 +6171,7 @@ JAP_howa_machinery_materiel_manufacturer = {
 		}
 
 		equipment_bonus = {
-			soft_attack = 0.8
+			soft_attack = 0.08
 		}
 
 		on_complete = {
@@ -6358,7 +6358,7 @@ JAP_howa_machinery_materiel_manufacturer = {
 		}
 
 		equipment_bonus = {
-			breakthrough = 0.8
+			breakthrough = 0.085
 		}
 
 		production_bonus = {
@@ -10528,8 +10528,7 @@ JAP_ihi_corporation_naval_manufacturer = {
 	}
 
 	research_categories = {
-		CAT_lha
-		CAT_lpd
+		CAT_helicopter_operators
 		CAT_destroyer
 		CAT_landing_craft
 	}

@@ -1,9 +1,16 @@
-﻿capital = 946
+capital = 946
 oob = "GENERIC_OOB"
 2000.1.1 = {
+	set_variable = { currency_strength = 0.65 }
 	set_variable = { gdp_per_capita = 128.656 }
 
 	add_ideas = {
+		partially_privatized_healthcare
+		balanced_protections
+		standard_maintenance
+		us_dollar
+		strong_regulations
+
 		stable_growth
 		modest_corruption
 		international_bankers
@@ -80,10 +87,6 @@ oob = "GENERIC_OOB"
 
 		combat_eng_equipment = 1
 
-
-
-
-
 		night_vision_1 = 1
 		night_vision_2 = 1
 		night_vision_3 = 1
@@ -96,12 +99,8 @@ oob = "GENERIC_OOB"
 		basic_computing = 1
 		integrated_circuit = 1
 		computing1 = 1
-		decryption1 = 1
-		encryption1 = 1
 		microprocessors = 1
 		computing2 = 1
-		decryption2 = 1
-		encryption2 = 1
 
 		radar = 1
 		internet1 = 1 	#1G
@@ -130,6 +129,16 @@ oob = "GENERIC_OOB"
 		land_fort_building_1 = 1
 		construction2 = 1
 	}
+
+	if = {
+		limit = { NOT = { has_dlc = "La Resistance" } }
+		set_technology = {
+			decryption1 = 1
+			decryption2 = 1
+			encryption1 = 1
+			encryption2 = 1
+		}
+	}
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 
@@ -156,6 +165,7 @@ oob = "GENERIC_OOB"
 			nsb_Anti_Air_0 = 1
 			nsb_Anti_Air_1 = 1
 			nsb_AA_upgrade_1 = 1
+			nsb_Arty_upgrade_2 = 1
 		}
 
 		else = {
@@ -171,6 +181,7 @@ oob = "GENERIC_OOB"
 				Anti_Air_0 = 1
 				Anti_Air_1 = 1
 				AA_upgrade_1 = 1
+				Arty_upgrade_2 = 1
 			}
 		}
 	}
@@ -232,4 +243,21 @@ oob = "GENERIC_OOB"
 
 	recruit_character = MNC_air_chief
 
+
+	# Relation Starting Configuration (moved from on_startup)
+	add_opinion_modifier = { target = CUB modifier = sanctions }
+	add_relation_modifier = { target = USA modifier = USA_World_Economical_Relations }
+	add_relation_modifier = { target = SOV modifier = SOV_World_Economical_Relations }
+	add_relation_modifier = { target = CHI modifier = CHI_World_Economical_Relations }
+	add_relation_modifier = { target = FRA modifier = FRA_World_Economical_Relations }
+	add_relation_modifier = { target = GER modifier = GER_World_Economical_Relations }
+	add_relation_modifier = { target = ENG modifier = ENG_World_Economical_Relations }
+	add_relation_modifier = { target = SPR modifier = SPR_World_Economical_Relations }
+	add_relation_modifier = { target = ITA modifier = ITA_World_Economical_Relations }
+	add_relation_modifier = { target = UKR modifier = UKR_World_Economical_Relations }
+	add_relation_modifier = { target = ISR modifier = ISR_World_Economical_Relations }
+	add_opinion_modifier = { target = TTP modifier = AlQaida_Are_Terrorists }
+	add_opinion_modifier = { target = TTP modifier = AlQaida_Are_Terrorists_Trade }
+	add_opinion_modifier = { target = TAL modifier = Taliban_Are_Terrorists }
+	add_opinion_modifier = { target = TAL modifier = Taliban_Are_Terrorists_Trade }
 }

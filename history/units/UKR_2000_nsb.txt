@@ -14,7 +14,7 @@ division_template = {
 		Arm_Air_Inf_Bat = { x = 2 y = 0 }
 		Mech_Air_Inf_Bat = { x = 2 y = 1 }
 		SP_AA_Bat = { x = 2 y = 2 }
-		attack_helo_bat = { x = 2 y = 3 }
+		attack_helo_bat = { x = 4 y = 0 }
 
 		Arty_Bat = { x = 3 y = 0 }
 		Arty_Bat = { x = 3 y = 1 }
@@ -39,7 +39,7 @@ division_template = {
 		SP_Arty_Bat = { x = 1 y = 0 }
 		SP_Arty_Bat = { x = 1 y = 1 }
 		SP_R_Arty_Bat = { x = 1 y = 2 }
-		SP_AA_Bat = { x = 1 y = 3 }
+		SP_AA_Bat = { x = 2 y = 0 }
 	}
 
 	support = {
@@ -61,7 +61,7 @@ division_template = {
 		SP_Arty_Bat = { x = 1 y = 0 }
 		SP_Arty_Bat = { x = 1 y = 1 }
 		SP_R_Arty_Bat = { x = 1 y = 2 }
-		SP_AA_Bat = { x = 1 y = 3 }
+		SP_AA_Bat = { x = 2 y = 0 }
 	}
 
 	support = {
@@ -95,23 +95,22 @@ division_template = {
 		Arm_Inf_Bat = { x = 0 y = 0 }
 		Arm_Inf_Bat = { x = 0 y = 1 }
 		armor_Bat = { x = 0 y = 2 }
-		SP_Arty_Bat = { x = 0 y = 3 }
 
 		Arm_Inf_Bat = { x = 1 y = 0 }
 		Arm_Inf_Bat = { x = 1 y = 1 }
 		armor_Bat = { x = 1 y = 2 }
-		SP_Arty_Bat = { x = 1 y = 3 }
 
 		armor_Bat = { x = 2 y = 0 }
 		armor_Bat = { x = 2 y = 1 }
 		Arm_Inf_Bat = { x = 2 y = 2 }
-		SP_Arty_Bat = { x = 2 y = 3 }
 
 		SP_Arty_Bat = { x = 3 y = 0 }
 		SP_Arty_Bat = { x = 3 y = 1 }
 		SP_R_Arty_Bat = { x = 3 y = 2 }
-		SP_AA_Bat = { x = 3 y = 3 }
-		attack_helo_bat = { x = 3 y = 4 }
+
+		SP_Arty_Bat = { x = 4 y = 0 }
+		SP_AA_Bat = { x = 4 y = 1 }
+		attack_helo_bat = { x = 4 y = 2 }
 	}
 	support = {
 		armor_Recce_Comp = { x = 0 y = 0 }
@@ -128,23 +127,22 @@ division_template = {
 		Mech_Inf_Bat = { x = 0 y = 0 }
 		Mech_Inf_Bat = { x = 0 y = 1 }
 		armor_Bat = { x = 0 y = 2 }
-		SP_Arty_Bat = { x = 0 y = 3 }
 
 		Mech_Inf_Bat = { x = 1 y = 0 }
 		Mech_Inf_Bat = { x = 1 y = 1 }
 		armor_Bat = { x = 1 y = 2 }
-		SP_Arty_Bat = { x = 1 y = 3 }
 
 		armor_Bat = { x = 2 y = 0 }
 		armor_Bat = { x = 2 y = 1 }
 		Mech_Inf_Bat = { x = 2 y = 2 }
-		SP_Arty_Bat = { x = 2 y = 3 }
 
 		SP_Arty_Bat = { x = 3 y = 0 }
 		SP_Arty_Bat = { x = 3 y = 1 }
 		SP_R_Arty_Bat = { x = 3 y = 2 }
-		SP_AA_Bat = { x = 3 y = 3 }
-		attack_helo_bat = { x = 3 y = 3 }
+
+		SP_Arty_Bat = { x = 4 y = 0 }
+		SP_AA_Bat = { x = 4 y = 1 }
+		attack_helo_bat = { x = 4 y = 2 }
 	}
 	support = {
 		armor_Recce_Comp = { x = 0 y = 0 }
@@ -161,17 +159,18 @@ division_template = {
 		Arm_Inf_Bat = { x = 0 y = 0 }
 		Arm_Inf_Bat = { x = 0 y = 1 }
 		armor_Bat = { x = 0 y = 2 }
-		SP_Arty_Bat = { x = 0 y = 3 }
 
 		armor_Bat = { x = 1 y = 0 }
 		armor_Bat = { x = 1 y = 1 }
 		Arm_Inf_Bat = { x = 1 y = 2 }
-		SP_Arty_Bat = { x = 1 y = 3 }
 
 		SP_Arty_Bat = { x = 2 y = 0 }
 		SP_Arty_Bat = { x = 2 y = 1 }
 		SP_R_Arty_Bat = { x = 2 y = 2 }
-		SP_AA_Bat = { x = 2 y = 3 }
+
+		SP_Arty_Bat = { x = 3 y = 0 }
+		SP_Arty_Bat = { x = 3 y = 1 }
+		SP_AA_Bat = { x = 3 y = 2 }
 	}
 	support = {
 		armor_Recce_Comp = { x = 0 y = 0 }
@@ -192,7 +191,7 @@ division_template = {
 		SP_Arty_Bat = { x = 1 y = 0 }
 		SP_Arty_Bat = { x = 1 y = 1 }
 		SP_R_Arty_Bat = { x = 1 y = 2 }
-		SP_AA_Bat = { x = 1 y = 3 }
+		SP_AA_Bat = { x = 2 y = 0 }
 	}
 	support = {
 		H_Engi_Comp = { x = 0 y = 0 }
@@ -210,23 +209,22 @@ division_template = {
 		armor_Bat = { x = 0 y = 0 }
 		armor_Bat = { x = 0 y = 1 }
 		Arm_Inf_Bat = { x = 0 y = 2 }
-		SP_Arty_Bat = { x = 0 y = 3 }
 
 		armor_Bat = { x = 1 y = 0 }
 		armor_Bat = { x = 1 y = 1 }
 		Arm_Inf_Bat = { x = 1 y = 2 }
-		SP_Arty_Bat = { x = 1 y = 3 }
 
 		Arm_Inf_Bat = { x = 2 y = 0 }
 		Arm_Inf_Bat = { x = 2 y = 1 }
 		armor_Bat = { x = 2 y = 2 }
-		SP_Arty_Bat = { x = 2 y = 3 }
 
 		SP_Arty_Bat = { x = 3 y = 0 }
-		SP_Arty_Bat = { x = 3 y = 1 }
-		SP_R_Arty_Bat = { x = 3 y = 2 }
-		SP_AA_Bat = { x = 3 y = 3 }
-		attack_helo_bat = { x = 3 y = 4 }
+		SP_R_Arty_Bat = { x = 3 y = 1 }
+		SP_AA_Bat = { x = 3 y = 2 }
+
+		SP_Arty_Bat = { x = 4 y = 0 }
+		SP_Arty_Bat = { x = 4 y = 1 }
+		attack_helo_bat = { x = 4 y = 2 }
 	}
 	support = {
 		armor_Recce_Comp = { x = 0 y = 0 }
@@ -331,7 +329,7 @@ units = {
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 36 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 48 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_destroyer_chassis_0 = { amount = 14 owner = UKR creator = SOV version_name = "BRDM-2" } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { artillery_0 = { amount = 36 owner = UKR creator = SOV version_name = "D-30" } }
 		force_equipment_variants = { medium_tank_aa_chassis_1 = { amount = 18	 owner = UKR creator = SOV version_name = "9K35 Strela-10" } }
 		force_equipment_variants = { medium_tank_flame_chassis_0 = { amount = 76 owner = UKR creator = SOV version_name = "BMD-2" } }
@@ -914,7 +912,7 @@ units = {
 		force_equipment_variants = { Anti_Air_1 = { amount = 16 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 120 owner = UKR creator = SOV version_name = "BTR-80" } }
 		force_equipment_variants = { medium_tank_destroyer_chassis_0 = { amount = 14 owner = UKR creator = SOV version_name = "BRDM-2" } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { artillery_0 = { amount = 18 owner = UKR creator = SOV version_name = "D-30" } }
 		force_equipment_variants = { medium_tank_aa_chassis_1 = { amount = 6 owner = UKR creator = SOV version_name = "9K35 Strela-10" } }
 		force_equipment_variants = { heavy_tank_chassis_0 = { amount = 18 owner = UKR creator = SOV version_name = "Mi-24P" } }
@@ -938,7 +936,7 @@ units = {
 		force_equipment_variants = { Anti_Air_1 = { amount = 16 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 120 owner = UKR creator = SOV version_name = "BTR-80" } }
 		force_equipment_variants = { medium_tank_destroyer_chassis_0 = { amount = 14 owner = UKR creator = SOV version_name = "BRDM-2" } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { artillery_0 = { amount = 18 owner = UKR creator = SOV version_name = "D-30" } }
 		force_equipment_variants = { medium_tank_aa_chassis_1 = { amount = 6 owner = UKR creator = SOV version_name = "9K35 Strela-10" } }
 		force_equipment_variants = { heavy_tank_chassis_0 = { amount = 18 owner = UKR creator = SOV version_name = "Mi-24P" } }
@@ -962,7 +960,7 @@ units = {
 		force_equipment_variants = { Anti_Air_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 120 owner = UKR creator = SOV version_name = "BTR-80" } }
 		force_equipment_variants = { medium_tank_destroyer_chassis_0 = { amount = 14 owner = UKR creator = SOV version_name = "BRDM-2" } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { artillery_0 = { amount = 18 owner = UKR creator = SOV version_name = "D-30" } }
 		force_equipment_variants = { medium_tank_aa_chassis_1 = { amount = 6 owner = UKR creator = SOV version_name = "9K35 Strela-10" } }
 		force_equipment_variants = { heavy_tank_chassis_0 = { amount = 18 owner = UKR creator = SOV version_name = "Mi-24P" } }
@@ -987,7 +985,7 @@ units = {
 		force_equipment_variants = { Anti_Air_1 = { amount = 24 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 120 owner = UKR creator = SOV version_name = "BTR-80" } }
 		force_equipment_variants = { medium_tank_destroyer_chassis_0 = { amount = 14 owner = UKR creator = SOV version_name = "BRDM-2" } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { artillery_0 = { amount = 18 owner = UKR creator = SOV version_name = "D-30" } }
 		force_equipment_variants = { medium_tank_aa_chassis_1 = { amount = 6 owner = UKR creator = SOV version_name = "9K35 Strela-10" } }
 		force_equipment_variants = { medium_tank_artillery_chassis_1 = { amount = 6 owner = UKR creator = SOV version_name = "2S9 Nona" } }
@@ -1010,7 +1008,7 @@ units = {
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 2 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 27 owner = UKR creator = SOV } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 20 owner = UKR creator = SOV version_name = "BTR-80" } }
 	}
 
@@ -1030,7 +1028,7 @@ units = {
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 2 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 27 owner = UKR creator = SOV } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 20 owner = UKR creator = SOV version_name = "BTR-80" } }
 	}
 
@@ -1050,7 +1048,7 @@ units = {
 		force_equipment_variants = { Anti_tank_1 = { amount = 40 owner = UKR creator = SOV } }
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 2 owner = UKR creator = SOV } }
 		force_equipment_variants = { Anti_Air_1 = { amount = 27 owner = UKR creator = SOV } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 20 owner = UKR creator = SOV } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 20 owner = UKR creator = SOV } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 20 owner = UKR creator = SOV version_name = "BTR-80" } }
 	}
 }
@@ -1344,19 +1342,19 @@ instant_effect = {
 
 	#Helicopters
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#Mi-8+Mi-2
+		type = transport_helicopter_1		#Mi-8+Mi-2
 		amount = 447
 		variant_name = "Mil Mi-8"
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		amount = 59
 		variant_name = "Mil Mi-6"
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Mil Mi-26
+		type = transport_helicopter_2 #Mil Mi-26
 		amount = 11
 		producer = SOV
 	}

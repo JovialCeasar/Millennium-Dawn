@@ -7283,30 +7283,18 @@ CZE_the_prague_conference_category = {
 			if = { limit = { country_exists = CZE }
 				CZE = {
 					increase_policing_budget = yes
-					set_temp_variable = { rad_change = -5 }
-					modify_radicalization_effect = yes
-					set_temp_variable = { threat_change = -5 }
-					modify_terror_threat_effect = yes
 					add_timed_idea = { idea = CZE_common_police_action_plan_idea days = 365 }
 				}
 			}
 			if = { limit = { country_exists = AUS }
 				AUS = {
 					increase_policing_budget = yes
-					set_temp_variable = { rad_change = -5 }
-					modify_radicalization_effect = yes
-					set_temp_variable = { threat_change = -5 }
-					modify_terror_threat_effect = yes
 					add_timed_idea = { idea = CZE_common_police_action_plan_idea days = 365 }
 				}
 			}
 			if = { limit = { country_exists = HUN }
 				HUN = {
 					increase_policing_budget = yes
-					set_temp_variable = { rad_change = -5 }
-					modify_radicalization_effect = yes
-					set_temp_variable = { threat_change = -5 }
-					modify_terror_threat_effect = yes
 					add_timed_idea = { idea = CZE_common_police_action_plan_idea days = 365 }
 				}
 			}
@@ -8209,6 +8197,7 @@ CZE_bucarest_meeting = {
 		remove_effect = {
 			navy_experience = 50
 			add_tech_bonus = {
+				name = CZE_learn_modern_naval_strategies
 				bonus = 0.5
 				uses = 3
 				category = CAT_naval_modules

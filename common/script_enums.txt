@@ -303,7 +303,11 @@ script_enum_equipment_bonus_type = {
 	artillery_3
 	artillery_4
 	artillery
+<<<<<<< HEAD
 	space_artillery_equipment
+=======
+	space_artillery_equipment_type
+>>>>>>> main
 	space_artillery_equipment_1
 
 	train_equipment
@@ -322,9 +326,10 @@ script_enum_equipment_bonus_type = {
 	carrier_hull_3
 	carrier_hull_4
 	carrier_hull_5
+	carrier_hull_6
+	carrier_hull_7
 	capital_ship
 	heavy_frigate
-	screen_destroyer
 
 	support_ship
 	support_ship_hull
@@ -520,7 +525,10 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_chassis_5
 	heavy_tank_chassis_6
 	heavy_tank_chassis_7
+<<<<<<< HEAD
 	heavy_tank_chassis_10
+=======
+>>>>>>> main
 	heavy_tank_amphibious_chassis
 	heavy_tank_amphibious_chassis_0
 	heavy_tank_amphibious_chassis_1
@@ -530,6 +538,7 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_amphibious_chassis_5
 	heavy_tank_amphibious_chassis_6
 	heavy_tank_amphibious_chassis_7
+<<<<<<< HEAD
 	heavy_tank_amphibious_chassis_10
 	medium_tank_artillery_chassis_5
 	medium_tank_aa_chassis_5
@@ -538,6 +547,8 @@ script_enum_equipment_bonus_type = {
 	medium_tank_destroyer_chassis_5
 	medium_tank_rocket_chassis_5
 	medium_tank_chassis_5
+=======
+>>>>>>> main
 	Anti_Air_0
 	Anti_Air_1
 	Anti_Air_2
@@ -571,6 +582,7 @@ script_enum_equipment_bonus_type = {
 	MR_Fighter5
 	MR_Fighter6
 	MR_Fighter7
+<<<<<<< HEAD
 	attack_helicopter1
 	attack_helicopter2
 	attack_helicopter3
@@ -585,6 +597,22 @@ script_enum_equipment_bonus_type = {
 	transport_helicopter5
 	transport_helicopter6
 	transport_helicopter7
+=======
+	attack_helicopter_1
+	attack_helicopter_2
+	attack_helicopter_3
+	attack_helicopter_4
+	attack_helicopter_5
+	attack_helicopter_6
+	attack_helicopter_7
+	transport_helicopter_1
+	transport_helicopter_2
+	transport_helicopter_3
+	transport_helicopter_4
+	transport_helicopter_5
+	transport_helicopter_6
+	transport_helicopter_7
+>>>>>>> main
 	naval_plane1
 	naval_plane2
 	naval_plane3
@@ -626,6 +654,8 @@ script_enum_equipment_bonus_type = {
 	missile_submarine_hull_4
 	missile_submarine_hull_5
 	missile_submarine_hull_6
+	missile_submarine_hull_7
+	missile_submarine_hull_8
 	attack_submarine
 	attack_submarine_hull_1
 	attack_submarine_hull_2
@@ -633,10 +663,18 @@ script_enum_equipment_bonus_type = {
 	attack_submarine_hull_4
 	attack_submarine_hull_5
 	attack_submarine_hull_6
+	attack_submarine_hull_7
+	attack_submarine_hull_8
 	patrol_boat
 	patrol_boat_hull_1
 	patrol_boat_hull_2
 	patrol_boat_hull_3
+<<<<<<< HEAD
+=======
+	patrol_boat_hull_4
+	patrol_boat_hull_5
+	patrol_boat_hull_6
+>>>>>>> main
 	corvette
 	corvette_hull_1
 	corvette_hull_2
@@ -644,6 +682,8 @@ script_enum_equipment_bonus_type = {
 	corvette_hull_4
 	corvette_hull_5
 	corvette_hull_6
+	corvette_hull_7
+	corvette_hull_8
 	frigate
 	frigate_hull_1
 	frigate_hull_2
@@ -651,45 +691,61 @@ script_enum_equipment_bonus_type = {
 	frigate_hull_4
 	frigate_hull_5
 	frigate_hull_6
+	frigate_hull_7
+	frigate_hull_8
 	cruiser
 	cruiser_hull_1
 	cruiser_hull_2
 	cruiser_hull_3
 	cruiser_hull_4
 	cruiser_hull_5
+	cruiser_hull_6
+	cruiser_hull_7
 	battle_cruiser
 	battle_cruiser_hull_1
 	battle_cruiser_hull_2
 	battle_cruiser_hull_3
 	battle_cruiser_hull_4
+	battle_cruiser_hull_5
 	battleship_hull_0
 	battleship_hull_1
 	battleship_hull_2
 	battleship_hull_3
 	battleship_hull_4
+	battleship_hull_5
 	helicopter_operator
 	helicopter_operator_hull_1
 	helicopter_operator_hull_2
 	helicopter_operator_hull_3
 	helicopter_operator_hull_4
+	helicopter_operator_hull_5
+	helicopter_operator_hull_6
 	stealth_destroyer
 	stealth_destroyer_hull_1
 	stealth_destroyer_hull_2
 	stealth_destroyer_hull_3
+	stealth_destroyer_hull_4
+	stealth_destroyer_hull_5
 	destroyer
 	destroyer_hull_1
 	destroyer_hull_2
 	destroyer_hull_3
 	destroyer_hull_4
 	destroyer_hull_5
+	destroyer_hull_6
+	destroyer_hull_7
 	stealth_corvette
 	stealth_corvette_hull_1
 	stealth_corvette_hull_2
 	stealth_corvette_hull_3
+	stealth_corvette_hull_4
+	stealth_corvette_hull_5
 	stealth_frigate
 	stealth_frigate_hull_1
 	stealth_frigate_hull_2
 	stealth_frigate_hull_3
+	stealth_frigate_hull_4
+	stealth_frigate_hull_5
 
 	# Missile
 	Missile
@@ -764,6 +820,7 @@ script_enum_equipment_bonus_type = {
 	# Zombie Game Mode
 	zombie
 	zombie_0
+<<<<<<< HEAD
 
 	# Event Horizon Scenario
 	HACS_equipment
@@ -775,6 +832,12 @@ script_enum_equipment_bonus_type = {
 	CHIMERA_1
 
 	# Event Horizon NSB
+=======
+	zombie_runner
+	zombie_runner_0
+	zombie_brute
+	zombie_brute_0
+>>>>>>> main
 }
 
 script_enum_operative_mission_type = {

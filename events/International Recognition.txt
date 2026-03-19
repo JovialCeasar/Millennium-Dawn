@@ -36,7 +36,7 @@ news_event = {
 			add_political_power = -50
 		}
 		else_if = {
-			limit = { FROM = { has_idea = superpower } }
+			limit = { FROM = { has_idea = super_power } }
 			add_political_power = -100
 		}
 		log = "[GetDateText]: [This.GetName]: recognition.1.a executed"
@@ -75,7 +75,7 @@ news_event = {
 			add_political_power = 50
 		}
 		else_if = {
-			limit = { FROM = { has_idea = superpower } }
+			limit = { FROM = { has_idea = super_power } }
 			add_political_power = 100
 		}
 		log = "[GetDateText]: [This.GetName]: recognition.2.a executed"
@@ -115,7 +115,7 @@ news_event = {
 			add_political_power = -50
 		}
 		else_if = {
-			limit = { FROM = { has_idea = superpower } }
+			limit = { FROM = { has_idea = super_power } }
 			add_political_power = -100
 		}
 		log = "[GetDateText]: [This.GetName]: recognition.3.a executed"
@@ -155,7 +155,7 @@ news_event = {
 			add_political_power = 50
 		}
 		else_if = {
-			limit = { FROM = { has_idea = superpower } }
+			limit = { FROM = { has_idea = super_power } }
 			add_political_power = 100
 		}
 		log = "[GetDateText]: [This.GetName]: recognition.4.a executed"
@@ -195,7 +195,7 @@ news_event = {
 			add_political_power = 50
 		}
 		else_if = {
-			limit = { FROM = { has_idea = superpower } }
+			limit = { FROM = { has_idea = super_power } }
 			add_political_power = 100
 		}
 		log = "[GetDateText]: [This.GetName]: recognition.5.a executed"
@@ -235,7 +235,7 @@ news_event = {
 			add_political_power = -50
 		}
 		else_if = {
-			limit = { FROM = { has_idea = superpower } }
+			limit = { FROM = { has_idea = super_power } }
 			add_political_power = -100
 		}
 		log = "[GetDateText]: [This.GetName]: recognition.6.a executed"
@@ -257,6 +257,10 @@ country_event = {
 
 	option = {
 		name = recognition.71.a
+<<<<<<< HEAD
+=======
+		log = "[GetDateText]: [This.GetName]: recognition.71.a executed"
+>>>>>>> main
 		remove_ideas = Lacks_International_Recognition
 		add_to_array = { global.UN_general_assembly = THIS }
 		missile_ui_update = yes
@@ -275,6 +279,10 @@ country_event = {
 
 	option = {
 		name = recognition.72.a
+<<<<<<< HEAD
+=======
+		log = "[GetDateText]: [This.GetName]: recognition.72.a executed"
+>>>>>>> main
 		news_event = recognition.73
 	}
 }
@@ -292,7 +300,22 @@ news_event = {
 
 	option = {
 		name = recognition.7.a #The [FROM.GetAdjective] people join the international community.
-		log = "[GetDateText]: [This.GetName]: recognition.7.a executed"
+	}
+}
+
+### [FROM.GetName] Failed to join the UN!
+news_event = {
+	id = recognition.73
+
+	title = recognition.73.t
+	desc = recognition.73.d
+	picture = GFX_UN_event_global_1
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = recognition.73.a #[FROM.GetAdjective] failed to join the international community.
 	}
 }
 
@@ -806,6 +829,7 @@ country_event = {
 	hidden = yes
 
 	immediate = {
+<<<<<<< HEAD
 		#TODO: work with bird to optimize this somehow
 		for_each_loop = {
 			array = global.UN_general_assembly
@@ -818,6 +842,14 @@ country_event = {
 					country_event = recognition.11
 				}
 			}
+=======
+		random_scope_in_array = {
+			array = global.UN_general_assembly
+			limit = {
+				has_country_flag = original_owner_@PREV
+			}
+			country_event = recognition.11
+>>>>>>> main
 		}
 	}
 }
@@ -841,7 +873,11 @@ country_event = {
 			var:v = {
 				country_event = recognition.12
 				if = {
+<<<<<<< HEAD
 					limit ={
+=======
+					limit = {
+>>>>>>> main
 						NOT = { has_country_flag = has_sc_mission }
 					}
 					activate_mission = UN_SC_voting_mission_result_timer
@@ -955,16 +991,370 @@ country_event = {
 	hidden = yes
 
 	immediate = {
+<<<<<<< HEAD
 		#TODO: build an array of nations that or original owners
 		#Then have that array loop here, rather than an every country
 		news_event = recognition.121
 		every_country = {
 			limit = { has_country_flag = original_owner_@PREV }
+=======
+		news_event = recognition.121
+		random_scope_in_array = {
+			array = global.UN_general_assembly
+			limit = {
+				has_country_flag = original_owner_@PREV
+			}
+>>>>>>> main
 			country_event = recognition.14
 		}
 	}
 }
 
+<<<<<<< HEAD
+=======
+country_event = {
+	id = recognition.20
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {
+		var:recog_requester = {
+			country_event = recognition.25
+		}
+
+		clear_variable = recog_requester
+	}
+}
+
+country_event = {
+	id = recognition.25
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {
+		FROM = {
+			country_event = recognition.16
+		}
+	}
+}
+
+country_event = {
+	id = recognition.30
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {
+		var:prev_owner = {
+			country_event = recognition.31
+		}
+	}
+}
+
+country_event = {
+	id = recognition.31
+	title = recognition.31.t
+	desc = recognition.31.d
+
+	is_triggered_only = yes
+
+	#Don't recognize option
+	option = {
+		name = recognition.31.a
+
+		ai_chance = {
+			base = 1
+		}
+	}
+
+	#Recognize option
+	option = {
+		name = recognition.31.b
+
+		set_country_flag = Recognised_@FROM
+
+		FROM = {
+			country_event = recognition.16
+		}
+
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 5
+				has_opinion = { target = FROM value > 75 }
+			}
+			modifier = {
+				add = 15
+				FROM = { check_variable = { Granted_Recognition > 70 } }
+			}
+			modifier = {
+				add = 10
+				has_war = yes
+			}
+			modifier = {
+				add = 10
+				NOT = { has_stability > 0.3 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = recognition.16
+	title = recognition.16.t
+	desc = recognition.16.d
+
+	is_triggered_only = yes
+
+	#Don't recognize option
+	option = {
+		name = recognition.16.a
+
+		ai_chance = {
+			base = 1
+
+			# Negative opinion of requester
+			modifier = {
+				add = 3
+				has_opinion = { target = FROM value < -25 }
+			}
+
+			# Strong dislike of requester
+			modifier = {
+				add = 5
+				has_opinion = { target = FROM value < -50 }
+			}
+
+			# Good relations with the original owner
+			modifier = {
+				add = 4
+				any_country = {
+					has_country_flag = original_owner_@FROM
+					ROOT = { has_opinion = { target = PREV value > 25 } }
+				}
+			}
+
+			# Same faction as original owner — strong refusal
+			modifier = {
+				add = 8
+				any_country = {
+					has_country_flag = original_owner_@FROM
+					is_in_faction_with = ROOT
+				}
+			}
+
+			# Ideologically aligned with original owner
+			modifier = {
+				add = 3
+				any_country = {
+					has_country_flag = original_owner_@FROM
+					has_government = ROOT
+				}
+			}
+
+			# Opposing ideology to requester
+			modifier = {
+				add = 2
+				NOT = { has_government = FROM }
+			}
+		}
+	}
+
+	#Recognize option
+	option = {
+		name = recognition.16.b
+
+		add_political_power = -25
+		set_country_flag = Recognised_@FROM
+
+		for_each_loop = {
+			array = global.UN_general_assembly
+			value = v
+
+			var:v = {
+				if = {
+					limit = { has_country_flag = Recognised_@FROM }
+					add_opinion_modifier = {
+						target = ROOT
+						modifier = supporting_recognized_ally
+					}
+					news_event = { id = recognition.9 }
+				} else_if = {
+					limit = {
+						OR = {
+							has_country_flag = original_owner_@FROM
+							has_country_flag = supports_original_owner_@FROM
+						}
+						NOT = { has_country_flag = Recognised_@FROM }
+					}
+					add_opinion_modifier = {
+						target = ROOT
+						modifier = recognises_them
+					}
+					news_event = { id = recognition.1 }
+				}
+			}
+		}
+		FROM = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = recognises_us
+			}
+			news_event = { id = recognition.2 }
+			add_to_variable = { Granted_Recognition = 1 }
+		}
+		missile_ui_update = yes
+
+		ai_chance = {
+			base = 0
+
+			# Warm relations
+			modifier = {
+				add = 1
+				has_opinion = { target = FROM value > 25 }
+			}
+
+			# Good relations
+			modifier = {
+				add = 2
+				has_opinion = { target = FROM value > 50 }
+			}
+
+			# Strong relations
+			modifier = {
+				add = 5
+				has_opinion = { target = FROM value > 75 }
+			}
+
+			# Same faction — strong push
+			modifier = {
+				add = 8
+				is_in_faction_with = FROM
+			}
+
+			# Same ideology group
+			modifier = {
+				add = 3
+				has_government = FROM
+			}
+
+			# Rival of the original owner — opportunistic recognition
+			modifier = {
+				add = 4
+				any_country = {
+					has_country_flag = original_owner_@FROM
+					ROOT = { has_opinion = { target = PREV value < -25 } }
+				}
+			}
+
+			# Already recognized by many — bandwagon effect
+			modifier = {
+				add = 2
+				FROM = { check_variable = { Granted_Recognition > 10 } }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = recognition.17
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		for_each_loop = {
+			array = global.UN_general_assembly
+			value = v
+
+			var:v = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = Recognised_@ROOT }
+						NOT = { has_country_flag = original_owner_@ROOT }
+					}
+					country_event = recognition.18
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = recognition.18
+	title = recognition.18.t
+	desc = recognition.18.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = recognition.18.a
+
+		ai_chance = {
+			base = 0
+
+			modifier = {
+				add = 100
+				has_country_flag = original_owner_@FROM
+			}
+			modifier = {
+				add = 25
+				has_country_flag = supports_original_owner_@FROM
+			}
+		}
+	}
+
+	option = {
+		name = recognition.18.b
+		set_country_flag = Recognised_@FROM
+
+		FROM = {
+			# TODO: Add one for enemies in here that we can do that
+			every_allied_country = {
+				add_opinion_modifier = { target = ROOT modifier = supporting_recognized_ally }
+				news_event = recognition.9
+			}
+
+			random_country = {
+				limit = { has_country_flag = original_owner_@FROM }
+
+				add_opinion_modifier = { target = ROOT modifier = recognises_them }
+				news_event = recognition.1
+			}
+
+			add_opinion_modifier = { target = ROOT modifier = recognises_us }
+			news_event = { id = recognition.2 }
+			add_to_variable = { Granted_Recognition = 1 }
+		}
+
+		ai_chance = {
+			base = 5
+			modifier = {
+				add = 15
+				has_opinion = { target = FROM value > 50 }
+			}
+			modifier = {
+				add = 25
+				is_ally_with = FROM
+			}
+			modifier = {
+				add = 20
+				has_guaranteed = FROM
+			}
+			modifier = {
+				add = 15
+				is_in_faction_with = FROM
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = original_owner_@FROM
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = supports_original_owner_@FROM
+			}
+		}
+	}
+}
+
+>>>>>>> main
 ### [FROM.GetName] gets SC recomendation
 news_event = {
 	id = recognition.121
@@ -978,7 +1368,10 @@ news_event = {
 
 	option = {
 		name = recognition.121.a
+<<<<<<< HEAD
 		log = "[GetDateText]: [This.GetName]: recognition.121.a executed"
+=======
+>>>>>>> main
 	}
 }
 
@@ -995,7 +1388,10 @@ news_event = {
 
 	option = {
 		name = recognition.122.a
+<<<<<<< HEAD
 		log = "[GetDateText]: [This.GetName]: recognition.122.a executed"
+=======
+>>>>>>> main
 	}
 }
 
@@ -1016,7 +1412,11 @@ country_event = {
 
 			country_event = recognition.15
 			if = {
+<<<<<<< HEAD
 				limit ={
+=======
+				limit = {
+>>>>>>> main
 					NOT = { has_country_flag = has_ga_mission }
 				}
 				activate_mission = UN_GA_voting_mission_result_timer

@@ -1,5 +1,6 @@
-﻿capital = 32
+capital = 32
 2000.1.1 = {
+	set_variable = { currency_strength = 1.05 }
 	set_cosmetic_tag = NOR
 
 	set_country_flag = dynamic_flag
@@ -49,8 +50,9 @@
 			nsb_rocket_pods_tech_2 = 1
 			nsb_gun_pods_tech_2 = 1
 			nsb_light_nose_gun_tech_2 = 1
-			nsb_transport_helicopter1 = 1
-			nsb_transport_helicopter2 = 1
+			nsb_transport_helicopter_1 = 1
+			nsb_transport_helicopter_2 = 1
+			armor_tech = 1
 		}
 		create_equipment_variant = {
 			name = "NASAM 1"
@@ -118,10 +120,11 @@
 				AA_upgrade_3 = 1
 				Anti_Air_2 = 1
 				SP_Anti_Air_2 = 1
-				transport_helicopter1 = 1
-				transport_helicopter2 = 1
-				attack_helicopter1 = 1
-				attack_helicopter2 = 1
+				transport_helicopter_1 = 1
+				transport_helicopter_2 = 1
+				attack_helicopter_1 = 1
+				attack_helicopter_2 = 1
+				AA_upgrade_2 = 1
 			}
 		}
 	}
@@ -179,6 +182,12 @@
 		complete_special_project = sp:sp_helicopter_project
 
 	add_ideas = {
+		partially_nationalized_healthcare
+		partial_environmental_protections
+		extensive_maintenance
+		us_dollar
+		comprehensive_regulations
+
 		fast_growth
 		slight_corruption
 		labour_unions
@@ -200,7 +209,14 @@
 		NATO_member
 		western_country
 		medium_far_right_movement
+		un_aid_esco_member
+
+		un_aid_ido_member
+		un_aid_cdf_member
 	}
+	add_to_array = { global.un_aid_esco_contributor = THIS }
+	add_to_array = { global.un_aid_ido_contributor = THIS }
+	add_to_array = { global.un_aid_cdf_contributor = THIS }
 
 	#Influence system
 	init_influence = yes
@@ -346,10 +362,6 @@
 		#for template
 		combat_eng_equipment = 1
 
-		transport_helicopter1 = 1
-		nsb_transport_helicopter1 = 1
-		transport_helicopter2 = 1
-		nsb_transport_helicopter2 = 1
 
 		infantry_weapons_1 = 1
 		infantry_weapons_2 = 1
@@ -432,6 +444,10 @@
 			SAM = 1
 			SAM0 = 1
 		}
+
+		else = {
+			complete_special_project = sp:sp_space_program_non_gdm
+		}
 	}
 	set_technology = {
 			corvette_hull_1 = 1
@@ -456,48 +472,48 @@
 			aircraft_carrier_engineering = 1
 			aircraft_heli_engineering_1 = 1
 
-			tech_submarine_engineering = 1
+			tech_submarine_engineering_1 = 1
 
 			tech_naval_systems_engineering = 1
-			tech_power_systems = 1
 			tech_power_systems_1 = 1
+			tech_power_systems_2 = 1
 
 			tech_combat_support_systems = 1
-			tech_fire_control = 1
 			tech_fire_control_1 = 1
-			tech_combat_radar = 1
+			tech_fire_control_2 = 1
 			tech_combat_radar_1 = 1
 			tech_combat_radar_2 = 1
-			tech_combat_sonar = 1
+			tech_combat_radar_3 = 1
 			tech_combat_sonar_1 = 1
 			tech_combat_sonar_2 = 1
+			tech_combat_sonar_3 = 1
 
 			tech_early_naval_weapon_systems = 1
 			tech_naval_weapon_systems = 1
-			tech_light_guns = 1
 			tech_light_guns_1 = 1
+			tech_light_guns_2 = 1
 
-			tech_point_defense_system = 1
+			tech_point_defense_chain_gun = 1
 			tech_point_defense_system_1 = 1
 			tech_point_defense_system_2 = 1
 			tech_point_defense_system_3 = 1
 
-			tech_turret_missiles_surface = 1
 			tech_turret_missiles_surface_1 = 1
+			tech_turret_missiles_surface_2 = 1
 
-			tech_turret_missiles_aa = 1
 			tech_turret_missiles_aa_1 = 1
+			tech_turret_missiles_aa_2 = 1
 
-			tech_vls_surface = 1
 			tech_vls_surface_1 = 1
+			tech_vls_surface_2 = 1
 
-			tech_vls_aa = 1
 			tech_vls_aa_1 = 1
+			tech_vls_aa_2 = 1
 
-			tech_torpedoes = 1
 			tech_torpedoes_1 = 1
+			tech_torpedoes_2 = 1
 
-			tech_landing_craft = 1
+			tech_landing_craft_1 = 1
 		}
 
 		#Hauk Class
@@ -578,4 +594,43 @@
 
 	set_variable = { overall_productivity = 1129 }
 
+	if = {
+		limit = {
+			has_dlc = "La Resistance"
+		}
+		create_intelligence_agency = {
+			name = "Norwegian Intelligence Service (E-tjenesten)"
+			icon = GFX_intelligence_agency_logo_generic_1
+		}
+		upgrade_intelligence_agency = upgrade_form_department
+		upgrade_intelligence_agency = upgrade_establish_cyber_operations_division
+	}
+
+
+	# Relation Starting Configuration (moved from on_startup)
+	add_opinion_modifier = { target = HAM modifier = HAM_Not_A_Recognized_country }
+	add_opinion_modifier = { target = SAU modifier = Arabian_Peninsula_West_Economical_Relations }
+	reverse_add_opinion_modifier = { target = SAU modifier = Arabian_Peninsula_West_Economical_Relations }
+	add_opinion_modifier = { target = UAE modifier = Arabian_Peninsula_West_Economical_Relations }
+	reverse_add_opinion_modifier = { target = UAE modifier = Arabian_Peninsula_West_Economical_Relations }
+	add_opinion_modifier = { target = QAT modifier = Arabian_Peninsula_West_Economical_Relations }
+	reverse_add_opinion_modifier = { target = QAT modifier = Arabian_Peninsula_West_Economical_Relations }
+	add_opinion_modifier = { target = OMA modifier = Arabian_Peninsula_West_Economical_Relations }
+	reverse_add_opinion_modifier = { target = OMA modifier = Arabian_Peninsula_West_Economical_Relations }
+	add_opinion_modifier = { target = CUB modifier = sanctions }
+	add_relation_modifier = { target = USA modifier = USA_World_Economical_Relations }
+	add_relation_modifier = { target = SOV modifier = SOV_World_Economical_Relations }
+	add_relation_modifier = { target = CHI modifier = CHI_World_Economical_Relations }
+	add_relation_modifier = { target = FRA modifier = FRA_World_Economical_Relations }
+	add_relation_modifier = { target = GER modifier = GER_World_Economical_Relations }
+	add_relation_modifier = { target = ENG modifier = ENG_World_Economical_Relations }
+	add_relation_modifier = { target = SPR modifier = SPR_World_Economical_Relations }
+	add_relation_modifier = { target = ITA modifier = ITA_World_Economical_Relations }
+	add_relation_modifier = { target = UKR modifier = UKR_World_Economical_Relations }
+	add_relation_modifier = { target = ISR modifier = ISR_World_Economical_Relations }
+	add_opinion_modifier = { target = TTP modifier = AlQaida_Are_Terrorists }
+	add_opinion_modifier = { target = TTP modifier = AlQaida_Are_Terrorists_Trade }
+	add_opinion_modifier = { target = TAL modifier = Taliban_Are_Terrorists }
+	add_opinion_modifier = { target = TAL modifier = Taliban_Are_Terrorists_Trade }
+	reverse_add_opinion_modifier = { target = SOV modifier = RUS_OIL }
 }

@@ -168,7 +168,7 @@ TAI_unique_frigates = {
 
 			modules = {
 				fixed_ship_engine_slot = module_light_surface_jet_turbine_power3
-				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 				fixed_ship_radar_slot = module_radar_6
 				fixed_ship_auxillary_slot_2 = module_ram_5
 				fixed_ship_auxillary_slot_1 = module_asm_5
@@ -330,7 +330,7 @@ TAI_unique_destroyer = {
 			type = destroyer_hull_5
 			modules = {
 				fixed_ship_engine_slot = module_surface_jet_turbine_power3
-				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 				fixed_ship_radar_slot = module_radar_6
 				fixed_ship_auxillary_slot_3 = module_vls_sam_5
 				fixed_ship_auxillary_slot_2 = module_vls_asm_4
@@ -347,7 +347,7 @@ TAI_unique_destroyer = {
 TAI_unique_corvette = {
 	category = naval
 	available_for = { TAI }
-	roles = { naval_corvette }
+	roles = { naval_corvettes }
 	priority = {
 		base = 100
 	}
@@ -476,7 +476,7 @@ TAI_unique_corvette = {
 			type = corvette_hull_6
 			modules = {
 				fixed_ship_engine_slot = module_light_surface_jet_turbine_power3
-				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 				fixed_ship_radar_slot = module_radar_6
 				fixed_ship_auxillary_slot = module_asm_5
 				fixed_ship_battery_slot = module_76mm_gun_3
@@ -517,7 +517,6 @@ TAI_unique_missile_submarine = {
 			#Weaponry
 			module_torpedoes_category
 			module_vls_sub_category
-
 
 			#Support
 			module_fuel_tanks_category
@@ -602,7 +601,6 @@ TAI_unique_attack_submarine = {
 			module_torpedoes_category
 			module_vls_sub_category
 			module_minelaying_category
-
 
 			#Support
 			module_fuel_tanks_category
@@ -786,7 +784,7 @@ TAI_unique_helicopter_operator = {
 
 			modules = {
 				fixed_ship_engine_slot = module_surface_fut_reactor_power
-				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 				fixed_ship_radar_slot = module_radar_7
 				fixed_ship_auxillary_slot_3 = module_ciws_6
 				fixed_ship_auxillary_slot_2 = module_fuel_tank
@@ -801,10 +799,10 @@ TAI_unique_helicopter_operator = {
 }
 
 ### Attack Submarines ###
-ai_equipment = {
+TAI_attack_submarines = {
 	category = naval
 	available_for = { TAI }
-	roles = { naval_attack_submarines }
+	roles = { naval_attack_submarine }
 
 	priority = {
 		base = 100
@@ -812,6 +810,11 @@ ai_equipment = {
 
 	# TAI_attack_sub_1960s
 	TAI_attack_sub_1960s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = attack_submarine_hull_1 }
+			modifier = { add = -999 has_tech = attack_submarine_hull_2 }
+		}
 		target_variant = {
 			type = attack_submarine_hull_1
 			match_value = 2600
@@ -830,6 +833,11 @@ ai_equipment = {
 
 	# TAI_attack_sub_1980s
 	TAI_attack_sub_1980s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = attack_submarine_hull_2 }
+			modifier = { add = -999 has_tech = attack_submarine_hull_3 }
+		}
 		target_variant = {
 			type = attack_submarine_hull_2
 			match_value = 3200
@@ -848,6 +856,11 @@ ai_equipment = {
 
 	# TAI_attack_sub_1990s
 	TAI_attack_sub_1990s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = attack_submarine_hull_3 }
+			modifier = { add = -999 has_tech = attack_submarine_hull_4 }
+		}
 		target_variant = {
 			type = attack_submarine_hull_3
 			match_value = 3800
@@ -866,6 +879,11 @@ ai_equipment = {
 
 	# TAI_attack_sub_2010s
 	TAI_attack_sub_2010s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = attack_submarine_hull_4 }
+			modifier = { add = -999 has_tech = attack_submarine_hull_5 }
+		}
 		target_variant = {
 			type = attack_submarine_hull_4
 			match_value = 4400
@@ -884,6 +902,11 @@ ai_equipment = {
 
 	# TAI_attack_sub_2020s
 	TAI_attack_sub_2020s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = attack_submarine_hull_5 }
+			modifier = { add = -999 has_tech = attack_submarine_hull_6 }
+		}
 		target_variant = {
 			type = attack_submarine_hull_5
 			match_value = 5200
@@ -902,6 +925,10 @@ ai_equipment = {
 
 	# TAI_attack_sub_2040s
 	TAI_attack_sub_2040s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = attack_submarine_hull_6 }
+		}
 		target_variant = {
 			type = attack_submarine_hull_6
 			match_value = 6000
@@ -921,7 +948,7 @@ ai_equipment = {
 }
 
 ### Corvettes ###
-ai_equipment = {
+TAI_corvettes = {
 	category = naval
 	available_for = { TAI }
 	roles = { naval_corvettes }
@@ -932,6 +959,11 @@ ai_equipment = {
 
 	# TAI_Gunboat_1960s
 	TAI_Gunboat_1960s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = corvette_hull_1 }
+			modifier = { add = -999 has_tech = corvette_hull_2 }
+		}
 		target_variant = {
 			type = corvette_hull_1
 			match_value = 2600
@@ -950,6 +982,11 @@ ai_equipment = {
 
 	# TAI_Early_Missile_1970s
 	TAI_Early_Missile_1970s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = corvette_hull_2 }
+			modifier = { add = -999 has_tech = corvette_hull_3 }
+		}
 		target_variant = {
 			type = corvette_hull_2
 			match_value = 3200
@@ -968,6 +1005,11 @@ ai_equipment = {
 
 	# TAI_Strike_Corvette_1980s
 	TAI_Strike_Corvette_1980s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = corvette_hull_3 }
+			modifier = { add = -999 has_tech = corvette_hull_4 }
+		}
 		target_variant = {
 			type = corvette_hull_3
 			match_value = 3800
@@ -986,6 +1028,11 @@ ai_equipment = {
 
 	# TAI_Sea_Denial_2000s
 	TAI_Sea_Denial_2000s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = corvette_hull_4 }
+			modifier = { add = -999 has_tech = corvette_hull_5 }
+		}
 		target_variant = {
 			type = corvette_hull_4
 			match_value = 4400
@@ -1004,6 +1051,11 @@ ai_equipment = {
 
 	# TAI_Heavy_Missile_2020s
 	TAI_Heavy_Missile_2020s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = corvette_hull_5 }
+			modifier = { add = -999 has_tech = corvette_hull_6 }
+		}
 		target_variant = {
 			type = corvette_hull_5
 			match_value = 5200
@@ -1022,13 +1074,17 @@ ai_equipment = {
 
 	# TAI_Advanced_Strike_2040s
 	TAI_Advanced_Strike_2040s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = corvette_hull_6 }
+		}
 		target_variant = {
 			type = corvette_hull_6
 			match_value = 6000
 
 			modules = {
 				fixed_ship_engine_slot = module_light_surface_jet_turbine_power3
-				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 				fixed_ship_radar_slot = module_radar_5
 				fixed_ship_auxillary_slot = module_vls_asm_4
 				fixed_ship_battery_slot = module_76mm_gun_4
@@ -1041,7 +1097,7 @@ ai_equipment = {
 }
 
 ### Cruisers ###
-ai_equipment = {
+TAI_cruisers = {
  category = naval
  available_for = { TAI }
  roles = { naval_cruiser }
@@ -1190,7 +1246,7 @@ TAI_HanKuang_CG_2045 = {
 	 match_value = 10500
 	 modules = {
 		fixed_ship_engine_slot = module_surface_jet_turbine_power3
-		fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+		fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 		fixed_ship_radar_slot = module_radar_6
 
 		fixed_ship_battery_slot = module_railgun_2
@@ -1209,6 +1265,7 @@ TAI_HanKuang_CG_2045 = {
  }
 }
 
+<<<<<<< HEAD
 ### Destroyers ###
 ai_equipment = {
  category = naval
@@ -1356,11 +1413,13 @@ ai_equipment = {
  }
 }
 
+=======
+>>>>>>> main
 ### Frigates ###
-ai_equipment = {
+TAI_frigates = {
 	category = naval
 	available_for = { TAI }
-	roles = { naval_frigates }
+	roles = { naval_frigate }
 	priority = { base = 100 }
 
 	### ------------------------------------------------------------
@@ -1485,6 +1544,7 @@ ai_equipment = {
 		priority = {
 			base = -1
 			modifier = { add = 820 has_tech = frigate_hull_5 }
+			modifier = { add = -999 has_tech = frigate_hull_6 }
 		}
 
 		target_variant = {
@@ -1501,7 +1561,7 @@ ai_equipment = {
 				fixed_ship_auxillary_slot_2 = module_aa_missiles_3
 
 				fixed_ship_radar_slot = module_radar_4
-				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control
+				fixed_ship_fire_control_system_slot = module_futuristic_integrated_missile_radar_control1
 				fixed_ship_engine_slot = module_light_surface_jet_turbine_power2
 			}
 		}
@@ -1509,10 +1569,10 @@ ai_equipment = {
 }
 
 ### Missile Submarines ###
-ai_equipment = {
+TAI_missile_submarines = {
 	category = naval
 	available_for = { TAI }
-	roles = { naval_missile_submarines }
+	roles = { naval_missile_submarine }
 
 	priority = {
 		base = 100
@@ -1520,6 +1580,11 @@ ai_equipment = {
 
 	# TAI_missile_sub_1960s
 	TAI_missile_sub_1960s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = missile_submarine_hull_1 }
+			modifier = { add = -999 has_tech = missile_submarine_hull_2 }
+		}
 		target_variant = {
 			type = missile_submarine_hull_1
 			match_value = 2600
@@ -1538,6 +1603,11 @@ ai_equipment = {
 
 	# TAI_missile_sub_1980s
 	TAI_missile_sub_1980s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = missile_submarine_hull_2 }
+			modifier = { add = -999 has_tech = missile_submarine_hull_3 }
+		}
 		target_variant = {
 			type = missile_submarine_hull_2
 			match_value = 3200
@@ -1556,6 +1626,11 @@ ai_equipment = {
 
 	# TAI_missile_sub_1990s
 	TAI_missile_sub_1990s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = missile_submarine_hull_3 }
+			modifier = { add = -999 has_tech = missile_submarine_hull_4 }
+		}
 		target_variant = {
 			type = missile_submarine_hull_3
 			match_value = 3800
@@ -1574,6 +1649,11 @@ ai_equipment = {
 
 	# TAI_missile_sub_2010s
 	TAI_missile_sub_2010s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = missile_submarine_hull_4 }
+			modifier = { add = -999 has_tech = missile_submarine_hull_5 }
+		}
 		target_variant = {
 			type = missile_submarine_hull_4
 			match_value = 4400
@@ -1592,6 +1672,11 @@ ai_equipment = {
 
 	# TAI_missile_sub_2020s
 	TAI_missile_sub_2020s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = missile_submarine_hull_5 }
+			modifier = { add = -999 has_tech = missile_submarine_hull_6 }
+		}
 		target_variant = {
 			type = missile_submarine_hull_5
 			match_value = 5000
@@ -1610,6 +1695,10 @@ ai_equipment = {
 
 	# TAI_missile_sub_2040s
 	TAI_missile_sub_2040s = {
+		priority = {
+			base = -1
+			modifier = { add = 1000 has_tech = missile_submarine_hull_6 }
+		}
 		target_variant = {
 			type = missile_submarine_hull_6
 			match_value = 5600

@@ -5,12 +5,10 @@
 		L_Inf_Bat = { x = 0 y = 0 }
 		L_Inf_Bat = { x = 0 y = 1 }
 		L_Inf_Bat = { x = 0 y = 2 }
-		L_Inf_Bat = { x = 0 y = 3 }
 
 		L_Inf_Bat = { x = 1 y = 0 }
 		L_Inf_Bat = { x = 1 y = 1 }
 		L_Inf_Bat = { x = 1 y = 2 }
-		L_Inf_Bat = { x = 1 y = 3 }
 
 		L_Inf_Bat = { x = 2 y = 0 }
 		L_Inf_Bat = { x = 2 y = 1 }
@@ -34,12 +32,12 @@ division_template = {
 		Mech_Inf_Bat = { x = 1 y = 0 }
 		Mech_Inf_Bat = { x = 1 y = 1 }
 		Mech_Inf_Bat = { x = 1 y = 2 }
-		Mech_Inf_Bat = { x = 1 y = 3 }
+		Mech_Inf_Bat = { x = 3 y = 0 }
 
 		SP_Arty_Bat = { x = 2 y = 0 }
 		Mech_Inf_Bat = { x = 2 y = 1 }
 		L_arm_Bat = { x = 2 y = 2 }
-		L_arm_Bat = { x = 2 y = 3 }
+		L_arm_Bat = { x = 4 y = 0 }
 
 	}
 	support = {
@@ -246,17 +244,17 @@ instant_effect = {
 
 	#Helicopters
 	add_equipment_to_stockpile = {
-		type = attack_helicopter1 #Mi-24 Hind
+		type = attack_helicopter_1 #Mi-24 Hind
 		amount = 8
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Bell UH-1 Iroquois
+		type = transport_helicopter_1 #Bell UH-1 Iroquois
 		amount = 26
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Mil Mi-17
+		type = transport_helicopter_1 #Mil Mi-17
 		amount = 9
 		producer = SOV
 	}

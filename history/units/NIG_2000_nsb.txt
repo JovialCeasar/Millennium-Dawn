@@ -66,7 +66,7 @@ division_template = {
 		armor_Bat = { x = 0 y = 0 }
 		armor_Bat = { x = 0 y = 1 }
 		armor_Bat = { x = 0 y = 2 }
-		armor_Bat = { x = 0 y = 3 }
+		armor_Bat = { x = 3 y = 0 }
 
 		Mech_Inf_Bat = { x = 1 y = 0 }
 		Mech_Inf_Bat = { x = 1 y = 1 }
@@ -399,7 +399,7 @@ instant_effect = {
 		variant_name = "SA-342 Gazelle"
 	}
 	add_equipment_to_stockpile = {
-		type = attack_helicopter1
+		type = attack_helicopter_1
 		amount = 15
 		producer = SPR
 		variant_name = "MBB Bo 105"

@@ -4,7 +4,7 @@
 		Mot_Air_Inf_Bat = { x = 0 y = 0 }
 		Mot_Air_Inf_Bat = { x = 0 y = 1 }
 		Mot_Air_Inf_Bat = { x = 0 y = 2 }
-		Arty_Bat = { x = 0 y = 3 }
+		Arty_Bat = { x = 1 y = 0 }
 	}
 
 	support = {
@@ -20,7 +20,7 @@ division_template = {
 		L_Inf_Bat = { x = 0 y = 0 }
 		L_Inf_Bat = { x = 0 y = 1 }
 		L_Inf_Bat = { x = 0 y = 2 }
-		L_Inf_Bat = { x = 0 y = 3 }
+		L_Inf_Bat = { x = 2 y = 0 }
 
 		Arty_Bat = { x = 1 y = 0 }
 		L_Inf_Bat = { x = 1 y = 1 }
@@ -42,7 +42,7 @@ division_template = {
 		L_Inf_Bat = { x = 1 y = 0 }
 		L_Inf_Bat = { x = 1 y = 1 }
 		L_Inf_Bat = { x = 1 y = 2 }
-		L_Inf_Bat = { x = 1 y = 3 }
+		L_Inf_Bat = { x = 3 y = 0 }
 
 		Arty_Bat = { x = 2 y = 0 }
 		Arty_Bat = { x = 2 y = 1 }
@@ -60,7 +60,7 @@ division_template = {
 		Mot_Inf_Bat = { x = 0 y = 0 }
 		Mot_Inf_Bat = { x = 0 y = 1 }
 		Mot_Inf_Bat = { x = 0 y = 2 }
-		Mot_Inf_Bat = { x = 0 y = 3 }
+		Mot_Inf_Bat = { x = 3 y = 0 }
 
 		Arty_Bat = { x = 1 y = 0 }
 		L_Inf_Bat = { x = 1 y = 1 }
@@ -75,7 +75,7 @@ division_template = {
 		L_Inf_Bat = { x = 0 y = 0 }
 		L_Inf_Bat = { x = 0 y = 1 }
 		L_Inf_Bat = { x = 0 y = 2 }
-		L_Inf_Bat = { x = 0 y = 3 }
+		L_Inf_Bat = { x = 1 y = 0 }
 	}
 
 	support = {
@@ -93,7 +93,7 @@ division_template = {
 		Arm_Inf_Bat = { x = 0 y = 0 }
 		Arm_Inf_Bat = { x = 0 y = 1 }
 		L_arm_Bat = { x = 0 y = 2 }
-		L_arm_Bat = { x = 0 y = 3 }
+		L_arm_Bat = { x = 1 y = 0 }
 	}
 
 	support = {
@@ -121,7 +121,7 @@ division_template = {
 		Mot_Marine_Bat = { x = 1 y = 0 }
 		Mot_Marine_Bat = { x = 1 y = 1 }
 		Mot_Marine_Bat = { x = 1 y = 2 }
-		Mot_Marine_Bat = { x = 1 y = 3 }
+		Mot_Marine_Bat = { x = 3 y = 0 }
 
 		Arty_Bat = { x = 2 y = 0 }
 	}
@@ -566,17 +566,17 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#AS-330
+		type = transport_helicopter_1		#AS-330
 		amount = 18
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#bo 105
+		type = transport_helicopter_1		#bo 105
 		amount = 26
 		producer = GER
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#Bell 205
+		type = transport_helicopter_1		#Bell 205
 		amount = 80
 		producer = USA
 	}

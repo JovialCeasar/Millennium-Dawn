@@ -3,7 +3,7 @@
 equipments = {
 	infantry_weapons_type = {
 		is_archetype = yes
-		#is_buildable = no
+		is_buildable = no
 		type = infantry
 		group_by = archetype
 
@@ -34,7 +34,7 @@ equipments = {
 		ap_attack = 0
 		air_attack = 0
 		#Space taken in convoy
-		lend_lease_cost = 1
+		lend_lease_cost = 0.45
 
 		build_cost_ic = 0.31
 		resources = {
@@ -66,7 +66,7 @@ equipments = {
 		armor_value = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 1
+		lend_lease_cost = 0.45
 
 		build_cost_ic = 0.25
 		resources = {
@@ -98,7 +98,7 @@ equipments = {
 		armor_value = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 1
+		lend_lease_cost = 0.45
 
 		build_cost_ic = 0.30
 		resources = {
@@ -129,7 +129,7 @@ equipments = {
 		armor_value = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 1
+		lend_lease_cost = 0.45
 
 		build_cost_ic = 0.35
 		resources = {
@@ -392,7 +392,11 @@ equipments = {
 		#Misc Abilities
 		reliability = 0.9
 		maximum_speed = 4
+<<<<<<< HEAD
 
+=======
+		recon = 15
+>>>>>>> main
 		#Defensive Abilities
 		defense = 25
 		breakthrough = 0.25
@@ -424,10 +428,15 @@ equipments = {
 		#Misc Abilities
 		reliability = 0.9
 		maximum_speed = 4
+<<<<<<< HEAD
+=======
+		recon = 15
+>>>>>>> main
 
 		#Defensive Abilities
 		defense = 25
 		breakthrough = 0.25
+<<<<<<< HEAD
 		hardness = 0
 		armor_value = 0
 
@@ -436,6 +445,11 @@ equipments = {
 		hard_attack = 1.5
 		ap_attack = 0
 		air_attack = 0
+=======
+		#Offensive Abilities
+		soft_attack = 1.5
+		hard_attack = 1.5
+>>>>>>> main
 		#Space taken in convoy
 		lend_lease_cost = 1
 
@@ -455,6 +469,7 @@ equipments = {
 		visual_level = 2
 
 		#Misc Abilities
+<<<<<<< HEAD
 		reliability = 0.9
 		maximum_speed = 4
 
@@ -473,6 +488,22 @@ equipments = {
 		lend_lease_cost = 1
 
 		build_cost_ic = 0.31
+=======
+		reliability = 0.99
+		maximum_speed = 4.4
+		recon = 20
+
+		#Defensive Abilities
+		defense = 28.7
+		breakthrough = 0.28
+		#Offensive Abilities
+		soft_attack = 1.72
+		hard_attack = 1.68
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.34
+>>>>>>> main
 
 		resources = {
 			microchips = 1
@@ -488,6 +519,7 @@ equipments = {
 		visual_level = 3
 
 		#Misc Abilities
+<<<<<<< HEAD
 		reliability = 0.9
 		maximum_speed = 4
 
@@ -506,6 +538,22 @@ equipments = {
 		lend_lease_cost = 1
 
 		build_cost_ic = 0.31
+=======
+		reliability = 1.09
+		maximum_speed = 4.84
+		recon = 25
+
+		#Defensive Abilities
+		defense = 32.95
+		breakthrough = 0.32
+		#Offensive Abilities
+		soft_attack = 1.96
+		hard_attack = 1.88
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.38
+>>>>>>> main
 
 		resources = {
 			microchips = 1
@@ -521,6 +569,7 @@ equipments = {
 		visual_level = 4
 
 		#Misc Abilities
+<<<<<<< HEAD
 		reliability = 0.9
 		maximum_speed = 4
 
@@ -539,6 +588,22 @@ equipments = {
 		lend_lease_cost = 1
 
 		build_cost_ic = 0.31
+=======
+		reliability = 1.2
+		maximum_speed = 5.32
+		recon = 30
+
+		#Defensive Abilities
+		defense = 37.82
+		breakthrough = 0.37
+		#Offensive Abilities
+		soft_attack = 2.25
+		hard_attack = 2.11
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.41
+>>>>>>> main
 
 		resources = {
 			microchips = 1
@@ -554,6 +619,7 @@ equipments = {
 		visual_level = 5
 
 		#Misc Abilities
+<<<<<<< HEAD
 		reliability = 0.9
 		maximum_speed = 4
 
@@ -572,6 +638,22 @@ equipments = {
 		lend_lease_cost = 1
 
 		build_cost_ic = 0.31
+=======
+		reliability = 1.32
+		maximum_speed = 5.86
+		recon = 35
+
+		#Defensive Abilities
+		defense = 43.42
+		breakthrough = 0.42
+		#Offensive Abilities
+		soft_attack = 2.57
+		hard_attack = 2.36
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.45
+>>>>>>> main
 
 		resources = {
 			microchips = 1
@@ -587,6 +669,7 @@ equipments = {
 		visual_level = 5
 
 		#Misc Abilities
+<<<<<<< HEAD
 		reliability = 0.9
 		maximum_speed = 4
 
@@ -605,6 +688,22 @@ equipments = {
 		lend_lease_cost = 1
 
 		build_cost_ic = 0.31
+=======
+		reliability = 1.45
+		maximum_speed = 6.44
+		recon = 40
+
+		#Defensive Abilities
+		defense = 49.85
+		breakthrough = 0.47
+		#Offensive Abilities
+		soft_attack = 2.94
+		hard_attack = 2.64
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.5
+>>>>>>> main
 
 		resources = {
 			microchips = 1
@@ -620,6 +719,7 @@ equipments = {
 		visual_level = 5
 
 		#Misc Abilities
+<<<<<<< HEAD
 		reliability = 0.9
 		maximum_speed = 4
 
@@ -638,6 +738,22 @@ equipments = {
 		lend_lease_cost = 1
 
 		build_cost_ic = 0.31
+=======
+		reliability = 1.59
+		maximum_speed = 7.09
+		recon = 45
+
+		#Defensive Abilities
+		defense = 57.23
+		breakthrough = 0.54
+		#Offensive Abilities
+		soft_attack = 3.36
+		hard_attack = 2.96
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.55
+>>>>>>> main
 
 		resources = {
 			microchips = 1
@@ -653,6 +769,7 @@ equipments = {
 		visual_level = 5
 
 		#Misc Abilities
+<<<<<<< HEAD
 		reliability = 0.9
 		maximum_speed = 4
 
@@ -671,6 +788,22 @@ equipments = {
 		lend_lease_cost = 1
 
 		build_cost_ic = 0.31
+=======
+		reliability = 1.75
+		maximum_speed = 7.79
+		recon = 50
+
+		#Defensive Abilities
+		defense = 65.7
+		breakthrough = 0.61
+		#Offensive Abilities
+		soft_attack = 3.85
+		hard_attack = 3.32
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.6
+>>>>>>> main
 
 		resources = {
 			microchips = 1
@@ -686,6 +819,7 @@ equipments = {
 		visual_level = 5
 
 		#Misc Abilities
+<<<<<<< HEAD
 		reliability = 0.9
 		maximum_speed = 4
 
@@ -704,6 +838,22 @@ equipments = {
 		lend_lease_cost = 1
 
 		build_cost_ic = 0.31
+=======
+		reliability = 1.93
+		maximum_speed = 8.57
+		recon = 55
+
+		#Defensive Abilities
+		defense = 75.42
+		breakthrough = 0.69
+		#Offensive Abilities
+		soft_attack = 4.4
+		hard_attack = 3.71
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.66
+>>>>>>> main
 
 		resources = {
 			microchips = 1

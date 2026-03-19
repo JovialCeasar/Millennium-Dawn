@@ -14,7 +14,7 @@ division_template = {
 		L_Inf_Bat = { x = 0 y = 0 }
 		L_Inf_Bat = { x = 0 y = 1 }
 		L_Inf_Bat = { x = 0 y = 2 }
-		L_Inf_Bat = { x = 0 y = 3 }
+		L_Inf_Bat = { x = 1 y = 0 }
 	}
 	support = {
 		Arty_Battery = { x = 0 y = 0 }
@@ -203,7 +203,7 @@ instant_effect = {
 		variant_name = "Mil Mi-8"
 	}
 	add_equipment_to_stockpile = {
-		type = transport_helicopter1
+		type = transport_helicopter_1
 		variant_name = "AS350B Ecureuil"
 		producer = FRA
 		amount = 1

@@ -953,7 +953,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus COM_expand_available_helicopters executed"
 			add_equipment_to_stockpile = {
-				type = transport_helicopter1
+				type = transport_helicopter_1
 				amount = 5
 				producer = SWI
 			}
@@ -3233,6 +3233,9 @@ focus_tree = {
 			newline = yes
 			custom_effect_tooltip = TT_IF_THEY_REJECT
 			effect_tooltip = {
+
+				set_temp_variable = { wargoal_on = FRA }
+				add_threat_from_wargoal_effect = yes
 				create_wargoal = {
 					target = FRA
 					type = take_core_state
@@ -4074,13 +4077,13 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus COM_ministry_of_economy executed"
 			add_stability = 0.05
 			add_tech_bonus = {
-				name = COM_ministry_of_economy
+				name = CAT_3d
 				bonus = 0.15
 				uses = 1
 				category = CAT_3d
 			}
 			add_tech_bonus = {
-				name = COM_ministry_of_economy
+				name = CAT_nfibers
 				bonus = 0.15
 				uses = 1
 				category = CAT_nfibers

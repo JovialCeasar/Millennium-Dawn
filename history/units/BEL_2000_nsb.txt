@@ -7,8 +7,8 @@
 		Arm_Inf_Bat = { x = 0 y = 0 }
 		Mech_Inf_Bat = { x = 0 y = 1 }
 		Mech_Inf_Bat = { x = 0 y = 2 }
-		armor_Bat = { x = 0 y = 3 }
-		L_arm_Bat = { x = 0 y = 4 }
+		armor_Bat = { x = 2 y = 0 }
+		L_arm_Bat = { x = 2 y = 1 }
 
 		SP_Arty_Bat = { x = 1 y = 0 }
 		SP_Arty_Bat = { x = 1 y = 1 }
@@ -130,7 +130,7 @@ units = {
 		force_equipment_variants = { Heavy_Anti_tank_1 = { amount = 2 owner = BEL creator = FRA } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 80 owner = BEL creator = HOL } }
 		force_equipment_variants = { artillery_0 = { amount = 18 owner = BEL creator = USA } }
-		force_equipment_variants = { transport_helicopter1 = { amount = 46 owner = BEL creator = ITA } }
+		force_equipment_variants = { transport_helicopter_1 = { amount = 46 owner = BEL creator = ITA } }
 		force_equipment_variants = { medium_tank_amphibious_chassis_1 = { amount = 20 owner = BEL creator = AUS version_name = "Pandur" } } #Spartans taken from stocks
 	}
 }
