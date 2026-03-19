@@ -151,19 +151,19 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = command_control_equipment
+		type = cnc_equipment_1
 		amount = 1000
 		producer = USA
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons			#FN FAL
+		type = infantry_weapons_1			#FN FAL
 		amount = 5100
 		producer = BEL
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons			#HK 33
+		type = infantry_weapons_1			#HK 33
 		amount = 3100
 		producer = GER
 	}
@@ -183,7 +183,7 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2		#Humvee
+		type = util_vehicle_3		#Humvee
 		amount = 700
 		producer = USA
 	}
@@ -210,7 +210,7 @@ instant_effect = {
 		producer = BRA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2 #EE-3 Jararaca
+		type = util_vehicle_3 #EE-3 Jararaca
 		amount = 10
 		producer = BRA
 	}

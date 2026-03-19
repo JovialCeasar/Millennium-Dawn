@@ -11919,7 +11919,7 @@ focus_tree = {
 			effect_tooltip = {
 				ISR = {
 					add_equipment_to_stockpile = {
-						type = infantry_weapons3
+						type = infantry_weapons_4
 						amount = 6000
 						producer = ROOT
 					}
@@ -14655,7 +14655,7 @@ focus_tree = {
 			custom_effect_tooltip = TT_IF_THEY_ACCEPT
 			effect_tooltip = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons4
+					type = infantry_weapons_5
 					amount = -6000
 					producer = ROOT
 				}
@@ -15505,7 +15505,7 @@ focus_tree = {
 			custom_effect_tooltip = TT_IF_THEY_ACCEPT
 			effect_tooltip = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons4
+					type = infantry_weapons_5
 					amount = -6000
 					producer = ROOT
 				}
@@ -15975,7 +15975,7 @@ focus_tree = {
 			custom_effect_tooltip = TT_IF_THEY_ACCEPT
 			effect_tooltip = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons4
+					type = infantry_weapons_5
 					amount = -6000
 					producer = ROOT
 				}
@@ -16959,7 +16959,7 @@ focus_tree = {
 				}
 			}
 			has_equipment = {
-				infantry_weapons4 > 5999
+				infantry_weapons_5 > 5999
 			}
 		}
 		completion_reward = {
@@ -16990,7 +16990,7 @@ focus_tree = {
 					}
 				}
 				add_equipment_to_stockpile = {
-					type = infantry_weapons4
+					type = infantry_weapons_5
 					amount = -6000
 					producer = ISR
 				}
@@ -17141,7 +17141,7 @@ focus_tree = {
 				has_war_with = AZE
 			}
 			has_equipment = {
-				infantry_weapons4 > 5999
+				infantry_weapons_5 > 5999
 			}
 		}
 		completion_reward = {
@@ -17152,7 +17152,7 @@ focus_tree = {
 			custom_effect_tooltip = TT_IF_THEY_ACCEPT
 			effect_tooltip = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons4
+					type = infantry_weapons_5
 					amount = -6000
 					producer = ROOT
 				}
@@ -18352,7 +18352,7 @@ focus_tree = {
 				}
 			}
 			has_equipment = {
-				infantry_weapons4 > 5999
+				infantry_weapons_5 > 5999
 			}
 		}
 		completion_reward = {
@@ -18388,7 +18388,7 @@ focus_tree = {
 						}
 					}
 					add_equipment_to_stockpile = {
-						type = infantry_weapons4
+						type = infantry_weapons_5
 						amount = -6000
 						producer = ISR
 					}
@@ -18416,7 +18416,7 @@ focus_tree = {
 				}
 				add_political_power = -100
 				add_equipment_to_stockpile = {
-					type = infantry_weapons1
+					type = infantry_weapons_2
 					amount = -1000
 					producer = ISR
 				}
@@ -19185,7 +19185,7 @@ focus_tree = {
 					give_military_access = ISR
 				}
 				add_equipment_to_stockpile = {
-					type = infantry_weapons4
+					type = infantry_weapons_5
 					amount = -6000
 					producer = ISR
 				}
@@ -20864,7 +20864,7 @@ focus_tree = {
 				}
 			}
 			has_equipment = {
-				command_control_equipment3 > 249
+				cnc_equipment_4 > 249
 			}
 		}
 		completion_reward = {
@@ -20893,7 +20893,7 @@ focus_tree = {
 						}
 					}
 					add_equipment_to_stockpile = {
-						type = command_control_equipment3
+						type = cnc_equipment_4
 						amount = -250
 					}
 				}
@@ -21891,7 +21891,7 @@ focus_tree = {
 					target = USA
 				}
 				add_equipment_to_stockpile = {
-					type = infantry_weapons3
+					type = infantry_weapons_4
 					amount = 6000
 					producer = USA
 				}
@@ -22586,7 +22586,7 @@ focus_tree = {
 				}
 			}
 			has_equipment = {
-				command_control_equipment3 > 249
+				cnc_equipment_4 > 249
 			}
 		}
 		completion_reward = {
@@ -22617,7 +22617,7 @@ focus_tree = {
 						}
 					}
 					add_equipment_to_stockpile = {
-						type = command_control_equipment3
+						type = cnc_equipment_4
 						amount = -250
 					}
 				}
@@ -25750,7 +25750,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus ISR_arm_their_security_services executed"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons2
+				type = infantry_weapons_3
 				amount = -1000
 				producer = ISR
 			}

@@ -1627,8 +1627,8 @@
 	}
 
 	set_technology = {
-		microchip_production_two = 1
-		microchip_production_three = 1
+		microchip_production_2 = 1
+		microchip_production_3 = 1
 
 		nuclear_technology = 1
 		reactor1 = 1
@@ -1640,23 +1640,23 @@
 
 		combined_arms = 1
 
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		infantry_weapons3 = 1
+		infantry_weapons_1 = 1
+		infantry_weapons_2 = 1
+		infantry_weapons_3 = 1
+		infantry_weapons_4 = 1
 		support_weapons = 1
 		support_weapons2 = 1
 		tandem_charge_warheads = 1
 		squad_automatic_weapon = 1
-		special_forces = 1
-		special_forces2 = 1
-		command_control_equipment = 1
-		command_control_equipment1 = 1
-		command_control_equipment2 = 1
-		command_control_equipment3 = 1
+		special_forces_tech_1 = 1
+		special_forces_tech_2 = 1
+		cnc_equipment_1 = 1
+		cnc_equipment_2 = 1
+		cnc_equipment_3 = 1
+		cnc_equipment_4 = 1
 
-		land_Drone_equipment = 1
-		land_Drone_equipment1 = 1
+		land_drone_equipment_type = 1
+		land_drone_equipment_1 = 1
 
 		Anti_tank_0 = 1
 		Anti_tank_1 = 1
@@ -1667,18 +1667,18 @@
 
 		combat_eng_equipment = 1
 
-		util_vehicle_0 = 1
 		util_vehicle_1 = 1
 		util_vehicle_2 = 1
 		util_vehicle_3 = 1
 		util_vehicle_4 = 1
+		util_vehicle_5 = 1
 		night_vision_1 = 1
 		night_vision_2 = 1
 		night_vision_3 = 1
 
-		body_armor_1980 = 1
-		camouflage = 1
-		camouflage2 = 1
+		body_armor_1 = 1
+		camouflage_1 = 1
+		camouflage_2 = 1
 
 		basic_computing = 1
 		integrated_circuit = 1
@@ -1802,7 +1802,7 @@
 	#############################################
 	create_equipment_variant = {
 		name = "MPi-KM"
-		type = infantry_weapons
+		type = infantry_weapons_1
 		icon = "gfx/interface/technologies/GER/INF/MPIKM.dds"
 		upgrades = {
 			Inf_eq_heavy_weapons = 2
@@ -1810,31 +1810,31 @@
 	}
 	create_equipment_variant = {
 		name = "MPi-AK-74N"
-		type = infantry_weapons1
+		type = infantry_weapons_2
 		icon = "gfx/interface/technologies/SOV/INF/INF2.dds"
 	}
 	create_equipment_variant = {
 		name = "IFA W 50"
-		type = util_vehicle_0
+		type = util_vehicle_1
 		icon = "gfx/interface/technologies/GER/LAND/IFA_W50.dds"
 		mark_older_equipment_obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Mercedes-Benz Unimog"
-		type = util_vehicle_0
+		type = util_vehicle_1
 		icon = "gfx/interface/technologies/GER/LAND/Unimog.dds"
 		mark_older_equipment_obsolete = yes
 		design_team = mio:GER_Mercedes
 	}
 	create_equipment_variant = {
 		name = "Magirus-Deutz Jupiter"
-		type = util_vehicle_0
+		type = util_vehicle_1
 		icon = "gfx/interface/technologies/GER/LAND/U1.dds"
 		mark_older_equipment_obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "G3A2"
-		type = infantry_weapons
+		type = infantry_weapons_1
 		icon = "gfx/interface/technologies/GER/INF/INF1.dds"
 		upgrades = {
 			Inf_eq_heavy_weapons = 2
@@ -1844,13 +1844,13 @@
 	}
 	create_equipment_variant = {
 		name = "G3A3"
-		type = infantry_weapons1
+		type = infantry_weapons_2
 		mark_older_equipment_obsolete = yes
 		design_team = mio:GER_heckler_koch_materiel_manufacturer
 	}
 	create_equipment_variant = {
 		name = "G3A3A1"
-		type = infantry_weapons1
+		type = infantry_weapons_2
 		icon = "gfx/interface/technologies/GER/INF/G3A3A1.dds"
 		upgrades = {
 			Inf_eq_heavy_weapons = 1
@@ -1860,14 +1860,14 @@
 	}
 	create_equipment_variant = {
 		name = "G3A4"
-		type = infantry_weapons2
+		type = infantry_weapons_3
 		icon = "gfx/interface/technologies/GER/INF/G3A4.dds"
 		mark_older_equipment_obsolete = yes
 		design_team = mio:GER_heckler_koch_materiel_manufacturer
 	}
 	create_equipment_variant = {
 		name = "G3KA4"
-		type = infantry_weapons2
+		type = infantry_weapons_3
 		icon = "gfx/interface/technologies/GER/INF/G3KA4.dds"
 		upgrades = {
 			Inf_eq_heavy_weapons = 1
@@ -1877,7 +1877,7 @@
 	}
 	create_equipment_variant = {
 		name = "G36"
-		type = infantry_weapons3
+		type = infantry_weapons_4
 		upgrades = {
 			Inf_eq_gadjets = 1
 			Inf_eq_heavy_weapons = 1
@@ -1887,7 +1887,7 @@
 	}
 	create_equipment_variant = {
 		name = "Dingo 1"
-		type = util_vehicle_4
+		type = util_vehicle_5
 		upgrades = {
 			Util_infantry_help_upgrade = 1
 		}
@@ -1896,7 +1896,7 @@
 	}
 	create_equipment_variant = {
 		name = "Mercedes-Benz G-Class G270 Wolf SSA"
-		type = util_vehicle_3
+		type = util_vehicle_4
 		upgrades = {
 			Util_infantry_help_upgrade = 1
 		}
@@ -2003,7 +2003,7 @@
 	}
 	create_equipment_variant = {
 		name = "HF/UHF/VHF-Funk"
-		type = command_control_equipment1
+		type = cnc_equipment_2
 		upgrades = {
 			Cnc_eq_better_ergonomics = 1
 			cnc_eq_cutting_corners = 1
@@ -2013,7 +2013,7 @@
 	}
 	create_equipment_variant = {
 		name = "ADLER"
-		type = command_control_equipment2
+		type = cnc_equipment_3
 		upgrades = {
 			Cnc_eq_better_ergonomics = 1
 			Cnc_eq_better_radios = 1
@@ -2023,7 +2023,7 @@
 	}
 	create_equipment_variant = {
 		name = "ADLER II"
-		type = command_control_equipment3
+		type = cnc_equipment_4
 		upgrades = {
 			Cnc_eq_better_radios = 1
 		}
@@ -2035,7 +2035,7 @@
 	create_production_license = {
 		target = SPR
 		equipment = {
-			type = infantry_weapons3
+			type = infantry_weapons_4
 			version_name = "G36"
 		}
 		cost_factor = 1

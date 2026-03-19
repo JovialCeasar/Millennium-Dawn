@@ -3695,17 +3695,17 @@
 		}
 		create_equipment_variant = {
 			name = "PPSH"
-			type = infantry_weapons
+			type = infantry_weapons_1
 			icon = "gfx/interface/technologies/SOV/INF/PPSH.dds"
 		}
 		create_equipment_variant = {
 			name = "Mosin"
-			type = infantry_weapons
+			type = infantry_weapons_1
 			icon = "gfx/interface/technologies/SOV/INF/mosin.dds"
 		}
 		create_equipment_variant = {
 			name = "SKS"
-			type = infantry_weapons
+			type = infantry_weapons_1
 			upgrades = {
 				Inf_eq_heavy_weapons = 1
 			}
@@ -3713,7 +3713,7 @@
 		}
 		create_equipment_variant = {
 			name = "AKM"
-			type = infantry_weapons
+			type = infantry_weapons_1
 			upgrades = {
 				Inf_eq_heavy_weapons = 2
 				Inf_eq_mortars = 1
@@ -3722,7 +3722,7 @@
 		}
 		#create_equipment_variant = {
 			#name = "AS VAL" #commented out for now because it replaced AK-74M
-			#type = infantry_weapons3
+			#type = infantry_weapons_4
 			#upgrades = {
 			#	Inf_eq_gadjets = 4
 			#	Inf_eq_heavy_weapons = 2
@@ -3732,7 +3732,7 @@
 		#}
 		#create_equipment_variant = {
 			#name = "AN-94" #commented out for now because it replaced AK-74M
-			#type = infantry_weapons3
+			#type = infantry_weapons_4
 			#upgrades = {
 			#	Inf_eq_gadjets = 2
 			#	Inf_eq_heavy_weapons = 2
@@ -3742,7 +3742,7 @@
 		#}
 		create_equipment_variant = {
 			name = "AK-74M"
-			type = infantry_weapons3
+			type = infantry_weapons_4
 			upgrades = {
 				Inf_eq_mortars = 1
 			}
@@ -3750,13 +3750,13 @@
 		}
 		create_equipment_variant = {
 			name = "UAZ-452"
-			type = util_vehicle_0
+			type = util_vehicle_1
 			mark_older_equipment_obsolete = yes
 			icon = "gfx/interface/technologies/SOV/LAND/U1_alt1.dds"
 		}
 		create_equipment_variant = {
 			name = "GAZ-66"
-			type = util_vehicle_0
+			type = util_vehicle_1
 			upgrades = {
 				Util_Mobility = 1
 			}
@@ -3765,7 +3765,7 @@
 		}
 		create_equipment_variant = {
 			name = "ZIL-131"
-			type = util_vehicle_0
+			type = util_vehicle_1
 			upgrades = {
 				Util_Mobility = 1
 			}
@@ -3774,7 +3774,7 @@
 		}
 		create_equipment_variant = {
 			name = "Ural-375D"
-			type = util_vehicle_0
+			type = util_vehicle_1
 			upgrades = {
 				Util_Mobility = 2
 			}
@@ -3783,13 +3783,13 @@
 		}
 		create_equipment_variant = {
 			name = "UAZ-469"
-			type = util_vehicle_1
+			type = util_vehicle_2
 			mark_older_equipment_obsolete = yes
 			icon = "gfx/interface/technologies/SOV/LAND/U2_alt1.dds"
 		}
 		create_equipment_variant = {
 			name = "Ural-4320"
-			type = util_vehicle_1
+			type = util_vehicle_2
 			upgrades = {
 				Util_Mobility = 1
 			}
@@ -5096,19 +5096,19 @@
 
 		armoured_mass_assault = 1
 
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		infantry_weapons3 = 1
+		infantry_weapons_1 = 1
+		infantry_weapons_2 = 1
+		infantry_weapons_3 = 1
+		infantry_weapons_4 = 1
 		support_weapons = 1
 		support_weapons2 = 1
 		support_weapons3 = 1
 		tandem_charge_warheads = 1
 		squad_automatic_weapon = 1
-		special_forces = 1
-		special_forces2 = 1
-		special_forces3 = 1
-		special_forces4 = 1
+		special_forces_tech_1 = 1
+		special_forces_tech_2 = 1
+		special_forces_tech_3 = 1
+		special_forces_tech_4 = 1
 
 		#2005
 
@@ -5117,15 +5117,15 @@
 		night_vision_1 = 1
 		night_vision_2 = 1
 
-		command_control_equipment = 1
-		command_control_equipment1 = 1
+		cnc_equipment_1 = 1
+		cnc_equipment_2 = 1
 
-		land_Drone_equipment = 1
+		land_drone_equipment_type = 1
 
-		util_vehicle_0 = 1
 		util_vehicle_1 = 1
 		util_vehicle_2 = 1
 		util_vehicle_3 = 1
+		util_vehicle_4 = 1
 
 		Anti_tank_0 = 1
 		Heavy_Anti_tank_0 = 1
@@ -5141,9 +5141,9 @@
 
 
 
-		body_armor_1980 = 1
-		camouflage = 1
-		camouflage2 = 1
+		body_armor_1 = 1
+		camouflage_1 = 1
+		camouflage_2 = 1
 
 		basic_computing = 1
 		integrated_circuit = 1

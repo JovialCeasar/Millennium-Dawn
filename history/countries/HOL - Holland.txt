@@ -286,7 +286,7 @@
 			#name_group = HOL_DD_HISTORICAL
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power_1
+				fixed_ship_engine_slot = module_light_surface_diesel_power
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot_2 = module_anti_submarine_mortar
@@ -305,7 +305,7 @@
 			#name_group = HOL_DD_HISTORICAL
 			parent_version = 0
 			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_engine_slot = module_light_surface_diesel_power_1
 				fixed_ship_fire_control_system_slot = module_analog_fire_control
 				fixed_ship_radar_slot = module_radar_3
 				fixed_ship_auxillary_slot_2 = module_anti_submarine_mortar
@@ -529,8 +529,8 @@
 	complete_special_project = sp:sp_microchip_production
 
 	set_technology = {
-		microchip_production_two = 1
-		microchip_production_three = 1
+		microchip_production_2 = 1
+		microchip_production_3 = 1
 
 		integrated_transportation_system = 1
 		post_conventional_rail = 1
@@ -539,14 +539,14 @@
 
 		combined_arms = 1
 
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		infantry_weapons3 = 1
+		infantry_weapons_1 = 1
+		infantry_weapons_2 = 1
+		infantry_weapons_3 = 1
+		infantry_weapons_4 = 1
 
-		command_control_equipment = 1
-		command_control_equipment1 = 1
-		command_control_equipment2 = 1
+		cnc_equipment_1 = 1
+		cnc_equipment_2 = 1
+		cnc_equipment_3 = 1
 
 		Anti_tank_0 = 1
 
@@ -555,16 +555,16 @@
 		combat_eng_equipment = 1
 
 		#DAF YA 4440
-		util_vehicle_0 = 1
 		util_vehicle_1 = 1
 		util_vehicle_2 = 1
 		util_vehicle_3 = 1
+		util_vehicle_4 = 1
 
 		night_vision_1 = 1
 		night_vision_2 = 1
 		night_vision_3 = 1
 		support_weapons = 1
-		special_forces = 1
+		special_forces_tech_1 = 1
 
 
 
@@ -573,8 +573,8 @@
 		transport_helicopter2 = 1
 		nsb_transport_helicopter2 = 1
 
-		body_armor_1980 = 1
-		camouflage = 1
+		body_armor_1 = 1
+		camouflage_1 = 1
 
 		basic_computing = 1
 		integrated_circuit = 1

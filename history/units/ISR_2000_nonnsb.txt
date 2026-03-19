@@ -220,32 +220,32 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = command_control_equipment3
+		type = cnc_equipment_4
 		amount = 3900
 		producer = ISR
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons4			#TAR-21
+		type = infantry_weapons_5			#TAR-21
 		amount = 5000
 		producer = ISR
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1			#IMI Galil
+		type = infantry_weapons_2			#IMI Galil
 		amount = 10000
 		producer = ISR
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1			#M16
+		type = infantry_weapons_2			#M16
 		amount = 10000
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons3			#CAR-15
+		type = infantry_weapons_4			#CAR-15
 		amount = 7000
 		producer = ISR
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons4			#M4
+		type = infantry_weapons_5			#M4
 		amount = 5000
 		producer = USA
 	}
@@ -275,7 +275,7 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3 #M-242 Storm II
+		type = util_vehicle_4 #M-242 Storm II
 		amount = 1700
 		producer = USA
 	}
@@ -331,7 +331,7 @@ instant_effect = {
 		amount = 600
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1 #RBY MK 1
+		type = util_vehicle_2 #RBY MK 1
 		amount = 400
 	}
 	add_equipment_to_stockpile = {

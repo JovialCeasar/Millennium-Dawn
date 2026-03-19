@@ -287,21 +287,21 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2
+		type = infantry_weapons_3
 		amount = 15000
 		producer = SPR
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2
+		type = infantry_weapons_3
 		amount = 1000
 		producer = SPR
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1
+		type = util_vehicle_2
 		amount = 500
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment2
+		type = cnc_equipment_3
 		amount = 1800
 	}
 	add_equipment_to_stockpile = {
@@ -337,7 +337,7 @@ instant_effect = {
 		producer = GER
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_2
+		type = util_vehicle_3
 		amount = 80 #added for balance
 		producer = FRA
 	}

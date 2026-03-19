@@ -6621,12 +6621,12 @@ focus_tree = {
 			log = "[GetDateText]: [This.GetName]: focus CES_black_market executed"
 			ROOT = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_1
 					amount = 6650
 					producer = SOV
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment
+					type = cnc_equipment_1
 					amount = 1450
 					producer = USA
 				}
@@ -9287,7 +9287,7 @@ focus_tree = {
 				name = CES_army_modernization
 				uses = 1
 				bonus = 1
-				technology = camouflage2
+				technology = camouflage_2
 			}
 		}
 
@@ -9398,7 +9398,7 @@ focus_tree = {
 				days = 365
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 15000
 				producer = SOV
 			}
@@ -9433,7 +9433,7 @@ focus_tree = {
 				days = 365
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 15000
 				producer = CHI
 			}
@@ -9468,7 +9468,7 @@ focus_tree = {
 				days = 365
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 15000
 				producer = USA
 			}
@@ -9498,7 +9498,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus CES_us_equip executed"
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2
+				type = cnc_equipment_3
 				amount = 100
 				producer = USA
 			}
@@ -9534,7 +9534,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus CES_rus_equip executed"
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2
+				type = cnc_equipment_3
 				amount = 100
 				producer = SOV
 			}
@@ -9572,7 +9572,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus CES_chinese_equip executed"
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2
+				type = cnc_equipment_3
 				amount = 100
 				producer = CHI
 			}
@@ -10250,7 +10250,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus CES_rus_bars executed"
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = 100
 				producer = SOV
 			}

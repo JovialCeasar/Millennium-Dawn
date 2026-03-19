@@ -336,28 +336,35 @@ script_enum_equipment_bonus_type = {
 
 	# MD
 	## Land
-	Inf_equipment
-	infantry_weapons
-	infantry_weapons1
-	infantry_weapons2
-	infantry_weapons3
-	infantry_weapons4
-	infantry_weapons5
-	infantry_weapons6
-	infantry_weapons7
-	land_drone_equipment
+	infantry_weapons_type
+	infantry_weapons_1
+	infantry_weapons_2
+	infantry_weapons_3
+	infantry_weapons_4
+	infantry_weapons_5
+	infantry_weapons_6
+	infantry_weapons_7
+	infantry_weapons_8
+	infantry_weapons_9
+	infantry_weapons_10
+	infantry_weapons_11
+	infantry_weapons_12
+	land_drone_equipment_type
 	land_drone_equipment_1
 	land_drone_equipment_2
 	land_drone_equipment_3
 	land_drone_equipment_4
 	land_drone_equipment_5
+	land_drone_equipment_6
+	land_drone_equipment_7
+	land_drone_equipment_8
+	land_drone_equipment_9
 	H_AT_Equipment
 	Heavy_Anti_tank_0
 	Heavy_Anti_tank_1
 	Heavy_Anti_tank_2
 	Heavy_Anti_tank_3
 	Heavy_Anti_tank_4
-	cnc_equipment
 	medium_tank_aa_chassis
 	medium_tank_aa_chassis_0
 	medium_tank_aa_chassis_1
@@ -390,13 +397,18 @@ script_enum_equipment_bonus_type = {
 	walker_tank_chassis_2
 	walker_tank_chassis_3
 	walker_tank_chassis_4
-	command_control_equipment
-	command_control_equipment1
-	command_control_equipment2
-	command_control_equipment3
-	command_control_equipment4
-	command_control_equipment5
-	command_control_equipment6
+	cnc_equipment_type
+	cnc_equipment_1
+	cnc_equipment_2
+	cnc_equipment_3
+	cnc_equipment_4
+	cnc_equipment_5
+	cnc_equipment_6
+	cnc_equipment_7
+	cnc_equipment_8
+	cnc_equipment_9
+	cnc_equipment_10
+	cnc_equipment_11
 	SP_AA_Equipment
 	SP_Anti_Air_0
 	SP_Anti_Air_1
@@ -478,8 +490,7 @@ script_enum_equipment_bonus_type = {
 	IFV_6
 	IFV_7
 	IFV_8
-	util_vehicle_equipment
-	util_vehicle_0
+	util_vehicle_type
 	util_vehicle_1
 	util_vehicle_2
 	util_vehicle_3
@@ -487,6 +498,11 @@ script_enum_equipment_bonus_type = {
 	util_vehicle_5
 	util_vehicle_6
 	util_vehicle_7
+	util_vehicle_8
+	util_vehicle_9
+	util_vehicle_10
+	util_vehicle_11
+	util_vehicle_12
 	utility_vehicle_super_bus_1
 	L_AT_Equipment
 	Anti_tank_0

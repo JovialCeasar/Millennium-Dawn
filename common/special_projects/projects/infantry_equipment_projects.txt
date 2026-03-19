@@ -1,6 +1,7 @@
 # Author(s): Kalkalash, TheGeneral
 #Special projects related to infantry equipment tech tab
 sp_caseless_ammunition = {
+	allowed = { always = yes }
 	specialization = specialization_land
 
 	project_tags = sp_tag_infantry_equipment
@@ -11,7 +12,7 @@ sp_caseless_ammunition = {
 
 	available = {
 		FROM = {
-			has_tech = infantry_weapons4
+			has_tech = infantry_weapons_5
 		}
 	}
 
@@ -25,7 +26,7 @@ sp_caseless_ammunition = {
 
 	project_output = {
 		equipment_bonus = {
-			Inf_equipment = {
+			infantry_weapons_type = {
 				build_cost_ic = -0.10
 				reliability = -0.04
 				instant = yes
@@ -71,7 +72,7 @@ sp_caseless_ammunition = {
 
 				iteration_output = {
 					equipment_bonus = {
-						Inf_equipment = {
+						infantry_weapons_type = {
 							reliability = 0.025
 						}
 					}
@@ -88,6 +89,7 @@ sp_caseless_ammunition = {
 
 }
 sp_smart_bullets = {
+	allowed = { always = yes }
 	specialization = specialization_land
 	icon = GFX_sp_smart_bullets
 
@@ -119,7 +121,7 @@ sp_smart_bullets = {
 
 	project_output = {
 		equipment_bonus = {
-			Inf_equipment = {
+			infantry_weapons_type = {
 				soft_attack = 0.15
 				build_cost_ic = 0.05
 				instant = yes
@@ -165,7 +167,7 @@ sp_smart_bullets = {
 
 				iteration_output = {
 					equipment_bonus = {
-						Inf_equipment = {
+						infantry_weapons_type = {
 							reliability = 0.025
 						}
 					}
@@ -182,6 +184,7 @@ sp_smart_bullets = {
 
 }
 sp_recon_land_drone = {
+	allowed = { always = yes }
 	specialization = specialization_land
 	icon = GFX_sp_land_recondrone
 
@@ -193,7 +196,7 @@ sp_recon_land_drone = {
 
 	available = {
 		FROM = {
-			has_tech = land_Drone_equipment3
+			has_tech = land_drone_equipment_3
 		}
 	}
 
@@ -238,6 +241,7 @@ sp_recon_land_drone = {
 	}
 }
 sp_fire_support_land_drone = {
+	allowed = { always = yes }
 	specialization = specialization_land
 	icon = GFX_sp_fire_support_land_drone
 
@@ -249,7 +253,7 @@ sp_fire_support_land_drone = {
 
 	available = {
 		FROM = {
-			has_tech = land_Drone_equipment3
+			has_tech = land_drone_equipment_3
 		}
 	}
 
@@ -339,6 +343,7 @@ sp_fire_support_land_drone = {
 }
 
 sp_tactical_augmented_reality = {
+	allowed = { always = yes }
 	specialization = specialization_land
 
 	project_tags = sp_tag_infantry_equipment
@@ -349,7 +354,7 @@ sp_tactical_augmented_reality = {
 
 	available = {
 		FROM = {
-			has_tech = command_control_equipment4
+			has_tech = cnc_equipment_5
 		}
 	}
 
@@ -435,6 +440,7 @@ sp_tactical_augmented_reality = {
 }
 
 sp_double_shot_rifle = {
+	allowed = { always = yes }
 	specialization = specialization_land
 
 	project_tags = sp_tag_infantry_equipment
@@ -445,7 +451,7 @@ sp_double_shot_rifle = {
 
 	available = {
 		FROM = {
-			has_tech = special_forces4
+			has_tech = special_forces_tech_4
 		}
 	}
 
@@ -609,7 +615,7 @@ sp_double_shot_rifle = {
 
 				iteration_output = {
 					equipment_bonus = {
-						Inf_equipment = {
+						infantry_weapons_type = {
 							soft_attack = 0.02
 						}
 					}
@@ -621,7 +627,7 @@ sp_double_shot_rifle = {
 
 				iteration_output = {
 					equipment_bonus = {
-						Inf_equipment = {
+						infantry_weapons_type = {
 							defense = 0.02
 						}
 					}
@@ -633,6 +639,7 @@ sp_double_shot_rifle = {
 }
 
 sp_experimental_exoskeleton = {
+	allowed = { always = yes }
 	specialization = specialization_land
 
 	project_tags = sp_tag_infantry_equipment
@@ -643,7 +650,7 @@ sp_experimental_exoskeleton = {
 
 	available = {
 		FROM = {
-			has_tech = body_armor_2010
+			has_tech = body_armor_3
 			has_tech = advanced_industrial_robotics
 		}
 	}
@@ -732,6 +739,7 @@ sp_experimental_exoskeleton = {
 }
 
 sp_active_camouflage = {
+	allowed = { always = yes }
 	specialization = specialization_land
 
 	project_tags = sp_tag_infantry_equipment
@@ -742,7 +750,7 @@ sp_active_camouflage = {
 
 	available = {
 		FROM = {
-			has_tech = camouflage4
+			has_tech = camouflage_4
 		}
 	}
 
@@ -757,7 +765,7 @@ sp_active_camouflage = {
 	project_output = {
 		country_effects = {
 			set_technology = {
-				camouflage5 = 1
+				camouflage_5 = 1
 			}
 		}
 	}
@@ -920,6 +928,7 @@ sp_active_camouflage = {
 }
 
 sp_truck_modular_seating = {
+	allowed = { always = yes }
 	specialization = specialization_land
 
 	project_tags = sp_tag_armored_vehicles
@@ -930,7 +939,7 @@ sp_truck_modular_seating = {
 
 	available = {
 		FROM = {
-			has_tech = util_vehicle_3
+			has_tech = util_vehicle_4
 		}
 	}
 
@@ -944,7 +953,7 @@ sp_truck_modular_seating = {
 
 	project_output = {
 		equipment_bonus = {
-			util_vehicle_equipment = {
+			util_vehicle_type = {
 				build_cost_ic = 0.05
 				breakthrough = 0.10
 				instant = yes
@@ -1011,6 +1020,7 @@ sp_truck_modular_seating = {
 }
 
 sp_utility_vehicle_electric_engines = {
+	allowed = { always = yes }
 	specialization = specialization_land
 
 	project_tags = sp_tag_armored_vehicles
@@ -1021,7 +1031,7 @@ sp_utility_vehicle_electric_engines = {
 
 	available = {
 		FROM = {
-			has_tech = util_vehicle_5
+			has_tech = util_vehicle_6
 		}
 	}
 
@@ -1035,7 +1045,7 @@ sp_utility_vehicle_electric_engines = {
 
 	project_output = {
 		equipment_bonus = {
-			util_vehicle_equipment = {
+			util_vehicle_type = {
 				fuel_consumption = -0.50
 				build_cost_ic = 0.10		#Use this since resource cost can't be changed
 				instant = yes
@@ -1099,6 +1109,7 @@ sp_utility_vehicle_electric_engines = {
 }
 
 sp_coilgun_memes = {
+	allowed = { always = yes }
 	specialization = specialization_land
 	icon = GFX_sp_railgun_rifles
 	project_tags = sp_tag_infantry_equipment
@@ -1116,7 +1127,7 @@ sp_coilgun_memes = {
 
 	available = {
 		FROM = {
-			has_tech = infantry_weapons7
+			has_tech = infantry_weapons_8
 		}
 	}
 
@@ -1206,6 +1217,7 @@ sp_coilgun_memes = {
 	}
 }
 sp_airless_tires = {
+	allowed = { always = yes }
 	specialization = specialization_land
 	icon = GFX_sp_airless_tire
 
@@ -1217,7 +1229,7 @@ sp_airless_tires = {
 
 	available = {
 		FROM = {
-			has_tech = util_vehicle_5
+			has_tech = util_vehicle_6
 		}
 	}
 
@@ -1231,7 +1243,7 @@ sp_airless_tires = {
 
 	project_output = {
 		equipment_bonus = {
-			util_vehicle_equipment = {
+			util_vehicle_type = {
 				build_cost_ic = 0.10
 				reliability = 0.25
 				maximum_speed = 0.10

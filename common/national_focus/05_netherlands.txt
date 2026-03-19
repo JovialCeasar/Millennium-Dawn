@@ -6759,25 +6759,25 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_MILITARY_LAWS }
 		prerequisite = { focus = HOL_Military_Production_Investments }
-		bypass = { has_tech = camouflage5 }
+		bypass = { has_tech = camouflage_5 }
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus HOL_Netherlands_Fractal_Pattern"
 			if = {
-				limit = { has_tech = camouflage }
-				set_technology = { camouflage2 = 1 }
+				limit = { has_tech = camouflage_1 }
+				set_technology = { camouflage_2 = 1 }
 			}
 			else_if = {
-				limit = { has_tech = camouflage2 }
-				set_technology = { camouflage3 = 1 }
+				limit = { has_tech = camouflage_2 }
+				set_technology = { camouflage_3 = 1 }
 			}
 			else_if = {
-				limit = { has_tech = camouflage3 }
-				set_technology = { camouflage4 = 1 }
+				limit = { has_tech = camouflage_3 }
+				set_technology = { camouflage_4 = 1 }
 			}
 			else_if = {
-				limit = { has_tech = camouflage4 }
-				set_technology = { camouflage5 = 1 }
+				limit = { has_tech = camouflage_4 }
+				set_technology = { camouflage_5 = 1 }
 			}
 			newline = yes
 			custom_effect_tooltip = HOL_Netherlands_Fractal_Pattern_tt
@@ -6907,7 +6907,7 @@ focus_tree = {
 		mutually_exclusive = { focus = HOL_DAF_Trucks }
 		available = {
 			SWE = {
-				has_tech = util_vehicle_5
+				has_tech = util_vehicle_6
 				exists = yes
 				NOT = { has_war_with = FROM }
 				has_opinion = {
@@ -6924,11 +6924,11 @@ focus_tree = {
 				SWE = { country_event = HOL_military.112 }
 			}
 			if = {
-				limit = { SWE = { NOT = { has_tech = util_vehicle_5 } } }
+				limit = { SWE = { NOT = { has_tech = util_vehicle_6 } } }
 				custom_effect_tooltip = HOL_Scania_Trucks_tt
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_5
+				type = util_vehicle_6
 				amount = 2000
 				producer = SWE
 				variant_name = "Scania Gryphus"

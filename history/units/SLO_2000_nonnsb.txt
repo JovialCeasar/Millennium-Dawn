@@ -67,12 +67,12 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons
+		type = infantry_weapons_1
 		amount = 4250
 		producer = CZE
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment
+		type = cnc_equipment_1
 		amount = 555
 		producer = SOV
 	}
@@ -82,7 +82,7 @@ instant_effect = {
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0
+		type = util_vehicle_1
 		amount = 500
 	}
 	add_equipment_to_stockpile = {
@@ -128,7 +128,7 @@ instant_effect = {
 		producer = CZE
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_4 #RG-32 Scout
+		type = util_vehicle_5 #RG-32 Scout
 		amount = 7
 		producer = SAF
 		#version_name = "RG-32 Scout"

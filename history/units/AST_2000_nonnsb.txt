@@ -133,7 +133,7 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2 		#Austeyr
+		type = infantry_weapons_3 		#Austeyr
 		amount = 9000
 		producer = AST
 	}
@@ -153,12 +153,12 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3 #Bushmaster
+		type = util_vehicle_4 #Bushmaster
 		amount = 900
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment3
+		type = cnc_equipment_4
 		amount = 900
 		producer = USA
 	}

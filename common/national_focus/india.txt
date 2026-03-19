@@ -2069,7 +2069,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: RAJ_force_motors"
 			one_random_industrial_complex = yes
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = 1000
 				producer = RAJ
 
@@ -3632,12 +3632,12 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: RAJ_preparing_our_reserve"
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons_type
 				amount = 2000
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons_type
 				amount = 2000
 				producer = USA
 			}
@@ -4745,7 +4745,7 @@ focus_tree = {
 				name = GENERIC_uniform_improvements
 				uses = 2
 				bonus = 0.5
-				technology = body_armor_1980
+				technology = body_armor_1
 			}
 		}
 		ai_will_do = {
@@ -4767,7 +4767,7 @@ focus_tree = {
 				name = RAJ_upd_mil_unif
 				uses = 1
 				bonus = 1
-				technology = camouflage3
+				technology = camouflage_3
 			}
 		}
 		ai_will_do = {
@@ -4789,9 +4789,9 @@ focus_tree = {
 				name = GENERIC_uniform_improvements
 				uses = 2
 				bonus = 0.5
-				technology = body_armor_2010
-				technology = body_armor_2000
-				technology = camouflage3
+				technology = body_armor_3
+				technology = body_armor_2
+				technology = camouflage_3
 			}
 		}
 		ai_will_do = {
@@ -5386,7 +5386,7 @@ focus_tree = {
 			add_stability = 0.05
 			add_command_power = 10
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = -300
 				producer = RAJ
 			}
@@ -7039,7 +7039,7 @@ focus_tree = {
 				modifier = improve_trade
 			}
 			add_equipment_to_stockpile = {
-				type = Inf_equipment
+				type = infantry_weapons_type
 				amount = 2000
 				producer = SOV
 			}
@@ -7059,7 +7059,7 @@ focus_tree = {
 				}
 			}
 			add_equipment_to_stockpile = {
-				type = command_control_equipment2
+				type = cnc_equipment_3
 				amount = 100
 				producer = SOV
 			}
@@ -12820,7 +12820,7 @@ focus_tree = {
 				}
 			}
 			send_equipment = {
-				equipment = Inf_equipment
+				equipment = infantry_weapons_type
 				amount = 1000
 				target = NEP
 			}
@@ -15563,12 +15563,12 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: RAJ_get_weapons_on_the_black_market"
 			ROOT = {
 				add_equipment_to_stockpile = {
-					type = infantry_weapons
+					type = infantry_weapons_1
 					amount = 4000
 					producer = SOV
 				}
 				add_equipment_to_stockpile = {
-					type = command_control_equipment
+					type = cnc_equipment_1
 					amount = 800
 					producer = USA
 				}

@@ -1516,15 +1516,15 @@ local_resources_chromium_factor = 0.05
 					}
 				}
 				stockpile_ratio = {
-					archetype = Inf_equipment
+					archetype = infantry_weapons_type
 					ratio > 1
 				}
 				stockpile_ratio = {
-					archetype = util_vehicle_equipment
+					archetype = util_vehicle_type
 					ratio > 1
 				}
 				stockpile_ratio = {
-					archetype = cnc_equipment
+					archetype = cnc_equipment_type
 					ratio > 1
 				}
 				stockpile_ratio = {

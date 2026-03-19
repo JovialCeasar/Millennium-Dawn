@@ -192,12 +192,12 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons4
+		type = infantry_weapons_5
 		amount = 22500
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment1
+		type = cnc_equipment_2
 		amount = 1200
 		producer = USA
 	}
@@ -217,7 +217,7 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0 #M151 Jeep
+		type = util_vehicle_1 #M151 Jeep
 		amount = 680
 		producer = USA
 	}

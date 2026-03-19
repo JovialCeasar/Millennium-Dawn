@@ -4742,7 +4742,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus SMA_purchase_italian_weapons executed"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons2
+				type = infantry_weapons_3
 				amount = 1500
 				producer = ITA
 			}
@@ -4779,7 +4779,7 @@ focus_tree = {
 			if = {
 				limit = { has_dlc = "No Step Back" }
 				add_equipment_to_stockpile = {
-					type = util_vehicle_1
+					type = util_vehicle_2
 					amount = 250
 					producer = ITA
 				}
@@ -4802,7 +4802,7 @@ focus_tree = {
 			if = {
 				limit = { NOT = { has_dlc = "No Step Back" } }
 				add_equipment_to_stockpile = {
-					type = util_vehicle_1
+					type = util_vehicle_2
 					amount = 250
 					producer = ITA
 				}
@@ -4927,7 +4927,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus SMA_purchase_italian_equipment executed"
 			add_equipment_to_stockpile = {
-				type = command_control_equipment1
+				type = cnc_equipment_2
 				amount = 1500
 				producer = ITA
 			}
@@ -4963,7 +4963,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus SMA_purchase_spanish_equipment executed"
 			add_equipment_to_stockpile = {
-				type = command_control_equipment1
+				type = cnc_equipment_2
 				amount = 1500
 				producer = SPR
 			}
@@ -4996,7 +4996,7 @@ focus_tree = {
 			if = {
 				limit = { has_dlc = "No Step Back" }
 				add_equipment_to_stockpile = {
-					type = util_vehicle_1
+					type = util_vehicle_2
 					amount = 250
 					producer = SPR
 				}
@@ -5019,7 +5019,7 @@ focus_tree = {
 			if = {
 				limit = { NOT = { has_dlc = "No Step Back" } }
 				add_equipment_to_stockpile = {
-					type = util_vehicle_1
+					type = util_vehicle_2
 					amount = 250
 					producer = SPR
 				}
@@ -5075,7 +5075,7 @@ focus_tree = {
 			if = {
 				limit = { has_dlc = "No Step Back" }
 				add_equipment_to_stockpile = {
-					type = util_vehicle_1
+					type = util_vehicle_2
 					amount = 80
 					producer = SPR
 				}
@@ -5088,7 +5088,7 @@ focus_tree = {
 			if = {
 				limit = { NOT = { has_dlc = "No Step Back" } }
 				add_equipment_to_stockpile = {
-					type = util_vehicle_1
+					type = util_vehicle_2
 					amount = 80
 					producer = SPR
 				}
@@ -5134,7 +5134,7 @@ focus_tree = {
 			if = {
 				limit = { has_dlc = "No Step Back" }
 				add_equipment_to_stockpile = {
-					type = util_vehicle_1
+					type = util_vehicle_2
 					amount = 80
 					producer = SPR
 				}
@@ -5147,7 +5147,7 @@ focus_tree = {
 			if = {
 				limit = { NOT = { has_dlc = "No Step Back" } }
 				add_equipment_to_stockpile = {
-					type = util_vehicle_1
+					type = util_vehicle_2
 					amount = 80
 					producer = SPR
 				}
@@ -5189,7 +5189,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus SMA_purchase_spanish_weapons executed"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons2
+				type = infantry_weapons_3
 				amount = 1500
 				producer = SPR
 			}

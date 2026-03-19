@@ -6666,10 +6666,10 @@ focus_tree = {
 		prerequisite = { focus = SWE_Wargames_and_exercise }
 
 		available = {
-			has_equipment = { Inf_equipment > 12500 }
-			has_equipment = { util_vehicle_equipment > 1000 }
+			has_equipment = { infantry_weapons_type > 12500 }
+			has_equipment = { util_vehicle_type > 1000 }
 			has_equipment = { L_AT_Equipment > 800 }
-			has_equipment = { cnc_equipment > 800 }
+			has_equipment = { cnc_equipment_type > 800 }
 		}
 
 		search_filters = { FOCUS_FILTER_MILITARY_LAWS FOCUS_FILTER_ARMY }
@@ -6677,17 +6677,17 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_weapons_depots"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons
+				type = infantry_weapons_1
 				amount = -12500
 				producer = SWE
 			}
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = -1000
 				producer = SWE
 			}
 			add_equipment_to_stockpile = {
-				type = cnc_equipment
+				type = cnc_equipment_type
 				amount = -800
 				producer = SWE
 			}

@@ -133,22 +133,22 @@ units = {
 
 instant_effect = {
 	add_equipment_to_stockpile = {
-		type = infantry_weapons 		#Austeyr
+		type = infantry_weapons_1 		#Austeyr
 		amount = 3000
 		producer = AST
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons1 		#Austeyr
+		type = infantry_weapons_2 		#Austeyr
 		amount = 150
 		producer = AST
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2 		#Austeyr
+		type = infantry_weapons_3 		#Austeyr
 		amount = 6000
 		producer = AST
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons3 		#Austeyr
+		type = infantry_weapons_4 		#Austeyr
 		amount = 3000
 		producer = AST
 	}
@@ -168,27 +168,27 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_1
-		amount = 300
-		producer = AST
-	}
-	add_equipment_to_stockpile = {
 		type = util_vehicle_2
-		amount = 700
+		amount = 300
 		producer = AST
 	}
 	add_equipment_to_stockpile = {
 		type = util_vehicle_3
-		amount = 300
+		amount = 700
 		producer = AST
 	}
 	add_equipment_to_stockpile = {
 		type = util_vehicle_4
+		amount = 300
+		producer = AST
+	}
+	add_equipment_to_stockpile = {
+		type = util_vehicle_5
 		amount = 50
 		producer = AST
 	}
 	add_equipment_to_stockpile = {
-		type = command_control_equipment3
+		type = cnc_equipment_4
 		amount = 900
 		producer = USA
 	}

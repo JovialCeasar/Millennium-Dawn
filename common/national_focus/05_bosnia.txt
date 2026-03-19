@@ -256,15 +256,15 @@ focus_tree = {
 				name = GENERIC_uniform_improvements
 				uses = 2
 				bonus = 0.5
-				technology = body_armor_1980
-				technology = body_armor_2000
-				technology = body_armor_2010
-				technology = body_armor_2030
-				technology = camouflage
-				technology = camouflage2
-				technology = camouflage3
-				technology = camouflage4
-				technology = camouflage5
+				technology = body_armor_1
+				technology = body_armor_2
+				technology = body_armor_3
+				technology = body_armor_4
+				technology = camouflage_1
+				technology = camouflage_2
+				technology = camouflage_3
+				technology = camouflage_4
+				technology = camouflage_5
 			}
 		}
 
@@ -605,7 +605,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOS_transportation_methods"
 			add_equipment_to_stockpile = {
-				type = util_vehicle_equipment
+				type = util_vehicle_type
 				amount = 60
 				producer = BOS
 			}
@@ -958,12 +958,12 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOS_small_arms_purchase"
 			add_equipment_to_stockpile = {
-				type = infantry_weapons3
+				type = infantry_weapons_4
 				amount = 240
 				producer = GER
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_weapons1
+				type = infantry_weapons_2
 				amount = 1540
 				producer = SOV
 			}
@@ -2114,7 +2114,7 @@ focus_tree = {
 				create_production_license = {
 					target = BOS
 					equipment = {
-						type = infantry_weapons2
+						type = infantry_weapons_3
 					}
 					cost_factor = 5
 				}
@@ -4254,7 +4254,7 @@ focus_tree = {
 			USA = {
 			create_production_license = {
 				target = BOS
-				equipment = { type = infantry_weapons2 }
+				equipment = { type = infantry_weapons_3 }
 				cost_factor = 5
 				}
 				}
