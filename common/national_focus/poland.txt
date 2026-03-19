@@ -162,8 +162,10 @@ focus_tree = {
 		cost = 10
 
 		allow_branch = {
-			NOT = { has_completed_focus = POL_falanga }
-			NOT = { has_completed_focus = POL_stay_on_track }
+			NOT = {
+				has_completed_focus = POL_falanga
+				has_completed_focus = POL_stay_on_track
+			}
 		}
 
 		prerequisite = {
@@ -483,7 +485,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 			FOCUS_FILTER_INTERNAL_AFFAIRS
 			FOCUS_FILTER_MILITARY_LAWS
 		}
@@ -666,7 +668,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -1547,7 +1549,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INTERNAL_AFFAIRS
 			FOCUS_FILTER_ECONOMY
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 			FOCUS_FILTER_STABILITY
 			FOCUS_FILTER_WAR_SUPPORT
 		}
@@ -1648,7 +1650,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -1870,7 +1872,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 			FOCUS_FILTER_WAR_SUPPORT
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -1906,7 +1908,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 			FOCUS_FILTER_INTERNAL_AFFAIRS
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -1940,7 +1942,7 @@ focus_tree = {
 
 		search_filters = {
 			FOCUS_FILTER_INTERNAL_AFFAIRS
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -2412,7 +2414,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -2459,7 +2461,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -3113,7 +3115,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 			FOCUS_FILTER_FOREIGN_POLICY
 			FOCUS_FILTER_INTERNAL_AFFAIRS
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -4550,7 +4552,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 			FOCUS_FILTER_POLITICAL
 		}
 
@@ -4581,7 +4583,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 			FOCUS_FILTER_AIR_XP
 			FOCUS_FILTER_WAR_SUPPORT
 		}
@@ -4643,7 +4645,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -4701,7 +4703,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -4792,7 +4794,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -4901,7 +4903,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -4944,7 +4946,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 
@@ -4996,7 +4998,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 
@@ -5043,7 +5045,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -5090,7 +5092,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -5137,7 +5139,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -5225,7 +5227,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -5278,7 +5280,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -5321,7 +5323,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -5362,7 +5364,7 @@ focus_tree = {
 
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -5413,7 +5415,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -5448,7 +5450,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -5498,7 +5500,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -8941,8 +8943,6 @@ focus_tree = {
 			USA = {
 				add_opinion_modifier = { target = ROOT modifier = POL_polish_american_cooperation }
 				add_opinion_modifier = { target = ROOT modifier = POL_trade_polish_american_cooperation }
-			}
-			ITA = {
 				set_temp_variable = { percent_change = 3 }
 				set_temp_variable = { tag_index = THIS.id }
 				set_temp_variable = { influence_target = ROOT.id }
@@ -18801,10 +18801,6 @@ focus_tree = {
 		allow_branch = {
 			NOT = {
 				has_completed_focus = POL_red_dream
-			}
-		}
-		allow_branch = {
-			NOT = {
 				has_completed_focus = POL_stay_on_track
 			}
 		}
@@ -19215,10 +19211,6 @@ focus_tree = {
 		allow_branch = {
 			NOT = {
 				has_completed_focus = POL_red_dream
-			}
-		}
-		allow_branch = {
-			NOT = {
 				has_completed_focus = POL_stay_on_track
 			}
 		}
@@ -21597,7 +21589,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 			FOCUS_FILTER_INTERNAL_AFFAIRS
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -24772,7 +24764,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -25055,7 +25047,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -25156,7 +25148,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -25199,7 +25191,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 			FOCUS_FILTER_FOREIGN_POLICY
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {
@@ -25269,7 +25261,7 @@ focus_tree = {
 
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
-			FOCUS_FILTER_MILITARY
+			FOCUS_FILTER_MILITARY_LAWS
 		}
 
 		completion_reward = {

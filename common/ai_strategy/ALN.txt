@@ -1,0 +1,33 @@
+ALN_Cluster_Templates_Focus = {
+	allowed = { original_tag = ALN }
+	enable = { EH_scenario_enabled = yes }
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = equipment_production_min_factories_archetype id = CHIMERA_equipment value = 15 }
+	ai_strategy = { type = equipment_variant_production_factor id = CHIMERA_equipment value = 200 }
+	ai_strategy = { type = ignore_army_incompetence value = 200 }
+	ai_strategy = {
+		type = front_control
+		ratio = 0.05
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+		execute_order = yes
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 200
+	}
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = 200
+	}
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = 150
+	}
+}

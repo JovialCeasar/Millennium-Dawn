@@ -748,6 +748,17 @@ script_enum_equipment_bonus_type = {
 	# Zombie Game Mode
 	zombie
 	zombie_0
+
+	# Event Horizon Scenario
+	HACS_equipment
+	HACS_0
+	HACS_1
+	HACS_2
+	CHIMERA_equipment
+	CHIMERA_0
+	CHIMERA_1
+
+	# Event Horizon NSB
 }
 
 script_enum_operative_mission_type = {

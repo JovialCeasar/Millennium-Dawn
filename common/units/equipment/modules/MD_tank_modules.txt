@@ -6825,6 +6825,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		forbid_equipment_type_exact_match = armor
+<<<<<<< HEAD
+=======
+		allow_equipment_type = {
+			anti_tank
+		}
+>>>>>>> Project-THRESHOLD
 
 		add_stats = {
 			soft_attack = 13.5
@@ -7088,8 +7094,11 @@ equipment_modules = {
 		category = walker_tank_chassis_type_category
 		sfx = sfx_ui_sd_module_engine
 
+<<<<<<< HEAD
 		allow_equipment_type = anti_tank
 
+=======
+>>>>>>> Project-THRESHOLD
 		allowed_module_categories = {
 			walker_armament_slot_1 = { walker_light_armament_category }
 			walker_engine_slot = { walker_engine_category }
@@ -7130,8 +7139,11 @@ equipment_modules = {
 		category = walker_tank_chassis_type_category
 		sfx = sfx_ui_sd_module_engine
 
+<<<<<<< HEAD
 		allow_equipment_type = artillery
 
+=======
+>>>>>>> Project-THRESHOLD
 		multiply_stats = {
 			build_cost_ic = 0.15
 			maximum_speed = -0.25
@@ -7262,7 +7274,11 @@ equipment_modules = {
 		xp_cost = 3
 	}
 
+<<<<<<< HEAD
 	#Event Horzion
+=======
+	#Event Horizon
+>>>>>>> Project-THRESHOLD
 	event_horizon_walker_tank_module_amws_combat_system = {
 		abbreviation = "ehamws1"
 		category = eh_walker_armament_category
@@ -7271,7 +7287,10 @@ equipment_modules = {
 		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
+<<<<<<< HEAD
 			build_cost_ic = 21
+=======
+>>>>>>> Project-THRESHOLD
 			maximum_speed = -1.25
 			reliability = -0.15
 			breakthrough = 2.25
@@ -7280,10 +7299,13 @@ equipment_modules = {
 			ap_attack = 70
 		}
 
+<<<<<<< HEAD
 		build_cost_resources = {
 			steel = 2
 		}
 
+=======
+>>>>>>> Project-THRESHOLD
 		xp_cost = 3
 	}
 	event_horizon_walker_tank_module_amws_24 = {

@@ -2323,3 +2323,14 @@ defined_text = {
 		localization_key = COM_zanzibar_agreement_tt
 	}
 }
+
+# Event Horizon
+defined_text = {
+    name = EH_additional_expense_intensive_research_effort
+    text = {
+        trigger = { has_idea = EH_intensive_research_effort_idea }
+        localization_key = EH_additional_expense_intensive_research_effort_TT
+    }
+
+    text = { localization_key = "" }
+}
