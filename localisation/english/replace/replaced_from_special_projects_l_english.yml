@@ -385,7 +385,11 @@
  sp_amws_combat_system: "AMWS-21 Combat System"
  sp_zamws_advanced_mws: "XAMWS-24 Advanced Multiple Weapon System"
 <<<<<<< HEAD
+<<<<<<< HEAD
  sp_xciws_close_in_weapon_system: "XAMWS-24 Advanced Multiple Weapon System"
+=======
+ sp_xciws_close_in_weapon_system: "XCIWS-2B Close In Weapon System"
+>>>>>>> main
 =======
  sp_xciws_close_in_weapon_system: "XCIWS-2B Close In Weapon System"
 >>>>>>> main

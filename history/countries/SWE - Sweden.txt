@@ -777,6 +777,7 @@ capital = 34
 			name = "Personlastterrängbil 903"
 			type = util_vehicle_1
 <<<<<<< HEAD
+<<<<<<< HEAD
 			upgrades = {
 				Util_Mobility = 1
 			}
@@ -799,11 +800,26 @@ capital = 34
 		create_equipment_variant = {
 			name = "Terrängbil 11/13"
 			type = util_vehicle_2
+=======
+>>>>>>> main
+			upgrades = {
+				Util_Mobility = 1
+			}
+			obsolete = yes
+			icon = "gfx/interface/technologies/SWE/LAND/Terrangbil-903.dds"
+			design_team = mio:SWE_Volvo_utility_vehicle_manufacturer
+<<<<<<< HEAD
+=======
+		}
+		create_equipment_variant = {
+			name = "Terrängbil 11/13"
+			type = util_vehicle_2
 			upgrades = {
 				Util_Mobility = 1
 			}
 			obsolete = yes
 			design_team = mio:SWE_Volvo_utility_vehicle_manufacturer
+>>>>>>> main
 			icon = "gfx/interface/technologies/SWE/LAND/Terrangbil-11-13.dds"
 		}
 		create_equipment_variant = {

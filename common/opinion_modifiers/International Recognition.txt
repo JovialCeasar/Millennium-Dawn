@@ -35,12 +35,18 @@ opinion_modifiers = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	improving_un_relations = {
 		value = 15
 		decay = 0.5
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	supporting_recognized_ally = {
 		value = 15

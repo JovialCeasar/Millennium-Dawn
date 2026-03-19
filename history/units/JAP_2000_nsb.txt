@@ -161,7 +161,11 @@ units = {
 		force_equipment_variants = { cnc_equipment_3 = { amount = 332 owner = JAP creator = JAP } }
 		force_equipment_variants = { util_vehicle_4 = { amount = 440 owner = JAP creator = JAP } }
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = JAP creator = USA version_name = "MH-60L Black Hawk" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = JAP creator = USA version_name = "MH-60L Black Hawk" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = JAP creator = USA version_name = "MH-60L Black Hawk" } }
 >>>>>>> main
@@ -190,7 +194,11 @@ units = {
 		force_equipment_variants = { cnc_equipment_3 = { amount = 299 owner = JAP creator = JAP } }
 		force_equipment_variants = { util_vehicle_4 = { amount = 20 owner = JAP creator = JAP } }
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = JAP creator = USA version_name = "MH-60L Black Hawk" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = JAP creator = USA version_name = "MH-60L Black Hawk" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = JAP creator = USA version_name = "MH-60L Black Hawk" } }
 >>>>>>> main
@@ -256,7 +264,11 @@ units = {
 		force_equipment_variants = { cnc_equipment_3 = { amount = 332 owner = JAP creator = JAP } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 440 owner = JAP creator = JAP } }
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = JAP creator = USA version_name = "CH-47 Chinook" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = JAP creator = USA version_name = "CH-47 Chinook" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = JAP creator = USA version_name = "CH-47 Chinook" } }
 >>>>>>> main
@@ -434,7 +446,11 @@ units = {
 		force_equipment_variants = { cnc_equipment_3 = { amount = 332 owner = JAP creator = JAP } }
 		force_equipment_variants = { util_vehicle_3 = { amount = 440 owner = JAP creator = JAP } }
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 18 owner = JAP creator = USA version_name = "MH-60L Black Hawk" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 18 owner = JAP creator = USA version_name = "MH-60L Black Hawk" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 18 owner = JAP creator = USA version_name = "MH-60L Black Hawk" } }
 >>>>>>> main

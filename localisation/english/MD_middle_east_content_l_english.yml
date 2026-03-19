@@ -1208,6 +1208,7 @@
 
  terror.135.t: "Terrorists Have Struck"
 <<<<<<< HEAD
+<<<<<<< HEAD
  terror.135.d: "Terrorists attacked [FROM.GetFlag], that is a very tragic incident we need to figure out a responce to support them terrorist must not be left to do as they please."
  terror.135.a: "We Mourn the losses"
  terror.170.t: "What Should we Do"
@@ -1230,6 +1231,10 @@
  terror.174.d: ""
  terror.174.a: "Buy as much as you can from the Public"
  terror.174.b: "Buy Small amount"
+=======
+ terror.135.d: "Terrorists attacked [FROM.GetFlag], that is a very tragic incident we need to figure out a response to support them terrorist must not be left to do as they please."
+ terror.135.a: "We Mourn the losses"
+>>>>>>> main
 =======
  terror.135.d: "Terrorists attacked [FROM.GetFlag], that is a very tragic incident we need to figure out a response to support them terrorist must not be left to do as they please."
  terror.135.a: "We Mourn the losses"

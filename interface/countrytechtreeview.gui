@@ -195,7 +195,11 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_subtitle_body_armour"
 <<<<<<< HEAD
+<<<<<<< HEAD
 					position = { x = 515 y = 1075 }
+=======
+					position = { x = 415 y = 1040 }
+>>>>>>> main
 =======
 					position = { x = 415 y = 1040 }
 >>>>>>> main
@@ -212,7 +216,11 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_subtitle_exoskeleton"
 <<<<<<< HEAD
+<<<<<<< HEAD
 					position = { x = 1520 y = 1215 }
+=======
+					position = { x = 1530 y = 1190 }
+>>>>>>> main
 =======
 					position = { x = 1530 y = 1190 }
 >>>>>>> main
@@ -229,7 +237,11 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_subtitle_camouflage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 					position = { x = 190 y = 1270 }
+=======
+					position = { x = 230 y = 1200 }
+>>>>>>> main
 =======
 					position = { x = 230 y = 1200 }
 >>>>>>> main
@@ -386,7 +398,11 @@ guiTypes = {
 			}
 			gridboxtype = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				name = "land_drone_equipment_1_tree"
+=======
+				name = "land_drone_equipment_type_tree"
+>>>>>>> main
 =======
 				name = "land_drone_equipment_type_tree"
 >>>>>>> main
@@ -408,13 +424,19 @@ guiTypes = {
 			}
 			gridboxtype = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 				name = "exoskeleton_1_tree"
 				position = { x = 140 y = 520 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 				name = "camouflage_1_tree"
 				position = { x = 140 y = 500 }
@@ -1494,8 +1516,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_patrolboat"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 230 y = 55 }
 =======
+=======
+>>>>>>> main
 				position = { x = 790 y = 55 }
 				textureFile = ""
 				font = "hoi_33"
@@ -1523,6 +1548,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_corvettes"
 				position = { x = 230 y = 270 }
+<<<<<<< HEAD
 >>>>>>> main
 				textureFile = ""
 				font = "hoi_33"
@@ -1550,6 +1576,8 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_corvettes"
 				position = { x = 230 y = 270 }
+=======
+>>>>>>> main
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -1563,7 +1591,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_stealth_frigates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 1495 y = 410 }
+=======
+				position = { x = 1495 y = 405 }
+>>>>>>> main
 =======
 				position = { x = 1495 y = 405 }
 >>>>>>> main
@@ -1593,7 +1625,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_destroyers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 230 y = 685 }
+=======
+				position = { x = 230 y = 620 }
+>>>>>>> main
 =======
 				position = { x = 230 y = 620 }
 >>>>>>> main
@@ -1610,7 +1646,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_stealth_destroyers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 1350 y = 810 }
+=======
+				position = { x = 1455 y = 725 }
+>>>>>>> main
 =======
 				position = { x = 1455 y = 725 }
 >>>>>>> main
@@ -1627,7 +1667,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_cruisers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 230 y = 900 }
+=======
+				position = { x = 230 y = 830 }
+>>>>>>> main
 =======
 				position = { x = 230 y = 830 }
 >>>>>>> main
@@ -1644,7 +1688,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_battleships"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 230 y = 1035 }
+=======
+				position = { x = 230 y = 970 }
+>>>>>>> main
 =======
 				position = { x = 230 y = 970 }
 >>>>>>> main
@@ -1661,7 +1709,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_heli_operators"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 230 y = 1180 }
+=======
+				position = { x = 230 y = 1110 }
+>>>>>>> main
 =======
 				position = { x = 230 y = 1110 }
 >>>>>>> main
@@ -1678,7 +1730,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_carriers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 230 y = 1320 }
+=======
+				position = { x = 230 y = 1250 }
+>>>>>>> main
 =======
 				position = { x = 230 y = 1250 }
 >>>>>>> main
@@ -1695,7 +1751,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_attack_sub"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 230 y = 1462 }
+=======
+				position = { x = 230 y = 1390 }
+>>>>>>> main
 =======
 				position = { x = 230 y = 1390 }
 >>>>>>> main
@@ -1712,7 +1772,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_sub_engines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 230 y = 1580 }
+=======
+				position = { x = 230 y = 1530 }
+>>>>>>> main
 =======
 				position = { x = 230 y = 1530 }
 >>>>>>> main
@@ -1729,7 +1793,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_missile_sub"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 230 y = 1740 }
+=======
+				position = { x = 230 y = 1670 }
+>>>>>>> main
 =======
 				position = { x = 230 y = 1670 }
 >>>>>>> main
@@ -1745,9 +1813,12 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				name = "naval_subtitle_diesel_engines"
 				position = { x = 360 y = 1880 }
 =======
+=======
+>>>>>>> main
 				name = "naval_subtitle_landing_craft"
 				position = { x = 235 y = 1810 }
 				textureFile = ""
@@ -2033,6 +2104,9 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_diesel_engines"
 				position = { x = 360 y = 60 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 				textureFile = ""
 				font = "hoi_33"
@@ -2047,7 +2121,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_turbine_engines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 360 y = 2020 }
+=======
+				position = { x = 360 y = 200 }
+>>>>>>> main
 =======
 				position = { x = 360 y = 200 }
 >>>>>>> main
@@ -2064,7 +2142,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_system_engineering"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = -12 y = 2160 }
+=======
+				position = { x = -12 y = 300 }
+>>>>>>> main
 =======
 				position = { x = -12 y = 300 }
 >>>>>>> main
@@ -2081,7 +2163,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_nuclear_engines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 360 y = 2160 }
+=======
+				position = { x = 360 y = 340 }
+>>>>>>> main
 =======
 				position = { x = 360 y = 340 }
 >>>>>>> main
@@ -2098,7 +2184,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_fusion_engines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 1900 y = 2295 }
+=======
+				position = { x = 2040 y = 480 }
+>>>>>>> main
 =======
 				position = { x = 2040 y = 480 }
 >>>>>>> main
@@ -2115,7 +2205,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_radar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 490 y = 2450 }
+=======
+				position = { x = 780 y = 620 }
+>>>>>>> main
 =======
 				position = { x = 780 y = 620 }
 >>>>>>> main
@@ -2132,7 +2226,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_radar_drone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 1600 y = 2580 }
+=======
+				position = { x = 1760 y = 760 }
+>>>>>>> main
 =======
 				position = { x = 1760 y = 760 }
 >>>>>>> main
@@ -2149,7 +2247,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_radar_jam"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 1320 y = 2720 }
+=======
+				position = { x = 1480 y = 900 }
+>>>>>>> main
 =======
 				position = { x = 1480 y = 900 }
 >>>>>>> main
@@ -2166,7 +2268,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_sonar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 490 y = 2880 }
+=======
+				position = { x = 780 y = 1040 }
+>>>>>>> main
 =======
 				position = { x = 780 y = 1040 }
 >>>>>>> main
@@ -2183,7 +2289,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_internal_defenses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 360 y = 3105 }
+=======
+				position = { x = 140 y = 1240 }
+>>>>>>> main
 =======
 				position = { x = 140 y = 1240 }
 >>>>>>> main
@@ -2200,7 +2310,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_cannons"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 645 y = 3130 }
+=======
+				position = { x = 645 y = 1320 }
+>>>>>>> main
 =======
 				position = { x = 645 y = 1320 }
 >>>>>>> main
@@ -2217,7 +2331,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_railguns"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 1760 y = 3280 }
+=======
+				position = { x = 1760 y = 1460 }
+>>>>>>> main
 =======
 				position = { x = 1760 y = 1460 }
 >>>>>>> main
@@ -2234,7 +2352,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_railguns_batteries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 2180 y = 3420 }
+=======
+				position = { x = 2180 y = 1600 }
+>>>>>>> main
 =======
 				position = { x = 2180 y = 1600 }
 >>>>>>> main
@@ -2251,7 +2373,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_point_defense_system"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 500 y = 3560 }
+=======
+				position = { x = 500 y = 1740 }
+>>>>>>> main
 =======
 				position = { x = 500 y = 1740 }
 >>>>>>> main
@@ -2268,7 +2394,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_anti_drone_laser"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 2040 y = 3700 }
+=======
+				position = { x = 2180 y = 1880 }
+>>>>>>> main
 =======
 				position = { x = 2180 y = 1880 }
 >>>>>>> main
@@ -2285,7 +2415,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_aamissiles"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 645 y = 3840 }
+=======
+				position = { x = 645 y = 2020 }
+>>>>>>> main
 =======
 				position = { x = 645 y = 2020 }
 >>>>>>> main
@@ -2302,7 +2436,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_asm"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 645 y = 3970 }
+=======
+				position = { x = 645 y = 2160 }
+>>>>>>> main
 =======
 				position = { x = 645 y = 2160 }
 >>>>>>> main
@@ -2319,7 +2457,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_armament"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 85 y = 4120 }
+=======
+				position = { x = 85 y = 2300 }
+>>>>>>> main
 =======
 				position = { x = 85 y = 2300 }
 >>>>>>> main
@@ -2336,7 +2478,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_vls_drone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 1760 y = 4120 }
+=======
+				position = { x = 1760 y = 2300 }
+>>>>>>> main
 =======
 				position = { x = 1760 y = 2300 }
 >>>>>>> main
@@ -2353,7 +2499,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_vls_surface"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 645 y = 4260 }
+=======
+				position = { x = 645 y = 2440 }
+>>>>>>> main
 =======
 				position = { x = 645 y = 2440 }
 >>>>>>> main
@@ -2370,7 +2520,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_vls_air"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 645 y = 4400 }
+=======
+				position = { x = 645 y = 2580 }
+>>>>>>> main
 =======
 				position = { x = 645 y = 2580 }
 >>>>>>> main
@@ -2387,7 +2541,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_drone_torpedoes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 1900 y = 4540 }
+=======
+				position = { x = 1900 y = 2720 }
+>>>>>>> main
 =======
 				position = { x = 1900 y = 2720 }
 >>>>>>> main
@@ -2404,7 +2562,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_torpedoes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 645 y = 4680 }
+=======
+				position = { x = 645 y = 2860 }
+>>>>>>> main
 =======
 				position = { x = 645 y = 2860 }
 >>>>>>> main
@@ -2421,7 +2583,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "naval_subtitle_nuclear_torpedoes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 1900 y = 4930 }
+=======
+				position = { x = 1900 y = 3000 }
+>>>>>>> main
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -2434,6 +2600,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "naval_subtitle_anti_torpedoes"
+<<<<<<< HEAD
 				position = { x = 645 y = 4960 }
 				textureFile = ""
 				font = "hoi_33"
@@ -2463,6 +2630,8 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "naval_subtitle_anti_torpedoes"
+=======
+>>>>>>> main
 				position = { x = 1760 y = 3140 }
 				textureFile = ""
 				font = "hoi_33"
@@ -2476,14 +2645,8 @@ guiTypes = {
 			}
 			gridboxtype = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				name = "patrol_boat_hull_1_tech_tree"
-				position = { x = 150 y = 200 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "corvette_hull_1_tree"
 =======
 				name = "tech_naval_systems_engineering_tree"
 >>>>>>> main
@@ -2493,6 +2656,21 @@ guiTypes = {
 				format = "LEFT"
 			}
 			gridboxtype = {
+<<<<<<< HEAD
+				name = "corvette_hull_1_tree"
+=======
+				name = "tech_naval_systems_engineering_tree"
+>>>>>>> main
+=======
+				name = "tech_fusion_power_systems_1_tree"
+>>>>>>> main
+				position = { x = 150 y = 200 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 				name = "stealth_corvette_hull_1_tree"
 =======
@@ -2572,6 +2750,9 @@ guiTypes = {
 =======
 				name = "tech_naval_recon_drones_1_tree"
 >>>>>>> main
+=======
+				name = "tech_naval_recon_drones_1_tree"
+>>>>>>> main
 				position = { x = 150 y = 200 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -2586,7 +2767,11 @@ guiTypes = {
 			}
 			gridboxtype = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				name = "tech_rail_guns_tree"
+=======
+				name = "tech_rail_guns_1_tree"
+>>>>>>> main
 =======
 				name = "tech_rail_guns_1_tree"
 >>>>>>> main
@@ -2597,8 +2782,11 @@ guiTypes = {
 			}
 			gridboxtype = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				name = "tech_landing_craft_tree"
 =======
+=======
+>>>>>>> main
 				name = "tech_rail_battery_1_tree"
 				position = { x = 150 y = 200 }
 				size = { width = 100 height = 140 }
@@ -2642,6 +2830,9 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "tech_anti_torpedoes_1_tree"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 				position = { x = 150 y = 200 }
 				size = { width = 100 height = 140 }
@@ -4039,7 +4230,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "Civiliantech_year14"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 0 y = 1660 }
+=======
+				position = { x = 0 y = 1690 }
+>>>>>>> main
 =======
 				position = { x = 0 y = 1690 }
 >>>>>>> main
@@ -4055,7 +4250,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "Civiliantech_year15"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 0 y = 1780 }
+=======
+				position = { x = 0 y = 1810 }
+>>>>>>> main
 =======
 				position = { x = 0 y = 1810 }
 >>>>>>> main
@@ -4071,7 +4270,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "Civiliantech_year16"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 0 y = 1900 }
+=======
+				position = { x = 0 y = 1930 }
+>>>>>>> main
 =======
 				position = { x = 0 y = 1930 }
 >>>>>>> main
@@ -4087,7 +4290,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "Civiliantech_year17"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 0 y = 2020 }
+=======
+				position = { x = 0 y = 2050 }
+>>>>>>> main
 =======
 				position = { x = 0 y = 2050 }
 >>>>>>> main
@@ -4103,7 +4310,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "Civiliantech_year18"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 0 y = 2140 }
+=======
+				position = { x = 0 y = 2170 }
+>>>>>>> main
 =======
 				position = { x = 0 y = 2170 }
 >>>>>>> main
@@ -4119,7 +4330,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "Civiliantech_year19"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 0 y = 2260 }
+=======
+				position = { x = 0 y = 2290 }
+>>>>>>> main
 =======
 				position = { x = 0 y = 2290 }
 >>>>>>> main
@@ -4135,7 +4350,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "Civiliantech_year20"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 0 y = 2380 }
+=======
+				position = { x = 0 y = 2410 }
+>>>>>>> main
 =======
 				position = { x = 0 y = 2410 }
 >>>>>>> main
@@ -4254,6 +4473,7 @@ guiTypes = {
 				pdx_tooltip = "CIVILIAN_TITLE_NUCLEAR_DESC"
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 			instantTextBoxType = {
 				name = "FWtech_subtitle_agriculture_digitalization"
 				position = { x = 2175 y = 5 }
@@ -4280,6 +4500,8 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CIVILIAN_TITLE_COMPOSITES_DESC"
 			}
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 			gridboxtype = {
@@ -4339,7 +4561,11 @@ guiTypes = {
 			gridboxtype = {
 				name = "composite_production_1_tree"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 1520 y = 225 }
+=======
+				position = { x = 0 y = 0 }
+>>>>>>> main
 =======
 				position = { x = 0 y = 0 }
 >>>>>>> main
@@ -4686,7 +4912,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "electronic_eng_subtitle"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 290 y = 50 }
+=======
+				position = { x = 250 y = 50 }
+>>>>>>> main
 =======
 				position = { x = 250 y = 50 }
 >>>>>>> main
@@ -4701,7 +4931,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "microchips_eng_subtitle"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 590 y = 50 }
+=======
+				position = { x = 760 y = 50 }
+>>>>>>> main
 =======
 				position = { x = 760 y = 50 }
 >>>>>>> main
@@ -4716,7 +4950,11 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "internet_eng_subtitle"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 1020 y = 50 }
+=======
+				position = { x = 1200 y = 50 }
+>>>>>>> main
 =======
 				position = { x = 1200 y = 50 }
 >>>>>>> main

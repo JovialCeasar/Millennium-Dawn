@@ -24,15 +24,21 @@ technologies = {
 	@row2 = -4
 	@row3 = -2
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@row4 = 2
 	@row5 = 4
 	@row6 = 6
 	@row7 = 8
 =======
+=======
+>>>>>>> main
 	@row4 = 0
 	@row5 = 2
 	@row6 = 4
 	@row7 = 6
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
 	#1965
@@ -101,7 +107,11 @@ technologies = {
 		folder = {
 			name = artillery_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 4 y = @1985 }
+=======
+			position = { x = @row5 y = @1985 }
+>>>>>>> main
 =======
 			position = { x = @row5 y = @1985 }
 >>>>>>> main
@@ -193,7 +203,11 @@ technologies = {
 		folder = {
 			name = artillery_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 4 y = @2025 }
+=======
+			position = { x = @row5 y = @2025 }
+>>>>>>> main
 =======
 			position = { x = @row5 y = @2025 }
 >>>>>>> main
@@ -238,7 +252,11 @@ technologies = {
 		folder = {
 			name = artillery_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = @row5 y = @2035 }
+=======
+			position = { x = @row5 y = @2045 }
+>>>>>>> main
 =======
 			position = { x = @row5 y = @2045 }
 >>>>>>> main
@@ -408,10 +426,13 @@ technologies = {
 			name = artillery_folder
 			position = { x = @row6 y = @2025 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 		}
 		path = {
 			leads_to_tech = nsb_drone_artillery_ammo_1
 			research_cost_coeff = 1
+=======
+>>>>>>> main
 		}
 
 		categories = {
@@ -426,6 +447,7 @@ technologies = {
 			factor = 5
 		}
 	}
+<<<<<<< HEAD
 	nsb_drone_artillery_ammo_1 = {
 		allow_branch = {
 			has_dlc = "No Step Back"
@@ -529,6 +551,8 @@ technologies = {
 			factor = 5
 		}
 	}
+=======
+>>>>>>> main
 
 	nsb_special_ammo_4 = {
 		allow_branch = {
@@ -862,7 +886,11 @@ technologies = {
 		folder = {
 			name = artillery_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = @row4 y = @2035 }
+=======
+			position = { x = @row4 y = @2045 }
+>>>>>>> main
 =======
 			position = { x = @row4 y = @2045 }
 >>>>>>> main

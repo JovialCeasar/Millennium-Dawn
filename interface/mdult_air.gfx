@@ -155,6 +155,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/HELI/HX-20.dds"
+<<<<<<< HEAD
 	}
 	SpriteType = {
 		name = "GFX_transport_helicopter6_medium"
@@ -163,6 +164,8 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_transport_helicopter7_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/UH5.dds"
+=======
+>>>>>>> main
 	}
 
 	SpriteType = {
@@ -194,6 +197,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_nsb_transport_helicopter_5_medium"
 		texturefile = "gfx/interface/technologies/USA/HELI/HX-20.dds"
+<<<<<<< HEAD
 	}
 	SpriteType = {
 <<<<<<< HEAD
@@ -208,6 +212,12 @@ spriteTypes = {
 		name = "GFX_attack_helicopter1_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH1W.dds"
 =======
+		name = "GFX_attack_helicopter_1_medium"
+	texturefile = "gfx/interface/technologies/USA/HELI/AH-1F.dds"
+>>>>>>> main
+=======
+	}
+	SpriteType = {
 		name = "GFX_attack_helicopter_1_medium"
 	texturefile = "gfx/interface/technologies/USA/HELI/AH-1F.dds"
 >>>>>>> main
@@ -227,6 +237,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_attack_helicopter_5_medium"
 	texturefile = "gfx/interface/technologies/USA/HELI/Caesar_A1.dds"
+<<<<<<< HEAD
 	}
 	SpriteType = {
 		name = "GFX_attack_helicopter6_medium"
@@ -235,6 +246,8 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_attack_helicopter7_medium"
 		texturefile = "gfx/interface/technologies/USA/AIR/AH5.dds"
+=======
+>>>>>>> main
 	}
 	SpriteType = {
 		name = "GFX_nsb_attack_helicopter_tech_1_medium"
@@ -262,6 +275,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_nsb_attack_helicopter_tech_7_medium"
+<<<<<<< HEAD
 		texturefile = "gfx/interface/technologies/USA/AIR/AH5.dds"
 	}
 	SpriteType = {
@@ -270,6 +284,8 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_nsb_attack_helicopter_tech_7_medium"
+=======
+>>>>>>> main
 		texturefile = "gfx/interface/technologies/USA/AIR/AH5.dds"
 	}
 	SpriteType = {

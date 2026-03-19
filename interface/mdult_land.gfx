@@ -4931,6 +4931,7 @@ spriteTypes = {
 	}
 	spriteType = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		name = "GFX_SOV_infantry_weapons_2_medium"
 		texturefile = "gfx/interface/technologies/SOV/INF/INF2.dds"
 	}
@@ -4986,6 +4987,35 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/UKR/INF/INF8.dds"
 >>>>>>> main
 	}
+=======
+		name = "GFX_UKR_infantry_weapons_2_medium"
+		texturefile = "gfx/interface/technologies/UKR/INF/INF2.dds"
+	}
+	spriteType = {
+		name = "GFX_UKR_infantry_weapons_3_medium"
+		texturefile = "gfx/interface/technologies/UKR/INF/INF3.dds"
+	}
+	spriteType = {
+		name = "GFX_UKR_infantry_weapons_4_medium"
+		texturefile = "gfx/interface/technologies/UKR/INF/INF4.dds"
+	}
+	spriteType = {
+		name = "GFX_UKR_infantry_weapons_5_medium"
+		texturefile = "gfx/interface/technologies/UKR/INF/INF5.dds"
+	}
+	spriteType = {
+		name = "GFX_UKR_infantry_weapons_6_medium"
+		texturefile = "gfx/interface/technologies/UKR/INF/INF6.dds"
+	}
+	spriteType = {
+		name = "GFX_UKR_infantry_weapons_7_medium"
+		texturefile = "gfx/interface/technologies/UKR/INF/INF7.dds"
+	}
+	spriteType = {
+		name = "GFX_UKR_infantry_weapons_8_medium"
+		texturefile = "gfx/interface/technologies/UKR/INF/INF8.dds"
+	}
+>>>>>>> main
 	### UKR Heavy Infantry Weapons ###
 	### USA Heavy Infantry Weapons ## For Tech Tree ###
 	#### UKR Artillery ####
@@ -5211,6 +5241,7 @@ spriteTypes = {
 	}
 	spriteType = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		name = "GFX_GER_util_vehicle_2_medium"
 		texturefile = "gfx/interface/technologies/GER/LAND/munga.dds"
 	}
@@ -5236,6 +5267,29 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_GER_util_vehicle_8_medium"
+=======
+		name = "GFX_GER_util_vehicle_1_medium"
+		texturefile = "gfx/interface/technologies/GER/LAND/U2.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_util_vehicle_2_medium"
+		texturefile = "gfx/interface/technologies/GER/LAND/U3.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_util_vehicle_3_medium"
+		texturefile = "gfx/interface/technologies/GER/LAND/U4.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_util_vehicle_4_medium"
+		texturefile = "gfx/interface/technologies/GER/LAND/U5.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_util_vehicle_5_medium"
+		texturefile = "gfx/interface/technologies/GER/LAND/U6.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_util_vehicle_6_medium"
+>>>>>>> main
 =======
 		name = "GFX_GER_util_vehicle_1_medium"
 		texturefile = "gfx/interface/technologies/GER/LAND/U2.dds"
@@ -8687,6 +8741,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SWE_util_vehicle_1_medium"
 <<<<<<< HEAD
+<<<<<<< HEAD
 		texturefile = "gfx/interface/technologies/SWE/LAND/U0.dds"
 	}
 	spriteType = {
@@ -8704,9 +8759,33 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SWE_util_vehicle_5_medium"
 		texturefile = "gfx/interface/technologies/SWE/LAND/U4.dds"
+=======
+		texturefile = "gfx/interface/technologies/SWE/LAND/U1.dds"
+	}
+	spriteType = {
+		name = "GFX_SWE_util_vehicle_1_medium"
+		texturefile = "gfx/interface/technologies/SWE/LAND/U2.dds"
+	}
+	spriteType = {
+		name = "GFX_SWE_util_vehicle_2_medium"
+		texturefile = "gfx/interface/technologies/SWE/LAND/U3.dds"
+	}
+	spriteType = {
+		name = "GFX_SWE_util_vehicle_3_medium"
+		texturefile = "gfx/interface/technologies/SWE/LAND/U4.dds"
+	}
+	spriteType = {
+		name = "GFX_SWE_util_vehicle_4_medium"
+		texturefile = "gfx/interface/technologies/SWE/LAND/U5.dds"
+>>>>>>> main
+	}
+	spriteType = {
+		name = "GFX_SWE_util_vehicle_5_medium"
+		texturefile = "gfx/interface/technologies/SWE/LAND/U6.dds"
 	}
 	spriteType = {
 		name = "GFX_SWE_util_vehicle_6_medium"
+<<<<<<< HEAD
 		texturefile = "gfx/interface/technologies/SWE/LAND/U5.dds"
 	}
 	spriteType = {
@@ -8778,6 +8857,44 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/GER/LAND/U6.dds"
 	}
 	spriteType = {
+=======
+		texturefile = "gfx/interface/technologies/SWE/LAND/U7.dds"
+	}
+	spriteType = {
+		name = "GFX_SWE_util_vehicle_7_medium"
+		texturefile = "gfx/interface/technologies/SWE/LAND/U8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_FIN_util_vehicle_1_medium"
+		texturefile = "gfx/interface/technologies/FIN/LAND/U1.dds"
+	}
+	spriteType = {
+		name = "GFX_FIN_util_vehicle_2_medium"
+		texturefile = "gfx/interface/technologies/FIN/LAND/U2.dds"
+	}
+	spriteType = {
+		name = "GFX_FIN_util_vehicle_3_medium"
+		texturefile = "gfx/interface/technologies/FIN/LAND/U3.dds"
+	}
+	spriteType = {
+		name = "GFX_FIN_util_vehicle_4_medium"
+		texturefile = "gfx/interface/technologies/GER/LAND/U2.dds"
+	}
+	spriteType = {
+		name = "GFX_FIN_util_vehicle_5_medium"
+		texturefile = "gfx/interface/technologies/SWE/LAND/U4.dds"
+	}
+	spriteType = {
+		name = "GFX_FIN_util_vehicle_6_medium"
+		texturefile = "gfx/interface/technologies/FIN/LAND/Sisu_GTP.dds"
+	}
+	spriteType = {
+		name = "GFX_FIN_util_vehicle_7_medium"
+		texturefile = "gfx/interface/technologies/GER/LAND/U6.dds"
+	}
+	spriteType = {
+>>>>>>> main
 		name = "GFX_FIN_util_vehicle_8_medium"
 		texturefile = "gfx/interface/technologies/GER/LAND/U7.dds"
 	}
@@ -9418,6 +9535,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_TUR_util_vehicle_1_medium"
 <<<<<<< HEAD
+<<<<<<< HEAD
 		texturefile = "gfx/interface/technologies/USA/LAND/U1.dds"
 	}
 	spriteType = {
@@ -9443,6 +9561,29 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_TUR_util_vehicle_7_medium"
 		texturefile = "gfx/interface/technologies/TUR/LAND/U7.dds"
+=======
+		texturefile = "gfx/interface/technologies/TUR/LAND/U1.dds"
+	}
+	spriteType = {
+		name = "GFX_TUR_util_vehicle_1_medium"
+		texturefile = "gfx/interface/technologies/TUR/LAND/U2.dds"
+	}
+	spriteType = {
+		name = "GFX_TUR_util_vehicle_3_medium"
+		texturefile = "gfx/interface/technologies/TUR/LAND/U3.dds"
+	}
+	spriteType = {
+		name = "GFX_TUR_util_vehicle_4_medium"
+		texturefile = "gfx/interface/technologies/TUR/LAND/U4.dds"
+	}
+	spriteType = {
+		name = "GFX_TUR_util_vehicle_5_medium"
+		texturefile = "gfx/interface/technologies/TUR/LAND/U5.dds"
+	}
+	spriteType = {
+		name = "GFX_TUR_util_vehicle_6_medium"
+		texturefile = "gfx/interface/technologies/TUR/LAND/U6.dds"
+>>>>>>> main
 	}
 	spriteType = {
 =======
@@ -9473,6 +9614,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/TUR/LAND/U7.dds"
 	}
 	spriteType = {
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		name = "GFX_TUR_util_vehicle_8_medium"
 		texturefile = "gfx/interface/technologies/TUR/LAND/U8.dds"

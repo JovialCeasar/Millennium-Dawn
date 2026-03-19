@@ -1871,6 +1871,7 @@ ENG_corvettes = {
 
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ### Destroyers ###
 ai_equipment = {
@@ -2134,5 +2135,7 @@ ai_equipment = {
 	}
 
 }
+=======
+>>>>>>> main
 =======
 >>>>>>> main

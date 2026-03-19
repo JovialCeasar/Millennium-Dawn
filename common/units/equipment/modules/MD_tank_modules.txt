@@ -567,6 +567,11 @@ equipment_modules = {
 		category = tank_exoskeletal_engine_type
 		sfx = sfx_ui_sd_module_engine
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+		#adding parent here makes units replace existing turbine tanks with new variants using exoskeletal engines instead of sending all new tanks straight to stockpile
+		parent= tank_gas_turbine_engine_gen5
+>>>>>>> main
 =======
 		#adding parent here makes units replace existing turbine tanks with new variants using exoskeletal engines instead of sending all new tanks straight to stockpile
 		parent= tank_gas_turbine_engine_gen5
@@ -584,7 +589,11 @@ equipment_modules = {
 			build_cost_ic = 3.11
 			fuel_consumption = 4.5
 <<<<<<< HEAD
+<<<<<<< HEAD
 			maximum_speed = 12.5
+=======
+			maximum_speed = 21.5
+>>>>>>> main
 =======
 			maximum_speed = 21.5
 >>>>>>> main
@@ -635,7 +644,11 @@ equipment_modules = {
 			build_cost_ic = 3.11
 			fuel_consumption = 4.5
 <<<<<<< HEAD
+<<<<<<< HEAD
 			maximum_speed = 12.5
+=======
+			maximum_speed = 21.5
+>>>>>>> main
 =======
 			maximum_speed = 21.5
 >>>>>>> main
@@ -6840,11 +6853,14 @@ equipment_modules = {
 		forbid_equipment_type_exact_match = armor
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		allow_equipment_type = {
 			anti_tank
 		}
 >>>>>>> Project-THRESHOLD
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 
@@ -6896,6 +6912,7 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 21
 			maximum_speed = -1.25
 			reliability = -0.15
@@ -6903,10 +6920,15 @@ equipment_modules = {
 			soft_attack = 25
 			hard_attack = 10
 =======
+=======
+>>>>>>> main
 			soft_attack = 12
 			breakthrough = 6
 			build_cost_ic = 1.2
 			reliability = -0.05
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -6925,6 +6947,7 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 21
 			maximum_speed = -1.25
 			reliability = -0.15
@@ -6932,12 +6955,17 @@ equipment_modules = {
 			soft_attack = 12.5
 			hard_attack = 10
 =======
+=======
+>>>>>>> main
 			soft_attack = 8.75
 			hard_attack = 0.46
 			build_cost_ic = 1.95
 			breakthrough = 1.25
 			defense = 1.25
 			reliability = -0.1
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -6956,6 +6984,7 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 21
 			maximum_speed = -1.25
 			reliability = -0.15
@@ -6963,6 +6992,8 @@ equipment_modules = {
 			soft_attack = 12.5
 			hard_attack = 10
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 18.2
 			maximum_speed = -3.25
 			soft_attack = 44.25
@@ -6970,6 +7001,9 @@ equipment_modules = {
 			ap_attack = 15.6
 			breakthrough = 14.52
 			defense = 4.87
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -6989,6 +7023,7 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 21
 			maximum_speed = -1.25
 			reliability = -0.15
@@ -6996,6 +7031,8 @@ equipment_modules = {
 			soft_attack = 12.5
 			hard_attack = 10
 =======
+=======
+>>>>>>> main
 			soft_attack = 26.8
 			hard_attack = 16
 			ap_attack = 13.2
@@ -7003,6 +7040,9 @@ equipment_modules = {
 			breakthrough = 24
 			defense = 6
 			build_cost_ic = 14.3
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -7021,10 +7061,16 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 3.65
 			fuel_consumption = 1
 			maximum_speed = 12.5
 			reliability = -0.1
+=======
+			build_cost_ic = 7.65
+			fuel_consumption = 0
+			reliability = -0.20
+>>>>>>> main
 =======
 			build_cost_ic = 7.65
 			fuel_consumption = 0
@@ -7045,9 +7091,14 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 3.65
 			fuel_consumption = 5.5
 			maximum_speed = 12.5
+=======
+			build_cost_ic = 4.65
+			fuel_consumption = 5.5
+>>>>>>> main
 =======
 			build_cost_ic = 4.65
 			fuel_consumption = 5.5
@@ -7068,9 +7119,14 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 3.65
 			fuel_consumption = 0.5
 			maximum_speed = 12.5
+=======
+			build_cost_ic = 12.85
+			fuel_consumption = 0
+>>>>>>> main
 =======
 			build_cost_ic = 12.85
 			fuel_consumption = 0
@@ -7091,10 +7147,15 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 3.65
 			fuel_consumption = 0.5
 			maximum_speed = 12.5
 			reliability = -0.1
+=======
+			build_cost_ic = 9.85
+			fuel_consumption = 0.25
+>>>>>>> main
 =======
 			build_cost_ic = 9.85
 			fuel_consumption = 0.25
@@ -7120,12 +7181,18 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 1.95
 <<<<<<< HEAD
+<<<<<<< HEAD
 		}
 
 		multiply_stats = {
 			maximum_speed = 0.25
 			fuel_consumption = -0.15
 		}
+=======
+			maximum_speed = 14.5
+		}
+
+>>>>>>> main
 =======
 			maximum_speed = 14.5
 		}
@@ -7149,6 +7216,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 4.875
 <<<<<<< HEAD
+<<<<<<< HEAD
 			reliability = -0.1
 		}
 
@@ -7161,10 +7229,15 @@ equipment_modules = {
 		}
 		multiply_stats = {
 =======
+=======
+>>>>>>> main
 			maximum_speed = 10
 		}
 
 		multiply_stats = {
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			defense = 0.1
 			breakthrough = 0.1
@@ -7172,12 +7245,18 @@ equipment_modules = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		can_convert_from = {
 			module_category = walker_tank_legs_four_category
 			convert_cost_ic = 112.5
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		xp_cost = 3
 	}
@@ -7190,10 +7269,15 @@ equipment_modules = {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		allow_equipment_type = anti_tank
 
 =======
 >>>>>>> Project-THRESHOLD
+=======
+		allow_equipment_type = anti_tank
+
+>>>>>>> main
 =======
 		allow_equipment_type = anti_tank
 
@@ -7207,6 +7291,7 @@ equipment_modules = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		multiply_stats = {
 			build_cost_ic = -0.15
 			maximum_speed = 0.25
@@ -7215,6 +7300,8 @@ equipment_modules = {
 		add_stats = {
 			hardness = -0.15
 =======
+=======
+>>>>>>> main
 		add_stats = {
 			build_cost_ic = 4.875
 			maximum_speed = 10
@@ -7225,6 +7312,9 @@ equipment_modules = {
 			build_cost_ic = 0.15
 			maximum_speed = 0.10
 			fuel_consumption = 0.05
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 	}
@@ -7244,8 +7334,11 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			hardness = -0.05
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 4.875
 			maximum_speed = 10
 			hardness = 0.15
@@ -7254,6 +7347,9 @@ equipment_modules = {
 			build_cost_ic = 0.20
 			maximum_speed = 0.05
 			fuel_consumption = 0.075
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 	}
@@ -7262,6 +7358,7 @@ equipment_modules = {
 		category = walker_tank_chassis_type_category
 		sfx = sfx_ui_sd_module_engine
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		allow_equipment_type = artillery
@@ -7273,6 +7370,8 @@ equipment_modules = {
 			maximum_speed = -0.25
 			fuel_consumption = 0.15
 =======
+=======
+>>>>>>> main
 		allow_equipment_type = artillery
 
 		add_stats = {
@@ -7283,6 +7382,9 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.25
 			fuel_consumption = 0.10
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -7412,10 +7514,14 @@ equipment_modules = {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	#Event Horzion
 =======
 	#Event Horizon
 >>>>>>> Project-THRESHOLD
+=======
+	#Event Horzion
+>>>>>>> main
 =======
 	#Event Horzion
 >>>>>>> main
@@ -7429,9 +7535,13 @@ equipment_modules = {
 		add_stats = {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 21
 =======
 >>>>>>> Project-THRESHOLD
+=======
+			build_cost_ic = 21
+>>>>>>> main
 =======
 			build_cost_ic = 21
 >>>>>>> main
@@ -7445,6 +7555,9 @@ equipment_modules = {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		build_cost_resources = {
@@ -7452,8 +7565,11 @@ equipment_modules = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Project-THRESHOLD
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		xp_cost = 3

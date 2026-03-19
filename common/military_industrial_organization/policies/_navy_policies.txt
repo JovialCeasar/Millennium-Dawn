@@ -35,6 +35,7 @@ mio_policy_navy_stable_platforms = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
  mio_policy_navy_great_sea_keeping = {
  	icon = GFX_mio_policy_great_sea_keeping
  	allowed = {
@@ -60,6 +61,10 @@ mio_policy_navy_coastal_battlefleet = {
 mio_policy_navy_great_sea_keeping = {
 	icon = GFX_mio_policy_great_sea_keeping
 >>>>>>> main
+=======
+mio_policy_navy_great_sea_keeping = {
+	icon = GFX_mio_policy_great_sea_keeping
+>>>>>>> main
 	allowed = {
 		OR = {
 			has_mio_equipment_type = capital_ship
@@ -70,7 +75,10 @@ mio_policy_navy_great_sea_keeping = {
 	}
 	available = { has_mio_size > 7 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	equipment_bonus = {
 		same_as_mio = {
 			naval_weather_penalty_factor = -0.25
@@ -90,6 +98,9 @@ mio_policy_navy_coastal_battlefleet = {
 		}
 	}
 	available = { has_mio_size > 7 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	equipment_bonus = {
 		same_as_mio = {

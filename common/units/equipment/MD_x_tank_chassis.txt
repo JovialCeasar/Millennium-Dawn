@@ -1953,7 +1953,11 @@ equipments = {
 
 		archetype = super_heavy_tank_destroyer_chassis
 <<<<<<< HEAD
+<<<<<<< HEAD
 		parent = super_heavy_tank_destroyer_chassis_0
+=======
+		parent = walker_tank_chassis_0
+>>>>>>> main
 =======
 		parent = walker_tank_chassis_0
 >>>>>>> main
@@ -1990,7 +1994,11 @@ equipments = {
 
 		archetype = super_heavy_tank_destroyer_chassis
 <<<<<<< HEAD
+<<<<<<< HEAD
 		parent = super_heavy_tank_destroyer_chassis_1
+=======
+		parent = walker_tank_chassis_1
+>>>>>>> main
 =======
 		parent = walker_tank_chassis_1
 >>>>>>> main
@@ -2028,7 +2036,11 @@ equipments = {
 
 		archetype = super_heavy_tank_destroyer_chassis
 <<<<<<< HEAD
+<<<<<<< HEAD
 		parent = super_heavy_tank_destroyer_chassis_2
+=======
+		parent = walker_tank_chassis_2
+>>>>>>> main
 =======
 		parent = walker_tank_chassis_2
 >>>>>>> main
@@ -2462,15 +2474,21 @@ equipments = {
 	}
 	#2055
 <<<<<<< HEAD
+<<<<<<< HEAD
 	attack_helicopter6 = {
 		year = 2055
 		archetype = heavy_tank_chassis
 		parent = attack_helicopter5
 =======
+=======
+>>>>>>> main
 	attack_helicopter_6 = {
 		year = 2055
 		archetype = heavy_tank_chassis
 		parent = attack_helicopter_5
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		priority = 5
 
@@ -2499,15 +2517,21 @@ equipments = {
 	}
 	#2075
 <<<<<<< HEAD
+<<<<<<< HEAD
 	attack_helicopter7 = {
 		year = 2075
 		archetype = heavy_tank_chassis
 		parent = attack_helicopter6
 =======
+=======
+>>>>>>> main
 	attack_helicopter_7 = {
 		year = 2075
 		archetype = heavy_tank_chassis
 		parent = attack_helicopter_6
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		priority = 5
 
@@ -2535,7 +2559,11 @@ equipments = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	transport_helicopter1 = {
+=======
+	transport_helicopter_1 = {
+>>>>>>> main
 =======
 	transport_helicopter_1 = {
 >>>>>>> main
@@ -2714,17 +2742,23 @@ equipments = {
 
 	#2055
 <<<<<<< HEAD
+<<<<<<< HEAD
 	transport_helicopter6 = {
 		year = 2055
 
 		archetype = heavy_tank_amphibious_chassis
 		parent = transport_helicopter5
 =======
+=======
+>>>>>>> main
 	transport_helicopter_6 = {
 		year = 2055
 
 		archetype = heavy_tank_amphibious_chassis
 		parent = transport_helicopter_5
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		priority = 5
 
@@ -2754,17 +2788,23 @@ equipments = {
 
 	#2075
 <<<<<<< HEAD
+<<<<<<< HEAD
 	transport_helicopter7 = {
 		year = 2075
 
 		archetype = heavy_tank_amphibious_chassis
 		parent = transport_helicopter6
 =======
+=======
+>>>>>>> main
 	transport_helicopter_7 = {
 		year = 2075
 
 		archetype = heavy_tank_amphibious_chassis
 		parent = transport_helicopter_6
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		priority = 5
 

@@ -166,6 +166,7 @@ spriteTypes = {
 	##Generic Special Forces
 	spriteType = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		name = "GFX_special_forces_medium"
 		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/special_forces_tech_1.dds"
 	}
@@ -220,12 +221,45 @@ spriteTypes = {
 		name = "GFX_special_forces_tech_6_medium"
 		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces_tech_6.dds"
 >>>>>>> main
+=======
+		name = "GFX_special_forces_tech_1_medium"
+		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces_tech_1.dds"
+	}
+	spriteType = {
+		name = "GFX_special_forces_tech_2_medium"
+		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces_tech_2.dds"
+	}
+	spriteType = {
+		name = "GFX_eastern_european_2d_special_forces_tech_2_medium"
+		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/EEU_special_forces_tech_2.dds"
+	}
+	spriteType = {
+		name = "GFX_special_forces_tech_3_medium"
+		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces_tech_3.dds"
+	}
+	spriteType = {
+		name = "GFX_special_forces_tech_4_medium"
+		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces_tech_4.dds"
+	}
+	spriteType = {
+		name = "GFX_eastern_european_2d_special_forces_tech_4_medium"
+		texturefile = "gfx/interface/technologies/Generic/special_forces_tech_1/EEU_special_forces_tech_4.dds"
+	}
+	spriteType = {
+		name = "GFX_special_forces_tech_5_medium"
+		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces_tech_5.dds"
+	}
+	spriteType = {
+		name = "GFX_special_forces_tech_6_medium"
+		texturefile = "gfx/interface/technologies/Generic/special_forces/special_forces_tech_6.dds"
+>>>>>>> main
 	}
 
 	### Generic Camouflage ###
 
 	spriteType = {
 		name = "GFX_camouflage_medium"
+<<<<<<< HEAD
 <<<<<<< HEAD
 		texturefile = "gfx/interface/technologies/Generic/camouflage_1/camouflage_1.dds"
 	}
@@ -317,6 +351,27 @@ spriteTypes = {
 	}
 	##############################
 
+=======
+		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage_1.dds"
+	}
+	spriteType = {
+		name = "GFX_camouflage_2_medium"
+		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage_2.dds"
+	}
+	spriteType = {
+		name = "GFX_camouflage_3_medium"
+		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage_3.dds"
+	}
+	spriteType = {
+		name = "GFX_camouflage_4_medium"
+		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage_4.dds"
+	}
+	spriteType = {
+		name = "GFX_camouflage_5_medium"
+		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage_5.dds"
+	}
+
+>>>>>>> main
 =======
 		texturefile = "gfx/interface/technologies/Generic/camouflage/camouflage_1.dds"
 	}
@@ -473,13 +528,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_microchip_production_10_medium"
 		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_production_10.dds"
+<<<<<<< HEAD
 	}
 	### microchip_production Left Column
 	SpriteType = {
 		name = "GFX_improved_building_constructions_1_medium"
 		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_plant_construction_1.dds"
+=======
+>>>>>>> main
 	}
+	### microchip_production Left Column
 	SpriteType = {
+<<<<<<< HEAD
 		name = "GFX_improved_building_constructions_2_medium"
 		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_plant_construction_2.dds"
 	}
@@ -523,8 +583,50 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_production_line_improvements_2_medium"
 		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_improved_production_lines_2.dds"
+=======
+		name = "GFX_improved_building_constructions_1_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_plant_construction_1.dds"
 	}
 	SpriteType = {
+		name = "GFX_improved_building_constructions_2_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_plant_construction_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_building_constructions_3_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_plant_construction_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_building_constructions_4_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_plant_construction_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_building_constructions_5_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_plant_construction_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_building_constructions_6_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_plant_construction_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_building_constructions_7_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_plant_construction_7.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_building_constructions_8_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_plant_construction_8.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_building_constructions_9_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_plant_construction_9.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_building_constructions_10_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_plant_construction_10.dds"
+>>>>>>> main
+	}
+	### microchip_production Right Column
+	SpriteType = {
+<<<<<<< HEAD
 		name = "GFX_production_line_improvements_3_medium"
 		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_improved_production_lines_3.dds"
 	}
@@ -568,6 +670,72 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_composite_production_3_medium"
 		texturefile = "gfx/interface/technologies/Generic/Industry/composite_production_3.dds"
+=======
+		name = "GFX_production_line_improvements_1_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_improved_production_lines_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_production_line_improvements_2_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_improved_production_lines_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_production_line_improvements_3_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_improved_production_lines_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_production_line_improvements_4_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_improved_production_lines_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_production_line_improvements_5_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_improved_production_lines_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_production_line_improvements_6_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_improved_production_lines_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_production_line_improvements_7_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_improved_production_lines_7.dds"
+	}
+	SpriteType = {
+		name = "GFX_production_line_improvements_8_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_improved_production_lines_8.dds"
+	}
+	SpriteType = {
+		name = "GFX_production_line_improvements_9_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_improved_production_lines_9.dds"
+	}
+	SpriteType = {
+		name = "GFX_production_line_improvements_10_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/microchip_improved_production_lines_10.dds"
+>>>>>>> main
+	}
+	### composite_production
+	SpriteType = {
+<<<<<<< HEAD
+		name = "GFX_composite_production_4_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/composite_production_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_composite_production_5_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/composite_production_5.dds"
+	}
+		SpriteType = {
+		name = "GFX_composite_production_6_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/composite_production_6.dds"
+	}
+=======
+		name = "GFX_composite_production_1_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/composite_production_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_composite_production_2_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/composite_production_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_composite_production_3_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/composite_production_3.dds"
 	}
 	SpriteType = {
 		name = "GFX_composite_production_4_medium"
@@ -581,10 +749,12 @@ spriteTypes = {
 		name = "GFX_composite_production_6_medium"
 		texturefile = "gfx/interface/technologies/Generic/Industry/composite_production_6.dds"
 	}
+>>>>>>> main
 		SpriteType = {
 		name = "GFX_composite_production_7_medium"
 		texturefile = "gfx/interface/technologies/Generic/Industry/composite_production_7.dds"
 	}
+<<<<<<< HEAD
 <<<<<<< HEAD
 	SpriteType = {
 		name = "GFX_mlrs_systems_medium"
@@ -1537,6 +1707,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_composite_production_5_medium"
 		texturefile = "gfx/interface/technologies/Generic/Industry/composite_production_5.dds"
+=======
+		SpriteType = {
+		name = "GFX_composite_production_8_medium"
+		texturefile = "gfx/interface/technologies/Generic/Industry/composite_production_8.dds"
+>>>>>>> main
 =======
 		SpriteType = {
 		name = "GFX_composite_production_8_medium"

@@ -5,6 +5,7 @@
  train_equipment_3: "2045型火车"
  train_equipment_desc: "只是火车，仅此而已。"
 <<<<<<< HEAD
+<<<<<<< HEAD
  infantry_weapons_type: "轻武器"
  infantry_weapons_desc: "轻武器代表步兵使用的装备，例如突击步枪、精确射手步枪、狙击步枪、榴弹发射器、无后坐力步枪、轻机枪和防弹衣。"
  infantry_weaponsdesc: "轻武器代表步兵使用的装备，例如突击步枪、精确射手步枪、狙击步枪、榴弹发射器、无后坐力步枪、轻机枪和防弹衣。"
@@ -56,6 +57,12 @@
  land_drone_equipment_4_desc: "短程侦察无人机（UAV）为战场提供宝贵的实时侦察和态势感知能力。它们重量轻，相对容易携带。"
  land_drone_equipment_5: "2035型无人机"
  land_drone_equipment_5_desc: "短程侦察无人机（UAV）为战场提供宝贵的实时侦察和态势感知能力。它们重量轻，相对容易携带。"
+=======
+ combat_eng_equipment: "战斗工兵装备"
+ combat_eng_equipment_desc: "战斗工兵在世界各国武装部队中都扮演着重要角色，他们要么紧密融入部队结构，要么融入国家军队的作战部队。"
+ L_Drone_equipment: "无人机设备"
+ L_Drone_equipment_desc: "短程侦察无人机（UAV）为战场提供宝贵的实时侦察和态势感知能力。它们重量轻，相对容易携带。"
+>>>>>>> main
 =======
  combat_eng_equipment: "战斗工兵装备"
  combat_eng_equipment_desc: "战斗工兵在世界各国武装部队中都扮演着重要角色，他们要么紧密融入部队结构，要么融入国家军队的作战部队。"
@@ -178,8 +185,11 @@
  Rec_tank_5: "2035型轻型坦克"
  Rec_tank_5_desc: "轻型坦克是二战军队的主力，但现在只用于外围任务，主战坦克的重量和尺寸阻碍了它们的使用。轻型坦克由装甲最厚重的侦察部队使用，还具有可空投的优势，也经常用于两栖任务。它们通常基于步兵战车车体，而不是从头开始设计。它们在恶劣地形（如山区和森林）中的表现比主战坦克好得多。"
 <<<<<<< HEAD
+<<<<<<< HEAD
  util_vehicle_type: "通用载具"
  util_vehicle_type_desc: "通用载具，通常为机动车，旨在比通用车辆更高效地执行特定任务。"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  util_vehicle_desc: "通用载具是被设计成能够比普通车辆更有效地执行特殊任务的机动车辆。"
@@ -313,6 +323,7 @@
  LPD_4: "2035型船坞运输舰"
  LPD_4_desc: "直升机登陆船坞舰是多用途两栖攻击舰，能够操作直升机并拥有良好的甲板。这些船只建造时配备了完整的飞行甲板，外观类似于航空母舰，可以操作通用和攻击直升机。在游戏中，它们提供巨大的对岸轰炸奖励，建议用于两栖攻击。"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ALG_util_vehicle_4: "卡玛兹-4350"
  ARG_infantry_weapons: "FN FAL"
  ARG_infantry_weapons_2: "加利尔突击步枪"
@@ -323,6 +334,9 @@
 =======
  ALG_util_vehicle_3: "卡玛兹-4310"
 >>>>>>> main
+=======
+ ALG_util_vehicle_3: "卡玛兹-4310"
+>>>>>>> main
  ARG_MBT_3: "阿根廷中型坦克"
  ARG_MBT_3_short: "TAM"
  ARG_Rec_tank_1: "巴塔哥尼亚"
@@ -330,7 +344,11 @@
  ARG_IFV_3: "TAMSE VCTP"
  ARG_IFV_3_short: "TAMSE VCTP"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ARG_util_vehicle_5: "RG-32童子军"
+=======
+ ARG_util_vehicle_4: "阿格拉莱野牛"
+>>>>>>> main
 =======
  ARG_util_vehicle_4: "阿格拉莱野牛"
 >>>>>>> main
@@ -339,6 +357,7 @@
  ARG_SP_arty_1: "VCTM"
  ARG_SP_R_arty_0: "潘佩罗多管火箭系统"
  ARG_SP_R_arty_1: "CP-30 多管火箭发射器"
+<<<<<<< HEAD
 <<<<<<< HEAD
  ARM_infantry_weapons: "AKM"
  ARM_infantry_weapons_desc: "AKM于1959年开发，是米哈伊尔·卡拉什尼科夫开发的AK-47步枪最常见的现代化变体。它比其前身更轻，自动射击时更准确。"
@@ -358,6 +377,8 @@
  ARM_infantry_weapons_8_desc: "在AR-15的基础上创建的ASPAR武器公司的最新发展，使用卡拉什尼科夫突击步枪的弹夹和口径，同时具有相当可靠的设计，不逊于同类产品。"
 =======
 >>>>>>> main
+=======
+>>>>>>> main
  ARM_SP_R_arty_2: "N-2"
  ARM_SP_R_arty_2_desc: "N-2是亚美尼亚的一种多管火箭发射器，由科学生产协会Garni-Ler最迟于2011年开始设计和生产。亚美尼亚没有公布有关该火箭系统的很多信息，但是很明显，N-2正在大规模生产，并且被亚美尼亚武装部队，以及可能被纳戈尔诺-卡拉巴赫国防军积极使用。该系统是在GAZ-3308，一种俄罗斯军用卡车上开发的。"
  ARM_SP_R_arty_2_short: "N-2"
@@ -366,6 +387,7 @@
  ARM_util_vehicle_3: "海克 BM"
  ARM_util_vehicle_4: "梅兹-海克 BM"
  ARM_util_vehicle_5: "山猫-1"
+<<<<<<< HEAD
 <<<<<<< HEAD
  ARM_util_vehicle_6: "山猫-2M"
  AST_infantry_weapons: "L1A1"
@@ -400,6 +422,15 @@
  AST_util_vehicle_3: "路虎巨蜥"
  AST_util_vehicle_5: "大毒蛇"
 >>>>>>> main
+=======
+ AST_IFV_2: "M113A1 FSV"
+ AST_IFV_2_short: "M113A1 FSV"
+ AST_IFV_3: "澳大利亚轻型装甲车"
+ AST_IFV_3_short: "澳大利亚轻型装甲车"
+ AST_util_vehicle_2: "路虎II/III"
+ AST_util_vehicle_3: "路虎巨蜥"
+ AST_util_vehicle_5: "大毒蛇"
+>>>>>>> main
  AUS_APC_1: "SPz 4k 7FA"
  AUS_APC_1_short: "SPz 4k 7FA"
  AUS_APC_4: "游骑兵"
@@ -420,6 +451,7 @@
  AUS_Rec_tank_2_short: "乌拉 LT 105"
  AUS_Rec_tank_3: "阿贾克斯 LT"
  AUS_Rec_tank_3_short: "阿贾克斯 LT"
+<<<<<<< HEAD
 <<<<<<< HEAD
  AUS_util_vehicle_1: "平茨高尔710/712"
  AUS_util_vehicle_2: "斯泰尔 91"
@@ -445,6 +477,10 @@
  AUS_util_vehicle_1: "平茨高尔 710/712"
  AUS_util_vehicle_2: "斯泰尔 91"
 >>>>>>> main
+=======
+ AUS_util_vehicle_1: "平茨高尔 710/712"
+ AUS_util_vehicle_2: "斯泰尔 91"
+>>>>>>> main
  BEL_IFV_2: "YPR-765"
  BEL_IFV_2_short: "YPR-765"
  BEL_APC_1: "BDX"
@@ -461,10 +497,13 @@
  BLR_Rec_tank_2_desc: "用于侦察和特种部队的机动装甲车。用作侦察和破坏行动、巡逻和护送车队、进行维持和平和警察行动以及在紧急情况下开展行动的车辆。"
  BLR_Rec_tank_2_short: "凯门鳄"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BLR_infantry_weapons: "AKM"
  BLR_infantry_weapons_2: "AK-74"
  BLR_infantry_weapons_3: "AK-74N"
  BLR_infantry_weapons_4: "AK-74M"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BLR_APC_1: "BTR-60"
@@ -555,16 +594,22 @@
  BLR_artillery_3_desc: "一门牵引式榴弹炮，以一门152毫米火炮为基础，安装在“刺槐-SV”自行火炮基座上。"
  BLR_artillery_4: "D-50"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BLR_util_vehicle_1: "吉尔-131"
  BLR_util_vehicle_2: "乌拉尔-4320"
  BLR_util_vehicle_3: "卡玛兹-4310"
  BLR_util_vehicle_4: "MAZ-6317"
  BLR_util_vehicle_5: "高尔基 虎式"
 =======
+=======
+>>>>>>> main
  BLR_util_vehicle_1: "ZIL-131"
  BLR_util_vehicle_2: "乌拉尔-4320"
  BLR_util_vehicle_3: "卡玛兹-4310"
  BLR_util_vehicle_4: "MAZ-6317"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  BLR_AS_Fighter1: "苏-15 细嘴瓶"
  BLR_AS_Fighter1_short: "苏-15 细嘴瓶"
@@ -649,6 +694,7 @@
  BLR_transport_plane4: "伊尔-276"
  BLR_transport_plane4_short: "伊尔-276"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BLR_attack_helicopter1: "米里 米-24A 雌鹿"
  BLR_attack_helicopter1_short: "米-24A 雌鹿"
  BLR_attack_helicopter2: "米里 米-24B 超级雌鹿"
@@ -683,6 +729,9 @@
 =======
  BOS_SP_R_arty_0: "M-63 普拉曼"
 >>>>>>> main
+=======
+ BOS_SP_R_arty_0: "M-63 普拉曼"
+>>>>>>> main
  BRA_APC_1: "刺豚鼠"
  BRA_APC_2: "EE-11 乌图鲁"
  BRA_APC_3: "CBTP 查鲁亚"
@@ -694,17 +743,23 @@
  BRA_IFV_5: "VBCI-MR 瓜拉尼"
  BRA_IFV_5_short: "VBCI-MR 瓜拉尼"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BRA_util_vehicle_2: "路虎 110"
  BRA_util_vehicle_3: "路虎卫士"
  BRA_util_vehicle_4: "野公牛"
  BRA_util_vehicle_5: "VBMT-LSR 瓜伊库拉斯"
  BRA_util_vehicle_6: "VBMT-LSR 1A 瓜伊库拉斯"
 =======
+=======
+>>>>>>> main
  BRA_util_vehicle_1: "M38吉普"
  BRA_util_vehicle_2: "路虎 110"
  BRA_util_vehicle_3: "路虎卫士"
  BRA_util_vehicle_4: "阿格拉莱野牛"
  BRA_util_vehicle_5: "VBMT-LSR 瓜伊库拉斯"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  BRA_MBT_1_short: "X-30 塔穆约"
  BRA_MBT_2_short: "MB-2 塔穆约"
@@ -723,6 +778,7 @@
  BRA_Anti_tank_2: "MSS 1.2"
  BRA_Heavy_Anti_tank_0: "EE-3 矛头蝮蛇"
  BRA_Heavy_Anti_tank_1: "EE-18 苏库里"
+<<<<<<< HEAD
 <<<<<<< HEAD
  BRM_infantry_weapons: "BA-63"
  BRM_infantry_weapons_2: "MA-11"
@@ -806,6 +862,12 @@
  BRM_APC_1: "BAAC-83"
  BRM_APC_2: "BAAC-87"
  BUL_IFV_3: "BMP-23"
+=======
+ BRM_util_vehicle_2: "浓约"
+ BRM_APC_1: "BAAC-83"
+ BRM_APC_2: "BAAC-87"
+ BUL_IFV_3: "BMP-23"
+>>>>>>> main
  CAN_APC_2: "LAV-I AVGP"
  CAN_APC_2_desc: "1974 年，加拿大军队选择了瑞士莫瓦格食人鱼6x6 车辆。该车辆的生产由加拿大公司柴油引擎部门（加拿大通用汽车公司的一个部门）的许可接管。"
  CAN_APC_2_short: "LAV-I AVGP"
@@ -853,6 +915,9 @@
  CAN_Rec_tank_2_short: "美洲豹 AVGP"
  CAN_Rec_tank_3: "LAV-II 郊狼"
  CAN_Rec_tank_3_short: "LAV-II 郊狼"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  CAN_util_vehicle_1: "M38A1 CDN"
  CAN_util_vehicle_2: "HLVW"
@@ -862,7 +927,10 @@
  CAN_util_vehicle_6: "参议员装甲输送车"
  CAN_util_vehicle_7: "参议员装甲输送车NG"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CAN_util_vehicle_8: "AOPIMU"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CAN_Anti_tank_0: "M72A5-C1"
@@ -873,6 +941,7 @@
  CAN_Air_UAV2: "MQ-9 收割者"
  CAN_Air_UAV3: "MQ-17 报丧女妖"
  CAN_Air_UAV4: "MQ-25 神之眼"
+<<<<<<< HEAD
 <<<<<<< HEAD
  CHI_infantry_weapons: "56式"
  CHI_infantry_weapons_desc: "56式（56式自动步枪）也称为AK-56，是一种中国7.62×39毫米步枪。它是苏联设计的AK-47和AKM步枪的变体。"
@@ -887,6 +956,8 @@
  CHI_infantry_weapons_6: "QBZ-191"
  CHI_infantry_weapons_7: "QBZ-272"
  CHI_infantry_weapons_8: "QBZ-353"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CHI_Anti_Air_0: "红缨-5"
@@ -1006,6 +1077,7 @@
  CHI_util_vehicle_7: "CSK-181"
  CHI_util_vehicle_8: "CSK-270"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CHI_util_vehicle_9: "ZFB-35"
  CHL_infantry_weapons_3: "智利陆军军工厂 SG 540"
  CHL_infantry_weapons_3_short: "SG 540"
@@ -1016,6 +1088,9 @@
  CRO_infantry_weapons_4: "扎斯塔瓦 M90"
  CRO_infantry_weapons_5: "VHS"
  CRO_infantry_weapons_6: "VHS-2"
+=======
+ COL_util_vehicle_3: "悍马"
+>>>>>>> main
 =======
  COL_util_vehicle_3: "悍马"
 >>>>>>> main
@@ -1038,6 +1113,7 @@
  CRO_artillery_0: "M-56"
  CRO_artillery_1: "M-84 诺拉"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CZE_infantry_weapons: "vz. 52"
  CZE_infantry_weapons_2: "vz. 58"
  CZE_infantry_weapons_3: "vz. 58 V"
@@ -1046,6 +1122,8 @@
  CZE_infantry_weapons_6: "CZ 布伦 2"
  CZE_infantry_weapons_7: "CZ 布伦 3"
  CZE_infantry_weapons_8: "CZ 812 塞尔玛"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CZE_Anti_tank_0: "PTŘS-12 夜鹰"
@@ -1070,6 +1148,7 @@
  CZE_Anti_Air_4: "PLŘS-MD vz. 25 毒蛇"
  CZE_Anti_Air_4_desc: "这些导弹利用最新的技术和硬件打击了我们对手最隐秘的飞机。 包括将导弹引导到任何隐形飞机的卫星链路，因为即使是隐形飞机也不会在可见光谱中隐形。"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CZE_cnc_equipment_1: "R-140P"
  CZE_cnc_equipment_1_desc: "冷战时期的C&C装备在捷克斯洛伐克时期由斯洛伐克生产。"
  CZE_cnc_equipment_2: "R-150MP"
@@ -1084,6 +1163,8 @@
  CZE_cnc_equipment_6_desc: "C4ISTAR（指挥、控制、通信、计算机、情报、交互性、监视、目标获取和侦察）是第5代指挥与控制设备。指挥和控制设备是授权领导层对指定部队行使权力和指导以完成任务和任务的系统。高效的指挥和控制能带来更大的组织和士气。"
  CZE_cnc_equipment_7: "RF-13250"
  CZE_cnc_equipment_7_desc: "C4ISTAR（指挥，控制，通信，计算机，协作，情报，互操作性，监视，目标获取和侦察）是第7代C2设备。 指挥和控制设备是一个系统，使领导能够对指定部队行使权力和指导，以完成任务和任务。 高效的指挥和控制可以提高组织和士气。"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CZE_MBT_1: "T-54AR 伏尔加河"
@@ -1206,6 +1287,7 @@
  CZE_artillery_4_desc: "由于其惊人的172毫米L/43火炮，新口径榴弹炮能够一次命中摧毁任何东西。"
  CZE_util_vehicle_1: "布拉格M59"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CZE_util_vehicle_1_short: "布拉格M59"
  CZE_util_vehicle_1_desc: ""
  CZE_util_vehicle_2: "太脱拉 813 8x8 KOLOS"
@@ -1213,16 +1295,22 @@
  CZE_util_vehicle_3: "太脱拉 815 6x6"
  CZE_util_vehicle_3_desc: "现代化的太脱拉卡车，满足货运和公用事业需求。出售的车型包括：货运车、集装箱运输车、移动车间、油箱车、自卸车、起重机、消防车、垃圾处理车、车辆搬运车等。"
 =======
+=======
+>>>>>>> main
  CZE_util_vehicle_1_desc: ""
  CZE_util_vehicle_2: "太脱拉 813 8x8 KOLOS"
  CZE_util_vehicle_2_desc: "太脱拉卡车具有良好的越野速度，能够运输任何类型的货物，包括活体。"
  CZE_util_vehicle_3: "太脱拉 815 6x6"
  CZE_util_vehicle_3_desc: "现代化太脱拉卡车，满足货物运输和多用途需求。销售版本包括：货车、集装箱运输车、移动维修车、油罐车、自卸车、起重机、消防车、垃圾清运车、车辆移位车等等。"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  CZE_util_vehicle_4: "太脱拉 815-7 8x8 PRAM"
  CZE_util_vehicle_4_desc: "太脱拉T-815配备装甲驾驶室和增强的越野能力、新发动机和 GPS。"
  CZE_util_vehicle_5: "佩伦 4x4"
  CZE_util_vehicle_5_desc: "新型多功能指挥和通讯吉普车。"
+<<<<<<< HEAD
 <<<<<<< HEAD
  CZE_util_vehicle_6: "斯柯达 Želva 4x4"
  CZE_util_vehicle_6_desc: "配备侦察设备、指挥和通信中心或乘客能力的装甲吉普车。"
@@ -1232,10 +1320,15 @@
  CZE_util_vehicle_8_desc: "MVAP吉普车具有防雷保护和非常高的越野速度，由于计算机预测地形和自动驾驶仪。"
  EGY_infantry_weapons: "马迪AKM"
 =======
+=======
+>>>>>>> main
  CZE_util_vehicle_6: "斯柯达 龟 4x4"
  CZE_util_vehicle_6_desc: "配备侦察设备、指挥和通信中心或乘客能力的装甲吉普车。"
  CZE_util_vehicle_7: "太脱拉 915 8x8"
  CZE_util_vehicle_7_desc: "全装甲防护货车。"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  EGY_Anti_Air_0: "艾恩-萨克尔"
  EGY_MBT_1: "拉美西斯 II"
@@ -1250,12 +1343,15 @@
  EGY_SP_R_arty_1: "萨克尔-45"
  EGY_artillery_0: "RL812"
 <<<<<<< HEAD
+<<<<<<< HEAD
  FIN_infantry_weapons: "RK 62"
  FIN_infantry_weapons_2: "RK 71"
  FIN_infantry_weapons_3: "维美德 M82"
  FIN_infantry_weapons_4: "RK 95 TP"
  FIN_infantry_weapons_5: "RK 62M1"
  FIN_infantry_weapons_6: "RK 62M2"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  FIN_APC_2: "西苏 Nasu"
@@ -1277,6 +1373,7 @@
  FIN_artillery_1: "155 K 83"
  FIN_artillery_2: "155 K 98"
 <<<<<<< HEAD
+<<<<<<< HEAD
  FIN_util_vehicle_2: "西苏 A-45"
  FIN_util_vehicle_3: "西苏 SA-150"
  FRA_infantry_weapons: "MAS-49/56"
@@ -1294,6 +1391,10 @@
  FRA_infantry_weapons_7_desc: ""
  FRA_infantry_weapons_8: "AIF 40"
  FRA_infantry_weapons_8_desc: ""
+=======
+ FIN_util_vehicle_1: "ZIL-131"
+ FIN_util_vehicle_2: "西苏 A-45"
+>>>>>>> main
 =======
  FIN_util_vehicle_1: "ZIL-131"
  FIN_util_vehicle_2: "西苏 A-45"
@@ -1420,6 +1521,7 @@
  FRA_util_vehicle_6: "VBMR-L 薮猫"
  FRA_util_vehicle_7: "VBMR-L 薮猫 NG"
 <<<<<<< HEAD
+<<<<<<< HEAD
  FRA_util_vehicle_8: "VLTPNP"
  FSA_util_vehicle_1: "丰田陆地巡洋舰"
  FSA_util_vehicle_2: "丰田海拉克斯"
@@ -1442,6 +1544,11 @@
  FSA_artillery_0: "地狱炮"
  FSA_artillery_0_short: "地狱炮"
 >>>>>>> main
+=======
+ FSA_util_vehicle_1: "丰田陆地巡洋舰"
+ FSA_artillery_0: "地狱炮"
+ FSA_artillery_0_short: "地狱炮"
+>>>>>>> main
  GEO_APC_4: "拉齐卡 APC"
  GEO_APC_4_short: "拉齐卡 APC"
  GEO_IFV_4: "拉齐卡 IFV"
@@ -1453,6 +1560,7 @@
  GEO_SP_arty_1: "GMM-120 自行迫击炮"
  GEO_SP_arty_1_short: "GMM-120"
  GER_infantry_weapons_short: "G3突击步枪"
+<<<<<<< HEAD
 <<<<<<< HEAD
  GER_infantry_weapons_desc: "Heckler & Koch G3（Gewehr 3）是一种7.62×51mm NATO口径的可选择射击模式的战斗步枪，于20世纪50年代由德国西部的武器制造商Heckler & Koch（H&K）与西班牙国有的设计和开发机构CETME合作开发。G3于1959年取代了FN FAL/G1，成为标准步枪，并一直服役到1963年升级为改进型的G3A1型号。"
  GER_infantry_weapons_2: "黑克勒&科赫 G3A3"
@@ -1476,6 +1584,8 @@
  GER_infantry_weapons_8: "黑克勒&科赫 433"
  GER_infantry_weapons_8_short: "HK 433"
  GER_infantry_weapons_8_desc: " Heckler & Koch 433 (HK433)是一种现代化、模块化和紧凑的突击步枪，使用5.56 mm x 45弹药，结合了前代G36和HK416服役步枪的优势和杰出特点。HK 433配备了一个新的可折叠、可伸缩的枪托，带有可调节高度的腮托，提高了射击精度；该武器也可以在枪托折叠的情况下使用，适合近战。"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  GER_APC_1: "M113G"
@@ -1612,6 +1722,7 @@
  GER_artillery_4_desc: "M777A2是M777的进一步升级改型。新的升级包括Block 1A软件升级，增加了增强型便携式感应火炮引信设置器，可使用 XM892 ”神剑“制导弹药。"
  GER_artillery_4_short: "M777A2"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GER_util_vehicle_1: "马基路斯-道依茨 木星"
  GER_util_vehicle_2: "DKW 蒙加"
  GER_util_vehicle_2_short: "蒙加"
@@ -1628,6 +1739,8 @@
  GER_util_vehicle_7_short: "ATF野犬3"
  GER_util_vehicle_8: "ATF野犬3A1"
 =======
+=======
+>>>>>>> main
  GER_util_vehicle_1: "乌尼莫克"
  GER_util_vehicle_1_short: "乌尼莫克"
  GER_util_vehicle_2: "大众臭鼬"
@@ -1640,6 +1753,9 @@
  GER_util_vehicle_5: "莫瓦格 鹰 IV"
  GER_util_vehicle_6: "莫瓦格 鹰 V"
  GER_util_vehicle_7: "莫瓦格 鹰 VI"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  GER_transport_plane1: "C-160D 空中列车"
  GER_transport_plane1_desc: "协同C-160是一种军用运输机，由法国和德国共同开发生产。\"协同\"是制造联盟运输联盟的缩写，该联盟由梅塞施密特-伯尔科-布洛姆、法国航太和西德联合--福克三家公司组成。该机最初是为满足法国和德国空军对现代运输机的需求而开发的。它为海外行动提供了后勤支持，并担任了空中加油、电子情报收集和通信平台等专业角色。"
@@ -1660,6 +1776,7 @@
  GER_awacs_plane1_medium: "E-3A 哨兵"
  GER_awacs_plane1_medium_desc: "波音E-3A哨兵是由波音公司开发的一种空中预警和控制（AEW&C）飞机。E-3通常被称为AWACS（空中预警和控制系统）。它是基于波音707客机改造的，能够提供远程全天候的监视、指挥、控制和通信能力。"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GRE_infantry_weapons: "EAS G3"
  GRE_infantry_weapons_2: "EAS G3A3"
  GRE_infantry_weapons_3: "EAS G3A4"
@@ -1668,6 +1785,8 @@
  GRE_infantry_weapons_6: "AOR M21"
  GRE_infantry_weapons_7: "FN SCAR-M 6.8"
  GRE_infantry_weapons_8: "FN SCAR-NG"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  GRE_MBT_1: "M60A3"
@@ -1700,7 +1819,10 @@
  GRE_IFV_5_short: "ELVO 半人马 II"
  GRE_util_vehicle_1: "680M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GRE_util_vehicle_2: "680M3"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  GRE_util_vehicle_4: "240 GD"
@@ -1709,6 +1831,7 @@
  GRE_util_vehicle_5_short: "290 GD"
  GRE_util_vehicle_6: "M1113GR"
  GRE_util_vehicle_6_short: "M1113GR"
+<<<<<<< HEAD
 <<<<<<< HEAD
  GRE_util_vehicle_7: "重装步兵"
  GRE_util_vehicle_7_short: "重装步兵"
@@ -1719,6 +1842,14 @@
  HOL_IFV_2: "YPR-765"
  HOL_IFV_2_short: "YPR-765"
  HEZ_util_vehicle_2: "萨菲尔 吉普"
+=======
+ HOL_util_vehicle_1: "DAF YA 328"
+ HOL_util_vehicle_2: "DAF YA 314"
+ HOL_util_vehicle_3: "DAF YA 4440/4442"
+ HOL_util_vehicle_4: "狼 SSA"
+ HOL_IFV_2: "YPR-765"
+ HOL_IFV_2_short: "YPR-765"
+>>>>>>> main
 =======
  HOL_util_vehicle_1: "DAF YA 328"
  HOL_util_vehicle_2: "DAF YA 314"
@@ -1757,6 +1888,7 @@
  HEZ_SP_Anti_Air_0: "MIM-23 鹰"
  HEZ_SP_Anti_Air_1: "拉德"
 <<<<<<< HEAD
+<<<<<<< HEAD
  HUN_infantry_weapons: "AMD-65"
  HUN_infantry_weapons_2: "AK-63"
  HUN_infantry_weapons_3: "AMP-69"
@@ -1767,6 +1899,8 @@
  IND_infantry_weapons_5: "平达德 SS4"
  IND_infantry_weapons_6: "平达德 SS5"
  IND_infantry_weapons_7: "平达德 SS6"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  IND_APC_2: "平达德 APS-3"
@@ -1793,6 +1927,7 @@
  IND_Rec_tank_2: "平达德 卡普兰"
  IND_Rec_tank_2_short: "平达德 卡普兰"
 <<<<<<< HEAD
+<<<<<<< HEAD
  IND_util_vehicle_3: "平达德 APR-1"
  IND_util_vehicle_3_short: "APR-1"
  IND_util_vehicle_4: "平达德 科莫多"
@@ -1800,15 +1935,21 @@
  IND_util_vehicle_5: "马欣德拉 神枪手"
  IND_util_vehicle_5_short: "神枪手"
 =======
+=======
+>>>>>>> main
  IND_util_vehicle_3: "品达德 APR-1"
  IND_util_vehicle_3_short: "APR-1"
  IND_util_vehicle_4: "品达德 科莫多"
  IND_util_vehicle_4_short: "科莫多"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  IND_SP_R_arty_0: "NDL-40"
  IND_SP_R_arty_0_short: "NDL-40"
  IND_SP_R_arty_1: "R-Han 122"
  IND_SP_R_arty_1_short: "R-Han 122"
+<<<<<<< HEAD
 <<<<<<< HEAD
  ENG_infantry_weapons: "L1A1 SLR"
  ENG_infantry_weapons_2: "L1A1 SLR SUIT"
@@ -1818,6 +1959,8 @@
  ENG_infantry_weapons_6: "L85A3"
  ENG_infantry_weapons_7: "L403A1"
  ENG_infantry_weapons_8: "L88A1"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ENG_Anti_Air_0: "标枪防空型"
@@ -1925,6 +2068,7 @@
  ENG_artillery_1: "L118 轻型野战炮"
  ENG_artillery_2: "M777 榴弹炮"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ENG_util_vehicle_1: "贝德福德 MK"
  ENG_util_vehicle_2: "路虎 110 LWG GS"
  ENG_util_vehicle_3: "路虎 WMIK 卫士"
@@ -1942,6 +2086,8 @@
  ISR_infantry_weapons_7: "IWI CAR-26"
  ISR_infantry_weapons_8: "IWI TAR-35"
 =======
+=======
+>>>>>>> main
  ENG_util_vehicle_1: "路虎 110 LWG GS"
  ENG_util_vehicle_2: "路虎 WMIK 卫士"
  ENG_util_vehicle_3: "路虎狼式"
@@ -1949,6 +2095,9 @@
  ENG_util_vehicle_5: "猎狐犬"
  ENG_util_vehicle_6: "胡狼 二代"
  ENG_util_vehicle_7: "路虎 35 保卫者"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  ISR_Heavy_Anti_tank_1: "MAPATS 棍棒"
  ISR_Heavy_Anti_tank_2: "长钉 NLOS"
@@ -2032,10 +2181,15 @@
  ISR_util_vehicle_4: "M-242 风暴 II"
  ISR_util_vehicle_4_short: "风暴 II"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ISR_util_vehicle_5: "帕斯 沙猫"
  ISR_util_vehicle_5_short: "沙猫"
  ISR_util_vehicle_6: "帕斯 沙猫 突击者"
  ISR_util_vehicle_6_short: "沙猫 突击者"
+=======
+ ISR_util_vehicle_5: "普拉桑 沙猫"
+ ISR_util_vehicle_5_short: "沙猫"
+>>>>>>> main
 =======
  ISR_util_vehicle_5: "普拉桑 沙猫"
  ISR_util_vehicle_5_short: "沙猫"
@@ -2055,7 +2209,10 @@
  IRE_APC_1: "蒂莫尼 APC"
  IRE_APC_1_short: "蒂莫尼 APC"
 <<<<<<< HEAD
+<<<<<<< HEAD
  IRQ_infantry_weapons_2: "塔布克 狙击型"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  IRQ_SP_arty_1: "法欧"
@@ -2064,10 +2221,16 @@
  IRQ_MBT_2: "巴比伦之狮"
  IRQ_MBT_2_short: "巴比伦之狮"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ISI_util_vehicle_1: "吉尔-131"
  ISI_util_vehicle_2: "乌拉尔-4320"
  ISI_util_vehicle_3: "卡玛兹-4310"
  ISI_util_vehicle_4: "卡玛兹-4350"
+=======
+ ISI_util_vehicle_1: "ZIL-131"
+ ISI_util_vehicle_2: "乌拉尔-4320"
+ ISI_util_vehicle_3: "卡玛兹-4310"
+>>>>>>> main
 =======
  ISI_util_vehicle_1: "ZIL-131"
  ISI_util_vehicle_2: "乌拉尔-4320"
@@ -2088,6 +2251,7 @@
  ISI_SP_R_arty_0: "BM-21 冰雹"
  ISI_artillery_0: "地狱炮"
  ISI_artillery_0_short: "地狱炮"
+<<<<<<< HEAD
 <<<<<<< HEAD
  ITA_infantry_weapons: "BM59"
  ITA_infantry_weapons_desc: "BM 59是意大利在1959年开发的自动战斗步枪。它基于M1加兰德步枪，采用7.62x51mm北约标准弹，修改为使用可拆卸弹匣，并能够选择性射击。后来的修订版结合了更现代步枪共有的其他特征。"
@@ -2117,6 +2281,8 @@
  ITA_cnc_equipment_6_desc: "C4ISTAR（指挥、控制、通信、计算机、情报、交互性、监视、目标获取和侦察）是第5代指挥与控制设备。指挥和控制设备是授权领导层对指定部队行使权力和指导以完成任务和任务的系统。高效的指挥和控制能带来更大的组织和士气。"
  ITA_cnc_equipment_7: "SIACCON NCW ADV"
  ITA_cnc_equipment_7_desc: "C4ISTAR（指挥，控制，通信，计算机，协作，情报，互操作性，监视，目标获取和侦察）是第7代C2设备。 指挥和控制设备是一个系统，使领导能够对指定部队行使权力和指导，以完成任务和任务。 高效的指挥和控制可以提高组织和士气。"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ITA_APC_1: "M-113"
@@ -2238,6 +2404,7 @@
  ITA_util_vehicle_1: "菲亚特 AR59"
  ITA_util_vehicle_2: "路虎AR90"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ITA_util_vehicle_3: "VM 90T鱼雷"
  ITA_util_vehicle_4: "VM 90P"
  ITA_util_vehicle_5: "VTLM 天猫座"
@@ -2253,11 +2420,16 @@
  JAP_infantry_weapons_7: "丰和 MCX 6.8"
  JAP_infantry_weapons_8: "丰和 31式"
 =======
+=======
+>>>>>>> main
  ITA_util_vehicle_3: "VM 90T 鱼雷"
  ITA_util_vehicle_4: "VM 90P 庇护"
  ITA_util_vehicle_5: "VTLM 天猫座"
  ITA_util_vehicle_6: "VTLM 1A 天猫座"
  ITA_util_vehicle_7: "VTLM 2 天猫座"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  JAP_Anti_Air_0: "75式SAM"
  JAP_Anti_Air_1: "91式SAM"
@@ -2362,6 +2534,11 @@
  JAP_SP_Anti_Air_4: "07式式中SAM"
  JAP_SP_Anti_Air_4_short: "07式式中SAM"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ JAP_util_vehicle_1: "日产途乐"
+ JAP_util_vehicle_1_short: "日产途乐"
+>>>>>>> main
 =======
  JAP_util_vehicle_1: "日产途乐"
  JAP_util_vehicle_1_short: "日产途乐"
@@ -2370,6 +2547,7 @@
  JAP_util_vehicle_2_short: "TSD-45"
  JAP_util_vehicle_3: "五十铃 SKW"
  JAP_util_vehicle_3_short: "五十铃 SKW"
+<<<<<<< HEAD
 <<<<<<< HEAD
  JAP_util_vehicle_4: "丰田 HMV"
  JAP_util_vehicle_4_short: "丰田 HMV"
@@ -2388,6 +2566,15 @@
  KOR_infantry_weapons_6: "大宇 K2C1"
  KOR_infantry_weapons_7: "大宇 SR-16"
  KOR_infantry_weapons_8: "大宇 K27C"
+=======
+ JAP_util_vehicle_4: "丰田高机动性车辆"
+ JAP_util_vehicle_5: "小松 LAV"
+ JAP_util_vehicle_6: "小松 LAV-2"
+ JAP_util_vehicle_7: "小松 虎"
+ JOR_util_vehicle_3: "悍马"
+ JOR_util_vehicle_4: "M1113 悍马 ECV"
+ KAZ_SP_arty_2: "瑟斯尔"
+>>>>>>> main
 =======
  JAP_util_vehicle_4: "丰田高机动性车辆"
  JAP_util_vehicle_5: "小松 LAV"
@@ -2480,6 +2667,7 @@
  KOR_SP_Anti_Air_3: "M1127 斯崔克 钢弩"
  KOR_SP_Anti_Air_4: "蝎式 SRLS"
 <<<<<<< HEAD
+<<<<<<< HEAD
  KOR_util_vehicle_1: "KM111 吉普"
  KOR_util_vehicle_2: "K511"
  KOR_util_vehicle_3: "K311"
@@ -2489,6 +2677,8 @@
  KOR_util_vehicle_7: "KJLTV"
  KOR_util_vehicle_8: "K451"
 =======
+=======
+>>>>>>> main
  KOR_util_vehicle_1: "KM111吉普"
  KOR_util_vehicle_2: "K511"
  KOR_util_vehicle_3: "K311"
@@ -2496,11 +2686,15 @@
  KOR_util_vehicle_5: "MaxxPro 防地雷反伏击车"
  KOR_util_vehicle_6: "K151现马"
  KOR_util_vehicle_7: "KJLTV"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  MAY_APC_4: "AV8"
  MAY_APC_4_short: "AV8"
  MAY_IFV_4: "AV8 IFV30"
  MAY_IFV_4_short: "IFV30"
+<<<<<<< HEAD
 <<<<<<< HEAD
  MAY_util_vehicle_1: "马重工业 Handalan"
  MAY_util_vehicle_1_short: "马重工业 Handalan"
@@ -2517,10 +2711,15 @@
  MEX_infantry_weapons_5: "FX-05 火蛇"
  MEX_infantry_weapons_6: "SIG 716i"
 =======
+=======
+>>>>>>> main
  MAY_util_vehicle_1: "马重工业 可靠"
  MAY_util_vehicle_1_short: "马重工业 可靠"
  MAY_util_vehicle_4: "威斯达 GK-M1 迅捷漫游者"
  MAY_util_vehicle_4_short: "GK-M1 迅捷漫游者"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  MEX_IFV_1: "国防秘书处-亨舍尔 HWK-11"
  MEX_IFV_1_short: "HWK-11"
@@ -2530,6 +2729,7 @@
  MEX_Rec_tank_1_short: "DN-IV 公马"
  MEX_Rec_tank_2: "DN-V 公牛"
  MEX_Rec_tank_2_short: "DN-V 公牛"
+<<<<<<< HEAD
 <<<<<<< HEAD
  NIG_infantry_weapons: "AKM"
  NIG_infantry_weapons_2: "G3"
@@ -2543,6 +2743,10 @@
  NKO_infantry_weapons_6: "AK-12"
  NKO_infantry_weapons_7: "AK-12M1"
  NKO_infantry_weapons_8: "AK-31"
+=======
+ NIG_util_vehicle_3: "CS/VA1"
+ NIG_util_vehicle_4: "URO VAMTAC"
+>>>>>>> main
 =======
  NIG_util_vehicle_3: "CS/VA1"
  NIG_util_vehicle_4: "URO VAMTAC"
@@ -2629,6 +2833,7 @@
  NKO_util_vehicle_1: "胜利-58"
  NKO_util_vehicle_2: "胜利-61NA"
 <<<<<<< HEAD
+<<<<<<< HEAD
  NKO_util_vehicle_3: "太白山96"
  NKO_util_vehicle_4: "东风 EQ2058"
  NKO_util_vehicle_5: "ZFB-05"
@@ -2652,12 +2857,17 @@
  NOR_cnc_equipment_7: "康斯伯格 HEIMDALL"
  NOR_cnc_equipment_7_short: "海姆达尔 C5I"
 =======
+=======
+>>>>>>> main
  NKO_util_vehicle_3: "太白山 96"
  NKO_util_vehicle_4: "东风 EQ2058"
  NKO_util_vehicle_5: "ZFB-05"
  NKO_util_vehicle_6: "CS/VP4"
  NKO_util_vehicle_7: "ZFB-21"
  NKO_util_vehicle_8: "ZFB-27"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  NOR_Anti_Air_1: "低水平防空系统"
  NOR_Heavy_Anti_tank_1: "NM142"
@@ -2674,6 +2884,7 @@
  NOR_SP_Anti_Air_3: "先进地对空导弹系统-III"
  NOR_SP_Anti_Air_4: "先进地对空导弹系统-IV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  NOR_util_vehicle_1: "平茨高尔710/712"
  NUS_util_vehicle_1: "吉尔-131"
  NUS_util_vehicle_2: "乌拉尔-4320"
@@ -2681,6 +2892,13 @@
  NUS_artillery_0_short: "地狱炮"
  OMA_util_vehicle_5: "MaxxPro 防地雷反伏击车"
  OMA_util_vehicle_6: "M-ATV"
+=======
+ NUS_util_vehicle_1: "ZIL-131"
+ NUS_artillery_0: "地狱炮"
+ NUS_artillery_0_short: "地狱炮"
+ OMA_util_vehicle_4: "M1113 悍马 ECV"
+ OMA_util_vehicle_5: "MaxxPro 防地雷反伏击车"
+>>>>>>> main
 =======
  NUS_util_vehicle_1: "ZIL-131"
  NUS_artillery_0: "地狱炮"
@@ -2705,6 +2923,7 @@
  PAK_SP_R_arty_0: "KRL 122"
  PAK_util_vehicle_1: "尼尚"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PAK_util_vehicle_2: "亚松"
  PER_infantry_weapons: "56式"
  PER_infantry_weapons_2: "赛耶德 5.56"
@@ -2714,6 +2933,8 @@
  PER_infantry_weapons_6: "马萨夫 1"
  PER_infantry_weapons_7: "法吉尔-41"
  PER_infantry_weapons_8: "阿拉什"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  PER_APC_1: "M113"
@@ -2771,7 +2992,10 @@
  PER_util_vehicle_4: "阿拉斯"
  PER_util_vehicle_5: "头帆"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PER_util_vehicle_6: "头帆2"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  PER_SP_R_arty_0: "哈迪德 HM-20"
@@ -2807,6 +3031,7 @@
  PER_EQUIPMENT_VERSION_15: "-15"
  PER_EQUIPMENT_VERSION_16: "-16"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PHI_infantry_weapons_4: "SOAR"
  PHI_infantry_weapons_5: "PVAR "
  PHI_util_vehicle_1: "德尔塔 迷你巡逻车"
@@ -2823,6 +3048,10 @@
  POL_body_armor_2: "KLV防弹背心"
  POL_body_armor_3: "KWM-02通用防护背心"
  POL_body_armor_4: "KWM-02M通用防护背心"
+=======
+ PHI_util_vehicle_1: "德尔塔 迷你巡逻车"
+ PHI_util_vehicle_1_short: "德尔塔 迷你巡逻车"
+>>>>>>> main
 =======
  PHI_util_vehicle_1: "德尔塔 迷你巡逻车"
  PHI_util_vehicle_1_short: "德尔塔 迷你巡逻车"
@@ -2899,6 +3128,7 @@
  POL_SP_arty_3: "AHS 螃蟹-2"
  POL_SP_arty_4: "AHS 螃蟹-2M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  POL_util_vehicle_1: "星 600"
  POL_util_vehicle_2: "星 266"
  POL_util_vehicle_3: "野马 红客"
@@ -2906,11 +3136,16 @@
  POL_util_vehicle_5: "AMZ野猪"
  POL_util_vehicle_6: "AMZ 野牛"
 =======
+=======
+>>>>>>> main
  POL_util_vehicle_1: "星 660"
  POL_util_vehicle_2: "星 266"
  POL_util_vehicle_3: "野马红客"
  POL_util_vehicle_4: "星 1466"
  POL_util_vehicle_5: "AMZ 野猪"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  POL_early_helicopter: "SM-1"
  POL_early_helicopter_desc: "20世纪50年代的苏联轻型多用途直升机，在波兰生产，型号为SM-1。"
@@ -2918,6 +3153,7 @@
  POR_APC_1_short: "V-200 突击队"
  POR_Rec_tank_0: "凯迪拉克 盖奇 突击队 V150"
  POR_Rec_tank_0_short: "突击队 V150"
+<<<<<<< HEAD
 <<<<<<< HEAD
  PRU_infantry_weapons: "FN FAL"
  PRU_infantry_weapons_2: "加利尔突击步枪"
@@ -2931,6 +3167,8 @@
  RAJ_infantry_weapons_4: "英萨斯 1B"
  RAJ_infantry_weapons_5: "AR-M1"
  RAJ_infantry_weapons_6: "SIG 716i"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  RAJ_Anti_tank_2: "纳格 MP"
@@ -2962,6 +3200,7 @@
  RAJ_APC_4_short: "红隼"
  RAJ_util_vehicle_1: "阿肖克 种马"
 <<<<<<< HEAD
+<<<<<<< HEAD
  RAJ_util_vehicle_2: "风神 吉卜赛"
  RAJ_util_vehicle_3: "阿氐提耶"
  RAJ_util_vehicle_4: "尤克提拉斯"
@@ -2969,10 +3208,15 @@
  RAJ_util_vehicle_6: "马欣德拉 MPV"
  RAJ_util_vehicle_6_short: "马欣德拉 MPV"
 =======
+=======
+>>>>>>> main
  RAJ_util_vehicle_2: "马鲁蒂 吉卜赛"
  RAJ_util_vehicle_3: "阿帝伽"
  RAJ_util_vehicle_4: "尤克提拉斯"
  RAJ_util_vehicle_5: "塔塔 LAMV"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  RAJ_SP_R_arty_1: "帕纳卡 MBRL"
  RAJ_artillery_0: "印度野战炮"
@@ -2983,6 +3227,7 @@
  RAJ_SP_arty_1: "OFB 自行火炮"
  RAJ_SP_Anti_Air_1: "国防研究发展组织 阿卡什"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ROM_infantry_weapons: "PM md.63"
  ROM_infantry_weapons_2: "PM md. 75"
  ROM_infantry_weapons_3: "PA md.86"
@@ -2990,6 +3235,8 @@
  ROM_infantry_weapons_5: "ARX160"
  ROM_infantry_weapons_6: "ARX160A2"
  ROM_infantry_weapons_7: "ARX160A3"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ROM_APC_1: "TAB-71"
@@ -3022,6 +3269,7 @@
  ROM_SP_Anti_Air_1: "CA-95"
  ROM_Anti_Air_0: "CA-94"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SAF_infantry_weapons: "维克托 R1"
  SAF_infantry_weapons_2: "维克托 R2"
  SAF_infantry_weapons_3: "维克托 R4"
@@ -3030,6 +3278,8 @@
  SAF_infantry_weapons_6: "维克托 R11"
  SAF_infantry_weapons_7: "维克托 R15"
  SAF_infantry_weapons_8: "维克托 R21"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SAF_APC_2: "水牛"
@@ -3088,6 +3338,7 @@
  SAF_util_vehicle_1: "SAMIL 20"
  SAF_util_vehicle_2: "SAMIL 50"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SAF_util_vehicle_3: "卡西普"
  SAF_util_vehicle_4: "眼镜王蛇 APC"
  SAF_util_vehicle_5: "RG-33"
@@ -3095,16 +3346,22 @@
  SAF_util_vehicle_7: "RG-39"
  SAF_util_vehicle_8: "RG-42"
 =======
+=======
+>>>>>>> main
  SAF_util_vehicle_3: "斗牛士"
  SAF_util_vehicle_4: "眼镜王蛇装甲输送车"
  SAF_util_vehicle_5: "RG-33"
  SAF_util_vehicle_6: "非洲战神-6"
  SAF_util_vehicle_7: "RG-39"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  SAF_SP_Anti_Air_1: "大山猫 ZA-35"
  SAU_APC_4: "AF-40 阿法赫德"
  SAU_APC_4_short: "AF-40 阿法赫德"
  SAU_SP_Anti_Air_1: "沙伊纳"
+<<<<<<< HEAD
 <<<<<<< HEAD
  SAU_util_vehicle_6: "M-ATV"
  SER_infantry_weapons: "扎斯塔瓦 M70"
@@ -3115,6 +3372,9 @@
  SER_infantry_weapons_6: "扎斯塔瓦M19"
  SER_infantry_weapons_7: "扎斯塔瓦 M38"
  SER_infantry_weapons_8: "扎斯塔瓦 M46"
+=======
+ SAU_util_vehicle_5: "MaxxPro 防地雷反伏击车"
+>>>>>>> main
 =======
  SAU_util_vehicle_5: "MaxxPro 防地雷反伏击车"
 >>>>>>> main
@@ -3154,6 +3414,7 @@
  SER_util_vehicle_2: "TAM 150"
  SER_util_vehicle_3: "FAP 2026"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SER_util_vehicle_4: "扎斯塔瓦 NTV"
  SER_util_vehicle_4_short: "扎斯塔瓦 NTV"
  SER_util_vehicle_5: "拉扎尔 BVT"
@@ -3180,6 +3441,16 @@
  SIN_infantry_weapons_5_desc: "21世纪初，国防部公布了一个新的技术先进作战部队框架，启动了将新加坡武装部队转变为第3代陆军的倡议。SAR 21 MMS是高级作战人员系统下SAR 21的改进版。它于2005年推出，旨在为每个军人提供他们在现代战场上所需的态势感知，与HUD显示器、战术数据链路和先进的通信网络充分集成，作为SAF向3G作战部队过渡的一部分。"
  SIN_infantry_weapons_6: "BR-18"
  SIN_infantry_weapons_6_desc: "BMCR作为新加坡武装部队未来技术的一部分首次在2014年新加坡航空展上亮相。它很快成为BR-18突击步枪，将取代SAR 21，很快于2018年投入生产。"
+=======
+ SER_util_vehicle_4: "扎斯塔瓦新型越野车"
+ SER_util_vehicle_5: "拉扎尔 BVT"
+ SIA_util_vehicle_2: "M50 猜巴干"
+ SIA_util_vehicle_2_short: "M50"
+ SIA_util_vehicle_3: "M51 猜巴干"
+ SIA_util_vehicle_4: "TR MUV4"
+ SIA_artillery_0: "M618A2"
+ SIA_SP_R_arty_1: "DTI-2"
+>>>>>>> main
 =======
  SER_util_vehicle_4: "扎斯塔瓦新型越野车"
  SER_util_vehicle_5: "拉扎尔 BVT"
@@ -3239,6 +3510,7 @@
  SIN_util_vehicle_3_short: "路虎"
  SIN_util_vehicle_4: "轻型战术车辆"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SIN_util_vehicle_4_short: "LSV"
  SIN_util_vehicle_5: "轻型突击车 Mk.II"
  SIN_util_vehicle_5_short: "LSV Mk.II"
@@ -3252,6 +3524,16 @@
  SLO_SP_arty_1: "ShKH 苏珊娜"
  SLV_infantry_weapons_2: "扎斯塔瓦 M70BN"
  SLV_infantry_weapons_3: "扎斯塔瓦 M80"
+=======
+ SIN_util_vehicle_4_short: "轻型战术车辆"
+ SIN_util_vehicle_5: "轻型战术车辆 Mk.II"
+ SIN_util_vehicle_5_short: "轻型战术车辆 Mk.II"
+ SLO_APC_4: "塔特拉潘"
+ SLO_SP_R_arty_0: "RM-51"
+ SLO_SP_R_arty_1: "RM-70"
+ SLO_util_vehicle_4: "狼 SSA"
+ SLO_SP_arty_1: "ShKH 苏珊娜"
+>>>>>>> main
 =======
  SIN_util_vehicle_4_short: "轻型战术车辆"
  SIN_util_vehicle_5: "轻型战术车辆 Mk.II"
@@ -3276,6 +3558,7 @@
  SLV_Anti_tank_0: "M79 奥萨"
  SLV_util_vehicle_1: "TAM 110"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SLV_util_vehicle_2: "TAM 150"
  SLV_SP_R_arty_0: "M-63 普拉曼"
  SOO_infantry_weapons: "AKM"
@@ -3298,6 +3581,9 @@
  SOV_infantry_weapons_6_desc: "AK-12是俄罗斯的一款新型突击步枪。它是勇士未来步兵计划下开发的。它专为特种部队制造，将取代AK-103的生产。AK-12的平衡性和人体工程学得到了改进，使其成为俄罗斯迄今为止最精锐的突击步枪。"
  SOV_infantry_weapons_7: "AK-12M1"
  SOV_infantry_weapons_8: "AK-31"
+=======
+ SLV_SP_R_arty_0: "M-63 普拉曼"
+>>>>>>> main
 =======
  SLV_SP_R_arty_0: "M-63 普拉曼"
 >>>>>>> main
@@ -3436,7 +3722,11 @@
  SOV_artillery_3: "D-50"
  SOV_artillery_4: "D-60"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SOV_util_vehicle_1: "吉尔-131"
+=======
+ SOV_util_vehicle_1: "ZIL-131"
+>>>>>>> main
 =======
  SOV_util_vehicle_1: "ZIL-131"
 >>>>>>> main
@@ -3444,6 +3734,7 @@
  SOV_util_vehicle_2: "乌拉尔-4320"
  SOV_util_vehicle_2_desc: "世界各地许多军队使用的一种物流卡车和运兵车。"
  SOV_util_vehicle_3: "卡玛兹-4310"
+<<<<<<< HEAD
 <<<<<<< HEAD
  SOV_util_vehicle_3_desc: "世界各地许多军队使用的一种物流卡车和运兵车。"
  SOV_util_vehicle_4: "卡玛兹-4350"
@@ -3454,12 +3745,17 @@
  SOV_util_vehicle_7: "K-4386 台风-M"
  SOV_util_vehicle_8: "K-5521 飓风"
 =======
+=======
+>>>>>>> main
  SOV_util_vehicle_3_desc: "世界各地许多军队使用的后勤卡车和运兵车。"
  SOV_util_vehicle_4: "卡玛兹-4350"
  SOV_util_vehicle_4_desc: "世界各地许多军队使用的一种物流卡车和运兵车。"
  SOV_util_vehicle_5: "GAZ 虎"
  SOV_util_vehicle_6: "K-63968 台风-K"
  SOV_util_vehicle_7: "K-4386 台风-M"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  SYR_MBT_1: "T-55"
  SYR_MBT_1_desc: "T-54/55可能是世界上产量最高的坦克。它是冷战初期设计和生产的，是红军的力量和骨干。它曾经被视为俄罗斯实力的象征，如今已成为中东装甲部队在美国空袭后被摧毁的象征。"
@@ -3507,9 +3803,12 @@
  SYR_IFV_8: "T-16"
  SYR_IFV_8_short: "T-16"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SPR_infantry_weapons: "CETME A型"
  SPR_infantry_weapons_2: "CETME C型"
  SPR_infantry_weapons_3: "CETME L型"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SPR_Anti_tank_1: "猎鹰-100"
@@ -3584,6 +3883,7 @@
  SPR_MBT_8: "豹3A3"
  SPR_MBT_8_short: "豹3A3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SPR_util_vehicle_1: "平茨高尔710/712"
  SPR_util_vehicle_2: "路虎 110"
  SPR_util_vehicle_3: "桑塔纳·阿尼巴尔"
@@ -3592,12 +3892,17 @@
  SPR_util_vehicle_6: "依维科 LMV2"
  SPR_util_vehicle_7: "野犬3"
 =======
+=======
+>>>>>>> main
  SPR_util_vehicle_1: "平茨高尔 710/712"
  SPR_util_vehicle_2: "路虎 110"
  SPR_util_vehicle_3: "桑塔纳 阿尼巴尔"
  SPR_util_vehicle_4: "URO VAMTAC"
  SPR_util_vehicle_5: "依维科 LMV"
  SPR_util_vehicle_6: "依维科 LMV2"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  SRI_APC_2: "独角兽 APC"
  SRI_APC_2_short: "独角兽"
@@ -3630,9 +3935,14 @@
  SYR_SP_arty_0: "T-34S"
  SYR_artillery_0: "D-30"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SYR_util_vehicle_1: "吉尔-131"
  SYR_util_vehicle_2: "乌拉尔-4320"
  SYR_util_vehicle_5: "高尔基 虎式"
+=======
+ SYR_util_vehicle_1: "ZIL-131"
+ SYR_util_vehicle_4: "卡玛兹-4350"
+>>>>>>> main
 =======
  SYR_util_vehicle_1: "ZIL-131"
  SYR_util_vehicle_4: "卡玛兹-4350"
@@ -3650,6 +3960,7 @@
  SUD_IFV_2: "卡蒂姆 1 IFV"
  SUD_IFV_2_short: "卡蒂姆 1 IFV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SUD_util_vehicle_5: "曼巴"
  SWE_infantry_weapons: "Kp m/45"
  SWE_infantry_weapons_2: "Ak 4"
@@ -3659,6 +3970,9 @@
  SWE_infantry_weapons_6: "Ak 5 D"
  SWE_infantry_weapons_7: "Ak 24"
  SWE_infantry_weapons_8: "Ak 36"
+=======
+ SUD_util_vehicle_4: "URO VAMTAC"
+>>>>>>> main
 =======
  SUD_util_vehicle_4: "URO VAMTAC"
 >>>>>>> main
@@ -3740,6 +4054,7 @@
  SWE_artillery_1_short: "FH77"
  SWE_util_vehicle_1: "沃尔沃 L3314"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SWE_util_vehicle_2: "Tgb 11"
  SWE_util_vehicle_3: "路虎卫士"
  SWE_util_vehicle_4: "Ptgb 5"
@@ -3756,6 +4071,12 @@
  SWI_infantry_weapons_5_short: "SIG 553"
  SWI_infantry_weapons_6: "SIG 突击步枪 MCX"
  SWI_infantry_weapons_6_short: "SG MCX"
+=======
+ SWE_util_vehicle_2: "越野车 11"
+ SWE_util_vehicle_3: "路虎卫士"
+ SWE_util_vehicle_4: "Ptgb 5"
+ SWI_infantry_weapons_short: "SIG 510"
+>>>>>>> main
 =======
  SWE_util_vehicle_2: "越野车 11"
  SWE_util_vehicle_3: "路虎卫士"
@@ -3783,7 +4104,11 @@
  SWI_APC_5: "莫瓦格 食人鱼 V"
  SWI_APC_5_short: "食人鱼 V"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SWI_util_vehicle_3: "莫瓦格 杜罗"
+=======
+ SWI_util_vehicle_3: "莫瓦格杜罗"
+>>>>>>> main
 =======
  SWI_util_vehicle_3: "莫瓦格杜罗"
 >>>>>>> main
@@ -3792,6 +4117,7 @@
  SWI_util_vehicle_4_short: "鹰 I/II"
  SWI_util_vehicle_5: "莫瓦格 鹰 IV"
  SWI_util_vehicle_5_short: "鹰 IV"
+<<<<<<< HEAD
 <<<<<<< HEAD
  SWI_util_vehicle_6: "莫瓦格 鹰 V"
  SWI_util_vehicle_6_short: "鹰 V"
@@ -3804,6 +4130,10 @@
  TAI_infantry_weapons_5: "T91"
  TAI_infantry_weapons_6: "T91K1"
  TAI_infantry_weapons_7: "T112"
+=======
+ SWI_SP_Anti_Air_1: "防空反坦克系统"
+ SWI_SP_Anti_Air_1_short: "防空反坦克系统"
+>>>>>>> main
 =======
  SWI_SP_Anti_Air_1: "防空反坦克系统"
  SWI_SP_Anti_Air_1_short: "防空反坦克系统"
@@ -3829,6 +4159,7 @@
  TAI_Rec_tank_0_short: "六四式"
  TAI_Rec_tank_3: "CM-37"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TAL_util_vehicle_1: "吉尔-131"
  TAL_util_vehicle_2: "乌拉尔-4320"
  TNZ_SP_R_arty_2: "A-100 MRL"
@@ -3842,6 +4173,12 @@
  TUR_infantry_weapons_6: "MPT-76"
  TUR_infantry_weapons_7: "MPT-85"
  TUR_infantry_weapons_8: "MPT-88"
+=======
+ TAL_util_vehicle_1: "ZIL-131"
+ TNZ_SP_R_arty_2: "A-100 MRL"
+ TUR_Air_UAV1: "巴伊拉克塔尔 TB2"
+ TUR_Air_UAV2: "TAI 安卡"
+>>>>>>> main
 =======
  TAL_util_vehicle_1: "ZIL-131"
  TNZ_SP_R_arty_2: "A-100 MRL"
@@ -3894,6 +4231,7 @@
  TUR_SP_arty_1: "M52T"
  TUR_SP_arty_2: "T-155 佛提纳"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TUR_artillery_2: "MKE 博兰"
  TUR_util_vehicle_1: "M38 吉普"
  TUR_util_vehicle_3: "奥托卡 蝎子"
@@ -3909,6 +4247,8 @@
  TUR_util_vehicle_8_short: "埃杰尔 亚尔辛 II"
  TUR_Heavy_Anti_tank_2: "中程反坦克导弹系统"
 =======
+=======
+>>>>>>> main
  TUR_artillery_2: "MKE 潘特尔"
  TUR_util_vehicle_2: "奥托卡 路虎"
  TUR_util_vehicle_3: "奥托卡 眼镜蛇"
@@ -3917,6 +4257,9 @@
  TUR_util_vehicle_6: "BMC 弗兰"
  TUR_util_vehicle_7: "BMC 图兰"
  TUR_Heavy_Anti_tank_2: "FNSS 帕尔斯 4x4 STA"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  TUR_Anti_tank_2: "中程反坦克导弹系统"
  UAE_APC_6: "EDT 恩尼格码"
@@ -3925,6 +4268,7 @@
  UAE_IFV_6_short: "EDT 恩尼格码"
  UAE_SP_arty_2: "恩尼格码"
  UAE_SP_R_arty_1: "乔巴利亚 MCL"
+<<<<<<< HEAD
 <<<<<<< HEAD
  UAE_util_vehicle_5: "MaxxPro 防地雷反伏击车"
  UAE_util_vehicle_6: "M-ATV"
@@ -3939,11 +4283,16 @@
  UKR_util_vehicle_6: "哥萨克"
  UKR_util_vehicle_6_desc: ""
 =======
+=======
+>>>>>>> main
  UAE_util_vehicle_4: "M1113 悍马 ECV"
  UAE_util_vehicle_5: "MaxxPro 防地雷反伏击车"
  UKR_util_vehicle_1: "克拉兹-255"
  UKR_util_vehicle_4: "克拉兹-6322"
  UKR_util_vehicle_5: "侦查-B"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  UKR_APC_1: "BTR-60"
  UKR_APC_1_desc: "仍在服役的最老车辆之一，BTR-60有一挺14.5mm KPVT重机枪，带有500发子弹。第二种武器是一门7.62mm PKT同轴机枪，带有3000发子弹。非常适合轻步兵移动和QRF。"
@@ -4010,6 +4359,7 @@
  UKR_artillery_1: "2A65 姆斯塔-B"
  UKR_Anti_tank_1: "9K111 巴松"
 <<<<<<< HEAD
+<<<<<<< HEAD
  USA_infantry_weapons: "M14"
  USA_infantry_weapons_desc: "M14步枪，正式名称为“美国7.62毫米口径M14步枪”。是美国的一种半自动步枪，发射7.62×51mm（.308英寸）北约弹药。1959年成为美军标准配发的步枪，到1961年取代了美军的M1加兰德步枪。"
  USA_infantry_weapons_2: "M16A1"
@@ -4026,6 +4376,8 @@
  USA_infantry_weapons_6_desc: ""
  USA_infantry_weapons_8: "泰坦 APPL"
  USA_infantry_weapons_8_desc: "这种武器平台采用了与美国M4系统相同的可靠性，但采用了21世纪独有的技术。该系统不仅重量轻，使用无壳弹药，而且它还利用了小型化磁加速度的变种，有效地使武器成为早期手持混合式轨道枪"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  USA_Anti_Air_0: "FIM-43 红眼"
@@ -4138,6 +4490,7 @@
  USA_artillery_3: "M585"
  USA_artillery_4: "M667"
 <<<<<<< HEAD
+<<<<<<< HEAD
  USA_util_vehicle_1: "M38 吉普"
  USA_util_vehicle_2: "M151 吉普"
  USA_util_vehicle_3: "悍马"
@@ -4148,6 +4501,8 @@
  USA_util_vehicle_8: "AOPIMU"
  VEN_util_vehicle_3: "卡玛兹-4310"
 =======
+=======
+>>>>>>> main
  USA_util_vehicle_1: "M38吉普"
  USA_util_vehicle_2: "M151 吉普"
  USA_util_vehicle_3: "悍马"
@@ -4156,6 +4511,9 @@
  USA_util_vehicle_6: "M-ATV"
  USA_util_vehicle_7: "JLTV"
  VEN_util_vehicle_2: "乌拉尔-4320"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  DEN_mbt_equipment_0: "豹1"
  DEN_mbt_equipment_1: "豹2A6"
@@ -4163,12 +4521,15 @@
  DEN_mbt_equipment_3: "KF51 黑豹"
  DEN_mbt_equipment_4: "MGCS 蝎子"
 <<<<<<< HEAD
+<<<<<<< HEAD
  VIE_infantry_weapons: "AKM"
  VIE_infantry_weapons_2: "M18"
  VIE_infantry_weapons_3: "M16A2VN"
  VIE_infantry_weapons_4: "AKM-1"
  VIE_infantry_weapons_5: "Z111 ACE"
  VIE_infantry_weapons_6: "STV"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  early_fighter: "早期战斗机设计"
@@ -6213,6 +6574,7 @@
  light_tank_equipment_3: "2015型轻型坦克"
  light_tank_equipment_4: "2035型轻型坦克"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BSH_infantry_weapons: "AKM"
  BSH_infantry_weapons_desc: "AKM于1959年开发，是AK-47步枪最常见的现代化改型，由米哈伊尔·卡拉什尼科夫开发。在自动射击时，它比它的前身更轻、更精确。"
  BSH_infantry_weapons_2: "AK-74"
@@ -6227,6 +6589,8 @@
  BSH_infantry_weapons_6_desc: "AK-12是俄罗斯的一款新型突击步枪。它是勇士未来步兵计划下开发的。它专为特种部队制造，将取代AK-103的生产。AK-12的平衡性和人体工程学得到了改进，使其成为俄罗斯迄今为止最精锐的突击步枪。"
  BSH_infantry_weapons_7: "AK-12M1"
  BSH_infantry_weapons_8: "AK-31"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BSH_Anti_Air_0: "9K32 箭-2"
@@ -6317,6 +6681,7 @@
  BSH_MBT_8: "T-99 黑鹰"
  BSH_MBT_8_short: "T-99"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CRM_infantry_weapons: "AKM"
  CRM_infantry_weapons_desc: "AKM于1959年开发，是AK-47步枪最常见的现代化改型，由米哈伊尔·卡拉什尼科夫开发。在自动射击时，它比它的前身更轻、更精确。"
  CRM_infantry_weapons_2: "AK-74"
@@ -6331,6 +6696,8 @@
  CRM_infantry_weapons_6_desc: "AK-12是俄罗斯的一款新型突击步枪。它是勇士未来步兵计划下开发的。它专为特种部队制造，将取代AK-103的生产。AK-12的平衡性和人体工程学得到了改进，使其成为俄罗斯迄今为止最精锐的突击步枪。"
  CRM_infantry_weapons_7: "AK-12M1"
  CRM_infantry_weapons_8: "AK-31"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CRM_Anti_Air_0: "9K32 箭-2"
@@ -6469,7 +6836,11 @@
  CRM_artillery_3: "D-50"
  CRM_artillery_4: "D-60"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CRM_util_vehicle_1: "吉尔-131"
+=======
+ CRM_util_vehicle_1: "ZIL-131"
+>>>>>>> main
 =======
  CRM_util_vehicle_1: "ZIL-131"
 >>>>>>> main
@@ -6480,6 +6851,7 @@
  CRM_util_vehicle_3_desc: "世界各地许多军队使用的一种物流卡车和运兵车。"
  CRM_util_vehicle_4: "卡玛兹-4350"
  CRM_util_vehicle_4_desc: "和狼很像，这种车可以携带8名步兵，但作为车队领队，车顶也可以携带重机枪。"
+<<<<<<< HEAD
 <<<<<<< HEAD
  CRM_util_vehicle_5: "高尔基 虎式"
  CRM_util_vehicle_5_desc: "这种装甲输送车可以装备一系列不同的武器，最多可携带11人。"
@@ -6504,12 +6876,17 @@
  TAT_infantry_weapons_7: "AK-12M1"
  TAT_infantry_weapons_8: "AK-31"
 =======
+=======
+>>>>>>> main
  CRM_util_vehicle_5: "GAZ 虎"
  CRM_util_vehicle_5_desc: "这种装甲输送车可以装备一系列不同的武器，最多可携带11人。"
  CRM_util_vehicle_6: "VPK-3927 狼"
  CRM_util_vehicle_6_desc: "VPK可搭载2+8人。配备STANAG 4569 3级装甲。非常适合特种部队和警察部队。"
  CRM_util_vehicle_7: "Z-STS 阿赫马特"
  CRM_util_vehicle_7_desc: "Z-STS 阿赫马特是在卡玛兹-5350卡车的三轴全轮驱动底盘上制造的。该车具有很高的机动性和安全性，此外，并没有提高操作复杂性。奇怪的是，作为一辆装甲车，采取了不同于卡车的引擎盖方案。这样就可以将乘员的位置后移，提高他们的安全性。"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  TAT_Anti_Air_0: "9K32 箭-2"
  TAT_Anti_Air_0_desc: "冷战初期设计，采用比例导引法，用于锁定并摧毁美国核轰炸机。这是一种基础型防空导弹，可打击3700-4200米高度的目标。"
@@ -6647,7 +7024,11 @@
  TAT_artillery_3: "D-50"
  TAT_artillery_4: "D-60"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TAT_util_vehicle_1: "吉尔-131"
+=======
+ TAT_util_vehicle_1: "ZIL-131"
+>>>>>>> main
 =======
  TAT_util_vehicle_1: "ZIL-131"
 >>>>>>> main
@@ -6659,6 +7040,7 @@
  TAT_util_vehicle_4: "卡玛兹-4350"
  TAT_util_vehicle_4_desc: "和狼很像，这种车可以携带8名步兵，但作为车队领队，车顶也可以携带重机枪。"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TAT_util_vehicle_5: "高尔基 虎式"
  TAT_util_vehicle_5_desc: "这种装甲输送车可以装备一系列不同的武器，最多可携带11人。"
  TAT_util_vehicle_6: "VPK-3927 狼"
@@ -6668,12 +7050,17 @@
  TAT_util_vehicle_8: "VMCTS 德罗兹-B"
  TAT_util_vehicle_8_desc: "在陆军-2020的展示中，德罗兹成功亮相，随后原型车开始进行测试，测试结果表明防护能力较弱。因此，德罗兹-B改良型出现了。这种最新型的装甲车可以克服河流障碍，而且有较好的热隐形性。底部合理的V形形状由复合装甲制成，可提供更强的防毒保护。"
 =======
+=======
+>>>>>>> main
  TAT_util_vehicle_5: "GAZ 虎"
  TAT_util_vehicle_5_desc: "这种装甲输送车可以装备一系列不同的武器，最多可携带11人。"
  TAT_util_vehicle_6: "VPK-3927 狼"
  TAT_util_vehicle_6_desc: "VPK可搭载2+8人。配备STANAG 4569 3级装甲。非常适合特种部队和警察部队。"
  TAT_util_vehicle_7: "Z-STS 阿赫马特"
  TAT_util_vehicle_7_desc: "Z-STS 阿赫马特是在卡玛兹-5350卡车的三轴全轮驱动底盘上制造的。该车具有很高的机动性和安全性，此外，并没有提高操作复杂性。奇怪的是，作为一辆装甲车，采取了不同于卡车的引擎盖方案。这样就可以将乘员的位置后移，提高他们的安全性。"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  BSH_mbt_equipment_0: "T-62"
  BSH_mbt_equipment_1: "T-72"
@@ -6724,7 +7111,11 @@
  BSH_artillery_3: "D-50"
  BSH_artillery_4: "D-60"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BSH_util_vehicle_1: "吉尔-131"
+=======
+ BSH_util_vehicle_1: "ZIL-131"
+>>>>>>> main
 =======
  BSH_util_vehicle_1: "ZIL-131"
 >>>>>>> main
@@ -6735,6 +7126,7 @@
  BSH_util_vehicle_3_desc: "世界各地许多军队使用的一种物流卡车和运兵车。"
  BSH_util_vehicle_4: "卡玛兹-4350"
  BSH_util_vehicle_4_desc: "和狼很像，这种车可以携带8名步兵，但作为车队领队，车顶也可以携带重机枪。"
+<<<<<<< HEAD
 <<<<<<< HEAD
  BSH_util_vehicle_5: "高尔基 虎式"
  BSH_util_vehicle_5_desc: "这种装甲输送车可以装备一系列不同的武器，最多可携带11人。"
@@ -6752,12 +7144,17 @@
  WAG_infantry_weapons_7: "AK-12M1"
  WAG_infantry_weapons_8: "AK-31"
 =======
+=======
+>>>>>>> main
  BSH_util_vehicle_5: "GAZ 虎"
  BSH_util_vehicle_5_desc: "这种装甲输送车可以装备一系列不同的武器，最多可携带11人。"
  BSH_util_vehicle_6: "VPK-3927 狼"
  BSH_util_vehicle_6_desc: "VPK可搭载2+8人。配备STANAG 4569 3级装甲。非常适合特种部队和警察部队。"
  BSH_util_vehicle_7: "Z-STS 阿赫马特"
  BSH_util_vehicle_7_desc: "Z-STS 阿赫马特是在卡玛兹-5350卡车的三轴全轮驱动底盘上制造的。该车具有很高的机动性和安全性，此外，并没有提高操作复杂性。奇怪的是，作为一辆装甲车，采取了不同于卡车的引擎盖方案。这样就可以将乘员的位置后移，提高他们的安全性。"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  WAG_Anti_Air_0: "9K32 箭-2"
  WAG_Anti_Air_0_desc: "冷战开始时设计，采用比例导航逻辑，用于锁定并摧毁美国核轰炸机。防空导弹的最基本形式之一，可以击中3700-4200米的目标。"
@@ -6895,6 +7292,7 @@
  WAG_artillery_3: "D-50"
  WAG_artillery_4: "D-60"
 <<<<<<< HEAD
+<<<<<<< HEAD
  WAG_util_vehicle_1: "吉尔-131"
  WAG_util_vehicle_2: "乌拉尔-4320"
  WAG_util_vehicle_3: "卡玛兹-4310"
@@ -6907,6 +7305,8 @@
  PMR_infantry_weapons_2: "AK-74"
  PMR_infantry_weapons_3: "AK-74N"
 =======
+=======
+>>>>>>> main
  WAG_util_vehicle_1: "ZIL-131"
  WAG_util_vehicle_2: "乌拉尔-4320"
  WAG_util_vehicle_3: "卡玛兹-4310"
@@ -6914,6 +7314,9 @@
  WAG_util_vehicle_5: "GAZ 虎"
  WAG_util_vehicle_6: "K-63968 台风-K"
  WAG_util_vehicle_7: "K-4386 台风-M"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  PMR_Anti_Air_0: "9K32 箭-2"
  PMR_Anti_Air_0_desc: "设计于冷战初期，使用无线电指令导航，可锁定并摧毁美国的核轰炸机。使用最基本的布局，可击中高度在3700-4200米的目标。"
@@ -6999,6 +7402,7 @@
  PMR_artillery_1_desc: "这只野兽般的大炮射出152毫米炮弹，射程28.9公里，能够摧毁整个步兵排或车队。"
  PMR_artillery_2: "D-40"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PMR_util_vehicle_1: "吉尔-131"
  PMR_util_vehicle_1_desc: "世界各地许多军队使用的一种运输车和运兵车。"
  PMR_util_vehicle_2: "德涅维"
@@ -7029,11 +7433,21 @@
  PMR_util_vehicle_3_desc: "世界各地许多军队使用的一种物流卡车和运兵车。"
  CHL_infantry_weapons_short: "SG 510-4"
 >>>>>>> main
+=======
+ PMR_util_vehicle_1: "ZIL-131"
+ PMR_util_vehicle_1_desc: "世界各地许多军队使用的一种物流卡车和运兵车。"
+ PMR_util_vehicle_2: "德涅维"
+ PMR_util_vehicle_2_desc: "基于GAZ-66底盘的悍马复制品。"
+ PMR_util_vehicle_3: "卡玛兹-4310"
+ PMR_util_vehicle_3_desc: "世界各地许多军队使用的一种物流卡车和运兵车。"
+ CHL_infantry_weapons_short: "SG 510-4"
+>>>>>>> main
  EQUIPMENT_DESCRIPTION: "$NAME$"
  EQUIPMENT_CAS: "近距支援机"
  GER_Anti_tank_1_short: "米兰"
  GER_Anti_tank_2_short: "多用途轻型导弹系统 长钉-LR"
  GER_Anti_tank_3_short: "多用途轻型导弹系统 长钉-LR2"
+<<<<<<< HEAD
 <<<<<<< HEAD
  GER_util_vehicle_1_short: "木星"
  GER_util_vehicle_4_short: "狼SSA"
@@ -7066,11 +7480,15 @@
 =======
  GER_util_vehicle_3_short: "狼 SSA"
 >>>>>>> main
+=======
+ GER_util_vehicle_3_short: "狼 SSA"
+>>>>>>> main
  nsb_attack_helicopter_tech_1: "第1代攻击直升机"
  nsb_attack_helicopter_tech_2: "第2代攻击直升机"
  nsb_attack_helicopter_tech_3: "第3代攻击直升机"
  nsb_attack_helicopter_tech_4: "第4代攻击直升机"
  nsb_attack_helicopter_tech_5: "第5代攻击直升机"
+<<<<<<< HEAD
 <<<<<<< HEAD
  TAI_infantry_weapons_8: "T126"
  UKR_infantry_weapons: "AKM"
@@ -7116,6 +7534,10 @@
  UKR_Anti_tank_0: "SPG-9"
  UKR_Anti_tank_2: "斯基泰斯图格纳-P"
 >>>>>>> main
+=======
+ UKR_Anti_tank_0: "SPG-9"
+ UKR_Anti_tank_2: "斯基泰斯图格纳-P"
+>>>>>>> main
  PER_kamikaze_drone_2: "见证者-131"
  PER_kamikaze_drone_3: "见证者-136"
  USA_kamikaze_drone_1: "AGM-136"
@@ -7130,6 +7552,7 @@
  C01_util_vehicle_1: "武装皮卡"
  C01_util_vehicle_2: "武装皮卡"
  C01_util_vehicle_3: "UAZ-469"
+<<<<<<< HEAD
 <<<<<<< HEAD
  C01_util_vehicle_4: "野马 红客"
  C01_util_vehicle_5: "美洲豹防地雷反伏击车"
@@ -8011,11 +8434,16 @@
  TRI_infantry_weapons_7: "FN SCAR-M 6.8"
  TRI_infantry_weapons_8: "阿空加瓜 32"
 =======
+=======
+>>>>>>> main
  C01_util_vehicle_4: "野马红客"
  C01_util_vehicle_5: "美洲豹防地雷反伏击车"
  C01_util_vehicle_6: "AMZ 野牛"
  C01_util_vehicle_7: "路易防地雷反伏击车"
  C01_util_vehicle_8: "路易防地雷反伏击车M2"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  HOL_mbt_equipment_0: "豹1"
  HOL_mbt_equipment_1: "豹2A6NL"
@@ -8061,6 +8489,7 @@
  BLR_mbt_equipment_2: "T-90M"
  BLR_mbt_equipment_3: "T-14"
  BLR_mbt_equipment_4: "T-24"
+<<<<<<< HEAD
 <<<<<<< HEAD
  SWI_infantry_weapons_8: "SG MCX 戟"
  TUR_util_vehicle_2: "M151 吉普"
@@ -9095,6 +9524,10 @@
 =======
  TUR_util_vehicle_1: "乌尼莫克"
  ISR_Anti_tank_1: "MAPATS"
+=======
+ TUR_util_vehicle_1: "乌尼莫克"
+ ISR_Anti_tank_1: "MAPATS"
+>>>>>>> main
  ISR_util_vehicle_6: "派拉塞 沙猫突击者"
  ISR_util_vehicle_7: "沙之主"
  CAN_Rec_tank_1_desc: "虽然外观与原版M113相似，但CV经过大量改装，以适应指挥和侦察用途。部队舱被完全拆除。与M113相同的6缸通用汽车发动机被放置在后部。虽然保留了M113的悬架，但取消了一个负重轮，每侧只剩下四个。"
@@ -9826,6 +10259,9 @@
  UAE_util_vehicle_6: "M-ATV"
  UAE_util_vehicle_7: "JLTV"
  QAT_util_vehicle_1: "M38吉普"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  QAT_util_vehicle_2: "M151 吉普"
  QAT_util_vehicle_3: "悍马"
@@ -9834,8 +10270,12 @@
  QAT_util_vehicle_6: "M-ATV"
  QAT_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  QAT_util_vehicle_8: "AOPIMU"
  BHR_util_vehicle_1: "M38 吉普"
+=======
+ BHR_util_vehicle_1: "M38吉普"
+>>>>>>> main
 =======
  BHR_util_vehicle_1: "M38吉普"
 >>>>>>> main
@@ -9846,8 +10286,12 @@
  BHR_util_vehicle_6: "M-ATV"
  BHR_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BHR_util_vehicle_8: "AOPIMU"
  KUW_util_vehicle_1: "M38 吉普"
+=======
+ KUW_util_vehicle_1: "M38吉普"
+>>>>>>> main
 =======
  KUW_util_vehicle_1: "M38吉普"
 >>>>>>> main
@@ -9858,6 +10302,7 @@
  KUW_util_vehicle_6: "M-ATV"
  KUW_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  KUW_util_vehicle_8: "AOPIMU"
  JOR_util_vehicle_1: "M38 吉普"
  JOR_util_vehicle_2: "M151 吉普"
@@ -9867,12 +10312,17 @@
  JOR_util_vehicle_8: "AOPIMU"
  AFG_util_vehicle_1: "M38 吉普"
 =======
+=======
+>>>>>>> main
  JOR_util_vehicle_1: "M38吉普"
  JOR_util_vehicle_2: "M151 吉普"
  JOR_util_vehicle_5: "MaxxPro 防地雷反伏击车"
  JOR_util_vehicle_6: "M-ATV"
  JOR_util_vehicle_7: "JLTV"
  AFG_util_vehicle_1: "M38吉普"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  AFG_util_vehicle_2: "M151 吉普"
  AFG_util_vehicle_3: "悍马"
@@ -9881,8 +10331,12 @@
  AFG_util_vehicle_6: "M-ATV"
  AFG_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  AFG_util_vehicle_8: "AOPIMU"
  KUR_util_vehicle_1: "M38 吉普"
+=======
+ KUR_util_vehicle_1: "M38吉普"
+>>>>>>> main
 =======
  KUR_util_vehicle_1: "M38吉普"
 >>>>>>> main
@@ -9893,8 +10347,12 @@
  KUR_util_vehicle_6: "M-ATV"
  KUR_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  KUR_util_vehicle_8: "AOPIMU"
  ROJ_util_vehicle_1: "M38 吉普"
+=======
+ ROJ_util_vehicle_1: "M38吉普"
+>>>>>>> main
 =======
  ROJ_util_vehicle_1: "M38吉普"
 >>>>>>> main
@@ -9904,6 +10362,7 @@
  ROJ_util_vehicle_5: "MaxxPro 防地雷反伏击车"
  ROJ_util_vehicle_6: "M-ATV"
  ROJ_util_vehicle_7: "JLTV"
+<<<<<<< HEAD
 <<<<<<< HEAD
  ROJ_util_vehicle_8: "AOPIMU"
  TUN_util_vehicle_1: "平茨高尔710/712"
@@ -9979,6 +10438,8 @@
  PAK_infantry_weapons_7: "QBZ-272"
  PAK_infantry_weapons_8: "QBZ-343"
 =======
+=======
+>>>>>>> main
  TUN_util_vehicle_1: "平茨高尔 710/712"
  TUN_util_vehicle_2: "路虎 110"
  TUN_util_vehicle_3: "依维科 VM 90"
@@ -10038,6 +10499,9 @@
  TIE_util_vehicle_6: "K-63968 台风-K"
  TIE_util_vehicle_7: "K-4386 台风-M"
  PAK_util_vehicle_2: "亚松"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  PAK_util_vehicle_3: "路虎卫士"
  PAK_util_vehicle_4: "CS/VA1"
@@ -10045,10 +10509,15 @@
  PAK_util_vehicle_6: "CS/VN11"
  PAK_util_vehicle_7: "CS/VN19"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PAK_util_vehicle_8: "CS/VN27"
  BRA_util_vehicle_1: "M38 吉普"
  BRA_util_vehicle_7: "VBMT 皮拉加"
  BRA_util_vehicle_8: "VBMT 皮拉加2"
+=======
+ BRA_util_vehicle_6: "VBMT-LSR 1A 瓜伊库拉斯"
+ BRA_util_vehicle_7: "VBMT 皮拉加"
+>>>>>>> main
 =======
  BRA_util_vehicle_6: "VBMT-LSR 1A 瓜伊库拉斯"
  BRA_util_vehicle_7: "VBMT 皮拉加"
@@ -10072,6 +10541,7 @@
  AST_Heavy_Anti_tank_3: "JLTV 长钉 NLOS Mk.6"
  AST_Heavy_Anti_tank_4: "ATCV 超新星"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CZE_util_vehicle_2_short: "太脱拉 813"
  CZE_util_vehicle_4_short: "太脱拉 815-7"
  FIN_util_vehicle_1: "吉尔-131"
@@ -10081,12 +10551,17 @@
  FIN_util_vehicle_7: "西苏野犬3"
  FIN_util_vehicle_8: "西苏野犬3A1"
 =======
+=======
+>>>>>>> main
  CZE_util_vehicle_1_short: "布拉格M59"
  FIN_util_vehicle_3: "西苏 SA-150"
  FIN_util_vehicle_4: "G级越野车"
  FIN_util_vehicle_5: "RG-32M"
  FIN_util_vehicle_6: "西苏 GTP"
  FIN_util_vehicle_7: "西苏野犬3"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  BEL_Heavy_Anti_tank_0: "AMX 13 SS.11"
  BEL_Heavy_Anti_tank_1: "VAB 梅菲斯托（霍特）"
@@ -10290,6 +10765,7 @@
  ISR_artillery_4: "ATHOS 2052"
  PER_Anti_tank_2: "阿玛斯"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PER_util_vehicle_7: "拉德"
  PER_util_vehicle_8: "拉德-2"
  RAJ_infantry_weapons_8: "AK-305"
@@ -10385,6 +10861,12 @@
  PER_util_vehicle_7: "拉德"
  ROM_Anti_tank_0: "AG-7"
  ROM_Anti_tank_0_short: "AG-7"
+=======
+ PER_util_vehicle_6: "头帆 2"
+ PER_util_vehicle_7: "拉德"
+ ROM_Anti_tank_0: "AG-7"
+ ROM_Anti_tank_0_short: "AG-7"
+>>>>>>> main
  ROM_util_vehicle_1: "ZIL-131"
  BLR_util_vehicle_5: "GAZ 虎"
  BLR_util_vehicle_6: "K-63968 台风-K"
@@ -10456,11 +10938,15 @@
  ALB_util_vehicle_5: "GAZ 虎"
  ALB_util_vehicle_6: "K-63968 台风-K"
  ALB_util_vehicle_7: "绍塔 防地雷反伏击车"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  FYR_util_vehicle_1: "TAM 110"
  FYR_util_vehicle_2: "TAM 150"
  FYR_util_vehicle_3: "FAP 2026"
  FYR_util_vehicle_4: "卡玛兹-4350"
+<<<<<<< HEAD
 <<<<<<< HEAD
  FYR_util_vehicle_5: "高尔基 虎式"
  FYR_util_vehicle_6: "K-63968 台风-K"
@@ -10573,6 +11059,58 @@
  TAI_artillery_0: "T-63"
  UKR_util_vehicle_6: "哥萨克"
 >>>>>>> main
+=======
+ FYR_util_vehicle_5: "GAZ 虎"
+ FYR_util_vehicle_6: "K-63968 台风-K"
+ FYR_util_vehicle_7: "K-4386 台风-M"
+ DPR_util_vehicle_1: "ZIL-131"
+ DPR_util_vehicle_2: "乌拉尔-4320"
+ DPR_util_vehicle_3: "卡玛兹-4310"
+ DPR_util_vehicle_4: "卡玛兹-4350"
+ DPR_util_vehicle_5: "GAZ 虎"
+ DPR_util_vehicle_6: "K-63968 台风-K"
+ DPR_util_vehicle_7: "K-4386 台风-M"
+ DRP_util_vehicle_1: "ZIL-131"
+ DRP_util_vehicle_2: "乌拉尔-4320"
+ DRP_util_vehicle_3: "卡玛兹-4310"
+ DRP_util_vehicle_4: "卡玛兹-4350"
+ DRP_util_vehicle_5: "GAZ 虎"
+ DRP_util_vehicle_6: "K-63968 台风-K"
+ DRP_util_vehicle_7: "K-4386 台风-M"
+ NOV_util_vehicle_1: "ZIL-131"
+ NOV_util_vehicle_2: "乌拉尔-4320"
+ NOV_util_vehicle_3: "卡玛兹-4310"
+ NOV_util_vehicle_4: "卡玛兹-4350"
+ NOV_util_vehicle_5: "GAZ 虎"
+ NOV_util_vehicle_6: "K-63968 台风-K"
+ NOV_util_vehicle_7: "K-4386 台风-M"
+ LPR_util_vehicle_1: "ZIL-131"
+ LPR_util_vehicle_2: "乌拉尔-4320"
+ LPR_util_vehicle_3: "卡玛兹-4310"
+ LPR_util_vehicle_4: "卡玛兹-4350"
+ LPR_util_vehicle_5: "GAZ 虎"
+ LPR_util_vehicle_6: "K-63968 台风-K"
+ LPR_util_vehicle_7: "K-4386 台风-M"
+ LRP_util_vehicle_1: "ZIL-131"
+ LRP_util_vehicle_2: "乌拉尔-4320"
+ LRP_util_vehicle_3: "卡玛兹-4310"
+ LRP_util_vehicle_4: "卡玛兹-4350"
+ LRP_util_vehicle_5: "GAZ 虎"
+ LRP_util_vehicle_6: "K-63968 台风-K"
+ LRP_util_vehicle_7: "K-4386 台风-M"
+ CUB_util_vehicle_1: "ZIL-131"
+ CUB_util_vehicle_2: "乌拉尔-4320"
+ CUB_util_vehicle_3: "卡玛兹-4310"
+ CUB_util_vehicle_4: "卡玛兹-4350"
+ CUB_util_vehicle_5: "GAZ 虎"
+ CUB_util_vehicle_6: "K-63968 台风-K"
+ CUB_util_vehicle_7: "K-4386 台风-M"
+ SWE_util_vehicle_5: "Tgb 16"
+ SWE_util_vehicle_6: "Tgb 24"
+ SWE_util_vehicle_7: "ATF 野犬 3"
+ TAI_artillery_0: "T-63"
+ UKR_util_vehicle_6: "哥萨克"
+>>>>>>> main
  UKR_Anti_Air_0: "9K32 箭-2"
  UKR_Anti_Air_1: "9K38 针"
  UKR_Anti_Air_2: "9K38 针-S"
@@ -10585,10 +11123,13 @@
  USA_mpa_equipment_4: "F-42E 夜莺"
  USA_medium_plane_cas_airframe_4: "F-42D 夜莺"
 <<<<<<< HEAD
+<<<<<<< HEAD
  VIE_infantry_weapons_7: "STL M-24"
  VIE_infantry_weapons_8: "STV-035"
  SAF_transport_helicopter1: "阿特拉斯 羚羊"
  SAF_transport_helicopter1_short: "阿特拉斯 羚羊"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SOV_spaa_equipment_1: "托尔-M1"
@@ -10611,9 +11152,12 @@
  AZE_Anti_tank_0: "RPG-7V2 岩石"
  SLO_util_vehicle_1_short: "布拉格M59"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SLO_util_vehicle_2_short: "太脱拉 813"
  BUL_infantry_weapons_7: "AR-M12"
  BUL_infantry_weapons_8: "AR-M17"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BUL_Anti_tank_0: "ATGL-L"
@@ -10622,7 +11166,10 @@
  CAN_artillery_3: "M585"
  CAN_artillery_4: "M667"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CHE_infantry_weapons_3: "BORZ"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  FIN_artillery_0: "122 H 63"
@@ -11189,8 +11736,11 @@
  IRQ_mbt_equipment_4: "T-24"
  IRQ_spaa_equipment_1: "托尔-M1"
 <<<<<<< HEAD
+<<<<<<< HEAD
  JAP_util_vehicle_1: "日产途乐"
  JAP_util_vehicle_1_short: "日产途乐"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  KOR_artillery_0: "KH178"
@@ -11202,7 +11752,11 @@
  PER_artillery_4: "HM-50"
  PER_Anti_Air_0: "米萨格-1"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SLV_util_vehicle_3: "FAP 2026"
+=======
+ SLV_util_vehicle_2: "TAM 150"
+>>>>>>> main
 =======
  SLV_util_vehicle_2: "TAM 150"
 >>>>>>> main
@@ -11217,7 +11771,11 @@
  SYR_Anti_Air_3: "9K335 柳树-S"
  SYR_Anti_Air_4: "9K48"
 <<<<<<< HEAD
+<<<<<<< HEAD
  UKR_util_vehicle_8: "创新者 2"
+=======
+ UKR_util_vehicle_7: "创新者"
+>>>>>>> main
 =======
  UKR_util_vehicle_7: "创新者"
 >>>>>>> main
@@ -11269,7 +11827,10 @@
  UKR_kamikaze_drone_2: "AQ-400 飞镰"
  UKR_kamikaze_drone_3: "UJ-26 海狸"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SPR_infantry_weapons_5: "黑克勒&科赫 G36A2"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  POL_artillery_0: "D-30"
@@ -11277,6 +11838,7 @@
  POL_artillery_2: "M777"
  POL_artillery_3: "M585"
  POL_artillery_4: "M667"
+<<<<<<< HEAD
 <<<<<<< HEAD
  TAI_util_vehicle_1: "M38 吉普"
  TAI_util_vehicle_2: "M151 吉普"
@@ -11287,6 +11849,8 @@
  TAI_util_vehicle_7: "JLTV"
  TAI_util_vehicle_8: "AOPIMU"
 =======
+=======
+>>>>>>> main
  TAI_util_vehicle_1: "M38吉普"
  TAI_util_vehicle_2: "M151 吉普"
  TAI_util_vehicle_3: "悍马"
@@ -11294,6 +11858,9 @@
  TAI_util_vehicle_4: "M1113 悍马 ECV"
  TAI_util_vehicle_6: "M-ATV"
  TAI_util_vehicle_7: "JLTV"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  TAI_artillery_1: "M198"
  TAI_artillery_2: "M777"

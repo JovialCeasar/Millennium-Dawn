@@ -133,6 +133,7 @@ equipments = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	#1965
 	heavy_tank_chassis_10 = {
 		abbreviation = "ahh0"
@@ -150,6 +151,8 @@ equipments = {
 		}
 	}
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	heavy_tank_chassis_0 = {
@@ -551,7 +554,10 @@ equipments = {
 					helicopter_sensor_and_avionics_type
 					helicopter_drone_control_type_category
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 				}
 			}
 			defence_type_slot = {
@@ -657,6 +663,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					helicopter_sensor_and_avionics_type
+<<<<<<< HEAD
 >>>>>>> main
 				}
 			}
@@ -766,6 +773,8 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					helicopter_sensor_and_avionics_type
+=======
+>>>>>>> main
 				}
 			}
 			defence_type_slot = {
@@ -807,6 +816,9 @@ equipments = {
 			helicopter_nsb_upgrade
 		}
 	}
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	#2055

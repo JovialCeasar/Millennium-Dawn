@@ -207,7 +207,11 @@ equipments = {
 	}
 	### Space Artillery
 <<<<<<< HEAD
+<<<<<<< HEAD
 	space_artillery_equipment = {
+=======
+	space_artillery_equipment_type = {
+>>>>>>> main
 =======
 	space_artillery_equipment_type = {
 >>>>>>> main
@@ -239,7 +243,11 @@ equipments = {
 		lend_lease_cost = 1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		build_cost_ic =36.86
+=======
+		build_cost_ic = 186.89
+>>>>>>> main
 =======
 		build_cost_ic = 186.89
 >>>>>>> main
@@ -255,7 +263,11 @@ equipments = {
 		year = 2035
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		archetype = space_artillery_equipment
+=======
+		archetype = space_artillery_equipment_type
+>>>>>>> main
 =======
 		archetype = space_artillery_equipment_type
 >>>>>>> main
@@ -281,15 +293,21 @@ equipments = {
 		lend_lease_cost = 1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		build_cost_ic = 36.86
 
 		resources = {
 			microchips = 4
 =======
+=======
+>>>>>>> main
 		build_cost_ic = 186.89
 
 		resources = {
 			microchips = 8
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			composites = 2
 			chromium = 4

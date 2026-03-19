@@ -14,6 +14,7 @@ has_support_of_p5 = {
 			custom_trigger_tooltip = {
 				tooltip = security_council_support_tt
 <<<<<<< HEAD
+<<<<<<< HEAD
 				USA = {
 					has_country_flag = Recognised_[thname]
 				}
@@ -27,6 +28,10 @@ has_support_of_p5 = {
 					has_country_flag = Recognised_[thname]
 				}
 				CHI = {
+=======
+				all_of_scopes = {
+					array = global.p5_sc_members
+>>>>>>> main
 =======
 				all_of_scopes = {
 					array = global.p5_sc_members

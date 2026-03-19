@@ -25,6 +25,7 @@ types = {
 		# Can prepare
 		available = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			FROM = {
 				NOT = {
 					is_subject_of = ROOT
@@ -33,6 +34,9 @@ types = {
 					has_non_aggression_pact_with = ROOT
 				}
 			}
+=======
+			raid_target_eligible = yes
+>>>>>>> main
 =======
 			raid_target_eligible = yes
 >>>>>>> main
@@ -427,6 +431,7 @@ types = {
 		# Can prepare
 		available = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			FROM = {
 				NOT = {
 					is_subject_of = ROOT
@@ -435,6 +440,9 @@ types = {
 					has_non_aggression_pact_with = ROOT
 				}
 			}
+=======
+			raid_target_eligible = yes
+>>>>>>> main
 =======
 			raid_target_eligible = yes
 >>>>>>> main
@@ -890,6 +898,7 @@ types = {
 		# Can prepare
 		available = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			FROM = {
 				NOT = {
 					is_subject_of = ROOT
@@ -898,6 +907,9 @@ types = {
 					has_non_aggression_pact_with = ROOT
 				}
 			}
+=======
+			raid_target_eligible = yes
+>>>>>>> main
 =======
 			raid_target_eligible = yes
 >>>>>>> main
@@ -1753,6 +1765,7 @@ types = {
 		# Can prepare
 		available = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			FROM = {
 				NOT = {
 					is_subject_of = ROOT
@@ -1761,6 +1774,9 @@ types = {
 					has_non_aggression_pact_with = ROOT
 				}
 			}
+=======
+			raid_target_eligible = yes
+>>>>>>> main
 =======
 			raid_target_eligible = yes
 >>>>>>> main

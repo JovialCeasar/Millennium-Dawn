@@ -1854,9 +1854,12 @@ LBA_civil_war_cleanup_effect = {
 		remove_ideas = Non_State_Actor
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	subtract_from_variable = { threat_level = 30 }
 	clamp_threat = yes
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	news_event = { id = LibyaNews.1 hours = 18 random_hours = 24 }

@@ -6865,6 +6865,12 @@ focus_tree = {
 
 		prerequisite = { focus = HOL_Military_Production_Investments }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+		search_filters = { FOCUS_FILTER_MILITARY_LAWS }
+
+>>>>>>> main
 =======
 
 		search_filters = { FOCUS_FILTER_MILITARY_LAWS }

@@ -245,9 +245,12 @@ capital = 522
 		SP_Anti_Air_0 = 1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		transport_helicopter1 = 1
 		nsb_transport_helicopter1 = 1
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		body_armor_1 = 1

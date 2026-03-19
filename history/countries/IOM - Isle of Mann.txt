@@ -79,12 +79,15 @@ capital = 955
 		util_vehicle_4 = 1
 		util_vehicle_5 = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 		transport_helicopter1 = 1
 		nsb_transport_helicopter1 = 1
 		transport_helicopter2 = 1
 		nsb_transport_helicopter2 = 1 #Westland WG-13 Lynx
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 

@@ -2365,7 +2365,13 @@ target_all_filtered_sats = {
 				check_variable = { ROOT.sat_disp_num = 1 }
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 			target_gnss = yes
+=======
+			set_temp_variable = { target_range_min = 110 }
+			set_temp_variable = { target_range_max = 119 }
+			target_sat_type = yes
+>>>>>>> main
 =======
 			set_temp_variable = { target_range_min = 110 }
 			set_temp_variable = { target_range_max = 119 }
@@ -2377,7 +2383,13 @@ target_all_filtered_sats = {
 				check_variable = { ROOT.sat_disp_num = 2 }
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 			target_com = yes
+=======
+			set_temp_variable = { target_range_min = 120 }
+			set_temp_variable = { target_range_max = 129 }
+			target_sat_type = yes
+>>>>>>> main
 =======
 			set_temp_variable = { target_range_min = 120 }
 			set_temp_variable = { target_range_max = 129 }
@@ -2389,7 +2401,13 @@ target_all_filtered_sats = {
 				check_variable = { ROOT.sat_disp_num = 3 }
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 			target_spy = yes
+=======
+			set_temp_variable = { target_range_min = 130 }
+			set_temp_variable = { target_range_max = 139 }
+			target_sat_type = yes
+>>>>>>> main
 =======
 			set_temp_variable = { target_range_min = 130 }
 			set_temp_variable = { target_range_max = 139 }
@@ -2399,6 +2417,7 @@ target_all_filtered_sats = {
 	}
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 target_gnss = {
 	for_each_loop = {
@@ -2424,6 +2443,8 @@ target_gnss = {
 						check_variable = { orbit_array^gfx_idx = 118 }
 					}
 =======
+=======
+>>>>>>> main
 target_sat_type = {
 	for_each_loop = {
 		array = sat_1_array
@@ -2435,6 +2456,9 @@ target_sat_type = {
 				limit = {
 					check_variable = { orbit_array^gfx_idx > target_range_min }
 					check_variable = { orbit_array^gfx_idx < target_range_max }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 				}
 				add_to_array = { ROOT.sat_target_array = v }
@@ -2455,6 +2479,7 @@ target_sat_type = {
 		array = sat_2_array
 		value = v
 <<<<<<< HEAD
+<<<<<<< HEAD
 		index = i
 
 		if = {
@@ -2475,6 +2500,8 @@ target_sat_type = {
 						check_variable = { orbit_array^gfx_idx = 118 }
 					}
 =======
+=======
+>>>>>>> main
 		if = {
 			limit = { check_variable = { ROOT.spec_filter = 0 } }
 			set_temp_variable = { gfx_idx = v }
@@ -2482,6 +2509,9 @@ target_sat_type = {
 				limit = {
 					check_variable = { orbit_array^gfx_idx > target_range_min }
 					check_variable = { orbit_array^gfx_idx < target_range_max }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 				}
 				add_to_array = { ROOT.sat_target_array = v }
@@ -2502,6 +2532,7 @@ target_sat_type = {
 		array = sat_3_array
 		value = v
 <<<<<<< HEAD
+<<<<<<< HEAD
 		index = i
 
 		if = {
@@ -2522,6 +2553,8 @@ target_sat_type = {
 						check_variable = { orbit_array^gfx_idx = 118 }
 					}
 =======
+=======
+>>>>>>> main
 		if = {
 			limit = { check_variable = { ROOT.spec_filter = 0 } }
 			set_temp_variable = { gfx_idx = v }
@@ -2529,6 +2562,9 @@ target_sat_type = {
 				limit = {
 					check_variable = { orbit_array^gfx_idx > target_range_min }
 					check_variable = { orbit_array^gfx_idx < target_range_max }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 				}
 				add_to_array = { ROOT.sat_target_array = v }
@@ -2549,52 +2585,6 @@ target_sat_type = {
 		array = sat_4_array
 		value = v
 <<<<<<< HEAD
-		index = i
-
-		if = {
-			limit = {
-				check_variable = { ROOT.spec_filter = 0 }
-			}
-			set_temp_variable = { gfx_idx = v }
-			if = {
-				limit = {
-					OR = {
-						check_variable = { orbit_array^gfx_idx = 111 }
-						check_variable = { orbit_array^gfx_idx = 112 }
-						check_variable = { orbit_array^gfx_idx = 113 }
-						check_variable = { orbit_array^gfx_idx = 114 }
-						check_variable = { orbit_array^gfx_idx = 115 }
-						check_variable = { orbit_array^gfx_idx = 116 }
-						check_variable = { orbit_array^gfx_idx = 117 }
-						check_variable = { orbit_array^gfx_idx = 118 }
-					}
-=======
-		if = {
-			limit = { check_variable = { ROOT.spec_filter = 0 } }
-			set_temp_variable = { gfx_idx = v }
-			if = {
-				limit = {
-					check_variable = { orbit_array^gfx_idx > target_range_min }
-					check_variable = { orbit_array^gfx_idx < target_range_max }
->>>>>>> main
-				}
-				add_to_array = { ROOT.sat_target_array = v }
-				add_to_array = { ROOT.sat_target_TAG_array = orbit_selected_TAG }
-			}
-		}else = {
-			set_temp_variable = { gfx_idx = v }
-			if = {
-				limit = {
-					check_variable = { orbit_array^gfx_idx = ROOT.spec_filter }
-				}
-				add_to_array = { ROOT.sat_target_array = v }
-				add_to_array = { ROOT.sat_target_TAG_array = orbit_selected_TAG }
-			}
-		}
-	}
-	for_each_loop = {
-		array = sat_5_array
-		value = v
 <<<<<<< HEAD
 		index = i
 
@@ -2616,6 +2606,8 @@ target_sat_type = {
 						check_variable = { orbit_array^gfx_idx = 118 }
 					}
 =======
+=======
+>>>>>>> main
 		if = {
 			limit = { check_variable = { ROOT.spec_filter = 0 } }
 			set_temp_variable = { gfx_idx = v }
@@ -2623,6 +2615,62 @@ target_sat_type = {
 				limit = {
 					check_variable = { orbit_array^gfx_idx > target_range_min }
 					check_variable = { orbit_array^gfx_idx < target_range_max }
+<<<<<<< HEAD
+>>>>>>> main
+=======
+>>>>>>> main
+				}
+				add_to_array = { ROOT.sat_target_array = v }
+				add_to_array = { ROOT.sat_target_TAG_array = orbit_selected_TAG }
+			}
+		}else = {
+			set_temp_variable = { gfx_idx = v }
+			if = {
+				limit = {
+					check_variable = { orbit_array^gfx_idx = ROOT.spec_filter }
+				}
+				add_to_array = { ROOT.sat_target_array = v }
+				add_to_array = { ROOT.sat_target_TAG_array = orbit_selected_TAG }
+			}
+		}
+	}
+	for_each_loop = {
+		array = sat_5_array
+		value = v
+<<<<<<< HEAD
+<<<<<<< HEAD
+		index = i
+
+		if = {
+			limit = {
+				check_variable = { ROOT.spec_filter = 0 }
+			}
+			set_temp_variable = { gfx_idx = v }
+			if = {
+				limit = {
+					OR = {
+						check_variable = { orbit_array^gfx_idx = 111 }
+						check_variable = { orbit_array^gfx_idx = 112 }
+						check_variable = { orbit_array^gfx_idx = 113 }
+						check_variable = { orbit_array^gfx_idx = 114 }
+						check_variable = { orbit_array^gfx_idx = 115 }
+						check_variable = { orbit_array^gfx_idx = 116 }
+						check_variable = { orbit_array^gfx_idx = 117 }
+						check_variable = { orbit_array^gfx_idx = 118 }
+					}
+=======
+=======
+>>>>>>> main
+		if = {
+			limit = { check_variable = { ROOT.spec_filter = 0 } }
+			set_temp_variable = { gfx_idx = v }
+			if = {
+				limit = {
+					check_variable = { orbit_array^gfx_idx > target_range_min }
+					check_variable = { orbit_array^gfx_idx < target_range_max }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 				}
 				add_to_array = { ROOT.sat_target_array = v }
@@ -2642,6 +2690,7 @@ target_sat_type = {
 	for_each_loop = {
 		array = sat_6_array
 		value = v
+<<<<<<< HEAD
 <<<<<<< HEAD
 		index = i
 
@@ -3113,6 +3162,8 @@ target_spy = {
 						check_variable = { orbit_array^gfx_idx = 138 }
 					}
 =======
+=======
+>>>>>>> main
 		if = {
 			limit = { check_variable = { ROOT.spec_filter = 0 } }
 			set_temp_variable = { gfx_idx = v }
@@ -3120,6 +3171,9 @@ target_spy = {
 				limit = {
 					check_variable = { orbit_array^gfx_idx > target_range_min }
 					check_variable = { orbit_array^gfx_idx < target_range_max }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 				}
 				add_to_array = { ROOT.sat_target_array = v }

@@ -182,6 +182,7 @@ tsmc_modifier = {
 	local_resources_microchips_factor = tai_tsmc_prod_boost_var
 	production_speed_microchip_plant_factor = tai_tsmc_const_boost_var
 	energy_use_modifier_microchip_plant = tai_tsmc_energy_use_var
+<<<<<<< HEAD
 }
 
 counter_terrorism_operations = {
@@ -190,6 +191,8 @@ counter_terrorism_operations = {
 	terror_threat_detection_modifier = ct_threat_detect_var
 	terror_threat_base_detect_modifier = ct_global_base_detect_var
 	police_cost_multiplier_modifier = ct_police_cost_var
+=======
+>>>>>>> main
 }
 
 resource_storage_modifier = {
@@ -205,6 +208,7 @@ united_nations_member = {
 	enable = { always = yes }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	icon = "GFX_idea_tsmc"
 
 	stability_factor = 0.01
@@ -213,6 +217,8 @@ united_nations_member = {
 	foreign_influence_defense_modifier = united_nations_contribution_percent
 }
 =======
+=======
+>>>>>>> main
 	icon = "GFX_idea_UNGA_spirit"
 
 	stability_factor = 0.01
@@ -250,4 +256,7 @@ education_dynamic_modifier = {
 	offices_productivity = literacy_educated_workers
 	agricolture_productivity_modifier = literacy_retarded_workers
 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main

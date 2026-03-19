@@ -649,7 +649,10 @@ equipment_modules = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	art_med_rocket_gen6 = {
 		abbreviation = "amr6"
 		category = art_rocket_module
@@ -707,6 +710,9 @@ equipment_modules = {
 		}
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	land_module_drone_launcher_1 = {
 		abbreviation = "dl1"
@@ -793,6 +799,7 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 18.2
 			maximum_speed = -1.25
 			soft_attack = 46.25
@@ -801,6 +808,8 @@ equipment_modules = {
 			breakthrough = 19.52
 			defense = 4.87
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 23.17
 			maximum_speed = -1.35
 			soft_attack = 57.81
@@ -808,6 +817,9 @@ equipment_modules = {
 			ap_attack = 25.26
 			breakthrough = 24.40
 			defense = 6.08
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -853,6 +865,7 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 18.2
 			maximum_speed = -1.25
 			soft_attack = 46.25
@@ -861,6 +874,8 @@ equipment_modules = {
 			breakthrough = 19.52
 			defense = 4.87
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 29.49
 			maximum_speed = -1.47
 			soft_attack = 72.27
@@ -868,6 +883,9 @@ equipment_modules = {
 			ap_attack = 32.57
 			breakthrough = 30.50
 			defense = 7.60
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -913,6 +931,7 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 18.2
 			maximum_speed = -1.25
 			soft_attack = 46.25
@@ -921,6 +940,8 @@ equipment_modules = {
 			breakthrough = 19.52
 			defense = 4.87
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 37.55
 			maximum_speed = -1.59
 			soft_attack = 90.33
@@ -928,6 +949,9 @@ equipment_modules = {
 			ap_attack = 41.98
 			breakthrough = 38.13
 			defense = 9.49
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 

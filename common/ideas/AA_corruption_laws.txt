@@ -42,8 +42,11 @@ ideas = {
 				international_market_purchase_modifier = 0.50
 				migration_rate_value_factor = -0.15
 <<<<<<< HEAD
+<<<<<<< HEAD
 				minimum_terror_threat_modifier = 20
 				minimum_radicalization_modifier = 20
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 				terror_threat_base_detect_modifier = -9
@@ -103,8 +106,11 @@ ideas = {
 				international_market_purchase_modifier = 0.40
 				migration_rate_value_factor = -0.12
 <<<<<<< HEAD
+<<<<<<< HEAD
 				minimum_terror_threat_modifier = 15
 				minimum_radicalization_modifier = 15
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 				terror_threat_base_detect_modifier = -7
@@ -219,8 +225,11 @@ ideas = {
 				international_market_purchase_modifier = 0.30
 				migration_rate_value_factor = -0.08
 <<<<<<< HEAD
+<<<<<<< HEAD
 				minimum_terror_threat_modifier = 5
 				minimum_radicalization_modifier = 5
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 				terror_threat_base_detect_modifier = -5

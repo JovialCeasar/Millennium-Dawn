@@ -429,6 +429,9 @@ v2.0.0
   - Fixed CHI not correctly declaring war with global war rule enabled
   - [IRQ] Fixed iraqi_events.3 decline option sending rejection notification to Iran instead of Iraq, preventing Saddam's response event from firing
   - [UKR] Fixed HUR partisan point calculation using duplicate police_04 checks instead of descending through police_04/03/02 tiers
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
  Content:
@@ -513,9 +516,15 @@ v2.0.0
   - Moved all International Systems into a singular UI for streamlined usage. Old Space Program UI now contains all international systems
   - Re-Worked Counter-Terrorism system. It now functions more like a hide-and-seek game, with the player attemping to hunt down the organizations while managing the terror threat
 <<<<<<< HEAD
+<<<<<<< HEAD
 	- This includes the new UI, along with new Raids, and expansions of the Intelligence System
   - Added United Nations systems to International Systems mechanics
 	- This adds a UN AID system, and a Security Council system
+=======
+    - This includes the new UI, along with new Raids, and expansions of the Intelligence System
+  - Added United Nations systems to International Systems mechanics
+    - This adds a UN AID, UNSC, and UNGA menu for each respective organ with fleshed out voting and resolution passing systems
+>>>>>>> main
 =======
     - This includes the new UI, along with new Raids, and expansions of the Intelligence System
   - Added United Nations systems to International Systems mechanics
@@ -526,8 +535,13 @@ v2.0.0
   - Made adjustment to the Space system menus for production, orbit, and space center
     - Orbit view now has filter buttons to make finding and targetting specific satellites easier
 <<<<<<< HEAD
+<<<<<<< HEAD
 	- Nation selection UI has been adjust so that it now displays the name and flag of the country, and not just the flag
 	- Production & Payload menus now display what version a satellite is, along with the name.
+=======
+    - Nation selection UI has been adjust so that it now displays the name and flag of the country, and not just the flag
+    - Production & Payload menus now display what version a satellite is, along with the name.
+>>>>>>> main
 =======
     - Nation selection UI has been adjust so that it now displays the name and flag of the country, and not just the flag
     - Production & Payload menus now display what version a satellite is, along with the name.

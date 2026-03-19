@@ -328,7 +328,10 @@ capital = 598
 		microchip_production_2 = 1
 		microchip_production_3 = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		COMSAT1 = 1
@@ -344,16 +347,22 @@ capital = 598
 		early_freight_locomotive = 1
 		infantry_mass_assault = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		infantry_weapons_1 = 1
 		infantry_weapons_2 = 1
 		infantry_weapons_3 = 1
 		infantry_weapons_4 = 1
 =======
+=======
+>>>>>>> main
 		infantry_weapons_1 = 1
 		infantry_weapons_1 = 1
 		infantry_weapons_2 = 1
 		infantry_weapons_3 = 1
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		support_weapons = 1
 		support_weapons2 = 1
@@ -382,6 +391,7 @@ capital = 598
 		combat_eng_equipment = 1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		util_vehicle_1 = 1
 
 
@@ -390,6 +400,9 @@ capital = 598
 		transport_helicopter2 = 1
 		nsb_transport_helicopter2 = 1
 
+=======
+		util_vehicle_1 = 11
+>>>>>>> main
 =======
 		util_vehicle_1 = 11
 >>>>>>> main
@@ -649,8 +662,13 @@ capital = 598
 	reverse_add_opinion_modifier = { target = USA modifier = large_commercial_relations }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	add_opinion_modifier = { target = JAP modifier = maritime_border_dispute }
 	reverse_add_opinion_modifier = { target = JAP modifier = maritime_border_dispute }
+=======
+	add_opinion_modifier = { target = JAP modifier = minor_border_dispute }
+	reverse_add_opinion_modifier = { target = JAP modifier = minor_border_dispute }
+>>>>>>> main
 =======
 	add_opinion_modifier = { target = JAP modifier = minor_border_dispute }
 	reverse_add_opinion_modifier = { target = JAP modifier = minor_border_dispute }

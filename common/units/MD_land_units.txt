@@ -1744,7 +1744,10 @@ sub_units = {
 		priority = 10
 		active = yes
 <<<<<<< HEAD
+<<<<<<< HEAD
 		can_be_parachuted = yes
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 
@@ -2723,8 +2726,11 @@ sub_units = {
 			movement = 0.1
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		can_be_parachuted = yes
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	}
@@ -4674,7 +4680,11 @@ sub_units = {
 
 	# Zombie Game Mode
 <<<<<<< HEAD
+<<<<<<< HEAD
 	Zombies = {
+=======
+	zombies = {
+>>>>>>> main
 =======
 	zombies = {
 >>>>>>> main
@@ -4706,10 +4716,16 @@ sub_units = {
 		default_morale = 1000
 		manpower = 3000
 <<<<<<< HEAD
+<<<<<<< HEAD
 		training_time = 30
 
 		#Misc Abilities
 		training_time = 1
+=======
+		training_time = 3
+
+		#Misc Abilities
+>>>>>>> main
 =======
 		training_time = 3
 
@@ -4725,7 +4741,10 @@ sub_units = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	zombie_runner = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -4808,6 +4827,9 @@ sub_units = {
 		}
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	medium_walker_battalion = {
 		sprite = MD4_medium_armor
@@ -4908,6 +4930,10 @@ sub_units = {
 		priority = 30
 		active = no
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+		affects_speed = yes
+>>>>>>> main
 =======
 		affects_speed = yes
 >>>>>>> main
@@ -4966,6 +4992,7 @@ sub_units = {
 			defence = 0.15
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		forest = {
 			attack = -0.3
 			defence = -0.1
@@ -4999,6 +5026,8 @@ sub_units = {
 		amphibious = {
 			attack = -0.4 #was 0.4
 =======
+=======
+>>>>>>> main
 		mountain = {
 			movement = -0.10
 		}
@@ -5011,6 +5040,9 @@ sub_units = {
 		amphibious = {
 			attack = -0.80
 			defence = -0.80
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 	}
@@ -5020,6 +5052,10 @@ sub_units = {
 		priority = 30
 		active = no
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+		affects_speed = yes
+>>>>>>> main
 =======
 		affects_speed = yes
 >>>>>>> main
@@ -5078,6 +5114,7 @@ sub_units = {
 			defence = 0.15
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		forest = {
 			attack = -0.3
 			defence = -0.1
@@ -5111,6 +5148,8 @@ sub_units = {
 		amphibious = {
 			attack = -0.4 #was 0.4
 =======
+=======
+>>>>>>> main
 		mountain = {
 			movement = -0.10
 		}
@@ -5123,6 +5162,9 @@ sub_units = {
 		amphibious = {
 			attack = -0.80
 			defence = -0.80
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 	}
@@ -5132,6 +5174,10 @@ sub_units = {
 		priority = 30
 		active = no
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+		affects_speed = yes
+>>>>>>> main
 =======
 		affects_speed = yes
 >>>>>>> main
@@ -5189,6 +5235,7 @@ sub_units = {
 			defence = 0.15
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		forest = {
 			attack = -0.3
 			defence = -0.1
@@ -5222,6 +5269,8 @@ sub_units = {
 		amphibious = {
 			attack = -0.4 #was 0.4
 =======
+=======
+>>>>>>> main
 		mountain = {
 			movement = -0.10
 		}
@@ -5234,6 +5283,9 @@ sub_units = {
 		amphibious = {
 			attack = -0.80
 			defence = -0.80
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 	}
@@ -5243,6 +5295,10 @@ sub_units = {
 		priority = 30
 		active = no
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+		affects_speed = yes
+>>>>>>> main
 =======
 		affects_speed = yes
 >>>>>>> main
@@ -5301,6 +5357,7 @@ sub_units = {
 			defence = 0.15
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		forest = {
 			attack = -0.3
 			defence = -0.1
@@ -5334,6 +5391,8 @@ sub_units = {
 		amphibious = {
 			attack = -0.4 #was 0.4
 =======
+=======
+>>>>>>> main
 		mountain = {
 			movement = -0.10
 		}
@@ -5346,6 +5405,9 @@ sub_units = {
 		amphibious = {
 			attack = -0.80
 			defence = -0.80
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 	}
@@ -5355,6 +5417,10 @@ sub_units = {
 		priority = 30
 		active = no
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+		affects_speed = yes
+>>>>>>> main
 =======
 		affects_speed = yes
 >>>>>>> main
@@ -5413,6 +5479,7 @@ sub_units = {
 			defence = 0.15
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		forest = {
 			attack = -0.3
 			defence = -0.1
@@ -5446,6 +5513,8 @@ sub_units = {
 		amphibious = {
 			attack = -0.4 #was 0.4
 =======
+=======
+>>>>>>> main
 		mountain = {
 			movement = -0.10
 		}
@@ -5458,6 +5527,9 @@ sub_units = {
 		amphibious = {
 			attack = -0.80
 			defence = -0.80
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 	}
@@ -5475,7 +5547,10 @@ sub_units = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		breakthrough = 80
 
 		battalion_mult = {
@@ -5483,6 +5558,9 @@ sub_units = {
 			attack = 1
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		group = support
 
@@ -5496,7 +5574,11 @@ sub_units = {
 
 		need = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			space_artillery_equipment = 6
+=======
+			space_artillery_equipment_type = 60
+>>>>>>> main
 =======
 			space_artillery_equipment_type = 60
 >>>>>>> main
@@ -5522,6 +5604,7 @@ sub_units = {
 
 		can_be_parachuted = yes
 	}
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 	# Event Horizon Mechs
@@ -5928,6 +6011,8 @@ sub_units = {
 			defence = 0.05
 		}
 	}
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 }

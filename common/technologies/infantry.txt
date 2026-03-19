@@ -2530,10 +2530,13 @@ technologies = {
 		path = {
 			leads_to_tech = body_armor_4
 <<<<<<< HEAD
+<<<<<<< HEAD
 			research_cost_coeff = 1
 		}
 		path = {
 			leads_to_tech = exoskeleton_1
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 			research_cost_coeff = 1

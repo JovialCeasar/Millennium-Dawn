@@ -129,6 +129,10 @@ ideas = {
 				social_cost_multiplier_modifier = -0.15
 				monthly_population = 0.05
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+				total_workforce_modifier = 0.025
+>>>>>>> main
 =======
 				total_workforce_modifier = 0.025
 >>>>>>> main
@@ -141,6 +145,10 @@ ideas = {
 			modifier = {
 				health_cost_multiplier_modifier = -0.15
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+				total_workforce_modifier = 0.025
+>>>>>>> main
 =======
 				total_workforce_modifier = 0.025
 >>>>>>> main
@@ -168,7 +176,11 @@ ideas = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		sp_sp_epigenetic_reprogramming_idea = {
+=======
+		sp_epigenetic_reprogramming_idea = {
+>>>>>>> main
 =======
 		sp_epigenetic_reprogramming_idea = {
 >>>>>>> main
@@ -179,7 +191,11 @@ ideas = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		sp_sp_fiber_drones_idea = {
+=======
+		sp_fiber_drones_idea = {
+>>>>>>> main
 =======
 		sp_fiber_drones_idea = {
 >>>>>>> main

@@ -21,10 +21,14 @@ technologies = {
 	@2045 = 35
 	@2050 = 37
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 ========
 	@2053 = 38
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+	@2053 = 38
+>>>>>>> main
 =======
 	@2053 = 38
 >>>>>>> main
@@ -39,13 +43,17 @@ technologies = {
 	@row1 = -2
 	@row2 = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	@row3 = 1
 	@row5 = 3
 	@row6 = 4
 	@row7 = 5
+<<<<<<< HEAD
 <<<<<<< HEAD
 	@row8 = 7
 	@row9 = 8
@@ -86,6 +94,8 @@ technologies = {
 	#Patrol Boat hull
 	patrol_boat_hull_1_tech = {
 =======
+=======
+>>>>>>> main
 	@row8 = 6
 	@row9 = 7
 	@row10 = 9
@@ -101,6 +111,9 @@ technologies = {
 	#Patrol Boat hull
 	patrol_boat_hull_1_tech = {
 		is_special_project_tech = yes
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
 		allow = {
@@ -204,12 +217,18 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		path = {
 			leads_to_tech = patrol_boat_hull_4_tech
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		research_cost = 3.1
 		start_year = 2030
@@ -241,7 +260,10 @@ technologies = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	patrol_boat_hull_4_tech = {
 
 		is_special_project_tech = yes
@@ -329,6 +351,9 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	#Corvette Hulls
 	corvette_hull_1 = {
@@ -461,11 +486,14 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = stealth_corvette_hull_1
 			research_cost_coeff = 1
 		}
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		research_cost = 1.9
@@ -495,6 +523,7 @@ technologies = {
 
 	corvette_hull_4 = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 	@row3 = 2
 	@row4 = 4
@@ -523,10 +552,13 @@ technologies = {
 >>>>>>>> main:common/technologies/naval_modules.txt
 =======
 >>>>>>> main
+=======
+>>>>>>> main
 		on_research_complete = {
 
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
+<<<<<<< HEAD
 <<<<<<< HEAD
 				PROJECT = sp_medium_naval_nuclear_engines
 			}
@@ -543,6 +575,8 @@ technologies = {
 
 <<<<<<<< HEAD:common/technologies/naval.txt
 =======
+=======
+>>>>>>> main
 				PROJECT = sp_stealth_corvette
 			}
 		}
@@ -562,6 +596,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		research_cost = 2.3
 		start_year = 2010
@@ -571,6 +608,7 @@ technologies = {
 			position = { x = @row3 y = @2010 }
 		}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
 		path = {
@@ -642,6 +680,8 @@ technologies = {
 >>>>>>>> main:common/technologies/naval_modules.txt
 =======
 >>>>>>> main
+=======
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -650,16 +690,22 @@ technologies = {
 			}
 			modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				factor = 0
 				num_of_naval_factories < 1
 			}
 		}
 <<<<<<<< HEAD:common/technologies/naval.txt
 =======
+=======
+>>>>>>> main
 				factor = 0.01
 				date < 2009.1.1
 			}
 		}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
 		categories = {
@@ -696,6 +742,7 @@ technologies = {
 			position = { x = @row3 y = @2025 }
 		}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
 
@@ -734,6 +781,8 @@ technologies = {
 >>>>>>>> main:common/technologies/naval_modules.txt
 =======
 >>>>>>> main
+=======
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -742,8 +791,13 @@ technologies = {
 			}
 			modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				factor = 0
 				num_of_naval_factories < 1
+=======
+				factor = 0.01
+				date < 2024.1.1
+>>>>>>> main
 =======
 				factor = 0.01
 				date < 2024.1.1
@@ -754,6 +808,7 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			CAT_surface_ship
@@ -766,10 +821,15 @@ technologies = {
 			CAT_surface_ship
 			CAT_corvette
 >>>>>>> main
+=======
+			CAT_surface_ship
+			CAT_corvette
+>>>>>>> main
 		}
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	tech_diesel_power_systems_3 = {
 
@@ -837,6 +897,8 @@ technologies = {
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 =======
+=======
+>>>>>>> main
 	corvette_hull_6 = {
 
 		allow = {
@@ -851,6 +913,9 @@ technologies = {
 
 		research_cost = 2.7
 		start_year = 2040
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
 
@@ -861,7 +926,10 @@ technologies = {
 
 		folder = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 			name = naval_folder
@@ -892,7 +960,11 @@ technologies = {
 	#2055
 	corvette_hull_7 = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -944,7 +1016,11 @@ technologies = {
 	#2070
 	corvette_hull_8 = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -1018,6 +1094,7 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		categories = {
 			CAT_Military
 			CAT_naval_all
@@ -1027,6 +1104,8 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		ai_will_do = {
@@ -1041,7 +1120,10 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 		categories = {
 			CAT_Military
@@ -1051,6 +1133,9 @@ technologies = {
 			CAT_naval_stealth
 		}
 		special_project_specialization = { specialization_naval }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	}
 
@@ -1080,6 +1165,7 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		categories = {
 			CAT_Military
 			CAT_naval_all
@@ -1089,6 +1175,8 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		ai_will_do = {
@@ -1103,7 +1191,10 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 		categories = {
 			CAT_Military
@@ -1113,6 +1204,9 @@ technologies = {
 			CAT_naval_stealth
 		}
 		special_project_specialization = { specialization_naval }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	}
 
@@ -1129,12 +1223,18 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		path = {
 			leads_to_tech = stealth_corvette_hull_4
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		research_cost = 3.1
 		start_year = 2040
@@ -1143,10 +1243,13 @@ technologies = {
 			name = naval_folder
 			position = { x = @row2 y = @2040 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 			name = naval_module_folder
 			position = { x = @row1 y = @2040 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		}
@@ -1159,8 +1262,13 @@ technologies = {
 			}
 			modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				factor = 0
 				num_of_naval_factories < 1
+=======
+				factor = 0.01
+				date < 2039.1.1
+>>>>>>> main
 =======
 				factor = 0.01
 				date < 2039.1.1
@@ -1171,6 +1279,7 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			CAT_surface_ship
@@ -1185,10 +1294,16 @@ technologies = {
 			CAT_corvette
 			CAT_naval_stealth
 >>>>>>> main
+=======
+			CAT_surface_ship
+			CAT_corvette
+			CAT_naval_stealth
+>>>>>>> main
 		}
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	tech_diesel_power_systems_5 = {
 
@@ -1207,6 +1322,8 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row1 y = @2065 }
 =======
+=======
+>>>>>>> main
 	stealth_corvette_hull_4 = {
 
 		is_special_project_tech = yes
@@ -1230,6 +1347,9 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = @row2 y = @2055 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -1241,8 +1361,13 @@ technologies = {
 			}
 			modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				factor = 0
 				num_of_naval_factories < 1
+=======
+				factor = 0.01
+				date < 2054.1.1
+>>>>>>> main
 =======
 				factor = 0.01
 				date < 2054.1.1
@@ -1254,8 +1379,14 @@ technologies = {
 			CAT_Military
 			CAT_naval_all
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_naval_engine
 			CAT_naval_modules
+=======
+			CAT_surface_ship
+			CAT_corvette
+			CAT_naval_stealth
+>>>>>>> main
 =======
 			CAT_surface_ship
 			CAT_corvette
@@ -1265,6 +1396,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	tech_power_systems_1 = {
 
@@ -1280,6 +1412,8 @@ technologies = {
 
 <<<<<<<< HEAD:common/technologies/naval.txt
 =======
+=======
+>>>>>>> main
 	stealth_corvette_hull_5 = {
 
 		is_special_project_tech = yes
@@ -1339,12 +1473,16 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		dependencies = {
 			tech_naval_systems_engineering = 1
 		}
 
 		research_cost = 1.5
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
 		research_cost = 1
@@ -1363,11 +1501,16 @@ technologies = {
 			position = { x = @row2 y = @1965 }
 >>>>>>>> main:common/technologies/naval_modules.txt
 =======
+=======
+>>>>>>> main
 		start_year = 1965
 
 		folder = {
 			name = naval_folder
 			position = { x = @row6 y = @1965 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -1378,7 +1521,10 @@ technologies = {
 				num_of_naval_factories < 1
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		}
@@ -1418,7 +1564,10 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1427,6 +1576,7 @@ technologies = {
 			}
 		}
 
+<<<<<<< HEAD
 >>>>>>> main
 		categories = {
 			CAT_Military
@@ -1452,10 +1602,18 @@ technologies = {
 			CAT_naval_all
 			CAT_naval_engine
 			CAT_naval_modules
+=======
+		categories = {
+			CAT_Military
+			CAT_naval_all
+			CAT_surface_ship
+			CAT_frigate
+>>>>>>> main
 		}
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 	tech_power_systems_2 = {
 
 		enable_equipment_modules = {
@@ -1479,6 +1637,8 @@ technologies = {
 =======
 	}
 
+=======
+>>>>>>> main
 	frigate_hull_3 = {
 
 		allow = {
@@ -1493,11 +1653,15 @@ technologies = {
 
 		path = {
 			leads_to_tech = frigate_hull_4
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
 		research_cost = 1
@@ -1516,11 +1680,16 @@ technologies = {
 			position = { x = @row2 y = @1990 }
 >>>>>>>> main:common/technologies/naval_modules.txt
 =======
+=======
+>>>>>>> main
 		start_year = 1995
 
 		folder = {
 			name = naval_folder
 			position = { x = @row6 y = @1995 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -1536,8 +1705,13 @@ technologies = {
 			CAT_Military
 			CAT_naval_all
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_naval_engine
 			CAT_naval_modules
+=======
+			CAT_surface_ship
+			CAT_frigate
+>>>>>>> main
 =======
 			CAT_surface_ship
 			CAT_frigate
@@ -1546,6 +1720,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	tech_power_systems_3 = {
 
@@ -1561,6 +1736,8 @@ technologies = {
 
 <<<<<<<< HEAD:common/technologies/naval.txt
 =======
+=======
+>>>>>>> main
 	frigate_hull_4 = {
 		on_research_complete = {
 
@@ -1585,6 +1762,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		research_cost = 2.4
 		start_year = 2010
@@ -1592,6 +1772,7 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = @row6 y = @2010 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
 		research_cost = 1
@@ -1605,11 +1786,14 @@ technologies = {
 			position = { x = @row2 y = @2015 }
 =======
 >>>>>>> main
+=======
+>>>>>>> main
 		}
 
 		ai_will_do = {
 			factor = 1
 			modifier = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 				factor = 0.01
 				date < 2014.1.1
@@ -1620,6 +1804,8 @@ technologies = {
 			}
 >>>>>>>> main:common/technologies/naval_modules.txt
 =======
+=======
+>>>>>>> main
 				factor = 0
 				num_of_naval_factories < 1
 			}
@@ -1627,12 +1813,16 @@ technologies = {
 				factor = 0.01
 				date < 2009.1.1
 			}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CAT_naval_engine
 			CAT_naval_modules
@@ -1650,6 +1840,8 @@ technologies = {
 
 <<<<<<<< HEAD:common/technologies/naval.txt
 =======
+=======
+>>>>>>> main
 			CAT_surface_ship
 			CAT_frigate
 		}
@@ -1664,6 +1856,9 @@ technologies = {
 			}
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		enable_equipments = {
 			frigate_hull_5
@@ -1683,6 +1878,7 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		categories = {
 			CAT_Military
 			CAT_naval_all
@@ -1691,6 +1887,8 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		ai_will_do = {
@@ -1705,7 +1903,10 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 		categories = {
 			CAT_Military
@@ -1714,6 +1915,9 @@ technologies = {
 			CAT_frigate
 		}
 		special_project_specialization = { specialization_naval }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	}
 
@@ -1735,6 +1939,7 @@ technologies = {
 		}
 
 		research_cost = 3
+<<<<<<< HEAD
 <<<<<<< HEAD
 ========
 		research_cost = 1
@@ -1759,11 +1964,16 @@ technologies = {
 			position = { x = @row2 y = @2040 }
 >>>>>>>> main:common/technologies/naval_modules.txt
 =======
+=======
+>>>>>>> main
 		start_year = 2040
 
 		folder = {
 			name = naval_folder
 			position = { x = @row6 y = @2040 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -1771,12 +1981,15 @@ technologies = {
 			factor = 1
 			modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				factor = 0.01
 				date < 2039.1.1
 			}
 <<<<<<<< HEAD:common/technologies/naval.txt
 		}
 =======
+=======
+>>>>>>> main
 				factor = 0
 				num_of_naval_factories < 1
 			}
@@ -1793,6 +2006,9 @@ technologies = {
 			CAT_frigate
 		}
 		special_project_specialization = { specialization_naval }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	}
 
@@ -1826,8 +2042,11 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 			modifier = {
@@ -1835,7 +2054,10 @@ technologies = {
 				num_of_naval_factories < 1
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 			modifier = {
@@ -1925,9 +2147,12 @@ technologies = {
 			name = naval_folder
 			position = { x = @row5 y = @2010 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 >>>>>>>> main:common/technologies/naval_modules.txt
 =======
+=======
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -1940,12 +2165,16 @@ technologies = {
 				factor = 0.01
 				date < 2009.1.1
 			}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			CAT_surface_ship
@@ -2007,10 +2236,16 @@ technologies = {
 			CAT_frigate
 			CAT_naval_stealth
 >>>>>>> main
+=======
+			CAT_surface_ship
+			CAT_frigate
+			CAT_naval_stealth
+>>>>>>> main
 		}
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	#2070
 	tech_power_systems_6 = {
@@ -2060,10 +2295,14 @@ technologies = {
 =======
 	stealth_frigate_hull_2 = {
 >>>>>>> main
+=======
+	stealth_frigate_hull_2 = {
+>>>>>>> main
 
 		is_special_project_tech = yes
 
 		allow = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			is_special_project_completed = sp:sp_fusion_reactors
 		}
@@ -2086,6 +2325,8 @@ technologies = {
 		folder = {
 <<<<<<<< HEAD:common/technologies/naval.txt
 =======
+=======
+>>>>>>> main
 			is_special_project_completed = sp:sp_stealth_frigate
 		}
 
@@ -2102,11 +2343,15 @@ technologies = {
 		start_year = 2025
 
 		folder = {
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			name = naval_folder
 			position = { x = @row5 y = @2025 }
 		}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 		categories = {
 			CAT_Military
@@ -2117,6 +2362,8 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		ai_will_do = {
@@ -2131,7 +2378,10 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 		categories = {
 			CAT_Military
@@ -2141,6 +2391,9 @@ technologies = {
 			CAT_naval_stealth
 		}
 		special_project_specialization = { specialization_naval }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	}
 
@@ -2156,12 +2409,18 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		path = {
 			leads_to_tech = stealth_frigate_hull_4
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		research_cost = 3.1
 		start_year = 2040
@@ -2172,6 +2431,7 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		categories = {
 			CAT_Military
 			CAT_naval_all
@@ -2181,6 +2441,8 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		ai_will_do = {
@@ -2195,7 +2457,10 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 		categories = {
 			CAT_Military
@@ -2292,6 +2557,9 @@ technologies = {
 			CAT_naval_stealth
 		}
 		special_project_specialization = { specialization_naval }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	}
 
@@ -2407,11 +2675,14 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = stealth_destroyer_hull_1
 			research_cost_coeff = 1
 		}
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		research_cost = 2.5
@@ -2423,6 +2694,7 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		categories = {
 			CAT_Military
 			CAT_naval_all
@@ -2431,6 +2703,8 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		ai_will_do = {
@@ -2445,7 +2719,10 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 		categories = {
 			CAT_Military
@@ -2454,6 +2731,9 @@ technologies = {
 			CAT_destroyer
 		}
 		special_project_specialization = { specialization_naval }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	}
 
@@ -2481,10 +2761,13 @@ technologies = {
 			name = naval_folder
 			position = { x = @row8 y = @2025 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 			name = naval_module_folder
 			position = { x = @row4 y = @2025 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		}
@@ -2498,7 +2781,11 @@ technologies = {
 			modifier = {
 				factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 				date < 2034.1.1
+=======
+				date < 2024.1.1
+>>>>>>> main
 =======
 				date < 2024.1.1
 >>>>>>> main
@@ -2508,6 +2795,7 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CAT_naval_reactors
 			CAT_naval_engine
@@ -2539,6 +2827,8 @@ technologies = {
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 =======
+=======
+>>>>>>> main
 			CAT_surface_ship
 			CAT_destroyer
 		}
@@ -2559,6 +2849,9 @@ technologies = {
 
 		research_cost = 3.3
 		start_year = 2045
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
 
@@ -2569,6 +2862,7 @@ technologies = {
 
 		folder = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row8 y = @2045 }
@@ -2576,6 +2870,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row4 y = @2045 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_folder
+			position = { x = @row8 y = @2045 }
+>>>>>>> main
 =======
 			name = naval_folder
 			position = { x = @row8 y = @2045 }
@@ -2598,7 +2896,10 @@ technologies = {
 			CAT_Military
 			CAT_naval_all
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 			CAT_surface_ship
@@ -3020,6 +3321,10 @@ technologies = {
 			CAT_cruiser
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+		special_project_specialization = { specialization_naval }
+>>>>>>> main
 =======
 		special_project_specialization = { specialization_naval }
 >>>>>>> main
@@ -3213,7 +3518,11 @@ technologies = {
 	#2075
 	cruiser_hull_7 = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3231,11 +3540,14 @@ technologies = {
 		start_year = 2075
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = cruiser_hull_8
 			research_cost_coeff = 1
 		}
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		folder = {
@@ -3463,11 +3775,14 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = battleship_hull_6
 			research_cost_coeff = 1
 		}
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		research_cost = 3
@@ -3550,8 +3865,12 @@ technologies = {
 			CAT_naval_all
 			CAT_surface_ship
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_lha
 			CAT_lpd
+=======
+			CAT_helicopter_operators
+>>>>>>> main
 =======
 			CAT_helicopter_operators
 >>>>>>> main
@@ -3567,17 +3886,23 @@ technologies = {
 					AND = {
 						has_dlc = "No Step Back"
 <<<<<<< HEAD
+<<<<<<< HEAD
 						has_tech = nsb_transport_helicopter1
 					}
 					AND = {
 						NOT = { has_dlc = "No Step Back" }
 						has_tech = transport_helicopter1
 =======
+=======
+>>>>>>> main
 						has_tech = nsb_transport_helicopter_1
 					}
 					AND = {
 						NOT = { has_dlc = "No Step Back" }
 						has_tech = transport_helicopter_1
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 					}
 				}
@@ -3619,8 +3944,12 @@ technologies = {
 			CAT_naval_all
 			CAT_surface_ship
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_lha
 			CAT_lpd
+=======
+			CAT_helicopter_operators
+>>>>>>> main
 =======
 			CAT_helicopter_operators
 >>>>>>> main
@@ -3666,8 +3995,12 @@ technologies = {
 			CAT_naval_all
 			CAT_surface_ship
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_lha
 			CAT_lpd
+=======
+			CAT_helicopter_operators
+>>>>>>> main
 =======
 			CAT_helicopter_operators
 >>>>>>> main
@@ -3710,8 +4043,12 @@ technologies = {
 			CAT_naval_all
 			CAT_surface_ship
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_lha
 			CAT_lpd
+=======
+			CAT_helicopter_operators
+>>>>>>> main
 =======
 			CAT_helicopter_operators
 >>>>>>> main
@@ -3757,8 +4094,12 @@ technologies = {
 			CAT_naval_all
 			CAT_surface_ship
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_lha
 			CAT_lpd
+=======
+			CAT_helicopter_operators
+>>>>>>> main
 =======
 			CAT_helicopter_operators
 >>>>>>> main
@@ -3806,8 +4147,12 @@ technologies = {
 			CAT_naval_all
 			CAT_surface_ship
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_lha
 			CAT_lpd
+=======
+			CAT_helicopter_operators
+>>>>>>> main
 =======
 			CAT_helicopter_operators
 >>>>>>> main
@@ -3857,8 +4202,12 @@ technologies = {
 			CAT_naval_all
 			CAT_surface_ship
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_lha
 			CAT_lpd
+=======
+			CAT_helicopter_operators
+>>>>>>> main
 =======
 			CAT_helicopter_operators
 >>>>>>> main
@@ -3909,8 +4258,12 @@ technologies = {
 			CAT_naval_all
 			CAT_surface_ship
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_lha
 			CAT_lpd
+=======
+			CAT_helicopter_operators
+>>>>>>> main
 =======
 			CAT_helicopter_operators
 >>>>>>> main
@@ -3958,8 +4311,12 @@ technologies = {
 			CAT_naval_all
 			CAT_surface_ship
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_lha
 			CAT_lpd
+=======
+			CAT_helicopter_operators
+>>>>>>> main
 =======
 			CAT_helicopter_operators
 >>>>>>> main
@@ -4010,8 +4367,12 @@ technologies = {
 			CAT_naval_all
 			CAT_surface_ship
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_lha
 			CAT_lpd
+=======
+			CAT_helicopter_operators
+>>>>>>> main
 =======
 			CAT_helicopter_operators
 >>>>>>> main
@@ -4062,8 +4423,12 @@ technologies = {
 			CAT_naval_all
 			CAT_surface_ship
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_lha
 			CAT_lpd
+=======
+			CAT_helicopter_operators
+>>>>>>> main
 =======
 			CAT_helicopter_operators
 >>>>>>> main
@@ -4110,8 +4475,11 @@ technologies = {
 			CAT_surface_ship
 			CAT_carrier
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_cv
 			CAT_n_cv
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		}
@@ -4157,8 +4525,11 @@ technologies = {
 			CAT_surface_ship
 			CAT_carrier
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_cv
 			CAT_n_cv
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		}
@@ -4208,8 +4579,11 @@ technologies = {
 			CAT_surface_ship
 			CAT_carrier
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_cv
 			CAT_n_cv
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		}
@@ -4259,8 +4633,11 @@ technologies = {
 			CAT_surface_ship
 			CAT_carrier
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_cv
 			CAT_n_cv
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		}
@@ -4311,8 +4688,11 @@ technologies = {
 			CAT_surface_ship
 			CAT_carrier
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_cv
 			CAT_n_cv
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		}
@@ -4367,8 +4747,11 @@ technologies = {
 			CAT_surface_ship
 			CAT_carrier
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_cv
 			CAT_n_cv
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		}
@@ -4412,8 +4795,11 @@ technologies = {
 			CAT_surface_ship
 			CAT_carrier
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_cv
 			CAT_n_cv
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		}
@@ -4430,12 +4816,15 @@ technologies = {
 		start_year = 2075
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		path = {
 			leads_to_tech = aircraft_carrier_engineering_3
 			research_cost_coeff = 1
 		}
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		folder = {
@@ -4461,8 +4850,11 @@ technologies = {
 			CAT_surface_ship
 			CAT_carrier
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_cv
 			CAT_n_cv
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		}
@@ -4470,7 +4862,11 @@ technologies = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	tech_submarine_engineering = {
+=======
+	tech_submarine_engineering_1 = {
+>>>>>>> main
 =======
 	tech_submarine_engineering_1 = {
 >>>>>>> main
@@ -4491,7 +4887,11 @@ technologies = {
 
 		path = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			leads_to_tech = tech_submarine_engineering_1
+=======
+			leads_to_tech = tech_submarine_engineering_2
+>>>>>>> main
 =======
 			leads_to_tech = tech_submarine_engineering_2
 >>>>>>> main
@@ -4531,7 +4931,11 @@ technologies = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	tech_submarine_engineering_1 = {
+=======
+	tech_submarine_engineering_2 = {
+>>>>>>> main
 =======
 	tech_submarine_engineering_2 = {
 >>>>>>> main
@@ -4542,7 +4946,11 @@ technologies = {
 
 		path = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			leads_to_tech = tech_submarine_engineering_2
+=======
+			leads_to_tech = tech_submarine_engineering_3
+>>>>>>> main
 =======
 			leads_to_tech = tech_submarine_engineering_3
 >>>>>>> main
@@ -4578,7 +4986,11 @@ technologies = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	tech_submarine_engineering_2 = {
+=======
+	tech_submarine_engineering_3 = {
+>>>>>>> main
 =======
 	tech_submarine_engineering_3 = {
 >>>>>>> main
@@ -4589,7 +5001,11 @@ technologies = {
 
 		path = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			leads_to_tech = tech_submarine_engineering_3
+=======
+			leads_to_tech = tech_submarine_engineering_4
+>>>>>>> main
 =======
 			leads_to_tech = tech_submarine_engineering_4
 >>>>>>> main
@@ -4625,7 +5041,11 @@ technologies = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	tech_submarine_engineering_3 = {
+=======
+	tech_submarine_engineering_4 = {
+>>>>>>> main
 =======
 	tech_submarine_engineering_4 = {
 >>>>>>> main
@@ -4636,7 +5056,11 @@ technologies = {
 
 		path = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			leads_to_tech = tech_submarine_engineering_4
+=======
+			leads_to_tech = tech_submarine_engineering_5
+>>>>>>> main
 =======
 			leads_to_tech = tech_submarine_engineering_5
 >>>>>>> main
@@ -4676,7 +5100,11 @@ technologies = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	tech_submarine_engineering_4 = {
+=======
+	tech_submarine_engineering_5 = {
+>>>>>>> main
 =======
 	tech_submarine_engineering_5 = {
 >>>>>>> main
@@ -4694,7 +5122,11 @@ technologies = {
 
 		path = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			leads_to_tech = tech_submarine_engineering_5
+=======
+			leads_to_tech = tech_submarine_engineering_6
+>>>>>>> main
 =======
 			leads_to_tech = tech_submarine_engineering_6
 >>>>>>> main
@@ -4729,7 +5161,11 @@ technologies = {
 
 	#2055
 <<<<<<< HEAD
+<<<<<<< HEAD
 	tech_submarine_engineering_5 = {
+=======
+	tech_submarine_engineering_6 = {
+>>>>>>> main
 =======
 	tech_submarine_engineering_6 = {
 >>>>>>> main
@@ -4747,7 +5183,11 @@ technologies = {
 
 		path = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			leads_to_tech = tech_submarine_engineering_6
+=======
+			leads_to_tech = tech_submarine_engineering_7
+>>>>>>> main
 =======
 			leads_to_tech = tech_submarine_engineering_7
 >>>>>>> main
@@ -4783,7 +5223,11 @@ technologies = {
 
 	#2070
 <<<<<<< HEAD
+<<<<<<< HEAD
 	tech_submarine_engineering_6 = {
+=======
+	tech_submarine_engineering_7 = {
+>>>>>>> main
 =======
 	tech_submarine_engineering_7 = {
 >>>>>>> main
@@ -4799,12 +5243,15 @@ technologies = {
 		xp_research_bonus = 1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		path = {
 			leads_to_tech = tech_submarine_engineering_7
 			research_cost_coeff = 1
 		}
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		folder = {
@@ -5480,7 +5927,11 @@ technologies = {
 	#2055
 	missile_submarine_hull_7 = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -5579,6 +6030,7 @@ technologies = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	#Core Technology for Ships
 	tech_naval_systems_engineering = {
 		on_research_complete = {
@@ -5650,6 +6102,8 @@ technologies = {
 		path = {
 			leads_to_tech = tech_diesel_power_systems_1
 =======
+=======
+>>>>>>> main
 	# Landing Craft
 	tech_landing_craft_1 = {
 
@@ -5667,6 +6121,9 @@ technologies = {
 
 		path = {
 			leads_to_tech = tech_landing_craft_2
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			research_cost_coeff = 1
 		}
@@ -5677,16 +6134,22 @@ technologies = {
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		folder = {
 			name = naval_folder
 			position = { x = @row20 y = @1965 }
 =======
+=======
+>>>>>>> main
 		show_equipment_icon = yes
 
 		folder = {
 			name = naval_folder
 			position = { x = @row18 y = @1965 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -5696,6 +6159,7 @@ technologies = {
 				factor = 0
 				num_of_naval_factories < 1
 			}
+<<<<<<< HEAD
 <<<<<<< HEAD
 			modifier = {
 				factor = 0
@@ -11385,14 +11849,20 @@ technologies = {
 			}
 =======
 >>>>>>> main
+=======
+>>>>>>> main
 		}
 
 		categories = {
 			CAT_Military
 			CAT_naval_all
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_naval_armament
 			CAT_pds
+=======
+			CAT_landing_craft
+>>>>>>> main
 =======
 			CAT_landing_craft
 >>>>>>> main
@@ -11401,6 +11871,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	tech_anti_drone_laser_4 = {
 
@@ -11856,6 +12327,8 @@ technologies = {
 		research_cost = 1.25
 		start_year = 2015
 =======
+=======
+>>>>>>> main
 	tech_landing_craft_2 = {
 
 		invasion_preparation = -0.25
@@ -11872,6 +12345,9 @@ technologies = {
 
 		research_cost = 1.4
 		start_year = 1985
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
@@ -11879,6 +12355,7 @@ technologies = {
 
 		folder = {
 			name = naval_folder
+<<<<<<< HEAD
 <<<<<<< HEAD
 			position = { x = @row36 y = @2015 }
 		}
@@ -12844,6 +13321,9 @@ technologies = {
 =======
 			position = { x = @row18 y = @1985 }
 >>>>>>> main
+=======
+			position = { x = @row18 y = @1985 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -12858,9 +13338,13 @@ technologies = {
 			CAT_Military
 			CAT_naval_all
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_naval_armament
 			CAT_vls_systems
 			CAT_vls_land_systems
+=======
+			CAT_landing_craft
+>>>>>>> main
 =======
 			CAT_landing_craft
 >>>>>>> main
@@ -12869,6 +13353,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	tech_vls_surface_3 = {
 
@@ -12903,6 +13388,8 @@ technologies = {
 		start_year = 2000
 >>>>>>>> main:common/technologies/naval_modules.txt
 =======
+=======
+>>>>>>> main
 	tech_landing_craft_3 = {
 
 		transport_capacity = -0.25
@@ -12962,11 +13449,15 @@ technologies = {
 
 		research_cost = 1.7
 		start_year = 2000
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 		folder = {
 <<<<<<<< HEAD:common/technologies/naval.txt
@@ -12977,11 +13468,16 @@ technologies = {
 			position = { x = @row18 y = @2000 }
 >>>>>>>> main:common/technologies/naval_modules.txt
 =======
+=======
+>>>>>>> main
 		show_equipment_icon = yes
 
 		folder = {
 			name = naval_folder
 			position = { x = @row18 y = @2000 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -12996,6 +13492,7 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CAT_naval_armament
 			CAT_vls_systems
@@ -13033,6 +13530,8 @@ technologies = {
 		start_year = 2015
 >>>>>>>> main:common/technologies/naval_modules.txt
 =======
+=======
+>>>>>>> main
 			CAT_landing_craft
 			CAT_naval_modules
 		}
@@ -13053,12 +13552,16 @@ technologies = {
 
 		research_cost = 2
 		start_year = 2015
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
@@ -13067,6 +13570,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row18 y = @2015 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_folder
+			position = { x = @row18 y = @2015 }
+>>>>>>> main
 =======
 			name = naval_folder
 			position = { x = @row18 y = @2015 }
@@ -13089,9 +13596,13 @@ technologies = {
 			CAT_Military
 			CAT_naval_all
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_naval_armament
 			CAT_vls_systems
 			CAT_vls_land_systems
+=======
+			CAT_landing_craft
+>>>>>>> main
 =======
 			CAT_landing_craft
 >>>>>>> main
@@ -13100,6 +13611,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	tech_vls_surface_5 = {
 
@@ -13122,6 +13634,8 @@ technologies = {
 		start_year = 2030
 >>>>>>>> main:common/technologies/naval_modules.txt
 =======
+=======
+>>>>>>> main
 	tech_landing_craft_6 = {
 
 		naval_invasion_division_cap = 3
@@ -13226,12 +13740,16 @@ technologies = {
 
 		research_cost = 3
 		start_year = 2045
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		path = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			leads_to_tech = tech_vls_surface_6
 			research_cost_coeff = 1
@@ -13292,11 +13810,15 @@ technologies = {
 =======
 			leads_to_tech = tech_landing_craft_9
 >>>>>>> main
+=======
+			leads_to_tech = tech_landing_craft_9
+>>>>>>> main
 			research_cost_coeff = 1
 		}
 
 		folder = {
 			name = naval_folder
+<<<<<<< HEAD
 <<<<<<< HEAD
 			position = { x = @row37 y = @2060 }
 		}
@@ -13418,6 +13940,11 @@ technologies = {
 		}
 
 >>>>>>> main
+=======
+			position = { x = @row18 y = @2045 }
+		}
+
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -13433,6 +13960,7 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CAT_naval_armament
 			CAT_vls_systems
@@ -13454,6 +13982,8 @@ technologies = {
 
 		research_cost = 1.25
 =======
+=======
+>>>>>>> main
 			CAT_landing_craft
 			CAT_naval_modules
 		}
@@ -13468,6 +13998,9 @@ technologies = {
 		amphibious_invasion = 0.05
 		amphibious_invasion_defence = 0.05
 		research_cost = 3
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		start_year = 2060
 		xp_research_type = navy
@@ -13476,7 +14009,11 @@ technologies = {
 
 		path = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			leads_to_tech = tech_vls_surface_8
+=======
+			leads_to_tech = tech_landing_craft_10
+>>>>>>> main
 =======
 			leads_to_tech = tech_landing_craft_10
 >>>>>>> main
@@ -13485,7 +14022,11 @@ technologies = {
 
 		folder = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			name = naval_module_folder
+=======
+			name = naval_folder
+>>>>>>> main
 =======
 			name = naval_folder
 >>>>>>> main
@@ -13508,9 +14049,13 @@ technologies = {
 			CAT_Military
 			CAT_naval_all
 <<<<<<< HEAD
+<<<<<<< HEAD
 			CAT_naval_armament
 			CAT_vls_systems
 			CAT_vls_land_systems
+=======
+			CAT_landing_craft
+>>>>>>> main
 =======
 			CAT_landing_craft
 >>>>>>> main
@@ -13520,6 +14065,7 @@ technologies = {
 	}
 
 	#2075
+<<<<<<< HEAD
 <<<<<<< HEAD
 	tech_vls_surface_8 = {
 
@@ -15205,18 +15751,24 @@ technologies = {
 		research_cost = 1.25
 >>>>>>>> main:common/technologies/naval_modules.txt
 =======
+=======
+>>>>>>> main
 	tech_landing_craft_10 = {
 		invasion_preparation = -0.10
 		naval_invasion_capacity = 2
 		amphibious_invasion = 0.05
 		amphibious_invasion_defence = 0.05
 		research_cost = 3
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		start_year = 2075
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		path = {
@@ -15232,6 +15784,11 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row19 y = @2075
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		folder = {
+			name = naval_folder
+			position = { x = @row18 y = @2075
+>>>>>>> main
 =======
 		folder = {
 			name = naval_folder
@@ -15255,6 +15812,7 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			CAT_landing_craft
@@ -16284,6 +16842,9 @@ technologies = {
 			CAT_naval_armament
 			CAT_torpedoes
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			CAT_landing_craft
+>>>>>>> main
 =======
 			CAT_landing_craft
 >>>>>>> main

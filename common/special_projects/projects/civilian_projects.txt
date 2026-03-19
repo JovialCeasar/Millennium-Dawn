@@ -1251,7 +1251,11 @@ sp_epigenetic_reprogramming = {
 	project_output = {
 		country_effects = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			add_ideas = sp_sp_epigenetic_reprogramming_idea
+=======
+			add_ideas = sp_epigenetic_reprogramming_idea
+>>>>>>> main
 =======
 			add_ideas = sp_epigenetic_reprogramming_idea
 >>>>>>> main

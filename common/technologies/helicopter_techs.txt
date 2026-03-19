@@ -297,6 +297,10 @@ technologies = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -349,6 +353,10 @@ technologies = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -412,7 +420,11 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			attack_helicopter1
+=======
+			attack_helicopter_1
+>>>>>>> main
 =======
 			attack_helicopter_1
 >>>>>>> main
@@ -519,7 +531,11 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			attack_helicopter3
+=======
+			attack_helicopter_3
+>>>>>>> main
 =======
 			attack_helicopter_3
 >>>>>>> main
@@ -573,7 +589,11 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			attack_helicopter4
+=======
+			attack_helicopter_4
+>>>>>>> main
 =======
 			attack_helicopter_4
 >>>>>>> main
@@ -640,11 +660,14 @@ technologies = {
 		path = {
 			leads_to_tech = attack_helicopter_6
 			research_cost_coeff = 1
+<<<<<<< HEAD
 		}
 
 		path = {
 			leads_to_tech = attack_helicopter6
 			research_cost_coeff = 1
+=======
+>>>>>>> main
 		}
 
 		research_cost = 2.4
@@ -687,7 +710,11 @@ technologies = {
 
 	#2055
 <<<<<<< HEAD
+<<<<<<< HEAD
 	attack_helicopter6 = {
+=======
+	attack_helicopter_6 = {
+>>>>>>> main
 =======
 	attack_helicopter_6 = {
 >>>>>>> main
@@ -699,17 +726,23 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			attack_helicopter6
 		}
 
 		path = {
 			leads_to_tech = attack_helicopter7
 =======
+=======
+>>>>>>> main
 			attack_helicopter_6
 		}
 
 		path = {
 			leads_to_tech = attack_helicopter_7
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			research_cost_coeff = 1
 		}
@@ -754,7 +787,11 @@ technologies = {
 
 	#2075
 <<<<<<< HEAD
+<<<<<<< HEAD
 	attack_helicopter7 = {
+=======
+	attack_helicopter_7 = {
+>>>>>>> main
 =======
 	attack_helicopter_7 = {
 >>>>>>> main
@@ -766,7 +803,11 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			attack_helicopter7
+=======
+			attack_helicopter_7
+>>>>>>> main
 =======
 			attack_helicopter_7
 >>>>>>> main
@@ -831,10 +872,13 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		enable_equipments = {
 			heavy_tank_chassis_10
 			heavy_tank_amphibious_chassis_10
 		}
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		enable_subunits = {
@@ -889,7 +933,11 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			transport_helicopter1
+=======
+			transport_helicopter_1
+>>>>>>> main
 =======
 			transport_helicopter_1
 >>>>>>> main
@@ -943,7 +991,11 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			transport_helicopter2
+=======
+			transport_helicopter_2
+>>>>>>> main
 =======
 			transport_helicopter_2
 >>>>>>> main
@@ -997,7 +1049,11 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			transport_helicopter3
+=======
+			transport_helicopter_3
+>>>>>>> main
 =======
 			transport_helicopter_3
 >>>>>>> main
@@ -1063,7 +1119,11 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			transport_helicopter4
+=======
+			transport_helicopter_4
+>>>>>>> main
 =======
 			transport_helicopter_4
 >>>>>>> main
@@ -1124,17 +1184,23 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			transport_helicopter5
 		}
 
 		path = {
 			leads_to_tech = nsb_transport_helicopter6
 =======
+=======
+>>>>>>> main
 			transport_helicopter_5
 		}
 
 		path = {
 			leads_to_tech = nsb_transport_helicopter_6
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			research_cost_coeff = 1
 		}
@@ -1183,7 +1249,11 @@ technologies = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	nsb_transport_helicopter6 = {
+=======
+	nsb_transport_helicopter_6 = {
+>>>>>>> main
 =======
 	nsb_transport_helicopter_6 = {
 >>>>>>> main
@@ -1195,17 +1265,23 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			transport_helicopter6
 		}
 
 		path = {
 			leads_to_tech = nsb_transport_helicopter7
 =======
+=======
+>>>>>>> main
 			transport_helicopter_6
 		}
 
 		path = {
 			leads_to_tech = nsb_transport_helicopter_7
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			research_cost_coeff = 1
 		}
@@ -1254,7 +1330,11 @@ technologies = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	nsb_transport_helicopter7 = {
+=======
+	nsb_transport_helicopter_7 = {
+>>>>>>> main
 =======
 	nsb_transport_helicopter_7 = {
 >>>>>>> main
@@ -1266,12 +1346,16 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			transport_helicopter7
 		}
 
 		path = {
 			leads_to_tech = nsb_transport_helicopter8
 			research_cost_coeff = 1
+=======
+			transport_helicopter_7
+>>>>>>> main
 =======
 			transport_helicopter_7
 >>>>>>> main
@@ -1320,7 +1404,12 @@ technologies = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	transport_helicopter1 = {
+=======
+
+	transport_helicopter_1 = {
+>>>>>>> main
 =======
 
 	transport_helicopter_1 = {
@@ -1337,7 +1426,11 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			transport_helicopter1
+=======
+			transport_helicopter_1
+>>>>>>> main
 =======
 			transport_helicopter_1
 >>>>>>> main
@@ -1347,7 +1440,10 @@ technologies = {
 			helicopter_combat_service_support
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 		path = {
 			leads_to_tech = transport_helicopter_2
@@ -1398,7 +1494,11 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			transport_helicopter2
+=======
+			transport_helicopter_2
+>>>>>>> main
 =======
 			transport_helicopter_2
 >>>>>>> main
@@ -1452,7 +1552,11 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			transport_helicopter3
+=======
+			transport_helicopter_3
+>>>>>>> main
 =======
 			transport_helicopter_3
 >>>>>>> main
@@ -1518,7 +1622,11 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			transport_helicopter4
+=======
+			transport_helicopter_4
+>>>>>>> main
 =======
 			transport_helicopter_4
 >>>>>>> main
@@ -1579,7 +1687,11 @@ technologies = {
 
 		enable_equipments = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			transport_helicopter5
+=======
+			transport_helicopter_5
+>>>>>>> main
 =======
 			transport_helicopter_5
 >>>>>>> main
@@ -1589,7 +1701,11 @@ technologies = {
 		start_year = 2035
 		path = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			leads_to_tech = transport_helicopter6
+=======
+			leads_to_tech = transport_helicopter_6
+>>>>>>> main
 =======
 			leads_to_tech = transport_helicopter_6
 >>>>>>> main
@@ -1636,22 +1752,32 @@ technologies = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	#2055
 	transport_helicopter6 = {
 		enable_equipments = {
 			transport_helicopter6
 =======
+=======
+>>>>>>> main
 
 	transport_helicopter_6 = {
 		enable_equipments = {
 			transport_helicopter_6
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		research_cost = 2
 		start_year = 2055
 		path = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			leads_to_tech = transport_helicopter7
+=======
+			leads_to_tech = transport_helicopter_7
+>>>>>>> main
 =======
 			leads_to_tech = transport_helicopter_7
 >>>>>>> main
@@ -1697,15 +1823,21 @@ technologies = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	#2075
 	transport_helicopter7 = {
 		enable_equipments = {
 			transport_helicopter7
 =======
+=======
+>>>>>>> main
 
 	transport_helicopter_7 = {
 		enable_equipments = {
 			transport_helicopter_7
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		research_cost = 2
@@ -1931,6 +2063,7 @@ technologies = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	tech_helicopter_hover_engine_1 = {
 =======
 	#2055 Turbine Engine Tech
@@ -2003,12 +2136,53 @@ technologies = {
 
 	#2075 Turbine Engine Tech
 	nsb_engine_tech_7 = {
+=======
+	#2055 Turbine Engine Tech
+	nsb_engine_tech_6 = {
+>>>>>>> main
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_helicopter_project
 			}
 		}
 		enable_equipment_modules = {
+<<<<<<< HEAD
+=======
+			helicopter_turbine_engine_gen6
+			helicopter_piston_engine_gen6
+			helicopter_coaxial_engine_gen6
+			helicopter_twin_engine_gen6
+		}
+		path = {
+			leads_to_tech = nsb_engine_tech_7
+			research_cost_coeff = 1
+		}
+		research_cost = 1.7
+		start_year = 2055
+		folder = {
+			name = air_techs_folder
+			position = { x = @row6 y = @2055 }
+		}
+		categories = {
+			CAT_heli
+			CAT_atk_heli
+			CAT_Military
+		}
+		special_project_specialization = { specialization_air }
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	#2075 Turbine Engine Tech
+	nsb_engine_tech_7 = {
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_helicopter_project
+			}
+		}
+		enable_equipment_modules = {
+>>>>>>> main
 			helicopter_turbine_engine_gen7
 			helicopter_piston_engine_gen7
 			helicopter_coaxial_engine_gen7
@@ -2069,6 +2243,9 @@ technologies = {
 		}
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	tech_helicopter_hover_engine_2 = {
 		is_special_project_tech = yes
@@ -2105,6 +2282,10 @@ technologies = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -2335,7 +2516,10 @@ technologies = {
 			name = air_techs_folder
 			position = { x = @row9 y = @2035 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		}
 		categories = {
 			CAT_heli
@@ -2418,6 +2602,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = @row9 y = @2075 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		categories = {
@@ -2555,7 +2742,10 @@ technologies = {
 			name = air_techs_folder
 			position = { x = @row8 y = @2035 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		}
 		categories = {
 			CAT_heli
@@ -2610,6 +2800,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = @row8 y = @2075 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		categories = {
@@ -2747,7 +2940,10 @@ technologies = {
 			name = air_techs_folder
 			position = { x = @row10 y = @2035 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		}
 		categories = {
 			CAT_heli
@@ -2802,6 +2998,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = @row10 y = @2075 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		categories = {
@@ -2959,7 +3158,10 @@ technologies = {
 			name = air_techs_folder
 			position = { x = @row11 y = @2035 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		}
 		categories = {
 			CAT_heli
@@ -3018,6 +3220,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = @row11 y = @2075 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		categories = {
@@ -3175,7 +3380,10 @@ technologies = {
 			name = air_techs_folder
 			position = { x = @row12 y = @2035 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		}
 		categories = {
 			CAT_heli
@@ -3234,6 +3442,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = @row12 y = @2075 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		categories = {
@@ -3338,6 +3549,9 @@ technologies = {
 			name = air_techs_folder
 			position = { x = @row13 y = @2005 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 		}
 		categories = {
 			CAT_heli
@@ -3346,6 +3560,7 @@ technologies = {
 		}
 		special_project_specialization = { specialization_air }
 	}
+<<<<<<< HEAD
 	#2025 Railgun Nose Gun Tech
 	nsb_light_nose_gun_tech_4 = {
 		allow = {
@@ -3418,6 +3633,8 @@ technologies = {
 		}
 		special_project_specialization = { specialization_air }
 	}
+=======
+>>>>>>> main
 
 	#2025 Railgun Nose Gun Tech
 	nsb_light_nose_gun_tech_4 = {
@@ -3610,7 +3827,10 @@ technologies = {
 			name = air_techs_folder
 			position = { x = @row14 y = @2035 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		}
 		categories = {
 			CAT_heli
@@ -3667,6 +3887,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = @row14 y = @2075 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		categories = {
@@ -3768,7 +3991,10 @@ technologies = {
 			name = air_techs_folder
 			position = { x = @row15 y = @2035 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		}
 		categories = {
 			CAT_heli
@@ -3839,6 +4065,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = @row15 y = @2075 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		categories = {

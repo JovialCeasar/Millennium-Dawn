@@ -192,7 +192,11 @@ sp_nuclear_bomb = {
 	specialization = specialization_air
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	project_tags = sp_tag_civilian
+=======
+	project_tags = sp_tag_nuclear_weapons
+>>>>>>> main
 =======
 	project_tags = sp_tag_nuclear_weapons
 >>>>>>> main
@@ -207,7 +211,11 @@ sp_nuclear_bomb = {
 
 	breakthrough_cost = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		specialization_nuclear = 2
+=======
+		specialization_air = 2
+>>>>>>> main
 =======
 		specialization_air = 2
 >>>>>>> main

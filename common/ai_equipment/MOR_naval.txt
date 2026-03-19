@@ -455,6 +455,7 @@ MOR_Cherifien_CG_2045 = {
  }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ### Destroyers ###
 ai_equipment = {
@@ -708,5 +709,7 @@ ai_equipment = {
 	}
 
 }
+=======
+>>>>>>> main
 =======
 >>>>>>> main

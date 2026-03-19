@@ -220,6 +220,7 @@ default = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/FRA/AIR/UH5.dds"
+<<<<<<< HEAD
 				"gfx/interface/technologies/SOV/AIR/UH5.dds"
 				"gfx/interface/technologies/USA/AIR/UH5.dds"
 				"gfx/interface/technologies/ENG/AIR/UH5.dds"
@@ -244,6 +245,8 @@ default = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/FRA/AIR/UH5.dds"
+=======
+>>>>>>> main
 				"gfx/interface/technologies/SOV/AIR/UH5.dds"
 				"gfx/interface/technologies/USA/AIR/UH5.dds"
 				"gfx/interface/technologies/ENG/AIR/UH5.dds"

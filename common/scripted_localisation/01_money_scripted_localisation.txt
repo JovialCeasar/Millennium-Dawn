@@ -2362,6 +2362,7 @@ defined_text = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Event Horizon
 defined_text = {
     name = EH_additional_expense_intensive_research_effort
@@ -2372,11 +2373,16 @@ defined_text = {
 
     text = { localization_key = "" }
 =======
+=======
+>>>>>>> main
 defined_text = {
 	name = additional_income_summary_seigniorage
 	text = {
 		trigger = { check_variable = { seigniorage_income_display > 0 } }
 		localization_key = additional_income_seigniorage_tt
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 }

@@ -6,13 +6,17 @@ counter_terror_nation_startup = {
 	#TODO: Move this to the modifier, and have it base off base funding
 	set_variable = { ct_global_base_detect_var = 0 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 	set_variable = { ct_threat_detect_var = 0 }
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	set_variable = { ct_police_cost_var = 0 }
 	set_variable = { ct_home_defense_var = 0 }
 
 	set_variable = { foreign_counter_terror_support = 0 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 	#setup the basic array for the global terror orgs
 	#this is important b/c it allows us to track global intel
@@ -51,6 +55,8 @@ counter_terror_nation_startup = {
 
 	add_dynamic_modifier = { modifier = counter_terrorism_operations }
 =======
+=======
+>>>>>>> main
 
 	#If you add more terror orgs, you need to adjust the end number to the last
 	#Adjust the end to the total number of terror orgs on game start
@@ -62,6 +68,9 @@ counter_terror_nation_startup = {
 		add_to_array = { international_terror_org_temp_specific_intel = 0 }
 		add_to_array = { ct_mass_gather_store_var = 0 }
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
 	counter_terror_individual = yes
@@ -82,6 +91,7 @@ counter_terror_global_setup = {
 	create_staggered_cycle = yes
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Save compatibility migration:
 # If a terror org id exists in neither active nor inactive arrays,
@@ -287,6 +297,8 @@ ct_relocate_backfilled_org_hqs = {
 
 =======
 >>>>>>> main
+=======
+>>>>>>> main
 create_staggered_cycle = {
 	set_variable = { global.staggered_setup_tracker = 0 }
 	set_variable = { global.week = 1 }
@@ -410,13 +422,19 @@ add_new_org = {
 	add_to_array = { global.active_terror_org_threat_lvl = starting_threat }
 	add_to_array = { global.active_terror_org_vis_lvl = starting_vis }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	add_to_array = { global.terror_org_attack_cooldown = 0 }
 	# New orgs emerge without a known HQ state; default to regional reach in Middle East
 	add_to_array = { global.active_terror_org_reach = 1 }
 	add_to_array = { global.active_terror_org_region = 2 }
 	add_to_array = { global.active_terror_org_regional_flag = 1 }
 	add_to_array = { global.active_terror_org_international_flag = 0 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	every_country = {
 		add_to_array = { international_terror_org_intel = 0 }
@@ -435,12 +453,18 @@ remove_org = {
 	remove_from_array = { array = global.active_terror_org_threat_lvl index = targeted_org }
 	remove_from_array = { array = global.active_terror_org_vis_lvl index = targeted_org }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	remove_from_array = { array = global.terror_org_attack_cooldown index = targeted_org }
 	remove_from_array = { array = global.active_terror_org_reach index = targeted_org }
 	remove_from_array = { array = global.active_terror_org_region index = targeted_org }
 	remove_from_array = { array = global.active_terror_org_regional_flag index = targeted_org }
 	remove_from_array = { array = global.active_terror_org_international_flag index = targeted_org }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
 	every_country = {
@@ -481,7 +505,10 @@ set_starting_org_values = {
 		add_to_array = { global.active_terror_org_threat_lvl = starting_threat }
 		add_to_array = { global.active_terror_org_vis_lvl = starting_vis }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		add_to_array = { global.terror_org_attack_cooldown = 0 }
 
 		# Al-Qaeda (index 0) starts with global reach; all others begin local
@@ -503,6 +530,9 @@ set_starting_org_values = {
 			add_to_array = { global.active_terror_org_regional_flag = 0 }
 			add_to_array = { global.active_terror_org_international_flag = 0 }
 		}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	}
 }
@@ -628,7 +658,11 @@ set_starting_org_locations = {
 		var = start_spot
 		min = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 		max = 3
+=======
+		max = 2
+>>>>>>> main
 =======
 		max = 2
 >>>>>>> main
@@ -654,11 +688,14 @@ set_starting_org_locations = {
 
 		var:v = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			controller = {
 				add_to_array = { global.active_terror_hq_country = THIS }
 			}
 		}
 =======
+=======
+>>>>>>> main
 			add_to_array = { global.active_terror_hq_country = controller }
 		}
 	}
@@ -690,6 +727,9 @@ set_starting_org_locations = {
 		}
 
 		add_to_array = { global.active_terror_org_region = region_idx }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	}
 }
@@ -699,6 +739,10 @@ counter_terror_global = {
 	check_for_global_attacks = yes
 	global_war_on_terror = yes
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	check_org_reach_escalation = yes
+>>>>>>> main
 =======
 	check_org_reach_escalation = yes
 >>>>>>> main
@@ -707,12 +751,18 @@ counter_terror_global = {
 counter_terror_individual = {
 	#Start by adjusting social conservatism
 <<<<<<< HEAD
+<<<<<<< HEAD
 	log = "[GetDateText]: [THIS.GetName] starting counter terror run."
 =======
+=======
+>>>>>>> main
 	if = {
 		limit = { is_debug = yes }
 		log = "[GetDateText]: [THIS.GetName] starting counter terror run."
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	if = {
 		limit = {
@@ -731,7 +781,13 @@ counter_terror_individual = {
 	#calculate_internal_threat = yes
 	calculate_national_global_threat_detection = yes
 <<<<<<< HEAD
+<<<<<<< HEAD
 	missile_ui_update = yes
+=======
+	if = { limit = { NOT = { is_ai = yes } }
+		missile_ui_update = yes
+	}
+>>>>>>> main
 =======
 	if = { limit = { NOT = { is_ai = yes } }
 		missile_ui_update = yes
@@ -787,6 +843,10 @@ calculate_national_global_threat_detection = {
 	#here, update our global detection score and update the UI appropriately
 	set_temp_variable = { base_detection = modifier@terror_threat_base_detect_modifier }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	add_to_temp_variable = { base_detection = ct_global_base_detect_var }
+>>>>>>> main
 =======
 	add_to_temp_variable = { base_detection = ct_global_base_detect_var }
 >>>>>>> main
@@ -809,7 +869,10 @@ calculate_national_global_threat_detection = {
 
 		set_temp_variable = { cur_con = global.active_terror_hq_country^i }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		set_variable = { international_terror_org_intel^i = civilian_intel@var:cur_con }
@@ -832,6 +895,7 @@ calculate_national_global_threat_detection = {
 			multiply_variable = { international_terror_org_intel^i = foreign_ct_mod }
 		}
 		multiply_variable = { international_terror_org_intel^i = base_mod }
+<<<<<<< HEAD
 <<<<<<< HEAD
 	}
 
@@ -891,6 +955,8 @@ calculate_national_global_threat_detection = {
 			}
 			set_variable = { international_terror_org_intel^i = v }
 =======
+=======
+>>>>>>> main
 
 		if = {
 			limit = {
@@ -918,11 +984,15 @@ calculate_national_global_threat_detection = {
 			var = international_terror_org_intel^i
 			min = 0
 			max = 100
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 	}
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #Calculation Clamps
 clamp_threat = {
@@ -1110,6 +1180,10 @@ global_war_on_terror = {
 #Global checks
 global_war_on_terror = {
 >>>>>>> main
+=======
+#Global checks
+global_war_on_terror = {
+>>>>>>> main
 	if = {
 		limit = {
 			NOT = { has_global_flag = terror_org_move_stop }
@@ -1156,11 +1230,14 @@ global_war_on_terror = {
 
 			var:v = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				controller = {
 					add_to_array = { global.active_terror_hq_country = THIS }
 				}
 			}
 =======
+=======
+>>>>>>> main
 				add_to_array = { global.active_terror_hq_country = controller }
 			}
 		}
@@ -1194,6 +1271,9 @@ global_war_on_terror = {
 			}
 
 			add_to_array = { global.active_terror_org_region = region_idx }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -1205,6 +1285,7 @@ global_war_on_terror = {
 	}
 
 	#For each org, randomly increase or decrease their threat and visibility
+<<<<<<< HEAD
 <<<<<<< HEAD
 	#This means growth is random, but weight by world tension
 	#Higher world tension = higher likelihood of growing terrorism
@@ -1261,6 +1342,8 @@ global_war_on_terror = {
 check_for_global_attacks = {
 	#See if any org has planned and executed an attack
 =======
+=======
+>>>>>>> main
 	#Weighted by world tension — higher tension means faster-growing terrorism
 	#Gated to run every 45 days, not every monthly tick
 	if = {
@@ -1332,6 +1415,9 @@ check_for_global_attacks = {
 }
 #Check if orgs are able to do an attack, or if they get caught in the planning phase
 check_for_global_attacks = {
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	clear_array = global.current_terror_attackers
 	for_each_loop = {
@@ -1339,6 +1425,7 @@ check_for_global_attacks = {
 		value = v
 		index = i
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 		#dont draw attention to yourself if you are more visible than threatening
 		if = {
@@ -1354,6 +1441,8 @@ check_for_global_attacks = {
 				add_to_variable = { global.active_terror_org_vis_lvl^i = 3 }
 				add_to_array = { global.current_terror_attackers = global.active_terror_orgs^i }
 =======
+=======
+>>>>>>> main
 		set_temp_variable = { reach_floor = global.active_terror_org_reach^i }
 		multiply_temp_variable = { reach_floor = 7.5 }
 		add_to_temp_variable = { reach_floor = 5 }
@@ -1401,6 +1490,9 @@ check_for_global_attacks = {
 					clamp_variable = { var = global.active_terror_org_threat_lvl^i min = 0 max = 100 }
 					set_variable = { global.terror_org_attack_cooldown^i = 2 }
 				}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			}
 		}
@@ -1460,7 +1552,10 @@ relocate_terror_org = {
 		index = targeted_org
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	var:new_state_open = {
 		set_temp_variable = { new_hq_country = controller }
@@ -1510,6 +1605,9 @@ relocate_terror_org = {
 		value = new_region
 		index = targeted_org
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 }
 
@@ -1518,6 +1616,7 @@ global_attack_roll = {
 	for_each_loop = {
 		array = global.current_terror_attackers
 		value = v
+<<<<<<< HEAD
 <<<<<<< HEAD
 		index = i
 
@@ -1618,6 +1717,8 @@ global_attack_roll = {
 			}
 		}
 =======
+=======
+>>>>>>> main
 
 		set_temp_variable = { cur_attack_index = v }
 
@@ -1920,6 +2021,9 @@ resolve_terror_attack = {
 			days = 1
 			random_days = 30
 		}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	}
 }

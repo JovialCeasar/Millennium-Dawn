@@ -91,10 +91,13 @@ capital = 362
 		Heavy_Anti_tank_0 = 1
 		land_drone_equipment_type = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		transport_helicopter1 = 1
 		nsb_transport_helicopter1 = 1
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		basic_computing = 1

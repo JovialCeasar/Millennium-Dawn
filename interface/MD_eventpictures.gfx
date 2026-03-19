@@ -11748,6 +11748,7 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/united_nations/UN_gen_assembly.dds"
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	spriteType = {
 		name = "GFX_convergence_event"
 		texturefile = "gfx/event_pictures/event_horizon/convergence_event.dds"
@@ -11864,6 +11865,8 @@ spriteTypes = {
 		name = "GFX_news_event_horizon_introduction"
 		texturefile = "gfx/event_pictures/generic/event_horizon/news_event_horizon_introduction.dds"
 	}
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 }

@@ -338,6 +338,7 @@ technologies = {
 				PROJECT = sp_walker_tank_chassis
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		}
 
 		path = {
@@ -348,6 +349,8 @@ technologies = {
 		path = {
 			leads_to_tech = tech_tank_hover_suspension_1
 			research_cost_coeff = 1
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		}
@@ -951,7 +954,10 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = @2035 y = @row11 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		}
 
 		ai_will_do = { factor = 1 }
@@ -994,6 +1000,7 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = @1965 y = @row9 }
+<<<<<<< HEAD
 >>>>>>> main
 		}
 
@@ -1035,6 +1042,8 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = @1965 y = @row9 }
+=======
+>>>>>>> main
 		}
 
 		ai_will_do = { factor = 1 }
@@ -1625,12 +1634,18 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		dependencies = {
 			tank_components_tech_4 = 1
 			diesel_engine_tech_6 = 1
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		path = {
 			leads_to_tech = tech_tank_nuclear_engine_2
@@ -1835,12 +1850,18 @@ technologies = {
 	turbine_engine_tech_6 = {
 		is_special_project_tech = yes
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_exoskeletal_engine_tank
 			}
 		}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		enable_equipment_modules = {
 			module_tank_exoskeletal_engine_gen2

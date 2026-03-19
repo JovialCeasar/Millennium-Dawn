@@ -1685,12 +1685,17 @@ focus_tree = {
 					original_tag_to_check = KOR
 					limit = { has_government = communism }
 <<<<<<< HEAD
+<<<<<<< HEAD
 					clear_array = ruling_party
 					clear_array = gov_coalition_array
 					add_to_array = { ruling_party = 4 }
 					update_government_coalition_strength = yes
 					update_party_name = yes
 					set_coalition_drift = yes
+=======
+					set_temp_variable = { rul_party_temp = 4 }
+					change_ruling_party_effect = yes
+>>>>>>> main
 =======
 					set_temp_variable = { rul_party_temp = 4 }
 					change_ruling_party_effect = yes

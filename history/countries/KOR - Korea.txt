@@ -883,6 +883,10 @@ capital = 604
 		OLV3 = 1
 		OLV4 = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+		microchip_production_1 = 1
+>>>>>>> main
 =======
 		microchip_production_1 = 1
 >>>>>>> main

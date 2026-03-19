@@ -441,7 +441,10 @@ opinion_modifiers = {
 		decay = 1
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	un_esco_member = {
 		value = 15
@@ -464,5 +467,8 @@ opinion_modifiers = {
 		value = -30
 		decay = 0.5
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 }

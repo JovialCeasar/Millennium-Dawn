@@ -39,7 +39,11 @@ units = {
 
 		force_equipment_variants = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			transport_helicopter2 = { owner = "GER" creator = "FRA" version_name = "Eurocopter AS532 Cougar" }
+=======
+			transport_helicopter_2 = { owner = "GER" creator = "FRA" version_name = "Eurocopter AS532 Cougar" }
+>>>>>>> main
 =======
 			transport_helicopter_2 = { owner = "GER" creator = "FRA" version_name = "Eurocopter AS532 Cougar" }
 >>>>>>> main

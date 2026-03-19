@@ -734,7 +734,11 @@ buildings = {
 		}
 		state_modifiers = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			local_resource_gain_efficiency_per_infrastructure = 0.25
+=======
+			local_resource_gain_efficiency_per_infrastructure = 0.15
+>>>>>>> main
 =======
 			local_resource_gain_efficiency_per_infrastructure = 0.15
 >>>>>>> main

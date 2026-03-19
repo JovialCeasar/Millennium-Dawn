@@ -1753,7 +1753,10 @@ capital = 45
 		OLV2 = 1
 		OLV3 = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		microchip_production_1 = 1
 	}
 
@@ -1765,6 +1768,9 @@ capital = 45
 			encryption1 = 1
 			encryption2 = 1
 		}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	}
 
@@ -1847,7 +1853,11 @@ capital = 45
 		name = "IFA W 50"
 		type = util_vehicle_1
 <<<<<<< HEAD
+<<<<<<< HEAD
 		icon = "gfx/interface/technologies/GER/LAND/IFA_W50.dds"
+=======
+		icon = "gfx/interface/technologies/GER/LAND/W50.dds"
+>>>>>>> main
 =======
 		icon = "gfx/interface/technologies/GER/LAND/W50.dds"
 >>>>>>> main
@@ -1857,7 +1867,11 @@ capital = 45
 		name = "Mercedes-Benz Unimog"
 		type = util_vehicle_1
 <<<<<<< HEAD
+<<<<<<< HEAD
 		icon = "gfx/interface/technologies/GER/LAND/Unimog.dds"
+=======
+		icon = "gfx/interface/technologies/GER/LAND/U2.dds"
+>>>>>>> main
 =======
 		icon = "gfx/interface/technologies/GER/LAND/U2.dds"
 >>>>>>> main
@@ -2412,7 +2426,11 @@ capital = 45
 			name = "Bremen Class"
 			type = frigate_hull_2
 <<<<<<< HEAD
+<<<<<<< HEAD
 			name_group = GER_MODERN_FRIGATE_NAMES
+=======
+			name_group = GER_FRIGATE_NAMES
+>>>>>>> main
 =======
 			name_group = GER_FRIGATE_NAMES
 >>>>>>> main

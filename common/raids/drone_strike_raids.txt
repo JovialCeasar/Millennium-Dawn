@@ -3603,6 +3603,7 @@ types = {
 				NOT = { has_country_flag = promised_retaliation_against@FROM }
 				FROM = { is_influencer = yes }
 			}
+<<<<<<< HEAD
 		}
 	}
 
@@ -3988,6 +3989,8 @@ types = {
 				factor = 0
 			}
 			#do some checks for nations here, like someone going for nukes will likely be targeted by enemies
+=======
+>>>>>>> main
 		}
 	}
 }

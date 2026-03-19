@@ -1021,10 +1021,13 @@ technologies = {
 		research_cost = 3
 		start_year = 2075
 <<<<<<< HEAD
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = gen_9_light
 			research_cost_coeff = 1
 		}
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		folder = {
@@ -1088,10 +1091,13 @@ technologies = {
 		research_cost = 3
 		start_year = 2075
 <<<<<<< HEAD
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = gen_9_medium
 			research_cost_coeff = 1
 		}
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		folder = {
@@ -1154,10 +1160,13 @@ technologies = {
 		research_cost = 3
 		start_year = 2075
 <<<<<<< HEAD
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = gen_9_large
 			research_cost_coeff = 1
 		}
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		folder = {
@@ -1296,6 +1305,11 @@ technologies = {
 			em_lock_detection_system_gen3
 			sensors_and_avionics_gen_4
 			combat_cloud_ewa_1
+		}
+
+		path = {
+			leads_to_tech = avionics_4
+			research_cost_coeff = 1
 		}
 
 		path = {
@@ -1493,6 +1507,16 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		dependencies = {
+			awacs_2 = 1
+			avionics_3 = 1
+		}
+
+		path = {
+			leads_to_tech = awacs_4
+			research_cost_coeff = 1
+		}
+
 		research_cost = 3.5
 		start_year = 2025
 		folder = {
@@ -1521,12 +1545,18 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		path = {
 			leads_to_tech = awacs_5
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		research_cost = 3.5
 		start_year = 2045
@@ -1790,7 +1820,11 @@ technologies = {
 		}
 		research_cost = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 		start_year = 2060
+=======
+		start_year = 2065
+>>>>>>> main
 =======
 		start_year = 2065
 >>>>>>> main
@@ -1799,7 +1833,11 @@ technologies = {
 			position = {
 				x = @row35
 <<<<<<< HEAD
+<<<<<<< HEAD
 				y = @2060
+=======
+				y = @2065
+>>>>>>> main
 =======
 				y = @2065
 >>>>>>> main
@@ -1822,20 +1860,30 @@ technologies = {
 		}
 		research_cost = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 		start_year = 2065
 =======
+=======
+>>>>>>> main
 		start_year = 2070
 		path = {
 			leads_to_tech = drone_6
 			research_cost_coeff = 1
 		}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		folder = {
 			name = bba_aircraft_folder
 			position = {
 				x = @row35
 <<<<<<< HEAD
+<<<<<<< HEAD
 				y = @2065
+=======
+				y = @2070
+>>>>>>> main
 =======
 				y = @2070
 >>>>>>> main
@@ -2705,7 +2753,10 @@ technologies = {
 		enable_equipment_modules = {
 			air_module_hypersonic_engine_2
 <<<<<<< HEAD
+<<<<<<< HEAD
 			air_module_hypersonic_engine_double_1
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		}
@@ -2728,6 +2779,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -2988,6 +3043,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3132,9 +3191,15 @@ technologies = {
 		}
 		special_project_specialization = { specialization_air }
 	}
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
+	air_weapons_3 = {
+
+>>>>>>> main
+=======
+
 	air_weapons_3 = {
 
 >>>>>>> main
@@ -3176,9 +3241,15 @@ technologies = {
 		}
 		special_project_specialization = { specialization_air }
 	}
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
+	air_weapons_4 = {
+
+>>>>>>> main
+=======
+
 	air_weapons_4 = {
 
 >>>>>>> main
@@ -3228,6 +3299,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3268,6 +3343,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3300,6 +3379,10 @@ technologies = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3336,6 +3419,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3363,6 +3450,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3430,6 +3521,10 @@ technologies = {
 		path = {
 			leads_to_tech = air_tech_pdl_1
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+			research_cost_coeff = 1
+>>>>>>> main
 =======
 			research_cost_coeff = 1
 >>>>>>> main
@@ -3476,6 +3571,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3505,6 +3604,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3534,6 +3637,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3570,6 +3677,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3589,6 +3700,10 @@ technologies = {
 		path = {
 			leads_to_tech = air_tech_pdl_3
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+			research_cost_coeff = 1
+>>>>>>> main
 =======
 			research_cost_coeff = 1
 >>>>>>> main
@@ -3612,6 +3727,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3629,12 +3748,18 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		path = {
 			leads_to_tech = air_tech_pdl_4
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		research_cost = 5
 		start_year = 2050
@@ -3654,7 +3779,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	air_tech_pdl_4 = {
 		is_special_project_tech = yes
@@ -3719,6 +3847,9 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	naval_weapons_1 = {
 
@@ -3813,9 +3944,15 @@ technologies = {
 		}
 		special_project_specialization = { specialization_air }
 	}
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
+	naval_weapons_4 = {
+
+>>>>>>> main
+=======
+
 	naval_weapons_4 = {
 
 >>>>>>> main
@@ -3846,6 +3983,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3880,6 +4021,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3910,6 +4055,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4072,6 +4221,176 @@ technologies = {
 		}
 		special_project_specialization = { specialization_air }
 	}
+	#2085
+	special_mad_6 = {
+		enable_equipment_modules = {
+			spec_mad_6
+		}
+		research_cost = 3
+		start_year = 2085
+		folder = {
+			name = bba_aircraft_folder
+			position = {
+				x = @row13
+				y = @2085
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			CAT_air_eqp
+			CAT_air_spc
+			CAT_air_naval_weapons
+			CAT_Military
+		}
+		special_project_specialization = { specialization_air }
+	}
+
+	tech_air_anti_ship_drone_1 = {
+		allow = {
+			is_special_project_completed = sp:sp_anti_ship_drone_missile
+		}
+
+		is_special_project_tech = yes
+		enable_equipment_modules = {
+			air_module_anti_ship_drone_missile_2
+		}
+
+		research_cost = 4
+		start_year = 2015
+		folder = {
+			name = bba_aircraft_folder
+			position = { x = @row12 y = @2015 }
+		}
+
+		path = {
+			leads_to_tech = tech_air_anti_ship_drone_2
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { factor = 1 }
+
+		categories = {
+			CAT_air_eqp
+			CAT_air_spc
+			CAT_air_naval_weapons
+			CAT_Military
+		}
+		special_project_specialization = { specialization_air }
+	}
+	tech_air_anti_ship_drone_2 = {
+		is_special_project_tech = yes
+		enable_equipment_modules = {
+			air_module_anti_ship_drone_missile_3
+		}
+
+		research_cost = 4
+		start_year = 2030
+		folder = {
+			name = bba_aircraft_folder
+			position = { x = @row12 y = @2030 }
+		}
+
+		path = {
+			leads_to_tech = tech_air_anti_ship_drone_3
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { factor = 1 }
+
+		categories = {
+			CAT_air_eqp
+			CAT_air_spc
+			CAT_air_naval_weapons
+			CAT_Military
+		}
+		special_project_specialization = { specialization_air }
+	}
+	tech_air_anti_ship_drone_3 = {
+		is_special_project_tech = yes
+		enable_equipment_modules = {
+			air_module_anti_ship_drone_missile_4
+		}
+
+		research_cost = 4
+		start_year = 2050
+		folder = {
+			name = bba_aircraft_folder
+			position = { x = @row12 y = @2050 }
+		}
+
+		ai_will_do = { factor = 1 }
+
+		categories = {
+			CAT_air_eqp
+			CAT_air_spc
+			CAT_air_naval_weapons
+			CAT_Military
+		}
+		special_project_specialization = { specialization_air }
+	}
+
+	#2045
+	special_mad_4 = {
+		enable_equipment_modules = {
+			spec_mad_4
+		}
+		research_cost = 3
+		start_year = 2045
+		path = {
+			leads_to_tech = special_mad_5
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = bba_aircraft_folder
+			position = {
+				x = @row13
+				y = @2045
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			CAT_air_eqp
+			CAT_air_spc
+			CAT_air_naval_weapons
+			CAT_Military
+		}
+		special_project_specialization = { specialization_air }
+	}
+
+	#2065
+	special_mad_5 = {
+		enable_equipment_modules = {
+			spec_mad_5
+		}
+		research_cost = 3
+		start_year = 2065
+		path = {
+			leads_to_tech = special_mad_6
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = bba_aircraft_folder
+			position = {
+				x = @row13
+				y = @2065
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			CAT_air_eqp
+			CAT_air_spc
+			CAT_air_naval_weapons
+			CAT_Military
+		}
+		special_project_specialization = { specialization_air }
+	}
+
 	#2085
 	special_mad_6 = {
 		enable_equipment_modules = {
@@ -4697,12 +5016,18 @@ technologies = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		path = {
 			leads_to_tech = air_tech_gunship_railgun_4
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		research_cost = 5
 		start_year = 2055
@@ -4721,7 +5046,10 @@ technologies = {
 		special_project_specialization = { specialization_air }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	air_tech_gunship_railgun_4 = {
 		is_special_project_tech = yes
 		enable_equipment_modules = {
@@ -4798,6 +5126,9 @@ technologies = {
 		}
 		special_project_specialization = { specialization_air }
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	tgp_recon_1 = {
 
@@ -4960,10 +5291,13 @@ technologies = {
 		research_cost = 3
 		start_year = 2085
 <<<<<<< HEAD
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = tgp_recon_7
 			research_cost_coeff = 1
 		}
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		folder = {

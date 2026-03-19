@@ -570,7 +570,11 @@ units = {
 		start_experience_factor = 0.8
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 15 owner = FRA version_name = "AS555 Fennec" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 15 owner = FRA version_name = "AS555 Fennec" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 15 owner = FRA version_name = "AS555 Fennec" } }
 >>>>>>> main
@@ -588,7 +592,11 @@ units = {
 		start_experience_factor = 0.8
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 15 owner = FRA version_name = "AS555 Fennec" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 15 owner = FRA version_name = "AS555 Fennec" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 15 owner = FRA version_name = "AS555 Fennec" } }
 >>>>>>> main

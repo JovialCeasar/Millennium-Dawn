@@ -3080,7 +3080,11 @@ equipments = {
 		naval_strike_attack = 16
 		naval_strike_targetting = 16
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3108,7 +3112,11 @@ equipments = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3155,7 +3163,11 @@ equipments = {
 		air_agility = 30
 		air_attack = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 		air_defence = 20d
+=======
+		air_defence = 20
+>>>>>>> main
 =======
 		air_defence = 20
 >>>>>>> main

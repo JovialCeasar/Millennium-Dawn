@@ -20,8 +20,11 @@ set_research_slots = 4
 		cnc_equipment_1 = 1
 		combat_eng_equipment = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 		special_forces_tech_1 = 1
 		support_weapons = 1
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		Anti_tank_0 = 1

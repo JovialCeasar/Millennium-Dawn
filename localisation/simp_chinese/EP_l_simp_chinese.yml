@@ -2,7 +2,10 @@
  market_money_cost_display_header_tt: "§Y市场定价§!"
  infantry_equipment_loc: "步兵武器："
 <<<<<<< HEAD
+<<<<<<< HEAD
  cnc_equipment_type_loc: "CNC装备："
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  aa_equipment_loc: "便携式防空导弹："
@@ -29,7 +32,10 @@
  sup_equip_desc: "§Y支援装备§!"
  infantry_equipment_loc_tt: "§R[?temp_infantry_equipment_cost]B/每周花费§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  cnc_equipment_type_loc_tt: "§R[?temp_cnc_equipment_type_cost]B/每周花费§!"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  aa_equipment_loc_tt: "§R[?temp_aa_equipment_cost]B/每周花费§!"

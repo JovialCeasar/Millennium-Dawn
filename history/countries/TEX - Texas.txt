@@ -51,7 +51,11 @@ capital = 800
 	# General Technology Setting
 	complete_special_project = sp:sp_aircraft_project
 <<<<<<< HEAD
+<<<<<<< HEAD
 	complete_special_project = sp:sp_nuclear_energy
+=======
+	complete_special_project = sp:sp_helicopter_project
+>>>>>>> main
 =======
 	complete_special_project = sp:sp_helicopter_project
 >>>>>>> main

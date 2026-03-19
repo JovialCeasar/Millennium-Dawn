@@ -1,5 +1,9 @@
 UN_voting_category = {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	allowed = { NOT = { original_tag = ZOM } }
+>>>>>>> main
 =======
 	allowed = { NOT = { original_tag = ZOM } }
 >>>>>>> main
@@ -8,11 +12,15 @@ UN_voting_category = {
 	picture = GFX_voting_european_union
 	priority = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	allowed = {
 		is_in_array = { global.UN_general_assembly = THIS }
 	}
 }
+=======
+}
+>>>>>>> main
 =======
 }
 >>>>>>> main

@@ -519,6 +519,7 @@ trigger_year_2001_events = {
 		country_event = { id = PER_election_events.2 days = 90 }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	# Event Horizon Blitz Mode
 	if = {
@@ -530,6 +531,10 @@ trigger_year_2001_events = {
 			NOT = { has_global_flag = EH_scenario_launched_earlier_flag }
 		}
 		EH_convergence_event_chain_effect = yes
+=======
+	ALG = {
+		country_event = { id = ALG_black_spring.1 days = 134 }
+>>>>>>> main
 =======
 	ALG = {
 		country_event = { id = ALG_black_spring.1 days = 134 }
@@ -1811,6 +1816,7 @@ trigger_year_2012_events = {
 		country_event = { id = HOL_common_event.17 days = 48 }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	# Event Horizon Casual Mode
 	if = {
@@ -1822,6 +1828,11 @@ trigger_year_2012_events = {
 			NOT = { has_global_flag = EH_scenario_launched_earlier_flag }
 		}
 		EH_convergence_event_chain_effect = yes
+=======
+	JAP = {
+		country_event = { id = JAP_historical.20090808 days = 219 }
+		country_event = { id = JAP_historical.20120928 days = 271 }
+>>>>>>> main
 =======
 	JAP = {
 		country_event = { id = JAP_historical.20090808 days = 219 }
@@ -2321,6 +2332,7 @@ trigger_year_2020_events = {
 		country_event = { id = oman_royal.1 days = 1 random_days = 90 }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	# Event Horizon Delayed Mode
 	if = {
@@ -2333,10 +2345,15 @@ trigger_year_2020_events = {
 		}
 		EH_convergence_event_chain_effect = yes
 =======
+=======
+>>>>>>> main
 	JAP = {
 		country_event = { id = JAP_historical.20170925 days = 267 }
 		country_event = { id = JAP_historical.20180507 days = 126 }
 		country_event = { id = JAP_historical.20190401 days = 90 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	}
 }

@@ -117,7 +117,11 @@ units = {
 		force_equipment_variants = { Anti_Air_0 = { amount = 16 owner = TAJ creator = SOV } }
 		force_equipment_variants = { Anti_tank_0 = { amount = 24 owner = TAJ creator = SOV } }
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter1 = { amount = 30 owner = TAJ creator = SOV } }
+=======
+		force_equipment_variants = { transport_helicopter_1 = { amount = 30 owner = TAJ creator = SOV } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_1 = { amount = 30 owner = TAJ creator = SOV } }
 >>>>>>> main

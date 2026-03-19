@@ -164,7 +164,10 @@ capital = 875
 		early_freight_locomotive = 1
 		infantry_mass_assault = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		infantry_weapons_1 = 1
@@ -173,6 +176,7 @@ capital = 875
 		combat_eng_equipment = 1
 		Anti_tank_0 = 1
 		Heavy_Anti_tank_0 = 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -184,6 +188,11 @@ capital = 875
 
 		body_armor_1 = 1
 
+=======
+		util_vehicle_1 = 1
+		util_vehicle_1 = 1
+		body_armor_1 = 1
+>>>>>>> main
 =======
 		util_vehicle_1 = 1
 		util_vehicle_1 = 1

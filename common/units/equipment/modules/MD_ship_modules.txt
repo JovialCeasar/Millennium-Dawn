@@ -143,6 +143,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -174,7 +178,10 @@ equipment_modules = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	module_surface_diesel_power_5 = {
 		category = module_surface_power_source_category
 		parent = module_surface_diesel_power_4
@@ -202,6 +209,9 @@ equipment_modules = {
 		}
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_surface_jet_turbine_power = {
 		category = module_surface_power_source_category
@@ -306,11 +316,14 @@ equipment_modules = {
 		}
 		can_convert_from = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			module = module_surface_jet_turbine_power2
 			convert_cost_ic = 2400
 		}
 	}
 =======
+=======
+>>>>>>> main
 			module = module_surface_jet_turbine_power3
 			convert_cost_ic = 2400
 		}
@@ -367,6 +380,9 @@ equipment_modules = {
 			convert_cost_ic = 3000
 		}
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 #LIGHT CONVENTIONAL SHIP ENGINES
 	module_light_surface_diesel_power_1 = {
@@ -391,6 +407,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -417,6 +437,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -443,6 +467,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -469,7 +497,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	module_light_surface_diesel_power_5 = {
 		category = module_light_surface_power_source_category
@@ -494,6 +525,9 @@ equipment_modules = {
 		}
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_light_surface_jet_turbine_power = {
 		category = module_light_surface_power_source_category
@@ -576,6 +610,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -595,6 +633,7 @@ equipment_modules = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		dismantle_cost_ic = 90
 
 		can_convert_from = {
@@ -605,6 +644,8 @@ equipment_modules = {
 			module = module_light_surface_jet_turbine_power2
 			convert_cost_ic = 525
 =======
+=======
+>>>>>>> main
 		dismantle_cost_ic = 105
 
 		can_convert_from = {
@@ -666,6 +707,9 @@ equipment_modules = {
 		can_convert_from = {
 			module = module_light_surface_jet_turbine_power2
 			convert_cost_ic = 750
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 	}
@@ -870,7 +914,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	module_surface_fut_reactor_power2 = {
 		category = module_surface_power_source_category
@@ -921,6 +968,9 @@ equipment_modules = {
 			convert_cost_ic = 4000
 		}
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 #Fusion Reactor
 	module_naval_surface_fusion_engine_1 = {
@@ -2672,7 +2722,12 @@ equipment_modules = {
 			naval_speed = 0.03
 			sub_visibility = -0.025
 <<<<<<< HEAD
+<<<<<<< HEAD
 			sub_detection = 0.025
+=======
+			sub_detection = 0.10
+			surface_detection = 0.05
+>>>>>>> main
 =======
 			sub_detection = 0.10
 			surface_detection = 0.05
@@ -2708,7 +2763,12 @@ equipment_modules = {
 			naval_speed = 0.03
 			sub_visibility = -0.025
 <<<<<<< HEAD
+<<<<<<< HEAD
 			sub_detection = 0.025
+=======
+			sub_detection = 0.10
+			surface_detection = 0.05
+>>>>>>> main
 =======
 			sub_detection = 0.10
 			surface_detection = 0.05
@@ -2744,7 +2804,12 @@ equipment_modules = {
 			naval_speed = 0.03
 			sub_visibility = -0.025
 <<<<<<< HEAD
+<<<<<<< HEAD
 			sub_detection = 0.025
+=======
+			sub_detection = 0.10
+			surface_detection = 0.05
+>>>>>>> main
 =======
 			sub_detection = 0.10
 			surface_detection = 0.05
@@ -2973,7 +3038,10 @@ equipment_modules = {
 
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	module_ciws_7 = {
 		category = module_point_defense_system_category
@@ -3041,6 +3109,9 @@ equipment_modules = {
 
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_naval_adl_1 = {
 		category = module_naval_adl_category
@@ -3069,6 +3140,10 @@ equipment_modules = {
 
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -3077,6 +3152,7 @@ equipment_modules = {
 		parent = module_naval_adl_1
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 600
 			fuel_consumption = 4.5
@@ -3101,6 +3177,8 @@ equipment_modules = {
 
 	}
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 582.45
 			fuel_consumption = 4.5
 			max_strength = 5
@@ -3124,12 +3202,16 @@ equipment_modules = {
 
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_naval_adl_3 = {
 		category = module_naval_adl_category
 		parent = module_naval_adl_2
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 650
 			fuel_consumption = 5.5
@@ -3153,6 +3235,8 @@ equipment_modules = {
 		}
 	}
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 616.81
 			fuel_consumption = 5.5
 			max_strength = 5
@@ -3175,12 +3259,16 @@ equipment_modules = {
 		}
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_naval_adl_4 = {
 		category = module_naval_adl_category
 		parent = module_naval_adl_3
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 700
 			fuel_consumption = 5.5
@@ -3202,6 +3290,8 @@ equipment_modules = {
 			module_category = module_naval_adl_category
 			convert_cost_ic = 200
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 653.21
 			fuel_consumption = 5.5
 			max_strength = 5
@@ -3249,6 +3339,9 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = module_naval_adl_category
 			convert_cost_ic = 301.68
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -3924,7 +4017,10 @@ equipment_modules = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	module_railgun_5 = {
 		category = module_railguns_category
 		parent = module_railgun_4
@@ -3997,6 +4093,9 @@ equipment_modules = {
 		}
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_naval_railgun_battery_1 = {
 		category = module_railgun_battery_category
@@ -4020,12 +4119,18 @@ equipment_modules = {
 		dismantle_cost_ic = 175
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		can_convert_from = {
 			module_category = module_railgun_battery_category
 			convert_cost_ic = 600
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		build_cost_resources = {
 			steel = 4
@@ -4035,6 +4140,10 @@ equipment_modules = {
 
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4044,6 +4153,7 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 2100
 			fuel_consumption = 10
 			max_strength = 25
@@ -4052,6 +4162,8 @@ equipment_modules = {
 			lg_attack = 22
 			hg_attack = 16
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 2179.80
 			fuel_consumption = 10
 			max_strength = 25
@@ -4059,6 +4171,9 @@ equipment_modules = {
 			surface_visibility = 0.62
 			lg_attack = 21.6
 			hg_attack = 14.4
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -4069,8 +4184,11 @@ equipment_modules = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		dismantle_cost_ic = 175
 =======
+=======
+>>>>>>> main
 		dismantle_cost_ic = 210
 
 		can_convert_from = {
@@ -4082,28 +4200,38 @@ equipment_modules = {
 			module = module_naval_railgun_battery_1
 			convert_cost_ic = 200
 		}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
 		build_cost_resources = {
 			steel = 4
 			composites = 4
 <<<<<<< HEAD
+<<<<<<< HEAD
 			microchips = 2
 		}
 
 	}
 =======
+=======
+>>>>>>> main
 			microchips = 3
 		}
 
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_naval_railgun_battery_3 = {
 		category = module_railgun_battery_category
 		parent = module_naval_railgun_battery_2
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 2100
 			fuel_consumption = 10
@@ -4113,6 +4241,8 @@ equipment_modules = {
 			lg_attack = 22
 			hg_attack = 16
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 2639.74
 			fuel_consumption = 10
 			max_strength = 25
@@ -4120,6 +4250,9 @@ equipment_modules = {
 			surface_visibility = 0.52
 			lg_attack = 25.92
 			hg_attack = 17.28
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -4130,6 +4263,7 @@ equipment_modules = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		dismantle_cost_ic = 175
 
 		build_cost_resources = {
@@ -4137,6 +4271,8 @@ equipment_modules = {
 			composites = 4
 			microchips = 2
 =======
+=======
+>>>>>>> main
 		dismantle_cost_ic = 252
 
 		can_convert_from = {
@@ -4193,6 +4329,9 @@ equipment_modules = {
 			steel = 5
 			composites = 5
 			microchips = 3
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -4368,7 +4507,10 @@ equipment_modules = {
 
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	module_vls_asm_7 = {
 		category = module_vls_category
@@ -4415,6 +4557,9 @@ equipment_modules = {
 		}
 
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 #VLS Drone Swarm
 	module_naval_vls_drone_swarm_1 = {
@@ -4444,6 +4589,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4453,6 +4602,7 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 1800
 			hg_attack = 85
 			max_strength = 20
@@ -4460,12 +4610,17 @@ equipment_modules = {
 			fuel_consumption = 5
 			hg_armor_piercing = 80
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 1859.4
 			hg_attack = 90.70
 			max_strength = 20
 			max_organisation = 0.28
 			fuel_consumption = 5
 			hg_armor_piercing = 90.32
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			lg_attack = 10
 		}
@@ -4473,17 +4628,23 @@ equipment_modules = {
 		manpower = -1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		dismantle_cost_ic = 150
 
 		can_convert_from = {
 			module_category = module_vls_category
 			convert_cost_ic = 300
 =======
+=======
+>>>>>>> main
 		dismantle_cost_ic = 165
 
 		can_convert_from = {
 			module_category = module_vls_category
 			convert_cost_ic = 350.1
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -4492,6 +4653,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4501,6 +4666,7 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 1800
 			hg_attack = 85
 			max_strength = 20
@@ -4508,12 +4674,17 @@ equipment_modules = {
 			fuel_consumption = 5
 			hg_armor_piercing = 80
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 1920.76
 			hg_attack = 96.77
 			max_strength = 20
 			max_organisation = 0.28
 			fuel_consumption = 5
 			hg_armor_piercing = 101.97
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			lg_attack = 10
 		}
@@ -4521,17 +4692,23 @@ equipment_modules = {
 		manpower = -1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		dismantle_cost_ic = 150
 
 		can_convert_from = {
 			module_category = module_vls_category
 			convert_cost_ic = 300
 =======
+=======
+>>>>>>> main
 		dismantle_cost_ic = 181.5
 
 		can_convert_from = {
 			module_category = module_vls_category
 			convert_cost_ic = 408.57
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -4540,6 +4717,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4549,6 +4730,7 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 1800
 			hg_attack = 85
 			max_strength = 20
@@ -4556,18 +4738,24 @@ equipment_modules = {
 			fuel_consumption = 5
 			hg_armor_piercing = 80
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 1984.15
 			hg_attack = 103.26
 			max_strength = 20
 			max_organisation = 0.28
 			fuel_consumption = 5
 			hg_armor_piercing = 115.13
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			lg_attack = 10
 		}
 
 		manpower = -1
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 		dismantle_cost_ic = 150
 
@@ -4579,6 +4767,8 @@ equipment_modules = {
 		build_cost_resources = {
 			microchips = 5
 =======
+=======
+>>>>>>> main
 		dismantle_cost_ic = 199.65
 
 		can_convert_from = {
@@ -4616,6 +4806,9 @@ equipment_modules = {
 
 		build_cost_resources = {
 			microchips = 6
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 	}
@@ -6182,7 +6375,10 @@ equipment_modules = {
 
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	module_asm_7 = {
 		category = module_turret_missile_category
@@ -6230,6 +6426,9 @@ equipment_modules = {
 
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_naval_anti_torpedo_1 = {
 		category = module_turret_missile_category
@@ -6255,6 +6454,10 @@ equipment_modules = {
 
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -6264,7 +6467,11 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 1200
+=======
+			build_cost_ic = 1254
+>>>>>>> main
 =======
 			build_cost_ic = 1254
 >>>>>>> main
@@ -6274,7 +6481,11 @@ equipment_modules = {
 		}
 		multiply_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			naval_torpedo_damage_reduction_factor = 0.08
+=======
+			naval_torpedo_damage_reduction_factor = 0.09
+>>>>>>> main
 =======
 			naval_torpedo_damage_reduction_factor = 0.09
 >>>>>>> main
@@ -6282,6 +6493,7 @@ equipment_modules = {
 		}
 
 		manpower = 10
+<<<<<<< HEAD
 <<<<<<< HEAD
 		dismantle_cost_ic = 110
 
@@ -6292,6 +6504,8 @@ equipment_modules = {
 
 	}
 =======
+=======
+>>>>>>> main
 		dismantle_cost_ic = 122.21
 
 		can_convert_from = {
@@ -6301,6 +6515,9 @@ equipment_modules = {
 
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_naval_anti_torpedo_3 = {
 		category = module_turret_missile_category
@@ -6308,7 +6525,11 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 1200
+=======
+			build_cost_ic = 1310.43
+>>>>>>> main
 =======
 			build_cost_ic = 1310.43
 >>>>>>> main
@@ -6317,6 +6538,7 @@ equipment_modules = {
 			max_organisation = 0.14
 		}
 		multiply_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			naval_torpedo_damage_reduction_factor = 0.08
 			naval_torpedo_enemy_critical_chance_factor = -0.04
@@ -6332,6 +6554,8 @@ equipment_modules = {
 
 	}
 =======
+=======
+>>>>>>> main
 			naval_torpedo_damage_reduction_factor = 0.10
 			naval_torpedo_enemy_critical_chance_factor = -0.05
 		}
@@ -6346,6 +6570,9 @@ equipment_modules = {
 
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_naval_anti_torpedo_4 = {
 		category = module_turret_missile_category
@@ -6353,7 +6580,11 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 1200
+=======
+			build_cost_ic = 1369.40
+>>>>>>> main
 =======
 			build_cost_ic = 1369.40
 >>>>>>> main
@@ -6362,6 +6593,7 @@ equipment_modules = {
 			max_organisation = 0.14
 		}
 		multiply_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			naval_torpedo_damage_reduction_factor = 0.08
 			naval_torpedo_enemy_critical_chance_factor = -0.04
@@ -6374,6 +6606,8 @@ equipment_modules = {
 			module_category = module_turret_missile_category
 			convert_cost_ic = 350
 =======
+=======
+>>>>>>> main
 			naval_torpedo_damage_reduction_factor = 0.11
 			naval_torpedo_enemy_critical_chance_factor = -0.06
 		}
@@ -6434,6 +6668,9 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = module_turret_missile_category
 			convert_cost_ic = 806.4
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -6636,7 +6873,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	module_radar_8 = {
 		category = module_radar_category
@@ -6693,6 +6933,9 @@ equipment_modules = {
 			#microchips = 3
 		}
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 # Drone Recon
 	module_naval_recon_drone_1 = {
@@ -6722,6 +6965,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -6730,6 +6977,7 @@ equipment_modules = {
 		parent = module_naval_recon_drone_1
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 1100
 			surface_detection = 52
@@ -6743,6 +6991,8 @@ equipment_modules = {
 			torpedo_attack = 0.4
 			anti_air_attack = 1.4
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 1312.5
 			surface_detection = 56.02
 			sub_detection = 15.75
@@ -6754,13 +7004,20 @@ equipment_modules = {
 			hg_attack = 0.47
 			torpedo_attack = 0.47
 			anti_air_attack = 1.75
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
 		can_convert_from = {
 			module_category = module_drone_radar_category
 <<<<<<< HEAD
+<<<<<<< HEAD
 			convert_cost_ic = 525
+=======
+			convert_cost_ic = 656.25
+>>>>>>> main
 =======
 			convert_cost_ic = 656.25
 >>>>>>> main
@@ -6771,6 +7028,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -6779,6 +7040,7 @@ equipment_modules = {
 		parent = module_naval_recon_drone_2
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 1150
 			surface_detection = 56
@@ -6792,6 +7054,8 @@ equipment_modules = {
 			torpedo_attack = 0.45
 			anti_air_attack = 1.4
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 1640.63
 			surface_detection = 65.37
 			sub_detection = 18.39
@@ -6803,13 +7067,20 @@ equipment_modules = {
 			hg_attack = 0.62
 			torpedo_attack = 0.62
 			anti_air_attack = 2.19
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
 		can_convert_from = {
 			module_category = module_drone_radar_category
 <<<<<<< HEAD
+<<<<<<< HEAD
 			convert_cost_ic = 525
+=======
+			convert_cost_ic = 820.31
+>>>>>>> main
 =======
 			convert_cost_ic = 820.31
 >>>>>>> main
@@ -6820,6 +7091,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -6828,6 +7103,7 @@ equipment_modules = {
 		parent = module_naval_recon_drone_3
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 1200
 			surface_detection = 60
@@ -6841,6 +7117,8 @@ equipment_modules = {
 			torpedo_attack = 0.5
 			anti_air_attack = 1.4
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 2050.78
 			surface_detection = 76.29
 			sub_detection = 21.46
@@ -6852,13 +7130,20 @@ equipment_modules = {
 			hg_attack = 0.83
 			torpedo_attack = 0.83
 			anti_air_attack = 2.73
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
 		can_convert_from = {
 			module_category = module_drone_radar_category
 <<<<<<< HEAD
+<<<<<<< HEAD
 			convert_cost_ic = 525
+=======
+			convert_cost_ic = 1025.39
+>>>>>>> main
 =======
 			convert_cost_ic = 1025.39
 >>>>>>> main
@@ -6869,6 +7154,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -6877,6 +7166,7 @@ equipment_modules = {
 		parent = module_naval_recon_drone_4
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 1200
 			surface_detection = 65
@@ -6890,6 +7180,8 @@ equipment_modules = {
 			torpedo_attack = 0.5
 			anti_air_attack = 1.4
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 2563.48
 			surface_detection = 89.03
 			sub_detection = 25.04
@@ -6901,13 +7193,20 @@ equipment_modules = {
 			hg_attack = 1.11
 			torpedo_attack = 1.11
 			anti_air_attack = 3.42
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
 		can_convert_from = {
 			module_category = module_drone_radar_category
 <<<<<<< HEAD
+<<<<<<< HEAD
 			convert_cost_ic = 525
+=======
+			convert_cost_ic = 1281.74
+>>>>>>> main
 =======
 			convert_cost_ic = 1281.74
 >>>>>>> main
@@ -6918,7 +7217,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	module_naval_recon_drone_6 = {
 		category = module_drone_radar_category
@@ -7004,6 +7306,9 @@ equipment_modules = {
 		}
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 #Radar Jammer
 	module_naval_radar_jammer_1 = {
@@ -7035,6 +7340,10 @@ equipment_modules = {
 
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -7044,21 +7353,28 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 100
 			surface_detection = 12
 			sub_detection = 20
 			max_strength = 100
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 112.5
 			surface_detection = 13.8
 			sub_detection = 23
 			max_strength = 115
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
 		multiply_stats = {
 			hg_attack = 0.04
 			torpedo_attack = 0.04
+<<<<<<< HEAD
 <<<<<<< HEAD
 			surface_visibility = -0.125
 		}
@@ -7069,6 +7385,8 @@ equipment_modules = {
 			module_category = module_radar_jammer_category
 			convert_cost_ic = 50
 =======
+=======
+>>>>>>> main
 			surface_visibility = -0.11
 		}
 
@@ -7077,6 +7395,9 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = module_radar_jammer_category
 			convert_cost_ic = 56.25
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -7086,6 +7407,10 @@ equipment_modules = {
 
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -7094,6 +7419,7 @@ equipment_modules = {
 		parent = module_naval_radar_jammer_2
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 100
 			surface_detection = 12
@@ -7113,6 +7439,8 @@ equipment_modules = {
 			module_category = module_radar_jammer_category
 			convert_cost_ic = 50
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 126.56
 			surface_detection = 15.87
 			sub_detection = 26.45
@@ -7130,6 +7458,9 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = module_radar_jammer_category
 			convert_cost_ic = 63.28
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -7139,6 +7470,10 @@ equipment_modules = {
 
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -7147,6 +7482,7 @@ equipment_modules = {
 		parent = module_naval_radar_jammer_3
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 100
 			surface_detection = 12
@@ -7166,6 +7502,8 @@ equipment_modules = {
 			module_category = module_radar_jammer_category
 			convert_cost_ic = 50
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 142.38
 			surface_detection = 18.25
 			sub_detection = 30.42
@@ -7183,6 +7521,9 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = module_radar_jammer_category
 			convert_cost_ic = 71.19
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -7192,6 +7533,10 @@ equipment_modules = {
 
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -7201,11 +7546,14 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 100
 			surface_detection = 12
 			sub_detection = 20
 			max_strength = 100
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 160.18
 			surface_detection = 20.99
 			sub_detection = 34.98
@@ -7240,12 +7588,16 @@ equipment_modules = {
 			surface_detection = 23.73
 			sub_detection = 39.54
 			max_strength = 197.71
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
 		multiply_stats = {
 			hg_attack = 0.04
 			torpedo_attack = 0.04
+<<<<<<< HEAD
 <<<<<<< HEAD
 			surface_visibility = -0.125
 		}
@@ -7260,6 +7612,8 @@ equipment_modules = {
 		build_cost_resources = {
 			microchips = 3
 =======
+=======
+>>>>>>> main
 			surface_visibility = -0.07
 		}
 
@@ -7272,6 +7626,9 @@ equipment_modules = {
 
 		build_cost_resources = {
 			microchips = 4
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
@@ -7662,7 +8019,10 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	module_torpedoes_7 = {
 		category = module_torpedoes_category
@@ -7712,6 +8072,9 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_naval_asw_nuclear_torpedoes_1 = {
 		category = module_nuclear_torpedoes_category
@@ -7736,6 +8099,10 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -7744,6 +8111,7 @@ equipment_modules = {
 		parent = module_naval_asw_nuclear_torpedoes_1
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 1350
 			fuel_consumption = 1
@@ -7764,6 +8132,8 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 1410.75
 			fuel_consumption = 1
 			max_strength = 10
@@ -7783,12 +8153,16 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_naval_asw_nuclear_torpedoes_3 = {
 		category = module_nuclear_torpedoes_category
 		parent = module_naval_asw_nuclear_torpedoes_2
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 1350
 			fuel_consumption = 1
@@ -7809,6 +8183,8 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 1474.23
 			fuel_consumption = 1
 			max_strength = 10
@@ -7828,12 +8204,16 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_naval_asw_nuclear_torpedoes_4 = {
 		category = module_nuclear_torpedoes_category
 		parent = module_naval_asw_nuclear_torpedoes_3
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 1350
 			fuel_consumption = 1
@@ -7854,6 +8234,8 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 1540.57
 			fuel_consumption = 1
 			max_strength = 10
@@ -7897,6 +8279,9 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 #ANTI-SHIP TORPEDOES
 	module_anti_ship_torpedoes_1 = {
@@ -8048,7 +8433,10 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	module_anti_ship_torpedoes_7 = {
 		category = module_anti_ship_torpedoes_category
@@ -8100,6 +8488,9 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_anti_ship_drone_torpedoes_1 = {
 		category = module_anti_ship_drone_torpedoes_category
@@ -8136,6 +8527,7 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 650
 			fuel_consumption = 5
 			max_strength = 10
@@ -8154,6 +8546,8 @@ equipment_modules = {
 			module_category = module_anti_ship_torpedoes_category
 			convert_cost_ic = 150
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 653.13
 			fuel_consumption = 5
 			max_strength = 10
@@ -8171,6 +8565,9 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = module_anti_ship_torpedoes_category
 			convert_cost_ic = 145.88
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		critical_parts = { damaged_torpedoes }
@@ -8185,6 +8582,7 @@ equipment_modules = {
 		parent = module_anti_ship_drone_torpedoes_2
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 675
 			fuel_consumption = 5
@@ -8204,6 +8602,8 @@ equipment_modules = {
 			module_category = module_anti_ship_torpedoes_category
 			convert_cost_ic = 175
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 682.52
 			fuel_consumption = 5
 			max_strength = 10
@@ -8221,6 +8621,9 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = module_anti_ship_torpedoes_category
 			convert_cost_ic = 170.24
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		critical_parts = { damaged_torpedoes }
@@ -8230,6 +8633,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -8238,6 +8645,7 @@ equipment_modules = {
 		parent = module_anti_ship_drone_torpedoes_3
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 675
 			fuel_consumption = 5
@@ -8257,6 +8665,8 @@ equipment_modules = {
 			module_category = module_anti_ship_torpedoes_category
 			convert_cost_ic = 175
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 713.23
 			fuel_consumption = 5
 			max_strength = 10
@@ -8274,6 +8684,9 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = module_anti_ship_torpedoes_category
 			convert_cost_ic = 198.67
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		critical_parts = { damaged_torpedoes }
@@ -8283,7 +8696,10 @@ equipment_modules = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	module_naval_anti_ship_drone_torpedoes_5 = {
 		category = module_anti_ship_drone_torpedoes_category
@@ -8345,6 +8761,9 @@ equipment_modules = {
 		}
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_naval_anti_ship_nuclear_torpedo_1 = {
 		category = module_anti_ship_nuclear_torpedoes_category
@@ -8370,6 +8789,10 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -8378,6 +8801,7 @@ equipment_modules = {
 		parent = module_naval_anti_ship_nuclear_torpedo_1
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 750
 			fuel_consumption = 1
@@ -8399,6 +8823,8 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 783.75
 			fuel_consumption = 1
 			max_strength = 10
@@ -8419,12 +8845,16 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_naval_anti_ship_nuclear_torpedo_3 = {
 		category = module_anti_ship_nuclear_torpedoes_category
 		parent = module_naval_anti_ship_nuclear_torpedo_2
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 750
 			fuel_consumption = 1
@@ -8446,6 +8876,8 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 819.02
 			fuel_consumption = 1
 			max_strength = 10
@@ -8466,12 +8898,16 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	module_naval_anti_ship_nuclear_torpedo_4 = {
 		category = module_anti_ship_nuclear_torpedoes_category
 		parent = module_naval_anti_ship_nuclear_torpedo_3
 
 		add_stats = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			build_cost_ic = 750
 			fuel_consumption = 1
@@ -8490,6 +8926,8 @@ equipment_modules = {
 			module_category = module_anti_ship_torpedoes_category
 			convert_cost_ic = 100
 =======
+=======
+>>>>>>> main
 			build_cost_ic = 855.87
 			fuel_consumption = 1
 			max_strength = 10
@@ -8531,6 +8969,9 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = module_anti_ship_torpedoes_category
 			convert_cost_ic = 181.67
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		critical_parts = { damaged_torpedoes }
@@ -8575,9 +9016,15 @@ equipment_modules = {
 			max_strength = 10
 			max_organisation = 0.14
 <<<<<<< HEAD
+<<<<<<< HEAD
 			surface_visibility = 0.5
 			sub_detection = 0.05
 			mines_sweeping = 6
+=======
+			surface_visibility = 0.75
+			sub_detection = 0.15
+			mines_sweeping = 9
+>>>>>>> main
 =======
 			surface_visibility = 0.75
 			sub_detection = 0.15

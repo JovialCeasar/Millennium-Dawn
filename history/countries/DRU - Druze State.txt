@@ -36,9 +36,13 @@ capital = 185
 	set_technology = {
 		armoured_mass_assault = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		infantry_weapons_1 = 1
 
+=======
+		infantry_weapons_1 = 1
+>>>>>>> main
 =======
 		infantry_weapons_1 = 1
 >>>>>>> main

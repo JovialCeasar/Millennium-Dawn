@@ -214,7 +214,11 @@ units = {
 instant_effect = {
 	add_equipment_to_stockpile = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		type = infantry_weapons_3 #C7
+=======
+		type = infantry_weapons_2 #C7
+>>>>>>> main
 =======
 		type = infantry_weapons_2 #C7
 >>>>>>> main
@@ -223,7 +227,11 @@ instant_effect = {
 	}
 	add_equipment_to_stockpile = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		type = infantry_weapons_4 #C7A1
+=======
+		type = infantry_weapons_3 #C7A1
+>>>>>>> main
 =======
 		type = infantry_weapons_3 #C7A1
 >>>>>>> main
@@ -232,7 +240,11 @@ instant_effect = {
 	}
 	add_equipment_to_stockpile = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		type = cnc_equipment_3 #C2 Equipment
+=======
+		type = cnc_equipment_2 #C2 Equipment
+>>>>>>> main
 =======
 		type = cnc_equipment_2 #C2 Equipment
 >>>>>>> main

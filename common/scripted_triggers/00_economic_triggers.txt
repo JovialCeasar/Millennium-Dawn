@@ -309,9 +309,12 @@ is_overall_productivity_less_than_global_average = {
 		tooltip = is_productivity_less_than_global_average
 		check_variable = { overall_productivity < global.average_world_productivity }
 	}
+<<<<<<< HEAD
 <<<<<<< HEAD:common/scripted_triggers/MD_economic_triggers.txt
 }
 =======
+=======
+>>>>>>> main
 }
 
 # Employment — total_unemployed_k and workers_per_X_display are both in thousands
@@ -336,4 +339,7 @@ can_staff_an_microchip_plant = {
 can_staff_an_composite_plant = {
 	check_variable = { total_unemployed_k > workers_per_composite_plant_display }
 }
+<<<<<<< HEAD
 >>>>>>> main:common/scripted_triggers/00_economic_triggers.txt
+=======
+>>>>>>> main

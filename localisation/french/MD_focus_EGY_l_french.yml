@@ -394,9 +394,12 @@
  EGY_acilm: "Acclimatation à la chaleur"
  EGY_acilm_desc: "Nous devons préparer nos forces spéciales à la chaleur extrême du désert afin qu’elles puissent opérer efficacement dans le désert."
 <<<<<<< HEAD
+<<<<<<< HEAD
  EGY_masters_ambush: "Maîtres du camouflage_1 et de l'embuscade"
  EGY_masters_ambush_desc: "Nous devons accorder plus d’attention aux tactiques d’embuscade et de camouflage_1"
 =======
+=======
+>>>>>>> main
  EGY_masters_ambush: "Masters of Camouflage and Ambush"
  EGY_masters_ambush_desc: "Nous devons accorder plus d’attention aux tactiques d’embuscade et de camouflage"
 >>>>>>> main

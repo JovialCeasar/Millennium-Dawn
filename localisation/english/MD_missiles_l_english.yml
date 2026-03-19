@@ -205,7 +205,11 @@
  MISSILES_GUI_LEDGER_BTN_5_TT_DELAYED: "Manage your GNSS, Communication and Reconnaissance Satellite Systems."
  iss_button_tt: "§YInternational Space Station§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  iss_button_tt_delayed: "Manage your contributions and missions involving the §International Space Station§!"
+=======
+ iss_button_tt_delayed: "Manage your contributions and missions involving the §YInternational Space Station§!"
+>>>>>>> main
 =======
  iss_button_tt_delayed: "Manage your contributions and missions involving the §YInternational Space Station§!"
 >>>>>>> main
@@ -816,7 +820,13 @@
  SPACE_GUI_LEDGER_TT_DELAYED: "Produce, launch, and maintain assets of your §YSpace Program§! and §YSatellite Network§!"
  CYBER_GUI_LEDGER_TT: "§YCyber Warfare§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CYBER_GUI_LEDGER_TT_DELAYED: "Conduct cyberwarfare operations to disrupt enemy capabilities during wartime, or to delay their ability to develop during peacetime."
+=======
+ CYBER_GUI_LEDGER_TT_DELAYED: "Conduct cyberwarfare operations to disrupt enemy capabilities during wartime, or to delay their ability to develop during peacetime.\n\n[!cyber_gui_ledger_button_click_enabled]"
+
+ is_cyber_complete_techs_to_unlock_tt: "Complete the first §YEncryption§! & §YDecryption§! technologies to unlock this tab."
+>>>>>>> main
 =======
  CYBER_GUI_LEDGER_TT_DELAYED: "Conduct cyberwarfare operations to disrupt enemy capabilities during wartime, or to delay their ability to develop during peacetime.\n\n[!cyber_gui_ledger_button_click_enabled]"
 

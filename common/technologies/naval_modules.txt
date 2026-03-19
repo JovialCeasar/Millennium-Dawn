@@ -20,10 +20,14 @@ technologies = {
 	@2040 = 33
 	@2045 = 35
 	@2050 = 37
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 ========
 	@2053 = 38
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+	@2053 = 38
+>>>>>>> main
 	@2055 = 39
 	@2060 = 41
 	@2065 = 43
@@ -34,6 +38,7 @@ technologies = {
 	#Rows (y-axis)
 	@row1 = -2
 	@row2 = 0
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 	@row3 = 1
 	@row5 = 3
@@ -369,6 +374,8 @@ technologies = {
 
 	corvette_hull_4 = {
 ========
+=======
+>>>>>>> main
 	@row3 = 2
 	@row4 = 4
 	@row5 = 6
@@ -393,7 +400,10 @@ technologies = {
 
 	#Core Technology for Ships
 	tech_naval_systems_engineering = {
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		on_research_complete = {
 
 			custom_effect_tooltip = {
@@ -411,6 +421,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		research_cost = 2.3
 		start_year = 2010
@@ -421,6 +432,8 @@ technologies = {
 		}
 
 ========
+=======
+>>>>>>> main
 		path = {
 			leads_to_tech = tech_diesel_power_systems_1
 			research_cost_coeff = 1
@@ -487,7 +500,10 @@ technologies = {
 			position = { x = @row1 y = @1965 }
 		}
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -499,6 +515,7 @@ technologies = {
 				num_of_naval_factories < 1
 			}
 		}
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 
 		categories = {
@@ -536,6 +553,8 @@ technologies = {
 		}
 
 ========
+=======
+>>>>>>> main
 
 		categories = {
 			CAT_Military
@@ -569,7 +588,10 @@ technologies = {
 			position = { x = @row1 y = @1990 }
 		}
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -585,6 +607,7 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			CAT_surface_ship
 			CAT_corvette
@@ -592,6 +615,10 @@ technologies = {
 			CAT_naval_engine
 			CAT_naval_modules
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			CAT_naval_engine
+			CAT_naval_modules
+>>>>>>> main
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -647,21 +674,28 @@ technologies = {
 			module_light_surface_diesel_power_4
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		research_cost = 2.7
 ========
+=======
+>>>>>>> main
 		path = {
 			leads_to_tech = tech_diesel_power_systems_5
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		start_year = 2040
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
+<<<<<<< HEAD
 
 		path = {
 			leads_to_tech = corvette_hull_7
@@ -906,6 +940,11 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row1 y = @2040 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		folder = {
+			name = naval_module_folder
+			position = { x = @row1 y = @2040 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -923,6 +962,7 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			CAT_surface_ship
 			CAT_corvette
@@ -931,6 +971,10 @@ technologies = {
 			CAT_naval_engine
 			CAT_naval_modules
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			CAT_naval_engine
+			CAT_naval_modules
+>>>>>>> main
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -986,6 +1030,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		dependencies = {
 			tech_naval_systems_engineering = 1
@@ -995,12 +1040,16 @@ technologies = {
 ========
 		research_cost = 1
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		research_cost = 1
+>>>>>>> main
 		start_year = 1965
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row6 y = @1965 }
@@ -1008,6 +1057,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row2 y = @1965 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row2 y = @1965 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -1016,6 +1069,7 @@ technologies = {
 				factor = 0
 				num_of_naval_factories < 1
 			}
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		}
 
@@ -1065,6 +1119,8 @@ technologies = {
 			factor = 1
 ========
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 			modifier = {
 				factor = 0
 				num_of_naval_factories < 1
@@ -1092,6 +1148,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		path = {
 			leads_to_tech = stealth_frigate_hull_1
@@ -1107,12 +1164,16 @@ technologies = {
 ========
 		research_cost = 1
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		research_cost = 1
+>>>>>>> main
 		start_year = 1995
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row6 y = @1995 }
@@ -1120,6 +1181,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row2 y = @1990 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row2 y = @1990 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -1151,6 +1216,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		research_cost = 2.4
 		start_year = 2010
@@ -1159,6 +1225,8 @@ technologies = {
 			name = naval_folder
 			position = { x = @row6 y = @2010 }
 ========
+=======
+>>>>>>> main
 		research_cost = 1
 		start_year = 2015 ## checked
 		xp_research_type = navy
@@ -1180,7 +1248,10 @@ technologies = {
 				factor = 0
 				num_of_naval_factories < 1
 			}
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		}
 
 		categories = {
@@ -1200,6 +1271,7 @@ technologies = {
 			module_light_surface_jet_turbine_power4
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		enable_equipments = {
 			frigate_hull_5
@@ -1260,6 +1332,9 @@ technologies = {
 ========
 		research_cost = 1
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		research_cost = 1
+>>>>>>> main
 		start_year = 2040
 		xp_research_type = navy
 		xp_boost_cost = 50
@@ -1272,6 +1347,7 @@ technologies = {
 		}
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row6 y = @2040 }
@@ -1279,6 +1355,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row2 y = @2040 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row2 y = @2040 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -1287,6 +1367,7 @@ technologies = {
 				factor = 0.01
 				date < 2039.1.1
 			}
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		}
 	}
@@ -1322,20 +1403,26 @@ technologies = {
 			factor = 1
 ========
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 			modifier = {
 				factor = 0
 				num_of_naval_factories < 1
 			}
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			modifier = {
 				factor = 0.01
 				date < 2054.1.1
 			}
+=======
+>>>>>>> main
 		}
 
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 			CAT_surface_ship
 			CAT_frigate
 		}
@@ -1428,6 +1515,10 @@ technologies = {
 			CAT_naval_engine
 			CAT_naval_modules
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			CAT_naval_engine
+			CAT_naval_modules
+>>>>>>> main
 		}
 		special_project_specialization = { specialization_naval }
 
@@ -1536,17 +1627,22 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		research_cost = 3.1
 ========
 		research_cost = 1.25
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		research_cost = 1.25
+>>>>>>> main
 		start_year = 2025
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row5 y = @2025 }
@@ -1787,6 +1883,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row4 y = @2025 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row4 y = @2025 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -1822,6 +1922,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		research_cost = 3.3
 ========
@@ -1829,11 +1930,17 @@ technologies = {
 
 		research_cost = 1.25
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		is_special_project_tech = yes
+
+		research_cost = 1.25
+>>>>>>> main
 		start_year = 2045
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
+<<<<<<< HEAD
 
 		path = {
 			leads_to_tech = destroyer_hull_6
@@ -1848,6 +1955,11 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row4 y = @2045 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		folder = {
+			name = naval_module_folder
+			position = { x = @row4 y = @2045 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -1865,6 +1977,7 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			CAT_surface_ship
 			CAT_destroyer
@@ -5080,6 +5193,9 @@ technologies = {
 ========
 			CAT_naval_reactors
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			CAT_naval_reactors
+>>>>>>> main
 			CAT_naval_engine
 			CAT_naval_modules
 		}
@@ -5090,6 +5206,7 @@ technologies = {
 	tech_fusion_power_systems_3 = {
 
 		enable_equipment_modules = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			module_surface_jet_turbine_power4
 			module_light_surface_jet_turbine_power4
@@ -5314,6 +5431,8 @@ technologies = {
 	}
 	tech_fusion_power_systems_3 = {
 		enable_equipment_modules = {
+=======
+>>>>>>> main
 			module_naval_surface_fusion_engine_4
 		}
 
@@ -5326,6 +5445,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 			name = naval_folder
 			position = { x = @row23 y = @2065 }
 		}
@@ -5382,6 +5502,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row4 y = @2065 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row4 y = @2065 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -5426,16 +5550,21 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 1990
 ========
 		start_year = 1965 #CHECKED
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 1965 #CHECKED
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row22 y = @1990 }
@@ -5443,6 +5572,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row3 y = @1965 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row3 y = @1965 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -5482,6 +5615,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = tech_fusion_power_systems_1
 			research_cost_coeff = 1
@@ -5500,17 +5634,24 @@ technologies = {
 ========
 		start_year = 1990
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		research_cost = 1.25
+		start_year = 1990
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row22 y = @2015 }
 		}
 
 ========
+=======
+>>>>>>> main
 			name = naval_module_folder
 			position = { x = @row3 y = @1990 }
 		}
@@ -5571,7 +5712,10 @@ technologies = {
 			position = { x = @row3 y = @2015 }
 		}
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -5616,6 +5760,7 @@ technologies = {
 
 
 		path = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			leads_to_tech = tech_nuclear_power_systems_4
 			research_cost_coeff = 1
@@ -5627,6 +5772,8 @@ technologies = {
 		}
 
 ========
+=======
+>>>>>>> main
 			leads_to_tech = tech_nuclear_power_systems_5
 			research_cost_coeff = 1
 		}
@@ -5636,7 +5783,10 @@ technologies = {
 			position = { x = @row3 y = @2040 }
 		}
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -5649,8 +5799,11 @@ technologies = {
 			}
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 ========
+=======
+>>>>>>> main
 		categories = {
 			CAT_Military
 			CAT_naval_all
@@ -5742,7 +5895,10 @@ technologies = {
 			}
 		}
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		categories = {
 			CAT_Military
 			CAT_naval_all
@@ -5753,6 +5909,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 	#2055
 	tech_nuclear_power_systems_4 = {
 
@@ -5849,6 +6006,8 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
+=======
+>>>>>>> main
 	tech_combat_support_systems = {
 
 		enable_equipment_modules = {
@@ -5867,6 +6026,7 @@ technologies = {
 		}
 
 		path = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			leads_to_tech = tech_fire_control
 			research_cost_coeff = 1
@@ -5910,6 +6070,8 @@ technologies = {
 		path = {
 ========
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 			leads_to_tech = tech_fire_control_1
 			research_cost_coeff = 1
 		}
@@ -5921,6 +6083,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row28 y = @1965 }
@@ -5928,6 +6091,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row7 y = @1965 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row7 y = @1965 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -5961,16 +6128,21 @@ technologies = {
 		}
 
 		research_cost = 1
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 1990
 ========
 		start_year = 1965
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 1965
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row28 y = @1990 }
@@ -5978,6 +6150,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row9 y = @1965 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row9 y = @1965 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -6066,6 +6242,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row28 y = @2015 }
@@ -6073,6 +6250,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row9 y = @2015 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row9 y = @2015 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -6115,6 +6296,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		path = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			leads_to_tech = tech_fire_control_4
 			research_cost_coeff = 1
@@ -6126,6 +6308,8 @@ technologies = {
 		}
 
 ========
+=======
+>>>>>>> main
 			leads_to_tech = tech_fire_control_5
 			research_cost_coeff = 1
 		}
@@ -6135,7 +6319,10 @@ technologies = {
 			position = { x = @row9 y = @2040 }
 		}
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -6144,6 +6331,7 @@ technologies = {
 			}
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		categories = {
 			CAT_Military
@@ -6238,6 +6426,8 @@ technologies = {
 
 ========
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		categories = {
 			CAT_Military
 			CAT_naval_all
@@ -6256,6 +6446,7 @@ technologies = {
 			module_screen_futuristic_integrated_missile_radar_control2
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		path = {
 			leads_to_tech = tech_combat_radar_1
@@ -6265,13 +6456,18 @@ technologies = {
 		research_cost = 1
 		start_year = 1980
 ========
+=======
+>>>>>>> main
 		dependencies = {
 			future_computing1 = 1
 		}
 
 		research_cost = 1
 		start_year = 2055
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1
@@ -6282,6 +6478,7 @@ technologies = {
 		}
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row24 y = @1980 }
@@ -6290,6 +6487,11 @@ technologies = {
 			position = { x = @row9 y = @2055
 			}
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row9 y = @2055
+			}
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -6300,8 +6502,11 @@ technologies = {
 			}
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 ========
+=======
+>>>>>>> main
 		categories = {
 			CAT_Military
 			CAT_naval_all
@@ -6343,7 +6548,10 @@ technologies = {
 			}
 		}
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		categories = {
 			CAT_Military
 			CAT_naval_all
@@ -6364,6 +6572,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = tech_radar_jammer_1
 			research_cost_coeff = 1
@@ -6375,11 +6584,16 @@ technologies = {
 ========
 		start_year = 1980
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		research_cost = 1
+		start_year = 1980
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row24 y = @1995 }
@@ -6387,6 +6601,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row5 y = @1980 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row5 y = @1980 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -6419,6 +6637,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = tech_naval_recon_drones_1
 			research_cost_coeff = 1
@@ -6430,17 +6649,24 @@ technologies = {
 ========
 		start_year = 1995
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		research_cost = 1
+		start_year = 1995
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row24 y = @2005 }
 		}
 
 ========
+=======
+>>>>>>> main
 			name = naval_module_folder
 			position = { x = @row5 y = @1995 }
 		}
@@ -6484,7 +6710,10 @@ technologies = {
 			position = { x = @row5 y = @2005 }
 		}
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -6496,7 +6725,10 @@ technologies = {
 				num_of_naval_factories < 1
 			}
 		}
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
+=======
+>>>>>>> main
 
 		categories = {
 			CAT_Military
@@ -6507,6 +6739,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 	tech_combat_radar_3 = {
 		enable_equipment_modules = {
 			module_radar_5
@@ -6554,6 +6787,8 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
+=======
+>>>>>>> main
 	tech_combat_radar_4 = {
 
 		enable_equipment_modules = {
@@ -6568,6 +6803,7 @@ technologies = {
 		}
 
 		research_cost = 1
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2035
 		xp_research_type = navy
@@ -6801,12 +7037,15 @@ technologies = {
 		research_cost = 1
 ========
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		start_year = 2020
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row26 y = @2020 }
@@ -6814,6 +7053,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row5 y = @2020 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row5 y = @2020 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -6833,11 +7076,15 @@ technologies = {
 			CAT_naval_all
 			CAT_naval_electronics
 			CAT_naval_modules
+<<<<<<< HEAD
 			CAT_naval_radar_jammer
+=======
+>>>>>>> main
 		}
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 	tech_radar_jammer_3 = {
 		is_special_project_tech = yes
@@ -6848,6 +7095,8 @@ technologies = {
 		path = {
 			leads_to_tech = tech_radar_jammer_4
 ========
+=======
+>>>>>>> main
 	tech_combat_radar_5 = {
 
 		enable_equipment_modules = {
@@ -6856,7 +7105,10 @@ technologies = {
 
 		path = {
 			leads_to_tech = tech_combat_radar_6
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 			research_cost_coeff = 1
 		}
 
@@ -6867,6 +7119,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row26 y = @2035 }
@@ -6874,6 +7127,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row5 y = @2035 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row5 y = @2035 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -6893,11 +7150,15 @@ technologies = {
 			CAT_naval_all
 			CAT_naval_electronics
 			CAT_naval_modules
+<<<<<<< HEAD
 			CAT_naval_radar_jammer
+=======
+>>>>>>> main
 		}
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 	tech_radar_jammer_4 = {
 		is_special_project_tech = yes
@@ -6908,6 +7169,8 @@ technologies = {
 		research_cost = 1
 		start_year = 2050
 ========
+=======
+>>>>>>> main
 	tech_combat_radar_6 = {
 
 		enable_equipment_modules = {
@@ -6918,11 +7181,15 @@ technologies = {
 
 		research_cost = 1
 		start_year = 2045
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		folder = {
 			name = naval_folder
@@ -7152,6 +7419,8 @@ technologies = {
 			name = naval_folder
 			position = { x = @row25 y = @2045 }
 ========
+=======
+>>>>>>> main
 
 		path = {
 			leads_to_tech = tech_combat_radar_7
@@ -7161,7 +7430,10 @@ technologies = {
 		folder = {
 			name = naval_module_folder
 			position = { x = @row5 y = @2045 }
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -7181,8 +7453,11 @@ technologies = {
 			CAT_naval_all
 			CAT_naval_electronics
 			CAT_naval_modules
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 ========
+=======
+>>>>>>> main
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -7679,7 +7954,10 @@ technologies = {
 			CAT_naval_all
 			CAT_naval_electronics
 			CAT_naval_modules
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 			CAT_drones
 		}
 		special_project_specialization = { specialization_naval }
@@ -7704,6 +7982,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row25 y = @2055 }
@@ -7711,6 +7990,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row6 y = @2055 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row6 y = @2055 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -7754,6 +8037,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row25 y = @2065 }
@@ -7761,6 +8045,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row6 y = @2065 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row6 y = @2065 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -7792,6 +8080,7 @@ technologies = {
 			module_naval_recon_drone_8
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		path = {
 			leads_to_tech = tech_naval_recon_drones_8
@@ -7800,6 +8089,8 @@ technologies = {
 
 ========
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		research_cost = 1
 		start_year = 2075
 		xp_research_type = navy
@@ -7807,6 +8098,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row25 y = @2075 }
@@ -7814,6 +8106,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row6 y = @2075 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row6 y = @2075 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -7838,22 +8134,30 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 	tech_combat_sonar = {
 ========
 	tech_combat_sonar_1 = {
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+	tech_combat_sonar_1 = {
+>>>>>>> main
 
 		enable_equipment_modules = {
 			module_sonar_2
 		}
 
 		path = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			leads_to_tech = tech_combat_sonar_1
 ========
 			leads_to_tech = tech_combat_sonar_2
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			leads_to_tech = tech_combat_sonar_2
+>>>>>>> main
 			research_cost_coeff = 1
 		}
 
@@ -7864,6 +8168,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row27 y = @1980 }
@@ -7871,6 +8176,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row8 y = @1980 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row8 y = @1980 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -7884,8 +8193,11 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 ========
+=======
+>>>>>>> main
 			CAT_naval_electronics
 			CAT_naval_modules
 		}
@@ -8187,13 +8499,17 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 			CAT_naval_electronics
 			CAT_naval_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 	tech_combat_sonar_1 = {
 
 		enable_equipment_modules = {
@@ -8500,6 +8816,8 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
+=======
+>>>>>>> main
 	tech_early_naval_weapon_systems = {
 
 		enable_equipment_modules = {
@@ -8529,6 +8847,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row36 y = @1945 }
@@ -8536,6 +8855,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row17 y = @1945 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row17 y = @1945 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -8569,16 +8892,22 @@ technologies = {
 		}
 
 		path = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			leads_to_tech = tech_torpedoes
 ========
+=======
+>>>>>>> main
 			leads_to_tech = tech_torpedoes_1
 			research_cost_coeff = 1
 		}
 
 		path = {
 			leads_to_tech = tech_point_defense_chain_gun
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 			research_cost_coeff = 1
 		}
 
@@ -8609,6 +8938,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row36 y = @1965 }
@@ -8616,6 +8946,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row17 y = @1965 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row17 y = @1965 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -8635,11 +8969,15 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 	tech_light_guns = {
 ========
 	tech_light_guns_1 = {
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+	tech_light_guns_1 = {
+>>>>>>> main
 
 		enable_equipment_modules = {
 			module_76mm_gun_1
@@ -8649,6 +8987,7 @@ technologies = {
 		}
 
 		path = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			leads_to_tech = tech_light_guns_1
 			research_cost_coeff = 1
@@ -8707,21 +9046,28 @@ technologies = {
 		path = {
 ========
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 			leads_to_tech = tech_light_guns_2
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2000
 ========
 		start_year = 1975
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 1975
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row29 y = @2000 }
@@ -8729,6 +9075,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row10 y = @1975 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row10 y = @1975 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -8751,8 +9101,11 @@ technologies = {
 
 	tech_light_guns_2 = {
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 ========
+=======
+>>>>>>> main
 		on_research_complete = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
@@ -8760,7 +9113,10 @@ technologies = {
 			}
 		}
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		enable_equipment_modules = {
 			module_76mm_gun_2
 			spaa_naval_cannon_3
@@ -8774,16 +9130,21 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2025
 ========
 		start_year = 2000
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 2000
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row29 y = @2025 }
@@ -8791,6 +9152,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row10 y = @2000 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row10 y = @2000 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -8813,8 +9178,11 @@ technologies = {
 
 	tech_light_guns_3 = {
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 ========
+=======
+>>>>>>> main
 		enable_equipment_modules = {
 			module_76mm_gun_3
 			spaa_naval_cannon_4
@@ -8857,7 +9225,10 @@ technologies = {
 
 	tech_light_guns_4 = {
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		enable_equipment_modules = {
 			module_76mm_gun_4
 			spaa_naval_cannon_5
@@ -8872,6 +9243,7 @@ technologies = {
 
 
 		path = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			leads_to_tech = tech_light_guns_4
 			research_cost_coeff = 1
@@ -8883,6 +9255,8 @@ technologies = {
 		}
 
 ========
+=======
+>>>>>>> main
 			leads_to_tech = tech_light_guns_5
 			research_cost_coeff = 1
 		}
@@ -8892,7 +9266,10 @@ technologies = {
 			position = { x = @row10 y = @2045 }
 		}
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -8904,6 +9281,7 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			CAT_naval_armament
 			CAT_naval_cannons
@@ -8990,6 +9368,8 @@ technologies = {
 			CAT_naval_all
 ========
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 			CAT_naval_armament
 			CAT_naval_cannons
 			CAT_naval_modules
@@ -9007,11 +9387,15 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2015
 ========
 		start_year = 2060
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 2060
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1
@@ -9023,6 +9407,7 @@ technologies = {
 		}
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row30 y = @2015 }
@@ -9030,6 +9415,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row10 y = @2060 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row10 y = @2060 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -9038,6 +9427,7 @@ technologies = {
 				factor = 0
 				num_of_naval_factories < 1
 			}
+<<<<<<< HEAD
 			modifier = {
 				factor = 0.01
 				date < 2014.1.1
@@ -9046,6 +9436,10 @@ technologies = {
 
 <<<<<<<< HEAD:common/technologies/naval.txt
 ========
+=======
+		}
+
+>>>>>>> main
 		categories = {
 			CAT_Military
 			CAT_naval_all
@@ -9085,14 +9479,20 @@ technologies = {
 			}
 		}
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		categories = {
 			CAT_Military
 			CAT_naval_all
 			CAT_naval_armament
 			CAT_naval_cannons
 			CAT_naval_modules
+<<<<<<< HEAD
 			CAT_naval_railgun
+=======
+>>>>>>> main
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -9113,6 +9513,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = tech_rail_battery_1
 			research_cost_coeff = 1
@@ -9124,11 +9525,16 @@ technologies = {
 ========
 		start_year = 2015
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		research_cost = 1.25
+		start_year = 2015
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row30 y = @2025 }
@@ -9136,6 +9542,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row11 y = @2015 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row11 y = @2015 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -9146,11 +9556,15 @@ technologies = {
 			}
 			modifier = {
 				factor = 0.01
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 				date < 2024.1.1
 ========
 				date < 2014.1.1
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+				date < 2014.1.1
+>>>>>>> main
 			}
 		}
 
@@ -9179,22 +9593,29 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2035
 ========
 		start_year = 2025
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 2025
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row30 y = @2035 }
 		}
 
 ========
+=======
+>>>>>>> main
 			name = naval_module_folder
 			position = { x = @row11 y = @2025 }
 		}
@@ -9340,17 +9761,23 @@ technologies = {
 			position = { x = @row11 y = @2060 }
 		}
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 0
 				num_of_naval_factories < 1
 			}
+<<<<<<< HEAD
 			modifier = {
 				factor = 0.01
 				date < 2034.1.1
 			}
+=======
+>>>>>>> main
 		}
 
 		categories = {
@@ -9359,7 +9786,10 @@ technologies = {
 			CAT_naval_armament
 			CAT_naval_cannons
 			CAT_naval_modules
+<<<<<<< HEAD
 			CAT_naval_railgun
+=======
+>>>>>>> main
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -9371,6 +9801,7 @@ technologies = {
 			module_railgun_6
 		}
 
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = tech_rail_guns_4
 			research_cost_coeff = 1
@@ -9382,11 +9813,16 @@ technologies = {
 ========
 		start_year = 2075
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		research_cost = 1.25
+		start_year = 2075
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row30 y = @2045 }
@@ -9440,12 +9876,17 @@ technologies = {
 		}
 
 ========
+=======
+>>>>>>> main
 			name = naval_module_folder
 			position = { x = @row11 y = @2075
 			}
 		}
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -9464,6 +9905,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 	#2075
 	tech_rail_guns_5 = {
@@ -9504,6 +9946,8 @@ technologies = {
 
 ========
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 	tech_rail_battery_1 = {
 		allow = {
 			is_special_project_completed = sp:sp_rail_gun_naval_battery
@@ -9527,6 +9971,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row31 y = @2030 }
@@ -9534,6 +9979,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row12 y = @2030 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row12 y = @2030 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -9579,6 +10028,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row31 y = @2045 }
@@ -9586,6 +10036,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row12 y = @2045 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row12 y = @2045 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -9626,6 +10080,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row31 y = @2065 }
@@ -9633,6 +10088,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row12 y = @2065 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row12 y = @2065 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -9658,11 +10117,15 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 	tech_point_defense_system = {
 ========
 	tech_point_defense_chain_gun = {
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+	tech_point_defense_chain_gun = {
+>>>>>>> main
 		enable_equipment_modules = {
 			module_chain_gun
 		}
@@ -9679,6 +10142,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row32 y = @1970 }
@@ -9686,6 +10150,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row13 y = @1970 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row13 y = @1970 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -9723,6 +10191,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row32 y = @1975 }
@@ -9730,6 +10199,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row13 y = @1975 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row13 y = @1975 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -9767,6 +10240,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row32 y = @1990 }
@@ -9774,6 +10248,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row13 y = @1990 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row13 y = @1990 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -9811,6 +10289,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row32 y = @2005 }
@@ -9818,6 +10297,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row13 y = @2005 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row13 y = @2005 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -9848,11 +10331,14 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = tech_anti_drone_laser1
 			research_cost_coeff = 1
 		}
 
+=======
+>>>>>>> main
 		research_cost = 1.25
 		start_year = 2020
 		xp_research_type = navy
@@ -9860,6 +10346,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row32 y = @2020 }
@@ -9867,6 +10354,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row13 y = @2020 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row13 y = @2020 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -9904,6 +10395,7 @@ technologies = {
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row32 y = @2035 }
@@ -9911,6 +10403,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row13 y = @2035 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row13 y = @2035 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -9947,6 +10443,7 @@ technologies = {
 		path = {
 			leads_to_tech = tech_point_defense_system_7
 			research_cost_coeff = 1
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		}
 
@@ -9956,6 +10453,8 @@ technologies = {
 		}
 
 ========
+=======
+>>>>>>> main
 		}
 
 		folder = {
@@ -9963,7 +10462,10 @@ technologies = {
 			position = { x = @row13 y = @2045 }
 		}
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -9978,7 +10480,10 @@ technologies = {
 			CAT_naval_armament
 			CAT_pds
 			CAT_naval_modules
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
+=======
+>>>>>>> main
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -10003,6 +10508,7 @@ technologies = {
 		}
 
 		folder = {
+<<<<<<< HEAD
 			name = naval_folder
 			position = { x = @row32 y = @2060 }
 		}
@@ -10282,6 +10788,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row13 y = @2060 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row13 y = @2060 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -10296,9 +10806,12 @@ technologies = {
 			CAT_Military
 			CAT_naval_all
 			CAT_naval_armament
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			CAT_as_missiles
 ========
+=======
+>>>>>>> main
 			CAT_pds
 			CAT_naval_modules
 		}
@@ -10514,7 +11027,10 @@ technologies = {
 			CAT_naval_all
 			CAT_naval_armament
 			CAT_pds
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 			CAT_naval_modules
 		}
 		special_project_specialization = { specialization_naval }
@@ -10533,16 +11049,21 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 1985
 ========
 		start_year = 1975
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 1975
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row35 y = @1985 }
@@ -10550,6 +11071,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row16 y = @1975 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row16 y = @1975 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -10583,16 +11108,21 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2000
 ========
 		start_year = 1985
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 1985
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row35 y = @2000 }
@@ -10600,6 +11130,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row16 y = @1985 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row16 y = @1985 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -10633,16 +11167,21 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2015
 ========
 		start_year = 2000
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 2000
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row35 y = @2015 }
@@ -10650,6 +11189,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row16 y = @2000 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row16 y = @2000 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -10683,16 +11226,21 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2030
 ========
 		start_year = 2015
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 2015
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row35 y = @2030 }
@@ -10700,6 +11248,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row16 y = @2015 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row16 y = @2015 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -10722,8 +11274,11 @@ technologies = {
 
 	tech_turret_missiles_surface_5 = {
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 ========
+=======
+>>>>>>> main
 		enable_equipment_modules = {
 			module_asm_5
 			module_anti_submarine_missile_5
@@ -10765,7 +11320,10 @@ technologies = {
 
 	tech_turret_missiles_surface_6 = {
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		enable_equipment_modules = {
 			module_asm_6
 			module_anti_submarine_missile_6
@@ -10779,15 +11337,20 @@ technologies = {
 
 
 		path = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			leads_to_tech = tech_turret_missiles_surface_6
 ========
 			leads_to_tech = tech_turret_missiles_surface_7
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			leads_to_tech = tech_turret_missiles_surface_7
+>>>>>>> main
 			research_cost_coeff = 1
 		}
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row35 y = @2045 }
@@ -10795,6 +11358,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row16 y = @2045 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row16 y = @2045 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -10816,11 +11383,15 @@ technologies = {
 	}
 
 	#2060
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 	tech_turret_missiles_surface_6 = {
 ========
 	tech_turret_missiles_surface_7 = {
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+	tech_turret_missiles_surface_7 = {
+>>>>>>> main
 
 		enable_equipment_modules = {
 			module_asm_7
@@ -10834,15 +11405,20 @@ technologies = {
 		xp_research_bonus = 1
 
 		path = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			leads_to_tech = tech_turret_missiles_surface_7
 ========
 			leads_to_tech = tech_turret_missiles_surface_8
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			leads_to_tech = tech_turret_missiles_surface_8
+>>>>>>> main
 			research_cost_coeff = 1
 		}
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row35 y = @2060 }
@@ -10850,6 +11426,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row16 y = @2060 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row16 y = @2060 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -10866,6 +11446,7 @@ technologies = {
 			CAT_naval_armament
 			CAT_as_missiles
 			CAT_naval_modules
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		}
 		special_project_specialization = { specialization_naval }
@@ -11075,6 +11656,8 @@ technologies = {
 			position = { x = @row34 y = @1975 }
 ========
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -11110,11 +11693,14 @@ technologies = {
 			CAT_Military
 			CAT_naval_all
 			CAT_naval_armament
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			CAT_aa_missiles
 			CAT_naval_modules
 		}
 ========
+=======
+>>>>>>> main
 			CAT_as_missiles
 			CAT_naval_modules
 		}
@@ -11301,7 +11887,10 @@ technologies = {
 			CAT_naval_modules
 			CAT_drones
 		}
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		special_project_specialization = { specialization_naval }
 	}
 
@@ -11317,16 +11906,21 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 1985
 ========
 		start_year = 1975
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 1975
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row34 y = @1985 }
@@ -11334,6 +11928,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row15 y = @1975 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row15 y = @1975 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -11355,7 +11953,10 @@ technologies = {
 	}
 
 	tech_turret_missiles_aa_2 = {
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 		enable_equipment_modules = {
 			module_aa_missiles_2
 			module_ram_2
@@ -11367,16 +11968,21 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2000
 ========
 		start_year = 1985
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 1985
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row34 y = @2000 }
@@ -11384,6 +11990,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row15 y = @1985 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row15 y = @1985 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -11417,16 +12027,21 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2015
 ========
 		start_year = 2000
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 2000
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row34 y = @2015 }
@@ -11434,6 +12049,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row15 y = @2000 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row15 y = @2000 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -11467,16 +12086,21 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2030
 ========
 		start_year = 2015
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 2015
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row34 y = @2030 }
@@ -11484,6 +12108,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row15 y = @2015 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row15 y = @2015 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -11506,8 +12134,11 @@ technologies = {
 
 	tech_turret_missiles_aa_5 = {
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 ========
+=======
+>>>>>>> main
 		enable_equipment_modules = {
 			module_aa_missiles_5
 			module_ram_5
@@ -11549,7 +12180,10 @@ technologies = {
 
 	tech_turret_missiles_aa_6 = {
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		enable_equipment_modules = {
 			module_aa_missiles_6
 			module_ram_6
@@ -11563,15 +12197,20 @@ technologies = {
 
 
 		path = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			leads_to_tech = tech_turret_missiles_aa_6
 ========
 			leads_to_tech = tech_turret_missiles_aa_7
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			leads_to_tech = tech_turret_missiles_aa_7
+>>>>>>> main
 			research_cost_coeff = 1
 		}
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row34 y = @2045 }
@@ -11579,6 +12218,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row15 y = @2045 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row15 y = @2045 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -11596,6 +12239,7 @@ technologies = {
 			CAT_aa_missiles
 			CAT_naval_modules
 		}
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		special_project_specialization = { specialization_naval }
 	}
@@ -11687,6 +12331,8 @@ technologies = {
 
 	tech_vls_surface = {
 ========
+=======
+>>>>>>> main
 		special_project_specialization = { specialization_naval }
 	}
 
@@ -11771,7 +12417,10 @@ technologies = {
 	}
 
 	tech_vls_surface_1 = {
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 
 		enable_equipment_modules = {
 			module_vls_lam_1
@@ -11781,6 +12430,7 @@ technologies = {
 		}
 
 		path = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			leads_to_tech = tech_vls_surface_1
 			research_cost_coeff = 1
@@ -11826,21 +12476,28 @@ technologies = {
 		path = {
 ========
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 			leads_to_tech = tech_vls_surface_2
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 1985
 ========
 		start_year = 1975
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 1975
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row37 y = @1985 }
@@ -11848,6 +12505,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row18 y = @1975 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row18 y = @1975 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -11882,16 +12543,21 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2000
 ========
 		start_year = 1985
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 1985
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row37 y = @2000 }
@@ -11899,6 +12565,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row18 y = @1985 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row18 y = @1985 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -11929,6 +12599,7 @@ technologies = {
 			module_vls_sub_lam_2
 		}
 
+<<<<<<< HEAD
 		on_research_complete = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
@@ -11936,11 +12607,14 @@ technologies = {
 			}
 		}
 
+=======
+>>>>>>> main
 		path = {
 			leads_to_tech = tech_vls_surface_4
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = tech_turret_missiles_drone_1
 			research_cost_coeff = 1
@@ -11952,11 +12626,16 @@ technologies = {
 ========
 		start_year = 2000
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		research_cost = 1.25
+		start_year = 2000
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row37 y = @2015 }
@@ -11964,6 +12643,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row18 y = @2000 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row18 y = @2000 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -12007,16 +12690,21 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2030
 ========
 		start_year = 2015
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 2015
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row37 y = @2030 }
@@ -12024,6 +12712,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row18 y = @2015 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row18 y = @2015 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -12064,15 +12756,20 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2045
 ========
 		start_year = 2030
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 2030
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = tech_vls_surface_6
 			research_cost_coeff = 1
@@ -12086,6 +12783,11 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row18 y = @2030 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		folder = {
+			name = naval_module_folder
+			position = { x = @row18 y = @2030 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -12100,6 +12802,7 @@ technologies = {
 			}
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		categories = {
 			CAT_Military
@@ -12202,6 +12905,8 @@ technologies = {
 
 ========
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		categories = {
 			CAT_Military
 			CAT_naval_all
@@ -12223,15 +12928,20 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 1975
 ========
 		start_year = 2045
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 2045
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		folder = {
 			name = naval_folder
@@ -12239,6 +12949,8 @@ technologies = {
 		}
 
 ========
+=======
+>>>>>>> main
 		path = {
 			leads_to_tech = tech_vls_surface_7
 			research_cost_coeff = 1
@@ -12249,7 +12961,10 @@ technologies = {
 			position = { x = @row18 y = @2045 }
 		}
 
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -12367,7 +13082,10 @@ technologies = {
 	}
 
 	tech_vls_aa_1 = {
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 		enable_equipment_modules = {
 			module_vls_sam_1
 		}
@@ -12378,16 +13096,21 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 1985
 ========
 		start_year = 1975
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 1975
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row38 y = @1985 }
@@ -12395,6 +13118,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row19 y = @1975 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row19 y = @1975 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -12428,16 +13155,21 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2000
 ========
 		start_year = 1985
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 1985
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row38 y = @2000 }
@@ -12445,6 +13177,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row19 y = @1985 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row19 y = @1985 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -12478,16 +13214,21 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2015
 ========
 		start_year = 2000
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		start_year = 2000
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row38 y = @2015 }
@@ -12495,6 +13236,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row19 y = @2000 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row19 y = @2000 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -12528,6 +13273,7 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		start_year = 2030
 		xp_research_type = navy
@@ -13700,12 +14446,15 @@ technologies = {
 		research_cost = 2
 ========
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		start_year = 2015
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row43 y = @2015 }
@@ -13713,6 +14462,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row19 y = @2015 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row19 y = @2015 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -13730,6 +14483,7 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			CAT_landing_craft
 ========
@@ -13737,6 +14491,11 @@ technologies = {
 			CAT_vls_systems
 			CAT_vls_air_systems
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			CAT_naval_armament
+			CAT_vls_systems
+			CAT_vls_air_systems
+>>>>>>> main
 			CAT_naval_modules
 		}
 		special_project_specialization = { specialization_naval }
@@ -13748,12 +14507,16 @@ technologies = {
 			module_vls_sam_5
 		}
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 		path = {
 			leads_to_tech = tech_vls_aa_6
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		research_cost = 2.2
 		start_year = 2025
@@ -13761,11 +14524,16 @@ technologies = {
 		research_cost = 1.25
 		start_year = 2030
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		research_cost = 1.25
+		start_year = 2030
+>>>>>>> main
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row43 y = @2025 }
@@ -13773,6 +14541,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row19 y = @2030 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row19 y = @2030 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -13790,6 +14562,7 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			CAT_landing_craft
 			CAT_naval_modules
@@ -13844,12 +14617,17 @@ technologies = {
 			CAT_naval_modules
 		}
 ========
+=======
+>>>>>>> main
 			CAT_naval_armament
 			CAT_vls_systems
 			CAT_vls_air_systems
 			CAT_naval_modules
 		}
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		special_project_specialization = { specialization_naval }
 	}
 
@@ -13859,20 +14637,27 @@ technologies = {
 			module_vls_sam_6
 		}
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		research_cost = 3
 ========
+=======
+>>>>>>> main
 		path = {
 			leads_to_tech = tech_vls_aa_7
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		start_year = 2045
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.00
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 
 		path = {
@@ -13888,6 +14673,11 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row19 y = @2045 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		folder = {
+			name = naval_module_folder
+			position = { x = @row19 y = @2045 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -13905,6 +14695,7 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			CAT_landing_craft
 			CAT_naval_modules
@@ -13921,6 +14712,8 @@ technologies = {
 		amphibious_invasion_defence = 0.05
 		research_cost = 3
 ========
+=======
+>>>>>>> main
 			CAT_naval_armament
 			CAT_vls_systems
 			CAT_vls_air_systems
@@ -13937,22 +14730,30 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		start_year = 2060
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1
 
 		path = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			leads_to_tech = tech_future_landing_craft_2
 ========
 			leads_to_tech = tech_vls_aa_8
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			leads_to_tech = tech_vls_aa_8
+>>>>>>> main
 			research_cost_coeff = 1
 		}
 
 		folder = {
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			name = naval_folder
 			position = { x = @row43 y = @2060 }
@@ -13960,6 +14761,10 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row19 y = @2060 }
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			name = naval_module_folder
+			position = { x = @row19 y = @2060 }
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -13977,6 +14782,7 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			CAT_landing_craft
 ========
@@ -13984,12 +14790,18 @@ technologies = {
 			CAT_vls_systems
 			CAT_vls_air_systems
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+			CAT_naval_armament
+			CAT_vls_systems
+			CAT_vls_air_systems
+>>>>>>> main
 			CAT_naval_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
 
 	#2075
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 	tech_future_landing_craft_2 = {
 		invasion_preparation = -0.25
@@ -13998,6 +14810,8 @@ technologies = {
 		amphibious_invasion_defence = 0.05
 		research_cost = 3
 ========
+=======
+>>>>>>> main
 	tech_vls_aa_8 = {
 
 		enable_equipment_modules = {
@@ -14005,12 +14819,16 @@ technologies = {
 		}
 
 		research_cost = 1.25
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 		start_year = 2075
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 		path = {
 			leads_to_tech = tech_future_landing_craft_3
@@ -14025,6 +14843,11 @@ technologies = {
 			name = naval_module_folder
 			position = { x = @row19 y = @2075
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+		folder = {
+			name = naval_module_folder
+			position = { x = @row19 y = @2075
+>>>>>>> main
 			}
 		}
 
@@ -14043,9 +14866,12 @@ technologies = {
 		categories = {
 			CAT_Military
 			CAT_naval_all
+<<<<<<< HEAD
 <<<<<<<< HEAD:common/technologies/naval.txt
 			CAT_landing_craft
 ========
+=======
+>>>>>>> main
 			CAT_naval_armament
 			CAT_vls_systems
 			CAT_vls_air_systems
@@ -15070,7 +15896,10 @@ technologies = {
 			CAT_naval_all
 			CAT_naval_armament
 			CAT_torpedoes
+<<<<<<< HEAD
 >>>>>>>> main:common/technologies/naval_modules.txt
+=======
+>>>>>>> main
 			CAT_naval_modules
 		}
 		special_project_specialization = { specialization_naval }

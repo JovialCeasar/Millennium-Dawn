@@ -549,10 +549,13 @@ capital = 74
 		#RUAG Ranger
 		land_drone_equipment_type = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 		transport_helicopter1 = 1
 		nsb_transport_helicopter1 = 1
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 

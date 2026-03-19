@@ -300,6 +300,7 @@ cwtools_dummy_effect = {
 # Things I tried to remove it: - Add first MBT tech the country - Removed force equipment variants
 create_equipment_variants_for_error_stop = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	create_equipment_variant = {
 		name = "Error Stop AtkHel"
 		type = heavy_tank_chassis_10
@@ -348,6 +349,65 @@ create_equipment_variants_for_error_stop = {
 	create_equipment_variant = {
 		name = "Error Stop Rkt"
 		type = medium_tank_rocket_chassis_5
+=======
+	if = {
+		limit = { NOT = { has_design_based_on = heavy_tank_chassis } }
+		create_equipment_variant = {
+			name = "Generic Attack Helicopter"
+			type = heavy_tank_chassis_0
+			parent_version = 0
+			modules = {
+				chassis_type_slot = helicopter_medium_chassis
+				helicopter_body_layout = gunship_layout
+				helicopter_body_mount_1 = empty
+				nose_gun_type_slot = empty
+				armor_type_slot = empty
+				engine_type_slot = helicopter_turbine_engine_gen1
+				defence_type_slot = empty
+				sensor_and_avionics_slot = sensors_and_avionics_gen_1
+			}
+			obsolete = yes
+		}
+	}
+	if = {
+		limit = { NOT = { has_design_based_on = heavy_tank_amphibious_chassis } }
+		create_equipment_variant = {
+			name = "Generic Transport Helicopter"
+			type = heavy_tank_amphibious_chassis_0
+			parent_version = 0
+			modules = {
+				chassis_type_slot = helicopter_medium_chassis
+				helicopter_body_layout = unarmed_transport_layout
+				helicopter_body_mount_1 = empty
+				nose_gun_type_slot = empty
+				armor_type_slot = empty
+				engine_type_slot = helicopter_turbine_engine_gen1
+				defence_type_slot = empty
+				sensor_and_avionics_slot = sensors_and_avionics_gen_1
+			}
+			obsolete = yes
+		}
+	}
+	if = {
+		limit = { NOT = { has_design_based_on = medium_tank_artillery_chassis } }
+		create_equipment_variant = {
+			name = "Generic Self Propelled Artillery Hull"
+			type = medium_tank_artillery_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = art_med_gun_gen1
+				reload_type_slot = automatic_loading
+				ammunition_load_slot = artillery_light_ammo_1
+				turret_type_slot = tank_no_turret
+				engine_type_slot = afv_gasoline_engine_gen1
+			}
+			obsolete = yes
+		}
+	}
+	create_equipment_variant = {
+		name = "Generic MLRS Hull"
+		type = medium_tank_rocket_chassis_0
+>>>>>>> main
 =======
 	if = {
 		limit = { NOT = { has_design_based_on = heavy_tank_chassis } }

@@ -427,7 +427,10 @@ defined_text = {
 
 defined_text = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	name = program_status_esoc
 	text = {
 		trigger = {
@@ -467,6 +470,9 @@ defined_text = {
 }
 
 defined_text = {
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	name = vote_change_too
 
@@ -528,7 +534,10 @@ defined_text = {
 
 defined_text = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	name = unga_pending_resolution_name
 
 	text = {
@@ -609,6 +618,9 @@ defined_text = {
 }
 
 defined_text = {
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	name = name_of_sc_action
 
@@ -1012,8 +1024,11 @@ defined_text = {
 		localization_key = headquarters_region_europe
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
+=======
+>>>>>>> main
 }
 
 # ============================================================
@@ -1210,4 +1225,7 @@ defined_text = {
 		localization_key = "zero_day_strike_tracking"
 	}
 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main

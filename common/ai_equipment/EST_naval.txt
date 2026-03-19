@@ -428,6 +428,7 @@ EST_cruisers = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	target_variant = {
 	 type = cruiser_hull_3
 	 match_value = 7400
@@ -657,6 +658,8 @@ ai_equipment = {
 	 }
 	}
  }
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 }

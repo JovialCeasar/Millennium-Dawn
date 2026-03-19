@@ -24,17 +24,23 @@ operation_track_hvt = { ### 1 1/35
 
 	equipment = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		cnc_equipment = 2
 	}
 
 	available = {
 		set_temp_variable = { req_level > 24 }
 =======
+=======
+>>>>>>> main
 		cnc_equipment_type = 2
 	}
 
 	available = {
 		set_temp_variable = { req_level = 24 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		custom_trigger_tooltip = {
 			tooltip = ct_required_intel_level_tt
@@ -165,7 +171,10 @@ operation_track_hvt = { ### 1 1/35
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	ai_will_do = {
 		base = 0
@@ -190,6 +199,9 @@ operation_track_hvt = { ### 1 1/35
 	target_weight = {
 		base = 10
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 }
 
@@ -219,17 +231,23 @@ operation_locate_arms_caches = { ### 1 1/35
 
 	equipment = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		cnc_equipment = 2
 	}
 
 	available = {
 		set_temp_variable = { req_level > 24 }
 =======
+=======
+>>>>>>> main
 		cnc_equipment_type = 2
 	}
 
 	available = {
 		set_temp_variable = { req_level = 24 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		custom_trigger_tooltip = {
 			tooltip = ct_required_intel_level_tt
@@ -360,7 +378,10 @@ operation_locate_arms_caches = { ### 1 1/35
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	ai_will_do = {
 		base = 0
@@ -385,6 +406,9 @@ operation_locate_arms_caches = { ### 1 1/35
 	target_weight = {
 		base = 10
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 }
 
@@ -414,17 +438,23 @@ operation_locate_training_camps = { ### 1 1/35
 
 	equipment = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		cnc_equipment = 2
 	}
 
 	available = {
 		set_temp_variable = { req_level > 24 }
 =======
+=======
+>>>>>>> main
 		cnc_equipment_type = 2
 	}
 
 	available = {
 		set_temp_variable = { req_level = 24 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		custom_trigger_tooltip = {
 			tooltip = ct_required_intel_level_tt
@@ -555,7 +585,10 @@ operation_locate_training_camps = { ### 1 1/35
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	ai_will_do = {
 		base = 0
@@ -580,6 +613,9 @@ operation_locate_training_camps = { ### 1 1/35
 	target_weight = {
 		base = 10
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 }
 
@@ -610,17 +646,23 @@ operation_locate_regional_headquarters = { ### 1 1/35
 
 	equipment = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		cnc_equipment = 2
 	}
 
 	available = {
 		set_temp_variable = { req_level > 92 }
 =======
+=======
+>>>>>>> main
 		cnc_equipment_type = 2
 	}
 
 	available = {
 		set_temp_variable = { req_level = 92 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		custom_trigger_tooltip = {
 			tooltip = ct_required_intel_level_tt
@@ -742,7 +784,10 @@ operation_locate_regional_headquarters = { ### 1 1/35
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	ai_will_do = {
 		base = 0
@@ -767,5 +812,8 @@ operation_locate_regional_headquarters = { ### 1 1/35
 	target_weight = {
 		base = 10
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 }

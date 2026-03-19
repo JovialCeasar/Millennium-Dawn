@@ -2,7 +2,10 @@
  market_money_cost_display_header_tt: "§YPreços/Armas§!"
  infantry_equipment_loc: "Armas de Infantaria: "
 <<<<<<< HEAD
+<<<<<<< HEAD
  cnc_equipment_type_loc: "Equipamento CNC: "
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  aa_equipment_loc: "MANPAD: "
@@ -29,7 +32,10 @@
  sup_equip_desc: "§YEquipamento de Suprimento§!"
  infantry_equipment_loc_tt: "§R[?temp_infantry_equipment_cost]b/CPW§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  cnc_equipment_type_loc_tt: "§R[?temp_cnc_equipment_type_cost]b/CPW§!"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  aa_equipment_loc_tt: "§R[?temp_aa_equipment_cost]b/CPW§!"

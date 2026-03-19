@@ -9758,5 +9758,9 @@
  HAZ.Neutral_Autocracy: "£AFG_moderate_shiites Islamic Unity Party of Afghanistan (Left Wing)"
  HAZ.Neutral_Autocracy_desc: "(Islamic Democracy) - Founded in 1989 from a merger of several smaller parties to both oppose the waning Soviet occupation. Emerging out of the Tehran Eight - an alliance of parties with similar ties to Shia Islam and backing from Iran - it sought to provide a coalition in order to exert influence on Afghan politics and advocate for the Shia minority within the country. Since its foundation the party has also come to represent the Hazara people, a prominent ethnic group within Afghanistan. The 'left-wing' of the party is comprised of leftists within Afghanistan that joined the party out of fear of prosecution by the newly installed Islamic governments. While they've seen limited power within the party, being kept from positions of authority, their presence has seen the emergence of a more moderate faction within the Islami Unity Party itself."
  HAZ.Nat_Autocracy: "£generic_Nat_Autocracy_small Hazara Defense Forces"
+<<<<<<< HEAD
+ HAZ.Nat_Autocracy_desc: "(Islamist Military Junta) - With Iranian intervention in the Afghan Civil War radical Shia elements, backed by the IRGC, have formed a break-away state centered around the Hazara dominated portions of Afghanistan. Heavily dependent on Iran, the Hazara Defense Forces operate as the de facto military force for this new country and have extensive ties to the ruling pro-Iranian political forces."
+>>>>>>> main
+=======
  HAZ.Nat_Autocracy_desc: "(Islamist Military Junta) - With Iranian intervention in the Afghan Civil War radical Shia elements, backed by the IRGC, have formed a break-away state centered around the Hazara dominated portions of Afghanistan. Heavily dependent on Iran, the Hazara Defense Forces operate as the de facto military force for this new country and have extensive ties to the ruling pro-Iranian political forces."
 >>>>>>> main

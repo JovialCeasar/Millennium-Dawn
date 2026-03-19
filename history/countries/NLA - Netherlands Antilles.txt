@@ -1,7 +1,10 @@
 capital = 49
 2000.1.1 = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = NLA
 >>>>>>> main
@@ -144,7 +147,10 @@ capital = 49
 	startup_politics = yes
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	# Relation Starting Configuration (moved from on_startup)
 	add_opinion_modifier = { target = CUB modifier = sanctions }
 	add_relation_modifier = { target = USA modifier = USA_World_Economical_Relations }
@@ -161,5 +167,8 @@ capital = 49
 	add_opinion_modifier = { target = TTP modifier = AlQaida_Are_Terrorists_Trade }
 	add_opinion_modifier = { target = TAL modifier = Taliban_Are_Terrorists }
 	add_opinion_modifier = { target = TAL modifier = Taliban_Are_Terrorists_Trade }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 }

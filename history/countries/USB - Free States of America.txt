@@ -4,7 +4,11 @@ capital = 1182
 	set_variable = { gdp_per_capita = 50.170 }
 	complete_special_project = sp:sp_aircraft_project
 <<<<<<< HEAD
+<<<<<<< HEAD
 	complete_special_project = sp:sp_nuclear_energy
+=======
+	complete_special_project = sp:sp_helicopter_project
+>>>>>>> main
 =======
 	complete_special_project = sp:sp_helicopter_project
 >>>>>>> main

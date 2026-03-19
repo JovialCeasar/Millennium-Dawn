@@ -425,7 +425,10 @@
  generic_mixed_naval_equipment_organization: "Производитель смешанных военно-морских сил"
  generic_mio_general_cnc_org: "Производитель командно-диспетчерского оборудования"
 <<<<<<< HEAD
+<<<<<<< HEAD
  generic_cnc_equipment_type_organization: "Производитель командно-диспетчерского оборудования"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  generic_fixed_wing_equipment_organization: "All Round Air Manufacturer"

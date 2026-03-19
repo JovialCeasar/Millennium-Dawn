@@ -165,6 +165,7 @@ on_actions = {
 			}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 			if = {
 				limit = {
 					NOT = { has_global_flag = ct_org_backfill_v3_done }
@@ -267,6 +268,10 @@ on_actions = {
 >>>>>>> main
 			if = {
 				limit = {
+=======
+			if = {
+				limit = {
+>>>>>>> main
 					NOT = { has_global_flag = cycled_ct_tick_this_week }
 				}
 				un_check_for_next_queued_vote = yes
@@ -723,7 +728,10 @@ on_actions = {
 						check_variable = { global.month = 1 }
 					}
 <<<<<<< HEAD
+<<<<<<< HEAD
 					#Calculate UN budget for the start of the year!
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 					calculate_united_nations_base_budget = yes
@@ -942,8 +950,11 @@ on_actions = {
 
 					un_check_if_valid_for_sanctions = yes
 <<<<<<< HEAD
+<<<<<<< HEAD
 					if = { limit = { NOT = { check_variable = { influence_targets^0 = 0 } } }
 =======
+=======
+>>>>>>> main
 					if = {
 						limit = {
 							NOT = { check_variable = { influence_targets^0 = 0 } }
@@ -952,6 +963,9 @@ on_actions = {
 							is_subject = no
 							NOT = { has_active_mission = bankruptcy_incoming_collapse }
 						}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 						country_event = influence.500
 					}
@@ -1370,7 +1384,10 @@ on_actions = {
 				recalculate_resources_price = yes
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 				un_ai_evaluate_actions = yes
 
 				if = {
@@ -1380,6 +1397,9 @@ on_actions = {
 					recog_ai_monthly = yes
 				}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 				counter_terror_global = yes
 

@@ -8950,6 +8950,10 @@ focus_tree = {
 			custom_effect_tooltip = JAP_article_nine_transition_comittee_tt
 			hidden_effect = {
 				set_country_flag = JAP_article_nine_remove_flag
+<<<<<<< HEAD
+=======
+				add_dynamic_modifier = { modifier = JAP_article9_modifier }
+>>>>>>> main
 			}
 		}
 
@@ -8981,7 +8985,11 @@ focus_tree = {
 			effect_tooltip = {
 				custom_effect_tooltip = {
 					localization_key = modifies_dynamic_modifier_tt
+<<<<<<< HEAD
 					MODIFIER = JAP_landforce_modifier
+=======
+					MODIFIER = JAP_article9_modifier
+>>>>>>> main
 				}
 				add_to_variable = { JAP_stability_factor_article9 = -0.025 tooltip = stability_factor_tt }
 				add_to_variable = { JAP_war_support_weekly_article9 = 0.001 tooltip = war_support_weekly_tt }
@@ -9017,7 +9025,11 @@ focus_tree = {
 			effect_tooltip = {
 				custom_effect_tooltip = {
 					localization_key = modifies_dynamic_modifier_tt
+<<<<<<< HEAD
 					MODIFIER = JAP_landforce_modifier
+=======
+					MODIFIER = JAP_article9_modifier
+>>>>>>> main
 				}
 				add_to_variable = { JAP_experience_gain_air_factor_article9 = 0.05 tooltip = experience_gain_air_factor_tt }
 				add_to_variable = { JAP_experience_gain_army_factor_article9 = 0.05 tooltip = experience_gain_army_factor_tt }
@@ -9055,7 +9067,11 @@ focus_tree = {
 			effect_tooltip = {
 				custom_effect_tooltip = {
 					localization_key = modifies_dynamic_modifier_tt
+<<<<<<< HEAD
 					MODIFIER = JAP_landforce_modifier
+=======
+					MODIFIER = JAP_article9_modifier
+>>>>>>> main
 				}
 				add_to_variable = { JAP_army_attack_factor_article9 = 0.05 tooltip = army_attack_factor_tt }
 				add_to_variable = { JAP_army_core_attack_factor_article9 = -0.05 tooltip = army_core_attack_factor_tt }
@@ -9100,7 +9116,11 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus JAP_formalize_national_defense"
 			if = {
 				limit = { NOT = { has_dynamic_modifier = { modifier = JAP_article9_modifier } } } effect_tooltip = { remove_power_balance = { id = JAP_article_nine } } }
+<<<<<<< HEAD
 			else = { remove_dynamic_modifier = {	modifier = JAP_article9_modifier } }
+=======
+			else = { remove_dynamic_modifier = { modifier = JAP_article9_modifier } }
+>>>>>>> main
 			newline = yes
 			add_dynamic_modifier = { modifier = JAP_defense_industry }
 			newline = yes
@@ -9167,6 +9187,10 @@ focus_tree = {
 				name = JAP_deploy_next_generation
 				category = CAT_land_doctrine
 			}
+<<<<<<< HEAD
+=======
+			newline = yes
+>>>>>>> main
 			add_tech_bonus = {
 				name = JAP_deploy_next_generation
 				category = CAT_armor
@@ -9206,12 +9230,19 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus JAP_expand_mechanized_brigades"
 			add_design_template_bonus = {
+<<<<<<< HEAD
 				name = JAP_expand_mechanized_brigades
+=======
+>>>>>>> main
 				uses = 1
 				cost_factor = 1
 				equipment = medium_tank_flame_chassis
 				equipment = medium_tank_amphibious_chassis
 			}
+<<<<<<< HEAD
+=======
+			newline = yes
+>>>>>>> main
 			custom_effect_tooltip = {
 				localization_key = modifies_dynamic_modifier_tt
 				MODIFIER = JAP_landforce_modifier
@@ -9539,6 +9570,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus JAP_expand_multi_role_destroyer_fleet"
 			add_tech_bonus = {
 				name = JAP_expand_multi_role_destroyer_fleet
+<<<<<<< HEAD
 				technology = destroyer_hull_3
 				bonus = 0.25
 				uses = 1
@@ -9549,6 +9581,20 @@ focus_tree = {
 				cost_factor = 1
 				equipment = destroyer_hull_3
 			}
+=======
+				category = CAT_destroyer
+				bonus = 0.25
+				uses = 1
+			}
+			newline = yes
+			add_design_template_bonus = {
+				name = destroyer
+				uses = 1
+				cost_factor = 1
+				equipment = destroyer
+			}
+			newline = yes
+>>>>>>> main
 			add_breakthrough_progress = {
 				value = 0.75
 				specialization = specialization_naval
@@ -9609,11 +9655,19 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus JAP_carrier_aviation_development"
 			add_ideas = JAP_carrier_aviation
+<<<<<<< HEAD
+=======
+			newline = yes
+>>>>>>> main
 			add_design_template_bonus = {
 				name = JAP_carrier_aviation_development
 				uses = 1
 				cost_factor = 1
+<<<<<<< HEAD
 				equipment = carrier_hull_3
+=======
+				equipment = carrier
+>>>>>>> main
 			}
 		}
 
@@ -11061,6 +11115,18 @@ focus_tree = {
 			}
 		}
 
+<<<<<<< HEAD
+=======
+		bypass = {
+			NKO = {
+				OR = {
+					exists = no
+					is_puppet_of = JAP
+				}
+			}
+		}
+
+>>>>>>> main
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus JAP_reclaim_north_korea"
 			NKO = { country_event = JAP_diplomacy.97 }
@@ -11094,6 +11160,18 @@ focus_tree = {
 			}
 		}
 
+<<<<<<< HEAD
+=======
+		bypass = {
+			KOR = {
+				OR = {
+					exists = no
+					is_puppet_of = JAP
+				}
+			}
+		}
+
+>>>>>>> main
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus JAP_reclaim_south_korea"
 			KOR = { country_event = JAP_diplomacy.94 }
@@ -11134,6 +11212,18 @@ focus_tree = {
 			1109 = { is_claimed_by = JAP }
 		}
 
+<<<<<<< HEAD
+=======
+		bypass = {
+			TAI = {
+				OR = {
+					exists = no
+					is_puppet_of = JAP
+				}
+			}
+		}
+
+>>>>>>> main
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus JAP_reclaim_taiwan"
 			TAI = { country_event = JAP_diplomacy.101 }
@@ -11158,6 +11248,18 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
+<<<<<<< HEAD
+=======
+		bypass = {
+			CHI = {
+				OR = {
+					exists = no
+					is_puppet_of = JAP
+				}
+			}
+		}
+
+>>>>>>> main
 		available = {
 			nationalist_monarchists_are_in_power = yes
 			598 = { owns_or_subject_of = yes }

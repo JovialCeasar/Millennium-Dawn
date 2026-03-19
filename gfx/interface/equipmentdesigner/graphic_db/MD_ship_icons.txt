@@ -87,6 +87,7 @@ USA = {
 				"gfx/interface/technologies/USA/NAV/DDG.dds"
 				"gfx/interface/technologies/USA/NAV/DDGX.dds"
 				"gfx/interface/technologies/USA/NAV/AB_F4.dds"
+<<<<<<< HEAD
 			}
 			models = {
 				"USA_destroyer_4_entity"
@@ -239,6 +240,22 @@ USA = {
 				"USA_helicopter_operator_1_entity"
 				"USA_sanantonio_entity"
 =======
+				"USA_destroyer_4_entity"
+>>>>>>> main
+=======
+			}
+			models = {
+				"USA_destroyer_4_entity"
+			}
+		}
+	}
+	destroyer_hull_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/USA/NAV/McCain.dds"
+				"gfx/interface/technologies/USA/NAV/Callaghan.dds"
+			}
+			models = {
 				"USA_destroyer_4_entity"
 >>>>>>> main
 			}

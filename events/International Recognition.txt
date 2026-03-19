@@ -258,6 +258,10 @@ country_event = {
 	option = {
 		name = recognition.71.a
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+		log = "[GetDateText]: [This.GetName]: recognition.71.a executed"
+>>>>>>> main
 =======
 		log = "[GetDateText]: [This.GetName]: recognition.71.a executed"
 >>>>>>> main
@@ -280,6 +284,10 @@ country_event = {
 	option = {
 		name = recognition.72.a
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+		log = "[GetDateText]: [This.GetName]: recognition.72.a executed"
+>>>>>>> main
 =======
 		log = "[GetDateText]: [This.GetName]: recognition.72.a executed"
 >>>>>>> main
@@ -316,6 +324,7 @@ news_event = {
 
 	option = {
 		name = recognition.73.a #[FROM.GetAdjective] failed to join the international community.
+<<<<<<< HEAD
 	}
 }
 
@@ -333,6 +342,8 @@ news_event = {
 	option = {
 		name = recognition.73.a #The [FROM.GetAdjective] people join the international community.
 		log = "[GetDateText]: [This.GetName]: recognition.7.a executed"
+=======
+>>>>>>> main
 	}
 }
 
@@ -830,6 +841,7 @@ country_event = {
 
 	immediate = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		#TODO: work with bird to optimize this somehow
 		for_each_loop = {
 			array = global.UN_general_assembly
@@ -843,12 +855,17 @@ country_event = {
 				}
 			}
 =======
+=======
+>>>>>>> main
 		random_scope_in_array = {
 			array = global.UN_general_assembly
 			limit = {
 				has_country_flag = original_owner_@PREV
 			}
 			country_event = recognition.11
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 	}
@@ -874,7 +891,11 @@ country_event = {
 				country_event = recognition.12
 				if = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 					limit ={
+=======
+					limit = {
+>>>>>>> main
 =======
 					limit = {
 >>>>>>> main
@@ -992,18 +1013,24 @@ country_event = {
 
 	immediate = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		#TODO: build an array of nations that or original owners
 		#Then have that array loop here, rather than an every country
 		news_event = recognition.121
 		every_country = {
 			limit = { has_country_flag = original_owner_@PREV }
 =======
+=======
+>>>>>>> main
 		news_event = recognition.121
 		random_scope_in_array = {
 			array = global.UN_general_assembly
 			limit = {
 				has_country_flag = original_owner_@PREV
 			}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			country_event = recognition.14
 		}
@@ -1011,7 +1038,10 @@ country_event = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 country_event = {
 	id = recognition.20
 	is_triggered_only = yes
@@ -1354,6 +1384,9 @@ country_event = {
 	}
 }
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 ### [FROM.GetName] gets SC recomendation
 news_event = {
@@ -1369,7 +1402,10 @@ news_event = {
 	option = {
 		name = recognition.121.a
 <<<<<<< HEAD
+<<<<<<< HEAD
 		log = "[GetDateText]: [This.GetName]: recognition.121.a executed"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	}
@@ -1389,7 +1425,10 @@ news_event = {
 	option = {
 		name = recognition.122.a
 <<<<<<< HEAD
+<<<<<<< HEAD
 		log = "[GetDateText]: [This.GetName]: recognition.122.a executed"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	}
@@ -1413,7 +1452,11 @@ country_event = {
 			country_event = recognition.15
 			if = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				limit ={
+=======
+				limit = {
+>>>>>>> main
 =======
 				limit = {
 >>>>>>> main

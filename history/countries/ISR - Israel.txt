@@ -11,7 +11,11 @@ capital = 207
 	complete_special_project = sp:sp_composite_production
 	complete_special_project = sp:sp_microchip_production
 <<<<<<< HEAD
+<<<<<<< HEAD
 	complete_special_project = sp:sp_nuclear_energy
+=======
+	complete_special_project = sp:sp_helicopter_project
+>>>>>>> main
 =======
 	complete_special_project = sp:sp_helicopter_project
 >>>>>>> main

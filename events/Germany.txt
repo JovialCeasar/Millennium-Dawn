@@ -3944,7 +3944,11 @@ country_event = { # American weapons sales
 		}
 		add_equipment_to_stockpile = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			type = cnc_equipment_2
+=======
+			type = cnc_equipment_1
+>>>>>>> main
 =======
 			type = cnc_equipment_1
 >>>>>>> main

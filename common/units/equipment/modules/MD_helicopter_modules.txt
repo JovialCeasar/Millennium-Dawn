@@ -800,7 +800,10 @@ equipment_modules = {
 		xp_cost = 3
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	helicopter_twin_engine_gen6 = {
 		abbreviation = "hpe6"
 		category = helicopter_twin_engine_type
@@ -843,6 +846,9 @@ equipment_modules = {
 		}
 		xp_cost = 3
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	helicopter_module_hover_engine_gen1 = {
 		abbreviation = "hpe1"
@@ -2049,9 +2055,15 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 8.5
 			ap_attack = 6.5
 			hard_attack = 5
+=======
+			build_cost_ic = 13.25
+			ap_attack = 12.5
+			hard_attack = 6.5
+>>>>>>> main
 =======
 			build_cost_ic = 13.25
 			ap_attack = 12.5
@@ -2069,9 +2081,15 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 8.5
 			ap_attack = 6.5
 			hard_attack = 5
+=======
+			build_cost_ic = 16.31
+			ap_attack = 14.38
+			hard_attack = 8.66
+>>>>>>> main
 =======
 			build_cost_ic = 16.31
 			ap_attack = 14.38
@@ -2089,9 +2107,15 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 8.5
 			ap_attack = 6.5
 			hard_attack = 5
+=======
+			build_cost_ic = 20.08
+			ap_attack = 16.53
+			hard_attack = 11.55
+>>>>>>> main
 =======
 			build_cost_ic = 20.08
 			ap_attack = 16.53
@@ -2109,9 +2133,15 @@ equipment_modules = {
 
 		add_stats = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			build_cost_ic = 8.5
 			ap_attack = 6.5
 			hard_attack = 5
+=======
+			build_cost_ic = 24.72
+			ap_attack = 19.01
+			hard_attack = 15.40
+>>>>>>> main
 =======
 			build_cost_ic = 24.72
 			ap_attack = 19.01
@@ -2291,7 +2321,11 @@ equipment_modules = {
 	}
 	active_defence_system_gen3 = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		abbreviation = "ads2"
+=======
+		abbreviation = "ads3"
+>>>>>>> main
 =======
 		abbreviation = "ads3"
 >>>>>>> main
@@ -2639,7 +2673,10 @@ equipment_modules = {
 		xp_cost = 3
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	sensors_and_avionics_gen_6 = {
 		abbreviation = "saa6"
 		category = helicopter_sensor_and_avionics_type
@@ -2663,6 +2700,9 @@ equipment_modules = {
 		}
 		xp_cost = 3
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	# Drone System
 	helicopter_module_drone_control_gen_1 = {

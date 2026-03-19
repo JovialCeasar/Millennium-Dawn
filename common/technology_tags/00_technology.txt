@@ -141,6 +141,7 @@ technology_Categories = {
 
 		#Surface Ships
 <<<<<<< HEAD
+<<<<<<< HEAD
 		CAT_surface_ship 	#All Surface Ships
 			CAT_cruiser 	#Cruiser
 			CAT_destroyer 	#Destroyer
@@ -156,6 +157,8 @@ technology_Categories = {
 			CAT_lha 	#Landing Helicopter Assault (LHA)
 			CAT_lpd 	#Amphibious transport dock/landing platform/dock (LPD)
 =======
+=======
+>>>>>>> main
 		CAT_surface_ship 				# All Surface Ships
 			CAT_cruiser 				# Cruiser
 			CAT_destroyer 				# Destroyer
@@ -165,6 +168,9 @@ technology_Categories = {
 			CAT_helicopter_operators	# Light/Helicopter Operators -- Includes LHAs/LPDs
 			CAT_patrolboat				# Patrolboat
 			CAT_naval_stealth			#Stealth Destroyer, Corvette, Frigte
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
 	### Civilian ###

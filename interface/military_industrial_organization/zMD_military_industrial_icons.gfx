@@ -1,7 +1,11 @@
 spriteTypes = {
 	spriteType = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		name = "GFX_military_industrial_organization_infantry_weapons"
+=======
+		name = "GFX_military_industrial_organization_infantry_weapons_type"
+>>>>>>> main
 =======
 		name = "GFX_military_industrial_organization_infantry_weapons_type"
 >>>>>>> main

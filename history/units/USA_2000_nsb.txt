@@ -306,7 +306,11 @@ units = {
 		start_experience_factor = 0.8
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = USA version_name = "MH-6 Little Bird" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "MH-6 Little Bird" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "MH-6 Little Bird" } }
 >>>>>>> main
@@ -323,7 +327,11 @@ units = {
 		start_experience_factor = 0.8
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = USA version_name = "HH-60L" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "HH-60L" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "HH-60L" } }
 >>>>>>> main
@@ -340,7 +348,11 @@ units = {
 		start_experience_factor = 0.8
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = USA version_name = "MH-53J Pave Low" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "MH-53J Pave Low" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "MH-53J Pave Low" } }
 >>>>>>> main
@@ -357,7 +369,11 @@ units = {
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = USA version_name = "CH-53 Sea Stallion" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "CH-53 Sea Stallion" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "CH-53 Sea Stallion" } }
 >>>>>>> main
@@ -375,7 +391,11 @@ units = {
 		start_experience_factor = 0.65
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = USA version_name = "MH-6 Little Bird" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "MH-6 Little Bird" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "MH-6 Little Bird" } }
 >>>>>>> main
@@ -392,7 +412,11 @@ units = {
 		start_experience_factor = 0.65
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = USA version_name = "MH-60L Black Hawk" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "MH-60L Black Hawk" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "MH-60L Black Hawk" } }
 >>>>>>> main
@@ -409,7 +433,11 @@ units = {
 		start_experience_factor = 0.65
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = USA version_name = "MH-47 Chinook" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "MH-47 Chinook" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "MH-47 Chinook" } }
 >>>>>>> main
@@ -426,7 +454,11 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = USA version_name = "CH-53 Sea Stallion" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "CH-53 Sea Stallion" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "CH-53 Sea Stallion" } }
 >>>>>>> main
@@ -442,7 +474,11 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = USA version_name = "CH-53 Sea Stallion" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "CH-53 Sea Stallion" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "CH-53 Sea Stallion" } }
 >>>>>>> main
@@ -459,7 +495,11 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = USA version_name = "CH-53 Sea Stallion" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "CH-53 Sea Stallion" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "CH-53 Sea Stallion" } }
 >>>>>>> main
@@ -477,7 +517,11 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = USA version_name = "HH-60L" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "HH-60L" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "HH-60L" } }
 >>>>>>> main
@@ -494,7 +538,11 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = USA version_name = "HH-60L" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "HH-60L" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "HH-60L" } }
 >>>>>>> main
@@ -511,7 +559,11 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 18 owner = USA version_name = "MH-47 Chinook" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 18 owner = USA version_name = "MH-47 Chinook" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 18 owner = USA version_name = "MH-47 Chinook" } }
 >>>>>>> main
@@ -528,7 +580,11 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 14 owner = USA version_name = "MH-6 Little Bird" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 14 owner = USA version_name = "MH-6 Little Bird" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 14 owner = USA version_name = "MH-6 Little Bird" } }
 >>>>>>> main
@@ -545,7 +601,11 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 17 owner = USA version_name = "MH-60L Black Hawk" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 17 owner = USA version_name = "MH-60L Black Hawk" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 17 owner = USA version_name = "MH-60L Black Hawk" } }
 >>>>>>> main
@@ -562,7 +622,11 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 18 owner = USA version_name = "MH-53J Pave Low" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 18 owner = USA version_name = "MH-53J Pave Low" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 18 owner = USA version_name = "MH-53J Pave Low" } }
 >>>>>>> main
@@ -579,7 +643,11 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = USA version_name = "HH-60L" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "HH-60L" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "HH-60L" } }
 >>>>>>> main
@@ -596,7 +664,11 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 20 owner = USA version_name = "HH-60L" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "HH-60L" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 20 owner = USA version_name = "HH-60L" } }
 >>>>>>> main
@@ -613,7 +685,11 @@ units = {
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.01
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_equipment_variants = { transport_helicopter2 = { amount = 11 owner = USA version_name = "HH-60L" } }
+=======
+		force_equipment_variants = { transport_helicopter_2 = { amount = 11 owner = USA version_name = "HH-60L" } }
+>>>>>>> main
 =======
 		force_equipment_variants = { transport_helicopter_2 = { amount = 11 owner = USA version_name = "HH-60L" } }
 >>>>>>> main

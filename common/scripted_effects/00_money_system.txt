@@ -3410,6 +3410,7 @@ calculate_additional_expense_rate = {
 		add_to_variable = { additional_expenses_rate = additional_expense_china_travel_ban }
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	# United Nations Contribution Expenses
 	if = { limit = { has_dynamic_modifier = { modifier = united_nations_member } }
 		if = {
@@ -3421,6 +3422,9 @@ calculate_additional_expense_rate = {
 			set_variable = { united_nations_old_aid_expenses = united_nations_aid_expenses }
 		}
 	}
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -5216,6 +5220,7 @@ calculate_gdp_modifiers = {
 # Runs monthly from MD_on_actions (AI path only). Changes are ±1 per week.
 calculate_ai_taxes_desire = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	if = { limit = { has_political_power > 200 }
 		# POPULATION TAX
 		if = {
@@ -5406,6 +5411,60 @@ calculate_ai_taxes_desire = {
 				check_variable = { corporate_tax_rate < 50 }
 				check_variable = { corp_tax_change = 0 }
 			}
+=======
+	set_temp_variable = { pop_tax_change = 0 }
+	set_temp_variable = { corp_tax_change = 0 }
+
+	# --- TAX INCREASES (deficit response) ---
+
+	# Population tax: raise at mild deficit (treasury_rate < -1)
+	# Skip if low stability unless deficit is severe (< -5)
+	if = {
+		limit = {
+			check_variable = { treasury_rate < -1 }
+			check_variable = { population_tax_rate < 40 }
+			OR = {
+				has_stability > 0.24
+				check_variable = { treasury_rate < -5 }
+			}
+		}
+		set_temp_variable = { pop_tax_change = 1 }
+	}
+
+	# Corporate tax: raise at moderate deficit (treasury_rate < -2)
+	# Only after population tax reaches a moderate level (> 24), or at severe deficit regardless
+	if = {
+		limit = {
+			check_variable = { treasury_rate < -2 }
+			check_variable = { corporate_tax_rate < 50 }
+			OR = {
+				check_variable = { population_tax_rate > 24 }
+				check_variable = { treasury_rate < -5 }
+			}
+		}
+		set_temp_variable = { corp_tax_change = 1 }
+	}
+
+	# Interest rate escalation: if interest > 8% and any deficit, force tax increases
+	# Catches debt spirals early before treasury_rate thresholds are hit
+	if = {
+		limit = {
+			check_variable = { interest_rate > 8 }
+			check_variable = { treasury_rate < 0 }
+		}
+		if = {
+			limit = {
+				check_variable = { population_tax_rate < 40 }
+				check_variable = { pop_tax_change = 0 }
+			}
+			set_temp_variable = { pop_tax_change = 1 }
+		}
+		if = {
+			limit = {
+				check_variable = { corporate_tax_rate < 50 }
+				check_variable = { corp_tax_change = 0 }
+			}
+>>>>>>> main
 			set_temp_variable = { corp_tax_change = 1 }
 		}
 	}
@@ -5439,6 +5498,9 @@ calculate_ai_taxes_desire = {
 			check_variable = { population_tax_rate > 20 }
 			check_variable = { treasury_rate > 0 }
 			check_variable = { pop_tax_change = 0 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		set_temp_variable = { pop_tax_change = -1 }
@@ -5946,11 +6008,17 @@ setup_employment_variables = {
 			set_variable = { PREV.agriculture_district_employment_var = agriculture_district_employment_var }
 			set_variable = { PREV.synthetic_refinery_employment_var = synthetic_refinery_employment_var }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 			set_variable = { PREV.nuclear_reactor_employment_var = nuclear_reactor_employment_var }
 			set_variable = { PREV.fossil_powerplant_employment_var = fossil_powerplant_employment_var }
 			set_variable = { PREV.renewable_energy_employment_var = renewable_energy_employment_var }
 			set_variable = { PREV.internet_station_employment_var = internet_station_employment_var }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			set_variable = { var = PREV.corporate_tax_rate value = corporate_tax_rate }
 			set_variable = { var = PREV.population_tax_rate value = population_tax_rate }
@@ -6116,8 +6184,11 @@ recalculate_resources_price = {
 	clamp_variable = { var = chromium_price_adjuster min = 0.036 max = 0.9 }
 	clamp_variable = { var = microchips_price_adjuster min = 1.58 max = 36.2 }
 	clamp_variable = { var = composites_price_adjuster min = 1.42 max = 35.4 }
+<<<<<<< HEAD
 
 	log = "[?microchips_price_adjuster] after clamp"
+=======
+>>>>>>> main
 
 	set_variable = { global.oil_price = oil_price_adjuster } #Divided 50/50 based on oil/natural gas price #Limited to 5, was 28
 	set_variable = { global.steel_price = steel_price_adjuster } #Based on steel price
@@ -6137,6 +6208,10 @@ recalculate_resources_price = {
 calculate_united_nations_base_budget = {
 	set_variable = { global.un_operating_budget_base = 0 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	set_variable = { global.total_aid_expenses_sum = 0 }
+>>>>>>> main
 =======
 	set_variable = { global.total_aid_expenses_sum = 0 }
 >>>>>>> main
@@ -6213,12 +6288,18 @@ calculate_united_nations_base_budget = {
 				set_temp_variable = { peak_prod_mod = overall_productivity }
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 			set_country_flag = update_cdf
 			set_country_flag = update_ido
 			set_country_flag = update_esco
 			calculate_base_program_contributions = yes
 			add_to_variable = { global.total_aid_expenses_sum = united_nations_aid_expenses }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 	}
@@ -6283,7 +6364,10 @@ calculate_united_nations_base_budget = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 calculate_base_program_contributions = {
 	if = {
 		limit = {
@@ -6383,6 +6467,9 @@ update_optional_contributions = {
 	}
 }
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 #Calculates how much money the program has after additional contributions are made
 calculate_un_program_budgets = {
@@ -6398,6 +6485,7 @@ calculate_un_program_budgets = {
 	add_to_variable = { global.uncdf_budget = base_budget_number }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	add_to_variable = { global.unescoe_budget = global.unescoe_additional_contribution }
 	add_to_variable = { global.undio_budget = global.undio_additional_contribution }
 	add_to_variable = { global.uncdf_budget = global.uncdf_additional_contribution }
@@ -6412,6 +6500,8 @@ update_un_program_budgets = {
 
 }
 =======
+=======
+>>>>>>> main
 	#Pre-compute total: base budget + all country aid contributions
 	set_temp_variable = { total_un_programs = global.un_operating_budget_base }
 	add_to_temp_variable = { total_un_programs = global.total_aid_expenses_sum }
@@ -6609,4 +6699,7 @@ sort_un_aid_contributor_arrays = {
 		remove_from_temp_array = { array = cdf_sort_values index = cdf_sort_idx }
 	}
 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main

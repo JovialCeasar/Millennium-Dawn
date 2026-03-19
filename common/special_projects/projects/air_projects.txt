@@ -951,7 +951,11 @@ sp_fiber_drones = {
 	project_output = {
 		country_effects = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			add_ideas = sp_sp_fiber_drones_idea
+=======
+			add_ideas = sp_fiber_drones_idea
+>>>>>>> main
 =======
 			add_ideas = sp_fiber_drones_idea
 >>>>>>> main

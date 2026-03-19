@@ -467,6 +467,7 @@ SAF_cruisers = {
  }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ### Destroyers ###
 ai_equipment = {
@@ -720,5 +721,7 @@ ai_equipment = {
 	}
 
 }
+=======
+>>>>>>> main
 =======
 >>>>>>> main

@@ -1258,7 +1258,11 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "united_nations_expense"
 <<<<<<< HEAD
+<<<<<<< HEAD
 					position = { x = 20 y = 410 }
+=======
+					position = { x = 20 y = 430 }
+>>>>>>> main
 =======
 					position = { x = 20 y = 430 }
 >>>>>>> main
@@ -1274,7 +1278,11 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "united_nations_expense_rates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 					position = { x = 170 y = 410 }
+=======
+					position = { x = 170 y = 430 }
+>>>>>>> main
 =======
 					position = { x = 170 y = 430 }
 >>>>>>> main
@@ -1291,7 +1299,11 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "additional_expenses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 					position = { x = 20 y = 430 }
+=======
+					position = { x = 20 y = 450 }
+>>>>>>> main
 =======
 					position = { x = 20 y = 450 }
 >>>>>>> main
@@ -1307,7 +1319,11 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "additional_expenses_rates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 					position = { x = 170 y = 430 }
+=======
+					position = { x = 170 y = 450 }
+>>>>>>> main
 =======
 					position = { x = 170 y = 450 }
 >>>>>>> main

@@ -1,5 +1,6 @@
 on_startup_international = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	add_to_array = { global.PMC_companies = 001 } #Blackwater
 	add_to_array = { global.PMC_companies = 002 } #Aegis
 	add_to_array = { global.PMC_companies = 003 } #Constellis
@@ -17,6 +18,8 @@ on_startup_international = {
 	add_to_array = { global.PMC_companies = 014 } #European Security Academy
 	add_to_array = { global.PMC_companies = 015 } #g4s
 =======
+=======
+>>>>>>> main
 	add_to_array = { global.PMC_Companies = 001 } #Blackwater
 	add_to_array = { global.PMC_Companies = 002 } #Aegis
 	add_to_array = { global.PMC_Companies = 003 } #Constellis
@@ -33,6 +36,9 @@ on_startup_international = {
 	add_to_array = { global.PMC_Companies = 013 } #GardaWorld
 	add_to_array = { global.PMC_Companies = 014 } #European Security Academy
 	add_to_array = { global.PMC_Companies = 015 } #g4s
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	add_to_array = { global.PMC_Companies = 016 } #Asgard
 	add_to_array = { global.PMC_Companies = 017 } #Union of Tribes of Sinai
@@ -118,6 +124,10 @@ on_startup_international = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -127,6 +137,7 @@ clr_country_pmc_flag = {
 	clr_country_flag = constellis_sel
 	clr_country_flag = wagner_sel
 	clr_country_flag = md_sel
+<<<<<<< HEAD
 <<<<<<< HEAD
 	clr_country_flag = mpri_sel
 	clr_country_flag = sadat_sel
@@ -155,6 +166,8 @@ clr_country_pmc_flag = {
 	clr_country_flag = sberbank_sel
 	clr_country_flag = vtb_sel
 	clr_country_flag = md_sel
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 }
@@ -213,7 +226,10 @@ un_recog_setup_check = {
 			}
 			add_to_array = { global.Unrecognised_States = THIS }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 			for_each_loop = {
 				array = global.UN_general_assembly
@@ -232,6 +248,9 @@ un_recog_setup_check = {
 				}
 			}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		} else = {
 			if = {
@@ -244,7 +263,10 @@ un_recog_setup_check = {
 				index = 0
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 			for_each_loop = {
 				array = global.UN_general_assembly
 				value = v
@@ -261,6 +283,9 @@ un_recog_setup_check = {
 					}
 				}
 			}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 	}else = {
@@ -278,7 +303,10 @@ un_check_if_valid_for_sanctions = {
 		if = {
 			limit = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				NOT = { is_in_array = { global.can_be_sc_sanctioned = THIS } }
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 				NOT = { has_dynamic_modifier = { modifier = united_nations_security_council_sanctions } }
@@ -664,7 +692,10 @@ un_sc_new_members_re_roll = {
 					}
 				}
 <<<<<<< HEAD
+<<<<<<< HEAD
 				log = "[THIS.GetName] is the current scope inside the random scope in array"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 				set_variable = { global.new_council_members^0 = THIS }
@@ -678,7 +709,10 @@ un_sc_new_members_re_roll = {
 					}
 				}
 <<<<<<< HEAD
+<<<<<<< HEAD
 				log = "[THIS.GetName] is the current scope inside the random scope in array"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 				set_variable = { global.new_council_members^0 = THIS }
@@ -806,12 +840,16 @@ security_council_vote_finished = {
 			}
 			var:global.current_sc_vote_nation = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				set_variable = { security_council_trade_sanctions_var = global.UN_general_assembly^num }
 				set_variable = { security_council_research_sanctions_var = global.UN_general_assembly^num }
 
 				multiply_variable = { security_council_trade_sanctions_var = 0.35 }
 				multiply_variable = { security_council_research_sanctions_var = 0.15 }
 				add_dynamic_modifier = { modifier = united_nations_security_council_sanctions }
+=======
+				apply_united_nations_sanctions = yes
+>>>>>>> main
 =======
 				apply_united_nations_sanctions = yes
 >>>>>>> main
@@ -834,7 +872,10 @@ security_council_vote_finished = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 		# Fire result events for types 1-4 (type 5 is handled via update_ga_vote)
 		if = {
@@ -853,6 +894,9 @@ security_council_vote_finished = {
 				country_event = UNSC.11
 			}
 		}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	} else = {
 		news_event = recognition.122
@@ -868,12 +912,16 @@ security_council_vote_finished = {
 
 		var:v = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			if = {
 				limit = {
 					has_country_flag = has_had_current_un_sc_vote_swayed
 				}
 				clr_country_flag = has_had_current_un_sc_vote_swayed
 			}
+=======
+			clr_country_flag = has_had_current_un_sc_vote_swayed
+>>>>>>> main
 =======
 			clr_country_flag = has_had_current_un_sc_vote_swayed
 >>>>>>> main
@@ -889,12 +937,16 @@ security_council_vote_finished = {
 	clr_global_flag = current_ongoing_sc_vote
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	if = {
 		limit = {
 			has_global_flag = security_council_veto
 		}
 		clr_global_flag = security_council_veto
 	}
+=======
+	clr_global_flag = security_council_veto
+>>>>>>> main
 =======
 	clr_global_flag = security_council_veto
 >>>>>>> main
@@ -964,9 +1016,12 @@ general_assembly_vote_finished = {
 				add_to_variable = { global.general_operating_budget_contribute_percent = 0.0001 }
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		} else = {
 
 =======
+=======
+>>>>>>> main
 		} else_if = {
 			limit = {
 				check_variable = { global.current_ga_vote_type > 9 }
@@ -1045,6 +1100,9 @@ general_assembly_vote_finished = {
 					}
 				}
 			}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 	} else = {
@@ -1090,6 +1148,7 @@ general_assembly_vote_finished = {
 			multiply_variable = { international_trade_sanctions = -0.005 }
 			multiply_variable = { international_research_sanctions = -0.001 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 			add_dynamic_modifier = {
 				modifier = united_nations_non_binding_sanctions
 			}
@@ -1110,6 +1169,8 @@ general_assembly_vote_finished = {
 		}
 	}
 =======
+=======
+>>>>>>> main
 			clamp_variable = { var = international_trade_sanctions min = -1.00 }
 			clamp_variable = { var = international_research_sanctions min = -0.50 }
 			add_dynamic_modifier = { modifier = united_nations_non_binding_sanctions }
@@ -1117,6 +1178,9 @@ general_assembly_vote_finished = {
 	}
 
 	clr_country_flag = has_had_current_un_sc_vote_swayed
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
 	#clear all arrays and variables
@@ -1230,8 +1294,11 @@ full_satellite_system_access = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
+=======
+>>>>>>> main
 }
 
 #This makes it so that receiving money reduces your benefits from the main UN modifier
@@ -1727,4 +1794,7 @@ un_sway_direction_effect = {
 		add_to_array = { global.general_assembly_vote_abstain = THIS }
 	}
 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main

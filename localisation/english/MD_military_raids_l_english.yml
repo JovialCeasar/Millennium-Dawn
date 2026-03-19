@@ -58,7 +58,11 @@
  raid_type_scientist_kill_mission: "Scientist Kill Mission"
  raid_type_scientist_kill_mission_desc: "Conducts a raid specifically to kill enemy researchers or leadership."
 <<<<<<< HEAD
+<<<<<<< HEAD
  raid_type_counter_terror_hvt_raid: "Counter-Terrorism HVT Raid"
+=======
+ raid_type_counter_terror_hvt_raid: "Counter-Terrorism High-value target Raid"
+>>>>>>> main
 =======
  raid_type_counter_terror_hvt_raid: "Counter-Terrorism High-value target Raid"
 >>>>>>> main
@@ -80,6 +84,7 @@
  raid_type_anti_missile_strikes: "Anti Missile Strikes"
  raid_type_anti_missile_strikes_desc: "Conducts strikes against enemy §YMissile Launch Sites§! to damage or destroy those facilities."
 <<<<<<< HEAD
+<<<<<<< HEAD
  raid_type_assassinate_admiral_sf: "Assassinate Admiral"
  raid_type_assassinate_admiral_sf_desc: "Special Forces raid targeting a §YNaval Base§! to eliminate a hostile admiral."
  raid_type_assassinate_general_sf: "Assassinate General"
@@ -89,12 +94,17 @@
  raid_type_assassinate_general_air: "Assassinate General (Air Strike)"
  raid_type_assassinate_general_air_desc: "Air or missile strike against the enemy §YCapital§! to eliminate a hostile general."
 =======
+=======
+>>>>>>> main
  raid_type_drone_airfield_radar_strike: "Drone Airfield and Radar Stations Strike"
  raid_type_drone_airfield_radar_strike_desc: "Conducts a suicide drone strike against enemy §Yairfields§! and §Yradar stations§!, degrading their air defence infrastructure and hampering air operations."
  raid_type_drone_power_grid_strike: "Drone Power Grid Strike"
  raid_type_drone_power_grid_strike_desc: "Unleashes a wave of suicide drones against enemy §Ypower plants§! and §Yenergy infrastructure§!, disrupting electricity supply and straining industrial output."
  raid_type_drone_rocket_site_strike: "Drone Rocket Site Strike"
  raid_type_drone_rocket_site_strike_desc: "Directs a targeted drone strike at enemy §Ymissile launch sites§!, damaging rocket infrastructure and suppressing their ballistic and cruise missile capacity."
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
  #Raid Dynamic Modifiers

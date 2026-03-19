@@ -427,7 +427,10 @@
  generic_mio_general_cnc_org: "Command and Control Equipment Manufacturer"
  GER_Eurofighter_aircraft_manufacturer: "Eurofighter"
 <<<<<<< HEAD
+<<<<<<< HEAD
  generic_cnc_equipment_type_organization: "Command and Control Equipment Manufacturer"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  generic_specialized_helicopter_aa_at_organization: "Helicopter and Missile Manufacturer"

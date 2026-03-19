@@ -1103,6 +1103,7 @@
 
  recognition.71.t: "The Vote has Passed!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  recognition.71.d: "The vote has been tallied: it passed! Our nation is now a member of the United Nations, and is an internationally recognized memeber of the international community!"
  recognition.71.a: "Finally! [THIS.GetName] is recognized!"
 
@@ -1110,12 +1111,17 @@
  recognition.72.d: "The vote has been tallied: it failed! While we managed to gain a simple majority, and nearly had the required support, we were unable to obtain the 2/3 majority required for the resolution to pass."
  recognition.72.a: "A blow to our relations."
 =======
+=======
+>>>>>>> main
  recognition.71.d: "The vote has been tallied: it passed! Our nation is now a member of the United Nations, and is an internationally recognized member of the international community!"
  recognition.71.a: "Finally! [THIS.GetName] is recognized!"
 
  recognition.72.t: "The Vote has Failed!"
  recognition.72.d: "The votes have been counted and the result is clear — we fell short. Despite considerable support in the chamber, the resolution failed to pass, and our bid for UN membership has been denied for now."
  recognition.72.a: "A blow to our legitimacy."
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
  recognition.7.t: "[FROM.GetName] Joins the United Nations"
@@ -1123,6 +1129,7 @@
  recognition.7.a: "The [FROM.GetAdjective] people join the international community."
 
  recognition.73.t: "General Assembly Vote Failed"
+<<<<<<< HEAD
 <<<<<<< HEAD
  recognition.73.d: "Following the UN General Assembly vote, the current resolution up for vote has failed to obtain even a simple majority. The resolution, having failed, is not to be internationally recognized as a concern on the world stage."
  recognition.73.a: "The world has spoken!"
@@ -1153,6 +1160,16 @@
  recognition.8.a: "This country deserves recognition!"
  recognition.8.b: "We refuse to recognize this breakaway state!"
 
+=======
+ recognition.73.d: "The General Assembly has spoken. The resolution failed to carry the chamber, and the aspirations of those who championed it have been dealt a firm rebuke by the international community."
+ recognition.73.a: "The world has spoken!"
+
+ recognition.8.t: "[FROM.GetAdjective] Pressure to Recognize Aspiring Country"
+ recognition.8.d: "The [FROM.GetAdjective] government is leveraging its influence in [ROOT.GetNameDef] to pressure us into recognizing [pressured_to_recognize]. To defy a partner with deep ties to our government is no small matter."
+ recognition.8.a: "This country deserves recognition!"
+ recognition.8.b: "We refuse to recognize this breakaway state!"
+
+>>>>>>> main
  recognition.9.t: "[FROM.GetName] is Supporting a new Country!"
  recognition.9.d: "The government of [FROM.GetNameDef] has sided with the people of [FROM.var:open_state.GetNameDef], and has pledged to support their ascension to the UN!"
  recognition.9.a: "Another Ally in their Cause!"
@@ -1165,6 +1182,9 @@
 
  recognition.15.t: "Vote on [FROM.FROM.GetName] UN Ascension"
  recognition.15.d: "[FROM.FROM.GetName] has made their case for UN membership, over the protests of [FROM.GetName]. With the Security Council's recommendation secured, the question now falls to the General Assembly. The world is watching."
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  recognition.15.a: "Vote Yes"
  recognition.15.b: "Vote No"
@@ -1172,7 +1192,11 @@
 
  recognition.121.t: "Security Council Recommends [FROM.GetName] for UN Membership"
 <<<<<<< HEAD
+<<<<<<< HEAD
  recognition.121.d: "[FROM.GetName] has just been reccomended for UN ascension by the UN Security Council. The floor is already live with debate, as nations vy for their attempt to debate and have their voice heard on the world stage!"
+=======
+ recognition.121.d: "[FROM.GetName] has just received a recommendation for UN membership from the Security Council. The General Assembly floor is already alive with debate as nations vie to have their voice heard."
+>>>>>>> main
 =======
  recognition.121.d: "[FROM.GetName] has just received a recommendation for UN membership from the Security Council. The General Assembly floor is already alive with debate as nations vie to have their voice heard."
 >>>>>>> main
@@ -1183,7 +1207,10 @@
  recognition.122.a: "They must have had a good reason"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
  recognition.16.t: "Recognize [FROM.GetName]?"
  recognition.16.d: "The government of [FROM.GetNameDef] is seeking formal diplomatic recognition. The decision carries weight — to recognize them is to signal our endorsement of their sovereignty to the world."
  recognition.16.a: "We are not prepared to recognize [FROM.GetName] at this time."
@@ -1199,6 +1226,9 @@
  recognition.31.a: "We will never recognize this breakaway regime."
  recognition.31.b: "We acknowledge [FROM.GetName]'s independence."
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  #Internal Faction
  internal_faction.1.t: "The Military is Requesting a Budget Increase"
@@ -2251,7 +2281,11 @@
 
  UNSC.4.t: "Arms Embargo against [?global.current_sc_vote_nation.GetName]"
 <<<<<<< HEAD
+<<<<<<< HEAD
  UNSC.4.d: "A Resolution to institue an arms embargo against [?global.current_sc_vote_nation.GetName] is before the Security Council. If the resolution passes, [?global.current_sc_vote_nation.GetName] will be prevented from purchasing arms from the International Market until they end all of their current offensive conflicts.\n\n$unsc_vote_pass_tt$"
+=======
+ UNSC.4.d: "A Resolution to institute an arms embargo against [?global.current_sc_vote_nation.GetName] is before the Security Council. If the resolution passes, [?global.current_sc_vote_nation.GetName] will be prevented from purchasing arms from the International Market until they end all of their current offensive conflicts.\n\n$unsc_vote_pass_tt$"
+>>>>>>> main
 =======
  UNSC.4.d: "A Resolution to institute an arms embargo against [?global.current_sc_vote_nation.GetName] is before the Security Council. If the resolution passes, [?global.current_sc_vote_nation.GetName] will be prevented from purchasing arms from the International Market until they end all of their current offensive conflicts.\n\n$unsc_vote_pass_tt$"
 >>>>>>> main
@@ -2260,10 +2294,13 @@
  UNSC.4.c: "Abstain"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
  #UN General Assembly
  UN.6.t: "Confirm UN Security Council seat for [?global.current_ga_vote_nation.GetNameWithFlag]"
  UN.6.d: "The United Nations General Assembly is currently voting to confirm the upcoming members of the Security Council. All nations that are nominated must be confirmed by the General Assembly, and will server a 2 year term, starting January 1st of the year [?global.next_year]\n\n$un_ga_vote_requires_2_3_tt$"
 =======
+=======
+>>>>>>> main
  UNSC.10.t: "Security Council Resolution Adopted"
  UNSC.10.d: "The United Nations Security Council has voted to adopt a resolution against [FROM.GetNameWithFlag]. [FROM.UNSCGetResolutionTypePassDesc]"
  UNSC.10.a: "Noted."
@@ -2280,14 +2317,22 @@
  #UN General Assembly
  UN.6.t: "Confirm UN Security Council seat for [?global.current_ga_vote_nation.GetNameWithFlag]"
  UN.6.d: "The United Nations General Assembly is currently voting to confirm the upcoming members of the Security Council. All nations that are nominated must be confirmed by the General Assembly, and will serve a 2 year term, starting January 1st of the year [?global.next_year]\n\n$un_ga_vote_requires_2_3_tt$"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  UN.6.a: "Vote Yes"
  UN.6.b: "Vote No"
  UN.6.c: "Abstain"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
  UN.7.t: "Establish Non-Binding Sancations Against [?global.current_ga_vote_nation.GetNameWithFlag]"
  UN.7.d: "[?global.current_ga_vote_nation.GetNameWithFlag] has conducted a military strike against a foreign. In reponse, they have requested that the §BUnited Nations§! sanction [?global.current_ga_vote_nation.GetNameWithFlag] for the next year as a punishment for this action. If we vote in the affirmative, we will agree to bring sanctions against [?global.current_ga_vote_nation.GetNameWithFlag].\n\n$un_ga_vote_auto_pass_tt$"
+=======
+ UN.7.t: "Establish Non-Binding Sanctions Against [?global.current_ga_vote_nation.GetNameWithFlag]"
+ UN.7.d: "[?global.current_ga_vote_nation.GetNameWithFlag] has conducted a military strike against a foreign nation. In response, they have requested that the §BUnited Nations§! sanction [?global.current_ga_vote_nation.GetNameWithFlag] for the next year as a punishment for this action. If we vote in the affirmative, we will agree to bring sanctions against [?global.current_ga_vote_nation.GetNameWithFlag].\n\n$un_ga_vote_auto_pass_tt$"
+>>>>>>> main
 =======
  UN.7.t: "Establish Non-Binding Sanctions Against [?global.current_ga_vote_nation.GetNameWithFlag]"
  UN.7.d: "[?global.current_ga_vote_nation.GetNameWithFlag] has conducted a military strike against a foreign nation. In response, they have requested that the §BUnited Nations§! sanction [?global.current_ga_vote_nation.GetNameWithFlag] for the next year as a punishment for this action. If we vote in the affirmative, we will agree to bring sanctions against [?global.current_ga_vote_nation.GetNameWithFlag].\n\n$un_ga_vote_auto_pass_tt$"
@@ -2309,10 +2354,13 @@
  UN.9.c: "Abstain"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
  #Sway Vote Events
  UNSC.200.t: "Attempt to Sway [?sway_target.GetName]"
  UNSC.200.d: "In order to get the result we want on this §BUnited Nations§! §YSecurity Council§! Resolution, we need to get more people to either vote with us, or abstain from voting. To get them to change their vote, we must offer them something worth their allegience for this vote. We have several different offers we can make, but we must choose one now, and hope they will accept it."
 =======
+=======
+>>>>>>> main
  UN.10.t: "Resolution: Poverty Reduction"
  UN.10.d: "[?global.current_ga_vote_nation.GetNameWithFlag] has proposed a non-binding resolution calling on all member states to adopt measures aimed at reducing poverty. Nations that vote in favor will commit to policies that improve stability at the cost of increased consumer goods spending.\n\n$un_ga_vote_requires_majority$"
  UN.10.a: "Vote Yes"
@@ -2449,6 +2497,9 @@
  #Sway Vote Events
  UNSC.200.t: "Attempt to Sway [?sway_target.GetName]"
  UNSC.200.d: "In order to get the result we want on this §BUnited Nations§! §YSecurity Council§! Resolution, we need to get more people to either vote with us, or abstain from voting. To get them to change their vote, we must offer them something worth their allegiance for this vote. We have several different offers we can make, but we must choose one now, and hope they will accept it."
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  UNSC.200.a: "Offer Trade & Investment Deals"
  UNSC.200.b: "Offer Financial Incentives"
@@ -2475,14 +2526,20 @@
 
  UN.200.t: "Attempt to Sway [?sway_target.GetName]"
 <<<<<<< HEAD
+<<<<<<< HEAD
  UN.200.d: "In order to get the result we want on this §BUnited Nations§! §YGeneral Assembly§! Resolution, we need to get more people to either vote with us, or abstain from voting. To get them to change their vote, we must offer them something worth their allegience for this vote. We have several different offers we can make, but we must choose one now, and hope they will accept it."
 
 =======
+=======
+>>>>>>> main
  UN.200.d: "In order to get the result we want on this §BUnited Nations§! §YGeneral Assembly§! Resolution, we need to get more people to either vote with us, or abstain from voting. To get them to change their vote, we must offer them something worth their allegiance for this vote. We have several different offers we can make, but we must choose one now, and hope they will accept it."
  UN.200.a: "Offer Trade & Investment Deals"
  UN.200.b: "Offer Financial Incentives"
  UN.200.c: "Offer Military Incentives"
  UN.200.e: "Offer Developmental Incentives"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
  UN.201.t: "[FROM.GetName] Wishes to Sway Our Vote"
@@ -2501,8 +2558,11 @@
  UN.204.d: "[FROM.GetLeader] has quietly approached [THIS.GetLeader], requesting that we change our vote to [vote_change_too] for the current United Nations General Assembly resolution. They have offered to give us Research, Construction, and Production subsidies and assistance if we agree to change our vote, to be granted after the vote is changed. We must decide if agreeing to their request is worth changing our stance on the General Assembly vote."
  UN.204.a: "Accept their Offer"
 <<<<<<< HEAD
+<<<<<<< HEAD
  UN.204.b: "Reject this Outrageous Demand!"
 =======
+=======
+>>>>>>> main
  UN.204.b: "Reject this Outrageous Demand!"
 
  UN.300.t: "Lost §YEducational, Scientific, and Cultural Organization§! §GSubsidies§!"
@@ -2515,5 +2575,9 @@
 
  UN.302.t: "Lost §YCapital Development Fund§! §GSubsidies§!"
  UN.302.d: "Following the yearly budget review by the §YCapital Development Fund§! Budget Committee, it was determined that we no longer meet the requirements to receive §YCapital Development Fund§! §GSubsidies§!. As a result, we no longer have access to the subsidy program. We may apply again in the future if we meet the program requirements."
+<<<<<<< HEAD
+ UN.302.a: "Okay"
+>>>>>>> main
+=======
  UN.302.a: "Okay"
 >>>>>>> main

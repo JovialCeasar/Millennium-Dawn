@@ -244,13 +244,19 @@ default = {
 		pool = {
 			icons = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"gfx/interface/technologies/USA/AIR/UAV3.dds"
 				"gfx/interface/technologies/TUR/AIR/UAV2.dds"
 =======
+=======
+>>>>>>> main
 				"gfx/interface/technologies/USA/AIR/MQ-4C.dds"
 				"gfx/interface/technologies/USA/AIR/MQ-25.dds"
 				"gfx/interface/technologies/USA/AIR/X-47A.dds"
 				"gfx/interface/technologies/USA/AIR/X-47B.dds"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			}
 			models = {
@@ -263,9 +269,13 @@ default = {
 		pool = {
 			icons = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"gfx/interface/technologies/USA/AIR/UAV3.dds"
 				"gfx/interface/technologies/USA/AIR/UAV4.dds"
 				"gfx/interface/technologies/TUR/AIR/UAV2.dds"
+=======
+				"gfx/interface/technologies/USA/AIR/RNQ-19.dds"
+>>>>>>> main
 =======
 				"gfx/interface/technologies/USA/AIR/RNQ-19.dds"
 >>>>>>> main
@@ -3458,6 +3468,7 @@ USA = {
 		pool = {
 			icons = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"gfx/interface/technologies/USA/AIR/UAV3.dds"
 				
 				
@@ -3483,12 +3494,26 @@ USA = {
 				"TUR_bayraktarmius_entity"
 				"USA_small_plane_suicide_airframe_3_entity"
 >>>>>>> main
+=======
+				"gfx/interface/technologies/USA/AIR/XQ-58.dds"
+				"gfx/interface/technologies/USA/AIR/RQ-180.dds"
+				"gfx/interface/technologies/USA/AIR/RQ-170.dds"
+				"gfx/interface/technologies/USA/AIR/Gambit4.dds"
+				"gfx/interface/technologies/USA/AIR/Gambit3.dds"
+				"gfx/interface/technologies/USA/AIR/Gambit2.dds"
+				"gfx/interface/technologies/USA/AIR/Gambit1.dds"
+			}
+			models = {
+				"TUR_bayraktarmius_entity"
+				"USA_small_plane_suicide_airframe_3_entity"
+>>>>>>> main
 			}
 		}
 	}
 	small_plane_suicide_airframe_4 = {
 		pool = {
 			icons = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 				"gfx/interface/technologies/USA/AIR/UAV3.dds"
 				
@@ -3589,6 +3614,29 @@ USA = {
 	}
 
 =======
+>>>>>>> main
+=======
+				"gfx/interface/technologies/USA/AIR/MQ-15.dds"
+				"gfx/interface/technologies/USA/AIR/MQ-30.dds"
+			}
+			models = {
+				"TUR_bayraktarmius_entity"
+				"USA_small_plane_suicide_airframe_3_entity"
+			}
+		}
+	}
+	small_plane_cas_airframe_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/USA/AIR/OV-10A.dds"
+				"gfx/interface/technologies/USA/AIR/A-37.dds"
+			}
+			models = {
+				"USA_small_plane_cas_airframe_1_entity"
+				"USA_small_plane_airframe_1_entity"
+			}
+		}
+	}
 >>>>>>> main
 	small_plane_cas_airframe_2 = {
 		pool = {
@@ -3867,9 +3915,12 @@ USA = {
 			}
 			models = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				USA_medium_plane_airframe_4_entity
 				USA_FAxx_entity
 =======
+=======
+>>>>>>> main
 				"USA_medium_plane_airframe_4_entity"
 			}
 		}
@@ -3976,6 +4027,9 @@ USA = {
 			}
 			models = {
 				"USA_medium_plane_airframe_4_entity"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			}
 		}
@@ -4175,10 +4229,14 @@ USA = {
 			}
 			models = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"USA_large_plane_airframe_3_entity" #B-2
 				"USA_sr72_entity"
 				"USA_RQ180_entity"
 				
+=======
+				"USA_small_plane_suicide_airframe_3_entity"
+>>>>>>> main
 =======
 				"USA_small_plane_suicide_airframe_3_entity"
 >>>>>>> main
@@ -4193,10 +4251,14 @@ USA = {
 			}
 			models = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"USA_large_plane_airframe_3_entity"
 				"USA_sr72_entity"
 				"USA_RQ180_entity"
 				"USA_B21_entity"
+=======
+				"USA_cv_small_plane_airframe_1_entity"
+>>>>>>> main
 =======
 				"USA_cv_small_plane_airframe_1_entity"
 >>>>>>> main

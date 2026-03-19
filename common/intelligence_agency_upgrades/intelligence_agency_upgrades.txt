@@ -14,9 +14,18 @@ branch_intelligence = {
 			}
 			modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 				factor = 1.5
 				is_spymaster = yes
+=======
+				factor = 1.5
+				is_spymaster = yes
+			}
+			modifier = {
+				factor = 0.5
+				check_variable = { treasury < 50 }
+>>>>>>> main
 			}
 			modifier = {
 				factor = 0.5
@@ -145,10 +154,14 @@ branch_intelligence = {
 			modifier = {
 				factor = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 				OR = {
 					has_active_mission = bankruptcy_incoming_collapse
 					check_variable = { interest_rate > 10.00 }
 				}
+=======
+				has_active_mission = bankruptcy_incoming_collapse
+>>>>>>> main
 =======
 				has_active_mission = bankruptcy_incoming_collapse
 >>>>>>> main
@@ -249,7 +262,11 @@ branch_intelligence = {
 			base = 5
 			modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				factor = 3
+=======
+				factor = 2
+>>>>>>> main
 =======
 				factor = 2
 >>>>>>> main
@@ -347,6 +364,7 @@ branch_defense = {
 		sound = Spy_Agency_Defense_Upgrades_Confirm
 		ai_will_do = {
 			base = 5
+<<<<<<< HEAD
 			modifier = {
 				factor = 3
 				has_country_flag = increased_corruption_recently
@@ -552,26 +570,212 @@ branch_defense = {
 		ai_will_do = {
 <<<<<<< HEAD
 			factor = 2
+=======
+>>>>>>> main
 			modifier = {
-				factor = 5
+				factor = 3
 				has_country_flag = increased_corruption_recently
 			}
 			modifier = {
-				factor = 2.5
+				factor = 2
 				any_enemy_country = {
 					OR = {
-						has_idea = superpower
+						has_idea = super_power
 						has_idea = great_power
 					}
 				}
 			}
 			modifier = {
+				factor = 1.5
+				has_war = yes
+			}
+			modifier = {
+				factor = 0.5
+				check_variable = { treasury < 50 }
+			}
+			modifier = {
 				factor = 0
+<<<<<<< HEAD
 				OR = {
 					has_active_mission = bankruptcy_incoming_collapse
 					check_variable = { interest_rate > 10.00 }
 				}
 =======
+			base = 5
+=======
+				has_active_mission = bankruptcy_incoming_collapse
+			}
+		}
+
+		level = {
+>>>>>>> main
+			modifier = {
+				factor = 3
+				has_country_flag = increased_corruption_recently
+			}
+<<<<<<< HEAD
+=======
+			complete_effect = {
+				if = {
+					limit = { is_debug = yes }
+					log = "[GetDateText]: [Root.GetName]: Intelligence Agency Upgrade upgrade_passive_defense"
+				}
+				add_to_variable = { ct_intel_agency_value = 1 }
+				set_temp_variable = { treasury_change = -10 }
+				modify_treasury_effect = yes
+				set_temp_variable = { temp_opinion = 2 }
+				change_intelligence_community_opinion = yes
+			}
+		}
+		level = {
+>>>>>>> main
+			modifier = {
+				factor = 1.5
+				OR = {
+					has_idea = super_power
+					has_idea = great_power
+				}
+<<<<<<< HEAD
+=======
+				add_to_variable = { ct_intel_agency_value = 1 }
+				set_temp_variable = { treasury_change = -10 }
+				modify_treasury_effect = yes
+				set_temp_variable = { temp_opinion = 2 }
+				change_intelligence_community_opinion = yes
+>>>>>>> main
+			}
+			modifier = {
+				factor = 1.5
+				is_in_faction = yes
+			}
+<<<<<<< HEAD
+=======
+			complete_effect = {
+				if = {
+					limit = { is_debug = yes }
+					log = "[GetDateText]: [Root.GetName]: Intelligence Agency Upgrade upgrade_passive_defense"
+				}
+				add_to_variable = { ct_intel_agency_value = 1 }
+				set_temp_variable = { treasury_change = -10 }
+				modify_treasury_effect = yes
+				set_temp_variable = { temp_opinion = 2 }
+				change_intelligence_community_opinion = yes
+			}
+		}
+		level = {
+>>>>>>> main
+			modifier = {
+				factor = 0.5
+				check_variable = { treasury < 50 }
+			}
+<<<<<<< HEAD
+			modifier = {
+				factor = 0
+				has_active_mission = bankruptcy_incoming_collapse
+>>>>>>> main
+=======
+			complete_effect = {
+				if = {
+					limit = { is_debug = yes }
+					log = "[GetDateText]: [Root.GetName]: Intelligence Agency Upgrade upgrade_passive_defense"
+				}
+				add_to_variable = { ct_intel_agency_value = 1 }
+				set_temp_variable = { treasury_change = -10 }
+				modify_treasury_effect = yes
+				set_temp_variable = { temp_opinion = 2 }
+				change_intelligence_community_opinion = yes
+			}
+		}
+	}
+
+	upgrade_anti_partisan = {
+		picture = GFX_agency_counter_insurgency
+		sound = Spy_Agency_Defense_Upgrades_Confirm
+		ai_will_do = {
+			base = 3
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+			modifier = {
+				factor = 1.5
+				any_enemy_country = {
+					OR = {
+						has_idea = super_power
+						has_idea = great_power
+					}
+				}
+			}
+			modifier = {
+				factor = 0.3
+				has_war = no
+			}
+			modifier = {
+				factor = 0
+				has_active_mission = bankruptcy_incoming_collapse
+>>>>>>> main
+			}
+		}
+
+		level = {
+			modifier = {
+				terror_threat_base_detect_modifier = 3
+			}
+			complete_effect = {
+				log = "[GetDateText]: [Root.GetName]: Intelligence Agency Upgrade upgrade_counter_terror_operations"
+				add_to_variable = { ct_intel_agency_value = 1 }
+				set_temp_variable = { treasury_change = -10 }
+				modify_treasury_effect = yes
+				set_temp_variable = { temp_opinion = 2 }
+				change_intelligence_community_opinion = yes
+			}
+		}
+		level = {
+			modifier = {
+				terror_threat_base_detect_modifier = 3
+			}
+			complete_effect = {
+				log = "[GetDateText]: [Root.GetName]: Intelligence Agency Upgrade upgrade_counter_terror_operations"
+				add_to_variable = { ct_intel_agency_value = 1 }
+				set_temp_variable = { treasury_change = -10 }
+				modify_treasury_effect = yes
+				set_temp_variable = { temp_opinion = 2 }
+				change_intelligence_community_opinion = yes
+			}
+		}
+		level = {
+			modifier = {
+				terror_threat_base_detect_modifier = 3
+			}
+			complete_effect = {
+				log = "[GetDateText]: [Root.GetName]: Intelligence Agency Upgrade upgrade_counter_terror_operations"
+				add_to_variable = { ct_intel_agency_value = 1 }
+				set_temp_variable = { treasury_change = -10 }
+				modify_treasury_effect = yes
+				set_temp_variable = { temp_opinion = 2 }
+				change_intelligence_community_opinion = yes
+			}
+		}
+		level = {
+			modifier = {
+				terror_threat_base_detect_modifier = 3
+			}
+			complete_effect = {
+				log = "[GetDateText]: [Root.GetName]: Intelligence Agency Upgrade upgrade_counter_terror_operations"
+				add_to_variable = { ct_intel_agency_value = 1 }
+				set_temp_variable = { treasury_change = -10 }
+				modify_treasury_effect = yes
+				set_temp_variable = { temp_opinion = 2 }
+				change_intelligence_community_opinion = yes
+			}
+		}
+	}
+
+	upgrade_counter_terror_operations = {
+		picture = GFX_agency_defense_department
+		frame = GFX_upgrade_frame_defense
+		sound = Spy_Agency_Defense_Upgrades_Confirm
+		ai_will_do = {
 			base = 5
 			modifier = {
 				factor = 3
@@ -595,7 +799,6 @@ branch_defense = {
 			modifier = {
 				factor = 0
 				has_active_mission = bankruptcy_incoming_collapse
->>>>>>> main
 			}
 		}
 

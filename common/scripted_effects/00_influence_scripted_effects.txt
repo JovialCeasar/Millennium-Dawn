@@ -36,7 +36,10 @@ recalculate_influence = {
 		sort_influence = yes
 		calculate_influence_percentage = yes
 <<<<<<< HEAD
+<<<<<<< HEAD
 		force_update_map_mode = { mapmode = influence_map_mode }
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 		update_dirty_influence_var = yes

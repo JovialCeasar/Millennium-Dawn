@@ -16218,7 +16218,11 @@ focus_tree = {
 
 		prerequisite = { focus = CHI_Regional_Influence }
 <<<<<<< HEAD
+<<<<<<< HEAD
 		prerequisite = { focus = CHI_One_System }
+=======
+		prerequisite = { focus = CHI_One_China_Policy }
+>>>>>>> main
 =======
 		prerequisite = { focus = CHI_One_China_Policy }
 >>>>>>> main

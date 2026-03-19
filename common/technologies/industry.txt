@@ -24,6 +24,7 @@ technologies = {
 
 	# Y cords
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@1985 = -2
 	@1990 = 0
 	@1995 = 2
@@ -45,6 +46,8 @@ technologies = {
 	@2075 = 34
 	@2080 = 36
 =======
+=======
+>>>>>>> main
 	@1985 = 2
 	@1990 = 4
 	@1995 = 6
@@ -65,6 +68,9 @@ technologies = {
 	@2070 = 36
 	@2075 = 38
 	@2080 = 40
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
 	#Nanofibers
@@ -1156,7 +1162,11 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 9 y = @2055 }
+=======
+			position = { x = @row6 y = @2055 }
+>>>>>>> main
 =======
 			position = { x = @row6 y = @2055 }
 >>>>>>> main
@@ -1237,7 +1247,11 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 9 y = @2065 }
+=======
+			position = { x = @row6 y = @2065 }
+>>>>>>> main
 =======
 			position = { x = @row6 y = @2065 }
 >>>>>>> main
@@ -1314,7 +1328,11 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 9 y = @2075 }
+=======
+			position = { x = @row6 y = @2075 }
+>>>>>>> main
 =======
 			position = { x = @row6 y = @2075 }
 >>>>>>> main
@@ -2102,7 +2120,11 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 9 y = @2050 }
+=======
+			position = { x = @row9 y = @2050 }
+>>>>>>> main
 =======
 			position = { x = @row9 y = @2050 }
 >>>>>>> main
@@ -2176,7 +2198,11 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 9 y = @2060 }
+=======
+			position = { x = @row9 y = @2060 }
+>>>>>>> main
 =======
 			position = { x = @row9 y = @2060 }
 >>>>>>> main
@@ -2250,7 +2276,11 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 9 y = @2070 }
+=======
+			position = { x = @row9 y = @2070 }
+>>>>>>> main
 =======
 			position = { x = @row9 y = @2070 }
 >>>>>>> main
@@ -2320,7 +2350,11 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 9 y = @2080 }
+=======
+			position = { x = @row9 y = @2080 }
+>>>>>>> main
 =======
 			position = { x = @row9 y = @2080 }
 >>>>>>> main
@@ -3338,6 +3372,7 @@ technologies = {
 			modifier = {
 				factor = 0
 				date < 2078.1.1
+<<<<<<< HEAD
 			}
 		}
 	}
@@ -3590,6 +3625,8 @@ technologies = {
 			modifier = {
 				factor = 0
 				date < 2078.1.1
+=======
+>>>>>>> main
 			}
 		}
 	}
@@ -3820,6 +3857,7 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0
+<<<<<<< HEAD
 		}
 	}
 	
@@ -3928,6 +3966,8 @@ technologies = {
 	
 		ai_will_do = {
 			factor = 0
+=======
+>>>>>>> main
 		}
 	}
 	fuel_efficiency = {
@@ -4211,6 +4251,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = futuristic_fuel_efficiency
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2.50
 		start_year = 2040
 		folder = {
@@ -4261,7 +4306,11 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4270,7 +4319,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4279,9 +4332,15 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 7 y = @2050 }
 		}
 	
+=======
+			position = { x = @row16 y = @2050 }
+		}
+
+>>>>>>> main
 =======
 			position = { x = @row16 y = @2050 }
 		}
@@ -4293,7 +4352,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4317,7 +4380,11 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4337,7 +4404,11 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4346,7 +4417,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4355,9 +4430,15 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 7 y = @2060 }
 		}
 	
+=======
+			position = { x = @row16 y = @2060 }
+		}
+
+>>>>>>> main
 =======
 			position = { x = @row16 y = @2060 }
 		}
@@ -4369,7 +4450,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4393,7 +4478,11 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4413,7 +4502,11 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4422,7 +4515,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4431,9 +4528,15 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 7 y = @2070 }
 		}
 	
+=======
+			position = { x = @row16 y = @2070 }
+		}
+
+>>>>>>> main
 =======
 			position = { x = @row16 y = @2070 }
 		}
@@ -4445,7 +4548,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4469,7 +4576,11 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4489,7 +4600,11 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4498,9 +4613,15 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 7 y = @2080 }
 		}
 	
+=======
+			position = { x = @row16 y = @2080 }
+		}
+
+>>>>>>> main
 =======
 			position = { x = @row16 y = @2080 }
 		}
@@ -4512,7 +4633,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4536,7 +4661,11 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -4585,14 +4714,22 @@ technologies = {
 		
 =======
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		energy_use_multiplier = -0.05
 		energy_use_modifier_civs = -0.05
 		energy_use_modifier_offices = -0.05
 		energy_use_modifier_mils = -0.05
 <<<<<<< HEAD
+<<<<<<< HEAD
 		energy_use_modifier_microchip_plants = -0.05
 		energy_use_modifier_composite_plants = -0.05
+=======
+		energy_use_modifier_microchip_plant = -0.05
+		energy_use_modifier_composite_plant = -0.05
+>>>>>>> main
 =======
 		energy_use_modifier_microchip_plant = -0.05
 		energy_use_modifier_composite_plant = -0.05
@@ -4630,14 +4767,22 @@ technologies = {
 		
 =======
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		energy_use_multiplier = -0.05
 		energy_use_modifier_civs = -0.05
 		energy_use_modifier_offices = -0.05
 		energy_use_modifier_mils = -0.05
 <<<<<<< HEAD
+<<<<<<< HEAD
 		energy_use_modifier_microchip_plants = -0.05
 		energy_use_modifier_composite_plants = -0.05
+=======
+		energy_use_modifier_microchip_plant = -0.05
+		energy_use_modifier_composite_plant = -0.05
+>>>>>>> main
 =======
 		energy_use_modifier_microchip_plant = -0.05
 		energy_use_modifier_composite_plant = -0.05
@@ -4675,14 +4820,22 @@ technologies = {
 		
 =======
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		energy_use_multiplier = -0.05
 		energy_use_modifier_civs = -0.05
 		energy_use_modifier_offices = -0.05
 		energy_use_modifier_mils = -0.05
 <<<<<<< HEAD
+<<<<<<< HEAD
 		energy_use_modifier_microchip_plants = -0.05
 		energy_use_modifier_composite_plants = -0.05
+=======
+		energy_use_modifier_microchip_plant = -0.05
+		energy_use_modifier_composite_plant = -0.05
+>>>>>>> main
 =======
 		energy_use_modifier_microchip_plant = -0.05
 		energy_use_modifier_composite_plant = -0.05
@@ -4724,14 +4877,22 @@ technologies = {
 		
 =======
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		energy_use_multiplier = -0.05
 		energy_use_modifier_civs = -0.05
 		energy_use_modifier_offices = -0.05
 		energy_use_modifier_mils = -0.05
 <<<<<<< HEAD
+<<<<<<< HEAD
 		energy_use_modifier_microchip_plants = -0.05
 		energy_use_modifier_composite_plants = -0.05
+=======
+		energy_use_modifier_microchip_plant = -0.05
+		energy_use_modifier_composite_plant = -0.05
+>>>>>>> main
 =======
 		energy_use_modifier_microchip_plant = -0.05
 		energy_use_modifier_composite_plant = -0.05
@@ -4773,14 +4934,22 @@ technologies = {
 		
 =======
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		energy_use_multiplier = -0.05
 		energy_use_modifier_civs = -0.05
 		energy_use_modifier_offices = -0.05
 		energy_use_modifier_mils = -0.05
 <<<<<<< HEAD
+<<<<<<< HEAD
 		energy_use_modifier_microchip_plants = -0.05
 		energy_use_modifier_composite_plants = -0.05
+=======
+		energy_use_modifier_microchip_plant = -0.05
+		energy_use_modifier_composite_plant = -0.05
+>>>>>>> main
 =======
 		energy_use_modifier_microchip_plant = -0.05
 		energy_use_modifier_composite_plant = -0.05
@@ -4822,14 +4991,22 @@ technologies = {
 		
 =======
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		energy_use_multiplier = -0.05
 		energy_use_modifier_civs = -0.05
 		energy_use_modifier_offices = -0.05
 		energy_use_modifier_mils = -0.05
 <<<<<<< HEAD
+<<<<<<< HEAD
 		energy_use_modifier_microchip_plants = -0.05
 		energy_use_modifier_composite_plants = -0.05
+=======
+		energy_use_modifier_microchip_plant = -0.05
+		energy_use_modifier_composite_plant = -0.05
+>>>>>>> main
 =======
 		energy_use_modifier_microchip_plant = -0.05
 		energy_use_modifier_composite_plant = -0.05
@@ -4871,14 +5048,22 @@ technologies = {
 		
 =======
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		energy_use_multiplier = -0.05
 		energy_use_modifier_civs = -0.05
 		energy_use_modifier_offices = -0.05
 		energy_use_modifier_mils = -0.05
 <<<<<<< HEAD
+<<<<<<< HEAD
 		energy_use_modifier_microchip_plants = -0.05
 		energy_use_modifier_composite_plants = -0.05
+=======
+		energy_use_modifier_microchip_plant = -0.05
+		energy_use_modifier_composite_plant = -0.05
+>>>>>>> main
 =======
 		energy_use_modifier_microchip_plant = -0.05
 		energy_use_modifier_composite_plant = -0.05
@@ -4916,6 +5101,7 @@ technologies = {
 		show_effect_as_desc = yes
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	energy_efficiency9 = {
 		
 		energy_use_multiplier = -0.05
@@ -4924,6 +5110,15 @@ technologies = {
 		energy_use_modifier_mils = -0.05
 		energy_use_modifier_microchip_plants = -0.05
 		energy_use_modifier_composite_plants = -0.05
+=======
+	futuristic_energy_efficiency = {
+
+		energy_use_multiplier = -0.05
+		energy_use_modifier_civs = -0.05
+		energy_use_modifier_offices = -0.05
+		energy_use_modifier_microchip_plant = -0.05
+		energy_use_modifier_composite_plant = -0.05
+>>>>>>> main
 =======
 	futuristic_energy_efficiency = {
 
@@ -4964,6 +5159,7 @@ technologies = {
 
 		show_effect_as_desc = yes
 	}
+<<<<<<< HEAD
 <<<<<<< HEAD
 	
 	futuristic_energy_efficiency = {
@@ -5018,6 +5214,8 @@ technologies = {
 		start_year = 2055
 	
 =======
+=======
+>>>>>>> main
 
 	futuristic_energy_efficiency2 = {
 
@@ -5029,11 +5227,15 @@ technologies = {
 		energy_use_modifier_synthetic_refinery = -0.05
 		start_year = 2055
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		path = {
 			leads_to_tech = futuristic_energy_efficiency3
 			research_cost_coeff = 1
 		}
+<<<<<<< HEAD
 <<<<<<< HEAD
 	
 		research_cost = 2
@@ -5044,6 +5246,8 @@ technologies = {
 		}
 	
 =======
+=======
+>>>>>>> main
 
 		research_cost = 2
 
@@ -5057,6 +5261,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		categories = {
 			CAT_fuel_oil
@@ -5064,7 +5271,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -5076,6 +5287,7 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		show_effect_as_desc = yes
 	}
@@ -5083,17 +5295,23 @@ technologies = {
 	futuristic_energy_efficiency3 = {
 		
 =======
+=======
+>>>>>>> main
 
 		show_effect_as_desc = yes
 	}
 
 	futuristic_energy_efficiency3 = {
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		energy_use_multiplier = -0.05
 		energy_use_modifier_civs = -0.05
 		energy_use_modifier_offices = -0.05
 		energy_use_modifier_mils = -0.05
+<<<<<<< HEAD
 <<<<<<< HEAD
 		energy_use_modifier_microchip_plants = -0.05
 		energy_use_modifier_composite_plants = -0.05
@@ -5101,16 +5319,22 @@ technologies = {
 		start_year = 2065
 	
 =======
+=======
+>>>>>>> main
 		energy_use_modifier_microchip_plant = -0.05
 		energy_use_modifier_composite_plant = -0.05
 		energy_use_modifier_synthetic_refinery = -0.05
 		start_year = 2065
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		path = {
 			leads_to_tech = futuristic_energy_efficiency4
 			research_cost_coeff = 1
 		}
+<<<<<<< HEAD
 <<<<<<< HEAD
 	
 		research_cost = 2
@@ -5121,6 +5345,8 @@ technologies = {
 		}
 	
 =======
+=======
+>>>>>>> main
 
 		research_cost = 2
 
@@ -5129,6 +5355,9 @@ technologies = {
 			position = { x = @row15 y = @2065 }
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		categories = {
 			CAT_fuel_oil
@@ -5136,7 +5365,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -5148,6 +5381,7 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		show_effect_as_desc = yes
 	}
@@ -5155,17 +5389,23 @@ technologies = {
 	futuristic_energy_efficiency4 = {
 		
 =======
+=======
+>>>>>>> main
 
 		show_effect_as_desc = yes
 	}
 
 	futuristic_energy_efficiency4 = {
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		energy_use_multiplier = -0.05
 		energy_use_modifier_civs = -0.05
 		energy_use_modifier_offices = -0.05
 		energy_use_modifier_mils = -0.05
+<<<<<<< HEAD
 <<<<<<< HEAD
 		energy_use_modifier_microchip_plants = -0.05
 		energy_use_modifier_composite_plants = -0.05
@@ -5180,6 +5420,8 @@ technologies = {
 		}
 	
 =======
+=======
+>>>>>>> main
 		energy_use_modifier_microchip_plant = -0.05
 		energy_use_modifier_composite_plant = -0.05
 		energy_use_modifier_synthetic_refinery = -0.05
@@ -5192,6 +5434,9 @@ technologies = {
 			position = { x = @row15 y = @2075 }
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		categories = {
 			CAT_fuel_oil
@@ -5199,7 +5444,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -5211,7 +5460,11 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -5586,10 +5839,13 @@ technologies = {
 		path = {
 			leads_to_tech = futuristic_oil_refining2
 			research_cost_coeff = 1
+<<<<<<< HEAD
 		}
 		path = {
 			leads_to_tech = futuristic_oil_refining2
 			research_cost_coeff = 1
+=======
+>>>>>>> main
 		}
 
 		categories = {
@@ -5632,15 +5888,21 @@ technologies = {
 		research_cost = 2
 		start_year = 2050
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		folder = {
 			name = civilian_folder
 			position = { x = 3 y = @2050 }
 =======
+=======
+>>>>>>> main
 
 		folder = {
 			name = civilian_folder
 			position = { x = @row17 y = @2050 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		path = {
@@ -5653,7 +5915,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -5677,6 +5943,7 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		ai_research_weights = {
 			oil = -2.0
@@ -5686,6 +5953,8 @@ technologies = {
 	}
 	
 =======
+=======
+>>>>>>> main
 
 		ai_research_weights = {
 			oil = -2.0
@@ -5694,6 +5963,9 @@ technologies = {
 		show_effect_as_desc = yes
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	futuristic_oil_refining3 = {
 		fuel_gain_factor = 0.1
@@ -5702,15 +5974,21 @@ technologies = {
 		research_cost = 2
 		start_year = 2060
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		folder = {
 			name = civilian_folder
 			position = { x = 3 y = @2060 }
 =======
+=======
+>>>>>>> main
 
 		folder = {
 			name = civilian_folder
 			position = { x = @row17 y = @2060 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		path = {
@@ -5723,7 +6001,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -5747,6 +6029,7 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		ai_research_weights = {
 			oil = -2.0
@@ -5756,6 +6039,8 @@ technologies = {
 	}
 	
 =======
+=======
+>>>>>>> main
 
 		ai_research_weights = {
 			oil = -2.0
@@ -5764,6 +6049,9 @@ technologies = {
 		show_effect_as_desc = yes
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	futuristic_oil_refining4 = {
 		fuel_gain_factor = 0.1
@@ -5772,15 +6060,21 @@ technologies = {
 		research_cost = 2
 		start_year = 2070
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		folder = {
 			name = civilian_folder
 			position = { x = 3 y = @2070 }
 =======
+=======
+>>>>>>> main
 
 		folder = {
 			name = civilian_folder
 			position = { x = @row17 y = @2070 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		path = {
@@ -5793,7 +6087,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -5817,6 +6115,7 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		ai_research_weights = {
 			oil = -2.0
@@ -5826,6 +6125,8 @@ technologies = {
 	}
 	
 =======
+=======
+>>>>>>> main
 
 		ai_research_weights = {
 			oil = -2.0
@@ -5834,6 +6135,9 @@ technologies = {
 		show_effect_as_desc = yes
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	futuristic_oil_refining5 = {
 		fuel_gain_factor = 0.1
@@ -5842,15 +6146,21 @@ technologies = {
 		research_cost = 2
 		start_year = 2080
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		folder = {
 			name = civilian_folder
 			position = { x = 3 y = @2080 }
 =======
+=======
+>>>>>>> main
 
 		folder = {
 			name = civilian_folder
 			position = { x = @row17 y = @2080 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		path = {
@@ -5863,7 +6173,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -5887,17 +6201,23 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		ai_research_weights = {
 			oil = -2.0
 		}
 	
 =======
+=======
+>>>>>>> main
 
 		ai_research_weights = {
 			oil = -2.0
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		show_effect_as_desc = yes
 	}
@@ -6390,20 +6710,27 @@ technologies = {
 		renewable_energy_gain_multiplier = 2.89
 		production_speed_synthetic_refinery_factor = 0.6
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		research_cost = 2
 		start_year = 2050
 	
 =======
+=======
+>>>>>>> main
 
 		research_cost = 2
 		start_year = 2050
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		path = {
 			leads_to_tech = futuristic_renewables3
 			research_cost_coeff = 1
 		}
+<<<<<<< HEAD
 <<<<<<< HEAD
 	
 		folder = {
@@ -6412,12 +6739,17 @@ technologies = {
 		}
 	
 =======
+=======
+>>>>>>> main
 
 		folder = {
 			name = civilian_folder
 			position = { x = @row13 y = @2050 }
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		categories = {
 			CAT_fuel_oil
@@ -6426,7 +6758,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -6450,6 +6786,7 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		ai_research_weights = {
 			oil = -2.0
@@ -6466,6 +6803,8 @@ technologies = {
 		start_year = 2060
 	
 =======
+=======
+>>>>>>> main
 
 		ai_research_weights = {
 			oil = -2.0
@@ -6481,11 +6820,15 @@ technologies = {
 		research_cost = 2
 		start_year = 2060
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		path = {
 			leads_to_tech = futuristic_renewables4
 			research_cost_coeff = 1
 		}
+<<<<<<< HEAD
 <<<<<<< HEAD
 	
 		folder = {
@@ -6494,12 +6837,17 @@ technologies = {
 		}
 	
 =======
+=======
+>>>>>>> main
 
 		folder = {
 			name = civilian_folder
 			position = { x = @row13 y = @2060 }
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		categories = {
 			CAT_fuel_oil
@@ -6508,7 +6856,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -6532,6 +6884,7 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		ai_research_weights = {
 			oil = -2.0
@@ -6548,6 +6901,8 @@ technologies = {
 		start_year = 2070
 	
 =======
+=======
+>>>>>>> main
 
 		ai_research_weights = {
 			oil = -2.0
@@ -6563,11 +6918,15 @@ technologies = {
 		research_cost = 2
 		start_year = 2070
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		path = {
 			leads_to_tech = futuristic_renewables5
 			research_cost_coeff = 1
 		}
+<<<<<<< HEAD
 <<<<<<< HEAD
 	
 		folder = {
@@ -6576,12 +6935,17 @@ technologies = {
 		}
 	
 =======
+=======
+>>>>>>> main
 
 		folder = {
 			name = civilian_folder
 			position = { x = @row13 y = @2070 }
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		categories = {
 			CAT_fuel_oil
@@ -6590,7 +6954,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -6614,6 +6982,7 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		ai_research_weights = {
 			oil = -2.0
@@ -6635,6 +7004,8 @@ technologies = {
 		}
 	
 =======
+=======
+>>>>>>> main
 
 		ai_research_weights = {
 			oil = -2.0
@@ -6655,6 +7026,9 @@ technologies = {
 			position = { x = @row13 y = @2080 }
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		categories = {
 			CAT_fuel_oil
@@ -6663,7 +7037,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -6687,17 +7065,23 @@ technologies = {
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		ai_research_weights = {
 			oil = -2.0
 		}
 	
 =======
+=======
+>>>>>>> main
 
 		ai_research_weights = {
 			oil = -2.0
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		show_effect_as_desc = yes
 	}
@@ -7468,6 +7852,7 @@ technologies = {
 		folder = {
 			name = civilian_folder
 			position = { x = @row18 y = @2080 }
+<<<<<<< HEAD
 		}
 		path = {
 			leads_to_tech = reactor11
@@ -7885,6 +8270,8 @@ technologies = {
 		path = {
 			leads_to_tech = reactor18
 			research_cost_coeff = 1
+=======
+>>>>>>> main
 		}
 		categories = {
 			CAT_Civilian
@@ -9059,7 +9446,11 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 1 y = @2055 }
+=======
+			position = { x = @row3 y = @2055 }
+>>>>>>> main
 =======
 			position = { x = @row3 y = @2055 }
 >>>>>>> main
@@ -9084,7 +9475,11 @@ technologies = {
 		local_resources_steel_factor = 0.075
 		local_resources_chromium_factor = 0.075
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -9099,7 +9494,11 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 3 y = @2055 }
+=======
+			position = { x = @row4 y = @2055 }
+>>>>>>> main
 =======
 			position = { x = @row4 y = @2055 }
 >>>>>>> main
@@ -9161,7 +9560,11 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 1 y = @2065 }
+=======
+			position = { x = @row3 y = @2065 }
+>>>>>>> main
 =======
 			position = { x = @row3 y = @2065 }
 >>>>>>> main
@@ -9186,7 +9589,11 @@ technologies = {
 		local_resources_steel_factor = 0.075
 		local_resources_chromium_factor = 0.075
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -9201,7 +9608,11 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 3 y = @2065 }
+=======
+			position = { x = @row4 y = @2065 }
+>>>>>>> main
 =======
 			position = { x = @row4 y = @2065 }
 >>>>>>> main
@@ -9259,7 +9670,11 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 1 y = @2075 }
+=======
+			position = { x = @row3 y = @2075 }
+>>>>>>> main
 =======
 			position = { x = @row3 y = @2075 }
 >>>>>>> main
@@ -9295,7 +9710,11 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 3 y = @2075 }
+=======
+			position = { x = @row4 y = @2075 }
+>>>>>>> main
 =======
 			position = { x = @row4 y = @2075 }
 >>>>>>> main
@@ -9475,10 +9894,13 @@ technologies = {
 	high_speed_rail = {
 		on_research_complete = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_improved_maglev_trains
 =======
+=======
+>>>>>>> main
 			if = {
 				limit = {
 					original_tag = ENG
@@ -9494,6 +9916,9 @@ technologies = {
 					localization_key = SP_UNLOCK_PROJECT
 					PROJECT = sp_improved_maglev_trains
 				}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			}
 		}
@@ -9646,12 +10071,15 @@ technologies = {
 		}
 
 		is_special_project_tech = yes
+<<<<<<< HEAD
 
 		allow = {
 			is_special_project_completed = sp:sp_improved_maglev_trains
 		}
 
 		is_special_project_tech = yes
+=======
+>>>>>>> main
 
 		path = {
 			leads_to_tech = standardised_maglev_rail
@@ -9685,7 +10113,10 @@ technologies = {
 	}
 	standardised_maglev_rail = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		on_research_complete = {
 			if = {
 				limit = {
@@ -9700,6 +10131,9 @@ technologies = {
 				newline = yes
 			}
 		}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		is_special_project_tech = yes
 
@@ -9735,7 +10169,10 @@ technologies = {
 	}
 	modern_freight_locomotive = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		on_research_complete = {
 			if = {
 				limit = {
@@ -9750,6 +10187,9 @@ technologies = {
 				newline = yes
 			}
 		}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		is_special_project_tech = yes
 
@@ -9797,7 +10237,10 @@ technologies = {
 			production_speed_rail_way_factor = 5
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		on_research_complete = {
 			if = {
 				limit = {
@@ -9811,13 +10254,20 @@ technologies = {
 				add_to_variable = { ENG_country_productivity_growth_modifier = 0.01 tooltip = country_productivity_growth_modifier_tt }
 			}
 		}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		research_cost = 2
 		start_year = 2050
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 2 y = @2050 }
+=======
+			position = { x = @row1 y = @2050 }
+>>>>>>> main
 =======
 			position = { x = @row1 y = @2050 }
 >>>>>>> main
@@ -9845,7 +10295,10 @@ technologies = {
 			production_speed_rail_way_factor = 5
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		on_research_complete = {
 			if = {
 				limit = {
@@ -9859,13 +10312,20 @@ technologies = {
 				add_to_variable = { ENG_country_productivity_growth_modifier = 0.01 tooltip = country_productivity_growth_modifier_tt }
 			}
 		}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		research_cost = 2
 		start_year = 2060
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 2 y = @2060 }
+=======
+			position = { x = @row1 y = @2060 }
+>>>>>>> main
 =======
 			position = { x = @row1 y = @2060 }
 >>>>>>> main
@@ -9893,7 +10353,10 @@ technologies = {
 			production_speed_rail_way_factor = 5
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		on_research_complete = {
 			if = {
 				limit = {
@@ -9907,13 +10370,20 @@ technologies = {
 				add_to_variable = { ENG_country_productivity_growth_modifier = 0.01 tooltip = country_productivity_growth_modifier_tt }
 			}
 		}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		research_cost = 2
 		start_year = 2070
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 2 y = @2070 }
+=======
+			position = { x = @row1 y = @2070 }
+>>>>>>> main
 =======
 			position = { x = @row1 y = @2070 }
 >>>>>>> main
@@ -9937,7 +10407,10 @@ technologies = {
 			train_equipment_4
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		on_research_complete = {
 			if = {
 				limit = {
@@ -9951,6 +10424,9 @@ technologies = {
 				add_to_variable = { ENG_country_productivity_growth_modifier = 0.01 tooltip = country_productivity_growth_modifier_tt }
 			}
 		}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		path = {
 			leads_to_tech = future_rail_4
@@ -9961,7 +10437,11 @@ technologies = {
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 2 y = @2075
+=======
+			position = { x = @row1 y = @2075
+>>>>>>> main
 =======
 			position = { x = @row1 y = @2075
 >>>>>>> main
@@ -9983,6 +10463,7 @@ technologies = {
 	#2080
 	future_rail_4 = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		path = {
 			leads_to_tech = future_rail_5
 			research_cost_coeff = 1
@@ -9991,6 +10472,8 @@ technologies = {
 			production_speed_rail_way_factor = 5
 		}
 =======
+=======
+>>>>>>> main
 		modifier = {
 			production_speed_rail_way_factor = 5
 		}
@@ -10007,13 +10490,20 @@ technologies = {
 				add_to_variable = { ENG_country_productivity_growth_modifier = 0.01 tooltip = country_productivity_growth_modifier_tt }
 			}
 		}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		research_cost = 2
 		start_year = 2080
 		folder = {
 			name = civilian_folder
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 2 y = @2080
+=======
+			position = { x = @row1 y = @2080
+>>>>>>> main
 =======
 			position = { x = @row1 y = @2080
 >>>>>>> main
@@ -10033,8 +10523,11 @@ technologies = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	# Agriculture Technology Trees
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	gps_agricultural_applications = {
@@ -10740,6 +11233,7 @@ technologies = {
 
 	future_agriculture = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		research_cost = 1.75
 		start_year = 2045
@@ -10749,6 +11243,8 @@ technologies = {
 		agriculture_district_worker_requirement_modifier = -0.10
 	
 =======
+=======
+>>>>>>> main
 
 		research_cost = 1.75
 		start_year = 2045
@@ -10757,6 +11253,9 @@ technologies = {
 		agriculture_workers_modifier = -0.10
 		agriculture_district_worker_requirement_modifier = -0.10
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		categories = {
 			CAT_industry
@@ -10764,7 +11263,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -10773,6 +11276,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		folder = {
 			name = civilian_folder
@@ -10780,12 +11284,17 @@ technologies = {
 		}
 	
 =======
+=======
+>>>>>>> main
 
 		folder = {
 			name = civilian_folder
 			position = { x = @row10 y = @2045 }
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		ai_will_do = {
 			base = 1
@@ -10840,6 +11349,7 @@ technologies = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 	future_agriculture_2 = {
 		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech future_agriculture_2" }
@@ -10852,6 +11362,8 @@ technologies = {
 		agriculture_district_worker_requirement_modifier = -0.10
 	
 =======
+=======
+>>>>>>> main
 
 	future_agriculture_2 = {
 
@@ -10862,6 +11374,9 @@ technologies = {
 		agriculture_workers_modifier = -0.10
 		agriculture_district_worker_requirement_modifier = -0.10
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		categories = {
 			CAT_industry
@@ -10869,7 +11384,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -10878,6 +11397,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		folder = {
 			name = civilian_folder
@@ -10885,12 +11405,17 @@ technologies = {
 		}
 	
 =======
+=======
+>>>>>>> main
 
 		folder = {
 			name = civilian_folder
 			position = { x = @row10 y = @2055 }
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		ai_will_do = {
 			base = 1
@@ -10945,6 +11470,7 @@ technologies = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 	future_agriculture_3 = {
 		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech future_agriculture_3" }
@@ -10957,6 +11483,8 @@ technologies = {
 		agriculture_district_worker_requirement_modifier = -0.10
 	
 =======
+=======
+>>>>>>> main
 
 	future_agriculture_3 = {
 
@@ -10967,6 +11495,9 @@ technologies = {
 		agriculture_workers_modifier = -0.10
 		agriculture_district_worker_requirement_modifier = -0.10
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		categories = {
 			CAT_industry
@@ -10974,7 +11505,11 @@ technologies = {
 			CAT_Civilian
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -10983,6 +11518,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 		folder = {
 			name = civilian_folder
@@ -10990,12 +11526,17 @@ technologies = {
 		}
 	
 =======
+=======
+>>>>>>> main
 
 		folder = {
 			name = civilian_folder
 			position = { x = @row10 y = @2065 }
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		ai_will_do = {
 			base = 1
@@ -11050,6 +11591,7 @@ technologies = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 	future_agriculture_4 = {
 		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech future_agriculture_4" }
@@ -11062,6 +11604,8 @@ technologies = {
 		agriculture_district_worker_requirement_modifier = -0.10
 	
 =======
+=======
+>>>>>>> main
 
 	future_agriculture_4 = {
 
@@ -11072,12 +11616,16 @@ technologies = {
 		agriculture_workers_modifier = -0.10
 		agriculture_district_worker_requirement_modifier = -0.10
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		categories = {
 			CAT_industry
 			CAT_agriculture_tech
 			CAT_Civilian
 		}
+<<<<<<< HEAD
 <<<<<<< HEAD
 	
 		folder = {
@@ -11086,12 +11634,17 @@ technologies = {
 		}
 	
 =======
+=======
+>>>>>>> main
 
 		folder = {
 			name = civilian_folder
 			position = { x = @row10 y = @2075 }
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		ai_will_do = {
 			base = 1
@@ -11356,6 +11909,7 @@ technologies = {
 		folder = {
 			name = civilian_folder
 			position = { x = @row7 y = @2015 }
+<<<<<<< HEAD
 		}
 
 		ai_will_do = {
@@ -11634,6 +12188,8 @@ technologies = {
 		folder = {
 			name = civilian_folder
 			position = { x = 15 y = @2045 }
+=======
+>>>>>>> main
 		}
 
 		ai_will_do = {
@@ -11647,7 +12203,7 @@ technologies = {
 				OR = {
 					has_idea = large_power
 					has_idea = regional_power
-					has_idea = superpower
+					has_idea = super_power
 					has_idea = great_power
 					is_major = yes
 				}
@@ -11655,7 +12211,11 @@ technologies = {
 		}
 	}
 
+<<<<<<< HEAD
 	composite_production_7 = {
+=======
+	composite_production_5 = {
+>>>>>>> main
 		is_special_project_tech = yes
 
 		research_cost = 1.75
@@ -11728,6 +12288,11 @@ technologies = {
 			CAT_Civilian
 		}
 
+		path = {
+			leads_to_tech = composite_production_6
+			research_cost_coeff = 1
+		}
+
 		force_use_small_tech_layout = yes
 
 		on_research_complete = {
@@ -11740,7 +12305,7 @@ technologies = {
 
 		folder = {
 			name = civilian_folder
-			position = { x = 15 y = @2075 }
+			position = { x = @row7 y = @2030 }
 		}
 
 		ai_will_do = {
@@ -11754,7 +12319,174 @@ technologies = {
 				OR = {
 					has_idea = large_power
 					has_idea = regional_power
-					has_idea = superpower
+					has_idea = super_power
+					has_idea = great_power
+					is_major = yes
+				}
+			}
+		}
+	}
+
+	composite_production_6 = {
+		is_special_project_tech = yes
+
+		research_cost = 1.75
+		start_year = 2030
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_composite_production
+			}
+		}
+
+		categories = {
+			CAT_industry
+			CAT_Civilian
+		}
+
+		path = {
+			leads_to_tech = composite_production_7
+			research_cost_coeff = 1
+		}
+
+		force_use_small_tech_layout = yes
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = composite_plant
+				resource = composites
+				amount = 2
+			}
+		}
+
+		folder = {
+			name = civilian_folder
+			position = { x = @row7 y = @2045 }
+		}
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 10
+				check_variable = { resources@composites < 0 }
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					has_idea = large_power
+					has_idea = regional_power
+					has_idea = super_power
+					has_idea = great_power
+					is_major = yes
+				}
+			}
+		}
+	}
+
+	composite_production_7 = {
+		is_special_project_tech = yes
+
+		research_cost = 1.75
+		start_year = 2030
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_composite_production
+			}
+		}
+
+		categories = {
+			CAT_industry
+			CAT_Civilian
+		}
+
+		path = {
+			leads_to_tech = composite_production_8
+			research_cost_coeff = 1
+		}
+
+		force_use_small_tech_layout = yes
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = composite_plant
+				resource = composites
+				amount = 2
+			}
+		}
+
+		folder = {
+			name = civilian_folder
+			position = { x = @row7 y = @2060 }
+		}
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 10
+				check_variable = { resources@composites < 0 }
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					has_idea = large_power
+					has_idea = regional_power
+					has_idea = super_power
+					has_idea = great_power
+					is_major = yes
+				}
+			}
+		}
+	}
+
+	composite_production_8 = {
+		is_special_project_tech = yes
+
+		research_cost = 1.75
+		start_year = 2075
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_composite_production
+			}
+		}
+
+		categories = {
+			CAT_industry
+			CAT_Civilian
+		}
+
+		force_use_small_tech_layout = yes
+
+		on_research_complete = {
+			modify_building_resources = {
+				building = composite_plant
+				resource = composites
+				amount = 2
+			}
+		}
+
+		folder = {
+			name = civilian_folder
+<<<<<<< HEAD
+			position = { x = 15 y = @2075 }
+=======
+			position = { x = @row7 y = @2075 }
+>>>>>>> main
+		}
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 10
+				check_variable = { resources@composites < 0 }
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					has_idea = large_power
+					has_idea = regional_power
+					has_idea = super_power
 					has_idea = great_power
 					is_major = yes
 				}

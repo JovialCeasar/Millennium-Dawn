@@ -2,7 +2,10 @@
  market_money_cost_display_header_tt: "§Y시장 거래 현황§!"
  infantry_equipment_loc: "소화기:"
 <<<<<<< HEAD
+<<<<<<< HEAD
  cnc_equipment_type_loc: "지휘/통제 장비"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  aa_equipment_loc: "휴대용 방공 시스템:"
@@ -29,7 +32,10 @@
  sup_equip_desc: "§Y보급 장비§!"
  infantry_equipment_loc_tt: "§R매주 [?temp_infantry_equipment_cost] B§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  cnc_equipment_type_loc_tt: "§R매주 [?temp_cnc_equipment_type_cost] B§!"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  aa_equipment_loc_tt: "§R매주 [?temp_aa_equipment_cost] B§!"

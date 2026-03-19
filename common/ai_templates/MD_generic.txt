@@ -225,6 +225,7 @@ Militia_generic = {
 		}
 		enable = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			NOT = {
 				OR = {
 					has_idea = NATO_member
@@ -232,6 +233,8 @@ Militia_generic = {
 				}
 			}
 =======
+=======
+>>>>>>> main
 			NOT = { original_tag = ZOM }
 			NOT = { has_idea = NATO_member }
 >>>>>>> main

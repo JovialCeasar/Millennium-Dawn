@@ -3041,6 +3041,7 @@ focus_tree = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_Model_Master executed"
 			add_tech_bonus = {
 				name = CAT_tanks
+<<<<<<< HEAD
 				bonus = 0.5
 				uses = 1
 				category = CAT_tanks
@@ -3239,6 +3240,8 @@ focus_tree = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_Model_Master executed"
 			add_tech_bonus = {
 				name = NKO_Model_Master
+=======
+>>>>>>> main
 				bonus = 0.5
 				uses = 1
 				category = CAT_tanks
@@ -3287,7 +3290,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_Rocket_Operations executed"
 			add_tech_bonus = {
-				name = NKO_Artillery
+				name = CAT_sp_r_arty
 				bonus = 0.5
 				uses = 1
 				category = CAT_sp_r_arty
@@ -3326,7 +3329,6 @@ focus_tree = {
 		}
 	}
 
-
 	focus = {
 		id = NKO_Rocket_Silos
 		icon = NKO_kh_09
@@ -3344,7 +3346,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_Rocket_Silos executed"
 			add_tech_bonus = {
-				name = NKO_Rocket_Artillery
+				name = CAT_sp_r_arty
 				bonus = 0.5
 				uses = 1
 				category = CAT_sp_r_arty
@@ -3376,7 +3378,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [This.GetName]: focus NKO_ROCKET_FORCE executed"
 			add_tech_bonus = {
-				name = NKO_SPAA
+				name = CAT_sp_r_arty
 				bonus = 0.5
 				uses = 1
 				category = CAT_sp_r_arty
@@ -4677,8 +4679,11 @@ focus_tree = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	focus = {
@@ -7869,6 +7874,7 @@ focus_tree = {
 					show_effect_tooltip = yes
 				}
 			}
+<<<<<<< HEAD
 		}
 
 		ai_will_do = {
@@ -8307,6 +8313,8 @@ focus_tree = {
 					level = 1
 				}
 			}
+=======
+>>>>>>> main
 		}
 
 		ai_will_do = {

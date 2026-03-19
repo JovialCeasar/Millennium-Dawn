@@ -595,6 +595,7 @@
  support_weapons5: "Armamentos Antiaéreos Aprimorados"
  support_weapons5_desc: "As armas antiaéreas leves têm apresentado melhorias significativas nos últimos anos na capacidade de abater helicópteros em situações de combate."
 <<<<<<< HEAD
+<<<<<<< HEAD
  special_forces_tech_2: "Armas de Defesa Pessoal"
  special_forces_tech_2_desc: "As PDWs são amplamente utilizadas pelas nossas forças especiais para permitir um tempo de reação mais rápido em ambientes de combate a curta distância, sendo também um equipamento específico para essas unidades."
  special_forces_tech_3: "Forças Especiais - Modernas"
@@ -623,6 +624,9 @@
  camouflage_4_desc: "A camuflagem multiespectral refere-se a técnicas de camuflagem que são usadas para esconder objetos de infravermelho ou detecção baseada em radar. Para soldados individuais, isso está disponível principalmente na forma de trajes ghillie, que são impraticáveis ​​na maioria das situações de combate. Com materiais modernos, infravermelho eficaz revestimentos e materiais de blindagem podem ser aplicados ao traje de batalha de cada soldado."
  camouflage_5: "Camuflagem Óptica"
  camouflage_5_desc: "Com materiais refletivos, podemos não apenas enganar o olho humano, mas também ocultar completamente objetos dele. Ao desviar a radiação eletromagnética, podemos tornar instalações de armas, veículos, armamentos e até mesmo soldados praticamente invisíveis a olho nu."
+=======
+ camouflage_desc: "Embora a camuflagem tenha sido usada nas forças armadas durante séculos, ela realmente começou a ganhar popularidade nos uniformes militares após a Segunda Guerra Mundial. Os primeiros padrões de camuflagem geralmente consistiam em duas ou três cores distribuídas quase igualmente no uniforme."
+>>>>>>> main
 =======
  camouflage_desc: "Embora a camuflagem tenha sido usada nas forças armadas durante séculos, ela realmente começou a ganhar popularidade nos uniformes militares após a Segunda Guerra Mundial. Os primeiros padrões de camuflagem geralmente consistiam em duas ou três cores distribuídas quase igualmente no uniforme."
 >>>>>>> main
@@ -1791,8 +1795,11 @@
  module_surface_oil_power: "Motor Movido a Óleo"
  module_surface_oil_power_desc: "Early oil-powered engines provide reliable propulsion for surface vessels, with moderate speed and endurance.\n\n§GDesigner Hint: This engine will provide the lowest speed and naval range, have moderate fuel costs, and has the highest visibility increase, but is lowest cost to produce. Reccomended for nations that need to produce cheap ships as fast as possible, and only have a need for coastal defence or local area missions.§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  module_surface_diesel_power_1: "Motor Movido a Diesel"
  module_surface_diesel_power_1_1_desc: "Improved diesel engines offer better fuel efficiency and reliability, enabling longer deployments and moderate speed increases.\n\n§GDesigner Hint: This engine will provide the lowest speed and naval range, and has the highest visibility increase, but is lowest cost to produce. Reccomended for nations that need to produce cheap ships as fast as possible, and only have a need for coastal defence or local area missions.§!"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  module_surface_jet_turbine_power: "Motor de Turbina a Jato"
@@ -1802,8 +1809,11 @@
  module_surface_jet_turbine_power3: "Motor de Turbina a Jato - Futurista"
  module_surface_jet_turbine_power3_desc: "Next-generation turbines offer peak speed, efficiency, and endurance for modern surface combatants.\n\n§GDesigner Hint: This engine will provide moderate speed and range, have high fuel costs, and comes with a moderate production cost. Reccomended for nations that have a need for regional power projection with their navy, or need to be able to compete with other navies in at sea engagements.§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  module_light_surface_diesel_power_1: "Motor Movido a Diesel - Básico"
  module_light_surface_diesel_power_1_desc: "Diesel engines optimized for smaller surface vessels provide reliable propulsion with efficient fuel consumption.\n\n§GDesigner Hint: This engine will provide the lowest speed and naval range, and has the highest visibility increase, but is lowest cost to produce. Reccomended for nations that need to produce cheap ships as fast as possible, and only have a need for coastal defence or local area missions.§!"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  module_light_surface_jet_turbine_power: "Motor de Turbina a Jato - Básico"
@@ -3659,8 +3669,11 @@
  rc_fire_support_drone: "Drone de apoio de fogo controlado remotamente"
  rc_fire_support_drone_desc: "Ao desenvolver uma plataforma de armas sobre esteiras ou rodas que pode ser controlada remotamente, nossos soldados poderão disparar contra o inimigo sem arriscar suas próprias vidas."
 <<<<<<< HEAD
+<<<<<<< HEAD
  afs_drone_1: "Drone de apoio de fogo autônomo"
  afs_drone_1_desc: "Com o uso de IA, o drone de suporte de fogo pode ser feito para operar semi-autônomo. Isso permitirá que o drone acompanhe nossas unidades durante operações ofensivas."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  exoskeleton_1: "Traje multiplicador de força"
@@ -4747,8 +4760,11 @@
  NAVAL_TITLE_SYSTEM_ENGINEERING: "SYSTEM ENGINEERING"
  NAVAL_TITLE_SYSTEM_ENGINEERING_DESC: "Systems engineering constitutes all the auxiliary parts of naval vessels, such as engines, electronics and radar."
 <<<<<<< HEAD
+<<<<<<< HEAD
  NAVAL_TITLE_TURBINE_ENGINES: "SHIP ENGINES"
  NAVAL_TITLE_TURBINE_ENGINES_DESC: "Sips usually operate by massive diesel engines or turbine engines, or a combination of both."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  NAVAL_TITLE_NUCLEAR_ENGINES: "NUCLEAR ENGINES"
@@ -4778,6 +4794,7 @@
  battle_cruiser_hull_4: "2045 Battlecruiser Hull"
  battle_cruiser_hull_4_desc: "Surface ships are the main component of the fleet and undertake all maritime functions of the traditional fleet."
 <<<<<<< HEAD
+<<<<<<< HEAD
  SOV_tech_landing_craft: "Polnocny-class "
  SOV_tech_amphibious_assault_ship: "Ropucha-class"
  SOV_tech_air_cushioned_landing_craft: "Zubr-class LCAC"
@@ -4786,6 +4803,8 @@
  patrol_boat_desc: "Patrol boats are light vessels that are intended for coastal coverage. They are smaller then their counterpart the Corvette and are also capable of riverine operations."
  patrol_boat_hull_1: "Patrol Boat"
  patrol_boat_hull_1_desc: "Patrol boats are light vessels that are intended for coastal coverage. They are smaller then their counterpart the Corvette and are also capable of riverine operations."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  support_ship: "Support Ship"
@@ -4804,6 +4823,7 @@
  repair_ship_hull_desc: "The role of ship repair in naval warfare should not be underestimated."
  repair_ship_1_desc: "The role of ship repair in naval warfare should not be underestimated."
  repair_ship_2_desc: "The role of ship repair in naval warfare should not be underestimated."
+<<<<<<< HEAD
 <<<<<<< HEAD
  microchip_production_1: "Early Chip Production"
  microchip_production_1_desc: "The establishment of domestic semiconductor manufacturing enables the mass production of basic integrated circuits. This provides the foundation for modern electronics, improving the reliability and availability of computing components used in military systems, industrial automation, and civilian infrastructure."
@@ -4825,6 +4845,8 @@
  composite_production_four_desc: "Mature composite manufacturing processes enable large-scale production of advanced materials with precise tolerances and consistent quality. Modern composites are integral to contemporary military platforms, providing enhanced protection, mobility, and efficiency across air, land, and naval forces."
  composite_production_five: "Future Composites"
  composite_production_five_desc: "Ongoing research into next-generation fibers, nanomaterials, and adaptive structures promises further improvements in strength, resilience, and multifunctionality. Future composites are expected to play a critical role in advanced military systems and emerging civilian technologies."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  EQ_MOD_CAT_module_screen_fire_control_system_category_TITLE: "Fire Control System (Screen)"

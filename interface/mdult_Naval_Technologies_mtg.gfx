@@ -114,6 +114,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_stealth_frigate_hull_3_medium"
 		texturefile = "gfx/interface/technologies/USA/NAV/Tulsa.dds"
+<<<<<<< HEAD
 	}
 
 	#### Heavy Frigates ####
@@ -129,6 +130,8 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_heavy_frigate_hull_3_medium"
 		texturefile = "gfx/interface/technologies/USA/NAV/F3stealth.dds"
+=======
+>>>>>>> main
 	}
 
 	#### Destroyers ####

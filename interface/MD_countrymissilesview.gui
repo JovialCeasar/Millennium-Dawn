@@ -4232,7 +4232,11 @@ guiTypes = {
 		instantTextboxType = {
 			name = "terror_orgs_text"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 42 y = 25 }
+=======
+			position = { x = 27 y = 25 }
+>>>>>>> main
 =======
 			position = { x = 27 y = 25 }
 >>>>>>> main
@@ -4248,7 +4252,11 @@ guiTypes = {
 		containerWindowType = {
 			name = "terror_org_info_list"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 300 y = -50 }
+=======
+			position = { x = 300 y = -20 }
+>>>>>>> main
 =======
 			position = { x = 300 y = -20 }
 >>>>>>> main
@@ -4257,7 +4265,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "intel_top_list"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = -90 y = 75 }
+=======
+				position = { x = -90 y = 45 }
+>>>>>>> main
 =======
 				position = { x = -90 y = 45 }
 >>>>>>> main
@@ -4273,7 +4285,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "intel_top_lisdt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 80 y = 75 }
+=======
+				position = { x = 80 y = 45 }
+>>>>>>> main
 =======
 				position = { x = 80 y = 45 }
 >>>>>>> main
@@ -4289,7 +4305,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "threat_level"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = -100 y = 100 }
+=======
+				position = { x = -100 y = 70 }
+>>>>>>> main
 =======
 				position = { x = -100 y = 70 }
 >>>>>>> main
@@ -4305,7 +4325,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "threat_level_sel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = -100 y = 120 }
+=======
+				position = { x = -100 y = 90 }
+>>>>>>> main
 =======
 				position = { x = -100 y = 90 }
 >>>>>>> main
@@ -4321,7 +4345,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "defense_level"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = -100 y = 140 }
+=======
+				position = { x = -100 y = 110 }
+>>>>>>> main
 =======
 				position = { x = -100 y = 110 }
 >>>>>>> main
@@ -4337,7 +4365,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "defense_level_sel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = -100 y = 160 }
+=======
+				position = { x = -100 y = 130 }
+>>>>>>> main
 =======
 				position = { x = -100 y = 130 }
 >>>>>>> main
@@ -4353,7 +4385,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "foreign_level"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 70 y = 140 }
+=======
+				position = { x = 70 y = 110 }
+>>>>>>> main
 =======
 				position = { x = 70 y = 110 }
 >>>>>>> main
@@ -4369,7 +4405,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "foreign_level_sel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 70 y = 160 }
+=======
+				position = { x = 70 y = 130 }
+>>>>>>> main
 =======
 				position = { x = 70 y = 130 }
 >>>>>>> main
@@ -4385,7 +4425,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "intel_against"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 70 y = 100 }
+=======
+				position = { x = 70 y = 70 }
+>>>>>>> main
 =======
 				position = { x = 70 y = 70 }
 >>>>>>> main
@@ -4401,7 +4445,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "intel_against_sel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = 70 y = 120 }
+=======
+				position = { x = 70 y = 90 }
+>>>>>>> main
 =======
 				position = { x = 70 y = 90 }
 >>>>>>> main
@@ -4417,7 +4465,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "possible_leadership"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = -80 y = 185 }
+=======
+				position = { x = -80 y = 155 }
+>>>>>>> main
 =======
 				position = { x = -80 y = 155 }
 >>>>>>> main
@@ -4433,7 +4485,11 @@ guiTypes = {
 			instantTextboxType = {
 				name = "possible_leadership_sel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 				position = { x = -80 y = 205 }
+=======
+				position = { x = -80 y = 175 }
+>>>>>>> main
 =======
 				position = { x = -80 y = 175 }
 >>>>>>> main
@@ -4458,7 +4514,10 @@ guiTypes = {
 				format = center
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 			instantTextboxType = {
 				name = "ct_funding_detect_label"
@@ -4507,13 +4566,20 @@ guiTypes = {
 				maxHeight = 20
 				format = center
 			}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 
 		containerWindowType = {
 			name = "counter_terror_nat_actions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 300 y = 380 }
+=======
+			position = { x = 300 y = 410 }
+>>>>>>> main
 =======
 			position = { x = 300 y = 410 }
 >>>>>>> main
@@ -4898,7 +4964,10 @@ guiTypes = {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	# Main cyber window
 	containerWindowType = {
 		name = "MD_cyber_system_window"
@@ -5446,6 +5515,9 @@ guiTypes = {
 		}
 	}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	#UN Windows
 	#Main
@@ -5578,7 +5650,10 @@ guiTypes = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		instantTextBoxType = {
 			name = "nation_supporter_disp_info"
 			position = { x = -10 y = 680 }
@@ -5589,6 +5664,9 @@ guiTypes = {
 			format = center
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		buttonType = {
 			name = "pressure_countries_recog_button"
@@ -5628,8 +5706,13 @@ guiTypes = {
 		}
 		buttonType = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			name = "campaign_USA_button"
 			position = { x = 420 y = 500 }
+=======
+			name = "un_improve_relations_button"
+			position = { x = 260 y = 625 }
+>>>>>>> main
 =======
 			name = "un_improve_relations_button"
 			position = { x = 260 y = 625 }
@@ -5639,6 +5722,7 @@ guiTypes = {
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			buttonText = "campaign_USA_button_text"
 			clicksound = click_close
 			pdx_tooltip_delayed = "campaign_usa_tt"
@@ -5647,6 +5731,8 @@ guiTypes = {
 			name = "campaign_CHI_button"
 			position = { x = 260 y = 500 }
 =======
+=======
+>>>>>>> main
 			buttonText = "un_improve_relations_button_tt"
 			clicksound = click_close
 			pdx_tooltip = "un_improve_relations_tt"
@@ -5655,11 +5741,15 @@ guiTypes = {
 		buttonType = {
 			name = "un_campaign_for_recog_button"
 			position = { x = 100 y = 625 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			clicksound = click_close
 			quadTextureSprite ="GFX_button_148x34"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
+<<<<<<< HEAD
 <<<<<<< HEAD
 			buttonText = "campaign_CHI_button_text"
 			clicksound = click_close
@@ -5669,6 +5759,8 @@ guiTypes = {
 			name = "campaign_SOV_button"
 			position = { x = 100 y = 500 }
 =======
+=======
+>>>>>>> main
 			buttonText = "un_campaign_for_recog_button_tt"
 			clicksound = click_close
 			pdx_tooltip = "un_campaign_for_recog_tt"
@@ -5677,11 +5769,15 @@ guiTypes = {
 		buttonType = {
 			name = "un_ask_for_independence_button"
 			position = { x = 420 y = 625 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			clicksound = click_close
 			quadTextureSprite ="GFX_button_148x34"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
+<<<<<<< HEAD
 <<<<<<< HEAD
 			buttonText = "campaign_SOV_button_text"
 			clicksound = click_close
@@ -5713,6 +5809,8 @@ guiTypes = {
 			name = "un_ascension_button"
 			position = { x = 260 y = 600 }
 =======
+=======
+>>>>>>> main
 			buttonText = "un_ask_for_independence_button_tt"
 			clicksound = click_close
 			pdx_tooltip = "un_ask_for_independence_tt"
@@ -5721,6 +5819,9 @@ guiTypes = {
 		buttonType = {
 			name = "un_ascension_button"
 			position = { x = 260 y = 700 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			clicksound = click_close
 			quadTextureSprite ="GFX_button_148x34"
@@ -5972,7 +6073,11 @@ guiTypes = {
 			position = { x = 560 y = 120 }
 			clicksound = click_close
 <<<<<<< HEAD
+<<<<<<< HEAD
 			quadTextureSprite ="GFX_AC_left_arrow_big"
+=======
+			quadTextureSprite ="GFX_production_line_arrow_right"
+>>>>>>> main
 =======
 			quadTextureSprite ="GFX_production_line_arrow_right"
 >>>>>>> main
@@ -5989,7 +6094,11 @@ guiTypes = {
 			position = { x = 560 y = 160 }
 			clicksound = click_close
 <<<<<<< HEAD
+<<<<<<< HEAD
 			quadTextureSprite ="GFX_AC_left_arrow_big"
+=======
+			quadTextureSprite ="GFX_production_line_arrow_right"
+>>>>>>> main
 =======
 			quadTextureSprite ="GFX_production_line_arrow_right"
 >>>>>>> main
@@ -6002,7 +6111,10 @@ guiTypes = {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 		buttonType = {
 			name = "un_ga_show_propose_resolutions_button"
 			position = { x = 560 y = 200 }
@@ -6016,6 +6128,9 @@ guiTypes = {
 			pdx_tooltip_delayed = "propose_ga_resolution_tt_delayed"
 		}
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		instantTextBoxType = {
 			name = "un_ga_current_vote_details"
@@ -6319,6 +6434,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "is_un_aid_unescoe_funding_tt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 95 y = 415 }
 			font = "hoi_16mbs"
 			maxWidth = 200
@@ -6327,6 +6443,8 @@ guiTypes = {
 			pdx_tooltip = "is_un_aid_total_budget_tt"
 			pdx_tooltip_delayed = ""
 =======
+=======
+>>>>>>> main
 			position = { x = 105 y = 445 }
 			font = "hoi_16mbs"
 			maxWidth = 75
@@ -6334,11 +6452,15 @@ guiTypes = {
 			text = "is_un_aid_total_funding_title"
 			pdx_tooltip = "is_un_aid_total_budget_tt"
 			pdx_tooltip_delayed = "is_un_aid_total_budget_esco_tt_delayed"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			format = left
 		}
 		instantTextBoxType = {
 			name = "is_un_aid_unido_funding_tt"
+<<<<<<< HEAD
 <<<<<<< HEAD
 			position = { x = 270 y = 415 }
 			font = "hoi_16mbs"
@@ -6348,6 +6470,8 @@ guiTypes = {
 			pdx_tooltip = "is_un_aid_total_budget_tt"
 			pdx_tooltip_delayed = ""
 =======
+=======
+>>>>>>> main
 			position = { x = 270 y = 445 }
 			font = "hoi_16mbs"
 			maxWidth = 75
@@ -6355,15 +6479,24 @@ guiTypes = {
 			text = "is_un_aid_total_funding_title"
 			pdx_tooltip = "is_un_aid_total_budget_tt"
 			pdx_tooltip_delayed = "is_un_aid_total_budget_ido_tt_delayed"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			format = left
 		}
 		instantTextBoxType = {
 			name = "is_un_aid_uncdf_funding_tt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 422 y = 415 }
 			font = "hoi_16mbs"
 			maxWidth = 200
+=======
+			position = { x = 428 y = 445 }
+			font = "hoi_16mbs"
+			maxWidth = 75
+>>>>>>> main
 =======
 			position = { x = 428 y = 445 }
 			font = "hoi_16mbs"
@@ -6378,6 +6511,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "is_un_aid_unescoe_funding_amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 195 y = 415 }
 			font = "hoi_16mbs"
 			maxWidth = 200
@@ -6386,6 +6520,8 @@ guiTypes = {
 			pdx_tooltip = "is_un_aid_total_budget_tt"
 			pdx_tooltip_delayed = ""
 =======
+=======
+>>>>>>> main
 			position = { x = 185 y = 445 }
 			font = "hoi_16mbs"
 			maxWidth = 75
@@ -6393,11 +6529,15 @@ guiTypes = {
 			text = "is_un_aid_unescoe_total_funding_num"
 			pdx_tooltip = "is_un_aid_total_budget_tt"
 			pdx_tooltip_delayed = "is_un_aid_total_budget_esco_tt_delayed"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			format = left
 		}
 		instantTextBoxType = {
 			name = "is_un_aid_unido_funding_amount"
+<<<<<<< HEAD
 <<<<<<< HEAD
 			position = { x = 370 y = 415 }
 			font = "hoi_16mbs"
@@ -6407,6 +6547,8 @@ guiTypes = {
 			pdx_tooltip = "is_un_aid_total_budget_tt"
 			pdx_tooltip_delayed = ""
 =======
+=======
+>>>>>>> main
 			position = { x = 350 y = 445 }
 			font = "hoi_16mbs"
 			maxWidth = 75
@@ -6414,15 +6556,24 @@ guiTypes = {
 			text = "is_un_aid_unido_total_funding_num"
 			pdx_tooltip = "is_un_aid_total_budget_tt"
 			pdx_tooltip_delayed = "is_un_aid_total_budget_ido_tt_delayed"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			format = left
 		}
 		instantTextBoxType = {
 			name = "is_un_aid_uncdf_funding_amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			position = { x = 522 y = 415 }
 			font = "hoi_16mbs"
 			maxWidth = 200
+=======
+			position = { x = 512 y = 445 }
+			font = "hoi_16mbs"
+			maxWidth = 75
+>>>>>>> main
 =======
 			position = { x = 512 y = 445 }
 			font = "hoi_16mbs"
@@ -6442,15 +6593,21 @@ guiTypes = {
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			buttonText = "is_un_aid_request_join_program"
 			clicksound = click_close
 			pdx_tooltip = "is_un_aid_request_join_esco_tt"
 			pdx_tooltip_delayed = "is_un_aid_request_join_esco_tt_delayed"
 =======
+=======
+>>>>>>> main
 			buttonText = "is_un_aid_request_join_esco_program"
 			clicksound = click_close
 			pdx_tooltip = "is_un_aid_esco_status_tt"
 			pdx_tooltip_delayed = "is_un_aid_esco_status_tt_delayed"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		buttonType = {
@@ -6461,15 +6618,21 @@ guiTypes = {
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			buttonText = "is_un_aid_request_join_program"
 			clicksound = click_close
 			pdx_tooltip = "is_un_aid_request_join_ido_tt"
 			pdx_tooltip_delayed = "is_un_aid_request_join_ido_tt_delayed"
 =======
+=======
+>>>>>>> main
 			buttonText = "is_un_aid_request_join_ido_program"
 			clicksound = click_close
 			pdx_tooltip = "is_un_aid_ido_status_tt"
 			pdx_tooltip_delayed = "is_un_aid_ido_status_tt_delayed"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		}
 		buttonType = {
@@ -6480,6 +6643,7 @@ guiTypes = {
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
 <<<<<<< HEAD
+<<<<<<< HEAD
 			buttonText = "is_un_aid_request_join_program"
 			clicksound = click_close
 			pdx_tooltip = "is_un_aid_request_join_cdf_tt"
@@ -6488,6 +6652,8 @@ guiTypes = {
 	}
 
 =======
+=======
+>>>>>>> main
 			buttonText = "is_un_aid_request_join_cdf_program"
 			clicksound = click_close
 			pdx_tooltip = "is_un_aid_cdf_status_tt"
@@ -6653,6 +6819,9 @@ guiTypes = {
 			}
 		}
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	# Country List Container
 	containerWindowType = {
@@ -6772,7 +6941,11 @@ guiTypes = {
 			position = { x = 475 y = 15 }
 			clicksound = click_close
 <<<<<<< HEAD
+<<<<<<< HEAD
 			quadTextureSprite ="GFX_AC_left_arrow_big"
+=======
+			quadTextureSprite ="GFX_production_line_arrow_right"
+>>>>>>> main
 =======
 			quadTextureSprite ="GFX_production_line_arrow_right"
 >>>>>>> main
@@ -7111,7 +7284,10 @@ guiTypes = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	#UNGA Propose Resolution Container
 	containerWindowType = {
 		name = "IS_UN_GA_propose_resolution_container"
@@ -7280,6 +7456,9 @@ guiTypes = {
 			pdx_tooltip_delayed = "propose_digital_development_tooltip_delayed"
 		}
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	#UNGA Member List Container
 	containerWindowType = {
@@ -7431,17 +7610,23 @@ guiTypes = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	#UN ESCO Container
 	containerWindowType = {
 		name = "IS_UN_aid_recipients"
 		position = { x=22 y = 580 }
 		size = { width = 520 height=100 }
 =======
+=======
+>>>>>>> main
 	#UN Aid Recipient Container
 	containerWindowType = {
 		name = "IS_UN_aid_recipients"
 		position = { x=97 y = 650 }
 		size = { width = 520 height=150 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 		#margin = { top = 8 bottom = 8 }
 		verticalScrollbar = "right_vertical_slider"
@@ -7457,7 +7642,11 @@ guiTypes = {
 			padding = { top = 50 bottom = 0 }
 			size = { width = 100%% height = 100%% }
 <<<<<<< HEAD
+<<<<<<< HEAD
 			slotsize = { width = 45 height = 30 }
+=======
+			slotsize = { width = 45 height = 15 }
+>>>>>>> main
 =======
 			slotsize = { width = 45 height = 15 }
 >>>>>>> main
@@ -7471,7 +7660,11 @@ guiTypes = {
 			padding = { top = 50 bottom = 0 }
 			size = { width = 100%% height = 100%% }
 <<<<<<< HEAD
+<<<<<<< HEAD
 			slotsize = { width = 45 height = 30 }
+=======
+			slotsize = { width = 45 height = 15 }
+>>>>>>> main
 =======
 			slotsize = { width = 45 height = 15 }
 >>>>>>> main
@@ -7485,7 +7678,11 @@ guiTypes = {
 			padding = { top = 50 bottom = 0 }
 			size = { width = 100%% height = 100%% }
 <<<<<<< HEAD
+<<<<<<< HEAD
 			slotsize = { width = 45 height = 30 }
+=======
+			slotsize = { width = 45 height = 15 }
+>>>>>>> main
 =======
 			slotsize = { width = 45 height = 15 }
 >>>>>>> main
@@ -7502,7 +7699,11 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			clicksound = click_close
 <<<<<<< HEAD
+<<<<<<< HEAD
 			quadTextureSprite ="GFX_button_148x34"
+=======
+			quadTextureSprite ="GFX_button_148x20"
+>>>>>>> main
 =======
 			quadTextureSprite ="GFX_button_148x20"
 >>>>>>> main
@@ -7523,7 +7724,11 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			clicksound = click_close
 <<<<<<< HEAD
+<<<<<<< HEAD
 			quadTextureSprite ="GFX_button_211x20"
+=======
+			quadTextureSprite ="GFX_button_148x20"
+>>>>>>> main
 =======
 			quadTextureSprite ="GFX_button_148x20"
 >>>>>>> main
@@ -7544,7 +7749,11 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			clicksound = click_close
 <<<<<<< HEAD
+<<<<<<< HEAD
 			quadTextureSprite ="GFX_button_148x34"
+=======
+			quadTextureSprite ="GFX_button_148x20"
+>>>>>>> main
 =======
 			quadTextureSprite ="GFX_button_148x20"
 >>>>>>> main
@@ -7557,7 +7766,10 @@ guiTypes = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	#UN Aid Contributor Container
 	containerWindowType = {
 		name = "IS_UN_aid_contributors"
@@ -7697,6 +7909,9 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	#UN Unrecognized States container
 	containerWindowType = {
@@ -7739,7 +7954,10 @@ guiTypes = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 	#UN SC States container
 	containerWindowType = {
 		name = "IS_p5_sc_nations_to_persuade_container"
@@ -7780,14 +7998,22 @@ guiTypes = {
 			pdx_tooltip_delayed = "campaign_for_recog_tt_delayed"
 		}
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	#CT Container Lists
 	#CT Orgs Container
 	containerWindowType = {
 		name = "IS_CT_orgs_container"
 <<<<<<< HEAD
+<<<<<<< HEAD
 		position = { x=0 y = 45 }
 		size = { width = 210 height=140 }
+=======
+		position = { x=-15 y = 45 }
+		size = { width = 210 height=170 }
+>>>>>>> main
 =======
 		position = { x=-15 y = 45 }
 		size = { width = 210 height=170 }
@@ -7868,7 +8094,10 @@ guiTypes = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	#Cyber Targeting Container
 	containerWindowType = {
@@ -7948,5 +8177,8 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 }

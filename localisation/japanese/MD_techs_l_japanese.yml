@@ -436,6 +436,7 @@
  support_weapons5: "改良型対空兵器"
  support_weapons5_desc: "近年、軽対空兵器は対ヘリコプター戦闘において大幅に改善された。"
 <<<<<<< HEAD
+<<<<<<< HEAD
  special_forces_tech_2: "個人防衛火器（PDWs）"
  special_forces_tech_2_desc: "PDWは、特殊部隊で広く使用されており、CQB・CQC戦闘での迅速な対応を可能にすると同時に、これらの部隊の特別な問題でもある。"
  special_forces_tech_3: "現代の特殊部隊"
@@ -464,6 +465,9 @@
  camouflage_4_desc: "マルチスペクトル迷彩とは、赤外線またはレーダーベースの検出からオブジェクトを隠すために使用されるカモフラージュ技術を指す。個々の兵士の場合、これは主にギリースーツの形で入手可能であり、ほとんどの戦闘では実用的ではない。最新の素材を使用すると、効果的な赤外線シールドコーティングと素材をすべての兵士の戦闘服に適用できる。"
  camouflage_5: "光学迷彩"
  camouflage_5_desc: "反射素材を使用することで、人間の目を欺くだけでなく、対象を完全に隠すことが可能になる。電磁放射を曲げることにより、兵器の設置、車両、兵器、さらには兵士さえも人間の目にはほとんど見えないようにすることができる。"
+=======
+ camouflage_desc: "迷彩は何世紀にもわたって軍隊で使用されてきたが、軍服では第二次世界大戦後に本当に人気を博し始めた。最初の迷彩パターンは通常、軍服にほぼ均等に配置された2つまたは3つの色で構成されていた。"
+>>>>>>> main
 =======
  camouflage_desc: "迷彩は何世紀にもわたって軍隊で使用されてきたが、軍服では第二次世界大戦後に本当に人気を博し始めた。最初の迷彩パターンは通常、軍服にほぼ均等に配置された2つまたは3つの色で構成されていた。"
 >>>>>>> main
@@ -898,9 +902,13 @@
  module_anti_submarine_missile_4: "対潜ミサイル IV"
  module_surface_oil_power: "オイルエンジン"
 <<<<<<< HEAD
+<<<<<<< HEAD
  module_surface_diesel_power_1: "ディーゼルエンジン"
  module_surface_jet_turbine_power: "ジェットタービンエンジン"
  module_light_surface_diesel_power_1: "軽量ディーゼルエンジン"
+=======
+ module_surface_jet_turbine_power: "ジェットタービンエンジン"
+>>>>>>> main
 =======
  module_surface_jet_turbine_power: "ジェットタービンエンジン"
 >>>>>>> main
@@ -1065,9 +1073,13 @@
  module_anti_submarine_missile_4_desc: "高度に発展した対潜ミサイルは、洗練されたセンサー、対抗措置対策、および射程延長を駆使し、優れた水中脅威の無力化を実現する。\n\n§G設計のヒント：このモジュールは対潜戦能力を向上させるが、生産コストも増加する。§!"
  module_surface_oil_power_desc: "初期型オイルエンジンは、中程度の速度と航続距離を備え、水上艦艇に信頼性の高い推進力を提供する。\n\n§G設計のヒント：このエンジンは最も低速で航続距離も短く、燃料コストは中程度で、視認性増加効果は最も高いが、製造コストが最低である。低コスト艦艇を迅速に大量生産する必要があり、沿岸防衛や地域任務のみを目的とする国家に推奨される。§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  module_surface_diesel_power_1_1_desc: "改良型ディーゼルエンジンは燃料効率と信頼性が向上し、より長い展開期間と適度な速度向上を実現した。\n\n§G設計のヒント：このエンジンは最も低速で航続距離も短く、視認性増加効果は最も高いが、製造コストが最低である。低コスト艦艇を迅速に大量生産する必要があり、沿岸防衛や地域任務のみを目的とする国家に推奨される。§!"
  module_surface_jet_turbine_power_desc: "初期型ジェットタービンエンジンは、性能向上のために燃料効率を多少犠牲にしながらも、水上艦艇の速度を大幅に向上させる。\n\n§G設計のヒント：このエンジンは速度と航続距離は中程度で、燃料コストが高く、生産コストも中程度である。海軍による地域的な軍事力の投射が必要な国、あるいは海上戦闘で他国海軍と競合する必要がある国に推奨される。§!"
  module_light_surface_diesel_power_1_desc: "小型水上艦向けに最適化されたディーゼルエンジンは、信頼性の高い推進力を効率的な燃料消費で提供する。\n\n§G設計のヒント：このエンジンは最も低速で航続距離も短く、視認性増加効果は最も高いが、製造コストが最低である。低コスト艦艇を迅速に大量生産する必要があり、沿岸防衛や地域任務のみを目的とする国家に推奨される。§!"
+=======
+ module_surface_jet_turbine_power_desc: "初期型ジェットタービンエンジンは、性能向上のために燃料効率を多少犠牲にしながらも、水上艦艇の速度を大幅に向上させる。\n\n§G設計のヒント：このエンジンは速度と航続距離は中程度で、燃料コストが高く、生産コストも中程度である。海軍による地域的な軍事力の投射が必要な国、あるいは海上戦闘で他国海軍と競合する必要がある国に推奨される。§!"
+>>>>>>> main
 =======
  module_surface_jet_turbine_power_desc: "初期型ジェットタービンエンジンは、性能向上のために燃料効率を多少犠牲にしながらも、水上艦艇の速度を大幅に向上させる。\n\n§G設計のヒント：このエンジンは速度と航続距離は中程度で、燃料コストが高く、生産コストも中程度である。海軍による地域的な軍事力の投射が必要な国、あるいは海上戦闘で他国海軍と競合する必要がある国に推奨される。§!"
 >>>>>>> main
@@ -3661,8 +3673,11 @@
  rc_fire_support_drone: "遠隔操作型火力支援ドローン"
  rc_fire_support_drone_desc: "遠隔操作が可能な車輪式または履帯式の武器プラットフォームを開発することで、兵士たちは自らの命を危険にさらすことなく、敵に対して制圧射撃を行えるようになる。"
 <<<<<<< HEAD
+<<<<<<< HEAD
  afs_drone_1: "自律型火力支援ドローン"
  afs_drone_1_desc: "AIを活用することで、火力支援ドローンを半自律的に運用できるようになる。これにより、攻撃作戦中にドローンが部隊に随行することが可能になる。"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  exoskeleton_1: "強化スーツ"
@@ -4775,6 +4790,7 @@
  battle_cruiser_hull_4: "2045 Battlecruiser Hull"
  battle_cruiser_hull_4_desc: "Surface ships are the main component of the fleet and undertake all maritime functions of the traditional fleet."
 <<<<<<< HEAD
+<<<<<<< HEAD
  SOV_tech_landing_craft: "Polnocny-class "
  SOV_tech_amphibious_assault_ship: "Ropucha-class"
  SOV_tech_air_cushioned_landing_craft: "Zubr-class LCAC"
@@ -4783,6 +4799,8 @@
  patrol_boat_desc: "Patrol boats are light vessels that are intended for coastal coverage. They are smaller then their counterpart the Corvette and are also capable of riverine operations."
  patrol_boat_hull_1: "Patrol Boat"
  patrol_boat_hull_1_desc: "Patrol boats are light vessels that are intended for coastal coverage. They are smaller then their counterpart the Corvette and are also capable of riverine operations."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  support_ship: "Support Ship"
@@ -4801,6 +4819,7 @@
  repair_ship_hull_desc: "The role of ship repair in naval warfare should not be underestimated."
  repair_ship_1_desc: "The role of ship repair in naval warfare should not be underestimated."
  repair_ship_2_desc: "The role of ship repair in naval warfare should not be underestimated."
+<<<<<<< HEAD
 <<<<<<< HEAD
  microchip_production_1: "Early Chip Production"
  microchip_production_1_desc: "The establishment of domestic semiconductor manufacturing enables the mass production of basic integrated circuits. This provides the foundation for modern electronics, improving the reliability and availability of computing components used in military systems, industrial automation, and civilian infrastructure."
@@ -4822,6 +4841,8 @@
  composite_production_four_desc: "Mature composite manufacturing processes enable large-scale production of advanced materials with precise tolerances and consistent quality. Modern composites are integral to contemporary military platforms, providing enhanced protection, mobility, and efficiency across air, land, and naval forces."
  composite_production_five: "Future Composites"
  composite_production_five_desc: "Ongoing research into next-generation fibers, nanomaterials, and adaptive structures promises further improvements in strength, resilience, and multifunctionality. Future composites are expected to play a critical role in advanced military systems and emerging civilian technologies."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  EQ_MOD_CAT_module_screen_fire_control_system_category_TITLE: "Fire Control System (Screen)"

@@ -1033,6 +1033,7 @@ IND_Garuda_CG_2045 = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Destroyers ###
 ai_equipment = {
  category = naval
@@ -1180,6 +1181,8 @@ ai_equipment = {
  }
 }
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 ### Frigates ###

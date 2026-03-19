@@ -203,7 +203,11 @@ sp_medium_naval_nuclear_engines = {
 		country_effects = {
 			set_technology = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				tech_nuclear_power_systems = 1
+=======
+				tech_nuclear_power_systems_1 = 1
+>>>>>>> main
 =======
 				tech_nuclear_power_systems_1 = 1
 >>>>>>> main
@@ -396,7 +400,11 @@ sp_rail_gun_naval_cannons = {
 		country_effects = {
 			set_technology = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				tech_rail_guns = 1
+=======
+				tech_rail_guns_1 = 1
+>>>>>>> main
 =======
 				tech_rail_guns_1 = 1
 >>>>>>> main
@@ -447,7 +455,11 @@ sp_rail_gun_naval_battery = {
 
 	available = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		FROM = { has_tech = tech_rail_guns }
+=======
+		FROM = { has_tech = tech_rail_guns_1 }
+>>>>>>> main
 =======
 		FROM = { has_tech = tech_rail_guns_1 }
 >>>>>>> main
@@ -500,7 +512,11 @@ sp_drone_torpedoes = {
 		base = 1
 		modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			FROM = { num_of_naval_factories < 1 }
+=======
+			ROOT = { num_of_naval_factories < 1 }
+>>>>>>> main
 =======
 			ROOT = { num_of_naval_factories < 1 }
 >>>>>>> main
@@ -514,7 +530,11 @@ sp_drone_torpedoes = {
 
 	available = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		FROM = { has_tech = tech_torpedoes_3 }
+=======
+		FROM = { has_tech = tech_torpedoes_4 }
+>>>>>>> main
 =======
 		FROM = { has_tech = tech_torpedoes_4 }
 >>>>>>> main
@@ -570,7 +590,11 @@ sp_nuclear_torpedoes = {
 		base = 1
 		modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			FROM = { num_of_naval_factories < 1 }
+=======
+			ROOT = { num_of_naval_factories < 1 }
+>>>>>>> main
 =======
 			ROOT = { num_of_naval_factories < 1 }
 >>>>>>> main
@@ -584,7 +608,11 @@ sp_nuclear_torpedoes = {
 
 	available = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		FROM = { has_tech = tech_torpedoes_3 }
+=======
+		FROM = { has_tech = tech_torpedoes_4 }
+>>>>>>> main
 =======
 		FROM = { has_tech = tech_torpedoes_4 }
 >>>>>>> main
@@ -645,7 +673,11 @@ sp_anti_torpedo_module = {
 		base = 1
 		modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			FROM = { num_of_naval_factories < 1 }
+=======
+			ROOT = { num_of_naval_factories < 1 }
+>>>>>>> main
 =======
 			ROOT = { num_of_naval_factories < 1 }
 >>>>>>> main
@@ -659,7 +691,11 @@ sp_anti_torpedo_module = {
 
 	available = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		FROM = { has_tech = tech_torpedoes_2 }
+=======
+		FROM = { has_tech = tech_torpedoes_3 }
+>>>>>>> main
 =======
 		FROM = { has_tech = tech_torpedoes_3 }
 >>>>>>> main
@@ -715,7 +751,11 @@ sp_anti_drone_laser_modules = {
 		base = 1
 		modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			FROM = { num_of_naval_factories < 1 }
+=======
+			ROOT = { num_of_naval_factories < 1 }
+>>>>>>> main
 =======
 			ROOT = { num_of_naval_factories < 1 }
 >>>>>>> main
@@ -747,7 +787,11 @@ sp_anti_drone_laser_modules = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
 <<<<<<< HEAD
+<<<<<<< HEAD
 				TECH = tech_anti_drone_laser1
+=======
+				TECH = tech_anti_drone_laser_1
+>>>>>>> main
 =======
 				TECH = tech_anti_drone_laser_1
 >>>>>>> main
@@ -785,7 +829,11 @@ sp_mineclearing_drone = {
 		base = 1
 		modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			FROM = { num_of_naval_factories < 1 }
+=======
+			ROOT = { num_of_naval_factories < 1 }
+>>>>>>> main
 =======
 			ROOT = { num_of_naval_factories < 1 }
 >>>>>>> main
@@ -842,7 +890,11 @@ sp_naval_recon_drone = {
 		base = 1
 		modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			FROM = { num_of_naval_factories < 1 }
+=======
+			ROOT = { num_of_naval_factories < 1 }
+>>>>>>> main
 =======
 			ROOT = { num_of_naval_factories < 1 }
 >>>>>>> main
@@ -909,7 +961,11 @@ sp_drone_submarine = {
 		base = 1
 		modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			FROM = { num_of_naval_factories < 1 }
+=======
+			ROOT = { num_of_naval_factories < 1 }
+>>>>>>> main
 =======
 			ROOT = { num_of_naval_factories < 1 }
 >>>>>>> main
@@ -973,7 +1029,11 @@ sp_modern_sail_ships = {
 		base = 1
 		modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			FROM = { num_of_naval_factories < 1 }
+=======
+			ROOT = { num_of_naval_factories < 1 }
+>>>>>>> main
 =======
 			ROOT = { num_of_naval_factories < 1 }
 >>>>>>> main
@@ -1027,7 +1087,11 @@ sp_drone_patrol_boat = {
 		base = 1
 		modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			FROM = { num_of_naval_factories < 1 }
+=======
+			ROOT = { num_of_naval_factories < 1 }
+>>>>>>> main
 =======
 			ROOT = { num_of_naval_factories < 1 }
 >>>>>>> main
@@ -1086,7 +1150,11 @@ sp_drone_corvette = {
 		base = 1
 		modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			FROM = { num_of_naval_factories < 1 }
+=======
+			ROOT = { num_of_naval_factories < 1 }
+>>>>>>> main
 =======
 			ROOT = { num_of_naval_factories < 1 }
 >>>>>>> main
@@ -1145,7 +1213,11 @@ sp_fusion_reactor_engine = {
 		base = 1
 		modifier = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			FROM = { num_of_naval_factories < 1 }
+=======
+			ROOT = { num_of_naval_factories < 1 }
+>>>>>>> main
 =======
 			ROOT = { num_of_naval_factories < 1 }
 >>>>>>> main
@@ -1159,7 +1231,11 @@ sp_fusion_reactor_engine = {
 
 	available = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		FROM = { has_tech = tech_nuclear_power_systems_2 }
+=======
+		FROM = { has_tech = tech_nuclear_power_systems_3 }
+>>>>>>> main
 =======
 		FROM = { has_tech = tech_nuclear_power_systems_3 }
 >>>>>>> main
@@ -1230,7 +1306,11 @@ sp_naval_swarm_module = {
 
 	available = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		FROM = { has_tech = tech_turret_missiles_surface_3 }
+=======
+		FROM = { has_tech = tech_turret_missiles_surface_4 }
+>>>>>>> main
 =======
 		FROM = { has_tech = tech_turret_missiles_surface_4 }
 >>>>>>> main
@@ -1303,7 +1383,11 @@ sp_radar_jamming_module = {
 		base = 1
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main
 =======
 }
 >>>>>>> main

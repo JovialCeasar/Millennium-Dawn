@@ -304,7 +304,11 @@ script_enum_equipment_bonus_type = {
 	artillery_4
 	artillery
 <<<<<<< HEAD
+<<<<<<< HEAD
 	space_artillery_equipment
+=======
+	space_artillery_equipment_type
+>>>>>>> main
 =======
 	space_artillery_equipment_type
 >>>>>>> main
@@ -526,7 +530,10 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_chassis_6
 	heavy_tank_chassis_7
 <<<<<<< HEAD
+<<<<<<< HEAD
 	heavy_tank_chassis_10
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	heavy_tank_amphibious_chassis
@@ -539,6 +546,7 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_amphibious_chassis_6
 	heavy_tank_amphibious_chassis_7
 <<<<<<< HEAD
+<<<<<<< HEAD
 	heavy_tank_amphibious_chassis_10
 	medium_tank_artillery_chassis_5
 	medium_tank_aa_chassis_5
@@ -547,6 +555,8 @@ script_enum_equipment_bonus_type = {
 	medium_tank_destroyer_chassis_5
 	medium_tank_rocket_chassis_5
 	medium_tank_chassis_5
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	Anti_Air_0
@@ -583,6 +593,7 @@ script_enum_equipment_bonus_type = {
 	MR_Fighter6
 	MR_Fighter7
 <<<<<<< HEAD
+<<<<<<< HEAD
 	attack_helicopter1
 	attack_helicopter2
 	attack_helicopter3
@@ -598,6 +609,8 @@ script_enum_equipment_bonus_type = {
 	transport_helicopter6
 	transport_helicopter7
 =======
+=======
+>>>>>>> main
 	attack_helicopter_1
 	attack_helicopter_2
 	attack_helicopter_3
@@ -612,6 +625,9 @@ script_enum_equipment_bonus_type = {
 	transport_helicopter_5
 	transport_helicopter_6
 	transport_helicopter_7
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 	naval_plane1
 	naval_plane2
@@ -670,6 +686,12 @@ script_enum_equipment_bonus_type = {
 	patrol_boat_hull_2
 	patrol_boat_hull_3
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	patrol_boat_hull_4
+	patrol_boat_hull_5
+	patrol_boat_hull_6
+>>>>>>> main
 =======
 	patrol_boat_hull_4
 	patrol_boat_hull_5
@@ -821,6 +843,7 @@ script_enum_equipment_bonus_type = {
 	zombie
 	zombie_0
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	# Event Horizon Scenario
 	HACS_equipment
@@ -833,10 +856,15 @@ script_enum_equipment_bonus_type = {
 
 	# Event Horizon NSB
 =======
+=======
+>>>>>>> main
 	zombie_runner
 	zombie_runner_0
 	zombie_brute
 	zombie_brute_0
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 }
 

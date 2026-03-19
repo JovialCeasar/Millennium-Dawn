@@ -308,6 +308,9 @@ sp_active_protection_systems = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
 				TECH = defensive_systems_4
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 			}
 		}
@@ -1431,7 +1434,11 @@ sp_nuclear_engine_tank = {
 
 	available = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		FROM = { has_tech = tech_nuclear_power_systems_2 } #Needs to be light surface reactor tech
+=======
+		FROM = { has_tech = tech_nuclear_power_systems_3 } #Needs to be light surface reactor tech
+>>>>>>> main
 =======
 		FROM = { has_tech = tech_nuclear_power_systems_3 } #Needs to be light surface reactor tech
 >>>>>>> main

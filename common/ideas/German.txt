@@ -611,7 +611,11 @@ ideas = {
 				nuclear_energy_generation_modifier = 0.03
 				nuclear_fuel_consumption_modifier = -0.03
 <<<<<<< HEAD
+<<<<<<< HEAD
 				local_resources_factor = 0.05
+=======
+				local_resources_chromium_factor = 0.05
+>>>>>>> main
 =======
 				local_resources_chromium_factor = 0.05
 >>>>>>> main
@@ -626,7 +630,11 @@ ideas = {
 				nuclear_energy_generation_modifier = 0.05
 				nuclear_fuel_consumption_modifier = -0.03
 <<<<<<< HEAD
+<<<<<<< HEAD
 				local_resources_factor = 0.05
+=======
+				local_resources_chromium_factor = 0.05
+>>>>>>> main
 =======
 				local_resources_chromium_factor = 0.05
 >>>>>>> main
@@ -641,7 +649,11 @@ ideas = {
 				nuclear_energy_generation_modifier = 0.10
 				nuclear_fuel_consumption_modifier = -0.05
 <<<<<<< HEAD
+<<<<<<< HEAD
 				local_resources_factor = 0.05
+=======
+				local_resources_chromium_factor = 0.05
+>>>>>>> main
 =======
 				local_resources_chromium_factor = 0.05
 >>>>>>> main
@@ -656,7 +668,11 @@ ideas = {
 				nuclear_energy_generation_modifier = 0.15
 				nuclear_fuel_consumption_modifier = -0.15
 <<<<<<< HEAD
+<<<<<<< HEAD
 				local_resources_factor = 0.05
+=======
+				local_resources_chromium_factor = 0.05
+>>>>>>> main
 =======
 				local_resources_chromium_factor = 0.05
 >>>>>>> main

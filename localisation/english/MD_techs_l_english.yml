@@ -660,9 +660,12 @@
  INFANTRY_TITLE_EXOSKELETON: "EXOSKELETON"
  INFANTRY_TITLE_EXOSKELETON_DESC: "Exoskeletons are power suits that can enhance their wearer's strength, speed and agility."
 <<<<<<< HEAD
+<<<<<<< HEAD
  INFANTRY_TITLE_CAMOUFLAGE: "camouflage_1"
  INFANTRY_TITLE_CAMOUFLAGE_DESC: "camouflage_1 includes patterns for our military uniforms as well as drapes and nets that can be pulled over equipment. More advanced forms of camouflage_1 will allow hiding from more advanced detection measures."
 =======
+=======
+>>>>>>> main
  INFANTRY_TITLE_CAMOUFLAGE: "Camouflage"
  INFANTRY_TITLE_CAMOUFLAGE_DESC: "Camouflage includes patterns for our military uniforms as well as drapes and nets that can be pulled over equipment. More advanced forms of camouflage will allow hiding from more advanced detection measures."
 >>>>>>> main
@@ -865,7 +868,11 @@
  CIVILIAN_TITLE_AGRICULTURE: "AGRICULTURAL DIGITALIZATION"
  CIVILIAN_TITLE_AGRICULTURE_DESC: "Agriculture still heavily relies on manual labour and human operated machinery. By utilising computers and automatization our agricultural sector could be improved further"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CIVILIAN_TITLE_COMPOSITES: "Composite Production"
+=======
+ CIVILIAN_TITLE_COMPOSITES: "COMPOSITE PRODUCTION"
+>>>>>>> main
 =======
  CIVILIAN_TITLE_COMPOSITES: "COMPOSITE PRODUCTION"
 >>>>>>> main
@@ -920,6 +927,11 @@
  afs_drone_1: "Autonomous Fire Support Drone"
  afs_drone_1_desc: "With the use of AI, the fire support drone can be made to operate semi-autonomously. This will allow the drone to follow along with our units during offensive operations."
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ special_forces_tech_1: "Special Operation Forces"
+ special_forces_tech_1_desc: "Special Operation Forces are the elite of any military where they feature, with longer and harder training than anyone else. They are experts of difficult terrains, airborne operations and amphibious landings. They are, however, very lightly equipped as they may need to operate with mobility behind the front lines."
+>>>>>>> main
 =======
  special_forces_tech_1: "Special Operation Forces"
  special_forces_tech_1_desc: "Special Operation Forces are the elite of any military where they feature, with longer and harder training than anyone else. They are experts of difficult terrains, airborne operations and amphibious landings. They are, however, very lightly equipped as they may need to operate with mobility behind the front lines."
@@ -950,6 +962,7 @@
  exoskeleton_2_desc: "With the second generation of exoskeletons, the suit is fast and flexible enough to be used in combat. While probably not feasible to equip our entire army with these suits, our military units can have dedicated squads or dedicated squad personnel to wear the suit to increase their efficiency as the lead operator."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
  camouflage_1: "Early camouflage_1"
  camouflage_desc: "While camouflage_1 has been used in the military for centuries, in military uniforms they really started gaining popularity post-World War 2. The first camouflage_1 patterns usually consisted of two or three colours almost equally distributed on the uniform."
  camouflage_2: "Multi-Scale camouflage_1"
@@ -960,6 +973,8 @@
  camouflage_4_desc: "Multispectral camouflage_1 refers to camouflage_1 techniques that are used to hide objects from infrared or radar based detection. For individual soldier this has mainly been available in the form of ghillie suits, which are impractical in most combat situations. With modern materials, effective infrared shielding coatings and materials can be applied to the battledress of every soldier."
  camouflage_5: "Optical camouflage_1"
 =======
+=======
+>>>>>>> main
  camouflage_1: "Early Camouflage"
  camouflage_desc: "While camouflage has been used in the military for centuries, in military uniforms they really started gaining popularity post-World War 2. The first camouflage patterns usually consisted of two or three colours almost equally distributed on the uniform."
  camouflage_2: "Multi-Scale Camouflage"
@@ -969,6 +984,9 @@
  camouflage_4: "Personal Multispectral Camouflage"
  camouflage_4_desc: "Multispectral camouflage refers to camouflage techniques that are used to hide objects from infrared or radar based detection. For individual soldier this has mainly been available in the form of ghillie suits, which are impractical in most combat situations. With modern materials, effective infrared shielding coatings and materials can be applied to the battledress of every soldier."
  camouflage_5: "Optical Camouflage"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  camouflage_5_desc: "With reflective materials, we can not only fool the human eye, but completely hide objects from it. By bending electromagnetic radiation, we can make weapon installation, vehicles, weapons and even soldiers almost invisible to the human eye."
 
@@ -1604,6 +1622,7 @@
  tech_naval_armament_engineering: "Naval Armament Engineering"
  tech_naval_armament_engineering_desc: "Production of heavy vessels is important to our high seas fleet. Expanding our naval armament engineering departments can assist us in this cause."
 <<<<<<< HEAD
+<<<<<<< HEAD
  tech_diesel_power_systems: "Diesel Engines"
  tech_diesel_power_systems_desc: ""
  tech_diesel_power_systems_1: "Modern Diesel Engines"
@@ -1618,6 +1637,8 @@
  tech_power_systems_1_desc: "Able to propel large Naval vessels to higher speeds, turbine engines are often used in conjunction with Diesel engines, allowing for performance at both the high and low end of the power output spectrum"
  tech_power_systems_2: "Advanced Jet Turbine Engines"
 =======
+=======
+>>>>>>> main
  tech_diesel_power_systems_1: "Diesel Engines"
  tech_diesel_power_systems_1_desc: ""
  tech_diesel_power_systems_2: "Modern Diesel Engines"
@@ -1629,6 +1650,9 @@
  tech_power_systems_1: "Turbine Engines"
  tech_power_systems_1_desc: "Most modern ships use a reciprocating diesel engine as their prime mover, due to their operating simplicity, robustness and fuel economy compared to most other prime mover mechanisms."
  tech_power_systems_2: "Jet Turbine Engines"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  tech_power_systems_2_desc: "Able to propel large Naval vessels to higher speeds, turbine engines are often used in conjunction with Diesel engines, allowing for performance at both the high and low end of the power output spectrum"
  tech_power_systems_3: "Advanced Jet Turbine Engines"
@@ -1664,6 +1688,11 @@
  tech_combat_radar_5: "Radar VI"
  tech_combat_radar_5_desc: "Improvements on our radar systems have allowed us greater sight during combat and patrols."
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ tech_combat_radar_6: "Radar VII"
+ tech_combat_radar_6_desc: "Improvements on our radar systems have allowed us greater sight during combat and patrols."
+>>>>>>> main
 =======
  tech_combat_radar_6: "Radar VII"
  tech_combat_radar_6_desc: "Improvements on our radar systems have allowed us greater sight during combat and patrols."
@@ -1677,9 +1706,13 @@
  tech_radar_jammer_4: "Radar Jamming IV"
  tech_radar_jammer_4_desc: "Next generation electronic attack suites integrate networked sensors, real time analysis, and agile transmitters to contest the spectrum at scale. They can suppress, deceive, and overwhelm multiple radars while surviving heavy electronic warfare and rapid frequency changes."
 <<<<<<< HEAD
+<<<<<<< HEAD
  tech_combat_sonar: "Sonar II"
  tech_combat_sonar_desc: "Sonar systems are involved with the detection of objects under water and for measuring the water's depth by emitting sound pulses and detecting or measuring their return after being reflected."
  tech_combat_sonar_1: "Sonar III"
+=======
+ tech_combat_sonar_1: "Sonar II"
+>>>>>>> main
 =======
  tech_combat_sonar_1: "Sonar II"
 >>>>>>> main
@@ -1693,6 +1726,11 @@
  tech_combat_sonar_5: "Sonar VI"
  tech_combat_sonar_5_desc: "Sonar systems are involved with the detection of objects under water and for measuring the water's depth by emitting sound pulses and detecting or measuring their return after being reflected."
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ tech_combat_sonar_6: "Sonar VII"
+ tech_combat_sonar_6_desc: "Sonar systems are involved with the detection of objects under water and for measuring the water's depth by emitting sound pulses and detecting or measuring their return after being reflected."
+>>>>>>> main
 =======
  tech_combat_sonar_6: "Sonar VII"
  tech_combat_sonar_6_desc: "Sonar systems are involved with the detection of objects under water and for measuring the water's depth by emitting sound pulses and detecting or measuring their return after being reflected."
@@ -1717,21 +1755,32 @@
  tech_rail_guns_3: "Railguns 2035"
  tech_rail_guns_3_desc: "Railguns use electromagnetic force to launch high-velocity projectiles. The projectile normally does not contain explosives, instead relying on the projectile's high speed, mass, and kinetic energy to inflict damage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
  tech_rail_guns_4: "Railguns 2045"
  tech_rail_guns_4_desc: "Railguns use electromagnetic force to launch high-velocity projectiles. The projectile normally does not contain explosives, instead relying on the projectile's high speed, mass, and kinetic energy to inflict damage"
  tech_rail_guns_5: "Railguns 2060"
  tech_rail_guns_5_desc: "Railguns use electromagnetic force to launch high-velocity projectiles. The projectile normally does not contain explosives, instead relying on the projectile's high speed, mass, and kinetic energy to inflict damage"
  tech_rail_guns_6: "Railguns 2075"
  tech_rail_guns_6_desc: "Railguns use electromagnetic force to launch high-velocity projectiles. The projectile normally does not contain explosives, instead relying on the projectile's high speed, mass, and kinetic energy to inflict damage"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  tech_rail_battery_1: "Railgun Battery I"
  tech_rail_battery_1_desc: "Rather than mounting a single railgun, a battery groups multiple barrels into a unified fire-control system, echoing the logic of battleship turret doctrine. Coordinated salvos deliver heavier striking power, tighter dispersion, and faster follow-up fire, at the cost of greater power demand and integration complexity."
  tech_rail_battery_2: "Railgun Battery II"
  tech_rail_battery_2_desc: "Second generation railgun batteries refine barrel life, thermal management, and magazine automation, enabling sustained high-rate salvo fire without crippling wear. With smarter power distribution and advanced targeting, these triple-rail mounts can dominate surface engagements and provide long-range precision fire support well beyond conventional naval artillery."
 <<<<<<< HEAD
+<<<<<<< HEAD
  tech_point_defense_system: "Point Defense Systems"
  tech_point_defense_system_desc: "Point defense systems can be loosely described as anything to fire at incoming missiles"
+=======
+ tech_point_defense_chain_gun: "Point Defense Systems"
+ tech_point_defense_chain_gun_desc: "Point defense systems can be loosely described as anything to fire at incoming missiles"
+>>>>>>> main
 =======
  tech_point_defense_chain_gun: "Point Defense Systems"
  tech_point_defense_chain_gun_desc: "Point defense systems can be loosely described as anything to fire at incoming missiles"
@@ -1748,6 +1797,7 @@
  tech_point_defense_system_5_desc: "The Close-In Weapons System (CIWS) was developed as the last line of automated weapons defense (terminal defense or point defense) against anti-ship missiles (AShMs or ASMs) and attacking aircraft, including high-g and maneuvering sea-skimmers."
  tech_point_defense_system_6: "CIWS VI"
  tech_point_defense_system_6_desc: "The Close-In Weapons System (CIWS) was developed as the last line of automated weapons defense (terminal defense or point defense) against anti-ship missiles (AShMs or ASMs) and attacking aircraft, including high-g and maneuvering sea-skimmers."
+<<<<<<< HEAD
 <<<<<<< HEAD
  tech_anti_drone_laser1: "Shipborne Point Defense Lasers I"
  tech_anti_drone_laser1_desc: "Early shipborne lasers provide a deep magazine defense against drones and incoming munitions by burning through sensors, control surfaces, and warheads at the speed of light. They reduce reliance on interceptor missiles and close-in guns, but require stable power and precise tracking to be effective in poor weather and heavy spray."
@@ -1767,6 +1817,8 @@
  tech_turret_missiles_surface_5: "Anti-Vessel Missiles 2045"
  tech_turret_missiles_surface_5_desc: "Anti-vessel missiles composes Anti-Submarine and Anti-Ship missiles platforms. The two turret systems are slightly different in design and payload, but they ultimately perform the same function. Destroy the target."
 =======
+=======
+>>>>>>> main
  tech_anti_drone_laser_1: "Shipborne Point Defense Lasers I"
  tech_anti_drone_laser_1_desc: "Early shipborne lasers provide a deep magazine defense against drones and incoming munitions by burning through sensors, control surfaces, and warheads at the speed of light. They reduce reliance on interceptor missiles and close-in guns, but require stable power and precise tracking to be effective in poor weather and heavy spray."
  tech_anti_drone_laser_2: "Shipborne Point Defense Lasers II"
@@ -1784,6 +1836,9 @@
  tech_turret_missiles_surface_5_desc: "Anti-vessel missiles composes Anti-Submarine and Anti-Ship missiles platforms. The two turret systems are slightly different in design and payload, but they ultimately perform the same function. Destroy the target."
  tech_turret_missiles_surface_6: "Anti-Vessel Missiles 2045"
  tech_turret_missiles_surface_6_desc: "Anti-vessel missiles composes Anti-Submarine and Anti-Ship missiles platforms. The two turret systems are slightly different in design and payload, but they ultimately perform the same function. Destroy the target."
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  tech_turret_missiles_drone_1: "Naval Swarm Modules I"
  tech_turret_missiles_drone_1_desc: "Swarm modules replace traditional missiles with launch cells optimized for one-way attack drones. Instead of a single expensive round, a ship can flood a defended area with multiple small threats, forcing enemy sensors and interceptors to choose what to stop."
@@ -1791,6 +1846,7 @@
  tech_turret_missiles_drone_2_desc: "Improved datalinks and onboard guidance let drone salvos coordinate their approach, split into multiple axes, and re-target in flight as the situation changes. This turns each launch into a decision problem for the defender, where certainty is rare and reaction time is short."
  tech_turret_missiles_drone_3: "Naval Swarm Modules III"
  tech_turret_missiles_drone_3_desc: "Advanced swarm control enables massed, semi-autonomous attacks designed to overwhelm layered air defense, jam tracking, and exploit gaps with ruthless efficiency. With modular payloads and smarter navigation, suicide drones become a flexible naval strike option that trades single-shot power for relentless saturation."
+<<<<<<< HEAD
 <<<<<<< HEAD
  tech_turret_missiles_aa: "Anti-Air Missiles 1975"
  tech_turret_missiles_aa_desc: "Anti-Air Missiles describes the Rolling Airframe Missiles (RAM) as well as generic SAM launchers."
@@ -1841,6 +1897,8 @@
  tech_torpedoes_5: "2045 Torpedo"
  tech_torpedoes_5_desc: "A cigar-shaped self-propelled underwater missile designed to be fired from a ship or submarine or dropped into the water from an aircraft and to explode on reaching a target."
 =======
+=======
+>>>>>>> main
  tech_turret_missiles_aa_1: "Anti-Air Missiles 1975"
  tech_turret_missiles_aa_1_desc: "Anti-Air Missiles describes the Rolling Airframe Missiles (RAM) as well as generic SAM launchers."
  tech_turret_missiles_aa_2: "Anti-Air Missiles 1985"
@@ -1889,6 +1947,9 @@
  tech_torpedoes_5_desc: "A cigar-shaped self-propelled underwater missile designed to be fired from a ship or submarine or dropped into the water from an aircraft and to explode on reaching a target."
  tech_torpedoes_6: "2045 Torpedo"
  tech_torpedoes_6_desc: "A cigar-shaped self-propelled underwater missile designed to be fired from a ship or submarine or dropped into the water from an aircraft and to explode on reaching a target."
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  tech_drone_torpedoes_1: "Drone Torpedoes II"
  tech_drone_torpedoes_1_desc: "Early drone torpedoes add guidance and limited autonomy to traditional underwater weapons, improving target acquisition and reducing wasted shots. With better sensors and course correction, they can track evasive ships and submarines more reliably in cluttered littoral waters."
@@ -2190,7 +2251,10 @@
  EQ_MOD_CAT_module_surface_power_source_category_TITLE: "Surface Power Source"
  EQ_MOD_CAT_module_heavy_frigate_upgrade_category_TITLE: "Heavy Frigate Upgrade Package"
 <<<<<<< HEAD
+<<<<<<< HEAD
  EQ_MOD_CAT_module_heavy_frigate_upgrade_category_TITLE: "Heavy Frigate Upgrade Package"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  EQ_MOD_CAT_module_submarine_drone_control_category_TITLE: "Autonomous Submarine Control"
@@ -2292,7 +2356,10 @@
  module_ciws_6: "CIWS VI"
  module_ciws_6_desc: "Near-future Close-In Weapon Systems represent the pinnacle of point-defense technology, incorporating cutting-edge sensors, artificial intelligence-assisted targeting, and rapid-response interceptors to defeat even the most advanced missile threats.\n\n§GDesigner Hint: This module increases armor protection to the ship, giving it better protection from anti-ship weapon attacks. It will also mildly increase the HP and anti-air stats of the ship.§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  module_ciws_6_desc: ""
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  module_naval_adl_1: "Point Defense Laser I"
@@ -2312,7 +2379,10 @@
  module_railgun_4: "Railguns IV"
  module_railgun_4_desc: "Future electromagnetic railgun technology represents a breakthrough in naval firepower, delivering highly accurate, hypersonic projectiles with minimal logistical burden and unmatched destructive potential.\n\n§GDesigner Hint: Railguns provide ships with high Cannon Attack, and increased Cannon Piercing, allowing them to more effectively conduct shore bombardment and anti-ship attacks.§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  module_railgun_4_desc: "The future of ship-based cannons. Railguns fire projectiles at Mach speed to shred through an enemy's hull, or to destroy targets much farther than previously thought possible."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  module_naval_railgun_battery_1: "Railgun Battery I"
@@ -2336,7 +2406,10 @@
  module_vls_asm_6: "VLS Anti-Ship Missiles VI"
  module_vls_asm_6_desc: "Near-future VLS anti-ship missile systems represent the apex of naval strike technology, combining intelligent targeting, extreme speed, and advanced countermeasure resistance to overwhelm even the most sophisticated fleets.\n\n§GDesigner Hint: This module will provide increased anti-ship attack, and anti-ship piercing, along with increased HP, at the cost of increased IC.§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  module_vls_asm_6_desc: "Vertical Launch Anti-Ship missiles. Their primary function is ship-to-ship warfare over long distances."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  module_naval_vls_drone_swarm_1: "VLS Drone Swarm I"
@@ -2440,7 +2513,10 @@
  module_torpedoes_6: "ASW Torpedoes VI"
  module_torpedoes_6_desc: "Near-future ASW torpedoes represent the pinnacle of anti-submarine warfare technology, integrating AI-assisted guidance, extreme speed, and advanced counter-countermeasure systems to dominate modern underwater battlefields.\n\n§GDesigner Hint: This module provides anti-submarine attacks, allowing the ship to attack enemy submarines once they are detected.§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  module_torpedoes_6_desc: ""
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  module_naval_anti_ship_drone_torpedoes_1: "Networked Torpedo I"
@@ -2450,7 +2526,11 @@
  module_naval_anti_ship_drone_torpedoes_3: "Networked Torpedo III"
  module_naval_anti_ship_drone_torpedoes_3_desc: "Networked torpedo drones enable standoff attacks with minimal personnel commitment, allowing fleets to project lethality without exposing crews. Their smart fusing and aimpoint selection maximize the odds of catastrophic damage on contact, making critical hits far more likely—though the advanced materials, electronics, and propulsion systems required raise overall resource costs.\n\n§GDesigner Hint: Torpedo drones trade manpower savings and critical-hit potential for increased resource costs. Use them to punch above your weight in decisive strikes, but plan your industrial throughput accordingly§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  module_naval_anti_ship_drone_torpedoes_4: "Networked Torpedo III"
+=======
+ module_naval_anti_ship_drone_torpedoes_4: "Networked Torpedo IV"
+>>>>>>> main
 =======
  module_naval_anti_ship_drone_torpedoes_4: "Networked Torpedo IV"
 >>>>>>> main
@@ -2538,7 +2618,10 @@
  module_radar_7: "Radar VII"
  module_radar_7_desc: "Cutting-edge radar technology integrates networked sensor fusion, extreme-range detection, and automated threat prioritization, representing the pinnacle of naval detection and target acquisition capabilities.\n\n§GDesigner Hint: This module provides increased surface and submarine detection, along with buffs to anti-ship missile attack, torpedo attack, and anti-aircraft attack, at the cost of resources and higher IC costs when compared to sonar.§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  module_radar_7_desc: ""
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  module_naval_recon_drone_1: "Naval Recon Drone I"
@@ -2566,7 +2649,10 @@
  module_sonar_7: "Sonar VII"
  module_sonar_7_desc: "Cutting-edge sonar technology combines extreme-range detection, real-time threat prioritization, and advanced noise reduction, representing the pinnacle of undersea detection and anti-submarine warfare capability.\n\n§GDesigner Hint: This module provides increased submarine detection and surface detection, along with buffs to anti-ship missiles and torpedos, but provides less buffs and costs less than Radar systems.§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  module_sonar_7_desc: ""
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  module_naval_radar_jammer_1: "Naval Radar Jammer I"
@@ -2584,7 +2670,10 @@
  module_mineclearing: "Mineclearer"
  module_mineclearing_desc: "Allows for the clearing of mines from a sea region by this ship.\n\n§GDesigner Hint: This module provides access to the minesweeping mission, and allows ships to clear mines from a sea zone.§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  module_mineclearing_desc: ""
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  module_naval_mineclearing_drone: "Mineclearing Drone"
@@ -2614,8 +2703,13 @@
  module_surface_diesel_power_3: "Diesel Powered Engine III"
  module_surface_diesel_power_1_3_desc: "$module_surface_diesel_power_1_1_desc$"
 <<<<<<< HEAD
+<<<<<<< HEAD
  module_surface_diesel_power_1_4: "Diesel Powered Engine IV"
  module_surface_diesel_power_1_4_desc: "$module_surface_diesel_power_1_1_desc$"
+=======
+ module_surface_diesel_power_4: "Diesel Powered Engine IV"
+ module_surface_diesel_power_4_desc: "$module_surface_diesel_power_1_1_desc$"
+>>>>>>> main
 =======
  module_surface_diesel_power_4: "Diesel Powered Engine IV"
  module_surface_diesel_power_4_desc: "$module_surface_diesel_power_1_1_desc$"

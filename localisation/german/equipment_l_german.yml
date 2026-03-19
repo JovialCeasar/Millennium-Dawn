@@ -6,6 +6,7 @@
  train_equipment_3: "Zug 2045"
  train_equipment_desc: "Nur ein Zug, wirklich."
 <<<<<<< HEAD
+<<<<<<< HEAD
  infantry_weapons_type: "Kleinwaffen"
  infantry_weapons_desc: "Kleinwaffen sind die Ausrüstung, die von Schützentrupps eingesetzt wird, wie beispielsweise Sturmgewehre, Scharfschützengewehre, Granatwerfer, rückstoßfreie Gewehre, leichte Maschinengewehre und Körperpanzerungen."
  infantry_weaponsdesc: "Kleinwaffen sind die Ausrüstung, die von Schützentrupps eingesetzt wird, wie beispielsweise Sturmgewehre, Scharfschützengewehre, Granatwerfer, rückstoßfreie Gewehre, leichte Maschinengewehre und Körperpanzerungen."
@@ -57,6 +58,12 @@
  land_drone_equipment_4_desc: "Kurzstrecken-Aufklärungsdrohnen (UAVs) bieten wertvolle Echtzeit-Aufklärung und Lagebewusstsein auf dem Schlachtfeld. Sie sind leicht und relativ einfach zu transportieren."
  land_drone_equipment_5: "Drone 2035"
  land_drone_equipment_5_desc: "Kurzstrecken-Aufklärungsdrohnen (UAVs) bieten wertvolle Echtzeit-Aufklärung und Lagebewusstsein auf dem Schlachtfeld. Sie sind leicht und relativ einfach zu transportieren."
+=======
+ combat_eng_equipment: "Ausrüstung für Kampfpioniere"
+ combat_eng_equipment_desc: "Kampfpioniere spielen in allen Streitkräften der Welt eine Schlüsselrolle und sind ausnahmslos entweder eng in die Streitkräftestruktur oder sogar in die Kampfeinheiten der Truppen integriert."
+ L_Drone_equipment: "Dronenausrüstung"
+ L_Drone_equipment_desc: "Kurzstrecken-Aufklärungsdrohnen (UAVs) bieten wertvolle Echtzeit-Aufklärung und Lagebewusstsein auf dem Schlachtfeld. Sie sind leicht und relativ einfach zu transportieren."
+>>>>>>> main
 =======
  combat_eng_equipment: "Ausrüstung für Kampfpioniere"
  combat_eng_equipment_desc: "Kampfpioniere spielen in allen Streitkräften der Welt eine Schlüsselrolle und sind ausnahmslos entweder eng in die Streitkräftestruktur oder sogar in die Kampfeinheiten der Truppen integriert."
@@ -179,8 +186,11 @@
  Rec_tank_5: "Leichter Panzer 2035"
  Rec_tank_5_desc: "Leichte Panzer, eine tragende Säule der Armeen des Zweiten Weltkriegs, werden heute nur noch in Randrollen eingesetzt, da das Gewicht und die Größe von Kampfpanzern ihren Einsatz verhindern. Leichte Panzer werden von den am schwersten gepanzerten Aufklärungseinheiten eingesetzt und haben außerdem den Vorteil, dass sie aus der Luft abgeworfen werden können. Sie werden auch oft in amphibischen Rollen eingesetzt. Sie basieren oft auf Schützenpanzerrümpfen, anstatt von Grund auf neu entwickelt zu werden. Sie sind in unwegsamem Gelände wie Bergen und Wäldern viel besser als Kampfpanzer."
 <<<<<<< HEAD
+<<<<<<< HEAD
  util_vehicle_type: "Nutzfahrzeug"
  util_vehicle_type_desc: "Ein Nutzfahrzeug, in der Regel motorisiert, das für die Ausführung einer bestimmten Aufgabe konzipiert ist und diese effizienter erledigt als ein Mehrzweckfahrzeug."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  util_vehicle_desc: "Ein Nutzfahrzeug ist ein Fahrzeug, das in der Regel motorisiert ist. Es ist für die Ausführung einer bestimmten Aufgabe konzipiert und erledigt diese effizienter als ein Mehrzweckfahrzeug."
@@ -314,6 +324,7 @@
  LPD_4: "LPD 2035"
  LPD_4_desc: "Landungshubschrauberträgerdocks (LHD) sind vielseitige amphibische Angriffsschiffe, die für den Einsatz von Hubschraubern ausgelegt sind und über ein Welldeck verfügen. Diese Schiffe besitzen ein durchgehendes Flugdeck, das optisch einem Flugzeugträger ähnelt, und ermöglichen den Einsatz von Transport- und Angriffshubschraubern. Im Spiel bieten sie einen erheblichen Bonus für Küstenbombardements und werden für den Einsatz bei amphibischen Angriffen empfohlen."
 <<<<<<< HEAD
+<<<<<<< HEAD
  ALG_util_vehicle_4: "KamAZ-4350"
  ARG_infantry_weapons: "FN FAL"
  ARG_infantry_weapons_2: "Galil AR"
@@ -324,6 +335,9 @@
 =======
  ALG_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ ALG_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  ARG_MBT_3: "Tanque Argentino Mediano"
  ARG_MBT_3_short: "TAM"
  ARG_Rec_tank_1: "Patagón"
@@ -331,7 +345,11 @@
  ARG_IFV_3: "Vehiculo de Combate Transporte de Personal"
  ARG_IFV_3_short: "TAMSE VCTP"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ARG_util_vehicle_5: "RG-32 Scout"
+=======
+ ARG_util_vehicle_4: "Agrale Marruá"
+>>>>>>> main
 =======
  ARG_util_vehicle_4: "Agrale Marruá"
 >>>>>>> main
@@ -340,6 +358,7 @@
  ARG_SP_arty_1: "VCTM"
  ARG_SP_R_arty_0: "SLAM Pampero"
  ARG_SP_R_arty_1: "CP-30 MRL"
+<<<<<<< HEAD
 <<<<<<< HEAD
  ARM_infantry_weapons: "AKM"
  ARM_infantry_weapons_desc: "Das 1959 entwickelte AKM ist die am weitesten verbreitete modernisierte Variante des von Michail Kalaschnikow entwickelten AK-47-Gewehrs. Es ist beim automatischen Feuern viel leichter und präziser als sein Vorgänger."
@@ -359,6 +378,8 @@
  ARM_infantry_weapons_8_desc: "Die neueste Entwicklung von ASPAR Arms, die auf Basis des AR-15 erstellt wurde, verwendet Magazine und Patronen im Kaliber eines Kalaschnikow-Sturmgewehrs, verfügt jedoch über ein ziemlich zuverlässiges Design, das seinen Gegenstücken in nichts nachsteht."
 =======
 >>>>>>> main
+=======
+>>>>>>> main
  ARM_SP_R_arty_2: "N-2"
  ARM_SP_R_arty_2_desc: "Der N-2 ist ein armenischer Mehrfachraketenwerfer, der von der Wissenschaftlichen Produktionsvereinigung Garni-Ler entwickelt und seit spätestens 2011 produziert wird. Armenien hat nicht viele Informationen über das Raketensystem veröffentlicht, es ist jedoch offensichtlich, dass der N-2 in Massenproduktion hergestellt wird und von den armenischen Streitkräften und wahrscheinlich auch von der bergkarabachischen Verteidigungsarmee aktiv eingesetzt wird. Das System wurde für den GAZ-3308 entwickelt, einen russischen Militärlastwagen."
  ARM_SP_R_arty_2_short: "N-2"
@@ -367,6 +388,7 @@
  ARM_util_vehicle_3: "Hayk BM"
  ARM_util_vehicle_4: "Mets Hayk BM"
  ARM_util_vehicle_5: "LUSAN-1"
+<<<<<<< HEAD
 <<<<<<< HEAD
  ARM_util_vehicle_6: "LUSAN-2M"
  AST_infantry_weapons: "L1A1"
@@ -379,10 +401,13 @@
  AST_infantry_weapons_8: "L88A1"
 =======
 >>>>>>> main
+=======
+>>>>>>> main
  AST_IFV_2: "M113A1 FSV"
  AST_IFV_2_short: "M113A1 FSV"
  AST_IFV_3: "ASLAV"
  AST_IFV_3_short: "ASLAV"
+<<<<<<< HEAD
 <<<<<<< HEAD
  AST_util_vehicle_3: "Land Rover Perentie"
  AST_util_vehicle_4: "G-Wagon"
@@ -395,6 +420,11 @@
  AUS_infantry_weapons_6: "Steyr AUG CQC"
  AUS_infantry_weapons_7: "Steyr AUG A4"
  AUS_infantry_weapons_8: "Steyr AUG A5"
+=======
+ AST_util_vehicle_2: "Land Rover II/III"
+ AST_util_vehicle_3: "Land Rover Perentie"
+ AST_util_vehicle_5: "Bushmaster"
+>>>>>>> main
 =======
  AST_util_vehicle_2: "Land Rover II/III"
  AST_util_vehicle_3: "Land Rover Perentie"
@@ -421,6 +451,7 @@
  AUS_Rec_tank_3: "Ajax LT"
  AUS_Rec_tank_3_short: "Ajax LT"
 <<<<<<< HEAD
+<<<<<<< HEAD
  AUS_util_vehicle_1: "Pingzauer 710/712"
  AUS_util_vehicle_2: "Steyr 91"
  AUS_util_vehicle_3: "Iveco VM 90"
@@ -445,6 +476,10 @@
  AUS_util_vehicle_1: "Steyr Pingzauer 710/712"
  AUS_util_vehicle_2: "Steyr 91"
 >>>>>>> main
+=======
+ AUS_util_vehicle_1: "Steyr Pingzauer 710/712"
+ AUS_util_vehicle_2: "Steyr 91"
+>>>>>>> main
  BEL_IFV_2: "YPR-765"
  BEL_IFV_2_short: "YPR-765"
  BEL_APC_1: "BDX"
@@ -461,10 +496,13 @@
  BLR_Rec_tank_2_desc: "Mobiles gepanzertes Fahrzeug für Aufklärungs- und Spezialeinheiten. Das Objekt ist für den Einsatz als Fahrzeug zur Durchführung von Aufklärungs- und Sabotageoperationen, zur Patrouille und Eskorte von Konvois, zur Durchführung von Friedenssicherungs- und Polizeieinsätzen sowie zur Durchführung von Einsätzen in Notfallsituationen vorgesehen."
  BLR_Rec_tank_2_short: "„Kaiman“"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BLR_infantry_weapons: "AKM"
  BLR_infantry_weapons_2: "AK-74"
  BLR_infantry_weapons_3: "AK-74N"
  BLR_infantry_weapons_4: "AK-74M"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BLR_APC_1: "BTR-60"
@@ -559,7 +597,10 @@
  BLR_util_vehicle_3: "KamAZ-4310"
  BLR_util_vehicle_4: "MAZ-6317"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BLR_util_vehicle_5: "gepanzerter Radtransporter \"Asilak\""
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BLR_AS_Fighter1: "SU-15 ‚Flagon‘"
@@ -645,6 +686,7 @@
  BLR_transport_plane4: "Il-276"
  BLR_transport_plane4_short: "Il-276"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BLR_attack_helicopter1: "Mil Mi-24A Hind"
  BLR_attack_helicopter1_short: "Mi-24A Hind"
  BLR_attack_helicopter2: "Mil Mi-24B Super Hind"
@@ -679,6 +721,9 @@
 =======
  BOS_SP_R_arty_0: "M-63 Plamen"
 >>>>>>> main
+=======
+ BOS_SP_R_arty_0: "M-63 Plamen"
+>>>>>>> main
  BRA_APC_1: "Cutia"
  BRA_APC_2: "EE-11 Urutu"
  BRA_APC_3: "CBTP Charrua"
@@ -690,12 +735,15 @@
  BRA_IFV_5: "VBCI-MR Guaraní"
  BRA_IFV_5_short: "VBCI-MR Guaraní"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BRA_util_vehicle_2: "Land Rover 110"
  BRA_util_vehicle_3: "Land Rover Defender"
  BRA_util_vehicle_4: "Agrale Marruá"
  BRA_util_vehicle_5: "VBMT-LSR Guaicurus"
  BRA_util_vehicle_6: "VBMT-LSR 1A Guaicurus"
 =======
+=======
+>>>>>>> main
  BRA_util_vehicle_1: "M38 Jeep"
  BRA_util_vehicle_2: "Land Rover 110"
  BRA_util_vehicle_3: "Land Rover Defender"
@@ -719,6 +767,7 @@
  BRA_Anti_tank_2: "MSS-1.2"
  BRA_Heavy_Anti_tank_0: "EE-3 Jararaca"
  BRA_Heavy_Anti_tank_1: "EE-18 Sucurí"
+<<<<<<< HEAD
 <<<<<<< HEAD
  BRM_infantry_weapons: "BA-63"
  BRM_infantry_weapons_2: "MA-11"
@@ -802,6 +851,12 @@
  BRM_APC_1: "BAAC-83"
  BRM_APC_2: "BAAC-87"
  BUL_IFV_3: "BMP-23"
+=======
+ BRM_util_vehicle_2: "Naung Yoe"
+ BRM_APC_1: "BAAC-83"
+ BRM_APC_2: "BAAC-87"
+ BUL_IFV_3: "BMP-23"
+>>>>>>> main
  CAN_APC_2: "Gepanzertes Mehrzweckfahrzeug LAV-I (AVGP)"
  CAN_APC_2_desc: "1974 wählte die kanadische Armee das Schweizer Fahrzeug Mowag Piranha 6x6 aus. Die Produktion des Fahrzeugs wurde unter Lizenz von der kanadischen Firma Diesel Division, einer Tochtergesellschaft von General Motors of Canada, übernommen."
  CAN_APC_2_short: "Gepanzertes Mehrzweckfahrzeug LAV-I (AVGP)"
@@ -849,6 +904,9 @@
  CAN_Rec_tank_2_short: "Gepanzertes Mehrzweckfahrzeug Cougar (AVGP)"
  CAN_Rec_tank_3: "Leicht gepanzertes Fahrzeug  II Coyote (LAV)"
  CAN_Rec_tank_3_short: "Leicht gepanzertes Fahrzeug II Coyote (LAV)"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  CAN_util_vehicle_1: "M38A1 CDN"
  CAN_util_vehicle_2: "HLVW"
@@ -858,7 +916,10 @@
  CAN_util_vehicle_6: "Senator APC"
  CAN_util_vehicle_7: "Senator APC NG"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CAN_util_vehicle_8: "AOPIMU"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CAN_Anti_tank_0: "M72A5-C1"
@@ -869,6 +930,7 @@
  CAN_Air_UAV2: "MQ-9 Reaper"
  CAN_Air_UAV3: "MQ-17 Banshee"
  CAN_Air_UAV4: "MQ-25 God's Eye"
+<<<<<<< HEAD
 <<<<<<< HEAD
  CHI_infantry_weapons: "Type-56"
  CHI_infantry_weapons_desc: "Das Type 56 (auch bekannt als AK-56) ist ein chinesisches 7,62x39-mm-Gewehr. Es handelt sich um eine Variante der sowjetisch entwickelten AK-47 und AKM Gewehren."
@@ -883,6 +945,8 @@
  CHI_infantry_weapons_6: "QBZ-191"
  CHI_infantry_weapons_7: "QBZ-272"
  CHI_infantry_weapons_8: "QBZ-353"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CHI_Anti_Air_0: "HN-5"
@@ -1002,6 +1066,7 @@
  CHI_util_vehicle_7: "CSK-181"
  CHI_util_vehicle_8: "CSK-270"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CHI_util_vehicle_9: "ZFB-35"
  CHL_infantry_weapons: "FAMAE SG 510-4"
  CHL_infantry_weapons_short: "SG 510-4"
@@ -1026,6 +1091,10 @@
  CHL_infantry_weapons_short: "SG 510-4"
  COL_util_vehicle_3: "Humvee"
 >>>>>>> main
+=======
+ CHL_infantry_weapons_short: "SG 510-4"
+ COL_util_vehicle_3: "Humvee"
+>>>>>>> main
  CRO_MBT_1: "M-55S"
  CRO_MBT_1_short: "M-55S"
  CRO_MBT_2: "M-84A"
@@ -1045,6 +1114,7 @@
  CRO_artillery_0: "M-56"
  CRO_artillery_1: "M-84 Nora"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CZE_infantry_weapons: "vz. 52"
  CZE_infantry_weapons_2: "vz. 58"
  CZE_infantry_weapons_3: "vz. 58 V"
@@ -1053,6 +1123,8 @@
  CZE_infantry_weapons_6: "CZ BREN 2"
  CZE_infantry_weapons_7: "CZ BREN 3"
  CZE_infantry_weapons_8: "CZ 812 SELMA"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CZE_Anti_tank_0: "PTŘS-12 Volant"
@@ -1077,6 +1149,7 @@
  CZE_Anti_Air_4: "PLŘS-MD vz. 25 Zmije"
  CZE_Anti_Air_4_desc: "Die Raketen nutzen die neuesten Technologien und Hardware, um sogar die Tarnkappenflugzeuge unserer Gegner zu treffen. Sie beinhalten eine Satellitenverbindung, die die Rakete zu jedem Tarnkappenflugzeug führt, da selbst ein Tarnkappenflugzeug im sichtbaren Spektrum nicht unsichtbar ist."
 <<<<<<< HEAD
+<<<<<<< HEAD
  CZE_cnc_equipment_1: "R-140P"
  CZE_cnc_equipment_1_desc: "C&C-Ausrüstung aus der Zeit des Kalten Krieges, die während der Tschechoslowakei mit der Slowakei hergestellt wurde."
  CZE_cnc_equipment_2: "R-150MP"
@@ -1091,6 +1164,8 @@
  CZE_cnc_equipment_6_desc: "C4ISTAR (Befehl, Kontrolle, Kommunikation, Computer, Nachrichtendienst, Interoperabilität, Überwachung, Zielerfassung und Aufklärung) ist die fünfte Generation von C2-Ausrüstung. Command and Control-Ausrüstung ist das System, das der Führung ermöglicht, Autorität und Richtung über zugewiesene Kräfte auszuüben, um Missionen und Aufgaben zu erfüllen. Effizientes Command and Control führt zu besserer Organisation und Moral."
  CZE_cnc_equipment_7: "RF-13250"
  CZE_cnc_equipment_7_desc: "C4ISTAR (Befehl, Kontrolle, Kommunikation, Computer, Zusammenarbeit, Nachrichtendienst, Interoperabilität, Überwachung, Zielerfassung und Aufklärung) ist die siebte Generation von C2-Ausrüstung. Command and Control-Ausrüstung ist das System, das der Führung ermöglicht, Autorität und Richtung über zugewiesene Kräfte auszuüben, um Missionen und Aufgaben zu erfüllen. Effizientes Command and Control führt zu besserer Organisation und Moral."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CZE_MBT_1: "T-54AR Řeka"
@@ -1213,6 +1288,7 @@
  CZE_artillery_4_desc: "Haubitze neuen Kalibers, die aufgrund des erstaunlichen 172mm L/43 Geschützes alles mit einem Schlag zerstören kann."
  CZE_util_vehicle_1: "Praha M59"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CZE_util_vehicle_1_short: "Praha M59"
  CZE_util_vehicle_1_desc: ""
  CZE_util_vehicle_2: "Tatra 813 8x8 KOLOS"
@@ -1231,6 +1307,8 @@
  CZE_util_vehicle_8_desc: "MVAP Jeep mit Minenschutz und sehr hohen Offroad-Geschwindigkeiten dank Computeranalyse mit Vorhersage des Geländes und Autopilot."
  EGY_infantry_weapons: "Maadi AKM"
 =======
+=======
+>>>>>>> main
  CZE_util_vehicle_1_desc: ""
  CZE_util_vehicle_2: "Tatra 813 8x8 KOLOS"
  CZE_util_vehicle_2_desc: "Tatra T-815 mit gepanzerter Fahrerkabine und verbesserten Offroad-Fähigkeiten, neuer Motor und GPS."
@@ -1244,6 +1322,9 @@
  CZE_util_vehicle_6_desc: "Gepanzerter Jeep mit Aufklärungsausrüstung, Kommando- und Kommunikationszentrale oder Beifahrerfähigkeiten."
  CZE_util_vehicle_7: "Tatra 915 8x8"
  CZE_util_vehicle_7_desc: "Vollständig gepanzerter Lastwagen."
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  EGY_Anti_Air_0: "Ayn al Saqr"
  EGY_MBT_1: "Ramses II"
@@ -1258,12 +1339,15 @@
  EGY_SP_R_arty_1: "Sakr-45"
  EGY_artillery_0: "RL812"
 <<<<<<< HEAD
+<<<<<<< HEAD
  FIN_infantry_weapons: "RK 62"
  FIN_infantry_weapons_2: "RK 71"
  FIN_infantry_weapons_3: "Valmet M82"
  FIN_infantry_weapons_4: "RK 95 TP"
  FIN_infantry_weapons_5: "RK 62M1"
  FIN_infantry_weapons_6: "RK 62M2"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  FIN_APC_2: "Sisu Nasu"
@@ -1285,6 +1369,7 @@
  FIN_artillery_1: "155 K 83"
  FIN_artillery_2: "155 K 98"
 <<<<<<< HEAD
+<<<<<<< HEAD
  FIN_util_vehicle_2: "Sisu A-45"
  FIN_util_vehicle_3: "Sisu SA-150"
  FRA_infantry_weapons: "MAS-49/56"
@@ -1302,6 +1387,10 @@
  FRA_infantry_weapons_7_desc: ""
  FRA_infantry_weapons_8: "AIF 40"
  FRA_infantry_weapons_8_desc: ""
+=======
+ FIN_util_vehicle_1: "ZIL-131"
+ FIN_util_vehicle_2: "Sisu A-45"
+>>>>>>> main
 =======
  FIN_util_vehicle_1: "ZIL-131"
  FIN_util_vehicle_2: "Sisu A-45"
@@ -1428,6 +1517,7 @@
  FRA_util_vehicle_6: "VBMR-L Serval"
  FRA_util_vehicle_7: "VBMR-L Serval NG"
 <<<<<<< HEAD
+<<<<<<< HEAD
  FRA_util_vehicle_8: "VLTPNP"
  FSA_util_vehicle_1: "Toyota Land Cruiser"
  FSA_util_vehicle_2: "Toyota Hilux"
@@ -1450,6 +1540,11 @@
  FSA_artillery_0: "Hell Cannon"
  FSA_artillery_0_short: "Hell Cannon"
 >>>>>>> main
+=======
+ FSA_util_vehicle_1: "Toyota Land Cruiser"
+ FSA_artillery_0: "Hell Cannon"
+ FSA_artillery_0_short: "Hell Cannon"
+>>>>>>> main
  GEO_APC_4: "Lazika APC"
  GEO_APC_4_short: "Lazika APC"
  GEO_IFV_4: "Lazika IFV"
@@ -1461,6 +1556,7 @@
  GEO_SP_arty_1: "GMM-120 Selbstfahrender Mörser"
  GEO_SP_arty_1_short: "GMM-120"
  GER_infantry_weapons_short: "G3"
+<<<<<<< HEAD
 <<<<<<< HEAD
  GER_infantry_weapons_desc: "Das Heckler & Koch G3 (Gewehr 3) ist ein in den 1950er Jahren in Westdeutschland vom deutschen Waffenhersteller Heckler & Koch (H&K) in Zusammenarbeit mit der spanischen staatlichen Design- und Entwicklungsagentur CETME entwickeltes Standardgewehr der Nato. Das G3 löste ab 1959 das FN FAL / G1 als Standardgewehr ab und diente bis zur Aufrüstung auf das verbesserte Modell G3A1 im Jahr 1963."
  GER_infantry_weapons_2: "Heckler & Koch G3A3"
@@ -1484,6 +1580,8 @@
  GER_infantry_weapons_8: "Heckler & Koch 433"
  GER_infantry_weapons_8_short: "HK 433"
  GER_infantry_weapons_8_desc: "Das Heckler & Koch 433 (HK433) ist ein modernes, modulares und kompaktes Sturmgewehr mit einer Größe von 5,56 mm x 45 mm und vereint die Stärken und herausragenden Eigenschaften des bisherigen G36 und des HK416 Servicegewehrs. Das HK 433 verfügt über einen neuen faltbaren, versenkbaren Anschlagstock mit höhenverstellbarer Wangenlehne für erhöhte Genauigkeit; die Waffe kann mit dem Anschlagstock auch in zusammengeklappter Position für CQC-Situationen eingesetzt werden."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  GER_APC_1: "M113G"
@@ -1620,6 +1718,7 @@
  GER_artillery_4_desc: "Die M777A2 ist eine weiter verbesserte Variante der M777. Die neuen Upgrades umfassen: Block-1A-Softwareupdate, die Einführung eines verbesserten tragbaren induktiven Artillerie-Zündereinstellgeräts (EPIAFS) zur Verwendung von XM892 Excalibur-gelenkter Munition."
  GER_artillery_4_short: "M777A2"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GER_util_vehicle_1: "Magirus-Deutz Jupiter"
  GER_util_vehicle_1_desc: ""
  GER_util_vehicle_2: "DKW Munga"
@@ -1637,6 +1736,8 @@
  GER_util_vehicle_7_short: "ATF Dingo 3"
  GER_util_vehicle_8: "ATF Dingo 3A1"
 =======
+=======
+>>>>>>> main
  GER_util_vehicle_1: "Unimog"
  GER_util_vehicle_1_short: "Unimog"
  GER_util_vehicle_2: "Volkswagen Iltis"
@@ -1649,6 +1750,9 @@
  GER_util_vehicle_5: "MOWAG Eagle IV"
  GER_util_vehicle_6: "MOWAG Eagle V"
  GER_util_vehicle_7: "MOWAG Eagle VI"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  GER_transport_plane1: "C-160D Transall"
  GER_transport_plane1_desc: "Die Transall C-160 ist ein militärisches Transportflugzeug, das in einem deutsch-französischen Joint Venture hergestellt wird. \"Transall\" ist eine Abkürzung für das Herstellerkonsortium Transporter Allianz, das sich aus den Unternehmen MBB, Aerospatiale und VFW-Fokker zusammensetzt. Sie wurde ursprünglich entwickelt, um die Anforderungen an ein modernes Transportflugzeug für die französischen und deutschen Luftstreitkräfte zu erfüllen und diente zur logistischen Unterstützung von Auslandseinsätzen sowie für Spezialaufgaben wie Luftbetankung, elektronische Aufklärung und als Kommunikationsplattform."
@@ -1669,6 +1773,7 @@
  GER_awacs_plane1_medium: "E-3A Sentry"
  GER_awacs_plane1_medium_desc: "Die Boeing E-3A Sentry ist ein von Boeing entwickeltes luftgestütztes Frühwarn- und Kontrollflugzeug (AEW&C). E-3s sind allgemein als AWACS (Airborne Warning and Control System) bekannt. Das aus dem Boeing 707-Flugzeug abgeleitete Flugzeug bietet Langstrecken-Allwetter-Überwachung, Führung, Kontrolle und Kommunikation."
 <<<<<<< HEAD
+<<<<<<< HEAD
  GRE_infantry_weapons: "EAS G3"
  GRE_infantry_weapons_2: "EAS G3A3"
  GRE_infantry_weapons_3: "EAS G3A4"
@@ -1677,6 +1782,8 @@
  GRE_infantry_weapons_6: "AOR M21"
  GRE_infantry_weapons_7: "FN SCAR-M 6.8"
  GRE_infantry_weapons_8: "FN SCAR-NG"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  GRE_MBT_1: "M60A3"
@@ -1709,7 +1816,10 @@
  GRE_IFV_5_short: "ELVO Kentaurus II"
  GRE_util_vehicle_1: "680M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GRE_util_vehicle_2: "680M3"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  GRE_util_vehicle_4: "240 GD"
@@ -1718,6 +1828,7 @@
  GRE_util_vehicle_5_short: "290 GD"
  GRE_util_vehicle_6: "M1113GR"
  GRE_util_vehicle_6_short: "M1113GR"
+<<<<<<< HEAD
 <<<<<<< HEAD
  GRE_util_vehicle_7: "HOPLITE"
  GRE_util_vehicle_7_short: "HOPLITE"
@@ -1728,6 +1839,14 @@
  HOL_IFV_2: "YPR-765"
  HOL_IFV_2_short: "YPR-765"
  HEZ_util_vehicle_2: "Safir Jeep"
+=======
+ HOL_util_vehicle_1: "DAF YA 328"
+ HOL_util_vehicle_2: "DAF YA 314"
+ HOL_util_vehicle_3: "DAF YA 4440/4442"
+ HOL_util_vehicle_4: "Wolf SSA"
+ HOL_IFV_2: "YPR-765"
+ HOL_IFV_2_short: "YPR-765"
+>>>>>>> main
 =======
  HOL_util_vehicle_1: "DAF YA 328"
  HOL_util_vehicle_2: "DAF YA 314"
@@ -1766,6 +1885,7 @@
  HEZ_SP_Anti_Air_0: "MIM-23 Hawk"
  HEZ_SP_Anti_Air_1: "Raad"
 <<<<<<< HEAD
+<<<<<<< HEAD
  HUN_infantry_weapons: "AMD-65"
  HUN_infantry_weapons_2: "AK-63"
  HUN_infantry_weapons_3: "AMP-69"
@@ -1776,6 +1896,8 @@
  IND_infantry_weapons_5: "Pindad SS4"
  IND_infantry_weapons_6: "Pindad SS5"
  IND_infantry_weapons_7: "Pindad SS6"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  IND_APC_2: "Pindad APS-3"
@@ -1806,14 +1928,18 @@
  IND_util_vehicle_4: "Pindad Komodo"
  IND_util_vehicle_4_short: "Komodo"
 <<<<<<< HEAD
+<<<<<<< HEAD
  IND_util_vehicle_5: "Mahindra Marksman"
  IND_util_vehicle_5_short: "Marksman"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  IND_SP_R_arty_0: "NDL-40"
  IND_SP_R_arty_0_short: "NDL-40"
  IND_SP_R_arty_1: "R-Han 122"
  IND_SP_R_arty_1_short: "R-Han 122"
+<<<<<<< HEAD
 <<<<<<< HEAD
  ENG_infantry_weapons: "L1A1 SLR"
  ENG_infantry_weapons_2: "L1A1 SLR SUIT"
@@ -1823,6 +1949,8 @@
  ENG_infantry_weapons_6: "L85A3"
  ENG_infantry_weapons_7: "L403A1"
  ENG_infantry_weapons_8: "L88A1"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ENG_Anti_Air_0: "Javelin SAM"
@@ -1930,6 +2058,7 @@
  ENG_artillery_1: "L118 Light Gun"
  ENG_artillery_2: "M777 Howitzer"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ENG_util_vehicle_1: "Bedford MK"
  ENG_util_vehicle_2: "Land Rover 110 LWG GS"
  ENG_util_vehicle_3: "Land Rover WMIK Defender"
@@ -1947,6 +2076,8 @@
  ISR_infantry_weapons_7: "IWI CAR-26"
  ISR_infantry_weapons_8: "IWI TAR-35"
 =======
+=======
+>>>>>>> main
  ENG_util_vehicle_1: "Land Rover 110 LWG GS"
  ENG_util_vehicle_2: "Land Rover WMIK Defender"
  ENG_util_vehicle_3: "Land Rover \"Wolf\""
@@ -1954,6 +2085,9 @@
  ENG_util_vehicle_5: "Foxhound"
  ENG_util_vehicle_6: "Jackal Gen2"
  ENG_util_vehicle_7: "Land Rover 35 Protector"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  ISR_Heavy_Anti_tank_1: "MAPATS Hutra"
  ISR_Heavy_Anti_tank_2: "Spike NLOS"
@@ -2031,9 +2165,15 @@
  ISR_util_vehicle_1: "AIL Abir"
  ISR_util_vehicle_1_short: "Abir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ISR_util_vehicle_2: "RBY MK 1"
  ISR_util_vehicle_2_short: "RBY MK 1"
  ISR_util_vehicle_3: "M-240 Storm"
+=======
+ ISR_util_vehicle_2: "RBY MK1"
+ ISR_util_vehicle_2_short: "RBY MK1"
+ ISR_util_vehicle_3: "M-242 Storm"
+>>>>>>> main
 =======
  ISR_util_vehicle_2: "RBY MK1"
  ISR_util_vehicle_2_short: "RBY MK1"
@@ -2045,8 +2185,11 @@
  ISR_util_vehicle_5: "Plasan Sand Cat"
  ISR_util_vehicle_5_short: "Sand Cat"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ISR_util_vehicle_6: "Plasan Sand Cat Stormer"
  ISR_util_vehicle_6_short: "Sand Cat Stormer"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ISR_Rec_tank_0: "M51"
@@ -2064,7 +2207,10 @@
  IRE_APC_1: "Timoney Armoured Personnel Carrier"
  IRE_APC_1_short: "Timoney APC"
 <<<<<<< HEAD
+<<<<<<< HEAD
  IRQ_infantry_weapons_2: "Tabuk Sniper"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  IRQ_SP_arty_1: "Al-Fao"
@@ -2076,7 +2222,10 @@
  ISI_util_vehicle_2: "Ural-4320"
  ISI_util_vehicle_3: "KamAZ-4310"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ISI_util_vehicle_4: "KamAZ-4350"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ISI_MBT_1: "T-55"
@@ -2094,6 +2243,7 @@
  ISI_SP_R_arty_0: "BM-21 Grad"
  ISI_artillery_0: "Hell Cannon"
  ISI_artillery_0_short: "Hell Cannon"
+<<<<<<< HEAD
 <<<<<<< HEAD
  ITA_infantry_weapons: "BM59"
  ITA_infantry_weapons_desc: "BM 59 ist ein automatikgewehr, das in Italien entwickelt wurde und im Jahr 1959 herausgebracht wurde. Es basiert auf dem M1 Garand Gewehr, mit einer Kaliberung von 7,62x51 mm NATO, das modifiziert wurde, um mit abnehmbaren Magazinen zu arbeiten, und es ist fähig, selektives Feuer zu verwenden. Spätere Revisionen haben weitere Funktionen integriert, die mit moderneren Gewehren übereinstimmen."
@@ -2123,6 +2273,8 @@
  ITA_cnc_equipment_6_desc: "C4ISTAR (Kommando, Kontrolle, Kommunikation, Computer, Intelligenz, Interoperabilität, Aufklärungs- und Zielannahme) ist die fünfte Generation von C2-Ausrüstungen. Die Systeme zur Führung und Kontrolle bieten Leadern die Möglichkeit, ihre Zugewanderungen gegen den Willen der Armee auszuüben und Missionsaufgaben zu erfüllen. Effektive Kommando- und Kontrolle führt zu einer besseren Organisation und stärkerer Einheit."
  ITA_cnc_equipment_7: "SIACCON NCW ADV"
  ITA_cnc_equipment_7_desc: "C4ISTAR (Kommando, Kontrolle, Kommunikation, Computer, Zusammenarbeit, Intelligenz, Interoperabilität, Aufklärung, Zielakquisition und Rekognosse) ist die siebte Generation von C2-Ausrüstungen. Kommando und Kontrollsysteme sind das Unterzeichnete, welches Autorität zur Anwendung übertragen kann und mitgeteilt wird. Ein effektives Kommando und Kontrolle führt zu einer verbesserten Organisation und Moral."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ITA_APC_1: "M-113"
@@ -2243,7 +2395,11 @@
  ITA_Anti_Air_4_desc: "Dieses System, das im Rahmen der DARPA-Initiative entwickelt wurde, ist das Sternstundelement unserer MANPAD-Waffenplattformen. Mit den neuesten Entwicklungen sowie mit der Miniaturisierung von Sensoren hatten unsere Ingenieure diesen Effekt die Möglichkeit ein, mit dem leistungsfähigsten Power 1 man zu vernichten oder bestimmte der staunachsten Flugzeuge unserer Feinde zu stillschweigen."
  ITA_util_vehicle_1: "FIAT AR59"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ITA_util_vehicle_2: "Land rover AR90"
+=======
+ ITA_util_vehicle_2: "Land Rover AR90"
+>>>>>>> main
 =======
  ITA_util_vehicle_2: "Land Rover AR90"
 >>>>>>> main
@@ -2252,6 +2408,7 @@
  ITA_util_vehicle_5: "VTLM Lince"
  ITA_util_vehicle_6: "VTLM 1A Lince"
  ITA_util_vehicle_7: "VTLM 2 Lince"
+<<<<<<< HEAD
 <<<<<<< HEAD
  ITA_util_vehicle_8: "VTLM 2A Lince"
  JAP_infantry_weapons: "Howa Type 64"
@@ -2262,6 +2419,8 @@
  JAP_infantry_weapons_6: "Howa Type 20"
  JAP_infantry_weapons_7: "Howa MCX 6.8"
  JAP_infantry_weapons_8: "Howa Type 31"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  JAP_Anti_Air_0: "Type 75 SAM"
@@ -2367,6 +2526,11 @@
  JAP_SP_Anti_Air_4: "Type 07 Chū-SAM"
  JAP_SP_Anti_Air_4_short: "Type 07 Chū-SAM"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ JAP_util_vehicle_1: "Nissan Patrol"
+ JAP_util_vehicle_1_short: "Nissan Patrol"
+>>>>>>> main
 =======
  JAP_util_vehicle_1: "Nissan Patrol"
  JAP_util_vehicle_1_short: "Nissan Patrol"
@@ -2376,6 +2540,7 @@
  JAP_util_vehicle_3: "Isuzu SKW"
  JAP_util_vehicle_3_short: "Isuzu SKW"
  JAP_util_vehicle_4: "Toyota Hochmobilitätsfahrzeug"
+<<<<<<< HEAD
 <<<<<<< HEAD
  JAP_util_vehicle_4_short: "Toyota HMF"
  JAP_util_vehicle_5: "Komatsu LAV"
@@ -2393,6 +2558,14 @@
  KOR_infantry_weapons_6: "Daewoo K2C1"
  KOR_infantry_weapons_7: "Daewoo SR-16"
  KOR_infantry_weapons_8: "Daewoo K27C"
+=======
+ JAP_util_vehicle_5: "Komatsu LAV"
+ JAP_util_vehicle_6: "Komatsu LAV-2"
+ JAP_util_vehicle_7: "Komatsu Tora"
+ JOR_util_vehicle_3: "Humvee"
+ JOR_util_vehicle_4: "M1113 Humvee ECV"
+ KAZ_SP_arty_2: "Semser"
+>>>>>>> main
 =======
  JAP_util_vehicle_5: "Komatsu LAV"
  JAP_util_vehicle_6: "Komatsu LAV-2"
@@ -2491,7 +2664,10 @@
  KOR_util_vehicle_6: "K151 Raycolt"
  KOR_util_vehicle_7: "KJLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  KOR_util_vehicle_8: "K451"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  MAY_APC_4: "DefTech AV8 Gempita"
@@ -2500,6 +2676,7 @@
  MAY_IFV_4_short: "IFV30 Gempita"
  MAY_util_vehicle_1: "HICOM Handalan"
  MAY_util_vehicle_1_short: "HICOM Handalan"
+<<<<<<< HEAD
 <<<<<<< HEAD
  MAY_util_vehicle_2: "HICOM Handalan III"
  MAY_util_vehicle_2_short: "HICOM Handalan III"
@@ -2517,6 +2694,10 @@
  MAY_util_vehicle_4: "Weststar GK-M1 Rapid Rover"
  MAY_util_vehicle_4_short: "GK-M1 Rapid Rover"
 >>>>>>> main
+=======
+ MAY_util_vehicle_4: "Weststar GK-M1 Rapid Rover"
+ MAY_util_vehicle_4_short: "GK-M1 Rapid Rover"
+>>>>>>> main
  MEX_IFV_1: "Sedena-Henschel HWK-11"
  MEX_IFV_1_short: "HWK-11"
  MEX_Rec_tank_0: "DN-III"
@@ -2525,6 +2706,7 @@
  MEX_Rec_tank_1_short: "DN-IV Caballo"
  MEX_Rec_tank_2: "DN-V Toro"
  MEX_Rec_tank_2_short: "DN-V Toro"
+<<<<<<< HEAD
 <<<<<<< HEAD
  NIG_infantry_weapons: "AKM"
  NIG_infantry_weapons_2: "G3"
@@ -2538,6 +2720,10 @@
  NKO_infantry_weapons_6: "AK-12"
  NKO_infantry_weapons_7: "AK-12M1"
  NKO_infantry_weapons_8: "AK-31"
+=======
+ NIG_util_vehicle_3: "CS/VA1"
+ NIG_util_vehicle_4: "URO VAMTAC"
+>>>>>>> main
 =======
  NIG_util_vehicle_3: "CS/VA1"
  NIG_util_vehicle_4: "URO VAMTAC"
@@ -2630,6 +2816,7 @@
  NKO_util_vehicle_7: "ZFB-21"
  NKO_util_vehicle_8: "ZFB-27"
 <<<<<<< HEAD
+<<<<<<< HEAD
  NKO_util_vehicle_9: "ZFB-35"
  NOR_infantry_weapons_3: "AG3F1"
  NOR_cnc_equipment_1: "Kongsberg Tactical Communication System"
@@ -2648,6 +2835,8 @@
  NOR_cnc_equipment_7_short: "HEIMDALL C5I"
 =======
 >>>>>>> main
+=======
+>>>>>>> main
  NOR_Anti_Air_1: "NALLADS"
  NOR_Heavy_Anti_tank_1: "NM142 Raketenpanzerjäger"
  NOR_Heavy_Anti_tank_1_short: "NM142"
@@ -2663,6 +2852,7 @@
  NOR_SP_Anti_Air_3: "NASAMS-III"
  NOR_SP_Anti_Air_4: "NASAMS-IV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  NOR_util_vehicle_1: "Pingzauer 710/712"
  NUS_util_vehicle_1: "ZIL-131"
  NUS_util_vehicle_2: "Ural-4320"
@@ -2670,6 +2860,13 @@
  NUS_artillery_0_short: "Improvisierte Artillerie"
  OMA_util_vehicle_5: "MaxxPro MRAP"
  OMA_util_vehicle_6: "M-ATV"
+=======
+ NUS_util_vehicle_1: "ZIL-131"
+ NUS_artillery_0: "Improvisierte Artillerie"
+ NUS_artillery_0_short: "Improvisierte Artillerie"
+ OMA_util_vehicle_4: "M1113 Humvee ECV"
+ OMA_util_vehicle_5: "MaxxPro MRAP"
+>>>>>>> main
 =======
  NUS_util_vehicle_1: "ZIL-131"
  NUS_artillery_0: "Improvisierte Artillerie"
@@ -2694,6 +2891,7 @@
  PAK_SP_R_arty_0: "KRL 122"
  PAK_util_vehicle_1: "Nishan"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PAK_util_vehicle_2: "Yasoob"
  PER_infantry_weapons: "Type 56"
  PER_infantry_weapons_2: "Sayyad 5.56"
@@ -2703,6 +2901,8 @@
  PER_infantry_weapons_6: "Masaf 1"
  PER_infantry_weapons_7: "Fajr-41"
  PER_infantry_weapons_8: "Arash"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  PER_APC_1: "M-113"
@@ -2760,7 +2960,10 @@
  PER_util_vehicle_4: "Aras"
  PER_util_vehicle_5: "Toofan"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PER_util_vehicle_6: "Toofan 2"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  PER_SP_R_arty_0: "Hadid HM-20"
@@ -2796,6 +2999,7 @@
  PER_EQUIPMENT_VERSION_15: "-15"
  PER_EQUIPMENT_VERSION_16: "-Warner, stop"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PHI_infantry_weapons_4: "SOAR"
  PHI_infantry_weapons_5: "PVAR"
  PHI_util_vehicle_1: "Delta Mini Cruiser"
@@ -2812,6 +3016,10 @@
  POL_body_armor_2: "Kamizelka KLV"
  POL_body_armor_3: "Uniwersalna Kamizelka Ochronna KWM-02"
  POL_body_armor_4: "Uniwersalna Kamizelka Ochronna KWM-02M"
+=======
+ PHI_util_vehicle_1: "Delta Mini Cruiser"
+ PHI_util_vehicle_1_short: "Delta Mini Cruiser"
+>>>>>>> main
 =======
  PHI_util_vehicle_1: "Delta Mini Cruiser"
  PHI_util_vehicle_1_short: "Delta Mini Cruiser"
@@ -2893,7 +3101,10 @@
  POL_util_vehicle_4: "Star 1466"
  POL_util_vehicle_5: "AMZ Dzik"
 <<<<<<< HEAD
+<<<<<<< HEAD
  POL_util_vehicle_6: "AMZ Żubr"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  POL_early_helicopter: "SM-1"
@@ -2902,6 +3113,7 @@
  POR_APC_1_short: "V-200 Chaimite"
  POR_Rec_tank_0: "Cadillac Cage Commando V150"
  POR_Rec_tank_0_short: "Commando V150"
+<<<<<<< HEAD
 <<<<<<< HEAD
  PRU_infantry_weapons: "FN FAL"
  PRU_infantry_weapons_2: "Galil Sturmgewehr"
@@ -2915,6 +3127,8 @@
  RAJ_infantry_weapons_4: "INSAS 1B"
  RAJ_infantry_weapons_5: "AR-M1"
  RAJ_infantry_weapons_6: "SIG 716i"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  RAJ_Anti_tank_2: "Nag MP"
@@ -2950,8 +3164,11 @@
  RAJ_util_vehicle_4: "Yuktirath"
  RAJ_util_vehicle_5: "TATA LAMV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  RAJ_util_vehicle_6: "Mahindra Minengeschütztes Fahrzeug"
  RAJ_util_vehicle_6_short: "Mahindra MPV"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  RAJ_SP_R_arty_1: "Pinaka MBRL"
@@ -2963,6 +3180,7 @@
  RAJ_SP_arty_1: "OFB SPG"
  RAJ_SP_Anti_Air_1: "DRDO Akash"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ROM_infantry_weapons: "PM md. 63"
  ROM_infantry_weapons_2: "PM md. 75"
  ROM_infantry_weapons_3: "PA md. 86"
@@ -2970,6 +3188,8 @@
  ROM_infantry_weapons_5: "Beretta ARX160"
  ROM_infantry_weapons_6: "Beretta ARX160A2"
  ROM_infantry_weapons_7: "Beretta ARX160A3"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ROM_APC_1: "TAB-71"
@@ -3002,6 +3222,7 @@
  ROM_SP_Anti_Air_1: "CA-95"
  ROM_Anti_Air_0: "CA-94"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SAF_infantry_weapons: "Vektor R1"
  SAF_infantry_weapons_2: "Vektor R2"
  SAF_infantry_weapons_3: "Vektor R4"
@@ -3010,6 +3231,8 @@
  SAF_infantry_weapons_6: "Vektor R11"
  SAF_infantry_weapons_7: "Vektor R15"
  SAF_infantry_weapons_8: "Vektor R21"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SAF_APC_2: "Büffel"
@@ -3073,13 +3296,17 @@
  SAF_util_vehicle_6: "Mbombe-6"
  SAF_util_vehicle_7: "RG-39"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SAF_util_vehicle_8: "RG-42"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SAF_SP_Anti_Air_1: "Rooikat ZA-35"
  SAU_APC_4: "AF-40 Al-Fahd"
  SAU_APC_4_short: "AF-40 Al-Fahd"
  SAU_SP_Anti_Air_1: "Shahine"
+<<<<<<< HEAD
 <<<<<<< HEAD
  SAU_util_vehicle_6: "M-ATV"
  SER_infantry_weapons: "Zastava M70"
@@ -3090,6 +3317,9 @@
  SER_infantry_weapons_6: "Zastava M19"
  SER_infantry_weapons_7: "Zastava M38"
  SER_infantry_weapons_8: "Zastava M46"
+=======
+ SAU_util_vehicle_5: "MaxxPro MRAP"
+>>>>>>> main
 =======
  SAU_util_vehicle_5: "MaxxPro MRAP"
 >>>>>>> main
@@ -3130,6 +3360,7 @@
  SER_util_vehicle_3: "FAP 2026"
  SER_util_vehicle_4: "Zastava Novo Terensko Vozilo"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SER_util_vehicle_4_short: "Zastava NTV"
  SER_util_vehicle_5: "Lazar BVT"
  SER_util_vehicle_6: "BOV M16 Milos"
@@ -3155,6 +3386,15 @@
  SIN_infantry_weapons_5_desc: "Anfang der 2000er Jahre hatte das Verteidigungsministerium einen neuen Rahmen für eine technologisch fortschrittliche Kampftruppe vorgestellt und die Initiative zur Umwandlung der SAF in eine Armee der dritten Generation gestartet. Der SAR 21 MMS ist eine modifizierte Variante des SAR 21, die unter das Advanced Combat Man System fällt. Es wurde 2005 eingeführt, um jedem Soldaten das Situationsbewusstsein zu geben, das er auf dem modernen Gefechtsfeld braucht, voll integriert mit HUD-Displays, taktischen Datenverbindungen und einem fortschrittlichen Kommunikationsnetz als Teil des Übergangs der SAF zu einer 3G-Kampftruppe."
  SIN_infantry_weapons_6: "BR 18 BMCR"
  SIN_infantry_weapons_6_desc: "Das BMCR wurde erstmals auf der Singapore Air Show 2014 als Teil der Zukunftstechnologie der SAF vorgestellt. Bald darauf wurde es zum BR-18-Sturmgewehr, das das SAR 21 ersetzen wird und 2018 in Produktion gehen soll."
+=======
+ SER_util_vehicle_5: "Lazar BVT"
+ SIA_util_vehicle_2: "M50 Chaiprakarn"
+ SIA_util_vehicle_2_short: "M50"
+ SIA_util_vehicle_3: "M51 Chaiprakarn"
+ SIA_util_vehicle_4: "TR MUV4"
+ SIA_artillery_0: "M618A2"
+ SIA_SP_R_arty_1: "DTI-2"
+>>>>>>> main
 =======
  SER_util_vehicle_5: "Lazar BVT"
  SIA_util_vehicle_2: "M50 Chaiprakarn"
@@ -3216,6 +3456,7 @@
  SIN_util_vehicle_5: "Leichtes Angriffsfahrzeug Mk.II"
  SIN_util_vehicle_5_short: "LSV Mk.II"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SIN_util_vehicle_6: "Belrex PCSV"
  SIN_util_vehicle_6_short: "Belrex"
  SIN_util_vehicle_6_desc: "Der Belrex PCSV wurde 2016 im Rahmen der Initiative der südafrikanischen Streitkräfte zur Umwandlung ihrer Armee in eine Kampftruppe der dritten Generation vorgestellt. Ursprünglich wurde der Belrex vom südafrikanischen Marauder MRAP abgeleitet und soll eine ähnliche Funktion erfüllen, kann aber flexibel für verschiedene Missionen und Bedürfnisse angepasst werden. Der Belrex sollte die 5-Tonnen-Lastwagen und gepanzerten Fahrzeuge der SAF ersetzen."
@@ -3226,6 +3467,13 @@
  SLO_SP_arty_1: "ShKH Zuzana"
  SLV_infantry_weapons_2: "Zastava M70BN"
  SLV_infantry_weapons_3: "Zastava M80"
+=======
+ SLO_APC_4: "Tatrapan"
+ SLO_SP_R_arty_0: "RM-51"
+ SLO_SP_R_arty_1: "RM-70"
+ SLO_util_vehicle_4: "Wolf SSA"
+ SLO_SP_arty_1: "ShKH Zuzana"
+>>>>>>> main
 =======
  SLO_APC_4: "Tatrapan"
  SLO_SP_R_arty_0: "RM-51"
@@ -3247,6 +3495,7 @@
  SLV_Anti_tank_0: "M79 Osa"
  SLV_util_vehicle_1: "TAM 110"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SLV_util_vehicle_2: "TAM 150"
  SLV_SP_R_arty_0: "M-63 Plamen"
  SOO_infantry_weapons: "AKM"
@@ -3267,6 +3516,9 @@
  SOV_infantry_weapons_6_desc: "Das AK-12 ist ein neues russisches Sturmgewehr. Es wurde im Rahmen des Ratnik-Programms für zukünftige Infanteristen entwickelt. Es ist für Spezialeinheiten bestimmt und wird die Produktion des AK-103 ersetzen. Die AK-12 verfügt über eine verbesserte Balance und Ergonomie, was sie zum bisher besten russischen Sturmgewehr macht."
  SOV_infantry_weapons_7: "AK-12M1"
  SOV_infantry_weapons_8: "AK-31"
+=======
+ SLV_SP_R_arty_0: "M-63 Plamen"
+>>>>>>> main
 =======
  SLV_SP_R_arty_0: "M-63 Plamen"
 >>>>>>> main
@@ -3412,6 +3664,7 @@
  SOV_util_vehicle_3_desc: "Ein Logistik- und Truppentransporter, der von vielen Streitkräften auf der ganzen Welt eingesetzt wird."
  SOV_util_vehicle_4: "KamAZ-4350"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SOV_util_vehicle_4_desc: "Ein Logistik- und Truppentransporter, der von vielen Streitkräften auf der ganzen Welt eingesetzt wird."
  SOV_util_vehicle_5: "GAZ Tigr"
  SOV_util_vehicle_5_desc: "Dieser gepanzerte Truppentransporter kann mit einer Reihe verschiedener Waffen ausgerüstet werden und bis zu 11 Mann befördern."
@@ -3419,10 +3672,15 @@
  SOV_util_vehicle_7: "K-4386 Typhoon-M"
  SOV_util_vehicle_8: "K-5521 Cyclone"
 =======
+=======
+>>>>>>> main
  SOV_util_vehicle_4_desc: "Ein Logistik-LKW und Truppentransporter, verwendet von vielen Militärs Welt weit."
  SOV_util_vehicle_5: "GAZ Tigr"
  SOV_util_vehicle_6: "K-63968 Typhoon-K"
  SOV_util_vehicle_7: "K-4386 Typhoon-M"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  SYR_MBT_1: "T-55"
  SYR_MBT_1_desc: "Der T-54/55 ist vielleicht der meistproduzierte Panzer der Welt. Er wurde in den ersten Jahren des Kalten Krieges entwickelt und produziert und war die Macht und das Rückgrat der Roten Armee. Einst als Symbol der russischen Macht gefürchtet, ist er heute das Sinnbild für die Zerstörung der Panzertruppen im Nahen Osten durch einen amerikanischen Luftangriff."
@@ -3470,9 +3728,12 @@
  SYR_IFV_8: "T-16"
  SYR_IFV_8_short: "T-16"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SPR_infantry_weapons: "CETME Model A"
  SPR_infantry_weapons_2: "CETME Model C"
  SPR_infantry_weapons_3: "CETME Model L"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SPR_Anti_tank_1: "Alcotán-100"
@@ -3553,7 +3814,10 @@
  SPR_util_vehicle_5: "Iveco LMV"
  SPR_util_vehicle_6: "Iveco LMV2"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SPR_util_vehicle_7: "Dingo 3"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SRI_APC_2: "Unicorn APC"
@@ -3588,8 +3852,12 @@
  SYR_artillery_0: "D-30"
  SYR_util_vehicle_1: "ZIL-131"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SYR_util_vehicle_2: "Ural-4320"
  SYR_util_vehicle_5: "GAZ Tigr"
+=======
+ SYR_util_vehicle_4: "KamAZ-4350"
+>>>>>>> main
 =======
  SYR_util_vehicle_4: "KamAZ-4350"
 >>>>>>> main
@@ -3606,6 +3874,7 @@
  SUD_IFV_2: "Khatim 1 IFV"
  SUD_IFV_2_short: "Khatim 1 IFV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SUD_util_vehicle_5: "Mamba"
  SWE_infantry_weapons: "Kpist m/45"
  SWE_infantry_weapons_2: "Ak 4"
@@ -3615,6 +3884,9 @@
  SWE_infantry_weapons_6: "Ak 5 D"
  SWE_infantry_weapons_7: "Ak 24"
  SWE_infantry_weapons_8: "Ak 36"
+=======
+ SUD_util_vehicle_4: "URO VAMTAC"
+>>>>>>> main
 =======
  SUD_util_vehicle_4: "URO VAMTAC"
 >>>>>>> main
@@ -3696,6 +3968,7 @@
  SWE_artillery_1_short: "FH77"
  SWE_util_vehicle_1: "Volvo L3314"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SWE_util_vehicle_2: "Terrängbil 11"
  SWE_util_vehicle_3: "Land Rover Defender"
  SWE_util_vehicle_4: "Ptgb 5"
@@ -3712,6 +3985,12 @@
  SWI_infantry_weapons_5_short: "SG 553"
  SWI_infantry_weapons_6: "SIG Sturmgewehr MCX"
  SWI_infantry_weapons_6_short: "SG MCX"
+=======
+ SWE_util_vehicle_2: "Terrängbil11"
+ SWE_util_vehicle_3: "Land Rover Defender"
+ SWE_util_vehicle_4: "Ptgb 5"
+ SWI_infantry_weapons_short: "SG 510"
+>>>>>>> main
 =======
  SWE_util_vehicle_2: "Terrängbil11"
  SWE_util_vehicle_3: "Land Rover Defender"
@@ -3745,6 +4024,7 @@
  SWI_util_vehicle_5: "Mowag Eagle IV"
  SWI_util_vehicle_5_short: "Eagle IV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SWI_util_vehicle_6: "Mowag Eagle V"
  SWI_util_vehicle_6_short: "Eagle V"
  SWI_SP_Anti_Air_1: "Air Defense Anti-Tank System"
@@ -3756,6 +4036,10 @@
  TAI_infantry_weapons_5: "T91"
  TAI_infantry_weapons_6: "T91K1"
  TAI_infantry_weapons_7: "T112"
+=======
+ SWI_SP_Anti_Air_1: "Air Defense Anti-Tank System"
+ SWI_SP_Anti_Air_1_short: "ADATS"
+>>>>>>> main
 =======
  SWI_SP_Anti_Air_1: "Air Defense Anti-Tank System"
  SWI_SP_Anti_Air_1_short: "ADATS"
@@ -3782,6 +4066,7 @@
  TAI_Rec_tank_3: "CM-37 MGS"
  TAL_util_vehicle_1: "ZIL-131"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TAL_util_vehicle_2: "Ural-4320"
  TNZ_SP_R_arty_2: "A-100 MRL"
  TUR_Air_UAV1: "Bayraktar TB2"
@@ -3794,6 +4079,11 @@
  TUR_infantry_weapons_6: "MPT-76"
  TUR_infantry_weapons_7: "MPT-85"
  TUR_infantry_weapons_8: "MPT-88"
+=======
+ TNZ_SP_R_arty_2: "A-100 MRL"
+ TUR_Air_UAV1: "Bayraktar TB2"
+ TUR_Air_UAV2: "TAI Anka"
+>>>>>>> main
 =======
  TNZ_SP_R_arty_2: "A-100 MRL"
  TUR_Air_UAV1: "Bayraktar TB2"
@@ -3845,6 +4135,7 @@
  TUR_SP_arty_1: "M52T"
  TUR_SP_arty_2: "T-155 Firtina"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TUR_artillery_2: "MKE Boran"
  TUR_util_vehicle_1: "M38 Jeep"
  TUR_util_vehicle_3: "Otokar Akrep"
@@ -3860,6 +4151,8 @@
  TUR_util_vehicle_8_short: "Ejder Yalcin II"
  TUR_Heavy_Anti_tank_2: "OMTAS"
 =======
+=======
+>>>>>>> main
  TUR_artillery_2: "MKE Panter"
  TUR_util_vehicle_2: "Otokar Land Rover"
  TUR_util_vehicle_3: "Otokar Cobra"
@@ -3868,6 +4161,9 @@
  TUR_util_vehicle_6: "BMC Vuran"
  TUR_util_vehicle_7: "BMC Turan"
  TUR_Heavy_Anti_tank_2: "FNSS Pars 4x4 STA"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  TUR_Anti_tank_2: "OMTAS"
  UAE_APC_6: "EDT Enigma"
@@ -3876,6 +4172,7 @@
  UAE_IFV_6_short: "EDT Enigma"
  UAE_SP_arty_2: "Enigma"
  UAE_SP_R_arty_1: "Jobaria MCL"
+<<<<<<< HEAD
 <<<<<<< HEAD
  UAE_util_vehicle_5: "MaxxPro MRAP"
  UAE_util_vehicle_6: "M-ATV"
@@ -3890,11 +4187,16 @@
  UKR_util_vehicle_6: "Kozak"
  UKR_util_vehicle_6_desc: ""
 =======
+=======
+>>>>>>> main
  UAE_util_vehicle_4: "M1113 HumveeECV"
  UAE_util_vehicle_5: "MaxxPro MRAP"
  UKR_util_vehicle_1: "KrAZ-255"
  UKR_util_vehicle_4: "KrAZ-6322"
  UKR_util_vehicle_5: "Dozor-B"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  UKR_APC_1: "BTR-60"
  UKR_APC_1_desc: "Der BTR-60 ist eines der ältesten noch im Einsatz befindlichen Fahrzeuge und verfügt über ein schweres KPVT-Maschinengewehr im Kaliber 14,5 mm mit 500 Schuss. Die Sekundärwaffe ist ein koaxiales 7,62-mm-PKT-Maschinengewehr mit 3.000 Schuss. Ideal für leichte Infanteriebewegungen und QRFs."
@@ -3961,6 +4263,7 @@
  UKR_artillery_1: "2A65 Msta-B"
  UKR_Anti_tank_1: "9K111 Fagot"
 <<<<<<< HEAD
+<<<<<<< HEAD
  USA_infantry_weapons: "M14"
  USA_infantry_weapons_desc: "Das M14-Gewehr, offiziell United States Rifle, Kaliber 7,62 mm, M14, ist ein amerikanisches Schnellfeuergewehr, das mit 7,62x51mm NATO-Munition (.308 Zoll) verschossen wird. Es wurde 1959 zum Standardgewehr des US-Militärs und löste 1961 das M1 Garand-Gewehr der US-Armee ab."
  USA_infantry_weapons_2: "M16A1"
@@ -3977,6 +4280,8 @@
  USA_infantry_weapons_6_desc: ""
  USA_infantry_weapons_8: "Titan APPL"
  USA_infantry_weapons_8_desc: "Diese Waffenplattform weist dieselbe amerikanische Zuverlässigkeit des M4-Systems auf, verwendet aber eine für das 21. Jahrhundert völlig einzigartige Technologie. Jahrhundert. Dieses System ist nicht nur durch die Verwendung von hülsenloser Munition leicht, sondern nutzt auch eine Variante der miniaturisierten magnetischen Beschleunigung, die die Waffe zu einer frühen handgehaltenen Hybrid-Railgun macht."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  USA_Anti_Air_0: "FIM-43 Redeye"
@@ -4092,6 +4397,7 @@
  USA_util_vehicle_2: "M151 Jeep"
  USA_util_vehicle_3: "Humvee"
 <<<<<<< HEAD
+<<<<<<< HEAD
  USA_util_vehicle_4: "M1113 Humvee ECV"
  USA_util_vehicle_6: "M-ATV"
  USA_util_vehicle_5: "MaxxPro MRAP"
@@ -4099,11 +4405,16 @@
  USA_util_vehicle_8: "AOPIMU"
  VEN_util_vehicle_3: "KamAZ-4310"
 =======
+=======
+>>>>>>> main
  USA_util_vehicle_5: "MaxxPro MRAP"
  USA_util_vehicle_4: "M1113 HumveeECV"
  USA_util_vehicle_6: "M-ATV"
  USA_util_vehicle_7: "JLTV"
  VEN_util_vehicle_2: "Ural-4320"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  DEN_mbt_equipment_0: "Leopard 1"
  DEN_mbt_equipment_1: "Leopard 2A6"
@@ -4111,12 +4422,15 @@
  DEN_mbt_equipment_3: "KF51 Panther"
  DEN_mbt_equipment_4: "MGCS Scorpion"
 <<<<<<< HEAD
+<<<<<<< HEAD
  VIE_infantry_weapons: "AKM"
  VIE_infantry_weapons_2: "M18"
  VIE_infantry_weapons_3: "M16A2VN"
  VIE_infantry_weapons_4: "AKM-1"
  VIE_infantry_weapons_5: "Z111 ACE"
  VIE_infantry_weapons_6: "STV"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  early_fighter: "Frühes Kampfflugzeugdesign"
@@ -6162,6 +6476,7 @@
  light_tank_equipment_3: "Light Tank 2015"
  light_tank_equipment_4: "Light Tank 2035"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BSH_infantry_weapons: "AKM"
  BSH_infantry_weapons_desc: "Das 1959 entwickelte AKM ist die am weitesten verbreitete modernisierte Variante des von Michail Kalaschnikow entwickelten AK-47-Gewehrs. Es ist beim automatischen Feuern viel leichter und präziser als sein Vorgänger."
  BSH_infantry_weapons_2: "AK-74"
@@ -6176,6 +6491,8 @@
  BSH_infantry_weapons_6_desc: "Das AK-12 ist ein neues russisches Sturmgewehr. Es wurde im Rahmen des Ratnik-Programms für zukünftige Infanteristen entwickelt. Es ist für Spezialeinheiten bestimmt und wird die Produktion des AK-103 ersetzen. Die AK-12 verfügt über eine verbesserte Balance und Ergonomie, die sie zum bisher besten russischen Sturmgewehr macht."
  BSH_infantry_weapons_7: "AK-12M1"
  BSH_infantry_weapons_8: "AK-31"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BSH_Anti_Air_0: "9K32 Strela-2"
@@ -6266,6 +6583,7 @@
  BSH_MBT_8: "T-99 Black Eagle"
  BSH_MBT_8_short: "T-99"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CRM_infantry_weapons: "AKM"
  CRM_infantry_weapons_desc: "Das 1959 entwickelte AKM ist die am weitesten verbreitete modernisierte Variante des von Michail Kalaschnikow entwickelten AK-47-Gewehrs. Es ist beim automatischen Feuern viel leichter und präziser als sein Vorgänger."
  CRM_infantry_weapons_2: "AK-74"
@@ -6280,6 +6598,8 @@
  CRM_infantry_weapons_6_desc: "Das AK-12 ist ein neues russisches Sturmgewehr. Es wurde im Rahmen des Ratnik-Programms für zukünftige Infanteristen entwickelt. Es ist für Spezialeinheiten bestimmt und wird die Produktion des AK-103 ersetzen. Die AK-12 verfügt über eine verbesserte Balance und Ergonomie, die sie zum bisher besten russischen Sturmgewehr macht."
  CRM_infantry_weapons_7: "AK-12M1"
  CRM_infantry_weapons_8: "AK-31"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CRM_Anti_Air_0: "9K32 Strela-2"
@@ -6423,6 +6743,7 @@
  CRM_util_vehicle_2_desc: "Ein Logistik- und Truppentransporter, der von vielen Streitkräften auf der ganzen Welt eingesetzt wird."
  CRM_util_vehicle_3: "KamAZ-4310"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CRM_util_vehicle_3_desc: "Ein Logistik- und Truppentransporter, der von vielen Streitkräften auf der ganzen Welt eingesetzt wird."
  CRM_util_vehicle_4: "KamAZ-4350"
  CRM_util_vehicle_4_desc: "Ähnlich wie der Volk kann er 8 mittlere, aber auch HMGs auf der Oberseite tragen. Wird verwendet, um Konvois zu führen."
@@ -6449,6 +6770,8 @@
  TAT_infantry_weapons_7: "AK-12M1"
  TAT_infantry_weapons_8: "AK-31"
 =======
+=======
+>>>>>>> main
  CRM_util_vehicle_3_desc: "A logistics truck and troop carrier used by many militaries around the world."
  CRM_util_vehicle_4: "KamAZ-4350"
  CRM_util_vehicle_4_desc: "Ähnlich wie der Volk kann dieses Fahrzeug 8 Geschütze transportieren, aber auch schwere Maschinengewehre auf dem Dach mitführen. Es wurde zur Führung von Konvois eingesetzt."
@@ -6458,6 +6781,9 @@
  CRM_util_vehicle_6_desc: "Der VPK kann 2+8 Mann transportieren. Mit STANAG 4569 Level 3 Panzerung. Ideal für Spezialeinheiten und Polizeikräfte."
  CRM_util_vehicle_7: "Z-STS Akhmat"
  CRM_util_vehicle_7_desc: "Der Z-STS Akhmat basiert auf dem Trehosnaya-Allradfahrgestell KAMAZ-5350. Er zeichnet sich durch hohe Mobilität und Geländegängigkeit aus und ist zudem einfach zu bedienen. Bemerkenswert ist, dass dieses gepanzerte Fahrzeug – anders als ein herkömmlicher Lkw – nach dem Haubenschema konstruiert ist. Dadurch konnten die Sitzplätze der Besatzung nach hinten verlegt und deren Sicherheit erhöht werden."
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  TAT_Anti_Air_0: "9K32 Strela-2"
  TAT_Anti_Air_0_desc: "Entwickelt zu Beginn des Kalten Krieges mithilfe proportionaler Navigationslogik, um amerikanische Atombomber aufzuspüren und zu zerstören. Eine der einfachsten Flugabwehrformen, die Ziele in einer Entfernung von 3700–4200 m treffen kann."
@@ -6602,6 +6928,7 @@
  TAT_util_vehicle_3_desc: "Ein Logistik- und Truppentransporter, der von vielen Streitkräften auf der ganzen Welt eingesetzt wird."
  TAT_util_vehicle_4: "KamAZ-4350"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TAT_util_vehicle_4_desc: "Ähnlich wie der Volk kann er 8 mittlere, aber auch HMGs auf der Oberseite tragen. Wird verwendet, um Konvois zu führen."
  TAT_util_vehicle_5: "GAZ Tigr"
  TAT_util_vehicle_5_desc: "Dieser gepanzerte Truppentransporter kann mit einer Reihe verschiedener Waffen ausgerüstet werden und bis zu 11 Mann befördern."
@@ -6612,6 +6939,8 @@
  TAT_util_vehicle_8: "VMCTS «Drozd-B»"
  TAT_util_vehicle_8_desc: "Nach einer erfolgreichen Präsentation bei der Armee Armee-2020 amfibis-car \"Drozd\", ein Prototyp auf den Weg zu testen, dass die kleinen Schutz dieser Maschine angezeigt. Infolgedessen entstand die Modifikation \"Drozd-B\". Der neueste gepanzerte Wagen ist in der Lage, Flusshindernisse zu überwinden, ist geländegängig und hat eine geringe Wärmebildfähigkeit. Die rationelle V-förmige Form des unteren Teils des Bodens, der aus einer Verbundpanzerung besteht, bietet einen verbesserten Schutz gegen Drogen."
 =======
+=======
+>>>>>>> main
  TAT_util_vehicle_4_desc: "Ähnlich wie der Volk kann dieses Fahrzeug 8 Geschütze transportieren, aber auch schwere Maschinengewehre auf dem Dach mitführen. Es wurde zur Führung von Konvois eingesetzt."
  TAT_util_vehicle_5: "GAZ Tigr"
  TAT_util_vehicle_5_desc: "Dieser gepanzerte Truppentransporter kann mit einer Reihe verschiedener Waffen ausgerüstet werden und bis zu 11 Mann befördern."
@@ -6619,6 +6948,9 @@
  TAT_util_vehicle_6_desc: "Der VPK kann 2+8 Mann transportieren. Mit STANAG 4569 Level 3 Panzerung. Ideal für Spezialeinheiten und Polizeikräfte."
  TAT_util_vehicle_7: "Z-STS Akhmat"
  TAT_util_vehicle_7_desc: "Der Z-STS Akhmat basiert auf dem Trehosnaya-Allradfahrgestell KAMAZ-5350. Er zeichnet sich durch hohe Mobilität und Geländegängigkeit aus und ist zudem einfach zu bedienen. Bemerkenswert ist, dass dieses gepanzerte Fahrzeug – anders als ein herkömmlicher Lkw – nach dem Haubenschema konstruiert ist. Dadurch konnten die Sitzplätze der Besatzung nach hinten verlegt und deren Sicherheit erhöht werden."
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  BSH_mbt_equipment_0: "T-62"
  BSH_mbt_equipment_1: "T-72"
@@ -6676,6 +7008,7 @@
  BSH_util_vehicle_3_desc: "Ein Logistik- und Truppentransporter, der von vielen Streitkräften auf der ganzen Welt eingesetzt wird."
  BSH_util_vehicle_4: "KamAZ-4350"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BSH_util_vehicle_4_desc: "Ähnlich wie der Volk kann er 8 mittlere, aber auch HMGs auf der Oberseite tragen. Wird verwendet, um Konvois zu führen."
  BSH_util_vehicle_5: "GAZ Tigr"
  BSH_util_vehicle_5_desc: "Dieser gepanzerte Truppentransporter kann mit einer Reihe verschiedener Waffen ausgerüstet werden und bis zu 11 Mann befördern."
@@ -6695,6 +7028,8 @@
  WAG_infantry_weapons_7: "AK-12M1"
  WAG_infantry_weapons_8: "AK-31"
 =======
+=======
+>>>>>>> main
  BSH_util_vehicle_4_desc: "Ähnlich wie der Volk kann dieses Fahrzeug 8 Geschütze transportieren, aber auch schwere Maschinengewehre auf dem Dach mitführen. Es wurde zur Führung von Konvois eingesetzt."
  BSH_util_vehicle_5: "GAZ Tigr"
  BSH_util_vehicle_5_desc: "Dieser gepanzerte Truppentransporter kann mit einer Reihe verschiedener Waffen ausgerüstet werden und bis zu 11 Mann befördern."
@@ -6702,6 +7037,9 @@
  BSH_util_vehicle_6_desc: "Der VPK kann 2+8 Mann transportieren. Mit STANAG 4569 Level 3 Panzerung. Ideal für Spezialeinheiten und Polizeikräfte."
  BSH_util_vehicle_7: "Z-STS Akhmat"
  BSH_util_vehicle_7_desc: "Der Z-STS Akhmat basiert auf dem Trehosnaya-Allradfahrgestell KAMAZ-5350. Er zeichnet sich durch hohe Mobilität und Geländegängigkeit aus und ist zudem einfach zu bedienen. Bemerkenswert ist, dass dieses gepanzerte Fahrzeug – anders als ein herkömmlicher Lkw – nach dem Haubenschema konstruiert ist. Dadurch konnten die Sitzplätze der Besatzung nach hinten verlegt und deren Sicherheit erhöht werden."
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  WAG_Anti_Air_0: "9K32 Strela-2"
  WAG_Anti_Air_0_desc: "Wurde zu Beginn des Kalten Krieges unter Verwendung der Proportionalnavigationslogik entwickelt, um amerikanische Atombomber anzuvisieren und zu zerstören. Eine der einfachsten Formen der Luftabwehr, die Ziele in 3700-4200 m treffen kann."
@@ -6846,10 +7184,13 @@
  WAG_util_vehicle_6: "K-63968 Typhoon-K"
  WAG_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  WAG_util_vehicle_8: "K-5521 Cyclone"
  PMR_infantry_weapons: "AKM"
  PMR_infantry_weapons_2: "AK-74"
  PMR_infantry_weapons_3: "AK-74N"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  PMR_Anti_Air_0: "9K32 Strela-2"
@@ -6939,6 +7280,7 @@
  PMR_util_vehicle_1_desc: "Ein Logistik- und Truppentransporter, der von vielen Streitkräften auf der ganzen Welt eingesetzt wird."
  PMR_util_vehicle_2: "Transvee"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PMR_util_vehicle_2_desc: "Humvee-Kopie auf Basis des GAZ-66-Fahrgestells."
  PMR_util_vehicle_3: "KamAZ-4310"
  PMR_util_vehicle_3_desc: "Ein Logistik- und Truppentransporter, der von vielen Streitkräften auf der ganzen Welt eingesetzt wird."
@@ -6976,6 +7318,8 @@
  NOR_infantry_weapons_7_short: "HK416NM 6.8"
  NOR_infantry_weapons_8: "AIF 40"
 =======
+=======
+>>>>>>> main
  PMR_util_vehicle_2_desc: "Humvee-Nachbau auf Basis des GAZ-66-Fahrgestells."
  PMR_util_vehicle_3: "KamAZ-4310"
  PMR_util_vehicle_3_desc: "Ein Logistik- und Truppentransporter, der von vielen Streitkräften auf der ganzen Welt eingesetzt wird."
@@ -6983,12 +7327,16 @@
  GER_Anti_tank_2_short: "MELLS Spike LR"
  GER_Anti_tank_3_short: "MELLS Spike LR2"
  GER_util_vehicle_3_short: "Wolf SSA"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  nsb_attack_helicopter_tech_1: "1st Gen Attack Helicopter"
  nsb_attack_helicopter_tech_2: "2nd Gen Attack Helicopter"
  nsb_attack_helicopter_tech_3: "3rd Gen Attack Helicopter"
  nsb_attack_helicopter_tech_4: "4th Gen Attack Helicopter"
  nsb_attack_helicopter_tech_5: "5th Gen Attack Helicopter"
+<<<<<<< HEAD
 <<<<<<< HEAD
  TAI_infantry_weapons_8: "T126"
  UKR_infantry_weapons: "AKM"
@@ -7034,6 +7382,10 @@
  UKR_Anti_tank_0: "SPG-9"
  UKR_Anti_tank_2: "Skif Stugna-P"
 >>>>>>> main
+=======
+ UKR_Anti_tank_0: "SPG-9"
+ UKR_Anti_tank_2: "Skif Stugna-P"
+>>>>>>> main
  PER_kamikaze_drone_2: "Shahed-131"
  PER_kamikaze_drone_3: "Shahed-136"
  USA_kamikaze_drone_1: "AGM-136"
@@ -7053,6 +7405,7 @@
  C01_util_vehicle_6: "AMZ Żubr"
  C01_util_vehicle_7: "MRAP 'Lew'"
  C01_util_vehicle_8: "MRAP 'Lew' M2"
+<<<<<<< HEAD
 <<<<<<< HEAD
  C01_util_vehicle_9: "AMZ Żubr"
  HUN_infantry_weapons_5: "AK-63MF"
@@ -7930,6 +8283,8 @@
  TRI_infantry_weapons_8: "Aconcagua 32"
 =======
 >>>>>>> main
+=======
+>>>>>>> main
  HOL_mbt_equipment_0: "Leopard 1"
  HOL_mbt_equipment_1: "Leopard 2A6NL"
  HOL_mbt_equipment_2: "Leopard 2A7"
@@ -7975,6 +8330,7 @@
  BLR_mbt_equipment_3: "T-14"
  BLR_mbt_equipment_4: "T-24"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SWI_infantry_weapons_8: "SG MCX Halberd"
  TUR_util_vehicle_2: "M151 Jeep"
  USA_transport_helicopter4_desc: ""
@@ -7993,6 +8349,10 @@
 =======
  TUR_util_vehicle_1: "Unimog"
  ISR_Anti_tank_1: "MAPATS"
+=======
+ TUR_util_vehicle_1: "Unimog"
+ ISR_Anti_tank_1: "MAPATS"
+>>>>>>> main
  ISR_util_vehicle_6: "Plasan Sand Cat Stormer"
  ISR_util_vehicle_7: "Sand Master"
  CAN_Rec_tank_1_desc: "Obwohl er dem ursprünglichen M113 äußerlich ähnelt, wurde der CV für Führungs- und Aufklärungsaufgaben stark modifiziert. Der Truppenraum wurde vollständig entfernt. Der gleiche 6-Zylinder-Motor von General Motors, der auch im M113 eingebaut war, wurde am Heck angebracht. Während die Aufhängung des M113 beibehalten wurde, entfiel ein Laufrad, so dass nur noch vier auf jeder Seite vorhanden waren."
@@ -8003,13 +8363,19 @@
  AST_util_vehicle_6: "Hawkei"
  AST_util_vehicle_7: "Hawkei PWS II"
  AUS_util_vehicle_3: "Iveco VM 90"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  AUS_util_vehicle_4: "Wolf SSA"
  AUS_util_vehicle_5: "Iveco LMV"
  AUS_util_vehicle_6: "Iveco LMV2"
  AUS_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  AUS_util_vehicle_8: "Dingo 3A1"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  POR_util_vehicle_1: "Pingzauer 710/712"
@@ -8020,8 +8386,12 @@
  POR_util_vehicle_6: "Iveco LMV2"
  POR_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  POR_util_vehicle_8: "Dingo 3A1"
  SPR_util_vehicle_8: "Dingo 3A1"
+=======
+ SPR_util_vehicle_7: "Dingo 3"
+>>>>>>> main
 =======
  SPR_util_vehicle_7: "Dingo 3"
 >>>>>>> main
@@ -8033,7 +8403,10 @@
  IRE_util_vehicle_6: "Iveco LMV2"
  IRE_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  IRE_util_vehicle_8: "Dingo 3A1"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BEL_util_vehicle_1: "Pingzauer 710/712"
@@ -8044,11 +8417,17 @@
  BEL_util_vehicle_6: "Iveco LMV2"
  BEL_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BEL_util_vehicle_8: "Dingo 3A1"
  HOL_util_vehicle_1: "DAF YA 328"
  HOL_util_vehicle_6: "Iveco LMV2"
  HOL_util_vehicle_7: "Dingo 3"
  HOL_util_vehicle_8: "Dingo 3A1"
+=======
+ HOL_util_vehicle_5: "Iveco LMV"
+ HOL_util_vehicle_6: "Iveco LMV2"
+ HOL_util_vehicle_7: "Dingo 3"
+>>>>>>> main
 =======
  HOL_util_vehicle_5: "Iveco LMV"
  HOL_util_vehicle_6: "Iveco LMV2"
@@ -8062,7 +8441,11 @@
  DEN_util_vehicle_6: "Iveco LMV2"
  DEN_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  DEN_util_vehicle_8: "Dingo 3A1"
+=======
+ NOR_util_vehicle_1: "Pingzauer 710/712"
+>>>>>>> main
 =======
  NOR_util_vehicle_1: "Pingzauer 710/712"
 >>>>>>> main
@@ -8073,7 +8456,10 @@
  NOR_util_vehicle_6: "Iveco LMV2"
  NOR_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  NOR_util_vehicle_8: "Dingo 3A1"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ICE_util_vehicle_1: "Pingzauer 710/712"
@@ -8084,7 +8470,10 @@
  ICE_util_vehicle_6: "Iveco LMV2"
  ICE_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ICE_util_vehicle_8: "Dingo 3A1"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  LIT_util_vehicle_1: "Pingzauer 710/712"
@@ -8095,7 +8484,10 @@
  LIT_util_vehicle_6: "Iveco LMV2"
  LIT_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  LIT_util_vehicle_8: "Dingo 3A1"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  LAT_util_vehicle_1: "Pingzauer 710/712"
@@ -8106,7 +8498,10 @@
  LAT_util_vehicle_6: "Iveco LMV2"
  LAT_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  LAT_util_vehicle_8: "Dingo 3A1"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  EST_util_vehicle_1: "Pingzauer 710/712"
@@ -8117,7 +8512,10 @@
  EST_util_vehicle_6: "Iveco LMV2"
  EST_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  EST_util_vehicle_8: "Dingo 3A1"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  HUN_util_vehicle_1: "ZIL-131"
@@ -8128,7 +8526,10 @@
  HUN_util_vehicle_6: "Iveco LMV2"
  HUN_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  HUN_util_vehicle_8: "Dingo 3A1"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ROM_util_vehicle_1: "ZIL-131"
@@ -8139,6 +8540,7 @@
  ROM_util_vehicle_6: "Iveco LMV2"
  ROM_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ROM_util_vehicle_8: "Dingo 3A1"
  SLO_util_vehicle_1: "Praha M59"
  SLO_util_vehicle_2: "Tatra 813 8x8 KOLOS"
@@ -8148,12 +8550,17 @@
  SLO_util_vehicle_7: "Dingo 3"
  SLO_util_vehicle_8: "Dingo 3A1"
 =======
+=======
+>>>>>>> main
  SLO_util_vehicle_1: "Praha M59"
  SLO_util_vehicle_2: "Tatra 813 8x8 KOLOS"
  SLO_util_vehicle_3: "Tatra 815 6x6"
  SLO_util_vehicle_5: "Iveco LMV"
  SLO_util_vehicle_6: "Iveco LMV2"
  SLO_util_vehicle_7: "Dingo 3"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  CRO_util_vehicle_1: "TAM 110"
  CRO_util_vehicle_2: "TAM 150"
@@ -8163,7 +8570,10 @@
  CRO_util_vehicle_6: "Iveco LMV2"
  CRO_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CRO_util_vehicle_8: "Dingo 3A1"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BOS_util_vehicle_1: "TAM 110"
@@ -8174,7 +8584,10 @@
  BOS_util_vehicle_6: "Iveco LMV2"
  BOS_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BOS_util_vehicle_8: "Dingo 3A1"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  KOS_util_vehicle_1: "TAM 110"
@@ -8185,7 +8598,10 @@
  KOS_util_vehicle_6: "Iveco LMV2"
  KOS_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  KOS_util_vehicle_8: "Dingo 3A1"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  DRC_util_vehicle_1: "UAZ-452"
@@ -8196,7 +8612,10 @@
  DRC_util_vehicle_6: "Puma M26-15"
  DRC_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  DRC_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  NAM_util_vehicle_1: "UAZ-452"
@@ -8207,7 +8626,10 @@
  NAM_util_vehicle_6: "Puma M26-15"
  NAM_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  NAM_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  LES_util_vehicle_1: "UAZ-452"
@@ -8218,7 +8640,10 @@
  LES_util_vehicle_6: "Puma M26-15"
  LES_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  LES_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SWA_util_vehicle_1: "UAZ-452"
@@ -8229,7 +8654,10 @@
  SWA_util_vehicle_6: "Puma M26-15"
  SWA_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SWA_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BOT_util_vehicle_1: "UAZ-452"
@@ -8240,7 +8668,10 @@
  BOT_util_vehicle_6: "Puma M26-15"
  BOT_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BOT_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ZIM_util_vehicle_1: "UAZ-452"
@@ -8251,7 +8682,10 @@
  ZIM_util_vehicle_6: "Puma M26-15"
  ZIM_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ZIM_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  MOZ_util_vehicle_1: "UAZ-452"
@@ -8262,7 +8696,10 @@
  MOZ_util_vehicle_6: "Puma M26-15"
  MOZ_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  MOZ_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  AGL_util_vehicle_1: "UAZ-452"
@@ -8273,7 +8710,10 @@
  AGL_util_vehicle_6: "Puma M26-15"
  AGL_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  AGL_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  UNI_util_vehicle_1: "UAZ-452"
@@ -8284,7 +8724,10 @@
  UNI_util_vehicle_6: "Puma M26-15"
  UNI_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  UNI_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ZAM_util_vehicle_1: "UAZ-452"
@@ -8295,7 +8738,10 @@
  ZAM_util_vehicle_6: "Puma M26-15"
  ZAM_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ZAM_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  MLW_util_vehicle_1: "UAZ-452"
@@ -8306,7 +8752,10 @@
  MLW_util_vehicle_6: "Puma M26-15"
  MLW_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  MLW_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  EGU_util_vehicle_1: "UAZ-452"
@@ -8317,7 +8766,10 @@
  EGU_util_vehicle_6: "Puma M26-15"
  EGU_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  EGU_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  GAB_util_vehicle_1: "UAZ-452"
@@ -8328,7 +8780,10 @@
  GAB_util_vehicle_6: "Puma M26-15"
  GAB_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GAB_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CNG_util_vehicle_1: "UAZ-452"
@@ -8339,7 +8794,10 @@
  CNG_util_vehicle_6: "Puma M26-15"
  CNG_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CNG_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  MLC_util_vehicle_1: "UAZ-452"
@@ -8350,7 +8808,10 @@
  MLC_util_vehicle_6: "Puma M26-15"
  MLC_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  MLC_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  RCD_util_vehicle_1: "UAZ-452"
@@ -8361,7 +8822,10 @@
  RCD_util_vehicle_6: "Puma M26-15"
  RCD_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  RCD_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  RWA_util_vehicle_1: "UAZ-452"
@@ -8372,7 +8836,10 @@
  RWA_util_vehicle_6: "Puma M26-15"
  RWA_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  RWA_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  UGA_util_vehicle_1: "UAZ-452"
@@ -8383,7 +8850,10 @@
  UGA_util_vehicle_6: "Puma M26-15"
  UGA_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  UGA_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  TNZ_util_vehicle_1: "UAZ-452"
@@ -8394,7 +8864,10 @@
  TNZ_util_vehicle_6: "Puma M26-15"
  TNZ_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TNZ_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  KEN_util_vehicle_1: "UAZ-452"
@@ -8405,7 +8878,10 @@
  KEN_util_vehicle_6: "Puma M26-15"
  KEN_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  KEN_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  JUB_util_vehicle_1: "UAZ-452"
@@ -8416,7 +8892,10 @@
  JUB_util_vehicle_6: "Puma M26-15"
  JUB_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  JUB_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SOM_util_vehicle_1: "UAZ-452"
@@ -8427,7 +8906,10 @@
  SOM_util_vehicle_6: "Puma M26-15"
  SOM_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SOM_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SNA_util_vehicle_1: "UAZ-452"
@@ -8438,7 +8920,10 @@
  SNA_util_vehicle_6: "Puma M26-15"
  SNA_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SNA_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  PUN_util_vehicle_1: "UAZ-452"
@@ -8449,7 +8934,10 @@
  PUN_util_vehicle_6: "Puma M26-15"
  PUN_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PUN_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SML_util_vehicle_1: "UAZ-452"
@@ -8460,7 +8948,10 @@
  SML_util_vehicle_6: "Puma M26-15"
  SML_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SML_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SAO_util_vehicle_1: "UAZ-452"
@@ -8471,7 +8962,10 @@
  SAO_util_vehicle_6: "Puma M26-15"
  SAO_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SAO_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CAM_util_vehicle_1: "UAZ-452"
@@ -8482,7 +8976,10 @@
  CAM_util_vehicle_6: "Puma M26-15"
  CAM_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CAM_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CHA_util_vehicle_1: "UAZ-452"
@@ -8493,6 +8990,7 @@
  CHA_util_vehicle_6: "Puma M26-15"
  CHA_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CHA_util_vehicle_8: "Katmerciler Hizir III"
  SUD_util_vehicle_1: "UAZ-452"
  SUD_util_vehicle_2: "Toyota Land Cruiser J70"
@@ -8502,12 +9000,17 @@
  SUD_util_vehicle_7: "Katmerciler Hizir"
  SUD_util_vehicle_8: "Katmerciler Hizir III"
 =======
+=======
+>>>>>>> main
  SUD_util_vehicle_1: "UAZ-452"
  SUD_util_vehicle_2: "Toyota Land Cruiser J70"
  SUD_util_vehicle_3: "CS/VA1"
  SUD_util_vehicle_5: "Mamba"
  SUD_util_vehicle_6: "Puma M26-15"
  SUD_util_vehicle_7: "Katmerciler Hizir"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  SSU_util_vehicle_1: "UAZ-452"
  SSU_util_vehicle_2: "Toyota Land Cruiser J70"
@@ -8517,7 +9020,10 @@
  SSU_util_vehicle_6: "Puma M26-15"
  SSU_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SSU_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ETH_util_vehicle_1: "UAZ-452"
@@ -8528,7 +9034,10 @@
  ETH_util_vehicle_6: "Puma M26-15"
  ETH_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ETH_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  DJI_util_vehicle_1: "UAZ-452"
@@ -8539,7 +9048,10 @@
  DJI_util_vehicle_6: "Puma M26-15"
  DJI_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  DJI_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ERI_util_vehicle_1: "UAZ-452"
@@ -8550,6 +9062,7 @@
  ERI_util_vehicle_6: "Puma M26-15"
  ERI_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ERI_util_vehicle_8: "Katmerciler Hizir III"
  NIG_util_vehicle_1: "UAZ-452"
  NIG_util_vehicle_2: "Toyota Land Cruiser J70"
@@ -8558,11 +9071,16 @@
  NIG_util_vehicle_7: "Katmerciler Hizir"
  NIG_util_vehicle_8: "Katmerciler Hizir III"
 =======
+=======
+>>>>>>> main
  NIG_util_vehicle_1: "UAZ-452"
  NIG_util_vehicle_2: "Toyota Land Cruiser J70"
  NIG_util_vehicle_5: "Mamba"
  NIG_util_vehicle_6: "Puma M26-15"
  NIG_util_vehicle_7: "Katmerciler Hizir"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  NGR_util_vehicle_1: "UAZ-452"
  NGR_util_vehicle_2: "Toyota Land Cruiser J70"
@@ -8572,7 +9090,10 @@
  NGR_util_vehicle_6: "Puma M26-15"
  NGR_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  NGR_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BEN_util_vehicle_1: "UAZ-452"
@@ -8583,7 +9104,10 @@
  BEN_util_vehicle_6: "Puma M26-15"
  BEN_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BEN_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  TOG_util_vehicle_1: "UAZ-452"
@@ -8594,7 +9118,10 @@
  TOG_util_vehicle_6: "Puma M26-15"
  TOG_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TOG_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  GAH_util_vehicle_1: "UAZ-452"
@@ -8605,7 +9132,10 @@
  GAH_util_vehicle_6: "Puma M26-15"
  GAH_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GAH_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BFA_util_vehicle_1: "UAZ-452"
@@ -8616,7 +9146,10 @@
  BFA_util_vehicle_6: "Puma M26-15"
  BFA_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BFA_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  MAL_util_vehicle_1: "UAZ-452"
@@ -8627,7 +9160,10 @@
  MAL_util_vehicle_6: "Puma M26-15"
  MAL_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  MAL_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CDI_util_vehicle_1: "UAZ-452"
@@ -8638,7 +9174,10 @@
  CDI_util_vehicle_6: "Puma M26-15"
  CDI_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CDI_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  LIB_util_vehicle_1: "UAZ-452"
@@ -8649,7 +9188,10 @@
  LIB_util_vehicle_6: "Puma M26-15"
  LIB_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  LIB_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  GUI_util_vehicle_1: "UAZ-452"
@@ -8660,7 +9202,10 @@
  GUI_util_vehicle_6: "Puma M26-15"
  GUI_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GUI_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  MAU_util_vehicle_1: "UAZ-452"
@@ -8671,7 +9216,10 @@
  MAU_util_vehicle_6: "Puma M26-15"
  MAU_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  MAU_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SHA_util_vehicle_1: "UAZ-452"
@@ -8682,7 +9230,10 @@
  SHA_util_vehicle_6: "Puma M26-15"
  SHA_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SHA_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  LUR_util_vehicle_1: "UAZ-452"
@@ -8693,7 +9244,10 @@
  LUR_util_vehicle_6: "Puma M26-15"
  LUR_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  LUR_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  AFR_util_vehicle_1: "UAZ-452"
@@ -8704,7 +9258,10 @@
  AFR_util_vehicle_6: "Puma M26-15"
  AFR_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  AFR_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SIE_util_vehicle_1: "UAZ-452"
@@ -8715,7 +9272,10 @@
  SIE_util_vehicle_6: "Puma M26-15"
  SIE_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SIE_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  GUB_util_vehicle_1: "UAZ-452"
@@ -8726,7 +9286,10 @@
  GUB_util_vehicle_6: "Puma M26-15"
  GUB_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GUB_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SEN_util_vehicle_1: "UAZ-452"
@@ -8737,7 +9300,10 @@
  SEN_util_vehicle_6: "Puma M26-15"
  SEN_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SEN_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  GAM_util_vehicle_1: "UAZ-452"
@@ -8748,7 +9314,10 @@
  GAM_util_vehicle_6: "Puma M26-15"
  GAM_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GAM_util_vehicle_8: "Katmerciler Hizir III"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  VER_util_vehicle_1: "UAZ-452"
@@ -8759,6 +9328,7 @@
  VER_util_vehicle_6: "Puma M26-15"
  VER_util_vehicle_7: "Katmerciler Hizir"
 <<<<<<< HEAD
+<<<<<<< HEAD
  VER_util_vehicle_8: "Katmerciler Hizir III"
  ARG_util_vehicle_1: "M38 Jeep"
  ARG_util_vehicle_2: "M151 Jeep"
@@ -8768,12 +9338,17 @@
  ARG_util_vehicle_7: "Mamba Mk7"
  ARG_util_vehicle_8: "Amir II"
 =======
+=======
+>>>>>>> main
  ARG_util_vehicle_1: "M38 Jeep"
  ARG_util_vehicle_2: "M151 Jeep"
  ARG_util_vehicle_3: "Humvee"
  ARG_util_vehicle_5: "RG-32 Scout"
  ARG_util_vehicle_6: "Mamba Mk5"
  ARG_util_vehicle_7: "Mamba Mk7"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  URG_util_vehicle_1: "M38 Jeep"
  URG_util_vehicle_2: "M151 Jeep"
@@ -8783,7 +9358,10 @@
  URG_util_vehicle_6: "Mamba Mk5"
  URG_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  URG_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  PAR_util_vehicle_1: "M38 Jeep"
@@ -8794,7 +9372,10 @@
  PAR_util_vehicle_6: "Mamba Mk5"
  PAR_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PAR_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BOL_util_vehicle_1: "M38 Jeep"
@@ -8805,7 +9386,10 @@
  BOL_util_vehicle_6: "Mamba Mk5"
  BOL_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BOL_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  PRU_util_vehicle_1: "M38 Jeep"
@@ -8816,7 +9400,10 @@
  PRU_util_vehicle_6: "Mamba Mk5"
  PRU_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PRU_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ECU_util_vehicle_1: "M38 Jeep"
@@ -8827,6 +9414,7 @@
  ECU_util_vehicle_6: "Mamba Mk5"
  ECU_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ECU_util_vehicle_8: "Amir II"
  COL_util_vehicle_1: "M38 Jeep"
  COL_util_vehicle_2: "M151 Jeep"
@@ -8836,12 +9424,17 @@
  COL_util_vehicle_7: "Mamba Mk7"
  COL_util_vehicle_8: "Amir II"
 =======
+=======
+>>>>>>> main
  COL_util_vehicle_1: "M38 Jeep"
  COL_util_vehicle_2: "M151 Jeep"
  COL_util_vehicle_4: "Agrale Marruá"
  COL_util_vehicle_5: "RG-32 Scout"
  COL_util_vehicle_6: "Mamba Mk5"
  COL_util_vehicle_7: "Mamba Mk7"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  GUY_util_vehicle_1: "M38 Jeep"
  GUY_util_vehicle_2: "M151 Jeep"
@@ -8851,7 +9444,10 @@
  GUY_util_vehicle_6: "Mamba Mk5"
  GUY_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GUY_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SUR_util_vehicle_1: "M38 Jeep"
@@ -8862,7 +9458,10 @@
  SUR_util_vehicle_6: "Mamba Mk5"
  SUR_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SUR_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  PAN_util_vehicle_1: "M38 Jeep"
@@ -8873,7 +9472,10 @@
  PAN_util_vehicle_6: "Mamba Mk5"
  PAN_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PAN_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  COS_util_vehicle_1: "M38 Jeep"
@@ -8884,7 +9486,10 @@
  COS_util_vehicle_6: "Mamba Mk5"
  COS_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  COS_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  NIC_util_vehicle_1: "M38 Jeep"
@@ -8895,7 +9500,10 @@
  NIC_util_vehicle_6: "Mamba Mk5"
  NIC_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  NIC_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  HON_util_vehicle_1: "M38 Jeep"
@@ -8906,7 +9514,10 @@
  HON_util_vehicle_6: "Mamba Mk5"
  HON_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  HON_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ELS_util_vehicle_1: "M38 Jeep"
@@ -8917,7 +9528,10 @@
  ELS_util_vehicle_6: "Mamba Mk5"
  ELS_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ELS_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  GUA_util_vehicle_1: "M38 Jeep"
@@ -8928,7 +9542,10 @@
  GUA_util_vehicle_6: "Mamba Mk5"
  GUA_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GUA_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BLZ_util_vehicle_1: "M38 Jeep"
@@ -8939,7 +9556,10 @@
  BLZ_util_vehicle_6: "Mamba Mk5"
  BLZ_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BLZ_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  MEX_util_vehicle_1: "M38 Jeep"
@@ -8950,7 +9570,10 @@
  MEX_util_vehicle_6: "Mamba Mk5"
  MEX_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  MEX_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  JAM_util_vehicle_1: "M38 Jeep"
@@ -8961,7 +9584,10 @@
  JAM_util_vehicle_6: "Mamba Mk5"
  JAM_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  JAM_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  HAI_util_vehicle_1: "M38 Jeep"
@@ -8972,7 +9598,10 @@
  HAI_util_vehicle_6: "Mamba Mk5"
  HAI_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  HAI_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  DOM_util_vehicle_1: "M38 Jeep"
@@ -8983,7 +9612,10 @@
  DOM_util_vehicle_6: "Mamba Mk5"
  DOM_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  DOM_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  STK_util_vehicle_1: "M38 Jeep"
@@ -8994,7 +9626,10 @@
  STK_util_vehicle_6: "Mamba Mk5"
  STK_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  STK_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  DMI_util_vehicle_1: "M38 Jeep"
@@ -9005,7 +9640,10 @@
  DMI_util_vehicle_6: "Mamba Mk5"
  DMI_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  DMI_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  STL_util_vehicle_1: "M38 Jeep"
@@ -9016,7 +9654,10 @@
  STL_util_vehicle_6: "Mamba Mk5"
  STL_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  STL_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  STV_util_vehicle_1: "M38 Jeep"
@@ -9027,7 +9668,10 @@
  STV_util_vehicle_6: "Mamba Mk5"
  STV_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  STV_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BAR_util_vehicle_1: "M38 Jeep"
@@ -9038,7 +9682,10 @@
  BAR_util_vehicle_6: "Mamba Mk5"
  BAR_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BAR_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  GRA_util_vehicle_1: "M38 Jeep"
@@ -9049,7 +9696,10 @@
  GRA_util_vehicle_6: "Mamba Mk5"
  GRA_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GRA_util_vehicle_8: "Amir II"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  TRI_util_vehicle_1: "M38 Jeep"
@@ -9060,9 +9710,14 @@
  TRI_util_vehicle_6: "Mamba Mk5"
  TRI_util_vehicle_7: "Mamba Mk7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TRI_util_vehicle_8: "Amir II"
  VEN_util_vehicle_1: "ZIL-131"
  VEN_util_vehicle_2: "Ural-4320"
+=======
+ VEN_util_vehicle_1: "ZIL-131"
+ VEN_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
 =======
  VEN_util_vehicle_1: "ZIL-131"
  VEN_util_vehicle_3: "KamAZ-4310"
@@ -9071,6 +9726,7 @@
  VEN_util_vehicle_5: "GAZ Tigr"
  VEN_util_vehicle_6: "K-63968 Typhoon-K"
  VEN_util_vehicle_7: "K-4386 Typhoon-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  VEN_util_vehicle_8: "K-5521 Cyclone"
  OMA_infantry_weapons: "FN FAL"
@@ -9265,6 +9921,8 @@
  TIE_infantry_weapons_8: "Saif al-Din"
 =======
 >>>>>>> main
+=======
+>>>>>>> main
  YEM_util_vehicle_1: "ZIL-131"
  YEM_util_vehicle_2: "Ural-4320"
  YEM_util_vehicle_3: "KamAZ-4310"
@@ -9272,6 +9930,7 @@
  YEM_util_vehicle_5: "GAZ Tigr"
  YEM_util_vehicle_6: "K-63968 Typhoon-K"
  YEM_util_vehicle_7: "K-4386 Typhoon-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  YEM_util_vehicle_8: "K-5521 Cyclone"
  SYR_util_vehicle_3: "KamAZ-4310"
@@ -9287,6 +9946,8 @@
  ALG_util_vehicle_7: "K-4386 Typhoon-M"
  ALG_util_vehicle_8: "K-5521 Cyclone"
 =======
+=======
+>>>>>>> main
  SYR_util_vehicle_2: "Ural-4320"
  SYR_util_vehicle_3: "KamAZ-4310"
  SYR_util_vehicle_5: "GAZ Tigr"
@@ -9298,6 +9959,9 @@
  ALG_util_vehicle_5: "GAZ Tigr"
  ALG_util_vehicle_6: "K-63968 Typhoon-K"
  ALG_util_vehicle_7: "K-4386 Typhoon-M"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  IRQ_util_vehicle_1: "ZIL-131"
  IRQ_util_vehicle_2: "Ural-4320"
@@ -9307,7 +9971,10 @@
  IRQ_util_vehicle_6: "K-63968 Typhoon-K"
  IRQ_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  IRQ_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  EGY_util_vehicle_1: "ZIL-131"
@@ -9318,7 +9985,10 @@
  EGY_util_vehicle_6: "K-63968 Typhoon-K"
  EGY_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  EGY_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  LBA_util_vehicle_1: "ZIL-131"
@@ -9329,13 +9999,17 @@
  LBA_util_vehicle_6: "K-63968 Typhoon-K"
  LBA_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  LBA_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SAU_util_vehicle_1: "M38 Jeep"
  SAU_util_vehicle_2: "M151 Jeep"
  SAU_util_vehicle_3: "Humvee"
  SAU_util_vehicle_4: "M1113 Humvee ECV"
+<<<<<<< HEAD
 <<<<<<< HEAD
  SAU_util_vehicle_5: "MaxxPro MRAP"
  SAU_util_vehicle_7: "JLTV"
@@ -9353,6 +10027,8 @@
  UAE_util_vehicle_7: "JLTV"
  UAE_util_vehicle_8: "AOPIMU"
 =======
+=======
+>>>>>>> main
  SAU_util_vehicle_6: "M-ATV"
  SAU_util_vehicle_7: "JLTV"
  OMA_util_vehicle_1: "M38 Jeep"
@@ -9365,6 +10041,9 @@
  UAE_util_vehicle_3: "Humvee"
  UAE_util_vehicle_6: "M-ATV"
  UAE_util_vehicle_7: "JLTV"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  QAT_util_vehicle_1: "M38 Jeep"
  QAT_util_vehicle_2: "M151 Jeep"
@@ -9374,7 +10053,10 @@
  QAT_util_vehicle_6: "M-ATV"
  QAT_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  QAT_util_vehicle_8: "AOPIMU"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BHR_util_vehicle_1: "M38 Jeep"
@@ -9385,7 +10067,10 @@
  BHR_util_vehicle_6: "M-ATV"
  BHR_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BHR_util_vehicle_8: "AOPIMU"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  KUW_util_vehicle_1: "M38 Jeep"
@@ -9396,6 +10081,7 @@
  KUW_util_vehicle_6: "M-ATV"
  KUW_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  KUW_util_vehicle_8: "AOPIMU"
  JOR_util_vehicle_1: "M38 Jeep"
  JOR_util_vehicle_2: "M151 Jeep"
@@ -9404,11 +10090,16 @@
  JOR_util_vehicle_7: "JLTV"
  JOR_util_vehicle_8: "AOPIMU"
 =======
+=======
+>>>>>>> main
  JOR_util_vehicle_1: "M38 Jeep"
  JOR_util_vehicle_2: "M151 Jeep"
  JOR_util_vehicle_5: "MaxxPro MRAP"
  JOR_util_vehicle_6: "M-ATV"
  JOR_util_vehicle_7: "JLTV"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  AFG_util_vehicle_1: "M38 Jeep"
  AFG_util_vehicle_2: "M151 Jeep"
@@ -9418,7 +10109,10 @@
  AFG_util_vehicle_6: "M-ATV"
  AFG_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  AFG_util_vehicle_8: "AOPIMU"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  KUR_util_vehicle_1: "M38 Jeep"
@@ -9429,7 +10123,10 @@
  KUR_util_vehicle_6: "M-ATV"
  KUR_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  KUR_util_vehicle_8: "AOPIMU"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ROJ_util_vehicle_1: "M38 Jeep"
@@ -9440,7 +10137,10 @@
  ROJ_util_vehicle_6: "M-ATV"
  ROJ_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ROJ_util_vehicle_8: "AOPIMU"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  TUN_util_vehicle_1: "Pingzauer 710/712"
@@ -9451,17 +10151,23 @@
  TUN_util_vehicle_6: "Iveco LMV2"
  TUN_util_vehicle_7: "Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TUN_util_vehicle_8: "Dingo 3A1"
  ISI_util_vehicle_5: "GAZ Tigr"
  ISI_util_vehicle_6: "K-63968 Typhoon-K"
  ISI_util_vehicle_7: "K-4386 Typhoon-M"
  ISI_util_vehicle_8: "K-5521 Cyclone"
 =======
+=======
+>>>>>>> main
  ISI_util_vehicle_4: "KamAZ-4350"
  ISI_util_vehicle_5: "GAZ Tigr"
  ISI_util_vehicle_6: "K-63968 Typhoon-K"
  ISI_util_vehicle_7: "K-4386 Typhoon-M"
  TAL_util_vehicle_2: "Ural-4320"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  TAL_util_vehicle_3: "KamAZ-4310"
  TAL_util_vehicle_4: "KamAZ-4350"
@@ -9469,7 +10175,10 @@
  TAL_util_vehicle_6: "K-63968 Typhoon-K"
  TAL_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TAL_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  AQY_util_vehicle_1: "ZIL-131"
@@ -9480,7 +10189,11 @@
  AQY_util_vehicle_6: "K-63968 Typhoon-K"
  AQY_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  AQY_util_vehicle_8: "K-5521 Cyclone"
+=======
+ NUS_util_vehicle_2: "Ural-4320"
+>>>>>>> main
 =======
  NUS_util_vehicle_2: "Ural-4320"
 >>>>>>> main
@@ -9490,7 +10203,10 @@
  NUS_util_vehicle_6: "K-63968 Typhoon-K"
  NUS_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  NUS_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SHB_util_vehicle_1: "ZIL-131"
@@ -9501,7 +10217,10 @@
  SHB_util_vehicle_6: "K-63968 Typhoon-K"
  SHB_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SHB_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  TTP_util_vehicle_1: "ZIL-131"
@@ -9512,7 +10231,10 @@
  TTP_util_vehicle_6: "K-63968 Typhoon-K"
  TTP_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TTP_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  TUA_util_vehicle_1: "ZIL-131"
@@ -9523,7 +10245,10 @@
  TUA_util_vehicle_6: "K-63968 Typhoon-K"
  TUA_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TUA_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  TIE_util_vehicle_1: "ZIL-131"
@@ -9533,6 +10258,7 @@
  TIE_util_vehicle_5: "GAZ Tigr"
  TIE_util_vehicle_6: "K-63968 Typhoon-K"
  TIE_util_vehicle_7: "K-4386 Typhoon-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  TIE_util_vehicle_8: "K-5521 Cyclone"
  PAK_infantry_weapons: "Type 56"
@@ -9546,16 +10272,24 @@
 =======
  PAK_util_vehicle_2: "Yasoob"
 >>>>>>> main
+=======
+ PAK_util_vehicle_2: "Yasoob"
+>>>>>>> main
  PAK_util_vehicle_3: "Land Rover Defender"
  PAK_util_vehicle_4: "CS/VA1"
  PAK_util_vehicle_5: "MaxxPro"
  PAK_util_vehicle_6: "CS/VN11"
  PAK_util_vehicle_7: "CS/VN19"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PAK_util_vehicle_8: "CS/VN27"
  BRA_util_vehicle_1: "M38 Jeep"
  BRA_util_vehicle_7: "VBMT Pilagá"
  BRA_util_vehicle_8: "VBMT Pilagá 2"
+=======
+ BRA_util_vehicle_6: "VBMT-LSR 1A Guaicurus"
+ BRA_util_vehicle_7: "VBMT Pilagá"
+>>>>>>> main
 =======
  BRA_util_vehicle_6: "VBMT-LSR 1A Guaicurus"
  BRA_util_vehicle_7: "VBMT Pilagá"
@@ -9579,9 +10313,14 @@
  AST_Heavy_Anti_tank_3: "JLTV Spike NLOS Mk.6"
  AST_Heavy_Anti_tank_4: "ATCV Supernova"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CZE_util_vehicle_2_short: "Tatra 813"
  CZE_util_vehicle_4_short: "Tatra 815-7"
  FIN_util_vehicle_1: "ZIL-131"
+=======
+ CZE_util_vehicle_1_short: "Praha M59"
+ FIN_util_vehicle_3: "Sisu SA-150"
+>>>>>>> main
 =======
  CZE_util_vehicle_1_short: "Praha M59"
  FIN_util_vehicle_3: "Sisu SA-150"
@@ -9591,7 +10330,10 @@
  FIN_util_vehicle_6: "Sisu GTP"
  FIN_util_vehicle_7: "Sisu Dingo 3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  FIN_util_vehicle_8: "Sisu Dingo 3A1"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BEL_Heavy_Anti_tank_0: "AMX 13 SS.11"
@@ -9796,6 +10538,7 @@
  ISR_artillery_4: "ATHOS 2052"
  PER_Anti_tank_2: "Almas"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PER_util_vehicle_7: "Raad"
  PER_util_vehicle_8: "Raad 2"
  RAJ_infantry_weapons_8: "AK-305"
@@ -9818,6 +10561,15 @@
  BLR_util_vehicle_6: "K-63968 Typhoon-K"
  BLR_util_vehicle_7: "K-4386 Typhoon-M"
 >>>>>>> main
+=======
+ PER_util_vehicle_6: "Toofan 2"
+ PER_util_vehicle_7: "Raad"
+ ROM_Anti_tank_0: "AG-7"
+ ROM_Anti_tank_0_short: "AG-7"
+ BLR_util_vehicle_5: "GAZ Tigr"
+ BLR_util_vehicle_6: "K-63968 Typhoon-K"
+ BLR_util_vehicle_7: "K-4386 Typhoon-M"
+>>>>>>> main
  MLV_util_vehicle_1: "ZIL-131"
  MLV_util_vehicle_2: "Ural-4320"
  MLV_util_vehicle_3: "KamAZ-4310"
@@ -9826,16 +10578,22 @@
  MLV_util_vehicle_6: "K-63968 Typhoon-K"
  MLV_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  MLV_util_vehicle_8: "K-5521 Cyclone"
  PMR_util_vehicle_5: "GAZ Tigr"
  PMR_util_vehicle_6: "K-63968 Typhoon-K"
  PMR_util_vehicle_7: "K-4386 Typhoon-M"
  PMR_util_vehicle_8: "K-5521 Cyclone"
 =======
+=======
+>>>>>>> main
  PMR_util_vehicle_4: "KamAZ-4350"
  PMR_util_vehicle_5: "GAZ Tigr"
  PMR_util_vehicle_6: "K-63968 Typhoon-K"
  PMR_util_vehicle_7: "K-4386 Typhoon-M"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  ABK_util_vehicle_1: "ZIL-131"
  ABK_util_vehicle_2: "Ural-4320"
@@ -9845,7 +10603,10 @@
  ABK_util_vehicle_6: "K-63968 Typhoon-K"
  ABK_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ABK_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SOO_util_vehicle_1: "ZIL-131"
@@ -9856,7 +10617,10 @@
  SOO_util_vehicle_6: "K-63968 Typhoon-K"
  SOO_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SOO_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  TRK_util_vehicle_1: "ZIL-131"
@@ -9867,7 +10631,10 @@
  TRK_util_vehicle_6: "K-63968 Typhoon-K"
  TRK_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TRK_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  UZB_util_vehicle_1: "ZIL-131"
@@ -9878,7 +10645,10 @@
  UZB_util_vehicle_6: "K-63968 Typhoon-K"
  UZB_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  UZB_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  TAJ_util_vehicle_1: "ZIL-131"
@@ -9889,7 +10659,10 @@
  TAJ_util_vehicle_6: "K-63968 Typhoon-K"
  TAJ_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TAJ_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  KYR_util_vehicle_1: "ZIL-131"
@@ -9900,7 +10673,10 @@
  KYR_util_vehicle_6: "K-63968 Typhoon-K"
  KYR_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  KYR_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  KAZ_util_vehicle_1: "ZIL-131"
@@ -9911,7 +10687,10 @@
  KAZ_util_vehicle_6: "K-63968 Typhoon-K"
  KAZ_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  KAZ_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ALB_util_vehicle_1: "ZIL-131"
@@ -9922,7 +10701,10 @@
  ALB_util_vehicle_6: "K-63968 Typhoon-K"
  ALB_util_vehicle_7: "Shota MRAP"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ALB_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  FYR_util_vehicle_1: "TAM 110"
@@ -9933,7 +10715,10 @@
  FYR_util_vehicle_6: "K-63968 Typhoon-K"
  FYR_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  FYR_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  DPR_util_vehicle_1: "ZIL-131"
@@ -9944,7 +10729,10 @@
  DPR_util_vehicle_6: "K-63968 Typhoon-K"
  DPR_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  DPR_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  DRP_util_vehicle_1: "ZIL-131"
@@ -9955,7 +10743,10 @@
  DRP_util_vehicle_6: "K-63968 Typhoon-K"
  DRP_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  DRP_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  NOV_util_vehicle_1: "ZIL-131"
@@ -9966,7 +10757,10 @@
  NOV_util_vehicle_6: "K-63968 Typhoon-K"
  NOV_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  NOV_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  LPR_util_vehicle_1: "ZIL-131"
@@ -9977,7 +10771,10 @@
  LPR_util_vehicle_6: "K-63968 Typhoon-K"
  LPR_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  LPR_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  LRP_util_vehicle_1: "ZIL-131"
@@ -9988,7 +10785,10 @@
  LRP_util_vehicle_6: "K-63968 Typhoon-K"
  LRP_util_vehicle_7: "K-4386 Typhoon-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  LRP_util_vehicle_8: "K-5521 Cyclone"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CUB_util_vehicle_1: "ZIL-131"
@@ -9998,6 +10798,7 @@
  CUB_util_vehicle_5: "GAZ Tigr"
  CUB_util_vehicle_6: "K-63968 Typhoon-K"
  CUB_util_vehicle_7: "K-4386 Typhoon-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  CUB_util_vehicle_8: "K-5521 Cyclone"
  SWE_util_vehicle_6: "Tgb 24"
@@ -10013,6 +10814,12 @@
  SWE_util_vehicle_6: "Tgb 24"
  SWE_util_vehicle_7: "ATF Dingo 3"
  TAI_artillery_0: "T-63"
+=======
+ SWE_util_vehicle_5: "Tgb 16"
+ SWE_util_vehicle_6: "Tgb 24"
+ SWE_util_vehicle_7: "ATF Dingo 3"
+ TAI_artillery_0: "T-63"
+>>>>>>> main
  UKR_util_vehicle_6: "Kozak"
  UKR_util_vehicle_6_desc: ""
 >>>>>>> main
@@ -10028,10 +10835,13 @@
  USA_mpa_equipment_4: "F-42E Nightingale"
  USA_medium_plane_cas_airframe_4: "F-42D Nightingale"
 <<<<<<< HEAD
+<<<<<<< HEAD
  VIE_infantry_weapons_7: "STL M-24"
  VIE_infantry_weapons_8: "STV-035"
  SAF_transport_helicopter1: "Atlas Oryx"
  SAF_transport_helicopter1_short: "Atlas Oryx"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SOV_spaa_equipment_1: "Tor-M1"
@@ -10053,9 +10863,12 @@
  AZE_Anti_tank_0: "RPG-7V2 'Qaya'"
  SLO_util_vehicle_1_short: "Praha M59"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SLO_util_vehicle_2_short: "Tatra 813"
  BUL_infantry_weapons_7: "AR-M12"
  BUL_infantry_weapons_8: "AR-M17"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BUL_Anti_tank_0: "ATGL-L"
@@ -10064,7 +10877,10 @@
  CAN_artillery_3: "M585"
  CAN_artillery_4: "M667"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CHE_infantry_weapons_3: "BORZ"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  FIN_artillery_0: "122 H 63"
@@ -10631,8 +11447,11 @@
  IRQ_mbt_equipment_4: "T-24"
  IRQ_spaa_equipment_1: "Tor-M1"
 <<<<<<< HEAD
+<<<<<<< HEAD
  JAP_util_vehicle_1: "Nissan Patrol"
  JAP_util_vehicle_1_short: "Nissan Patrol"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  KOR_artillery_0: "KH178"
@@ -10644,7 +11463,11 @@
  PER_artillery_4: "HM-50"
  PER_Anti_Air_0: "Misagh-1"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SLV_util_vehicle_3: "FAP 2026"
+=======
+ SLV_util_vehicle_2: "TAM 150"
+>>>>>>> main
 =======
  SLV_util_vehicle_2: "TAM 150"
 >>>>>>> main
@@ -10659,7 +11482,11 @@
  SYR_Anti_Air_3: "9K335 Verba-S"
  SYR_Anti_Air_4: "9K48"
 <<<<<<< HEAD
+<<<<<<< HEAD
  UKR_util_vehicle_8: "Novator 2"
+=======
+ UKR_util_vehicle_7: "Novator"
+>>>>>>> main
 =======
  UKR_util_vehicle_7: "Novator"
 >>>>>>> main
@@ -10711,7 +11538,10 @@
  UKR_kamikaze_drone_2: "AQ-400 Scythe"
  UKR_kamikaze_drone_3: "UJ-26 Bober"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SPR_infantry_weapons_5: "Heckler & Koch G36A2"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  HOL_artillery_0: "M101A1"
@@ -10743,16 +11573,22 @@
  TAI_util_vehicle_2: "M151 Jeep"
  TAI_util_vehicle_3: "Humvee"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TAI_util_vehicle_4: "M1113 Humvee ECV"
  TAI_util_vehicle_6: "M-ATV"
  TAI_util_vehicle_5: "MaxxPro MRAP"
  TAI_util_vehicle_7: "JLTV"
  TAI_util_vehicle_8: "AOPIMU"
 =======
+=======
+>>>>>>> main
  TAI_util_vehicle_5: "MaxxPro MRAP"
  TAI_util_vehicle_4: "M1113 Humvee ECV"
  TAI_util_vehicle_6: "M-ATV"
  TAI_util_vehicle_7: "JLTV"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  TAI_artillery_1: "M198"
  TAI_artillery_2: "M777"

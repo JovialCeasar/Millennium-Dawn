@@ -396,9 +396,12 @@
  rejected_joint_ct_training: "Rejected Joint Training Exercises"
  rejected_ct_advisors: "Rejected our Counter-Terrorism Advisors"
 <<<<<<< HEAD
+<<<<<<< HEAD
  rejected_our_vote_request: "Rejected our UN Vote Change Request"
 
 =======
+=======
+>>>>>>> main
  rejected_our_vote_request: "Rejected our §BUnited Nations§! Vote Change Request"
  un_esco_member: "They are helping fund the §BUnited Nations§! Educational, Scientific and Cultural Organization"
  un_ido_member: "They are helping fund the §BUnited Nations§! Industrial Development Organization"
@@ -406,6 +409,9 @@
  left_un_esco: "They abandoned the §BUnited Nations§! Educational, Scientific and Cultural Organization"
  left_un_ido: "They abandoned the §BUnited Nations§! Industrial Development Organization"
  left_un_cdf: "They abandoned the §BUnited Nations§! Capital Development Fund"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  #Russian Opinions
  SOV_introduced_sanctions_dialogue: "Opened Sanctions Dialogue"

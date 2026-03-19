@@ -182,11 +182,14 @@ capital = 508
 		util_vehicle_2 = 1
 		util_vehicle_3 = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
 		transport_helicopter1 = 1
 		nsb_transport_helicopter1 = 1
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 

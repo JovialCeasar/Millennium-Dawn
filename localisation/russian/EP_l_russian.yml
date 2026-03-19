@@ -2,7 +2,10 @@
  market_money_cost_display_header_tt: "§YРыночные денежные расходы§!"
  infantry_equipment_loc: "Пехотное оружие: "
 <<<<<<< HEAD
+<<<<<<< HEAD
  cnc_equipment_type_loc: "Оборудован. CNC: "
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  aa_equipment_loc: "ПЗРК: "
@@ -29,7 +32,10 @@
  sup_equip_desc: "§YОборудование для снабжения§!"
  infantry_equipment_loc_tt: "§R[?temp_infantry_equipment_cost]м/шт§!"
 <<<<<<< HEAD
+<<<<<<< HEAD
  cnc_equipment_type_loc_tt: "§R[?temp_cnc_equipment_type_cost]м/шт§!"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  aa_equipment_loc_tt: "§R[?temp_aa_equipment_cost]м/шт§!"

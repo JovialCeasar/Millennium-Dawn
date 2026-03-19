@@ -845,8 +845,11 @@
  air_module_hypersonic_engine_2: "Hypersonic Engine II"
  air_module_hypersonic_engine_2_desc: "$air_module_hypersonic_engine_1_desc$"
 <<<<<<< HEAD
+<<<<<<< HEAD
  air_module_hypersonic_engine_double_1: "Twin Hypersonic Engine"
  air_module_hypersonic_engine_double_1_desc: "$air_module_hypersonic_engine_1_desc$"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  air_module_railgun_cannon_1: "Railgun Cannon I"

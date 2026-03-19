@@ -1,5 +1,6 @@
 ﻿l_japanese:
 <<<<<<< HEAD
+<<<<<<< HEAD
  infantry_weapons_type: "小火器"
  infantry_weapons_desc: "小火器は自動小銃、マークスマンライフル、狙撃銃、擲弾発射器、無反動砲、軽機関銃、ボディアーマーなど主にライフル分隊で使用される火器を表す。"
  infantry_weaponsdesc: "小火器は自動小銃、マークスマンライフル、狙撃銃、擲弾発射器、無反動砲、軽機関銃、ボディアーマーなど主にライフル分隊で使用される火器を表す。"
@@ -51,6 +52,12 @@
  land_drone_equipment_4_desc: "短距離偵察ドローン（UAVs）はリアルタイムでの偵察や戦場の状況確認を可能とする。また、軽量であるため比較的容易に持ち運び出来る。"
  land_drone_equipment_5: "2035年型ドローン"
  land_drone_equipment_5_desc: "短距離偵察ドローン（UAVs）はリアルタイムでの偵察や戦場の状況確認を可能とする。また、軽量であるため比較的容易に持ち運び出来る。"
+=======
+ combat_eng_equipment: "戦闘工兵装備"
+ combat_eng_equipment_desc: "戦闘工兵は近代の軍で重要な役割であり、常に軍隊または戦闘部隊に組み込まれている。"
+ L_Drone_equipment: "ドローン装備"
+ L_Drone_equipment_desc: "短距離偵察ドローン（UAVs）はリアルタイムでの偵察や戦場の状況確認を可能とする。また、軽量であるため比較的容易に持ち運び出来る。"
+>>>>>>> main
 =======
  combat_eng_equipment: "戦闘工兵装備"
  combat_eng_equipment_desc: "戦闘工兵は近代の軍で重要な役割であり、常に軍隊または戦闘部隊に組み込まれている。"
@@ -163,8 +170,11 @@
  Rec_tank_5: "2035年型軽戦車"
  Rec_tank_5_desc: "第二次世界大戦の主力であった軽戦車は現在では、主力戦車の重量と大きさが採用の妨げとなっている補助的な役割にのみ使用されている。軽戦車は最も重装甲の高い偵察部隊に使用され、また、空輸可能であるという利点があり、水陸両用の役割にもよく使用される。それらはしばしば地上から設計されているのではなく、歩兵戦闘車の船体をベースにしていることが多い。それらは主力戦車よりも、山や森などの悪条件の地形でははるかに優れている。"
 <<<<<<< HEAD
+<<<<<<< HEAD
  util_vehicle_type: "汎用車両"
  util_vehicle_type_desc: "汎用車両は一般的に電動化されており、一般的な車両よりも効率的に特定の作業を遂行することを目的としている。"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  util_vehicle_desc: "汎用車両は一般的に電動化されており、一般的な車両よりも効率的に特定の作業を遂行することを目的としている。"
@@ -277,6 +287,7 @@
  LPD_4: "2035年型ドック型揚陸艦"
  LPD_4_desc: "多目的強襲揚陸艦（LHD）は、ヘリコプターの運用が可能な多目的水陸両用強襲揚陸艦で、ウェルデッキを有している。空母のような完全な飛行甲板を持ち、実用ヘリや攻撃ヘリの運用が可能である。ゲーム内では、大きな陸上砲撃ボーナスを提供し、水陸両用攻撃で使用することが推奨される。"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ALG_util_vehicle_4: "KamAZ-4350"
  ARG_infantry_weapons: "FN FAL"
  ARG_infantry_weapons_2: "ガリル AR"
@@ -287,6 +298,9 @@
 =======
  ALG_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ ALG_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  ARG_MBT_3: "アルゼンチン中戦車"
  ARG_MBT_3_short: "TAM"
  ARG_Rec_tank_1: "パタゴン"
@@ -294,7 +308,11 @@
  ARG_IFV_3: "TAMSE VCTP"
  ARG_IFV_3_short: "TAMSE VCTP"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ARG_util_vehicle_5: "RG-32 スカウト"
+=======
+ ARG_util_vehicle_4: "アグラレ・マルア"
+>>>>>>> main
 =======
  ARG_util_vehicle_4: "アグラレ・マルア"
 >>>>>>> main
@@ -303,6 +321,7 @@
  ARG_SP_arty_1: "VCTM"
  ARG_SP_R_arty_0: "パンペロスタンドオフ型対地攻撃ミサイル"
  ARG_SP_R_arty_1: "CP-30 MRL"
+<<<<<<< HEAD
 <<<<<<< HEAD
  ARM_infantry_weapons: "AKM"
  ARM_infantry_weapons_2: "AK-74"
@@ -324,10 +343,15 @@
  ARM_SP_R_arty_2: "N-2"
  ARM_SP_R_arty_2_short: "N-2"
 >>>>>>> main
+=======
+ ARM_SP_R_arty_2: "N-2"
+ ARM_SP_R_arty_2_short: "N-2"
+>>>>>>> main
  AST_IFV_2: "M113A1 FSV"
  AST_IFV_2_short: "M113A1 FSV"
  AST_IFV_3: "ASLAV"
  AST_IFV_3_short: "ASLAV"
+<<<<<<< HEAD
 <<<<<<< HEAD
  AST_util_vehicle_3: "ランドローバー ペレンティ"
  AST_util_vehicle_4: "Gクラス"
@@ -340,6 +364,11 @@
  AUS_infantry_weapons_6: "シュタイアー AUGCQC"
  AUS_infantry_weapons_7: "シュタイアー AUGA4"
  AUS_infantry_weapons_8: "シュタイアー AUG A5"
+=======
+ AST_util_vehicle_2: "ランドローバーII/III"
+ AST_util_vehicle_3: "ランドローバー ぺレンティ"
+ AST_util_vehicle_5: "ブッシュマスター"
+>>>>>>> main
 =======
  AST_util_vehicle_2: "ランドローバーII/III"
  AST_util_vehicle_3: "ランドローバー ぺレンティ"
@@ -367,6 +396,7 @@
  AUS_Rec_tank_3_short: "エイジャックスLT"
  AUS_util_vehicle_1: "ピンツガウアー 710/712"
 <<<<<<< HEAD
+<<<<<<< HEAD
  AUS_util_vehicle_2: "Steyr 91"
  AUS_util_vehicle_3: "イヴェコ VM 90"
  AZE_util_vehicle_5: "ギュルザ"
@@ -381,6 +411,9 @@
 =======
  AUS_util_vehicle_2: "シュタイアー 91"
 >>>>>>> main
+=======
+ AUS_util_vehicle_2: "シュタイアー 91"
+>>>>>>> main
  BEL_IFV_2: "YPR-765"
  BEL_IFV_2_short: "YPR-765"
  BEL_APC_1: "BDX"
@@ -388,6 +421,7 @@
  BEL_Rec_tank_1: "シブマス AFSV-90"
  BEL_Rec_tank_1_short: "AFSV-90"
  BLR_SP_R_arty_2: "B-200 ポロネーズ"
+<<<<<<< HEAD
 <<<<<<< HEAD
  BOS_infantry_weapons_2: "ザスタバ M70BN"
  BOS_infantry_weapons_3: "ザスタバ M80"
@@ -403,6 +437,9 @@
 =======
  BOS_SP_R_arty_0: "M-63 プラメン"
 >>>>>>> main
+=======
+ BOS_SP_R_arty_0: "M-63 プラメン"
+>>>>>>> main
  BRA_APC_1: "クティア"
  BRA_APC_2: "EE-11 ウルツ"
  BRA_APC_3: "CBTP チャルーア"
@@ -414,17 +451,23 @@
  BRA_IFV_5: "VBCI-MR グアラニ"
  BRA_IFV_5_short: "VBCI-MR グアラニ"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BRA_util_vehicle_2: "ランドローバー 110"
  BRA_util_vehicle_3: "ランドローバー ディフェンダー"
  BRA_util_vehicle_4: "Agrale Marruá"
  BRA_util_vehicle_5: "VBMT-LSR グアイクルス"
  BRA_util_vehicle_6: "VBMT-LSR 1A グアイクルス"
 =======
+=======
+>>>>>>> main
  BRA_util_vehicle_1: "M38 ジープ"
  BRA_util_vehicle_2: "ランドローバー 110"
  BRA_util_vehicle_3: "ランドローバー ディフェンダー"
  BRA_util_vehicle_4: "アグラレ・マルア"
  BRA_util_vehicle_5: "VBMT-LSR グアイクルス"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  BRA_MBT_1_short: "X-30 タモヨ"
  BRA_MBT_2_short: "MB-2 タモヨ"
@@ -440,6 +483,7 @@
  BRA_Anti_tank_2: "MSS-1.2"
  BRA_Heavy_Anti_tank_0: "EE-3 ジャララカ"
  BRA_Heavy_Anti_tank_1: "EE-18 スクリ"
+<<<<<<< HEAD
 <<<<<<< HEAD
  BRM_infantry_weapons: "BA-63"
  BRM_infantry_weapons_2: "MA-11"
@@ -491,6 +535,29 @@
  CHI_infantry_weapons_6: "191式自動歩槍"
  CHI_infantry_weapons_7: "272式自動歩槍"
  CHI_infantry_weapons_8: "353式自動歩槍"
+=======
+ BRM_util_vehicle_2: "ナウンヨー"
+ BRM_APC_1: "BAAC-83"
+ BRM_APC_2: "BAAC-87"
+ BUL_IFV_3: "BMP-23"
+ CAN_APC_2: "LAV-I AVGP"
+ CAN_APC_2_short: "LAV-I AVGP"
+ CAN_APC_3: "LAV-II ビゾン"
+ CAN_APC_3_short: "LAV-II ビゾン"
+ CAN_APC_4: "LAV-III ISC"
+ CAN_APC_4_short: "LAV-III ISC"
+ CAN_APC_5: "LAV-6 ACSV スーパービゾン"
+ CAN_APC_5_short: "LAV-6 ACSV"
+ CAN_IFV_3: "LAV-III コディアック"
+ CAN_IFV_4: "LAV-III LORIT"
+ CAN_IFV_4_short: "LAV-III LORIT"
+ CAN_Rec_tank_1: "M113 CV リンクス"
+ CAN_Rec_tank_1_short: "M113 CV リンクス"
+ CAN_Rec_tank_2: "クーガー AVGP"
+ CAN_Rec_tank_2_short: "クーガー AVGP"
+ CAN_util_vehicle_2: "HLVW"
+ CAN_Anti_tank_1: "TOW"
+>>>>>>> main
 =======
  BRM_util_vehicle_2: "ナウンヨー"
  BRM_APC_1: "BAAC-83"
@@ -598,6 +665,7 @@
  CHI_util_vehicle_7: "CSK-181"
  CHI_util_vehicle_8: "CSK-270"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CHI_util_vehicle_9: "ZFB-35"
  CHL_infantry_weapons_3: "FAMAE SG 540"
  CHL_infantry_weapons_3_short: "SG 540"
@@ -608,6 +676,9 @@
  CRO_infantry_weapons_4: "ザスタバ M90"
  CRO_infantry_weapons_5: "VHS"
  CRO_infantry_weapons_6: "VHS-2"
+=======
+ COL_util_vehicle_3: "ハンヴィー"
+>>>>>>> main
 =======
  COL_util_vehicle_3: "ハンヴィー"
 >>>>>>> main
@@ -630,6 +701,7 @@
  CRO_artillery_0: "M-56"
  CRO_artillery_1: "M-84 ノラ"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CZE_infantry_weapons: "vz. 52"
  CZE_infantry_weapons_2: "vz. 58"
  CZE_infantry_weapons_3: "vz. 58 V"
@@ -638,6 +710,8 @@
  CZE_infantry_weapons_6: "ČZ ブレン2"
  CZE_infantry_weapons_7: "ČZ ブレン3"
  CZE_infantry_weapons_8: "CZ 812 セルマ"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CZE_Anti_tank_0: "PTŘS-12 ヴォラント"
@@ -661,6 +735,7 @@
  CZE_Anti_Air_4: "PLŘS-MD vz. 25 ズミイェ"
  CZE_Anti_Air_4_desc: "このミサイルは最新技術とハードウェアを利用して、敵の最もステルス性の高い航空機でさえも命中させる。ステルス機でさえ可視スペクトルではステルスではないため、ミサイルをあらゆるステルス機に誘導する衛星リンクが含まれている。"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CZE_cnc_equipment_1: "R-140P"
  CZE_cnc_equipment_1_desc: "C&C Equipment from Cold-war era produced with Slovakia at the Czechoslovak era."
  CZE_cnc_equipment_2: "R-150MP"
@@ -675,6 +750,8 @@
  CZE_cnc_equipment_6_desc: "C4ISTAR (Command, Control, Communications, Computers, Intelligence, Interoperability, Surveillance, Target Acquisition, and Reconnaissance) is the Fifth generation of C2 equipment. Command and Control Equipment is the system empowering leadership to exercise authority and direction over assigned forces for the accomplishment of missions and tasks. Efficient Command and Control leads to greater organization and morale."
  CZE_cnc_equipment_7: "RF-13250"
  CZE_cnc_equipment_7_desc: "C4ISTAR (Command, Control, Communications, Computers, Collaboration, Intelligence, Interoperability, Surveillance, Target Acquisition, and Reconnaissance ) is the Seventh generation of C2 equipment. Command and Control Equipment is the system empowering leadership to exercise authority and direction over assigned forces for the accomplishment of missions and tasks. Efficient Command and Control leads to greater organization and morale."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CZE_MBT_1: "T-54AR リェカ"
@@ -797,6 +874,7 @@
  CZE_artillery_4_desc: "New calibre howitzer capable of destroying anything with one hit due to its amazing 172mm L/43 gun."
  CZE_util_vehicle_1: "プラハ M59"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CZE_util_vehicle_1_short: "プラハ M59"
  CZE_util_vehicle_1_desc: ""
  CZE_util_vehicle_2: "Tatra 813 8x8 KOLOS"
@@ -815,6 +893,8 @@
  CZE_util_vehicle_8_desc: "MVAP Jeep with anti-mine protection and very high off-road speeds due to computer prediction of terrain and autopilot."
  EGY_infantry_weapons: "Maadi AKM"
 =======
+=======
+>>>>>>> main
  CZE_util_vehicle_1_desc: ""
  CZE_util_vehicle_2: "タトラ 813 8x8 KOLOS"
  CZE_util_vehicle_2_desc: "Tatra truck with good off-road speeds capable of carrying any type of cargo including living entities."
@@ -828,6 +908,9 @@
  CZE_util_vehicle_6_desc: "Armored jeep with reconnaissance equipment, command and communication center or passenger abilities."
  CZE_util_vehicle_7: "タトラ 915 8x8"
  CZE_util_vehicle_7_desc: "All-armored cargo truck."
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  EGY_Anti_Air_0: "アイン・アル・サクル"
  EGY_MBT_1: "Ramses II"
@@ -842,6 +925,7 @@
  EGY_SP_R_arty_1: "サクル-45"
  EGY_artillery_0: "RL812"
 <<<<<<< HEAD
+<<<<<<< HEAD
  FIN_infantry_weapons: "RK 62"
  FIN_infantry_weapons_2: "RK 71"
  FIN_infantry_weapons_3: "バルメット M82"
@@ -850,6 +934,10 @@
  FIN_infantry_weapons_6: "RK 62M2"
  FIN_APC_2: "Sisu Nasu"
  FIN_APC_2_short: "Sisu Nasu"
+=======
+ FIN_APC_2: "シス Nasu"
+ FIN_APC_2_short: "シス Nasu"
+>>>>>>> main
 =======
  FIN_APC_2: "シス Nasu"
  FIN_APC_2_short: "シス Nasu"
@@ -871,6 +959,7 @@
  FIN_artillery_1: "155 K 83"
  FIN_artillery_2: "155 K 98"
 <<<<<<< HEAD
+<<<<<<< HEAD
  FIN_util_vehicle_2: "Sisu A-45"
  FIN_util_vehicle_3: "Sisu SA-150"
  FRA_infantry_weapons: "MAS-49/56"
@@ -888,6 +977,10 @@
  FRA_infantry_weapons_7_desc: ""
  FRA_infantry_weapons_8: "AIF 40"
  FRA_infantry_weapons_8_desc: ""
+=======
+ FIN_util_vehicle_1: "ZIL-131"
+ FIN_util_vehicle_2: "シス A-45"
+>>>>>>> main
 =======
  FIN_util_vehicle_1: "ZIL-131"
  FIN_util_vehicle_2: "シス A-45"
@@ -1005,6 +1098,7 @@
  FRA_util_vehicle_3: "ランドローバー ディフェンダー"
  FRA_util_vehicle_4: "VBL"
 <<<<<<< HEAD
+<<<<<<< HEAD
  FRA_util_vehicle_5: "ネクスター・アラヴィス"
  FRA_util_vehicle_6: "VBMR-L Serval"
  FRA_util_vehicle_7: "VBMR-L Serval NG"
@@ -1025,6 +1119,14 @@
  FSA_artillery_0: "ヘルキャノン"
  FSA_artillery_0_short: "ヘルキャノン"
 >>>>>>> main
+=======
+ FRA_util_vehicle_5: "オーバーランド PVP"
+ FRA_util_vehicle_6: "VBMR サーバル"
+ FRA_util_vehicle_7: "VBMR-L サーバル NG"
+ FSA_util_vehicle_1: "トヨタ ランドクルーザー"
+ FSA_artillery_0: "ヘルキャノン"
+ FSA_artillery_0_short: "ヘルキャノン"
+>>>>>>> main
  GEO_APC_4: "ラジカAPC"
  GEO_APC_4_short: "ラジカAPC"
  GEO_IFV_4: "ラジカIFV"
@@ -1036,6 +1138,7 @@
  GEO_SP_arty_1: "GMM-120 自走砲"
  GEO_SP_arty_1_short: "GMM-120"
  GER_infantry_weapons_short: "G3"
+<<<<<<< HEAD
 <<<<<<< HEAD
  GER_infantry_weapons_2: "ヘッケラー&コッホ G3A3"
  GER_infantry_weapons_2_short: "G3A3"
@@ -1051,6 +1154,8 @@
  GER_infantry_weapons_7_short: "G95K"
  GER_infantry_weapons_8: "ヘッケラー&コッホ 433"
  GER_infantry_weapons_8_short: "HK 433"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  GER_APC_1: "M113G"
@@ -1122,6 +1227,7 @@
  GER_SP_arty_2_short: "PzH2000自走榴弾砲"
  GER_artillery_1: "FH155-1 榴弾砲"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GER_util_vehicle_2: "DKWムンガ"
  GER_util_vehicle_3: "フォルクスワーゲン イルティス"
  GER_util_vehicle_3_short: "イルティス"
@@ -1138,6 +1244,8 @@
  GRE_infantry_weapons_7: "FN SCAR-M 6.8"
  GRE_infantry_weapons_8: "FN SCAR-NG"
 =======
+=======
+>>>>>>> main
  GER_util_vehicle_1: "ウニモグ"
  GER_util_vehicle_2: "フォルクスワーゲン イルティス"
  GER_util_vehicle_2_short: "イルティス"
@@ -1145,6 +1253,9 @@
  GER_util_vehicle_4: "ATF ディンゴ"
  GER_util_vehicle_5: "モワク イーグル IV"
  GER_transport_plane1: "C-160D トランザール"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  GRE_MBT_1: "M60A3"
  GRE_MBT_1_short: "M60A3"
@@ -1173,13 +1284,17 @@
  GRE_IFV_5_short: "ELVO ケンタウルス II"
  GRE_util_vehicle_1: "680M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GRE_util_vehicle_2: "680M3"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  GRE_util_vehicle_4: "240 GD"
  GRE_util_vehicle_4_short: "240 GD"
  GRE_util_vehicle_5: "290 GD"
  GRE_util_vehicle_5_short: "290 GD"
+<<<<<<< HEAD
 <<<<<<< HEAD
  GRE_util_vehicle_6: "M1113GR"
  GRE_util_vehicle_6_short: "M1113GR"
@@ -1190,6 +1305,14 @@
  HOL_IFV_2: "YPR-765"
  HOL_IFV_2_short: "YPR-765"
  HEZ_util_vehicle_2: "サフィール ジープ"
+=======
+ HOL_util_vehicle_1: "DAF YA 328"
+ HOL_util_vehicle_2: "DAF YA 314"
+ HOL_util_vehicle_3: "DAF YA 4440/4442"
+ HOL_util_vehicle_4: "ウルフ SSA"
+ HOL_IFV_2: "YPR-765"
+ HOL_IFV_2_short: "YPR-765"
+>>>>>>> main
 =======
  HOL_util_vehicle_1: "DAF YA 328"
  HOL_util_vehicle_2: "DAF YA 314"
@@ -1228,6 +1351,7 @@
  HEZ_SP_Anti_Air_0: "MIM-23 ホーク"
  HEZ_SP_Anti_Air_1: "ラード"
 <<<<<<< HEAD
+<<<<<<< HEAD
  HUN_infantry_weapons: "AMD-65"
  HUN_infantry_weapons_2: "AK-63"
  HUN_infantry_weapons_3: "AMP-69"
@@ -1238,6 +1362,8 @@
  IND_infantry_weapons_5: "ピンダッド SS4"
  IND_infantry_weapons_6: "ピンダッド SS5"
  IND_infantry_weapons_7: "ピンダッド SS6"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  IND_APC_2: "ピンダッド APS-3"
@@ -1266,10 +1392,15 @@
  IND_util_vehicle_3: "ピンダッド APR-1"
  IND_util_vehicle_3_short: "APR-1"
 <<<<<<< HEAD
+<<<<<<< HEAD
  IND_util_vehicle_4: "ピンダド コモド"
  IND_util_vehicle_4_short: "コモド"
  IND_util_vehicle_5: "マヒンドラ マークスマン"
  IND_util_vehicle_5_short: "マークスマン"
+=======
+ IND_util_vehicle_4: "ピンダッド コモド"
+ IND_util_vehicle_4_short: "コモド"
+>>>>>>> main
 =======
  IND_util_vehicle_4: "ピンダッド コモド"
  IND_util_vehicle_4_short: "コモド"
@@ -1279,6 +1410,7 @@
  IND_SP_R_arty_1: "R-Han 122"
  IND_SP_R_arty_1_short: "R-Han 122"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ENG_infantry_weapons: "L1A1 SLR"
  ENG_infantry_weapons_2: "L1A1 SLR SUIT"
  ENG_infantry_weapons_3: "L85A1"
@@ -1287,6 +1419,8 @@
  ENG_infantry_weapons_6: "L85A3"
  ENG_infantry_weapons_7: "L403A1"
  ENG_infantry_weapons_8: "L88A1"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ENG_Anti_Air_0: "ジャベリン SAM"
@@ -1382,6 +1516,7 @@
  ENG_artillery_1: "L118 ライトガン"
  ENG_artillery_2: "M777 155mm榴弾砲"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ENG_util_vehicle_2: "Land Rover 110 LWG GS"
  ENG_util_vehicle_3: "Land Rover WMIK Defender"
  ENG_util_vehicle_4: "Jackal"
@@ -1400,6 +1535,8 @@
  ISR_Heavy_Anti_tank_1: "MAPATS Hutra"
  ISR_Heavy_Anti_tank_2: "Spike NLOS"
 =======
+=======
+>>>>>>> main
  ENG_util_vehicle_1: "ランドローバー 110 LWG GS"
  ENG_util_vehicle_2: "ランドローバー WMIK ディフェンダー"
  ENG_util_vehicle_3: "ランドローバー ウルフ"
@@ -1409,6 +1546,9 @@
  ENG_util_vehicle_7: "ランドローバー 35 プロテクター"
  ISR_Heavy_Anti_tank_1: "MAPATS フトラ"
  ISR_Heavy_Anti_tank_2: "スパイク NLOS"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  ISR_IFV_1: "BTR-40"
  ISR_IFV_1_short: "BTR-40"
@@ -1477,8 +1617,13 @@
  ISR_SP_Anti_Air_3: "ストライカー M1127IA"
  ISR_SP_Anti_Air_4: "スコーピオン SRLS-I"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ISR_util_vehicle_1: "AIL Abir"
  ISR_util_vehicle_1_short: "Abir"
+=======
+ ISR_util_vehicle_1: "AIL アビール"
+ ISR_util_vehicle_1_short: "アビール"
+>>>>>>> main
 =======
  ISR_util_vehicle_1: "AIL アビール"
  ISR_util_vehicle_1_short: "アビール"
@@ -1492,8 +1637,11 @@
  ISR_util_vehicle_5: "プラサン サンドキャット"
  ISR_util_vehicle_5_short: "サンドキャット"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ISR_util_vehicle_6: "プラサン サンドキャット ストーマー"
  ISR_util_vehicle_6_short: "サンドキャット ストーマー"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ISR_Rec_tank_0: "M51"
@@ -1511,6 +1659,7 @@
  IRE_APC_1: "ティモ二ー装甲兵員輸送車"
  IRE_APC_1_short: "ティモ二ーAPC"
 <<<<<<< HEAD
+<<<<<<< HEAD
  IRQ_infantry_weapons_2: "Tabuk Sniper"
  IRQ_SP_arty_1: "アル・ファオ"
  IRQ_SP_R_arty_0: "アバビール"
@@ -1525,11 +1674,19 @@
  IRQ_SP_arty_1: "アル・ファオ"
  IRQ_SP_R_arty_0: "アバビール"
  IRQ_SP_R_arty_1: "サジエル-60"
+=======
+ IRQ_SP_arty_1: "アル・ファオ"
+ IRQ_SP_R_arty_0: "アバビール"
+ IRQ_SP_R_arty_1: "サジエル-60"
+>>>>>>> main
  IRQ_MBT_2: "バビロンの獅子"
  IRQ_MBT_2_short: "バビロンの獅子"
  ISI_util_vehicle_1: "ZIL-131"
  ISI_util_vehicle_2: "ウラル-4320"
  ISI_util_vehicle_3: "KamAZ-4310"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  ISI_MBT_1: "T-55"
  ISI_MBT_1_short: "T-55"
@@ -1546,6 +1703,7 @@
  ISI_SP_R_arty_0: "BM-21 グラート"
  ISI_artillery_0: "ヘルキャノン"
  ISI_artillery_0_short: "ヘルキャノン"
+<<<<<<< HEAD
 <<<<<<< HEAD
  ITA_infantry_weapons: "BM59"
  ITA_infantry_weapons_2: "AR70/223"
@@ -1569,6 +1727,8 @@
  ITA_cnc_equipment_6_desc: "C4ISTAR (Command, Control, Communications, Computers, Intelligence, Interoperability, Surveillance, Target Acquisition, and Reconnaissance) is the Fifth generation of C2 equipment. Command and Control Equipment is the system empowering leadership to exercise authority and direction over assigned forces for the accomplishment of missions and tasks. Efficient Command and Control leads to greater organization and morale."
  ITA_cnc_equipment_7: "SIACCON NCW ADV"
  ITA_cnc_equipment_7_desc: "C4ISTAR (Command, Control, Communications, Computers, Collaboration, Intelligence, Interoperability, Surveillance, Target Acquisition, and Reconnaissance ) is the Seventh generation of C2 equipment. Command and Control Equipment is the system empowering leadership to exercise authority and direction over assigned forces for the accomplishment of missions and tasks. Efficient Command and Control leads to greater organization and morale."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ITA_APC_1: "M-113"
@@ -1681,6 +1841,7 @@
  ITA_Anti_Air_4: "FIM-245 ハートストライカー"
  ITA_Anti_Air_4_desc: "DARPAの取り組みによって開発されたこのシステムは、MANPAD兵器プラットフォームの最高峰である。最近の進歩とセンサーの小型化により、当社のエンジニアは1人の人間で、敵が利用できる最もステルス性の高い航空機の一部を破壊または無力化できる効果的な力を実現した。"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ITA_util_vehicle_1: "フィアット AR59"
  ITA_util_vehicle_2: "Land rover AR90"
  ITA_util_vehicle_3: "VM 90T Torpedo"
@@ -1698,6 +1859,8 @@
  JAP_infantry_weapons_7: "豊和 MCX 6.8"
  JAP_infantry_weapons_8: "豊和 31式"
 =======
+=======
+>>>>>>> main
  ITA_util_vehicle_1: "FIAT AR59"
  ITA_util_vehicle_2: "ランドローバー AR90"
  ITA_util_vehicle_3: "VM 90T トルペド"
@@ -1705,6 +1868,9 @@
  ITA_util_vehicle_5: "VTLM リンチェ"
  ITA_util_vehicle_6: "VTLM 1A リンチェ"
  ITA_util_vehicle_7: "VTLM 2 リンチェ"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  JAP_Anti_Air_0: "75式地対空ミサイル"
  JAP_Anti_Air_1: "91式携帯地対空誘導弾 SAM-2"
@@ -1804,6 +1970,7 @@
  JAP_SP_Anti_Air_4: "07式中距離地対空誘導弾"
  JAP_SP_Anti_Air_4_short: "07式中SAM"
 <<<<<<< HEAD
+<<<<<<< HEAD
  JAP_util_vehicle_2: "Isuzu TSD-45"
  JAP_util_vehicle_2_short: "TSD-45"
  JAP_util_vehicle_3: "Isuzu SKW"
@@ -1825,6 +1992,21 @@
  KOR_infantry_weapons_6: "大宇 K2C1"
  KOR_infantry_weapons_7: "大宇 SR-16"
  KOR_infantry_weapons_8: "大宇 K27C"
+=======
+ JAP_util_vehicle_1: "日産 パトロール"
+ JAP_util_vehicle_1_short: "日産 パトロール"
+ JAP_util_vehicle_2: "いすゞ TSD-45"
+ JAP_util_vehicle_2_short: "TSD-45"
+ JAP_util_vehicle_3: "いすゞ SKW"
+ JAP_util_vehicle_3_short: "いすゞ SKW"
+ JAP_util_vehicle_4: "トヨタ 高機動車"
+ JAP_util_vehicle_5: "小松 LAV"
+ JAP_util_vehicle_6: "小松 LAV-2"
+ JAP_util_vehicle_7: "小松 虎"
+ JOR_util_vehicle_3: "ハンヴィー"
+ JOR_util_vehicle_4: "M1113 ハンヴィー ECV"
+ KAZ_SP_arty_2: "セムサー"
+>>>>>>> main
 =======
  JAP_util_vehicle_1: "日産 パトロール"
  JAP_util_vehicle_1_short: "日産 パトロール"
@@ -1922,6 +2104,7 @@
  KOR_util_vehicle_3: "K311"
  KOR_util_vehicle_4: "K131"
 <<<<<<< HEAD
+<<<<<<< HEAD
  KOR_util_vehicle_5: "MaxxPro KMRAP"
  KOR_util_vehicle_6: "K151 Raycolt"
  KOR_util_vehicle_7: "KJLTV"
@@ -1945,6 +2128,8 @@
  MEX_infantry_weapons_5: "FX-05 Xiuhcoatl"
  MEX_infantry_weapons_6: "SIG 716i"
 =======
+=======
+>>>>>>> main
  KOR_util_vehicle_5: "マックスプロ KMRAP"
  KOR_util_vehicle_6: "K151 レイコルト"
  KOR_util_vehicle_7: "KJLTV"
@@ -1956,11 +2141,15 @@
  MAY_util_vehicle_1_short: "HICOMハンダラン"
  MAY_util_vehicle_4: "ウェストスター GK-M1 ラピッドローバー"
  MAY_util_vehicle_4_short: "GK-M1 ラピッドローバー"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  MEX_IFV_1: "セディナ・ヘンシェル HWK-11"
  MEX_IFV_1_short: "HWK-11"
  MEX_Rec_tank_0: "DN-III"
  MEX_Rec_tank_0_short: "DN-III"
+<<<<<<< HEAD
 <<<<<<< HEAD
  MEX_Rec_tank_1: "DN-IV Caballo"
  MEX_Rec_tank_1_short: "DN-IV Caballo"
@@ -1979,12 +2168,17 @@
  NKO_infantry_weapons_7: "AK-12M1"
  NKO_infantry_weapons_8: "AK-31"
 =======
+=======
+>>>>>>> main
  MEX_Rec_tank_1: "DN-IV カバージョ"
  MEX_Rec_tank_1_short: "DN-IV カバージョ"
  MEX_Rec_tank_2: "DN-V トロ"
  MEX_Rec_tank_2_short: "DN-V トロ"
  NIG_util_vehicle_3: "CS/VA1"
  NIG_util_vehicle_4: "URO VAMTAC"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  NKO_Anti_Air_0: "9K32 ストレラ-2"
  NKO_Anti_Air_1: "9K38 イグラ"
@@ -2063,6 +2257,7 @@
  NKO_util_vehicle_1: "勝利58号"
  NKO_util_vehicle_2: "勝利61NA号"
 <<<<<<< HEAD
+<<<<<<< HEAD
  NKO_util_vehicle_3: "太白山-96"
  NKO_util_vehicle_4: "東風 EQ2058"
  NKO_util_vehicle_5: "ZFB-05"
@@ -2086,12 +2281,17 @@
  NOR_cnc_equipment_7: "コングスベルグ ハインダル"
  NOR_cnc_equipment_7_short: "ハインダル C5I"
 =======
+=======
+>>>>>>> main
  NKO_util_vehicle_3: "太白山 96"
  NKO_util_vehicle_4: "東風 EQ2058"
  NKO_util_vehicle_5: "ZBD-05"
  NKO_util_vehicle_6: "CS/VP4"
  NKO_util_vehicle_7: "ZFB-21"
  NKO_util_vehicle_8: "ZFB-27"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  NOR_Anti_Air_1: "ナラッド"
  NOR_Heavy_Anti_tank_1: "NM142 駆逐戦車"
@@ -2108,6 +2308,7 @@
  NOR_SP_Anti_Air_3: "中高度防空ミサイルシステム III"
  NOR_SP_Anti_Air_4: "中高度防空ミサイルシステム IV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  NOR_util_vehicle_1: "ピンツガウアー 710/712"
  NUS_util_vehicle_1: "ZIL-131"
  NUS_util_vehicle_2: "Ural-4320"
@@ -2115,6 +2316,13 @@
  NUS_artillery_0_short: "ヘルキャノン"
  OMA_util_vehicle_5: "マックスプロ MRAP"
  OMA_util_vehicle_6: "M-ATV"
+=======
+ NUS_util_vehicle_1: "ZIL-131"
+ NUS_artillery_0: "ヘルキャノン"
+ NUS_artillery_0_short: "ヘルキャノン"
+ OMA_util_vehicle_4: "M1113 ハンヴィー ECV"
+ OMA_util_vehicle_5: "マックスプロ MRAP"
+>>>>>>> main
 =======
  NUS_util_vehicle_1: "ZIL-131"
  NUS_artillery_0: "ヘルキャノン"
@@ -2139,6 +2347,7 @@
  PAK_SP_R_arty_0: "KRL 122"
  PAK_util_vehicle_1: "ニシャン"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PAK_util_vehicle_2: "ヤソーブ"
  PER_infantry_weapons: "56式"
  PER_infantry_weapons_2: "Sayyad 5.56"
@@ -2148,6 +2357,8 @@
  PER_infantry_weapons_6: "Masaf 1"
  PER_infantry_weapons_7: "ファジル-41"
  PER_infantry_weapons_8: "Arash"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  PER_APC_1: "M-113"
@@ -2183,6 +2394,7 @@
  PER_MBT_5: "コッズ"
  PER_MBT_5_short: "コッズ"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PER_MBT_7: "Mahdi"
  PER_MBT_7_short: "Mahdi"
  PER_Rec_tank_0: "Aqareb"
@@ -2202,6 +2414,8 @@
  PER_util_vehicle_5: "Toofan"
  PER_util_vehicle_6: "Toofan 2"
 =======
+=======
+>>>>>>> main
  PER_MBT_7: "マフディー"
  PER_MBT_7_short: "マフディー"
  PER_Rec_tank_0: "アガレブ"
@@ -2219,6 +2433,9 @@
  PER_util_vehicle_3: "セペール"
  PER_util_vehicle_4: "アラス"
  PER_util_vehicle_5: "トーファン"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  PER_SP_R_arty_0: "ハディド HM 20"
  PER_SP_R_arty_1: "ファジル-3"
@@ -2230,6 +2447,7 @@
  PER_artillery_2: "HM-2000"
  PER_Anti_Air_1: "メサグ-2"
  PER_Anti_Air_2: "メサグ-3"
+<<<<<<< HEAD
 <<<<<<< HEAD
  PER_Anti_Air_3: "Kosh"
  PER_Anti_Air_4: "Kosh-2"
@@ -2250,6 +2468,8 @@
  POL_infantry_weapons_5: "Kbs wz. 1996C Beryl"
  POL_infantry_weapons_6: "MSBS Grot"
 =======
+=======
+>>>>>>> main
  PER_Anti_Air_3: "コーシュ"
  PER_Anti_Air_4: "コーシュ-2"
  PER_SP_Anti_Air_0: "zsu-23 トラック"
@@ -2258,6 +2478,9 @@
  PER_SP_Anti_Air_3: "バヴァール-373"
  PHI_util_vehicle_1: "デルタ ミニクルーザー"
  PHI_util_vehicle_1_short: "デルタ ミニクルーザー"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  POL_Anti_tank_1: "9K111 ファゴット"
  POL_Anti_Air_1: "PZR グロム"
@@ -2289,6 +2512,7 @@
  POL_MBT_4_short: "PT-91 トファルディ"
  POL_MBT_5: "レオパルト2PL"
  POL_MBT_5_short: "レオパルト2PL"
+<<<<<<< HEAD
 <<<<<<< HEAD
  POL_Rec_tank_2: "BRDM-2M 'Żbik' "
  POL_Rec_tank_3: "WPB Anders "
@@ -2323,6 +2547,8 @@
  RAJ_MBT_2: "Ajeya"
  RAJ_MBT_2_short: "Ajeya"
 =======
+=======
+>>>>>>> main
  POL_Rec_tank_2: "BRDM-2M"
  POL_Rec_tank_3: "WPB アンデルス"
  POL_SP_R_arty_2: "WR-40 ラングスタ"
@@ -2343,6 +2569,9 @@
  RAJ_MBT_1_short: "ヴィジャヤンタ"
  RAJ_MBT_2: "アジェヤ"
  RAJ_MBT_2_short: "アジェヤ"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  RAJ_MBT_3: "アルジュナ"
  RAJ_MBT_3_short: "アルジュナ"
@@ -2354,6 +2583,7 @@
  RAJ_MBT_7_short: "スルタカルマ"
  RAJ_IFV_4: "アバイ IFV"
  RAJ_IFV_4_short: "アバイ"
+<<<<<<< HEAD
 <<<<<<< HEAD
  RAJ_APC_1: "Tarmour"
  RAJ_APC_1_short: "Tarmour"
@@ -2369,6 +2599,8 @@
  RAJ_SP_R_arty_1: "Pinaka MBRL"
  RAJ_artillery_0: "Indian Field Gun"
 =======
+=======
+>>>>>>> main
  RAJ_APC_1: "タルムール"
  RAJ_APC_1_short: "タルムール"
  RAJ_APC_4: "タタ ケストレル"
@@ -2380,12 +2612,16 @@
  RAJ_util_vehicle_5: "タタ LAMV"
  RAJ_SP_R_arty_1: "ピナカ MBRL"
  RAJ_artillery_0: "インド野戦砲"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  RAJ_artillery_0_short: "IFG"
  RAJ_artillery_1: "ダヌーシュ"
  RAJ_artillery_2: "DRDO ATAGS"
  RAJ_SP_arty_0: "M-46 カタパルト"
  RAJ_SP_arty_1: "OFB SPG"
+<<<<<<< HEAD
 <<<<<<< HEAD
  RAJ_SP_Anti_Air_1: "DRDO Akash"
  ROM_infantry_weapons: "PM md. 63"
@@ -2395,6 +2631,9 @@
  ROM_infantry_weapons_5: "Beretta ARX160"
  ROM_infantry_weapons_6: "Beretta ARX160A2"
  ROM_infantry_weapons_7: "Beretta ARX160A3"
+=======
+ RAJ_SP_Anti_Air_1: "DRDO アカーシュ"
+>>>>>>> main
 =======
  RAJ_SP_Anti_Air_1: "DRDO アカーシュ"
 >>>>>>> main
@@ -2428,6 +2667,7 @@
  ROM_SP_Anti_Air_1: "CA-95"
  ROM_Anti_Air_0: "CA-94"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SAF_infantry_weapons: "ベクター R1"
  SAF_infantry_weapons_2: "Vektor R2"
  SAF_infantry_weapons_3: "ベクター R4"
@@ -2436,6 +2676,8 @@
  SAF_infantry_weapons_6: "ベクター R11"
  SAF_infantry_weapons_7: "ベクター R15"
  SAF_infantry_weapons_8: "ベクター R21"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SAF_APC_2: "ブッフェル"
@@ -2494,6 +2736,7 @@
  SAF_util_vehicle_1: "SAMIL 20"
  SAF_util_vehicle_2: "SAMIL 50"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SAF_util_vehicle_3: "Casspir"
  SAF_util_vehicle_4: "マンバ APC"
  SAF_util_vehicle_5: "RG-33"
@@ -2513,6 +2756,8 @@
  SER_infantry_weapons_7: "ザスタバ M38"
  SER_infantry_weapons_8: "ザスタバ M46"
 =======
+=======
+>>>>>>> main
  SAF_util_vehicle_3: "キャスパー"
  SAF_util_vehicle_4: "マンバ APC"
  SAF_util_vehicle_5: "RG-33"
@@ -2522,6 +2767,9 @@
  SAU_APC_4_short: "AF-40 アル・ファハド"
  SAU_SP_Anti_Air_1: "シャヒーン"
  SAU_util_vehicle_5: "マックスプロ MRAP"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  SER_MBT_1: "M-55S"
  SER_MBT_1_short: "M-55S"
@@ -2559,6 +2807,7 @@
  SER_util_vehicle_2: "TAM 150"
  SER_util_vehicle_3: "FAP 2026"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SER_util_vehicle_4: "Zastava Novo Terensko Vozilo"
  SER_util_vehicle_4_short: "Zastava NTV"
  SER_util_vehicle_5: "Lazar BVT"
@@ -2585,6 +2834,16 @@
  SIN_infantry_weapons_5_desc: "In the early 2000s the Ministry of Defence had unveiled a new framework for a technologically advanced fighting force, launching the initiative to transform the SAF into a 3rd Generation Army. The SAR 21 MMS is a modified variant of the SAR 21 that comes under the Advanced Combat Man System. It is introduced in 2005 to give every serviceman the situational awareness they need in the modern battlefield, fully integrated with HUD displays, tactical data-links and an advanced network of communications as part of the SAF's transition into a 3G Fighting Force."
  SIN_infantry_weapons_6: "BR 18 BMCR"
  SIN_infantry_weapons_6_desc: "The BMCR was first revealed in the 2014 Singapore Air Show as part of the SAF's future technology. It soon became the BR-18 Assault Rifle that will be replacing the SAR 21, quickly entering production in 2018."
+=======
+ SER_util_vehicle_4: "ザスタバ新型オフロード車"
+ SER_util_vehicle_5: "ラザール BVT"
+ SIA_util_vehicle_2: "M50 チャイプラカーン"
+ SIA_util_vehicle_2_short: "M50"
+ SIA_util_vehicle_3: "M51 チャイプラカーン"
+ SIA_util_vehicle_4: "TR MUV4"
+ SIA_artillery_0: "M618A2"
+ SIA_SP_R_arty_1: "DTI-2"
+>>>>>>> main
 =======
  SER_util_vehicle_4: "ザスタバ新型オフロード車"
  SER_util_vehicle_5: "ラザール BVT"
@@ -2642,6 +2901,7 @@
  SIN_artillery_2: "SLWH ペガサス"
  SIN_util_vehicle_3: "ランドローバー ディフェンダー"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SIN_util_vehicle_3_short: "Land Rover"
  SIN_util_vehicle_4: "Light Strike Vehicle"
  SIN_util_vehicle_4_short: "LSV"
@@ -2669,6 +2929,18 @@
  SLO_util_vehicle_4: "ウルフ SSA"
  SLO_SP_arty_1: "ShKH ズザナ"
 >>>>>>> main
+=======
+ SIN_util_vehicle_3_short: "ランドローバー"
+ SIN_util_vehicle_4: "軽戦闘車両"
+ SIN_util_vehicle_4_short: "LSV"
+ SIN_util_vehicle_5: "軽戦闘車両 Mk.II"
+ SIN_util_vehicle_5_short: "LSV Mk.II"
+ SLO_APC_4: "タトラパン"
+ SLO_SP_R_arty_0: "RM-51"
+ SLO_SP_R_arty_1: "RM-70"
+ SLO_util_vehicle_4: "ウルフ SSA"
+ SLO_SP_arty_1: "ShKH ズザナ"
+>>>>>>> main
  SLV_IFV_2: "BVP M-80"
  SLV_IFV_4: "パトリア SKOV スヴァルン"
  SLV_IFV_4_short: "パトリア SKOV スヴァルン"
@@ -2682,6 +2954,7 @@
  SLV_MBT_2_short: "M-84"
  SLV_Anti_tank_0: "M79 オサ"
  SLV_util_vehicle_1: "TAM 110"
+<<<<<<< HEAD
 <<<<<<< HEAD
  SLV_util_vehicle_2: "TAM 150"
  SLV_SP_R_arty_0: "M-63 Plamen"
@@ -2705,6 +2978,9 @@
  SOV_infantry_weapons_6_desc: "AK-12はラトニク未来歩兵計画に基づいて開発された、ロシアの新しいアサルトライフルである。特殊部隊向けに製造され、AK-103の生産を置き換えることになる。AK-12はバランスと人間工学が改善され、現在ロシアで最も優れたアサルトライフルとなっている。"
  SOV_infantry_weapons_7: "AK-12M1"
  SOV_infantry_weapons_8: "AK-31"
+=======
+ SLV_SP_R_arty_0: "M63 プラーメン"
+>>>>>>> main
 =======
  SLV_SP_R_arty_0: "M63 プラーメン"
 >>>>>>> main
@@ -2834,6 +3110,7 @@
  SOV_artillery_4: "D-60"
  SOV_util_vehicle_1: "ZIL-131"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SOV_util_vehicle_1_desc: "A logistics truck and troop carrier used by many militaries around the world."
  SOV_util_vehicle_2: "ウラル-4320"
  SOV_util_vehicle_2_desc: "A logistics truck and troop carrier used by many militaries around the world."
@@ -2845,6 +3122,8 @@
  SOV_util_vehicle_5_desc: "This armored troop carrier can be armed with an array of different weapons and carry up to 11 men."
  SOV_util_vehicle_6: "K-63968 タイフーン-K"
 =======
+=======
+>>>>>>> main
  SOV_util_vehicle_1_desc: "世界中の多くの軍隊で使用されている兵站トラック及び兵員輸送車である。"
  SOV_util_vehicle_2: "ウラル-4320"
  SOV_util_vehicle_2_desc: "世界中の多くの軍隊で使用されている兵站トラック及び兵員輸送車である。"
@@ -2853,6 +3132,9 @@
  SOV_util_vehicle_4: "KamAZ-4350"
  SOV_util_vehicle_4_desc: "世界中の多くの軍隊で使用されている兵站トラック及び兵員輸送車である。"
  SOV_util_vehicle_5: "GAZ ティーグル"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  SYR_MBT_1: "T-55"
  SYR_MBT_1_desc: "The T-54/55 is perhaps the most produced tank in the world. Designed and produced in the early years of the Cold War, it was the might and the backbone of the Red Army. Once feared as a symbol of the Russian might, it has become the iconic representation of Middle-Eastern armoured forces getting destroyed in the wake of an American air strike."
@@ -2895,9 +3177,12 @@
  SYR_IFV_8: "T-16"
  SYR_IFV_8_short: "T-16"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SPR_infantry_weapons: "CETME Model A"
  SPR_infantry_weapons_2: "CETME Model C"
  SPR_infantry_weapons_3: "CETME Model L"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SPR_APC_1: "Food Machinery Corp M-113A2"
@@ -2923,6 +3208,7 @@
  SPR_Rec_tank_3_short: "エイジャックスLT"
  SPR_artillery_1: "SBT 155/52 SIAC"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SPR_SP_R_arty_1: "Teruel MRL"
  SPR_util_vehicle_1: "ピンツガウアー 710/712"
  SPR_util_vehicle_4: "URO VAMTAC"
@@ -2931,12 +3217,17 @@
  SPR_util_vehicle_7: "Dingo 3"
  SRI_APC_2: "Unicorn APC"
 =======
+=======
+>>>>>>> main
  SPR_SP_R_arty_1: "テルエル MRL"
  SPR_util_vehicle_3: "サンタナ アニバル"
  SPR_util_vehicle_4: "URO VAMTAC"
  SPR_util_vehicle_5: "イヴェコ LMV"
  SPR_util_vehicle_6: "イヴェコ LMV2"
  SRI_APC_2: "ユニコーン APC"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  SRI_APC_2_short: "ユニコーン"
  SRI_APC_3: "ユニバッフェル"
@@ -2969,6 +3260,7 @@
  SYR_artillery_0: "D-30"
  SYR_util_vehicle_1: "ZIL-131"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SYR_util_vehicle_2: "ウラル-4320"
  SYR_util_vehicle_5: "GAZ Tigr"
  SUD_artillery_0: "ハリーファ"
@@ -2991,6 +3283,10 @@
 =======
  SYR_util_vehicle_4: "KamAZ-4350"
  SUD_artillery_0: "ハリーファ"
+=======
+ SYR_util_vehicle_4: "KamAZ-4350"
+ SUD_artillery_0: "ハリーファ"
+>>>>>>> main
  SUD_SP_arty_0: "アブ・ファトマ SPG"
  SUD_MBT_1: "ディグナ MBT"
  SUD_MBT_1_short: "ディグナ MBT"
@@ -3003,6 +3299,9 @@
  SUD_IFV_2: "カティム1 IFV"
  SUD_IFV_2_short: "カティム1 IFV"
  SUD_util_vehicle_4: "URO VAMTAC"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  SWE_Anti_Air_1: "RBS-70 Mk 2"
  SWE_APC_1: "テレンビル m/42 KP"
@@ -3059,6 +3358,7 @@
  SWE_SP_arty_2: "FH77BW L52 アーチャー"
  SWE_SP_arty_2_short: "FH77BW L52"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SWE_artillery_0: "Fälthaubits F"
  SWE_artillery_1: "Fälthaubits 77"
  SWE_util_vehicle_1: "Volvo L3314"
@@ -3077,6 +3377,14 @@
  SWI_infantry_weapons_5_short: "SG 553"
  SWI_infantry_weapons_6: "SIG シュトゥルムゲヴェーア MCX"
  SWI_infantry_weapons_6_short: "SG MCX"
+=======
+ SWE_artillery_0: "フェルトハウビット F"
+ SWE_artillery_1: "フェルトハウビット 77"
+ SWE_util_vehicle_1: "ボルボ L3314"
+ SWE_util_vehicle_3: "ランドローバー ディフェンダー"
+ SWE_util_vehicle_4: "Ptgb 5"
+ SWI_infantry_weapons_short: "SG 510"
+>>>>>>> main
 =======
  SWE_artillery_0: "フェルトハウビット F"
  SWE_artillery_1: "フェルトハウビット 77"
@@ -3106,8 +3414,13 @@
  SWI_APC_5: "モワク ピラーニャ V"
  SWI_APC_5_short: "ピラーニャ V"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SWI_util_vehicle_3: "モワク デュロ"
  SWI_util_vehicle_3_short: "デュロ"
+=======
+ SWI_util_vehicle_3: "モワク ドゥーロ"
+ SWI_util_vehicle_3_short: "ドゥーロ"
+>>>>>>> main
 =======
  SWI_util_vehicle_3: "モワク ドゥーロ"
  SWI_util_vehicle_3_short: "ドゥーロ"
@@ -3116,6 +3429,7 @@
  SWI_util_vehicle_4_short: "イーグル I/II"
  SWI_util_vehicle_5: "モワク イーグル IV"
  SWI_util_vehicle_5_short: "イーグル IV"
+<<<<<<< HEAD
 <<<<<<< HEAD
  SWI_util_vehicle_6: "モワク イーグル V"
  SWI_util_vehicle_6_short: "イーグル V"
@@ -3128,6 +3442,10 @@
  TAI_infantry_weapons_5: "T91"
  TAI_infantry_weapons_6: "T91K1"
  TAI_infantry_weapons_7: "T112"
+=======
+ SWI_SP_Anti_Air_1: "対空対戦車ミサイルシステム"
+ SWI_SP_Anti_Air_1_short: "ADATS"
+>>>>>>> main
 =======
  SWI_SP_Anti_Air_1: "対空対戦車ミサイルシステム"
  SWI_SP_Anti_Air_1_short: "ADATS"
@@ -3154,6 +3472,7 @@
  TAI_Rec_tank_3: "CM-37 MGS"
  TAL_util_vehicle_1: "ZIL-131"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TAL_util_vehicle_2: "ウラル-4320"
  TNZ_SP_R_arty_2: "A-100 MRL"
  TUR_Air_UAV1: "バイラクタル TB2"
@@ -3166,6 +3485,11 @@
  TUR_infantry_weapons_6: "MPT-76"
  TUR_infantry_weapons_7: "MPT-85"
  TUR_infantry_weapons_8: "MPT-88"
+=======
+ TNZ_SP_R_arty_2: "A-100 MRL"
+ TUR_Air_UAV1: "バイラクタル TB2"
+ TUR_Air_UAV2: "TAI アンカ"
+>>>>>>> main
 =======
  TNZ_SP_R_arty_2: "A-100 MRL"
  TUR_Air_UAV1: "バイラクタル TB2"
@@ -3210,6 +3534,7 @@
  TUR_SP_arty_1: "M52T"
  TUR_SP_arty_2: "T-155 フィルティナ"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TUR_artillery_2: "MKE Boran"
  TUR_util_vehicle_1: "M38 ジープ"
  TUR_util_vehicle_3: "オトカ アクレップ"
@@ -3225,6 +3550,8 @@
  TUR_util_vehicle_8_short: "エジュデル・ヤルチン II"
  TUR_Heavy_Anti_tank_2: "OMTAS"
 =======
+=======
+>>>>>>> main
  TUR_artillery_2: "MKE パンター"
  TUR_util_vehicle_2: "オトカ ランドローバー"
  TUR_util_vehicle_3: "オトカ コブラ"
@@ -3233,6 +3560,9 @@
  TUR_util_vehicle_6: "BMC ヴラン"
  TUR_util_vehicle_7: "BMC トゥーラーン"
  TUR_Heavy_Anti_tank_2: "FNSS パース 4x4 STA"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  TUR_Anti_tank_2: "OMTAS"
  UAE_APC_6: "EDT エニグマ"
@@ -3240,6 +3570,7 @@
  UAE_IFV_6: "EDT エニグマ"
  UAE_IFV_6_short: "EDT エニグマ"
  UAE_SP_arty_2: "エニグマ"
+<<<<<<< HEAD
 <<<<<<< HEAD
  UAE_SP_R_arty_1: "Jobaria MCL"
  UAE_util_vehicle_5: "マックスプロ MRAP"
@@ -3255,12 +3586,17 @@
  UKR_util_vehicle_6: "Kozak"
  UKR_util_vehicle_6_desc: ""
 =======
+=======
+>>>>>>> main
  UAE_SP_R_arty_1: "ジョバリアMCL"
  UAE_util_vehicle_4: "M1113 ハンヴィー ECV"
  UAE_util_vehicle_5: "マックスプロ MRAP"
  UKR_util_vehicle_1: "KrAZ-255"
  UKR_util_vehicle_4: "KrAZ-6322"
  UKR_util_vehicle_5: "ドゾル-B"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  UKR_APC_1: "BTR-60"
  UKR_APC_1_desc: "現在も現役の旧式車両の1つであるBTR-60には、装弾数500発の14.5mm KPVT重機関銃が搭載されている。副兵装は、装弾数3,000発の7.62mm pkt同軸機銃である。軽歩兵の移動やQRFに最適である。"
@@ -3325,6 +3661,7 @@
  UKR_artillery_1: "2A65 ムスタ-B"
  UKR_Anti_tank_1: "9K111 ファゴット"
 <<<<<<< HEAD
+<<<<<<< HEAD
  USA_infantry_weapons: "M14"
  USA_infantry_weapons_desc: "The M14 rifle, officially the United States Rifle, Caliber 7.62 mm, M14, is an American select-fire rifle that fires 7.62x51mm NATO (.308 in) ammunition. It became the standard-issued rifle for the U.S. military in 1959 replacing the M1 Garand rifle in the U.S. Army by 1961."
  USA_infantry_weapons_2: "M16A1"
@@ -3341,6 +3678,8 @@
  USA_infantry_weapons_6_desc: ""
  USA_infantry_weapons_8: "Titan APPL"
  USA_infantry_weapons_8_desc: "This weapons platform incorporates the same American reliability of the M4 system but applies technology totally unique to the 21st century. Not only is this system lightweight through the use of caseless ammunition, but it also utilizes a variant of miniaturized magnetic acceleration effectively making the weapon an early handheld hybrid railgun."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  USA_Anti_Air_0: "FIM-43 レッドアイ"
@@ -3451,6 +3790,7 @@
  USA_util_vehicle_2: "M151 ジープ"
  USA_util_vehicle_3: "ハンヴィー"
 <<<<<<< HEAD
+<<<<<<< HEAD
  USA_util_vehicle_4: "M1113 ハンヴィー ECV"
  USA_util_vehicle_6: "M-ATV"
  USA_util_vehicle_5: "マックスプロ MRAP"
@@ -3464,11 +3804,16 @@
  VIE_infantry_weapons_5: "Z111 ACE"
  VIE_infantry_weapons_6: "STV"
 =======
+=======
+>>>>>>> main
  USA_util_vehicle_5: "マックスプロ MRAP"
  USA_util_vehicle_4: "M1113 ハンヴィー ECV"
  USA_util_vehicle_6: "M-ATV"
  USA_util_vehicle_7: "JLTV"
  VEN_util_vehicle_2: "ウラル-4320"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  early_fighter: "初期型戦闘機設計"
  early_fighter_desc: "戦闘機の初期設計。これにより戦闘機の研究を可能とする。"
@@ -5152,11 +5497,14 @@
  train_equipment_3: "2045年型列車"
  train_equipment_desc: "本当にただの列車。"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CHI_infantry_weapons_desc: "The Type 56 (Type 56 Automatic Rifle) also known as the AK-56, is a Chinese 7.62x39mm rifle. It is a variant of the Soviet-designed AK-47 and AKM rifles."
  CHI_infantry_weapons_2_desc: "The Type 81 (\"Type 81 Automatic Rifle\") is a Chinese-designed second-generation, selective-fire, gas-operated 7.62x39mm rifle (based on Kalashnikov and SKS actions) adopted by the Chinese People's Liberation Army (PLA)"
  CHI_infantry_weapons_3_desc: ""
  CHI_infantry_weapons_4_desc: "The Type 95 Automatic Rifle or QBZ-95 is a 5.8x42mm bullpup assault rifle with a short-stroke piston action."
  CHI_infantry_weapons_5_desc: "The upgrade of the QBZ-95 designed for the 5.8x42mm DBP10 round."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  CHI_Anti_Air_0_desc: "The HN-5 ('Red Tassel-5') is a family of first generation rocket motor solid fuel Chinese man-portable air-defense systems (MANPAD) based on Soviet technology. "
@@ -5187,8 +5535,13 @@
  CHI_Rec_tank_2_desc: "An improved version of the original Type 62, the Type 62-G features a improved armour layout, new welded flat-plate turret, a more powerful 105 mm rifled main gun and modern stabilization system, a modern fire-control system, and night vision equipment."
  CHI_Rec_tank_3_desc: "The Type 15 light tank, also known as ZTQ-15, is a Chinese third generation light tank featuring a 105mm rifled gun and a remotely controlled 12.7mm machine gun and QLZ-04 automatic grenade launcher. It is protected by a composite armor and/or explosive reactive armor package"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GRE_util_vehicle_7: "HOPLITE"
  GRE_util_vehicle_7_short: "HOPLITE"
+=======
+ GRE_util_vehicle_6: "M1113GR"
+ GRE_util_vehicle_6_short: "M1113GR"
+>>>>>>> main
 =======
  GRE_util_vehicle_6: "M1113GR"
  GRE_util_vehicle_6_short: "M1113GR"
@@ -5366,6 +5719,7 @@
  mbt_equipment_3: "2015年型主力戦車"
  mbt_equipment_4: "2035年型主力戦車"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ARM_infantry_weapons_desc: "1959年に開発されたAKMは、ミハイル・カラシニコフによって開発されたAK-47の改良型である。銃床や新しいマズルブレーキによってフルオート射撃時のリコイルが改善された。"
  ARM_infantry_weapons_2_desc: "AK-74はAKMの後継として開発され、多くの改良を受けた。特徴として7.62mmから5.45mmの小口径弾薬を使用する。"
  ARM_infantry_weapons_3_desc: "The K6-92 submachine gun was developed in Armenia, which, after gaining independence in 1991, was actually in a state of armed conflict with Azerbaijan over Nagorno-Karabakh. The Armenian armed formations acutely felt the shortage of small arms, the need for which prompted Armenian engineers in 1991-92 to create a relatively simple K6-92 submachine gun."
@@ -5393,11 +5747,17 @@
  AZE_infantry_weapons_8: "MPT-76"
 =======
  ARM_SP_R_arty_2_desc: "The N-2 is an Armenian multiple rocket launcher designed and produced by the Scientific Production Association Garni-Ler starting no later than 2011. Armenia has not released much information regarding the rocket system, however it is apparent that the N-2 is being mass-produced, and is in active use by the Armenian Armed Forces, and likely the Nagorno-Karabakh Defense Army. The system was developed onto the GAZ-3308, a Russian military truck."
+=======
+ ARM_SP_R_arty_2_desc: "The N-2 is an Armenian multiple rocket launcher designed and produced by the Scientific Production Association Garni-Ler starting no later than 2011. Armenia has not released much information regarding the rocket system, however it is apparent that the N-2 is being mass-produced, and is in active use by the Armenian Armed Forces, and likely the Nagorno-Karabakh Defense Army. The system was developed onto the GAZ-3308, a Russian military truck."
+>>>>>>> main
  ARM_util_vehicle_1: "ErAZ-762 ラフィーク"
  ARM_util_vehicle_2: "KAMAZ"
  ARM_util_vehicle_3: "ハイク BM"
  ARM_util_vehicle_4: "メッツ・ハイク BM"
  ARM_util_vehicle_5: "ルサン-1"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  CHI_mbt_equipment_0: "ZTZ-59"
  CHI_mbt_equipment_1: "ZTZ-80"
@@ -5410,6 +5770,7 @@
  FRA_mbt_equipment_3: "EMBT"
  FRA_mbt_equipment_4: "MGCS スコーピオン"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GEO_infantry_weapons: "AK-47"
  GEO_infantry_weapons_2: "PM MD63"
  GEO_infantry_weapons_3: "AK-74M"
@@ -5419,6 +5780,9 @@
  GEO_infantry_weapons_7: "GI-4"
  GEO_infantry_weapons_8: "HK-465"
  GER_mbt_equipment_0: "レオパルド1"
+=======
+ GER_mbt_equipment_0: "レオパルト1"
+>>>>>>> main
 =======
  GER_mbt_equipment_0: "レオパルト1"
 >>>>>>> main
@@ -5480,6 +5844,7 @@
  PER_EQUIPMENT_VERSION_14: "-14"
  PER_EQUIPMENT_VERSION_15: "-15"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PER_EQUIPMENT_VERSION_16: "-Warner, stop"
  POL_body_armor_1: "Kamizelka przeciwodłamkowa DMV-98"
  POL_body_armor_2: "Kamizelka KLV"
@@ -5489,10 +5854,15 @@
  POL_Anti_tank_2: "Spike LR"
  POL_Anti_tank_3: "FGM-246 Firespear"
 =======
+=======
+>>>>>>> main
  PER_EQUIPMENT_VERSION_16: "-16"
  POL_Anti_tank_0: "RPG-76 コマール"
  POL_Anti_tank_2: "スパイク LR"
  POL_Anti_tank_3: "FGM-246 ファイアスピア"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  POL_Anti_tank_4: "HEL-414"
  POL_Anti_Air_0: "9K32 ストレラ-2"
@@ -5524,10 +5894,16 @@
  POL_SP_arty_3: "AHS クラブ2"
  POL_SP_arty_4: "AHS クラブ2M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  POL_util_vehicle_1: "スター 660"
  RAJ_mbt_equipment_0: "Vijayanta"
  RAJ_mbt_equipment_1: "Arjun"
  RAJ_mbt_equipment_2: "T-90S Bhishma"
+=======
+ RAJ_mbt_equipment_0: "ヴィジャヤンタ"
+ RAJ_mbt_equipment_1: "アルジュナ"
+ RAJ_mbt_equipment_2: "T-90S ビーシュマ"
+>>>>>>> main
 =======
  RAJ_mbt_equipment_0: "ヴィジャヤンタ"
  RAJ_mbt_equipment_1: "アルジュナ"
@@ -5670,9 +6046,14 @@
  GER_artillery_3: "M777A1 155mm 榴弾砲"
  GER_artillery_4: "M777A2 155mm 榴弾砲"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GER_util_vehicle_1: "Magirus-Deutz Jupiter"
  GER_util_vehicle_7: "ATF Dingo 3"
  GER_util_vehicle_8: "ATF Dingo 3A1"
+=======
+ GER_util_vehicle_6: "モワク イーグル V"
+ GER_util_vehicle_7: "モワク イーグル VI"
+>>>>>>> main
 =======
  GER_util_vehicle_6: "モワク イーグル V"
  GER_util_vehicle_7: "モワク イーグル VI"
@@ -5688,11 +6069,14 @@
  GER_cas4: "2025年型近接航空支援機"
  GER_cas5: "2035年型近接航空支援機"
 <<<<<<< HEAD
+<<<<<<< HEAD
  ITA_infantry_weapons_desc: "The BM 59 is an automatic battle rifle developed in Italy in 1959. It is based on the M1 Garand rifle, chambered in 7.62x51mm NATO, modified to use a detachable magazine, and capable of selective fire. Later revisions incorporated other features common to more modern rifles."
  ITA_infantry_weapons_3_desc: "The Beretta AR70/90 is a gas-operated assault rifle chambered for the 5.56x45 mm NATO cartridge, and is the standard issue service rifle of the Italian Armed Forces. The weapon is also designed to be fitted with a rifle grenade and has grenade sights. "
  ITA_infantry_weapons_4_desc: "the SC70/90 variants (Special Carbine) with folding stock were adopted, mainly used by Alpine troops, and the SCP70/90 (Special Carbine Paratroopers) rifle for paratroopers with recoil pad foldable and shorter barrel than the SC which allows insertion into the rifle sheath used in parachute jumps."
  ITA_infantry_weapons_5_desc: "The Beretta ARX160 is an Italian modular assault rifle manufactured by Beretta. Developed for the Italian Armed Forces as part of the Soldato Futuro (English: \"Future Soldier\") program, the ARX160 was launched in 2008 as a commercial weapon system independent from the Soldato Futuro ensemble, complete with a companion single-shot 40x46mm NATO low-velocity grenade launcher, called the GLX160, which can be mounted underneath the rifle or used with an ad hoc stock system as a stand-alone weapon."
  ITA_infantry_weapons_6_desc: "The Beretta ARX160 A3 is an improved variant of the ARX160 which features some design changes. The changes include a redesigned handguard, where its top row air vent slits have been replaced with larger square cut outs, though the bottom row air vent still retains the thinner slits. These larger cut outs reduce some weight of the rifle while letting more air circulate around the barrel."
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  POL_MBT_6: "K2PL"
@@ -5704,8 +6088,13 @@
  SOV_Rec_tank_5: "2035年型軽戦車"
  SOV_Rec_tank_5_short: "2035年型軽戦車"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SOV_util_vehicle_7: "K-4386 タイフーン-M"
  SOV_util_vehicle_8: "K-5521 サイクロン"
+=======
+ SOV_util_vehicle_6: "K-63968 タイフーン-K"
+ SOV_util_vehicle_7: "K-4386 タイフーン-M"
+>>>>>>> main
 =======
  SOV_util_vehicle_6: "K-63968 タイフーン-K"
  SOV_util_vehicle_7: "K-4386 タイフーン-M"
@@ -5807,11 +6196,15 @@
  BLR_Rec_tank_2: "MBTS カイマン"
  BLR_Rec_tank_2_desc: "Mobile armored vehicle for reconnaissance and special forces units. The object is intended for use as a vehicle for conducting reconnaissance and sabotage operations, patrolling and escorting convoys, conducting peacekeeping and police operations, and conducting operations in emergency situations."
 <<<<<<< HEAD
+<<<<<<< HEAD
  BLR_Rec_tank_2_short: "«Kayman»"
  BLR_infantry_weapons: "AKM"
  BLR_infantry_weapons_2: "AK-74"
  BLR_infantry_weapons_3: "AK-74N"
  BLR_infantry_weapons_4: "AK-74M"
+=======
+ BLR_Rec_tank_2_short: "カイマン"
+>>>>>>> main
 =======
  BLR_Rec_tank_2_short: "カイマン"
 >>>>>>> main
@@ -5898,9 +6291,14 @@
  BLR_util_vehicle_1: "ZIL-131"
  BLR_util_vehicle_2: "ウラル-4320"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BLR_util_vehicle_3: "カマーズ-4310"
  BLR_util_vehicle_4: "MAZ-6317"
  BLR_util_vehicle_5: "GAZ ティーグル"
+=======
+ BLR_util_vehicle_3: "KamAZ-4310"
+ BLR_util_vehicle_4: "MAZ-6317"
+>>>>>>> main
 =======
  BLR_util_vehicle_3: "KamAZ-4310"
  BLR_util_vehicle_4: "MAZ-6317"
@@ -5988,6 +6386,7 @@
  BLR_transport_plane4: "Il-276"
  BLR_transport_plane4_short: "Il-276"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BLR_attack_helicopter1: "Mil Mi-24A Hind"
  BLR_attack_helicopter1_short: "Mi-24A Hind"
  BLR_attack_helicopter2: "Mil Mi-24B Super Hind"
@@ -6010,6 +6409,9 @@
  BLR_transport_helicopter5_short: "Mi-65"
  CZE_Anti_Air_0_variant: "Střela-2M1"
  ITA_infantry_weapons_2_desc: ""
+=======
+ CZE_Anti_Air_0_variant: "ストリェラ-2M1"
+>>>>>>> main
 =======
  CZE_Anti_Air_0_variant: "ストリェラ-2M1"
 >>>>>>> main
@@ -6066,12 +6468,17 @@
  SPR_MBT_8: "レオパルト3A3"
  SPR_MBT_8_short: "レオパルト3A3"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SPR_util_vehicle_2: "ランドローバー 110"
  SPR_util_vehicle_3: "Santana Anibal"
  SWE_infantry_weapons_3: "Ak 5"
  SWE_infantry_weapons_6: "Ak 5 D"
  SWE_infantry_weapons_7: "Ak 24"
  SWE_infantry_weapons_8: "Ak 36"
+=======
+ SPR_util_vehicle_1: "ピンツガウアー 710/712"
+ SPR_util_vehicle_2: "ランドローバー 110"
+>>>>>>> main
 =======
  SPR_util_vehicle_1: "ピンツガウアー 710/712"
  SPR_util_vehicle_2: "ランドローバー 110"
@@ -6095,11 +6502,17 @@
  SWE_artillery_0_short: "ハウビッツ F"
  SWE_artillery_1_short: "FH77"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SWE_util_vehicle_3: "ランドローバー ディフェンダー"
  TUR_IFV_1: "M114"
  TUR_IFV_1_short: "M114"
  TUR_IFV_2: "AIFV"
  TUR_IFV_2_short: "AIFV"
+=======
+ SWE_util_vehicle_2: "テレンビル 11"
+ TUR_IFV_1: "M113E"
+ TUR_IFV_2: "ZMA-15 ドラガー"
+>>>>>>> main
 =======
  SWE_util_vehicle_2: "テレンビル 11"
  TUR_IFV_1: "M113E"
@@ -6146,6 +6559,7 @@
  BLR_Anti_tank_0_desc: "多くの戦争や多くの車両で使用された。"
  BLR_Anti_tank_1: "AT-4 ファゴット"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BLR_Anti_tank_1_desc: "Much lighter than the other ATGM-systems, and older. This ATGM can only hit at 70-2,500 m which compared to others is much lesser range than the others but also cheaper."
  BLR_Anti_tank_2: "Shershen"
  BLR_Anti_tank_2_desc: "Shershen"
@@ -6160,11 +6574,16 @@
  GER_infantry_weapons_7_desc: "HK416は5.56x45mm NATO弾向けのガス式アサルトライフルで、ドイツのヘッケラー&コッホによって設計・製造されている。AR-15をベースにしていて、ヘッケラー&コッホの初期のG36のショートストローク、ガスピストンシステムを採用している。また、HK416にはアクセサリーレールが4面全てに付いていて、複数のアクセサリーを付けることができる。"
  GER_infantry_weapons_8_desc: "HK433は近代的で、モジュール式でコンパクトな、5.56mmx45弾を使用する従来のG36とHK416の長所を持ち合わせている。HK433には、高さ調節可能なチークレストを備えた折りたたみ式の格納式バットストックが新たに装備され、命中精度が向上している。"
 =======
+=======
+>>>>>>> main
  BLR_Anti_tank_1_desc: "他のATGMシステムよりもはるかに軽量で旧式である。このATGMは70～2,500mでしか命中せず、他と比較して射程がはるかに短いが、より安価でもある。"
  BLR_Anti_tank_2: "シェルシェン"
  BLR_Anti_tank_2_desc: "シェルシェン"
  BRA_MBT_4_short: "EE-T2 オゾーリオ"
  BRA_MBT_5_short: "EE-T4 オゾーリオ"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  GER_APC_1_desc: "The M113G was the German export variant of the American built M113. The M113G often had a bank of eight 76mm smoke grenade dischargers at the front of the vehicle, and are armed with Rheinmetall MG3s instead of the more common M2 .50 caliber machine gun."
  GER_APC_2_desc: "The Condor is a 4x4 wheeled armoured personnel carrier originally designed by Thyssen-Henschel of Germany and manufactured by Henschel Wehrtechnik GmbH. The hull of the Condor is made of all-welded armoured steel protecting the crew from 7.62 mm armour-piercing (AP) rounds and 5.56 mm ball-type rounds, shell splinters and anti-personnel mines. The Condor turret is armed with a 20mm main gun and a coaxial 7.62 machine gun."
@@ -6199,6 +6618,7 @@
  GER_artillery_4_desc: "The M777A2 is a further upgraded variant of the M777. The new upgrades include: Block 1A software upgrade, the addition of an Enhanced Portable Inductive Artillery Fuze Setter (EPIAFS) to enable the use of XM892 Excalibur guided munitions."
  GER_artillery_4_short: "M777A2"
 <<<<<<< HEAD
+<<<<<<< HEAD
  GER_util_vehicle_2_short: "Munga"
  GER_util_vehicle_3_desc: "The Volkswagen Type 183, more known commonly known as the Iltis, is a military vehicle build by Volkswagen for the German military"
  GER_util_vehicle_4_desc: "The Mercedes-Benz Wolf SSA is a military model of the G-Class G-270 CDI, better imporved than the previous 250 GD model."
@@ -6206,10 +6626,15 @@
  GER_util_vehicle_6_desc: "the LAPV Enok is a Light Armored Patrol Vehicle of the Bundeswehr"
  GER_util_vehicle_7_short: "ATF Dingo 3"
 =======
+=======
+>>>>>>> main
  GER_util_vehicle_1_short: "ウニモグ"
  GER_util_vehicle_2_desc: "The Volkswagen Type 183, more known commonly known as the Iltis, is a military vehicle build by Volkswagen for the German military"
  GER_util_vehicle_3_desc: "The Mercedes-Benz Wolf SSA is a military model of the G-Class G-270 CDI, better imporved than the previous 250 GD model."
  GER_util_vehicle_4_desc: "The ATF Dingo is a German heavily armored military MRAP infantry mobility vehicle based on a Unimog chassis with a V-hull design, produced by the company Krauss-Maffei Wegmann (KMW). \nATF stands for Allschutz-Transport-Fahrzeug, meaning all-protected transport vehicle in German. It is named after the Australian native dog, the dingo. The Dingo's standard armament is a Rheinmetall MG3 7.62 mm machine gun in a remote-controlled turret on the top of the vehicle"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  GER_transport_plane1_desc: "The Transall C-160 is a military transport aircraft, produced as a joint venture between France and Germany. \"Transall\" is an abbreviation of the manufacturing consortium Transporter Allianz, comprising the companies of MBB, Aerospatiale, and VFW-Fokker. It was initially developed to meet the requirements for a modern transport aircraft for the French and German Air Forces.It has provided logistical support to overseas operations and has served in specialist roles such as an aerial refueling tanker, electronic intelligence gathering, and as a communications platform."
  GER_transport_plane2_desc: "The Lockheed C-130 Hercules is an American four-engine turboprop military transport aircraft designed and built by Lockheed (now Lockheed Martin). Capable of using unprepared runways for takeoffs and landings, the C-130 was originally designed as a troop, medevac, and cargo transport aircraft."
@@ -6218,6 +6643,7 @@
  GER_transport_plane4_desc: "The Airbus A400M Atlas is a European four-engine turboprop military transport aircraft. It was designed by  Airbus Defence and Space as a tactical airlifter with strategic capabilities to replace older transport aircraft, such as the Transall C-160 and the Lockheed C-130 Hercules."
  GER_awacs_plane1_medium: "E-3A 衛兵"
  GER_awacs_plane1_medium_desc: "The Boeing E-3A Sentry is an airborne early warning and control (AEW&C) aircraft developed by Boeing. E-3s are commonly known as AWACS (Airborne Warning and Control System). Derived from the Boeing 707 airliner, it provides long-range all-weather surveillance, command, control, and communications."
+<<<<<<< HEAD
 <<<<<<< HEAD
  ENG_Heavy_Anti_tank_2: "Land Rover Javelin"
  ENG_Heavy_Anti_tank_3: "Boxer Brimstone"
@@ -6228,6 +6654,8 @@
  ENG_artillery_0: "M116 howitzer"
  ENG_util_vehicle_1: "Bedford MK"
 =======
+=======
+>>>>>>> main
  ENG_Heavy_Anti_tank_2: "ランドローバー ジャベリン"
  ENG_Heavy_Anti_tank_3: "ボクサー ブリムストーン"
  ENG_Heavy_Anti_tank_4: "ストーマー II"
@@ -6235,6 +6663,9 @@
  ENG_Anti_tank_3: "NLAW 第2世代"
  ENG_Anti_tank_4: "NLAW 第3世代"
  ENG_artillery_0: "M116 榴弾砲"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  POL_early_helicopter: "SM-1"
  POL_early_helicopter_desc: "Soviet light multi-role helicopter from the 1950s, produced in Poland under the designation SM-1."
@@ -6254,6 +6685,7 @@
  light_tank_equipment_3: "2015年型軽戦車"
  light_tank_equipment_4: "2035年型軽戦車"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BSH_infantry_weapons: "AKM"
  BSH_infantry_weapons_desc: "1959年に開発されたAKMは、ミハイル・カラシニコフによって開発されたAK-47の改良型である。銃床や新しいマズルブレーキによってフルオート射撃時のリコイルが改善された。"
  BSH_infantry_weapons_2: "AK-74"
@@ -6268,6 +6700,8 @@
  BSH_infantry_weapons_6_desc: "AK-12はラトニク未来歩兵計画に基づいて開発された、ロシアの新しいアサルトライフルである。特殊部隊向けに製造され、AK-103の生産を置き換えることになる。AK-12はバランスと人間工学が改善され、現在ロシアで最も優れたアサルトライフルとなっている。"
  BSH_infantry_weapons_7: "AK-12M1"
  BSH_infantry_weapons_8: "AK-31"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BSH_Anti_Air_0: "9K32 ストレラ-2"
@@ -6407,6 +6841,7 @@
  BSH_artillery_4: "D-60"
  BSH_util_vehicle_1: "ZIL-131"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BSH_util_vehicle_1_desc: "A logistics truck and troop carrier used by many militaries around the world."
  BSH_util_vehicle_2: "ウラル-4320"
  BSH_util_vehicle_2_desc: "A logistics truck and troop carrier used by many militaries around the world."
@@ -6430,6 +6865,8 @@
  WAG_infantry_weapons_7: "AK-12M1"
  WAG_infantry_weapons_8: "AK-31"
 =======
+=======
+>>>>>>> main
  BSH_util_vehicle_1_desc: "世界中の多くの軍隊で使用されている兵站トラック及び兵員輸送車である。"
  BSH_util_vehicle_2: "ウラル-4320"
  BSH_util_vehicle_2_desc: "世界中の多くの軍隊で使用されている兵站トラック及び兵員輸送車である。"
@@ -6443,6 +6880,9 @@
  BSH_util_vehicle_6_desc: "The VPK can carry 2+8 men. With STANAG 4569 Level 3 armor. Great for special forces and police forces."
  BSH_util_vehicle_7: "Z-STS アフマト"
  BSH_util_vehicle_7_desc: "Z-STS Akhmat is made on the Trehosnaya all-wheel drive chassis KAMAZ-5350. It has high characteristics of mobility and patency, and in addition, it does not differ in the complexity of operation. It is curious that an armored car, unlike a basic truck, is built according to the hood scheme. This made it possible to shift the crew's places back and increase their safety."
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  WAG_Anti_Air_0: "9K32 ストレラ-2"
  WAG_Anti_Air_0_desc: "冷戦初期に比例航法ロジックを使用して設計され、アメリカの核爆撃機をロックオンして破壊することを目的としている。3700～4200mの目標を攻撃できる最も基本的な対空砲の1つである。"
@@ -6582,7 +7022,11 @@
  WAG_util_vehicle_1: "ZIL-131"
  WAG_util_vehicle_2: "ウラル-4320"
 <<<<<<< HEAD
+<<<<<<< HEAD
  WAG_util_vehicle_3: "カマーズ-4310"
+=======
+ WAG_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
 =======
  WAG_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
@@ -6590,6 +7034,7 @@
  WAG_util_vehicle_5: "GAZ ティーグル"
  WAG_util_vehicle_6: "K-63968 タイフーン-K"
  WAG_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  WAG_util_vehicle_8: "K-5521 サイクロン"
  EQUIPMENT_DESCRIPTION: "$NAME$"
@@ -6639,6 +7084,9 @@
  CAN_util_vehicle_8: "AOPIMU"
 =======
  EQUIPMENT_DESCRIPTION: "$NAME$"
+=======
+ EQUIPMENT_DESCRIPTION: "$NAME$"
+>>>>>>> main
  CAN_APC_2_desc: "1974年、カナダ陸軍はスイスの車両モワク・ピラーニャ6x6を選定した。車両の生産は、カナダのゼネラルモーターズ・オブ・カナダの一部門であるディーゼル部門によってライセンス供与された。"
  CAN_APC_3_desc: "In 1988, Diesel Division, a department of General Motors of Canada, was assigned to build a prototype 8x8 wheeled armored vehicle. It was based on the chassis and engine of the Light Armored Vehicle (LAV). The Canadian army requested an order for a modified infantry section carrier version called Bison."
  CAN_APC_4_desc: "Surplus LAV TUA hulls fitted with Nanuck remotely controlled weapon stations to function as infantry section carriers."
@@ -6677,6 +7125,9 @@
  CAN_util_vehicle_5: "RG-31 ニアラ"
  CAN_util_vehicle_6: "セネター APC"
  CAN_util_vehicle_7: "Senator APC NG"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  CAN_Anti_tank_0: "M72A5-C1"
  CAN_artillery_1: "LG1 Mark II"
@@ -6686,6 +7137,7 @@
  CAN_Air_UAV3: "MQ-17 バンシー"
  CAN_Air_UAV4: "MQ-25 ゴッズアイ"
  CHL_infantry_weapons_short: "SG 510-4"
+<<<<<<< HEAD
 <<<<<<< HEAD
  CHL_infantry_weapons_2: "FAMAE SG 542"
  CHL_infantry_weapons_2_short: "SG 542"
@@ -6701,10 +7153,15 @@
  CAN_CV_L_Strike_fighter2: "Sea Harrier CF-A2"
  CAN_CV_L_Strike_fighter2_short: "Sea Harrier CF-A2"
 =======
+=======
+>>>>>>> main
  CAN_CV_L_Strike_fighter1: "ダグラス CA-4E スカイホーク"
  CAN_CV_L_Strike_fighter1_short: "CA-4E スカイホーク"
  CAN_CV_L_Strike_fighter2: "シーハリアー CF-A2"
  CAN_CV_L_Strike_fighter2_short: "シーハリアー CF-A2"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  CAN_CV_L_Strike_fighter3: "CF-A8B ハリアー II"
  CAN_CV_L_Strike_fighter3_short: "CF-A8B ハリアー II"
@@ -6712,6 +7169,7 @@
  CAN_CV_L_Strike_fighter4_short: "CF-35B ライトニング II"
  CAN_CV_L_Strike_fighter5: "CF-79B オーシャンレイダー"
  CAN_CV_L_Strike_fighter5_short: "CF-79B オーシャンレイダー"
+<<<<<<< HEAD
 <<<<<<< HEAD
  CAN_naval_plane4: "P-8 Poseidon"
  CAN_naval_plane4_short: "P-8 Poseidon"
@@ -6731,6 +7189,10 @@
  CRM_infantry_weapons_6_desc: "AK-12はラトニク未来歩兵計画に基づいて開発された、ロシアの新しいアサルトライフルである。特殊部隊向けに製造され、AK-103の生産を置き換えることになる。AK-12はバランスと人間工学が改善され、現在ロシアで最も優れたアサルトライフルとなっている。"
  CRM_infantry_weapons_7: "AK-12M1"
  CRM_infantry_weapons_8: "AK-31"
+=======
+ CAN_naval_plane4: "P-8 ポセイドン"
+ CAN_naval_plane4_short: "P-8 ポセイドン"
+>>>>>>> main
 =======
  CAN_naval_plane4: "P-8 ポセイドン"
  CAN_naval_plane4_short: "P-8 ポセイドン"
@@ -6872,6 +7334,7 @@
  CRM_artillery_4: "D-60"
  CRM_util_vehicle_1: "ZIL-131"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CRM_util_vehicle_1_desc: "A logistics truck and troop carrier used by many militaries around the world."
  CRM_util_vehicle_2: "ウラル-4320"
  CRM_util_vehicle_2_desc: "A logistics truck and troop carrier used by many militaries around the world."
@@ -6902,6 +7365,8 @@
  TAT_infantry_weapons_7: "AK-12M1"
  TAT_infantry_weapons_8: "AK-31"
 =======
+=======
+>>>>>>> main
  CRM_util_vehicle_1_desc: "世界中の多くの軍隊で使用されている兵站トラック及び兵員輸送車である。"
  CRM_util_vehicle_2: "ウラル-4320"
  CRM_util_vehicle_2_desc: "世界中の多くの軍隊で使用されている兵站トラック及び兵員輸送車である。"
@@ -6915,6 +7380,9 @@
  CRM_util_vehicle_6_desc: "The VPK can carry 2+8 men. With STANAG 4569 Level 3 armor. Great for special forces and police forces."
  CRM_util_vehicle_7: "Z-STS アフマト"
  CRM_util_vehicle_7_desc: "Z-STS Akhmat is made on the Trehosnaya all-wheel drive chassis KAMAZ-5350. It has high characteristics of mobility and patency, and in addition, it does not differ in the complexity of operation. It is curious that an armored car, unlike a basic truck, is built according to the hood scheme. This made it possible to shift the crew's places back and increase their safety."
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  TAT_Anti_Air_0: "9K32 ストレラ-2"
  TAT_Anti_Air_0_desc: "冷戦初期に比例航法ロジックを使用して設計され、アメリカの核爆撃機をロックオンして破壊することを目的としている。3700～4200mの目標を攻撃できる最も基本的な対空砲の1つである。"
@@ -7053,6 +7521,7 @@
  TAT_artillery_4: "D-60"
  TAT_util_vehicle_1: "ZIL-131"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TAT_util_vehicle_1_desc: "A logistics truck and troop carrier used by many militaries around the world."
  TAT_util_vehicle_2: "ウラル-4320"
  TAT_util_vehicle_2_desc: "A logistics truck and troop carrier used by many militaries around the world."
@@ -7072,6 +7541,8 @@
  PMR_infantry_weapons_2: "AK-74"
  PMR_infantry_weapons_3: "AK-74N"
 =======
+=======
+>>>>>>> main
  TAT_util_vehicle_1_desc: "世界中の多くの軍隊で使用されている兵站トラック及び兵員輸送車である。"
  TAT_util_vehicle_2: "ウラル-4320"
  TAT_util_vehicle_2_desc: "世界中の多くの軍隊で使用されている兵站トラック及び兵員輸送車である。"
@@ -7085,6 +7556,9 @@
  TAT_util_vehicle_6_desc: "The VPK can carry 2+8 men. With STANAG 4569 Level 3 armor. Great for special forces and police forces."
  TAT_util_vehicle_7: "Z-STS アフマト"
  TAT_util_vehicle_7_desc: "Z-STS Akhmat is made on the Trehosnaya all-wheel drive chassis KAMAZ-5350. It has high characteristics of mobility and patency, and in addition, it does not differ in the complexity of operation. It is curious that an armored car, unlike a basic truck, is built according to the hood scheme. This made it possible to shift the crew's places back and increase their safety."
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  PMR_Anti_Air_0: "9K32 ストレラ-2"
  PMR_Anti_Air_0_desc: "冷戦初期に比例航法ロジックを使用して設計され、アメリカの核爆撃機をロックオンして破壊することを目的としている。3700～4200mの目標を攻撃できる最も基本的な対空砲の1つである。"
@@ -7171,6 +7645,7 @@
  PMR_artillery_2: "D-40"
  PMR_util_vehicle_1: "ZIL-131"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PMR_util_vehicle_1_desc: "A logistics truck and troop carrier used by many militaries around the world."
  PMR_util_vehicle_2: "Transvee"
  PMR_util_vehicle_2_desc: "Humvee copy based on the GAZ-66 chassis."
@@ -7179,11 +7654,14 @@
  PMR_util_vehicle_4: "KamAZ-4350"
  PMR_util_vehicle_4_desc: "Much like the Volk this can carry 8 mean but also carry HMGs on the top of them. Used to lead convoys."
 =======
+=======
+>>>>>>> main
  PMR_util_vehicle_1_desc: "世界中の多くの軍隊で使用されている兵站トラック及び兵員輸送車である。"
  PMR_util_vehicle_2: "トランスヴィー"
  PMR_util_vehicle_2_desc: "Humvee copy based on the GAZ-66 chassis."
  PMR_util_vehicle_3: "KamAZ-4310"
  PMR_util_vehicle_3_desc: "世界中の多くの軍隊で使用されている兵站トラック及び兵員輸送車である。"
+<<<<<<< HEAD
 >>>>>>> main
  EQUIPMENT_CAS: "近接航空支援"
  GER_Anti_tank_1_short: "MILAN"
@@ -7223,11 +7701,19 @@
  GER_Anti_tank_3_short: "MELLS スパイク LR2"
  GER_util_vehicle_3_short: "ウルフ SSA"
 >>>>>>> main
+=======
+ EQUIPMENT_CAS: "近接航空支援"
+ GER_Anti_tank_1_short: "MILAN"
+ GER_Anti_tank_2_short: "MELLS スパイク LR"
+ GER_Anti_tank_3_short: "MELLS スパイク LR2"
+ GER_util_vehicle_3_short: "ウルフ SSA"
+>>>>>>> main
  nsb_attack_helicopter_tech_1: "第1世代攻撃ヘリコプター"
  nsb_attack_helicopter_tech_2: "第2世代攻撃ヘリコプター"
  nsb_attack_helicopter_tech_3: "第3世代攻撃ヘリコプター"
  nsb_attack_helicopter_tech_4: "第4世代攻撃ヘリコプター"
  nsb_attack_helicopter_tech_5: "第5世代攻撃ヘリコプター"
+<<<<<<< HEAD
 <<<<<<< HEAD
  TAI_infantry_weapons_8: "T126"
  UKR_infantry_weapons: "AKM"
@@ -7277,12 +7763,19 @@
  PER_kamikaze_drone_2: "シャヘド-131"
  PER_kamikaze_drone_3: "シャヘド-136"
 >>>>>>> main
+=======
+ UKR_Anti_tank_0: "SPG-9"
+ UKR_Anti_tank_2: "スキーフ スツグナ-P"
+ PER_kamikaze_drone_2: "シャヘド-131"
+ PER_kamikaze_drone_3: "シャヘド-136"
+>>>>>>> main
  USA_kamikaze_drone_1: "AGM-136"
  USA_kamikaze_drone_2: "スイッチブレード 300"
  USA_kamikaze_drone_3: "スイッチブレード 600"
  ISR_kamikaze_drone_1: "IAI ハーピー"
  ISR_kamikaze_drone_2: "IAI ハロップ"
  ISR_kamikaze_drone_3: "SpyX"
+<<<<<<< HEAD
 <<<<<<< HEAD
  SOV_kamikaze_drone_1: "Pchela-1K"
  SOV_kamikaze_drone_2: "ZALA Lancet"
@@ -8173,6 +8666,8 @@
  HOL_mbt_equipment_1: "Leopard 2A6NL"
  HOL_mbt_equipment_2: "Leopard 2A7"
 =======
+=======
+>>>>>>> main
  SOV_kamikaze_drone_1: "プチェラ-1K"
  SOV_kamikaze_drone_2: "ZALA ランセット"
  SOV_kamikaze_drone_3: "ZALA ランセット Izd.80"
@@ -8187,6 +8682,9 @@
  HOL_mbt_equipment_0: "レオパルト1"
  HOL_mbt_equipment_1: "レオパルト 2A6NL"
  HOL_mbt_equipment_2: "レオパルト 2A7"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  HOL_mbt_equipment_3: "EMBT"
  HOL_mbt_equipment_4: "MGCS スコーピオン"
@@ -8229,6 +8727,7 @@
  BLR_mbt_equipment_2: "T-90M"
  BLR_mbt_equipment_3: "T-14"
  BLR_mbt_equipment_4: "T-24"
+<<<<<<< HEAD
 <<<<<<< HEAD
  SWI_infantry_weapons_8: "SG MCX ハルバード"
  TUR_util_vehicle_2: "M151 ジープ"
@@ -8740,6 +9239,10 @@
 =======
  TUR_util_vehicle_1: "ウニモグ"
  ISR_Anti_tank_1: "MAPATS"
+=======
+ TUR_util_vehicle_1: "ウニモグ"
+ ISR_Anti_tank_1: "MAPATS"
+>>>>>>> main
  ISR_util_vehicle_6: "プラサン サンドキャットストーマー"
  ISR_util_vehicle_7: "サンドマスター"
  CAN_Rec_tank_1_desc: "オリジナルのM113と外観は似ているが、CVは指揮および偵察用に大幅に改造された。兵員室は完全に取り除かれた。M113に搭載されていたのと同じゼネラルモーターズ製6気筒エンジンが後部に配置された。M113のサスペンションは維持されたが、転輪が1つ減らされ、各側面に4つだけが残された。"
@@ -9180,12 +9683,16 @@
  LUR_util_vehicle_5: "マンバ"
  LUR_util_vehicle_6: "ピューマ M26-15"
  LUR_util_vehicle_7: "カトメルシラー ヒズィル"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  AFR_util_vehicle_1: "UAZ-452"
  AFR_util_vehicle_2: "トヨタ ランドクルーザー J70"
  AFR_util_vehicle_3: "CS/VA1"
  AFR_util_vehicle_4: "URO VAMTAC"
  AFR_util_vehicle_5: "マンバ"
+<<<<<<< HEAD
 <<<<<<< HEAD
  AFR_util_vehicle_6: "Puma M26-15"
  AFR_util_vehicle_7: "Katmerciler Hizir"
@@ -9447,6 +9954,8 @@
  VEN_util_vehicle_1: "ZIL-131"
  VEN_util_vehicle_2: "ウラル-4320"
 =======
+=======
+>>>>>>> main
  AFR_util_vehicle_6: "ピューマ M26-15"
  AFR_util_vehicle_7: "カトメルシラー ヒズィル"
  SIE_util_vehicle_1: "UAZ-452"
@@ -9673,11 +10182,15 @@
  TRI_util_vehicle_7: "マンバ Mk7"
  VEN_util_vehicle_1: "ZIL-131"
  VEN_util_vehicle_3: "KamAZ-4310"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  VEN_util_vehicle_4: "KamAZ-4350"
  VEN_util_vehicle_5: "GAZ ティーグル"
  VEN_util_vehicle_6: "K-63968 タイフーン-K"
  VEN_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  VEN_util_vehicle_8: "K-5521 サイクロン"
  OMA_infantry_weapons: "FN FAL"
@@ -9878,10 +10391,16 @@
  YEM_util_vehicle_2: "ウラル-4320"
  YEM_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ YEM_util_vehicle_1: "ZIL-131"
+ YEM_util_vehicle_2: "ウラル-4320"
+ YEM_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  YEM_util_vehicle_4: "KamAZ-4350"
  YEM_util_vehicle_5: "GAZ ティーグル"
  YEM_util_vehicle_6: "K-63968 タイフーン-K"
  YEM_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  YEM_util_vehicle_8: "K-5521 サイクロン"
  SYR_util_vehicle_3: "カマーズ-4310"
@@ -9900,6 +10419,8 @@
  IRQ_util_vehicle_2: "ウラル-4320"
  IRQ_util_vehicle_3: "カマーズ-4310"
 =======
+=======
+>>>>>>> main
  SYR_util_vehicle_2: "ウラル-4320"
  SYR_util_vehicle_3: "KamAZ-4310"
  SYR_util_vehicle_5: "GAZ ティーグル"
@@ -9914,11 +10435,15 @@
  IRQ_util_vehicle_1: "ZIL-131"
  IRQ_util_vehicle_2: "ウラル-4320"
  IRQ_util_vehicle_3: "KamAZ-4310"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  IRQ_util_vehicle_4: "KamAZ-4350"
  IRQ_util_vehicle_5: "GAZ ティーグル"
  IRQ_util_vehicle_6: "K-63968 タイフーン-K"
  IRQ_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  IRQ_util_vehicle_8: "K-5521 サイクロン"
  EGY_util_vehicle_1: "ZIL-131"
@@ -9929,10 +10454,16 @@
  EGY_util_vehicle_2: "ウラル-4320"
  EGY_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ EGY_util_vehicle_1: "ZIL-131"
+ EGY_util_vehicle_2: "ウラル-4320"
+ EGY_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  EGY_util_vehicle_4: "KamAZ-4350"
  EGY_util_vehicle_5: "GAZ ティーグル"
  EGY_util_vehicle_6: "K-63968 タイフーン-K"
  EGY_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  EGY_util_vehicle_8: "K-5521 サイクロン"
  LBA_util_vehicle_1: "ZIL-131"
@@ -9943,18 +10474,27 @@
  LBA_util_vehicle_2: "ウラル-4320"
  LBA_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ LBA_util_vehicle_1: "ZIL-131"
+ LBA_util_vehicle_2: "ウラル-4320"
+ LBA_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  LBA_util_vehicle_4: "KamAZ-4350"
  LBA_util_vehicle_5: "GAZ ティーグル"
  LBA_util_vehicle_6: "K-63968 タイフーン-K"
  LBA_util_vehicle_7: "K-4386 タイフーン-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  LBA_util_vehicle_8: "K-5521 サイクロン"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SAU_util_vehicle_1: "M38 ジープ"
  SAU_util_vehicle_2: "M151 ジープ"
  SAU_util_vehicle_3: "ハンヴィー"
  SAU_util_vehicle_4: "M1113 ハンヴィー ECV"
+<<<<<<< HEAD
 <<<<<<< HEAD
  SAU_util_vehicle_5: "マックスプロ MRAP"
  SAU_util_vehicle_7: "JLTV"
@@ -9972,6 +10512,8 @@
  UAE_util_vehicle_7: "JLTV"
  UAE_util_vehicle_8: "AOPIMU"
 =======
+=======
+>>>>>>> main
  SAU_util_vehicle_6: "M-ATV"
  SAU_util_vehicle_7: "JLTV"
  OMA_util_vehicle_1: "M38 ジープ"
@@ -9984,6 +10526,9 @@
  UAE_util_vehicle_3: "ハンヴィー"
  UAE_util_vehicle_6: "M-ATV"
  UAE_util_vehicle_7: "JLTV"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  QAT_util_vehicle_1: "M38 ジープ"
  QAT_util_vehicle_2: "M151 ジープ"
@@ -9993,7 +10538,10 @@
  QAT_util_vehicle_6: "M-ATV"
  QAT_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  QAT_util_vehicle_8: "AOPIMU"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  BHR_util_vehicle_1: "M38 ジープ"
@@ -10004,7 +10552,10 @@
  BHR_util_vehicle_6: "M-ATV"
  BHR_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  BHR_util_vehicle_8: "AOPIMU"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  KUW_util_vehicle_1: "M38 ジープ"
@@ -10015,6 +10566,7 @@
  KUW_util_vehicle_6: "M-ATV"
  KUW_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  KUW_util_vehicle_8: "AOPIMU"
  JOR_util_vehicle_1: "M38 ジープ"
  JOR_util_vehicle_2: "M151 ジープ"
@@ -10023,11 +10575,16 @@
  JOR_util_vehicle_7: "JLTV"
  JOR_util_vehicle_8: "AOPIMU"
 =======
+=======
+>>>>>>> main
  JOR_util_vehicle_1: "M38 ジープ"
  JOR_util_vehicle_2: "M151 ジープ"
  JOR_util_vehicle_5: "マックスプロ MRAP"
  JOR_util_vehicle_6: "M-ATV"
  JOR_util_vehicle_7: "JLTV"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  AFG_util_vehicle_1: "M38 ジープ"
  AFG_util_vehicle_2: "M151 ジープ"
@@ -10037,7 +10594,10 @@
  AFG_util_vehicle_6: "M-ATV"
  AFG_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  AFG_util_vehicle_8: "AOPIMU"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  KUR_util_vehicle_1: "M38 ジープ"
@@ -10048,7 +10608,10 @@
  KUR_util_vehicle_6: "M-ATV"
  KUR_util_vehicle_7: "JLTV"
 <<<<<<< HEAD
+<<<<<<< HEAD
  KUR_util_vehicle_8: "AOPIMU"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  ROJ_util_vehicle_1: "M38 ジープ"
@@ -10058,6 +10621,7 @@
  ROJ_util_vehicle_5: "マックスプロ MRAP"
  ROJ_util_vehicle_6: "M-ATV"
  ROJ_util_vehicle_7: "JLTV"
+<<<<<<< HEAD
 <<<<<<< HEAD
  ROJ_util_vehicle_8: "AOPIMU"
  TUN_util_vehicle_1: "Pingzauer 710/712"
@@ -10074,6 +10638,8 @@
  ISI_util_vehicle_8: "K-5521 サイクロン"
  TAL_util_vehicle_3: "カマーズ-4310"
 =======
+=======
+>>>>>>> main
  TUN_util_vehicle_1: "ピンツガウアー 710/712"
  TUN_util_vehicle_2: "ランドローバー 110"
  TUN_util_vehicle_3: "イヴェコ VM 90"
@@ -10087,11 +10653,15 @@
  ISI_util_vehicle_7: "K-4386 タイフーン-M"
  TAL_util_vehicle_2: "ウラル-4320"
  TAL_util_vehicle_3: "KamAZ-4310"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  TAL_util_vehicle_4: "KamAZ-4350"
  TAL_util_vehicle_5: "GAZ ティーグル"
  TAL_util_vehicle_6: "K-63968 タイフーン-K"
  TAL_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  TAL_util_vehicle_8: "K-5521 サイクロン"
  AQY_util_vehicle_1: "ZIL-131"
@@ -10102,13 +10672,23 @@
  AQY_util_vehicle_2: "ウラル-4320"
  AQY_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ AQY_util_vehicle_1: "ZIL-131"
+ AQY_util_vehicle_2: "ウラル-4320"
+ AQY_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  AQY_util_vehicle_4: "KamAZ-4350"
  AQY_util_vehicle_5: "GAZ ティーグル"
  AQY_util_vehicle_6: "K-63968 タイフーン-K"
  AQY_util_vehicle_7: "K-4386 タイフーン-M"
 <<<<<<< HEAD
+<<<<<<< HEAD
  AQY_util_vehicle_8: "K-5521 サイクロン"
  NUS_util_vehicle_3: "カマーズ-4310"
+=======
+ NUS_util_vehicle_2: "ウラル-4320"
+ NUS_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
 =======
  NUS_util_vehicle_2: "ウラル-4320"
  NUS_util_vehicle_3: "KamAZ-4310"
@@ -10117,6 +10697,7 @@
  NUS_util_vehicle_5: "GAZ ティーグル"
  NUS_util_vehicle_6: "K-63968 タイフーン-K"
  NUS_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  NUS_util_vehicle_8: "K-5521 サイクロン"
  SHB_util_vehicle_1: "ZIL-131"
@@ -10127,10 +10708,16 @@
  SHB_util_vehicle_2: "ウラル-4320"
  SHB_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ SHB_util_vehicle_1: "ZIL-131"
+ SHB_util_vehicle_2: "ウラル-4320"
+ SHB_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  SHB_util_vehicle_4: "KamAZ-4350"
  SHB_util_vehicle_5: "GAZ ティーグル"
  SHB_util_vehicle_6: "K-63968 タイフーン-K"
  SHB_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  SHB_util_vehicle_8: "K-5521 サイクロン"
  TTP_util_vehicle_1: "ZIL-131"
@@ -10141,10 +10728,16 @@
  TTP_util_vehicle_2: "ウラル-4320"
  TTP_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ TTP_util_vehicle_1: "ZIL-131"
+ TTP_util_vehicle_2: "ウラル-4320"
+ TTP_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  TTP_util_vehicle_4: "KamAZ-4350"
  TTP_util_vehicle_5: "GAZ ティーグル"
  TTP_util_vehicle_6: "K-63968 タイフーン-K"
  TTP_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  TTP_util_vehicle_8: "K-5521 サイクロン"
  TUA_util_vehicle_1: "ZIL-131"
@@ -10155,10 +10748,16 @@
  TUA_util_vehicle_2: "ウラル-4320"
  TUA_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ TUA_util_vehicle_1: "ZIL-131"
+ TUA_util_vehicle_2: "ウラル-4320"
+ TUA_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  TUA_util_vehicle_4: "KamAZ-4350"
  TUA_util_vehicle_5: "GAZ ティーグル"
  TUA_util_vehicle_6: "K-63968 タイフーン-K"
  TUA_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  TUA_util_vehicle_8: "K-5521 サイクロン"
  TIE_util_vehicle_1: "ZIL-131"
@@ -10169,10 +10768,16 @@
  TIE_util_vehicle_2: "ウラル-4320"
  TIE_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ TIE_util_vehicle_1: "ZIL-131"
+ TIE_util_vehicle_2: "ウラル-4320"
+ TIE_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  TIE_util_vehicle_4: "KamAZ-4350"
  TIE_util_vehicle_5: "GAZ ティーグル"
  TIE_util_vehicle_6: "K-63968 タイフーン-K"
  TIE_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  TIE_util_vehicle_8: "K-5521 サイクロン"
  PAK_infantry_weapons: "56式"
@@ -10195,6 +10800,8 @@
  CAN_Anti_tank_2: "Spike-LR"
  CAN_Anti_tank_3: "FGM-246 Firespear"
 =======
+=======
+>>>>>>> main
  PAK_util_vehicle_2: "ヤソブ"
  PAK_util_vehicle_3: "ランドローバー ディフェンダー"
  PAK_util_vehicle_4: "CS/VA1"
@@ -10205,6 +10812,9 @@
  BRA_util_vehicle_7: "VBMT ピラガ"
  CAN_Anti_tank_2: "スパイク-LR"
  CAN_Anti_tank_3: "FGM-246 ファイアスピア"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  CAN_Anti_tank_4: "HEL-414"
  CAN_Heavy_Anti_tank_0: "M113 TOW"
@@ -10221,6 +10831,7 @@
  AST_Heavy_Anti_tank_1: "M113A2 TUA"
  AST_Heavy_Anti_tank_2: "M1134 ATGM"
 <<<<<<< HEAD
+<<<<<<< HEAD
  AST_Heavy_Anti_tank_3: "JLTV Spike NLOS Mk.6"
  AST_Heavy_Anti_tank_4: "ATCV Supernova"
  CZE_util_vehicle_2_short: "Tatra 813"
@@ -10232,6 +10843,8 @@
  FIN_util_vehicle_7: "Sisu Dingo 3"
  FIN_util_vehicle_8: "Sisu Dingo 3A1"
 =======
+=======
+>>>>>>> main
  AST_Heavy_Anti_tank_3: "JLTV スパイク NLOS Mk.6"
  AST_Heavy_Anti_tank_4: "ATCV スーパーノヴァ"
  CZE_util_vehicle_1_short: "プラハ M59"
@@ -10240,6 +10853,9 @@
  FIN_util_vehicle_5: "RG-32M"
  FIN_util_vehicle_6: "シス GTP"
  FIN_util_vehicle_7: "シス ディンゴ 3"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  BEL_Heavy_Anti_tank_0: "AMX 13 SS.11"
  BEL_Heavy_Anti_tank_1: "VAB メフィスト（ホット）"
@@ -10442,6 +11058,7 @@
  ISR_artillery_3: "ATHOS 2040"
  ISR_artillery_4: "ATHOS 2052"
 <<<<<<< HEAD
+<<<<<<< HEAD
  PER_Anti_tank_2: "Almas"
  PER_util_vehicle_7: "Raad"
  PER_util_vehicle_8: "Raad 2"
@@ -10466,6 +11083,13 @@
  PER_util_vehicle_7: "ラード"
  ROM_Anti_tank_0: "AG-7"
  ROM_Anti_tank_0_short: "AG-7"
+=======
+ PER_Anti_tank_2: "アルマス"
+ PER_util_vehicle_6: "トーファン 2"
+ PER_util_vehicle_7: "ラード"
+ ROM_Anti_tank_0: "AG-7"
+ ROM_Anti_tank_0_short: "AG-7"
+>>>>>>> main
  ROM_util_vehicle_1: "ZIL-131"
  BLR_util_vehicle_5: "GAZ ティーグル"
  BLR_util_vehicle_6: "K-63968 タイフーン-K"
@@ -10473,11 +11097,15 @@
  MLV_util_vehicle_1: "ZIL-131"
  MLV_util_vehicle_2: "ウラル-4320"
  MLV_util_vehicle_3: "KamAZ-4310"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  MLV_util_vehicle_4: "KamAZ-4350"
  MLV_util_vehicle_5: "GAZ ティーグル"
  MLV_util_vehicle_6: "K-63968 タイフーン-K"
  MLV_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  MLV_util_vehicle_8: "K-5521 サイクロン"
  PMR_util_vehicle_5: "GAZ ティーグル"
@@ -10488,6 +11116,8 @@
  ABK_util_vehicle_2: "ウラル-4320"
  ABK_util_vehicle_3: "カマーズ-4310"
 =======
+=======
+>>>>>>> main
  PMR_util_vehicle_4: "KamAZ-4350"
  PMR_util_vehicle_5: "GAZ ティーグル"
  PMR_util_vehicle_6: "K-63968 タイフーン-K"
@@ -10495,11 +11125,15 @@
  ABK_util_vehicle_1: "ZIL-131"
  ABK_util_vehicle_2: "ウラル-4320"
  ABK_util_vehicle_3: "KamAZ-4310"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  ABK_util_vehicle_4: "KamAZ-4350"
  ABK_util_vehicle_5: "GAZ ティーグル"
  ABK_util_vehicle_6: "K-63968 タイフーン-K"
  ABK_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  ABK_util_vehicle_8: "K-5521 サイクロン"
  SOO_util_vehicle_1: "ZIL-131"
@@ -10510,10 +11144,16 @@
  SOO_util_vehicle_2: "ウラル-4320"
  SOO_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ SOO_util_vehicle_1: "ZIL-131"
+ SOO_util_vehicle_2: "ウラル-4320"
+ SOO_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  SOO_util_vehicle_4: "KamAZ-4350"
  SOO_util_vehicle_5: "GAZ ティーグル"
  SOO_util_vehicle_6: "K-63968 タイフーン-K"
  SOO_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  SOO_util_vehicle_8: "K-5521 サイクロン"
  TRK_util_vehicle_1: "ZIL-131"
@@ -10524,10 +11164,16 @@
  TRK_util_vehicle_2: "ウラル-4320"
  TRK_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ TRK_util_vehicle_1: "ZIL-131"
+ TRK_util_vehicle_2: "ウラル-4320"
+ TRK_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  TRK_util_vehicle_4: "KamAZ-4350"
  TRK_util_vehicle_5: "GAZ ティーグル"
  TRK_util_vehicle_6: "K-63968 タイフーン-K"
  TRK_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  TRK_util_vehicle_8: "K-5521 サイクロン"
  UZB_util_vehicle_1: "ZIL-131"
@@ -10538,10 +11184,16 @@
  UZB_util_vehicle_2: "ウラル-4320"
  UZB_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ UZB_util_vehicle_1: "ZIL-131"
+ UZB_util_vehicle_2: "ウラル-4320"
+ UZB_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  UZB_util_vehicle_4: "KamAZ-4350"
  UZB_util_vehicle_5: "GAZ ティーグル"
  UZB_util_vehicle_6: "K-63968 タイフーン-K"
  UZB_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  UZB_util_vehicle_8: "K-5521 サイクロン"
  TAJ_util_vehicle_1: "ZIL-131"
@@ -10552,10 +11204,16 @@
  TAJ_util_vehicle_2: "ウラル-4320"
  TAJ_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ TAJ_util_vehicle_1: "ZIL-131"
+ TAJ_util_vehicle_2: "ウラル-4320"
+ TAJ_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  TAJ_util_vehicle_4: "KamAZ-4350"
  TAJ_util_vehicle_5: "GAZ ティーグル"
  TAJ_util_vehicle_6: "K-63968 タイフーン-K"
  TAJ_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  TAJ_util_vehicle_8: "K-5521 サイクロン"
  KYR_util_vehicle_1: "ZIL-131"
@@ -10566,10 +11224,16 @@
  KYR_util_vehicle_2: "ウラル-4320"
  KYR_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ KYR_util_vehicle_1: "ZIL-131"
+ KYR_util_vehicle_2: "ウラル-4320"
+ KYR_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  KYR_util_vehicle_4: "KamAZ-4350"
  KYR_util_vehicle_5: "GAZ ティーグル"
  KYR_util_vehicle_6: "K-63968 タイフーン-K"
  KYR_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  KYR_util_vehicle_8: "K-5521 サイクロン"
  KAZ_util_vehicle_1: "ZIL-131"
@@ -10580,10 +11244,16 @@
  KAZ_util_vehicle_2: "ウラル-4320"
  KAZ_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ KAZ_util_vehicle_1: "ZIL-131"
+ KAZ_util_vehicle_2: "ウラル-4320"
+ KAZ_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  KAZ_util_vehicle_4: "KamAZ-4350"
  KAZ_util_vehicle_5: "GAZ ティーグル"
  KAZ_util_vehicle_6: "K-63968 タイフーン-K"
  KAZ_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  KAZ_util_vehicle_8: "K-5521 サイクロン"
  ALB_util_vehicle_1: "ZIL-131"
@@ -10595,6 +11265,8 @@
  ALB_util_vehicle_7: "Shota MRAP"
  ALB_util_vehicle_8: "K-5521 サイクロン"
 =======
+=======
+>>>>>>> main
  ALB_util_vehicle_1: "ZIL-131"
  ALB_util_vehicle_2: "ウラル-4320"
  ALB_util_vehicle_3: "KamAZ-4310"
@@ -10602,6 +11274,9 @@
  ALB_util_vehicle_5: "GAZ ティーグル"
  ALB_util_vehicle_6: "K-63968 タイフーン-K"
  ALB_util_vehicle_7: "ショタ MRAP"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  FYR_util_vehicle_1: "TAM 110"
  FYR_util_vehicle_2: "TAM 150"
@@ -10610,6 +11285,7 @@
  FYR_util_vehicle_5: "GAZ ティーグル"
  FYR_util_vehicle_6: "K-63968 タイフーン-K"
  FYR_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  FYR_util_vehicle_8: "K-5521 サイクロン"
  DPR_util_vehicle_1: "ZIL-131"
@@ -10620,10 +11296,16 @@
  DPR_util_vehicle_2: "ウラル-4320"
  DPR_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ DPR_util_vehicle_1: "ZIL-131"
+ DPR_util_vehicle_2: "ウラル-4320"
+ DPR_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  DPR_util_vehicle_4: "KamAZ-4350"
  DPR_util_vehicle_5: "GAZ ティーグル"
  DPR_util_vehicle_6: "K-63968 タイフーン-K"
  DPR_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  DPR_util_vehicle_8: "K-5521 サイクロン"
  DRP_util_vehicle_1: "ZIL-131"
@@ -10634,10 +11316,16 @@
  DRP_util_vehicle_2: "ウラル-4320"
  DRP_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ DRP_util_vehicle_1: "ZIL-131"
+ DRP_util_vehicle_2: "ウラル-4320"
+ DRP_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  DRP_util_vehicle_4: "KamAZ-4350"
  DRP_util_vehicle_5: "GAZ ティーグル"
  DRP_util_vehicle_6: "K-63968 タイフーン-K"
  DRP_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  DRP_util_vehicle_8: "K-5521 サイクロン"
  NOV_util_vehicle_1: "ZIL-131"
@@ -10648,10 +11336,16 @@
  NOV_util_vehicle_2: "ウラル-4320"
  NOV_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ NOV_util_vehicle_1: "ZIL-131"
+ NOV_util_vehicle_2: "ウラル-4320"
+ NOV_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  NOV_util_vehicle_4: "KamAZ-4350"
  NOV_util_vehicle_5: "GAZ ティーグル"
  NOV_util_vehicle_6: "K-63968 タイフーン-K"
  NOV_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  NOV_util_vehicle_8: "K-5521 サイクロン"
  LPR_util_vehicle_1: "ZIL-131"
@@ -10662,10 +11356,16 @@
  LPR_util_vehicle_2: "ウラル-4320"
  LPR_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ LPR_util_vehicle_1: "ZIL-131"
+ LPR_util_vehicle_2: "ウラル-4320"
+ LPR_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  LPR_util_vehicle_4: "KamAZ-4350"
  LPR_util_vehicle_5: "GAZ ティーグル"
  LPR_util_vehicle_6: "K-63968 タイフーン-K"
  LPR_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  LPR_util_vehicle_8: "K-5521 サイクロン"
  LRP_util_vehicle_1: "ZIL-131"
@@ -10676,10 +11376,16 @@
  LRP_util_vehicle_2: "ウラル-4320"
  LRP_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ LRP_util_vehicle_1: "ZIL-131"
+ LRP_util_vehicle_2: "ウラル-4320"
+ LRP_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  LRP_util_vehicle_4: "KamAZ-4350"
  LRP_util_vehicle_5: "GAZ ティーグル"
  LRP_util_vehicle_6: "K-63968 タイフーン-K"
  LRP_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  LRP_util_vehicle_8: "K-5521 サイクロン"
  CUB_util_vehicle_1: "ZIL-131"
@@ -10690,10 +11396,16 @@
  CUB_util_vehicle_2: "ウラル-4320"
  CUB_util_vehicle_3: "KamAZ-4310"
 >>>>>>> main
+=======
+ CUB_util_vehicle_1: "ZIL-131"
+ CUB_util_vehicle_2: "ウラル-4320"
+ CUB_util_vehicle_3: "KamAZ-4310"
+>>>>>>> main
  CUB_util_vehicle_4: "KamAZ-4350"
  CUB_util_vehicle_5: "GAZ ティーグル"
  CUB_util_vehicle_6: "K-63968 タイフーン-K"
  CUB_util_vehicle_7: "K-4386 タイフーン-M"
+<<<<<<< HEAD
 <<<<<<< HEAD
  CUB_util_vehicle_8: "K-5521 サイクロン"
  SWE_util_vehicle_6: "Tgb 24"
@@ -10710,6 +11422,13 @@
  TAI_artillery_0: "T-63"
  UKR_util_vehicle_6: "コザック"
 >>>>>>> main
+=======
+ SWE_util_vehicle_5: "Tgb 16"
+ SWE_util_vehicle_6: "Tgb 24"
+ SWE_util_vehicle_7: "ATF ディンゴ 3"
+ TAI_artillery_0: "T-63"
+ UKR_util_vehicle_6: "コザック"
+>>>>>>> main
  UKR_Anti_Air_0: "9K32 ストレラ-2"
  UKR_Anti_Air_1: "9K38 イグラ"
  UKR_Anti_Air_2: "9K38 イグラ-S"
@@ -10717,6 +11436,7 @@
  UKR_Anti_Air_4: "9K48"
  USA_medium_plane_fighter_airframe_3: "F-22A ラプター"
  USA_mpa_equipment_3: "F-22A ラプター ブロック 30"
+<<<<<<< HEAD
 <<<<<<< HEAD
  USA_medium_plane_cas_airframe_3: "FB-22 Strike Raptor"
  USA_medium_plane_fighter_airframe_4: "F-42C Nightingale"
@@ -10727,10 +11447,15 @@
  SAF_transport_helicopter1: "Atlas Oryx"
  SAF_transport_helicopter1_short: "Atlas Oryx"
 =======
+=======
+>>>>>>> main
  USA_medium_plane_cas_airframe_3: "FB-22 ストライクラプター"
  USA_medium_plane_fighter_airframe_4: "F-42C ナイチンゲール"
  USA_mpa_equipment_4: "F-42E ナイチンゲール"
  USA_medium_plane_cas_airframe_4: "F-42D ナイチンゲール"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  SOV_spaa_equipment_1: "トール-M1"
  CHI_spaa_equipment_1: "HQ-7B"
@@ -10750,11 +11475,16 @@
  ALB_Anti_tank_0: "Tip-57"
  ARM_Anti_tank_0: "RPG-7"
 <<<<<<< HEAD
+<<<<<<< HEAD
  AZE_Anti_tank_0: "RPG-7V2 'Qaya'"
  SLO_util_vehicle_1_short: "Praha M59"
  SLO_util_vehicle_2_short: "Tatra 813"
  BUL_infantry_weapons_7: "AR-M12"
  BUL_infantry_weapons_8: "AR-M17"
+=======
+ AZE_Anti_tank_0: "RPG-7V2 カヤ"
+ SLO_util_vehicle_1_short: "プラハ M59"
+>>>>>>> main
 =======
  AZE_Anti_tank_0: "RPG-7V2 カヤ"
  SLO_util_vehicle_1_short: "プラハ M59"
@@ -10765,7 +11495,10 @@
  CAN_artillery_3: "M585"
  CAN_artillery_4: "M667"
 <<<<<<< HEAD
+<<<<<<< HEAD
  CHE_infantry_weapons_3: "BORZ"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  FIN_artillery_0: "122 H 63"
@@ -11332,8 +12065,11 @@
  IRQ_mbt_equipment_4: "T-24"
  IRQ_spaa_equipment_1: "トール-M1"
 <<<<<<< HEAD
+<<<<<<< HEAD
  JAP_util_vehicle_1: "日産パトロール"
  JAP_util_vehicle_1_short: "日産パトロール"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  KOR_artillery_0: "KH178"
@@ -11345,7 +12081,11 @@
  PER_artillery_4: "HM-50"
  PER_Anti_Air_0: "ミサーグ-1"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SLV_util_vehicle_3: "FAP 2026"
+=======
+ SLV_util_vehicle_2: "TAM 150"
+>>>>>>> main
 =======
  SLV_util_vehicle_2: "TAM 150"
 >>>>>>> main
@@ -11360,7 +12100,11 @@
  SYR_Anti_Air_3: "9K335 ヴェルバ-S"
  SYR_Anti_Air_4: "9K48"
 <<<<<<< HEAD
+<<<<<<< HEAD
  UKR_util_vehicle_8: "Novator 2"
+=======
+ UKR_util_vehicle_7: "ノヴァトール"
+>>>>>>> main
 =======
  UKR_util_vehicle_7: "ノヴァトール"
 >>>>>>> main
@@ -11896,7 +12640,10 @@
  SOV_medium_tank_rocket_equipment_2: "9A53 トルネード"
  SOV_medium_tank_rocket_equipment_3: "9A53-M トルネード"
 <<<<<<< HEAD
+<<<<<<< HEAD
  SPR_infantry_weapons_5: "ヘッケラー&コッホ G36A2"
+=======
+>>>>>>> main
 =======
 >>>>>>> main
  SYR_medium_tank_flame_equipment_0: "BMP-1"
@@ -11917,6 +12664,7 @@
  TAI_util_vehicle_1: "M38 ジープ"
  TAI_util_vehicle_2: "M151 ジープ"
 <<<<<<< HEAD
+<<<<<<< HEAD
  TAI_util_vehicle_3: "ハマー"
  TAI_util_vehicle_4: "M1113 ハンヴィー ECV"
  TAI_util_vehicle_6: "M-ATV"
@@ -11924,11 +12672,16 @@
  TAI_util_vehicle_7: "JLTV"
  TAI_util_vehicle_8: "AOPIMU"
 =======
+=======
+>>>>>>> main
  TAI_util_vehicle_3: "ハンヴィー"
  TAI_util_vehicle_5: "マックスプロ MRAP"
  TAI_util_vehicle_4: "M1113 ハンヴィー ECV"
  TAI_util_vehicle_6: "M-ATV"
  TAI_util_vehicle_7: "JLTV"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
  TAI_artillery_1: "M198"
  TAI_artillery_2: "M777"

@@ -1656,6 +1656,7 @@ FRA_cruisers = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Destroyers ###
 ai_equipment = {
  category = naval
@@ -1799,6 +1800,8 @@ ai_equipment = {
  }
 }
 
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 ### Frigates ###

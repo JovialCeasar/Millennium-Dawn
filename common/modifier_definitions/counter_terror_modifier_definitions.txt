@@ -19,6 +19,7 @@ terror_threat_base_defense_modifier = {
 	precision = 2
 	category = country
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 maximum_terror_threat_modifier = {
@@ -47,6 +48,8 @@ terror_threat_base_defense_modifier = {
 	value = number
 	precision = 2
 	category = country
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 }

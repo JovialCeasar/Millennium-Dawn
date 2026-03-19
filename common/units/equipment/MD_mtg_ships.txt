@@ -5460,7 +5460,10 @@ equipments = {
 					module_minelaying_category
 					module_radar_jammer_category
 <<<<<<< HEAD
+<<<<<<< HEAD
 					module_submarine_drone_control_category
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 				}
@@ -5481,7 +5484,10 @@ equipments = {
 					module_minelaying_category
 					module_radar_jammer_category
 <<<<<<< HEAD
+<<<<<<< HEAD
 					module_submarine_drone_control_category
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 				}
@@ -5502,7 +5508,10 @@ equipments = {
 					module_minelaying_category
 					module_radar_jammer_category
 <<<<<<< HEAD
+<<<<<<< HEAD
 					module_submarine_drone_control_category
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 				}
@@ -5522,7 +5531,10 @@ equipments = {
 					module_minelaying_category
 					module_radar_jammer_category
 <<<<<<< HEAD
+<<<<<<< HEAD
 					module_submarine_drone_control_category
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 				}
@@ -5963,7 +5975,10 @@ equipments = {
 					module_vls_sub_category
 					module_radar_jammer_category
 <<<<<<< HEAD
+<<<<<<< HEAD
 					module_submarine_drone_control_category
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 				}
@@ -5979,7 +5994,10 @@ equipments = {
 					module_vls_sub_category
 					module_radar_jammer_category
 <<<<<<< HEAD
+<<<<<<< HEAD
 					module_submarine_drone_control_category
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 				}
@@ -5998,7 +6016,10 @@ equipments = {
 					module_vls_sub_category
 					module_radar_jammer_category
 <<<<<<< HEAD
+<<<<<<< HEAD
 					module_submarine_drone_control_category
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 				}
@@ -6017,7 +6038,10 @@ equipments = {
 					module_vls_sub_category
 					module_radar_jammer_category
 <<<<<<< HEAD
+<<<<<<< HEAD
 					module_submarine_drone_control_category
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 				}
@@ -6036,7 +6060,10 @@ equipments = {
 					module_vls_sub_category
 					module_radar_jammer_category
 <<<<<<< HEAD
+<<<<<<< HEAD
 					module_submarine_drone_control_category
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 				}
@@ -6559,6 +6586,10 @@ equipments = {
 		naval_dominance_factor = 10
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -6627,6 +6658,10 @@ equipments = {
 		naval_dominance_factor = 10
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 =======
 
 >>>>>>> main
@@ -6714,7 +6749,10 @@ equipments = {
 		naval_dominance_factor = 10
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 	patrol_boat_hull_4 = {
 		year = 2045
@@ -6967,5 +7005,8 @@ equipments = {
 
 		naval_dominance_factor = 10
 	}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 }

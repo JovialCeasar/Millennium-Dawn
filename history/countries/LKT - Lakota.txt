@@ -69,6 +69,7 @@ capital = 786
 	set_variable = { overall_productivity = 1300 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	# General Technology Setting
 	complete_special_project = sp:sp_nuclear_energy
@@ -188,6 +189,9 @@ capital = 786
 =======
 	##### Technology
 >>>>>>> main
+=======
+	##### Technology
+>>>>>>> main
 	if = {
 		limit = { has_dlc = "No Step Back" }
 
@@ -271,6 +275,7 @@ capital = 786
 			nsb_light_nose_gun_tech_2 = 1
 			nsb_defense_tech_2 = 1
 			nsb_attack_helicopter_tech_3 = 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 		}
 
@@ -504,6 +509,10 @@ capital = 786
 			nsb_transport_helicopter_1 = 1
 			nsb_transport_helicopter_2 = 1
 >>>>>>> main
+=======
+			nsb_transport_helicopter_1 = 1
+			nsb_transport_helicopter_2 = 1
+>>>>>>> main
 		}
 
 		complete_special_project = sp:sp_armoured_vehicle_project
@@ -555,8 +564,13 @@ capital = 786
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 <<<<<<< HEAD
+<<<<<<< HEAD
 			complete_special_project = sp:sp_awacs_project
 			set_technology = {
+=======
+
+		set_technology = {
+>>>>>>> main
 =======
 
 		set_technology = {

@@ -4,6 +4,12 @@ add_namespace = UNSC
 #1-100 series events - events for voting
 #200 series events - events for swaying nations during
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#300 series events - events for warnings about UN programs or other changes
+#400 series events - events that fire after a UN GA Vote is held over implementing something
+#400 series events are used to let nations either reject or accept a non-binding vote
+>>>>>>> main
 =======
 #300 series events - events for warnings about UN programs or other changes
 #400 series events - events that fire after a UN GA Vote is held over implementing something
@@ -32,6 +38,7 @@ country_event = {
 				meta_effect = {
 					text = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 						if = {
 							limit = {
 								NOT = { has_country_flag = auto_accept_all_sc_votes }
@@ -40,6 +47,9 @@ country_event = {
 						} else = {
 							add_to_array = { global.security_council_vote_yes = THIS }
 						}
+=======
+						country_event = UNSC.[ID]
+>>>>>>> main
 =======
 						country_event = UNSC.[ID]
 >>>>>>> main
@@ -603,7 +613,10 @@ country_event = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 #SC Resolution Passed - Notification to Security Council members
 country_event = {
 	id = UNSC.10
@@ -634,6 +647,9 @@ country_event = {
 	}
 }
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 #event to scope GA votes
 country_event = {
@@ -657,12 +673,18 @@ country_event = {
 				if = {
 					limit = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 						NOT = { has_country_flag = auto_accept_all_ga_votes has_country_flag = auto_reject_all_ga_votes }
 =======
+=======
+>>>>>>> main
 						NOT = {
 							has_country_flag = auto_accept_all_ga_votes
 							has_country_flag = auto_reject_all_ga_votes
 						}
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 					}
 					meta_effect = {
@@ -706,7 +728,10 @@ country_event = {
 	picture = GFX_UN_gen_assembly
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	is_triggered_only = yes
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	timeout_days = 4
@@ -846,7 +871,10 @@ country_event = {
 	picture = GFX_UN_gen_assembly
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	is_triggered_only = yes
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	timeout_days = 4
@@ -942,7 +970,10 @@ country_event = {
 	picture = GFX_UN_gen_assembly
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	is_triggered_only = yes
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	timeout_days = 4
@@ -1038,7 +1069,10 @@ country_event = {
 	picture = GFX_UN_gen_assembly
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	is_triggered_only = yes
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 	timeout_days = 4
@@ -1125,7 +1159,10 @@ country_event = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 #UNGA Non-Binding Resolution Events
 #poverty reduction resolution
 #Modifiers: stability_factor +3%, consumer_goods_factor +4%
@@ -2996,6 +3033,9 @@ country_event = {
 	}
 }
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 #UNSC sway scoping event
 country_event = {
@@ -3005,6 +3045,10 @@ country_event = {
 	title = UNSC.200.t
 	desc = UNSC.200.d
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	picture = GFX_UN_gen_assembly
+>>>>>>> main
 =======
 	picture = GFX_UN_gen_assembly
 >>>>>>> main
@@ -3053,7 +3097,11 @@ country_event = {
 
 		trigger = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			NOT = { has_idea = un_vote_sway_cost_4 }
+=======
+			NOT = { has_idea = un_vote_sway_cost }
+>>>>>>> main
 =======
 			NOT = { has_idea = un_vote_sway_cost }
 >>>>>>> main
@@ -3071,7 +3119,11 @@ country_event = {
 		custom_effect_tooltip = nation_will_receive_tt
 		effect_tooltip = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			add_ideas = un_vote_sway_Cost
+=======
+			add_ideas = un_vote_sway_cost
+>>>>>>> main
 =======
 			add_ideas = un_vote_sway_cost
 >>>>>>> main
@@ -3091,6 +3143,10 @@ country_event = {
 	title = UNSC.201.t
 	desc = UNSC.201.d
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	picture = GFX_UN_gen_assembly
+>>>>>>> main
 =======
 	picture = GFX_UN_gen_assembly
 >>>>>>> main
@@ -3295,6 +3351,10 @@ country_event = {
 	title = UNSC.202.t
 	desc = UNSC.202.d
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	picture = GFX_UN_gen_assembly
+>>>>>>> main
 =======
 	picture = GFX_UN_gen_assembly
 >>>>>>> main
@@ -3419,6 +3479,10 @@ country_event = {
 	title = UNSC.203.t
 	desc = UNSC.203.d
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	picture = GFX_UN_gen_assembly
+>>>>>>> main
 =======
 	picture = GFX_UN_gen_assembly
 >>>>>>> main
@@ -3585,6 +3649,10 @@ country_event = {
 	title = UNSC.204.t
 	desc = UNSC.204.d
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	picture = GFX_UN_gen_assembly
+>>>>>>> main
 =======
 	picture = GFX_UN_gen_assembly
 >>>>>>> main
@@ -3722,6 +3790,10 @@ country_event = {
 	title = UN.200.t
 	desc = UN.200.d
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	picture = GFX_UN_gen_assembly
+>>>>>>> main
 =======
 	picture = GFX_UN_gen_assembly
 >>>>>>> main
@@ -3770,7 +3842,11 @@ country_event = {
 
 		trigger = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			NOT = { has_idea = un_vote_sway_cost_4 }
+=======
+			NOT = { has_idea = un_vote_sway_cost }
+>>>>>>> main
 =======
 			NOT = { has_idea = un_vote_sway_cost }
 >>>>>>> main
@@ -3788,7 +3864,11 @@ country_event = {
 		custom_effect_tooltip = nation_will_receive_tt
 		effect_tooltip = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			add_ideas = un_vote_sway_Cost
+=======
+			add_ideas = un_vote_sway_cost
+>>>>>>> main
 =======
 			add_ideas = un_vote_sway_cost
 >>>>>>> main
@@ -3808,6 +3888,10 @@ country_event = {
 	title = UN.201.t
 	desc = UN.201.d
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	picture = GFX_UN_gen_assembly
+>>>>>>> main
 =======
 	picture = GFX_UN_gen_assembly
 >>>>>>> main
@@ -3872,6 +3956,7 @@ country_event = {
 		name = UN.201.a
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		set_country_flag = has_had_current_un_sc_vote_swayed
 
 		if = {
@@ -3893,6 +3978,11 @@ country_event = {
 		}else = {
 			add_to_array = { global.security_council_vote_abstain = THIS }
 		}
+=======
+		set_country_flag = has_had_current_un_ga_vote_swayed
+
+		un_sway_direction_effect = yes
+>>>>>>> main
 =======
 		set_country_flag = has_had_current_un_ga_vote_swayed
 
@@ -4018,6 +4108,10 @@ country_event = {
 	title = UN.202.t
 	desc = UN.202.d
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	picture = GFX_UN_gen_assembly
+>>>>>>> main
 =======
 	picture = GFX_UN_gen_assembly
 >>>>>>> main
@@ -4074,6 +4168,7 @@ country_event = {
 		name = UN.202.a
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		set_country_flag = has_had_current_un_sc_vote_swayed
 
 		if = {
@@ -4095,6 +4190,11 @@ country_event = {
 		}else = {
 			add_to_array = { global.security_council_vote_abstain = THIS }
 		}
+=======
+		set_country_flag = has_had_current_un_ga_vote_swayed
+
+		un_sway_direction_effect = yes
+>>>>>>> main
 =======
 		set_country_flag = has_had_current_un_ga_vote_swayed
 
@@ -4148,6 +4248,10 @@ country_event = {
 	title = UN.203.t
 	desc = UN.203.d
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	picture = GFX_UN_gen_assembly
+>>>>>>> main
 =======
 	picture = GFX_UN_gen_assembly
 >>>>>>> main
@@ -4220,6 +4324,7 @@ country_event = {
 		name = UN.203.a
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		set_country_flag = has_had_current_un_sc_vote_swayed
 
 		if = {
@@ -4241,6 +4346,11 @@ country_event = {
 		}else = {
 			add_to_array = { global.security_council_vote_abstain = THIS }
 		}
+=======
+		set_country_flag = has_had_current_un_ga_vote_swayed
+
+		un_sway_direction_effect = yes
+>>>>>>> main
 =======
 		set_country_flag = has_had_current_un_ga_vote_swayed
 
@@ -4320,6 +4430,10 @@ country_event = {
 	title = UN.204.t
 	desc = UN.204.d
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	picture = GFX_UN_gen_assembly
+>>>>>>> main
 =======
 	picture = GFX_UN_gen_assembly
 >>>>>>> main
@@ -4376,6 +4490,7 @@ country_event = {
 		name = UN.204.a
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		set_country_flag = has_had_current_un_sc_vote_swayed
 
 		if = {
@@ -4397,6 +4512,11 @@ country_event = {
 		}else = {
 			add_to_array = { global.security_council_vote_abstain = THIS }
 		}
+=======
+		set_country_flag = has_had_current_un_ga_vote_swayed
+
+		un_sway_direction_effect = yes
+>>>>>>> main
 =======
 		set_country_flag = has_had_current_un_ga_vote_swayed
 
@@ -4454,8 +4574,11 @@ country_event = {
 		}
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
+=======
+>>>>>>> main
 }
 
 #Removed from Programs for Requirements
@@ -4494,4 +4617,7 @@ country_event = {
 		name = UN.302.a
 	}
 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
