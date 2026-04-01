@@ -60,6 +60,55 @@ debug_decisions = {
 			base = 0
 		}
 	}
+
+	debug_white_peace_VEN_GUY = {
+		icon = GFX_decision_Decision_tree_smol
+		cost = 0
+		days_remove = 1
+
+		visible = {
+			country_exists = VEN
+			country_exists = GUY
+		}
+		available = {
+			VEN = { has_war_with = GUY }
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision debug_white_peace_GUY_SUR"
+			VEN = { white_peace = GUY }
+			GUY = { white_peace = VEN }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+		debug_white_peace_VEN_BRA = {
+		icon = GFX_decision_Decision_tree_smol
+		cost = 0
+		days_remove = 1
+
+		visible = {
+			country_exists = VEN
+			country_exists = BRA
+		}
+		available = {
+			VEN = { has_war_with = BRA }
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision debug_white_peace_VEN_BRA"
+			VEN = { white_peace = BRA }
+			BRA = { white_peace = VEN }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
 	debug_white_peace_YEM_HOU = {
 		icon = GFX_decision_Decision_tree_smol
 		cost = 0
